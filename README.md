@@ -1,4 +1,10 @@
-# languages
-Language repository for Vecta.io. Currently available in French, Japanese, and Swedish. You can now contribute and improve on Vecta.io translation, or even add on new languages for yourself and also for other native speakers like you.
+# Language repository for Vecta.io. 
 
-The original language file we have created is in English. If you want to add a new language file, just create a new [language_code].json file. Content structuring and translation should only be made based on en.json (english) file.
+## Currently available languages
+1. French
+1. Japanese
+1. Swedish
+
+Noticed something not right! Improve it by opening an issue and contribute on Vecta.io translation, or even request for a new language for yourself and also for other native speakers like you.
+
+[Open an issue.](https://github.com/vecta-io/languages/issues/new)
