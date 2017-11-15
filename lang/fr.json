@@ -116,7 +116,7 @@
         "ver_committing": "Commettre le dessin",
         "ver_commit_success": "S'engager avec succès.",
         "ver_commit_fail": "La validation a échoué. Veuillez réessayer plus tard.",
-        "template_create_fail": "Création d'un modèle vierge a échoué",
+        "template_create_fail": "Le modèle ne doit pas être un dessin vide.",
         "commit_mssg": "Remarque",
         "fetching_preview": "Récupération de l'aperçu du dessin",
         "sending": "Envoi de pommes de terre",
@@ -337,7 +337,7 @@
         "create_drawing": "Créer un nouveau dessin",
         "create_folder": "Créer un nouveau dossier",
         "create_template": "Créer un nouveau modèle",
-        "created_template": "Modèle créé",
+        "created_template": "Modèle créé avec succès.",
         "loading_folders": "Chargement de dossiers",
         "move": "Bouge toi",
         "moving": "En mouvement",
@@ -355,7 +355,8 @@
         ],
         "members": "Membres",
         "in": "dans",
-        "you_have": "Tu as"
+        "you_have": "Tu as",
+        "searching": "Recherche"
     },
     "noti": {
         "same_day": "Remarque: L'annonce commencera le jour même de sa création.",
@@ -633,7 +634,9 @@
         "no_formula": "Pas de formule",
         "sample_3": "Bienvenue dans votre équipe",
         "exported_svg": "Vecta n'accepte pas les svg exportés. <br> Veuillez sélectionner les fichiers téléchargés à partir de l'option Fichier> Télécharger le dessin.",
-        "view_stencil": "Vous n'avez pas accès <br /> pour déplacer ce pochoir"
+        "view_stencil": "Vous n'avez pas accès <br /> pour déplacer ce pochoir",
+        "help_scale": "Accepte: Entiers et décimales. par exemple: 1, 2, 0.5",
+        "view_template": "Vous avez uniquement un accès à ce modèle"
     },
     "drop": {
         "publish": "Publier",
@@ -929,7 +932,8 @@
             "desc": "Microsoft Azure: produits Office"
         },
         "no_exist": "Le pochoir n'existe plus.",
-        "stencil_deleted": "Stencil supprimé"
+        "stencil_deleted": "Stencil supprimé",
+        "check": "Vérification de l'état du stencil"
     },
     "page": {
         "orientation": "Orientation:",
@@ -964,7 +968,9 @@
         "s500": "1: 500",
         "s1000": "1: 1000",
         "s200": "1: 200",
-        "scale": "Échelle"
+        "scale": "Échelle",
+        "s5": "1: 5",
+        "s2": "1: 2"
     },
     "question": {
         "purpose": "Vous utilisez Vecta pour:",

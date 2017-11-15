@@ -122,7 +122,7 @@
         "ver_committing": "Commiting drawing",
         "ver_commit_success": "Commit successful.",
         "ver_commit_fail": "Commit failed. Please try again later.",
-        "template_create_fail": "Creating blank template failed"
+        "template_create_fail": "The template must not be an empty drawing."
     },
     "login": {
         "collab": "Online",
@@ -338,7 +338,7 @@
         "create_drawing": "Creating new drawing",
         "create_folder": "Creating new folder",
         "create_template": "Creating new template",
-        "created_template": "Template created",
+        "created_template": "Template successfully created.",
         "loading_folders": "Loading folders",
         "team_names": [
             "Fun",
@@ -353,6 +353,7 @@
         "move": "Move",
         "moving": "Moving",
         "copying": "Copying",
+        "searching": "Searching",
         "not_found": "No result found",
         "you_have": "You have",
         "in": "in"
@@ -482,6 +483,7 @@
         "custom_roundcorner": "Custom round corner",
         "custom_linestyle": "Custom line style",
         "help_pagesize": "Accepts: in, cm, mm, px. eg: 3 mm, 3 px, 3",
+        "help_scale": "Accepts: Integers and decimals. eg: 1, 2, 0.5",
         "help_roundcorner": "Accepts: in, cm, mm, pt, px. eg: 3 mm, 3 px, 3",
         "help_linestyle": "Format: dashes(px) gaps(px) [repeat]. eg: 5 5.",
         "custom_fontsize": "Custom font size",
@@ -563,6 +565,7 @@
         "decimals": "decimals",
         "remove_CDATA": "Remove CDATA",
         "view_access": "You have view only access<br />to this drawing",
+        "view_template": "You have view only access<br />to this template",
         "view_stencil": "You do not have access<br />to move this stencil",
         "view": "View",
         "transparency": "Transparency",
@@ -933,6 +936,7 @@
         "login_make_symbol": "Please sign in to create a symbol.",
         "stencils": "Stencils",
         "load_stencils": "Loading stencils...",
+        "check": "Checking stencil status",
         "loading": "Getting symbols",
         "importing": "Importing data",
         "imported": "Importing data completed"
@@ -955,6 +959,8 @@
         "custom": "Custom",
         "scale": "Scale",
         "s1": "1 : 1 (Default)",
+        "s2": "1 : 2",
+        "s5": "1 : 5",
         "s10": "1 : 10",
         "s25": "1 : 25",
         "s50": "1 : 50",

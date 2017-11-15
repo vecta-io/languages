@@ -111,7 +111,7 @@
         "ver_commit_fail": "コミットに失敗しました。後でもう一度お試しください。",
         "fetching_preview": "プレビュー図面の取得",
         "not_supported_png": "エクスポートPNG​​は現在、Internet Explorerではサポートされていません。 <br>別のブラウザでもう一度お試しください。",
-        "template_create_fail": "空のテンプレートを作成できませんでした",
+        "template_create_fail": "テンプレートは空の図面であってはなりません。",
         "load_icons": "アイコンを読み込んでいます...",
         "loading": "読み込み中",
         "fetching_channels": "スラックチャンネルを取得する",
@@ -352,10 +352,11 @@
         "invite_email": "招待（メール）",
         "setting_up_team": "チームの作成",
         "setting_up_dash": "ダッシュボードの作成",
-        "created_template": "作成されたテンプレート",
+        "created_template": "テンプレートが正常に作成されました。",
         "members": "メンバー",
         "you_have": "あなたが持っている",
-        "in": "に"
+        "in": "に",
+        "searching": "検索"
     },
     "noti": {
         "team_vecta": "チームベクタ",
@@ -639,7 +640,9 @@
         "replace_all": "すべてを置換",
         "sample_3": "あなたのチームへようこそ",
         "exported_svg": "Vectaは、エクスポートされたSVGを受け入れません。 <br>ファイル>ダウンロード図面オプションからダウンロードしたファイルを選択してください。",
-        "view_stencil": "このステンシルを移動するには、アクセス権がありません。"
+        "view_stencil": "このステンシルを移動するには、アクセス権がありません。",
+        "help_scale": "受け入れる：整数と小数点。例：1,2、0.5",
+        "view_template": "このテンプレートには閲覧のみが可能です。<br />"
     },
     "drop": {
         "paste": "ペースト",
@@ -931,7 +934,8 @@
         "symbol_tags": "タグ（カンマで区切ります）",
         "stencil_name": "ステンシル名",
         "no_exist": "ステンシルはもう存在しません。",
-        "stencil_deleted": "ステンシル削除"
+        "stencil_deleted": "ステンシル削除",
+        "check": "ステンシルステータスの確認"
     },
     "page": {
         "no_refresh": "今はやめろ",
@@ -966,7 +970,9 @@
         "s1000": "1：1000",
         "s500": "1：500",
         "s1": "1：1（デフォルト）",
-        "scale": "規模"
+        "scale": "規模",
+        "s5": "1：5",
+        "s2": "1：2"
     },
     "question": {
         "marketing": "マーケティング/販売",
