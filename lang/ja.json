@@ -3,11 +3,9 @@
         "y": "Y",
         "x": "バツ",
         "ok": "[OK]",
-        "url": "URLリンク：",
         "deg": "度",
         "dpi": "dpi",
-        "more": "もっと",
-        "name": "名",
+        "url": "URLリンク：",
         "txtx": "Text.X",
         "less": "もっと少なく",
         "lock": "UIの変更をロックする",
@@ -17,7 +15,9 @@
         "load": "負荷",
         "keep": "図形を保持する",
         "text": "テキスト",
-        "share": "他の人と共有する",
+        "more": "もっと",
+        "name": "名",
+        "error": "エラー",
         "hsl": [
             "H",
             "L",
@@ -26,26 +26,29 @@
             "R",
             "G"
         ],
+        "share": "他の人と共有する",
         "end_x": "End.X",
         "width": "幅",
         "end_y": "終わり.Y",
         "vecta": "ベクタ",
         "angle": "角度",
-        "error": "エラー",
-        "resend": "再送信する",
-        "export": "輸出する",
-        "cancel": "キャンセル",
-        "locale": "en-US",
-        "search": "サーチ",
-        "saving": "保存する",
-        "create": "作成する",
         "public": "パブリック",
+        "search": "サーチ",
         "no_ids": "アイテムを移動先に移動できません。 <br />許可された項目をクリックしたことを確認してください。",
+        "saving": "保存する",
         "length": "長さ",
         "opaque": "不透明",
         "ctrl_v": "CTRL-Vを押して、システムクリップボードから貼り付けます。",
         "height": "高さ",
         "layers": "レイヤー",
+        "create": "作成する",
+        "resend": "再送信する",
+        "export": "輸出する",
+        "cancel": "キャンセル",
+        "locale": "en-US",
+        "version": "バージョン",
+        "convert": "<br /> <span class = 'Muted.cls'>エラー：0004 </ span>",
+        "move_to": "コピー先のフォルダを選択してください",
         "copy_of": "のコピー",
         "sign_up": "続行するにはサインアップする",
         "default": "デフォルト",
@@ -54,9 +57,6 @@
         "sorting": "並べ替え",
         "begin_x": "Begin.X",
         "begin_y": "始める",
-        "version": "バージョン",
-        "convert": "<br /> <span class = 'Muted.cls'>エラー：0004 </ span>",
-        "move_to": "コピー先のフォルダを選択してください",
         "chat_box": "チャットボックス",
         "new_team": "新しいチーム",
         "versions": "バージョン",
@@ -74,6 +74,7 @@
         "printing": "印刷用",
         "sample_1": "チームダイアグラム",
         "txtangle": "Text.Angle",
+        "try_again": "あとでもう一度試してみてください",
         "team_name": "チームの名前",
         "no_public": "<br /> <span class = 'Muted.cls'>エラー：0007 </ span>図面が存在しないか、アクセスがオーナーによって拒否されました。",
         "no_layers": "あなたは層がありません。",
@@ -83,7 +84,6 @@
         "no_shapes": "図面上に形状が見つかりません。",
         "control_x": "Control.X1",
         "txtheight": "Text.Height",
-        "try_again": "あとでもう一度試してみてください",
         "file_menu": "ファイル",
         "copy_link": "リンクをコピーする",
         "no_access": "<br /> <span class = 'Muted.cls'>エラー：0010 </ span>図面が存在しないか、所有者によってアクセスが拒否されました。",
@@ -101,9 +101,9 @@
         "import_svg": "SVGをインポートしています...",
         "export_svg": "SVGをエクスポートする",
         "resolution": "解決：",
-        "control_x1": "Control.X2",
-        "no_version": "過去のバージョンは見つかりませんでした。",
         "no_metauid": "<br /> <span class = 'Muted.cls'>エラー：0001 </ span> <br /> <span class = 'Muted.cls'> FID：@ @ </ span>",
+        "no_version": "過去のバージョンは見つかりませんでした。",
+        "control_x1": "Control.X2",
         "transparent": "トランスペアレント",
         "export_menu": "輸出する",
         "no_channels": "チャンネルを取得できません。 <br /> <span class = 'Muted.cls'>エラー：0014 </ span>",
@@ -122,6 +122,11 @@
         "template_of": "のテンプレート",
         "recommended": "おすすめ",
         "same_parent": "同じ親フォルダに戻ることはできません",
+        "replace_text": "置換",
+        "moving_trash": "ゴミ箱に移動する",
+        "creating_png": "PNGの作成",
+        "sign_up_desc": "無料のアカウントを作成して、引き続きチームと図面を作成して共有することができます。",
+        "transparency": "透明性",
         "view_stencil": "このステンシルを移動するには、アクセス権がありません。",
         "exported_svg": "Vectaは、エクスポートされたSVGを受け入れません。 <br />代わりにファイル>ダウンロード図面オプションからダウンロードしたファイルを選択してください。",
         "diagram_team": "チームのダイアグラム",
@@ -131,17 +136,6 @@
         "notification": "お知らせ",
         "export_image": "画像の書き出し",
         "remove_CDATA": "CDATAを削除",
-        "replace_text": "置換",
-        "moving_trash": "ゴミ箱に移動する",
-        "creating_png": "PNGの作成",
-        "sign_up_desc": "無料のアカウントを作成して、引き続きチームと図面を作成して共有することができます。",
-        "transparency": "透明性",
-        "reminder_sent": "通知が送信されました",
-        "items_trashed": "ゴミ箱に移動しました",
-        "items_deleted": "削除されました",
-        "view_template": "このテンプレートには閲覧のみが可能です。<br />",
-        "loading_fonts": "フォントの読み込み",
-        "not_published": "図面が公開されていないか、公開が取り消されています。 <br /> <span class = 'Muted.cls'>エラー：0015 </ span>",
         "type_not_file": "<br /> <span class = 'Muted.cls'>エラー：0002 </ span>あなたがリクエストした図面は無効です。",
         "search_result": "@@ found",
         "last_modified": "最終更新日",
@@ -151,6 +145,12 @@
         "share_drawing": "シェア",
         "help_pagesize": "受け入れる：in、cm、mm、px。例：3 mm、3 px、3",
         "creating_team": "チームの作成",
+        "reminder_sent": "通知が送信されました",
+        "items_trashed": "ゴミ箱に移動しました",
+        "items_deleted": "削除されました",
+        "view_template": "このテンプレートには閲覧のみが可能です。<br />",
+        "loading_fonts": "フォントの読み込み",
+        "not_published": "図面が公開されていないか、公開が取り消されています。 <br /> <span class = 'Muted.cls'>エラー：0015 </ span>",
         "confirm_commit": "選択したバージョンを読み込むと、現在の図面が上書きされます。 <br />現在の図面をコミットしますか？",
         "items_restored": "正常に復元されました",
         "pasting_shapes": "図形を貼り付ける",
@@ -171,24 +171,186 @@
         "restoring_files": "復元",
         "commit_and_load": "コミットしてロードする",
         "current_version": "現行版",
-        "invitations_sent": "招待状が送信されました",
-        "help_pauserecord": "一時停止した録画の名前を入力してください",
-        "untitled_drawing": "無題の図面",
-        "checking_members": "会員の確認",
-        "process_fragment": "処理フラグメント",
-        "custom_linestyle": "カスタムラインスタイル",
-        "help_roundcorner": "受け入れる：in、cm、mm、pt、px。例：3 mm、3 px、3",
-        "empty_activepage": "図面を読むことができません。空のアクティブなページです。<br /> <span class = 'Muted.cls'>エラー：0006 </ span>",
         "shape_properties": "形状プロパティ",
-        "all_changes_saved": "すべての変更を保存しました",
-        "custom_lineweight": "カスタムラインの重み",
-        "process_intersect": "処理交差",
+        "empty_activepage": "図面を読むことができません。空のアクティブなページです。<br /> <span class = 'Muted.cls'>エラー：0006 </ span>",
+        "help_roundcorner": "受け入れる：in、cm、mm、pt、px。例：3 mm、3 px、3",
+        "custom_linestyle": "カスタムラインスタイル",
+        "process_fragment": "処理フラグメント",
+        "checking_members": "会員の確認",
+        "untitled_drawing": "無題の図面",
+        "help_pauserecord": "一時停止した録画の名前を入力してください",
+        "invitations_sent": "招待状が送信されました",
         "default_recording": "default_recording",
+        "process_intersect": "処理交差",
+        "custom_lineweight": "カスタムラインの重み",
+        "all_changes_saved": "すべての変更を保存しました",
         "invitation_removed": "保留中の招待状が削除されました。",
         "custom_roundcorner": "カスタムラウンドコーナー",
         "incomplete_removal": "必要な権限がないため、一部の図面やフォルダが削除されません。",
         "no_shapes_selected": "この操作のためにいくつかの図形を選択してください...",
         "png_generation_failed": "リクエストした画像を生成できませんでした。 <br /> <span class = 'Muted.cls'>エラー：0012 </ span>"
+    },
+    "page": {
+        "a1": "A1：841mm×594mm",
+        "a4": "A4：297mm×210mm",
+        "a5": "A5：210mm×148mm",
+        "a2": "A2：594mm×420mm",
+        "s1": "1：1（デフォルト）",
+        "a0": "A0：1189mm×841mm",
+        "a3": "A3：420mm×297mm",
+        "s50": "1：50",
+        "s25": "1：25",
+        "s10": "1：10",
+        "s200": "1：200",
+        "size": "サイズ：",
+        "save": "セーブ",
+        "s100": "1：100",
+        "s500": "1：500",
+        "s1000": "1：1000",
+        "legal": "法的：14インチx 8.5インチ",
+        "folio": "フォリオ：13インチx 8.5インチ",
+        "width": "幅",
+        "scale": "規模",
+        "ledger": "元帳：17インチx 11インチ",
+        "custom": "カスタム",
+        "letter": "レター：11インチx 8.5インチ",
+        "height": "高さ",
+        "refresh": "リフレッシュ",
+        "portrait": "ポートレート",
+        "cust_size": "カスタムサイズ：（幅×高さ）",
+        "landscape": "風景",
+        "no_refresh": "今はやめろ",
+        "orientation": "オリエンテーション：",
+        "page_changed": "ページサイズが変更されました。あなたの絵をリフレッシュしてください。",
+        "lang_changed": "選択した言語が変更されました。変更を有効にするには、ページを更新してください。",
+        "duplicate_idea": "編集可能なコピーをアカウントに保存します。"
+    },
+    "list": {
+        "ja": "日本語",
+        "sv": "スウェーデンの",
+        "en": "英語",
+        "fr": "フランス語"
+    },
+    "drop": {
+        "px": "px",
+        "in": "に",
+        "mm": "mm",
+        "0px": "0px",
+        "new": "新しい",
+        "xor": "差",
+        "cut": "カット",
+        "5px": "5ピクセル",
+        "15px": "15ピクセル",
+        "10px": "10ピクセル",
+        "lock": "ロック形状",
+        "trim": "トリム",
+        "join": "参加する",
+        "edit": "編集",
+        "back": "返信する",
+        "open": "開いた",
+        "move": "へ引っ越す",
+        "copy": "コピー先",
+        "lato": "ラト",
+        "front": "前に持ってくる",
+        "union": "連合",
+        "leave": "離れる",
+        "print": "印刷",
+        "align": "整列",
+        "group": "グループ",
+        "slack": "スラックに共有",
+        "paste": "ペースト",
+        "share": "シェア",
+        "arial": "Arial",
+        "unlock": "形状のロックを解除する",
+        "reddit": "Redditに共有する",
+        "delete": "削除",
+        "manage": "アクセスを管理する",
+        "roboto": "ロボト",
+        "rename": "名前を変更する",
+        "tahoma": "タホマ",
+        "twitter": "Twitterに共有する",
+        "new_doc": "新しい図面",
+        "members": "メンバーの管理",
+        "no_line": "行なし",
+        "forward": "前に持っていく",
+        "cousine": "カウシン",
+        "ungroup": "グループを解除する",
+        "arrange": "アレンジ",
+        "restore": "リストア",
+        "verdana": "ヴェルダナ",
+        "backward": "後ろに送る",
+        "fragment": "断片",
+        "facebook": "Facebookに共有",
+        "align_top": "上揃え",
+        "hide_grid": "グリッドを非表示",
+        "show_grid": "グリッド表示",
+        "intersect": "交差点",
+        "ver_commit": "図面をコミットする",
+        "flip_horiz": "フリップ水平",
+        "operations": "オペレーション",
+        "export_pdf": "PDF形式でエクスポート",
+        "del_symbol": "記号を削除する",
+        "new_folder": "新しいフォルダ",
+        "file_moved": "図面は正常に移動されました。",
+        "delete_all": "すべて削除",
+        "flip_verti": "縦書きを反転",
+        "page_setup": "ページ設定",
+        "export_png": "PNG形式でエクスポート",
+        "lock_layer": "ロックレイヤー",
+        "align_left": "左揃え",
+        "export_svg": "SVGとしてエクスポート",
+        "sans_serif": "サンセリフ",
+        "export_jpg": "JPGとしてエクスポート",
+        "ver_history": "バージョン履歴",
+        "new_stencil": "新しいステンシル",
+        "restore_all": "すべての復元",
+        "show_layers": "レイヤーを表示する",
+        "preferences": "設定",
+        "hide_guides": "ガイドを隠す",
+        "hide_rulers": "定規を隠す",
+        "align_right": "右揃え",
+        "edit_symbol": "シンボルの編集",
+        "show_guides": "ガイドを表示する",
+        "show_rulers": "定規を表示する",
+        "del_stencil": "ステンシルを削除",
+        "hide_layers": "レイヤーを隠す",
+        "share_vecta": "メールで共有する",
+        "assign_layer": "レイヤーに割り当てる",
+        "align_middle": "真ん中に揃える",
+        "clear_guides": "ガイドをクリアする",
+        "select_layer": "すべての図形を選択",
+        "edit_stencil": "ステンシルの編集",
+        "delete_layer": "レイヤーを削除する",
+        "unlock_layer": "層のロック解除",
+        "rename_layer": "層の名前を変更する",
+        "align_center": "中心合わせ",
+        "open_drawing": "図面を開く",
+        "align_bottom": "下揃え",
+        "folder_moved": "フォルダは正常に移動されました。",
+        "hide_chat_box": "チャットボックスを非表示にする",
+        "move_to_trash": "ゴミ箱に移動",
+        "show_sym_name": "アイコン名を表示する",
+        "anonymous_pro": "匿名プロ",
+        "show_chat_box": "チャットボックスを表示する",
+        "close_stencil": "ステンシルを閉じる",
+        "clone_drawing": "複製図面",
+        "share_stencil": "ステンシルを共有する",
+        "hide_sym_name": "アイコン名を隠す",
+        "creation_date": "作成日",
+        "hide_published": "公開時に非表示",
+        "export_stencil": "ステンシルのエクスポート",
+        "update_preview": "プレビューの更新",
+        "show_published": "公開時に表示",
+        "import_stencil": "ステンシルをインポートする",
+        "printable_layer": "印刷可能なレイヤー",
+        "show_properties": "プロパティを表示する",
+        "hide_properties": "プロパティを非表示",
+        "publish_drawing": "図面を公開する",
+        "template_drawing": "テンプレートを作る",
+        "roboto_condensed": "Roboto Condensed",
+        "download_drawing": "図をダウンロード",
+        "nonprintable_layer": "印刷不可能なレイヤー",
+        "last_modified_by_me": "私によって最後に修正されました"
     },
     "dash": {
         "in": "に",
@@ -196,21 +358,21 @@
         "file": "お絵かき",
         "dash": "ダッシュボード",
         "move": "移動",
-        "teams": "チーム",
         "trash": "ごみ",
+        "teams": "チーム",
         "folder": "フォルダ",
         "moving": "動く",
         "invite": "招待",
         "welcome": "ようこそ",
-        "folders": "フォルダ",
-        "copying": "コピー",
         "members": "メンバー",
+        "copying": "コピー",
+        "folders": "フォルダ",
         "stencils": "ステンシル",
         "you_have": "あなたが持っている",
         "drawings": "図面",
-        "templates": "テンプレート",
-        "not_found": "結果が見つかりません",
         "searching": "検索",
+        "not_found": "結果が見つかりません",
+        "templates": "テンプレート",
         "check_trash": "ごみの確認",
         "create_dash": "図面とフォルダを読む",
         "create_team": "チームを作成する",
@@ -230,219 +392,109 @@
         "move_to_dash": "ダッシュボードに移動",
         "invite_email": "招待（メール）",
         "team_created": "あなたの新しいチームへようこそ！",
-        "invite_people": "人を招待する",
         "create_folder": "新しいフォルダを作成する",
+        "invite_people": "人を招待する",
         "create_drawing": "新しい図面を作成する",
         "name_your_team": "チーム/プロジェクト名",
-        "loading_folders": "フォルダを読み込む",
-        "create_template": "新しいテンプレートを作成する",
-        "setting_up_dash": "ダッシュボードの作成",
         "setting_up_team": "チームの作成",
+        "setting_up_dash": "ダッシュボードの作成",
+        "create_template": "新しいテンプレートを作成する",
+        "loading_folders": "フォルダを読み込む",
         "created_template": "テンプレートが正常に作成されました。"
-    },
-    "page": {
-        "a3": "A3：420mm×297mm",
-        "a0": "A0：1189mm×841mm",
-        "s1": "1：1（デフォルト）",
-        "a2": "A2：594mm×420mm",
-        "a1": "A1：841mm×594mm",
-        "a5": "A5：210mm×148mm",
-        "a4": "A4：297mm×210mm",
-        "s10": "1：10",
-        "s25": "1：25",
-        "s50": "1：50",
-        "s500": "1：500",
-        "s100": "1：100",
-        "save": "セーブ",
-        "size": "サイズ：",
-        "s200": "1：200",
-        "scale": "規模",
-        "width": "幅",
-        "folio": "フォリオ：13インチx 8.5インチ",
-        "legal": "法的：14インチx 8.5インチ",
-        "s1000": "1：1000",
-        "height": "高さ",
-        "letter": "レター：11インチx 8.5インチ",
-        "custom": "カスタム",
-        "ledger": "元帳：17インチx 11インチ",
-        "refresh": "リフレッシュ",
-        "portrait": "ポートレート",
-        "landscape": "風景",
-        "cust_size": "カスタムサイズ：（幅×高さ）",
-        "no_refresh": "今はやめろ",
-        "orientation": "オリエンテーション：",
-        "page_changed": "ページサイズが変更されました。あなたの絵をリフレッシュしてください。",
-        "lang_changed": "選択した言語が変更されました。変更を有効にするには、ページを更新してください。",
-        "duplicate_idea": "編集可能なコピーをアカウントに保存します。"
-    },
-    "drop": {
-        "mm": "mm",
-        "in": "に",
-        "px": "px",
-        "5px": "5ピクセル",
-        "0px": "0px",
-        "cut": "カット",
-        "xor": "差",
-        "new": "新しい",
-        "copy": "コピー先",
-        "15px": "15ピクセル",
-        "move": "へ引っ越す",
-        "open": "開いた",
-        "back": "返信する",
-        "edit": "編集",
-        "join": "参加する",
-        "trim": "トリム",
-        "lock": "ロック形状",
-        "10px": "10ピクセル",
-        "lato": "ラト",
-        "arial": "Arial",
-        "share": "シェア",
-        "paste": "ペースト",
-        "slack": "スラックに共有",
-        "group": "グループ",
-        "align": "整列",
-        "print": "印刷",
-        "leave": "離れる",
-        "union": "連合",
-        "front": "前に持ってくる",
-        "tahoma": "タホマ",
-        "rename": "名前を変更する",
-        "roboto": "ロボト",
-        "manage": "アクセスを管理する",
-        "delete": "削除",
-        "reddit": "Redditに共有する",
-        "unlock": "形状のロックを解除する",
-        "twitter": "Twitterに共有する",
-        "new_doc": "新しい図面",
-        "members": "メンバーの管理",
-        "no_line": "行なし",
-        "forward": "前に持っていく",
-        "cousine": "カウシン",
-        "ungroup": "グループを解除する",
-        "arrange": "アレンジ",
-        "restore": "リストア",
-        "verdana": "ヴェルダナ",
-        "backward": "後ろに送る",
-        "fragment": "断片",
-        "facebook": "Facebookに共有",
-        "align_top": "上揃え",
-        "show_grid": "グリッド表示",
-        "intersect": "交差点",
-        "hide_grid": "グリッドを非表示",
-        "delete_all": "すべて削除",
-        "flip_verti": "縦書きを反転",
-        "page_setup": "ページ設定",
-        "export_png": "PNG形式でエクスポート",
-        "lock_layer": "ロックレイヤー",
-        "align_left": "左揃え",
-        "export_svg": "SVGとしてエクスポート",
-        "sans_serif": "サンセリフ",
-        "export_jpg": "JPGとしてエクスポート",
-        "ver_commit": "図面をコミットする",
-        "flip_horiz": "フリップ水平",
-        "operations": "オペレーション",
-        "export_pdf": "PDF形式でエクスポート",
-        "del_symbol": "記号を削除する",
-        "new_folder": "新しいフォルダ",
-        "file_moved": "図面は正常に移動されました。",
-        "ver_history": "バージョン履歴",
-        "new_stencil": "新しいステンシル",
-        "restore_all": "すべての復元",
-        "show_layers": "レイヤーを表示する",
-        "preferences": "設定",
-        "hide_guides": "ガイドを隠す",
-        "hide_rulers": "定規を隠す",
-        "align_right": "右揃え",
-        "edit_symbol": "シンボルの編集",
-        "show_guides": "ガイドを表示する",
-        "show_rulers": "定規を表示する",
-        "del_stencil": "ステンシルを削除",
-        "hide_layers": "レイヤーを隠す",
-        "share_vecta": "メールで共有する",
-        "align_middle": "真ん中に揃える",
-        "assign_layer": "レイヤーに割り当てる",
-        "clear_guides": "ガイドをクリアする",
-        "select_layer": "すべての図形を選択",
-        "edit_stencil": "ステンシルの編集",
-        "delete_layer": "レイヤーを削除する",
-        "unlock_layer": "層のロック解除",
-        "rename_layer": "層の名前を変更する",
-        "align_center": "中心合わせ",
-        "open_drawing": "図面を開く",
-        "align_bottom": "下揃え",
-        "folder_moved": "フォルダは正常に移動されました。",
-        "hide_sym_name": "アイコン名を隠す",
-        "clone_drawing": "複製図面",
-        "close_stencil": "ステンシルを閉じる",
-        "show_chat_box": "チャットボックスを表示する",
-        "anonymous_pro": "匿名プロ",
-        "show_sym_name": "アイコン名を表示する",
-        "move_to_trash": "ゴミ箱に移動",
-        "creation_date": "作成日",
-        "hide_chat_box": "チャットボックスを非表示にする",
-        "share_stencil": "ステンシルを共有する",
-        "import_stencil": "ステンシルをインポートする",
-        "show_published": "公開時に表示",
-        "update_preview": "プレビューの更新",
-        "hide_published": "公開時に非表示",
-        "export_stencil": "ステンシルのエクスポート",
-        "publish_drawing": "図面を公開する",
-        "hide_properties": "プロパティを非表示",
-        "show_properties": "プロパティを表示する",
-        "printable_layer": "印刷可能なレイヤー",
-        "template_drawing": "テンプレートを作る",
-        "roboto_condensed": "Roboto Condensed",
-        "download_drawing": "図をダウンロード",
-        "nonprintable_layer": "印刷不可能なレイヤー",
-        "last_modified_by_me": "私によって最後に修正されました"
-    },
-    "list": {
-        "fr": "フランス語",
-        "en": "英語",
-        "sv": "スウェーデンの",
-        "ja": "日本語"
     },
     "login": {
         "or": "または",
-        "name": "名",
         "auth": "認証する",
+        "name": "名",
         "email": "Eメール",
-        "google": "Googleでログイン",
-        "signup": "電子メールで登録する",
-        "verify": "メールの確認",
-        "collab": "オンライン",
-        "github": "Githubでログインする",
         "signin": "電子メールでサインインする",
+        "github": "Githubでログインする",
+        "collab": "オンライン",
+        "verify": "メールの確認",
+        "signup": "電子メールで登録する",
+        "google": "Googleでログイン",
         "signout": "サインアウト",
         "password": "パスワード",
         "facebook": "Facebookでログイン",
         "short_pwd": "パスワードは8文字以上でなければなりません",
         "go_signup": "アカウントを持っていない？今すぐ申し込む",
         "go_signin": "すでにアカウントをお持ちですか？今すぐログイン",
-        "retype_pass": "パスワードを認証する",
-        "signing_out": "ログアウトする",
-        "not_matched": "パスワードが一致しません。もう一度お試しください",
-        "reset_title": "Vectaリセットパスワード",
         "email_taken": "このメールアドレスのアカウントは既にあります",
-        "signup_title": "ヴェクタはサインアップする",
-        "require_name": "名前は必須です",
-        "signin_title": "ヴェクタログイン",
-        "enable_popup": "ブラウザでポップアップを有効にしてください。",
+        "reset_title": "Vectaリセットパスワード",
+        "not_matched": "パスワードが一致しません。もう一度お試しください",
+        "signing_out": "ログアウトする",
+        "retype_pass": "パスワードを認証する",
         "invalid_pass": "無効なパスワード",
+        "enable_popup": "ブラウザでポップアップを有効にしてください。",
+        "signin_title": "ヴェクタログイン",
+        "require_name": "名前は必須です",
+        "signup_title": "ヴェクタはサインアップする",
         "signup_google": "Googleで登録する",
         "user_disabled": "あなたのアカウントは無効になっています。間違いだと思われる場合はsupport@vecta.ioまでご連絡ください。",
         "signin_failed": "ログインに失敗しました",
         "signup_github": "Githubで登録する",
         "invalid_email": "無効なメール",
         "firebase_error": "これが表示されている場合は、上記のエラーのスクリーンショットをsupport@vecta.ioにご連絡ください。",
-        "network_failed": "あなたはインターネットに接続していますか？接続を確認して、もう一度お試しください。",
         "reset_password": "パスワードをお忘れですか？",
+        "network_failed": "あなたはインターネットに接続していますか？接続を確認して、もう一度お試しください。",
         "signup_facebook": "Facebookでサインアップ",
         "storage_disabled": "お使いのブラウザはウェブストレージをサポートしていないか、無効になっています。 <br />ブラウザでウェブストレージを有効にするか、別のブラウザでもう一度お試しください。",
         "wrong_credentials": "以前はあなたのメールアドレスとパスワードを使用してログインしています。 <br />代わりに電子メールとパスワードでログインしてください。",
         "remember_password": "ログイン",
         "invalid_email_pwd": "無効なメールアドレスまたはパスワード",
         "resetting_password": "Vectaパスワードをリセットしています..."
+    },
+    "noti": {
+        "deny": "否定する",
+        "days": "例えば。 16（日）。",
+        "team": "チーム。",
+        "left": "%% left Team @@。",
+        "link": "リンク",
+        "allow": "許可する",
+        "until": "期間",
+        "joined": "%%はチーム@@に参加しました。",
+        "shared": "@@はあなたに共有されます。この図面をダッシュ​​ボードに追加する場合にクリックします。",
+        "kicked": "あなたのアクセスは@@から削除されました",
+        "blocked": "お使いのブラウザでプッシュ通知を無効にしたようです。 <br />あなたの決定を覚えて、プッシュ通知を有効にした後にプッシュ通知を送信します。",
+        "created": "@@ 作成した",
+        "removed": "@@ removed",
+        "day_ago": "1日前",
+        "no_noti": "それは少し静かですね。通知は少しでも鳴っている。",
+        "message": "メッセージ",
+        "invited": "あなたは@@に参加するように招待されています。クリックして招待を受け入れます。",
+        "renamed": "@@は@@にリネームされました",
+        "trashed": "@@ trashed",
+        "deleted": "@@ deleted",
+        "hour_ago": "1時間前",
+        "sent_ann": "お知らせが正常に送信されました。",
+        "send_ann": "アナウンスを送信",
+        "same_day": "注：アナウンスは作成されたのと同じ日に開始されます。",
+        "list_end": "もう通知はありません",
+        "moved_in": "@@ added",
+        "see_more": "続きを見る",
+        "restored": "@@ restored",
+        "hours_ago": "時間前",
+        "moved_out": "@@ removed",
+        "notify_me": "私に通知する！",
+        "team_name": "チーム@@。",
+        "published": "@@ 公開されました。",
+        "team_vecta": "チームベクタ",
+        "create_ann": "アナウンスを作成する",
+        "minute_ago": "分前",
+        "moment_ago": "瞬間",
+        "requesting": "@@ @@にアクセスする要求。クリックしてこの要求を承認します。",
+        "second_ago": "前から",
+        "minutes_ago": "数分前",
+        "seconds_ago": "秒前",
+        "style_message": "HTMLはしないでください。",
+        "your_dashboard": "あなたのダッシュボードに。",
+        "access_changed": "あなたのアクセスは@@から@@に変更されました",
+        "drawing_updated": "@@は更新中です",
+        "new_announcement": "発表",
+        "request_accepted": "@@へのアクセス要求が許可されました。この図面をダッシュ​​ボードに追加する場合にクリックします。",
+        "permission_given": "プッシュ通知が有効になりました。 <br />ヴェクタにようこそ！",
+        "denied_permission": "さて、私たちはあなたの決定を思い出し、あなたにプッシュ通知を送信しません。",
+        "request_permission": "こんにちは@@、<br /> <br />チームメイトがあなたのチームやドローイングを変更したときにVectaから通知を受けます。<br /> <br />プッシュ通知を有効にしますか？"
     },
     "slack": {
         "add": "スラックに加える",
@@ -452,70 +504,18 @@
         "add_more": "さらに追加",
         "settings": "設定",
         "contacting": "スラックに連絡する",
-        "added_teams": "スラックチームを追加",
         "link_shared": "描画リンクが送信されました。",
-        "channel_noti": "通知を送信するチャネルを選択する",
-        "user_welcome": "Vecta for Slackをインストールしていただきありがとうございます。チームメンバーをVectaに招待し、このチームの任意のチャンネルに描画リンクを共有することができます。",
-        "channel_link": "リンクを共有するチャンネルを選択する",
+        "added_teams": "スラックチームを追加",
         "code_invalid": "コードは無効です。スラックの統合をやり直してください。",
+        "channel_link": "リンクを共有するチャンネルを選択する",
+        "user_welcome": "Vecta for Slackをインストールしていただきありがとうございます。チームメンバーをVectaに招待し、このチームの任意のチャンネルに描画リンクを共有することができます。",
+        "channel_noti": "通知を送信するチャネルを選択する",
         "group_message": "グループメッセージング",
-        "shared_drawing": "チームと@@を共有しました。",
-        "sending_failed": "スラックと通信できません。 VectaとSlackを統合して再試行してください。",
         "team_integrate": "スラックチームメンバーを招待する",
+        "sending_failed": "スラックと通信できません。 VectaとSlackを統合して再試行してください。",
+        "shared_drawing": "チームと@@を共有しました。",
         "mismatched_code": "Vectaはスラックチームに追加できませんでした。 <br/> Vectaの有効なSlackボタンをクリックしてください。 <br /> <span class = 'Muted.cls'>エラー：0013 </ span>",
         "success_integrate": "スラックチームメンバーをVectaに招待し、@@へのリンクを共有することができます。 <br />このページは自動的に10秒後にリダイレクトされます。"
-    },
-    "noti": {
-        "link": "リンク",
-        "left": "%% left Team @@。",
-        "team": "チーム。",
-        "days": "例えば。 16（日）。",
-        "deny": "否定する",
-        "until": "期間",
-        "allow": "許可する",
-        "kicked": "あなたのアクセスは@@から削除されました",
-        "shared": "@@はあなたに共有されます。この図面をダッシュ​​ボードに追加する場合にクリックします。",
-        "joined": "%%はチーム@@に参加しました。",
-        "deleted": "@@ deleted",
-        "trashed": "@@ trashed",
-        "renamed": "@@は@@にリネームされました",
-        "invited": "あなたは@@に参加するように招待されています。クリックして招待を受け入れます。",
-        "message": "メッセージ",
-        "no_noti": "それは少し静かですね。通知は少しでも鳴っている。",
-        "day_ago": "1日前",
-        "removed": "@@ removed",
-        "created": "@@ 作成した",
-        "blocked": "お使いのブラウザでプッシュ通知を無効にしたようです。 <br />あなたの決定を覚えて、プッシュ通知を有効にした後にプッシュ通知を送信します。",
-        "restored": "@@ restored",
-        "see_more": "続きを見る",
-        "hour_ago": "1時間前",
-        "sent_ann": "お知らせが正常に送信されました。",
-        "send_ann": "アナウンスを送信",
-        "same_day": "注：アナウンスは作成されたのと同じ日に開始されます。",
-        "list_end": "もう通知はありません",
-        "moved_in": "@@ added",
-        "published": "@@ 公開されました。",
-        "team_name": "チーム@@。",
-        "notify_me": "私に通知する！",
-        "moved_out": "@@ removed",
-        "hours_ago": "時間前",
-        "second_ago": "前から",
-        "requesting": "@@ @@にアクセスする要求。クリックしてこの要求を承認します。",
-        "moment_ago": "瞬間",
-        "minute_ago": "分前",
-        "create_ann": "アナウンスを作成する",
-        "team_vecta": "チームベクタ",
-        "seconds_ago": "秒前",
-        "minutes_ago": "数分前",
-        "style_message": "HTMLはしないでください。",
-        "access_changed": "あなたのアクセスは@@から@@に変更されました",
-        "your_dashboard": "あなたのダッシュボードに。",
-        "drawing_updated": "@@は更新中です",
-        "new_announcement": "発表",
-        "request_accepted": "@@へのアクセス要求が許可されました。この図面をダッシュ​​ボードに追加する場合にクリックします。",
-        "permission_given": "プッシュ通知が有効になりました。 <br />ヴェクタにようこそ！",
-        "denied_permission": "さて、私たちはあなたの決定を思い出し、あなたにプッシュ通知を送信しません。",
-        "request_permission": "こんにちは@@、<br /> <br />チームメイトがあなたのチームやドローイングを変更したときにVectaから通知を受けます。<br /> <br />プッシュ通知を有効にしますか？"
     },
     "access": {
         "you": "君は",
@@ -526,44 +526,44 @@
         "owner": "オーナー",
         "remove": "削除する",
         "others": "その他",
-        "message": "メッセージ（オプション）",
-        "no_team": "チームはもはや存在しません。",
         "no_file": "あなたがリクエストした図面は存在しなくなりました。",
+        "no_team": "チームはもはや存在しません。",
+        "message": "メッセージ（オプション）",
         "can_edit": "編集と共有",
         "view_only": "表示のみ",
-        "not_found": "見つかりません",
-        "accepting": "受け入れ要求",
-        "sent_mssg": "あなたのリクエストはオーナーに送信されました。",
-        "left_team": "あなたはチームを成功させました。",
         "no_access": "チームにアクセスする権限がありません。",
+        "left_team": "あなたはチームを成功させました。",
+        "sent_mssg": "あなたのリクエストはオーナーに送信されました。",
+        "accepting": "受け入れ要求",
+        "not_found": "見つかりません",
         "leave_team": "チームを離れる",
         "requesting": "アクセスをリクエストしています",
         "set_access": "図面へのアクセスを設定する：",
         "shared_url": "アクセスできるユーザー",
-        "update_pass": "パスワードの更新",
-        "shared_with": "共有者",
-        "denied_mssg": "指定されたトークンは無効です。図面やステンシルにアクセスすることはできません。",
-        "owner_leave": "あなたはこのチームの唯一の所有者です。<br />チームは閉鎖され、すべてのメンバーはチームへのアクセスを失います。<br /> <br />続行しますか？",
-        "public_view": "このリンクを持つ人は誰でもこの図を見ることができます",
         "public_edit": "このリンクを持つ人は誰でもこの図を編集できます",
-        "file_exists": "リクエストした図面は、ダッシュボード/ごみ箱に既に存在します。",
-        "public_file": "公開へのアクセスを設定し、ログインは必要ありません",
-        "retype_pass": "パスワードを再入力してください",
+        "update_pass": "パスワードの更新",
         "team_exists": "あなたは既に要求されたチームのメンバーです。",
+        "retype_pass": "パスワードを再入力してください",
+        "public_file": "公開へのアクセスを設定し、ログインは必要ありません",
+        "file_exists": "リクエストした図面は、ダッシュボード/ごみ箱に既に存在します。",
+        "public_view": "このリンクを持つ人は誰でもこの図を見ることができます",
+        "owner_leave": "あなたはこのチームの唯一の所有者です。<br />チームは閉鎖され、すべてのメンバーはチームへのアクセスを失います。<br /> <br />続行しますか？",
+        "denied_mssg": "指定されたトークンは無効です。図面やステンシルにアクセスすることはできません。",
+        "shared_with": "共有者",
         "remove_files": "図面とフォルダを削除する",
-        "save_changes": "変更内容を保存",
         "request_sent": "リクエスト送信",
         "remove_share": "共有を削除",
         "member_leave": "このチームを離れると、チーム内のすべての図面やフォルダにアクセスできなくなります。<br /> <br />続行しますか？",
         "team_members": "チームメンバー",
         "signed_in_as": "あなたは次のようにログインしています：",
         "resend_email": "メールを再送",
+        "save_changes": "変更内容を保存",
+        "shared_emails": "メール",
         "remove_member": "メンバーを削除",
         "no_permission": "このチームやファイルにアクセスする権限がありません。",
         "access_denied": "アクセス拒否",
         "invite_failed": "メールの招待状を送信できません。チームの「メンバー」ボタンをクリックして、もう一度お試しください。",
         "search_shares": "共有ユーザーの確認",
-        "shared_emails": "メール",
         "request_access": "アクセスをリクエストする",
         "accept_request": "アクセスを許可します",
         "pending_invite": "保留中の招待状",
@@ -587,29 +587,41 @@
         "items_no_access": "一部のコンテンツは、選択された目的地に移動されません。そのためには、許可が限られているか、始めることができないためです。",
         "access_modified": "アクセスは正常に変更されました。",
         "private_drawing": "招待されたユーザーのみがこの図面にアクセスできます",
-        "move_same_parent": "あなたはすでにフォルダに入っています。",
-        "public_edit_help": "インターネット上の誰でもサインインなしで図面を編集できます",
-        "update_pass_mssg": "パスワードは正常に更新されました。",
-        "click_reset_pass": "電子メールのリンクをクリックしてパスワードをリセットする",
         "public_view_help": "インターネット上の誰でもサインインなしで図面を表示できます",
+        "click_reset_pass": "電子メールのリンクをクリックしてパスワードをリセットする",
+        "update_pass_mssg": "パスワードは正常に更新されました。",
+        "public_edit_help": "インターネット上の誰でもサインインなしで図面を編集できます",
+        "move_same_parent": "あなたはすでにフォルダに入っています。",
         "update_pass_error": "アップデートエラー",
         "successfully_moved": "移動に成功しました。",
-        "update_pass_failed": "パスワードの更新に失敗しました。リセットリンクが切れている可能性があります。",
         "permission_granted": "アクセスは許可されました。依頼者にあなたの承認が通知されました。",
+        "update_pass_failed": "パスワードの更新に失敗しました。リセットリンクが切れている可能性があります。",
+        "private_access_help": "あなたとアクセスを共有しているユーザーのアクセスを制限する",
         "invite_failed_title": "電子メールの招待に失敗しました",
-        "permission_required": "許可が必要",
-        "private_access_help": "あなたとアクセスを共有しているユーザーのアクセスを制限する"
+        "permission_required": "許可が必要"
+    },
+    "reset": {
+        "error": "アップデートエラー",
+        "reset": "あなたのパスワードをリセット",
+        "update": "パスワードの更新",
+        "send_reset": "リセットリンクが送信されました",
+        "reset_sent": "電子メールのリンクをクリックしてパスワードをリセットする",
+        "successful": "アップデート成功",
+        "error_mssg": "パスワードの更新に失敗しました。リセットリンクが切れている可能性があります。",
+        "retype_pass": "パスワードを再入力してください",
+        "resend_email": "メールを再送",
+        "successful_mssg": "パスワードは正常に更新されました。"
     },
     "question": {
         "hr": "HR /タレントマネジメント",
         "work": "作業",
-        "title": "こんにちは@name！ <br /> <br />あなた自身についてもっと教えてください",
-        "scope": "あなたの仕事の範囲は：",
-        "start": "Vectaを使い始める",
         "hobby": "趣味",
-        "design": "設計",
-        "select": " - オプションを選択する - ",
+        "start": "Vectaを使い始める",
+        "scope": "あなたの仕事の範囲は：",
+        "title": "こんにちは@name！ <br /> <br />あなた自身についてもっと教えてください",
         "school": "学校",
+        "select": " - オプションを選択する - ",
+        "design": "設計",
         "purpose": "あなたはVectaを以下の目的で使用しています。",
         "logistic": "ロジスティック＆サプライチェーン",
         "done_mssg": "わーい！私たちは行くのが良いです！",
@@ -618,49 +630,27 @@
         "business_owner": "事業主",
         "business_operation": "事業運営"
     },
-    "reset": {
-        "reset": "あなたのパスワードをリセット",
-        "error": "アップデートエラー",
-        "update": "パスワードの更新",
-        "error_mssg": "パスワードの更新に失敗しました。リセットリンクが切れている可能性があります。",
-        "successful": "アップデート成功",
-        "reset_sent": "電子メールのリンクをクリックしてパスワードをリセットする",
-        "send_reset": "リセットリンクが送信されました",
-        "retype_pass": "パスワードを再入力してください",
-        "resend_email": "メールを再送",
-        "successful_mssg": "パスワードは正常に更新されました。"
-    },
-    "email": {
-        "remind": "あなたがチームに参加するように催促しました",
-        "slogan": "Vecta：チームのためのダイアグラム",
-        "waiting": "あなたがチームに加わるのを待っています",
-        "welcome": "ヴェクタへようこそ！",
-        "on_vecta": "Vecta.ioについて",
-        "rejected": "あなたのアクセス要求を拒否しました",
-        "with_you": "Vecta.ioであなたと一緒に",
-        "join_team": "あなたをチームに招待しました",
-        "has_shared": "共有している",
-        "has_granted": "アクセスを許可しました",
-        "team_button": "あなたのチームに参加する",
-        "team_message": "Vecta.ioに参加して、チームメイトと図面を共有したり、簡単にコラボレーションしたりできます。",
-        "open_drawing": "Vectaで図面を開く",
-        "has_rejected": "あなたのアクセス要求を拒否しました",
-        "please_click": "下記のボタンをクリックしてサインインし、アクセスしてください",
-        "share_subject": "Vecta.ioであなたと素晴らしい絵を共有しています",
-        "has_requested": "アクセス許可を要求しました",
-        "manage_access": "このリクエストを承認または拒否する",
-        "team_instruction": "下のボタンをクリックしてサインインして、チームの図面にアクセスしてください。"
+    "publish": {
+        "stop": "この図はWebに公開されなくなりました。",
+        "done": "この図面はウェブに正常に公開されました。",
+        "title": "Webに公開する",
+        "error": "形は見つかりません。現在の図面を公開することはできません。",
+        "change": "変更を公開する",
+        "remove": "公開の削除",
+        "loading": "この図面の可用性をチェックして、きちんとしてください...",
+        "vecta_url": "この図をVectaで見る。リンクをクリックしてコピーします。",
+        "confirm_content": "この図面を公開すると、インターネット上の誰でもコンテンツを見ることができます。 <br />これは本当ですか？"
     },
     "onboard": {
-        "skip": "スキップ？",
-        "next": "次",
         "back": "バック",
+        "next": "次",
+        "skip": "スキップ？",
         "create": "チームのみを作成する",
-        "end_list": "あなたはリストの最後に達しています。",
-        "continue": "新しいチームに招待",
         "one_step": "ステップ2/2。",
-        "team_best": "Vectaはチームで最も効果的です",
+        "continue": "新しいチームに招待",
+        "end_list": "あなたはリストの最後に達しています。",
         "two_steps": "ステップ1/2。",
+        "team_best": "Vectaはチームで最も効果的です",
         "team_guide": "チームで作成された図面はメンバー間で自動的に共有されます。これは、チームが本当に生産性を高めるための最も簡単な方法です。",
         "team_start": "最初のチームを作って始めましょう",
         "final_step": "1つの最後のステップ：",
@@ -674,27 +664,16 @@
         "prompt_create_drawing": "ようこそバック！<br /> <br />あなたは今日どんな絵を描きますか？",
         "prompt_restore_drawing": "あなたは<br />図面を、ごみ箱に移動した後でも復元できることをご存知ですか？"
     },
-    "publish": {
-        "done": "この図面はウェブに正常に公開されました。",
-        "stop": "この図はWebに公開されなくなりました。",
-        "error": "形は見つかりません。現在の図面を公開することはできません。",
-        "title": "Webに公開する",
-        "change": "変更を公開する",
-        "remove": "公開の削除",
-        "loading": "この図面の可用性をチェックして、きちんとしてください...",
-        "vecta_url": "この図をVectaで見る。リンクをクリックしてコピーします。",
-        "confirm_content": "この図面を公開すると、インターネット上の誰でもコンテンツを見ることができます。 <br />これは本当ですか？"
-    },
     "mssg": {
         "sending": "送信",
         "load_ui": "UIの読み込み中...",
         "loading": "読み込み中",
         "load_icons": "アイコンを読み込んでいます...",
         "commit_mssg": "リマーク",
-        "load_drawing": "ダウンロードした図面をロード中...",
         "load_publish": "公開された図面の読み込み中...",
-        "cannot_upload": "画像をVectaにインポートするには、ログインする必要があります。",
+        "load_drawing": "ダウンロードした図面をロード中...",
         "not_supported": "ブラウザはサポートされていませ",
+        "cannot_upload": "Vectaに画像をインポートするには、ログインしている必要があります",
         "ver_committing": "図面をコミットする",
         "shape_prop_mssg": "形状を選択してください",
         "checking_invite": "あなたの招待状を確認する",
@@ -703,16 +682,228 @@
         "fetching_preview": "プレビュー図面の取得",
         "fetching_stencil": "ステンシルを取り出す",
         "creating_preview": "描画プレビューの作成",
-        "not_supported_pdf": "エクスポートPDFは現在、Internet Explorerではサポートされていません。 <br />別のブラウザでもう一度お試しください。",
-        "fetching_channels": "スラックチャンネルを取得する",
         "not_supported_png": "エクスポートPNG​​は現在、Internet Explorerではサポートされていません。 <br />別のブラウザでもう一度お試しください。",
+        "fetching_channels": "スラックチャンネルを取得する",
+        "not_supported_pdf": "エクスポートPDFは現在、Internet Explorerではサポートされていません。 <br />別のブラウザでもう一度お試しください。",
         "ver_commit_success": "成功しました。",
         "template_create_fail": "テンプレートは空の図面であってはなりません。"
     },
+    "email": {
+        "remind": "あなたがチームに参加するように催促しました",
+        "slogan": "Vecta：チームのためのダイアグラム",
+        "waiting": "あなたがチームに加わるのを待っています",
+        "welcome": "ヴェクタへようこそ！",
+        "on_vecta": "Vecta.ioについて",
+        "rejected": "あなたのアクセス要求を拒否しました",
+        "with_you": "Vecta.ioであなたと一緒に",
+        "join_team": "あなたをチームに招待しました",
+        "has_shared": "共有している",
+        "team_button": "あなたのチームに参加する",
+        "has_granted": "アクセスを許可しました",
+        "team_message": "Vecta.ioに参加して、チームメイトと図面を共有したり、簡単にコラボレーションしたりできます。",
+        "open_drawing": "Vectaで図面を開く",
+        "has_rejected": "あなたのアクセス要求を拒否しました",
+        "please_click": "下記のボタンをクリックしてサインインし、アクセスしてください",
+        "manage_access": "このリクエストを承認または拒否する",
+        "has_requested": "アクセス許可を要求しました",
+        "share_subject": "Vecta.ioであなたと素晴らしい絵を共有しています",
+        "team_instruction": "下のボタンをクリックしてサインインして、チームの図面にアクセスしてください。"
+    },
+    "stencil": {
+        "check": "ステンシルステータスの確認",
+        "removed": "一部のステンシルは削除されているため移動されません。また、開始することもできません。",
+        "loading": "シンボルの取得",
+        "no_exist": "ステンシルはもう存在しません。",
+        "aws": {
+            "name": "Amazon Webサービス"
+        },
+        "stencils": "ステンシル",
+        "imported": "データのインポートが完了しました",
+        "importing": "データのインポート",
+        "symbol_tags": "タグ（カンマで区切ります）",
+        "non_reverse": "削除",
+        "google": {
+            "name": "Google"
+        },
+        "symbol_desc": "説明",
+        "symbol_name": "名",
+        "confirm_del": "<br /> <br />このステンシルを削除してもよろしいですか？",
+        "drop_shapes": "シェイプをここにドロップする",
+        "stencil_desc": "ステンシル記述",
+        "general": {
+            "name": "一般"
+        },
+        "stencil_name": "ステンシル名",
+        "load_stencils": "ステンシルの読み込み中...",
+        "stencil_2": {
+            "name": "ビジネスモデルキャンバス",
+            "desc": "異なるサイズのビジネスモデルキャンバス"
+        },
+        "stencil_1": {
+            "desc": "カラフルな音符記号",
+            "name": "カラフルなノート"
+        },
+        "stencil_3": {
+            "desc": "Googleの商品シンボル",
+            "name": "Google"
+        },
+        "stencil_4": {
+            "desc": "Googleクラウドプラットフォームのシンボル",
+            "name": "Google Cloud Platform"
+        },
+        "stencil_5": {
+            "desc": "Amazon Webサービス：Analytics",
+            "name": "AWS Analytics"
+        },
+        "create_stencil": "ステンシルを作成する",
+        "stencil_6": {
+            "desc": "Amazon Webサービス：アプリケーションサービス",
+            "name": "AWSアプリケーションサービス"
+        },
+        "stencil_7": {
+            "desc": "Amazon Webサービス：人工知能",
+            "name": "AWS人工知能"
+        },
+        "public_stencil": "ステンシルアクセスを公開に設定し、ログインは必要ありません",
+        "stencil_9": {
+            "name": "AWS計算",
+            "desc": "Amazon Webサービス：計算"
+        },
+        "no_edit_symbol": "このシンボルを編集する権限がありません。",
+        "stencil_8": {
+            "desc": "Amazon Webサービス：ビジネス生産性",
+            "name": "AWSビジネスの生産性"
+        },
+        "stencil_0": {
+            "desc": "一般的なフローチャートのシンボル",
+            "name": "フローチャート"
+        },
+        "microsoft": {
+            "name": "マイクロソフト"
+        },
+        "stencil_18": {
+            "name": "AWSの移行",
+            "desc": "Amazon Webサービス：移行"
+        },
+        "stencil_26": {
+            "desc": "カラフルな文書とフォルダシンボル",
+            "name": "カラフルな文書とフォルダ"
+        },
+        "stencil_deleted": "ステンシル削除",
+        "no_edit_stencil": "このステンシルを編集する権限がありません。",
+        "stencil_15": {
+            "name": "AWSインターネットオブシチュエーション",
+            "desc": "Amazon Webサービス：物のインターネット"
+        },
+        "stencil_14": {
+            "name": "AWS全般",
+            "desc": "Amazon Webサービス：一般"
+        },
+        "stencil_13": {
+            "name": "AWSゲーム開発",
+            "desc": "Amazon Webサービス：ゲーム開発"
+        },
+        "stencil_10": {
+            "desc": "Amazon Webサービス：データベース",
+            "name": "AWSデータベース"
+        },
+        "stencil_31": {
+            "name": "マイクロソフトエンタープライズ",
+            "desc": "Microsoft Azure：エンタープライズ"
+        },
+        "stencil_33": {
+            "name": "Microsoft Office製品",
+            "desc": "Microsoft Azure：Office製品"
+        },
+        "stencil_24": {
+            "desc": "Amazon Webサービス：ストレージ",
+            "name": "AWSストレージ"
+        },
+        "untitled_symbol": "無題のシンボル",
+        "stencil_11": {
+            "name": "AWSデスクトップアプリストリーミング",
+            "desc": "Amazon Webサービス：デスクトップアプリケーションのストリーミング"
+        },
+        "stencil_12": {
+            "desc": "Amazon Webサービス：開発ツール",
+            "name": "AWSデベロッパーツール"
+        },
+        "stencil_16": {
+            "name": "AWS管理ツール",
+            "desc": "Amazon Webサービス：管理ツール"
+        },
+        "stencil_20": {
+            "desc": "Amazon Web Services：ネットワークとコンテンツ配信",
+            "name": "AWSネットワーク＆コンテンツ配信"
+        },
+        "stencil_32": {
+            "desc": "Microsoft Azure：Intune",
+            "name": "Microsoft Intune"
+        },
+        "stencil_28": {
+            "desc": "Microsoft Azure：色の記号",
+            "name": "マイクロソフトアズールカラー"
+        },
+        "stencil_27": {
+            "name": "Microsoft Azure Mono",
+            "desc": "Microsoft Azure：モノクロ記号"
+        },
+        "stencil_29": {
+            "name": "Microsoft仮想マシン",
+            "desc": "Microsoft Azure：仮想マシン"
+        },
+        "stencil_30": {
+            "name": "Microsoft Systems Center",
+            "desc": "Microsoft Azure：システムセンター"
+        },
+        "stencil_21": {
+            "desc": "Amazon Webサービス：オンデマンドの労働力",
+            "name": "AWS On Demand Workforce"
+        },
+        "stencil_22": {
+            "desc": "Amazon Webサービス：ソフトウェア開発キット",
+            "name": "AWS SDK"
+        },
+        "stencil_23": {
+            "name": "AWSセキュリティのアイデンティティとコンプライアンス",
+            "desc": "Amazon Webサービス：アイデンティティとコンプライアンス"
+        },
+        "stencil_25": {
+            "desc": "一般的なWebテクノロジーのシンボル",
+            "name": "ウェブ技術"
+        },
+        "stencil_17": {
+            "desc": "Amazon Webサービス：メッセージング",
+            "name": "AWSメッセージング"
+        },
+        "stencil_19": {
+            "desc": "Amazon Webサービス：モバイルサービス",
+            "name": "AWSモバイルサービス"
+        },
+        "untitled_stencil": "無題のステンシル",
+        "no_delete_symbol": "このシンボルを削除する権限はありません。",
+        "login_make_symbol": "シンボルを作成するにはログインしてください。"
+    },
+    "verify": {
+        "failed": "確認に失敗しました",
+        "resend": "確認メールを再送信",
+        "update": "更新",
+        "landing": "Vecta.ioに行く",
+        "confirm": "メールアドレスを確認してください",
+        "verifying": "検証中",
+        "successful": "確認の成功",
+        "signin_now": "今すぐログイン",
+        "failed_mssg": "申し訳ありませんが、確認リンクが有効期限切れになっているようです。確認メールを再送信するには、ログインしてください。",
+        "successful_mssg": "これで、Vectaにサインインして描画を開始することができます。あなたのチームを招待し、共同作業を開始することを忘れないでください。",
+        "password_updated": "パスワードが更新されました",
+        "activate_account": "電子メールの確認リンクをクリックしてアカウントを有効にします。",
+        "send_confirmation": "確認メールが送信されました",
+        "confirmation_sent": "送信確認メール"
+    },
     "signup": {
         "failed": "サインアップに失敗しました",
-        "signout": "結構です。私をここから連れ出してください",
         "dont_go": "私たちはあなたが行くのを見たくないが、私たちは完全に理解している、いつでも戻って来てください。",
+        "signout": "結構です。私をここから連れ出してください",
         "redirect": "リダイレクト中...",
         "not_found": "アカウントが見つかりません",
         "create_account": "アカウントを作成する",
@@ -723,89 +914,89 @@
         "Lock": {
             "cls": "このステンシルは編集できません。独自のステンシルを作成することによって、シンボルを追加および編集することができます。"
         },
-        "noti": {
-            "icon": "通知"
-        },
-        "list": {
-            "icon": "リストビュー"
-        },
-        "redo": {
-            "icon": "やり直し（Ctrl-Y）"
-        },
-        "sort": {
-            "icon": "並び替え"
-        },
-        "bold": {
-            "icon": "大胆な"
-        },
-        "pref": {
-            "icon": "設定"
+        "undo": {
+            "icon": "取り消し（Ctrl-Z）"
         },
         "grid": {
             "icon": "グリッドビュー"
         },
-        "undo": {
-            "icon": "取り消し（Ctrl-Z）"
+        "pref": {
+            "icon": "設定"
         },
-        "color": {
-            "help": "カスタムカラー<br/> #fff / #ffffff / rgb（0、0、0）"
+        "bold": {
+            "icon": "大胆な"
         },
-        "login": {
-            "icon": "サインイン"
+        "sort": {
+            "icon": "並び替え"
+        },
+        "redo": {
+            "icon": "やり直し（Ctrl-Y）"
+        },
+        "list": {
+            "icon": "リストビュー"
+        },
+        "noti": {
+            "icon": "通知"
         },
         "align": {
             "icon": "選択した図形を整列する"
         },
-        "logout": {
-            "icon": "サインアウト"
+        "login": {
+            "icon": "サインイン"
         },
-        "ascend": {
-            "icon": "逆ソート方向"
-        },
-        "italic": {
-            "icon": "イタリック"
-        },
-        "remove": {
-            "help": "ユーザーを削除"
-        },
-        "record": {
-            "icon": "レコードマクロ"
-        },
-        "expand": {
-            "icon": "その他のツール..."
+        "color": {
+            "help": "カスタムカラー<br/> #fff / #ffffff / rgb（0、0、0）"
         },
         "delete": {
             "icon": "削除"
         },
-        "pointer": {
-            "icon": "ポインタツール<br/>（Ctrl-1）"
+        "expand": {
+            "icon": "その他のツール..."
         },
-        "arrange": {
-            "icon": "選択した図形のzオーダーを整列する"
+        "record": {
+            "icon": "レコードマクロ"
         },
-        "zoom_in": {
-            "icon": "ズームイン<br/> Ctrl +マウスホイール"
+        "remove": {
+            "help": "ユーザーを削除"
         },
-        "profile": {
-            "icon": "プロフィール"
+        "italic": {
+            "icon": "イタリック"
+        },
+        "ascend": {
+            "icon": "逆ソート方向"
+        },
+        "logout": {
+            "icon": "サインアウト"
         },
         "descend": {
             "icon": "逆ソート方向"
         },
-        "feedback": {
-            "icon": "フィードバックを送信する"
+        "profile": {
+            "icon": "プロフィール"
         },
-        "zoom_out": {
-            "icon": "ズームアウト<br/> Ctrl +マウスホイール"
+        "zoom_in": {
+            "icon": "ズームイン<br/> Ctrl +マウスホイール"
         },
-        "zoom_fit": {
-            "icon": "ページに合わせて拡大"
+        "arrange": {
+            "icon": "選択した図形のzオーダーを整列する"
+        },
+        "pointer": {
+            "icon": "ポインタツール<br/>（Ctrl-1）"
+        },
+        "line_end": {
+            "icon": "行末"
         },
         "chat_box": {
             "icon": "チャットボックス"
         },
-        "line_end": {
-            "icon": "行末"
+        "zoom_fit": {
+            "icon": "ページに合わせて拡大"
+        },
+        "zoom_out": {
+            "icon": "ズームアウト<br/> Ctrl +マウスホイール"
+        },
+        "feedback": {
+            "icon": "フィードバックを送信する"
         },
         "file_name": {
             "icon": "図面の名前を変更する"
@@ -858,6 +1049,15 @@
         "font_color": {
             "icon": "フォントの色"
         },
+        "line_weight": {
+            "icon": "行の重み"
+        },
+        "font_family": {
+            "icon": "フォントファミリー"
+        },
+        "play_record": {
+            "icon": "マクロを再生する"
+        },
         "set_public": {
             "label": "誰でもインターネットにアクセスしてアクセスできます"
         },
@@ -870,15 +1070,6 @@
         "toggle_grid": {
             "icon": "グリッドの表示/非表示"
         },
-        "play_record": {
-            "icon": "マクロを再生する"
-        },
-        "font_family": {
-            "icon": "フォントファミリー"
-        },
-        "line_weight": {
-            "icon": "行の重み"
-        },
         "draw_ellipse": {
             "icon": "円または楕円を描く（Ctrl-3）"
         },
@@ -888,38 +1079,38 @@
         "pause_record": {
             "icon": "マクロを一時停止する"
         },
-        "draw_textblock": {
-            "icon": "描画、移動、サイズ変更、または<br />テキストの回転（Ctrl + 5）"
-        },
         "draw_connector": {
             "icon": "コネクタを引く<br/> <br/>（Ctrl-6）"
         },
         "format_painter": {
             "icon": "フォーマットペインタ<br/>（Ctrl-7）"
         },
+        "draw_textblock": {
+            "icon": "描画、移動、サイズ変更、または<br />テキストの回転（Ctrl + 5）"
+        },
         "line_end_format": {
             "icon": "行末形式",
             "menu": {
-                "[2,2]": "どちらも大きい",
+                "[2,0]": "ビッグビギニング",
                 "[1,1]": "どちらも小さい",
                 "[1,0]": "小さなものから始める",
+                "[2,2]": "どちらも大きい",
                 "[0,1]": "小さな終わり",
-                "[2,0]": "ビッグビギニング",
                 "[0,2]": "ビッグエンド",
+                "[0,1": {
+                    "5]": "媒体を終了する"
+                },
                 "[1": {
                     "5,0]": "媒体を始める",
                     "5,1": {
                         "5]": "両方の媒体"
                     }
                 },
-                "[0,1": {
-                    "5]": "媒体を終了する"
-                },
                 "linecap_butt": "リネカップバット",
                 "linecap_round": "リニアキャップラウンド",
+                "linejoin_bevel": "ラインジョイントベベル",
                 "linejoin_round": "ラインジョイントラウンド",
                 "linecap_square": "リニアキャップ正方形",
-                "linejoin_bevel": "ラインジョイントベベル",
                 "linejoin_miter": "ラインジョイントマイター"
             }
         },
@@ -927,213 +1118,22 @@
             "icon": "接続ポイント<br/>（Shift + Ctrl + 6）"
         }
     },
-    "verify": {
-        "update": "更新",
-        "resend": "確認メールを再送信",
-        "failed": "確認に失敗しました",
-        "landing": "Vecta.ioに行く",
-        "confirm": "メールアドレスを確認してください",
-        "verifying": "検証中",
-        "successful": "確認の成功",
-        "signin_now": "今すぐログイン",
-        "failed_mssg": "申し訳ありませんが、確認リンクが有効期限切れになっているようです。確認メールを再送信するには、ログインしてください。",
-        "successful_mssg": "これで、Vectaにサインインして描画を開始することができます。あなたのチームを招待し、共同作業を開始することを忘れないでください。",
-        "activate_account": "電子メールの確認リンクをクリックしてアカウントを有効にします。",
-        "password_updated": "パスワードが更新されました",
-        "send_confirmation": "確認メールが送信されました",
-        "confirmation_sent": "送信確認メール"
-    },
-    "stencil": {
-        "check": "ステンシルステータスの確認",
-        "loading": "シンボルの取得",
-        "removed": "一部のステンシルは削除されているため移動されません。また、開始することもできません。",
-        "no_exist": "ステンシルはもう存在しません。",
-        "aws": {
-            "name": "Amazon Webサービス"
-        },
-        "stencils": "ステンシル",
-        "imported": "データのインポートが完了しました",
-        "importing": "データのインポート",
-        "drop_shapes": "シェイプをここにドロップする",
-        "confirm_del": "<br /> <br />このステンシルを削除してもよろしいですか？",
-        "symbol_name": "名",
-        "symbol_desc": "説明",
-        "google": {
-            "name": "Google"
-        },
-        "non_reverse": "削除",
-        "symbol_tags": "タグ（カンマで区切ります）",
-        "stencil_name": "ステンシル名",
-        "general": {
-            "name": "一般"
-        },
-        "stencil_desc": "ステンシル記述",
-        "load_stencils": "ステンシルの読み込み中...",
-        "microsoft": {
-            "name": "マイクロソフト"
-        },
-        "stencil_0": {
-            "name": "フローチャート",
-            "desc": "一般的なフローチャートのシンボル"
-        },
-        "stencil_8": {
-            "name": "AWSビジネスの生産性",
-            "desc": "Amazon Webサービス：ビジネス生産性"
-        },
-        "no_edit_symbol": "このシンボルを編集する権限がありません。",
-        "stencil_9": {
-            "desc": "Amazon Webサービス：計算",
-            "name": "AWS計算"
-        },
-        "public_stencil": "ステンシルアクセスを公開に設定し、ログインは必要ありません",
-        "stencil_7": {
-            "name": "AWS人工知能",
-            "desc": "Amazon Webサービス：人工知能"
-        },
-        "stencil_6": {
-            "name": "AWSアプリケーションサービス",
-            "desc": "Amazon Webサービス：アプリケーションサービス"
-        },
-        "create_stencil": "ステンシルを作成する",
-        "stencil_5": {
-            "name": "AWS Analytics",
-            "desc": "Amazon Webサービス：Analytics"
-        },
-        "stencil_4": {
-            "name": "Google Cloud Platform",
-            "desc": "Googleクラウドプラットフォームのシンボル"
-        },
-        "stencil_3": {
-            "name": "Google",
-            "desc": "Googleの商品シンボル"
-        },
-        "stencil_2": {
-            "name": "ビジネスモデルキャンバス",
-            "desc": "異なるサイズのビジネスモデルキャンバス"
-        },
-        "stencil_1": {
-            "name": "カラフルなノート",
-            "desc": "カラフルな音符記号"
-        },
-        "stencil_10": {
-            "desc": "Amazon Webサービス：データベース",
-            "name": "AWSデータベース"
-        },
-        "stencil_31": {
-            "name": "マイクロソフトエンタープライズ",
-            "desc": "Microsoft Azure：エンタープライズ"
-        },
-        "stencil_33": {
-            "name": "Microsoft Office製品",
-            "desc": "Microsoft Azure：Office製品"
-        },
-        "stencil_18": {
-            "desc": "Amazon Webサービス：移行",
-            "name": "AWSの移行"
-        },
-        "stencil_24": {
-            "desc": "Amazon Webサービス：ストレージ",
-            "name": "AWSストレージ"
-        },
-        "untitled_symbol": "無題のシンボル",
-        "stencil_11": {
-            "name": "AWSデスクトップアプリストリーミング",
-            "desc": "Amazon Webサービス：デスクトップアプリケーションのストリーミング"
-        },
-        "stencil_12": {
-            "desc": "Amazon Webサービス：開発ツール",
-            "name": "AWSデベロッパーツール"
-        },
-        "stencil_16": {
-            "name": "AWS管理ツール",
-            "desc": "Amazon Webサービス：管理ツール"
-        },
-        "stencil_26": {
-            "desc": "カラフルな文書とフォルダシンボル",
-            "name": "カラフルな文書とフォルダ"
-        },
-        "stencil_32": {
-            "desc": "Microsoft Azure：Intune",
-            "name": "Microsoft Intune"
-        },
-        "stencil_28": {
-            "desc": "Microsoft Azure：色の記号",
-            "name": "マイクロソフトアズールカラー"
-        },
-        "stencil_27": {
-            "name": "Microsoft Azure Mono",
-            "desc": "Microsoft Azure：モノクロ記号"
-        },
-        "stencil_29": {
-            "name": "Microsoft仮想マシン",
-            "desc": "Microsoft Azure：仮想マシン"
-        },
-        "stencil_30": {
-            "name": "Microsoft Systems Center",
-            "desc": "Microsoft Azure：システムセンター"
-        },
-        "stencil_21": {
-            "desc": "Amazon Webサービス：オンデマンドの労働力",
-            "name": "AWS On Demand Workforce"
-        },
-        "stencil_22": {
-            "desc": "Amazon Webサービス：ソフトウェア開発キット",
-            "name": "AWS SDK"
-        },
-        "stencil_23": {
-            "name": "AWSセキュリティのアイデンティティとコンプライアンス",
-            "desc": "Amazon Webサービス：アイデンティティとコンプライアンス"
-        },
-        "stencil_25": {
-            "desc": "一般的なWebテクノロジーのシンボル",
-            "name": "ウェブ技術"
-        },
-        "stencil_17": {
-            "desc": "Amazon Webサービス：メッセージング",
-            "name": "AWSメッセージング"
-        },
-        "stencil_19": {
-            "desc": "Amazon Webサービス：モバイルサービス",
-            "name": "AWSモバイルサービス"
-        },
-        "stencil_20": {
-            "name": "AWSネットワーク＆コンテンツ配信",
-            "desc": "Amazon Web Services：ネットワークとコンテンツ配信"
-        },
-        "stencil_13": {
-            "desc": "Amazon Webサービス：ゲーム開発",
-            "name": "AWSゲーム開発"
-        },
-        "stencil_14": {
-            "desc": "Amazon Webサービス：一般",
-            "name": "AWS全般"
-        },
-        "stencil_15": {
-            "desc": "Amazon Webサービス：物のインターネット",
-            "name": "AWSインターネットオブシチュエーション"
-        },
-        "no_edit_stencil": "このステンシルを編集する権限がありません。",
-        "stencil_deleted": "ステンシル削除",
-        "no_delete_symbol": "このシンボルを削除する権限はありません。",
-        "untitled_stencil": "無題のステンシル",
-        "login_make_symbol": "シンボルを作成するにはログインしてください。"
-    },
     "settings": {
         "sound": "次の場合にサウンドを再生する：",
         "reading": "読書設定",
         "noti": {
             "push": "デスクトップ通知を有効にする",
-            "trashed": "図面、フォルダ、またはステンシルをゴミ箱に入れた",
             "renamed": "図面、フォルダまたはステンシルの名前が変更されました",
+            "trashed": "図面、フォルダ、またはステンシルをゴミ箱に入れた",
             "created": "新しい図面、フォルダ、またはステンシルを作成しました。"
         },
+        "receive_noti": "チームメンバー：",
         "general": {
             "lang": "言語",
             "new_mssg": "チャットボックスメッセージを受信しました",
             "new_user": "共同編集者が編集に参加する",
             "sym_resize": "グリッドにスナップするシンボルのサイズを自動的に変更"
-        },
-        "receive_noti": "チームメンバー："
+        }
     },
     "preload": {
         "import": "ドラッグ＆ドロップで画像をインポート",
