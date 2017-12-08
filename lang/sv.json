@@ -6,7 +6,6 @@
         "dpi": "dpi",
         "deg": "grader",
         "url": "URL länk:",
-        "load": "Ladda",
         "less": "Mindre",
         "more": "Mer",
         "init": "Läser ritning",
@@ -17,6 +16,8 @@
         "name": "Namn",
         "lock": "Lås UI modifieringar",
         "txty": "Text.Y",
+        "load": "Ladda",
+        "error": "Fel",
         "hsl": [
             "H",
             "S",
@@ -31,13 +32,7 @@
         "width": "Bredd",
         "end_y": "Slut.Y",
         "vecta": "Vecta",
-        "error": "Fel",
-        "create": "Skapa",
-        "export": "Exportera",
-        "length": "Längd",
         "layers": "Skikt",
-        "search": "Sök",
-        "saving": "Sparar",
         "height": "Höjd",
         "no_ids": "Det gick inte att flytta objekt till destination. <br /> Se till att du har klickat på ett tillåtet objekt.",
         "cancel": "Avbryt",
@@ -46,34 +41,44 @@
         "public": "Offentlig",
         "opaque": "Ogenomskinlig",
         "resend": "Skicka igen",
-        "convert": "Konverteringen misslyckades.<br /><span class='Muted.cls'>Error: 0004</span>",
-        "general": "Allmänt",
-        "sorting": "Sorterar",
-        "copy_of": "Kopia av ",
-        "opening": "Öppnar fil",
-        "default": "Standard",
-        "begin_y": "Start.Y",
-        "sign_up": "Registrera dig för att fortsätta",
-        "version": "Version",
-        "move_to": "Var god välj en mapp",
+        "length": "Längd",
+        "export": "Exportera",
+        "search": "Sök",
+        "saving": "Sparar",
+        "create": "Skapa",
         "begin_x": "Start.X",
+        "move_to": "Var god välj en mapp",
+        "version": "Version",
+        "sign_up": "Registrera dig för att fortsätta",
+        "begin_y": "Start.Y",
+        "default": "Standard",
+        "opening": "Öppnar fil",
+        "copy_of": "Kopia av ",
+        "sorting": "Sorterar",
+        "general": "Allmänt",
+        "convert": "Konverteringen misslyckades.<br /><span class='Muted.cls'>Error: 0004</span>",
         "versions": "Versioner",
-        "sample_3": "Välkommen till ditt lag",
-        "printing": "För utskrift",
-        "txtwidth": "Text.Bredd",
-        "chat_box": "Chat",
-        "txtangle": "Text.Vinkel",
-        "sample_1": "Diagram i grupp",
-        "no_files": "Du har inga ritningar ännu.",
-        "decimals": "decimaler",
-        "feedback": "Feedback",
-        "deleting": "Raderar",
-        "sample_0": "Välkommen till Vecta",
-        "sample_2": "Business Model Canvas",
-        "new_team": "Ny grupp",
-        "no_trash": "Du har inga borttagna ritningar.",
-        "round_to": "Runda till",
         "download": "Ladda ner",
+        "round_to": "Runda till",
+        "no_trash": "Du har inga borttagna ritningar.",
+        "new_team": "Ny grupp",
+        "sample_2": "Business Model Canvas",
+        "sample_0": "Välkommen till Vecta",
+        "deleting": "Raderar",
+        "feedback": "Feedback",
+        "decimals": "decimaler",
+        "no_files": "Du har inga ritningar ännu.",
+        "sample_1": "Diagram i grupp",
+        "txtangle": "Text.Vinkel",
+        "chat_box": "Chat",
+        "txtwidth": "Text.Bredd",
+        "printing": "För utskrift",
+        "sample_3": "Välkommen till ditt lag",
+        "txtheight": "Text.Höjd",
+        "try_again": "Försök igen senare",
+        "control_y": "Kontroll.Y1",
+        "no_layers": "Du har inga skikt.",
+        "no_public": "Ritningen existerar inte längre, eller åtkomst nekas av ägaren.<br /><span class='Muted.cls'>Error: 0007</span>",
         "view_menu": "Visa",
         "team_name": "Gruppnamn",
         "file_menu": "Fil",
@@ -84,11 +89,6 @@
         "copy_link": "Kopiera länk",
         "control_x": "Kontroll.X1",
         "help_size": "Tillåtna: pt, px. t ex: 3 pt, 3 px, 3",
-        "txtheight": "Text.Höjd",
-        "try_again": "Försök igen senare",
-        "control_y": "Kontroll.Y1",
-        "no_layers": "Du har inga skikt.",
-        "no_public": "Ritningen existerar inte längre, eller åtkomst nekas av ägaren.<br /><span class='Muted.cls'>Error: 0007</span>",
         "no_formula": "Ingen formel",
         "control_x1": "Kontroll.X2",
         "pause_name": "Inspelningsnamn",
@@ -104,16 +104,9 @@
         "no_version": "nga tidigare versioner hittades.",
         "control_y1": "Kontroll.Y2",
         "resolution": "Upplösning:",
-        "sign_up_btn": "Registrera dig",
-        "replace_all": "Ersätt alla",
-        "download_as": "Ladda ned som:",
-        "process_xor": "Bearbetar differens",
-        "view_access": "Du har endast berhörighet att visa<br />denna ritning",
-        "no_channels": "Kunde inte hämta kanaler. <br /><span class='Muted.cls'>Error: 0014</span>",
-        "template_of": "Mall av ",
-        "toggle_diff": "Växla differens",
-        "export_menu": "Exportera",
         "same_parent": "Du kan inte flytta tillbaka till samma mapp",
+        "export_menu": "Exportera",
+        "toggle_diff": "Växla differens",
         "undo_action": "Ångra borttagning",
         "link_copied": "Länk kopierad!",
         "recommended": "Rekommenderad",
@@ -122,35 +115,42 @@
         "loading_ver": "Laddar vald version",
         "return_dash": "Återgå till kontrollpanelen",
         "transparent": "Transparent",
+        "template_of": "Mall av ",
+        "no_channels": "Kunde inte hämta kanaler. <br /><span class='Muted.cls'>Error: 0014</span>",
+        "view_access": "Du har endast berhörighet att visa<br />denna ritning",
+        "process_xor": "Bearbetar differens",
+        "download_as": "Ladda ned som:",
+        "replace_all": "Ersätt alla",
+        "sign_up_btn": "Registrera dig",
+        "exported_svg": "Vecta accepterar inte exporterad svg. <br /> Vänligen välj filer som laddas ner från alternativet Arkiv> Ladda ner ritning istället.",
         "remove_CDATA": "Ta bort CDATA",
         "view_stencil": "Du har inte tillgång <br /> för att flytta denna stencil",
         "enter_emails": "anakin@darkside.org, emperor@empire.com",
-        "exported_svg": "Vecta accepterar inte exporterad svg. <br /> Vänligen välj filer som laddas ner från alternativet Arkiv> Ladda ner ritning istället.",
         "replace_with": "Ersätta med",
         "creating_png": "Skapar PNG",
         "delete_layer": "Vill du behålla formerna eller ta bort dem tillsammans med skiktet?",
         "transparency": "Transparens",
         "moving_trash": "Flyttar till papperskorgen",
-        "diagram_team": "Diagram för grupper",
-        "replace_text": "Ersätt",
-        "sign_up_desc": "Skapa ett konto gratis så att du kan fortsätta skapa och dela ritningar i din grupp.",
-        "export_image": "Exportera Bild",
         "notification": "Notifiering",
-        "loading_fonts": "Läser in teckensnitt",
-        "check_metauid": "Ansluter",
-        "last_modified": "Senast ändrad",
-        "items_deleted": "Radering lyckad",
-        "share_drawing": "Dela",
-        "creating_team": "Skapar grupp",
-        "type_not_file": "Ritningen du begärde är inte giltig.<br /><span class='Muted.cls'>Error: 0002</span>",
-        "process_union": "Bearbetar union",
-        "not_published": "Ritningen är inte publicerad, eller publicering har dragits in. <br /> <span class = 'Muted.cls'> Fel: 0015 </ span>",
-        "search_result": "@@ hittade",
-        "modify_access": "Ändra åtkomst",
-        "items_trashed": "objekt flyttade till papperskorgen",
-        "help_pagesize": "Tillåtna: tum, cm, mm, px. t.ex: 3 mm, 3 px, 3",
-        "view_template": "Du har endast åtkomst till <br /> till den här mallen",
+        "export_image": "Exportera Bild",
+        "sign_up_desc": "Skapa ett konto gratis så att du kan fortsätta skapa och dela ritningar i din grupp.",
+        "replace_text": "Ersätt",
+        "diagram_team": "Diagram för grupper",
         "reminder_sent": "Påminnelse skickad",
+        "view_template": "Du har endast åtkomst till <br /> till den här mallen",
+        "help_pagesize": "Tillåtna: tum, cm, mm, px. t.ex: 3 mm, 3 px, 3",
+        "items_trashed": "objekt flyttade till papperskorgen",
+        "modify_access": "Ändra åtkomst",
+        "search_result": "@@ hittade",
+        "not_published": "Ritningen är inte publicerad, eller publicering har dragits in. <br /> <span class = 'Muted.cls'> Fel: 0015 </ span>",
+        "process_union": "Bearbetar union",
+        "type_not_file": "Ritningen du begärde är inte giltig.<br /><span class='Muted.cls'>Error: 0002</span>",
+        "creating_team": "Skapar grupp",
+        "share_drawing": "Dela",
+        "items_deleted": "Radering lyckad",
+        "last_modified": "Senast ändrad",
+        "check_metauid": "Ansluter",
+        "loading_fonts": "Läser in teckensnitt",
         "help_linestyle": "Format: streck(px) mellanrum(px) [repetera]. t ex: 5 5.",
         "remove_svg_ids": "Ta bort IDs",
         "export_records": "Exportera inspelningar",
@@ -159,9 +159,8 @@
         "items_restored": "Återställning lyckad",
         "commit_changes": "Lämnar in ändringar",
         "access_changed": "Behörigheterna har ändrats för gruppen.<br /><span class='Muted.cls'>Error: 0011</span>",
-        "pasting_shapes": "Klistrar in former",
         "who_has_access": "Vem har åtkomst",
-        "has_sent_invite": "Du har tidigare bjudit in dessa medlemmar.",
+        "pasting_shapes": "Klistrar in former",
         "current_version": "Nuvarande version",
         "multiple_shapes": "Flera former som valts",
         "custom_fontsize": "Anpassad textstorlek",
@@ -172,81 +171,54 @@
         "type_not_folder": "Den mapp du begärde är inte giltig.<br /><span class='Muted.cls'>Error: 0008</span>",
         "commit_and_load": "Lämna in",
         "unsaved_changes": "Du har osparade ändringar",
-        "invitations_sent": "Injudningar skickade",
-        "link_placeholder": "https://vecta.io",
-        "untitled_drawing": "Namnlös ritning",
-        "help_roundcorner": "Tillåtna: tum, cm, mm, pt, px. t.ex: 3 mm, 3 px, 3",
-        "process_fragment": "Bearbetar fragmentering",
-        "checking_members": "Kontrollerar medlemmar",
+        "has_sent_invite": "Du har tidigare bjudit in dessa medlemmar.",
         "custom_linestyle": "Anpassad linjestil",
-        "empty_activepage": "Det gick inte att läsa ritningen, töm aktiv sida.<br /><span class='Muted.cls'>Error: 0006</span>",
-        "shape_properties": "Formegenskaper",
+        "checking_members": "Kontrollerar medlemmar",
+        "process_fragment": "Bearbetar fragmentering",
+        "help_roundcorner": "Tillåtna: tum, cm, mm, pt, px. t.ex: 3 mm, 3 px, 3",
+        "untitled_drawing": "Namnlös ritning",
+        "link_placeholder": "https://vecta.io",
+        "invitations_sent": "Injudningar skickade",
         "help_pauserecord": "Ange ett namn för den pausade inspelningen",
-        "default_recording": "standardinspelning",
-        "all_changes_saved": "Alla ändringar sparade",
-        "custom_lineweight": "Anpassad linjevikt",
+        "shape_properties": "Formegenskaper",
+        "empty_activepage": "Det gick inte att läsa ritningen, töm aktiv sida.<br /><span class='Muted.cls'>Error: 0006</span>",
         "process_intersect": "Bearbetar skärning",
-        "invitation_removed": "Pågående inbjudan borttagen.",
-        "no_shapes_selected": "Vänligen välj några former för denna operation...",
-        "incomplete_removal": "Vissa ritningar / mappar är inte borttagna eftersom du inte har tillräcklig behörighet.",
+        "custom_lineweight": "Anpassad linjevikt",
+        "all_changes_saved": "Alla ändringar sparade",
+        "default_recording": "standardinspelning",
         "custom_roundcorner": "Anpassat runt hörn",
+        "incomplete_removal": "Vissa ritningar / mappar är inte borttagna eftersom du inte har tillräcklig behörighet.",
+        "no_shapes_selected": "Vänligen välj några former för denna operation...",
+        "invitation_removed": "Pågående inbjudan borttagen.",
         "png_generation_failed": "Bilden du begärde kunde inte genereras. <br /><span class='Muted.cls'>Error: 0012</span>"
     },
-    "page": {
-        "a1": "A1: 841 mm x 594 mm",
-        "a4": "A4: 297 mm x 210 mm",
-        "a3": "A3: 420 mm x 297 mm",
-        "a2": "A2: 594 mm x 420 mm",
-        "a5": "A5: 210 mm x 148 mm",
-        "s1": "1: 1 (standard)",
-        "a0": "A0: 1189 mm x 841 mm",
-        "s50": "1: 50",
-        "s10": "1: 10",
-        "s25": "1: 25",
-        "s200": "1: 200",
-        "save": "Spara",
-        "s500": "1: 500",
-        "size": "Storlek: ",
-        "s100": "1: 100",
-        "width": "Bredd",
-        "scale": "Skala",
-        "s1000": "1: 1000",
-        "legal": "Legal: 14 in x 8.5 in",
-        "folio": "Folio: 13 in x 8.5 in",
-        "custom": "Anpassa",
-        "letter": "Letter: 11 in x 8.5 in",
-        "ledger": "Ledger: 17 in x 11 in",
-        "height": "Höjd",
-        "refresh": "Uppdatera",
-        "portrait": "Porträtt",
-        "landscape": "Landskap",
-        "cust_size": "Anpassad storlek: (bredd x höjd)",
-        "no_refresh": "Inte nu",
-        "orientation": "Orientering:",
-        "lang_changed": "Det valda språket har ändrats. Uppdatera sidan för att ändringen ska träda i kraft.",
-        "page_changed": "Sidformat har ändrats. Uppdatera din ritning.",
-        "duplicate_idea": "Spara en redigerbar kopia till mitt konto."
+    "list": {
+        "fr": "franska",
+        "ja": "japansk",
+        "sv": "Svenska",
+        "en": "Engelska"
     },
     "drop": {
-        "px": "px",
-        "in": "tum",
         "mm": "mm",
-        "cut": "Klippa",
-        "5px": "5px",
-        "0px": "0px",
-        "new": "Ny",
+        "in": "tum",
+        "px": "px",
         "xor": "Differens",
-        "open": "Öppna",
-        "trim": "Skär",
-        "lock": "Lås form(er)",
-        "copy": "Kopiera",
-        "edit": "Redigera",
-        "join": "Sammanfoga",
-        "move": "Flytta till",
-        "10px": "10px",
-        "lato": "Lato",
-        "15px": "15px",
+        "new": "Ny",
+        "0px": "0px",
+        "5px": "5px",
+        "cut": "Klippa",
         "back": "Arrangera bakom",
+        "15px": "15px",
+        "lato": "Lato",
+        "10px": "10px",
+        "move": "Flytta till",
+        "join": "Sammanfoga",
+        "edit": "Redigera",
+        "copy": "Kopiera",
+        "lock": "Lås form(er)",
+        "trim": "Skär",
+        "open": "Öppna",
+        "align": "Justera",
         "front": "Arrangera främst",
         "union": "Union",
         "group": "Gruppera",
@@ -256,7 +228,6 @@
         "slack": "Dela via Slack",
         "leave": "Lämna",
         "print": "Skriv ut",
-        "align": "Justera",
         "commit": "Begå",
         "delete": "Radera",
         "manage": "Hantera åtkomst",
@@ -279,12 +250,10 @@
         "backward": "Flytta bakåt",
         "facebook": "Dela via Facebook",
         "fragment": "Fragmentera",
-        "show_grid": "Visa rutnät",
-        "intersect": "Skära av",
         "align_top": "Toppjustera",
         "hide_grid": "Dölj rutnät",
-        "ver_commit": "Lämna in ritning",
-        "lock_layer": "Lås skikt",
+        "intersect": "Skära av",
+        "show_grid": "Visa rutnät",
         "export_jpg": "Exportera som JPG",
         "file_moved": "Ritningen har flyttats.",
         "delete_all": "Radera alla",
@@ -298,9 +267,8 @@
         "page_setup": "Sidformat",
         "flip_horiz": "Horisontell flip",
         "export_png": "Exportera som PNG",
-        "show_guides": "Visa guider",
-        "show_layers": "Visa skikt",
-        "hide_rulers": "Dölj linjaler",
+        "lock_layer": "Lås skikt",
+        "ver_commit": "Lämna in ritning",
         "preferences": "Inställningar",
         "align_right": "Högerjustera",
         "hide_layers": "Dölj skikt",
@@ -311,48 +279,45 @@
         "share_vecta": "Dela via email",
         "hide_guides": "Dölj guider",
         "restore_all": "Återställ alla",
-        "edit_stencil": "Redigera stencil",
-        "align_center": "Centrera vertikalt",
-        "open_drawing": "Öppna ritning",
-        "assign_layer": "Lägg till i skikt",
-        "folder_moved": "Mappen har flyttats.",
-        "clear_guides": "Rensa guider",
-        "unlock_layer": "Lås upp skikt",
-        "rename_layer": "Byt namn på skikt",
-        "align_middle": "Centrera horisontellt",
-        "align_bottom": "Bottenjustering",
+        "show_guides": "Visa guider",
+        "show_layers": "Visa skikt",
+        "hide_rulers": "Dölj linjaler",
         "delete_layer": "Radera skikt",
+        "align_bottom": "Bottenjustering",
+        "align_middle": "Centrera horisontellt",
+        "rename_layer": "Byt namn på skikt",
+        "unlock_layer": "Lås upp skikt",
+        "clear_guides": "Rensa guider",
+        "folder_moved": "Mappen har flyttats.",
+        "assign_layer": "Lägg till i skikt",
+        "open_drawing": "Öppna ritning",
+        "align_center": "Centrera vertikalt",
+        "edit_stencil": "Redigera stencil",
         "select_layer": "Välj alla former",
-        "show_sym_name": "Visa symbolnamn",
-        "creation_date": "Datum för skapande",
-        "share_stencil": "Dela stencil",
-        "close_stencil": "Stänga",
-        "anonymous_pro": "Anonymous Pro",
         "move_to_trash": "Flytta till papperskorgen",
         "show_chat_box": "Visa chat",
         "clone_drawing": "Duplicera",
         "hide_sym_name": "Dölj symbolnamn",
         "hide_chat_box": "Dölj chat",
+        "show_sym_name": "Visa symbolnamn",
+        "share_stencil": "Dela stencil",
+        "close_stencil": "Stänga",
+        "anonymous_pro": "Anonymous Pro",
+        "creation_date": "Datum för skapande",
         "export_stencil": "Exportera",
         "hide_published": "Dölj när den publiceras",
         "update_preview": "Uppdatera förhandsvisning",
         "import_stencil": "Importera",
         "show_published": "Visa när publicerad",
-        "hide_properties": "Dölj egenskaper",
         "publish_drawing": "Publicera ritning",
         "printable_layer": "Utskriftsbart skikt",
         "show_properties": "Visa egenskaper",
+        "hide_properties": "Dölj egenskaper",
         "template_drawing": "Skapa mall",
         "download_drawing": "Ladda ner",
         "roboto_condensed": "Roboto Condensed",
         "nonprintable_layer": "Ej skrivbart skikt",
         "last_modified_by_me": "Senast ändrad av mig"
-    },
-    "list": {
-        "en": "Engelska",
-        "fr": "franska",
-        "ja": "japansk",
-        "sv": "Svenska"
     },
     "dash": {
         "in": "i",
@@ -365,22 +330,25 @@
         "invite": "Bjud in",
         "folder": "mapp",
         "moving": "Flyttar",
-        "welcome": "Välkommen",
-        "folders": "mappar",
-        "members": "medlemmar",
         "copying": "Kopierar",
-        "you_have": "Du har",
-        "drawings": "ritningar",
+        "members": "medlemmar",
+        "folders": "mappar",
+        "welcome": "Välkommen",
         "stencils": "stenciler",
-        "templates": "mallar",
-        "not_found": "Inga resultat hittades",
+        "drawings": "ritningar",
+        "you_have": "Du har",
         "searching": "Sökande",
+        "not_found": "Inga resultat hittades",
+        "templates": "mallar",
         "create_dash": "Läser ritningar och mappar",
         "rename_fail": "Du saknar behörighet för att byta namn på filen.",
         "integration": "integrationer",
         "create_team": "Skapa grupp",
         "check_trash": "Kontrollerar papperskorgen",
-        "invite_teams": "Bjud in lag",
+        "move_to_team": "Flytta till ett lag",
+        "move_to_dash": "Flytta till instrumentpanelen",
+        "invite_email": "Bjud in (email)",
+        "team_created": "Välkommen till din nya grupp!",
         "team_names": [
             "Häftigt",
             "Lycklig",
@@ -391,12 +359,8 @@
             "Roligt",
             "vinnare"
         ],
-        "team_created": "Välkommen till din nya grupp!",
-        "invite_email": "Bjud in (email)",
-        "move_to_dash": "Flytta till instrumentpanelen",
-        "move_to_team": "Flytta till ett lag",
-        "create_folder": "Skapar ny mapp",
         "invite_people": "Bjud in personer",
+        "create_folder": "Skapar ny mapp",
         "create_drawing": "Skapar ny ritning",
         "name_your_team": "grupp / projektnamn",
         "setting_up_team": "Skapar grupp",
@@ -405,33 +369,68 @@
         "setting_up_dash": "Skapar kontrollpanel",
         "created_template": "Mall skapad."
     },
+    "page": {
+        "a0": "A0: 1189 mm x 841 mm",
+        "s1": "1: 1 (standard)",
+        "a5": "A5: 210 mm x 148 mm",
+        "a2": "A2: 594 mm x 420 mm",
+        "a3": "A3: 420 mm x 297 mm",
+        "a4": "A4: 297 mm x 210 mm",
+        "a1": "A1: 841 mm x 594 mm",
+        "s25": "1: 25",
+        "s10": "1: 10",
+        "s50": "1: 50",
+        "s500": "1: 500",
+        "s100": "1: 100",
+        "size": "Storlek: ",
+        "save": "Spara",
+        "s200": "1: 200",
+        "s1000": "1: 1000",
+        "width": "Bredd",
+        "scale": "Skala",
+        "legal": "Legal: 14 in x 8.5 in",
+        "folio": "Folio: 13 in x 8.5 in",
+        "custom": "Anpassa",
+        "letter": "Letter: 11 in x 8.5 in",
+        "ledger": "Ledger: 17 in x 11 in",
+        "height": "Höjd",
+        "refresh": "Uppdatera",
+        "portrait": "Porträtt",
+        "cust_size": "Anpassad storlek: (bredd x höjd)",
+        "landscape": "Landskap",
+        "no_refresh": "Inte nu",
+        "orientation": "Orientering:",
+        "page_changed": "Sidformat har ändrats. Uppdatera din ritning.",
+        "lang_changed": "Det valda språket har ändrats. Uppdatera sidan för att ändringen ska träda i kraft.",
+        "duplicate_idea": "Spara en redigerbar kopia till mitt konto."
+    },
     "login": {
         "or": "Eller",
         "name": "Namn",
         "auth": "autentiserar",
         "email": "Email",
-        "google": "Logga in med Google",
-        "verify": "Verifierar email",
-        "signup": "Registrera dig med email",
-        "collab": "Online",
-        "signin": "Logga in med email",
         "github": "Logga in med Github",
+        "signin": "Logga in med email",
+        "signup": "Registrera dig med email",
+        "verify": "Verifierar email",
+        "google": "Logga in med Google",
+        "collab": "Online",
         "signout": "Logga ut",
-        "password": "Lösenord",
         "facebook": "Logga in med Facebook",
+        "password": "Lösenord",
         "go_signup": "Har du inget konto? Registrera dig nu",
         "short_pwd": "Ditt lösenord måste vara minst 8 tecken",
         "go_signin": "Har du redan ett konto? Logga in",
-        "email_taken": "Det finns redan ett konto med den här emailadressen",
-        "retype_pass": "Bekräfta lösenord",
-        "not_matched": "Lösenorden matchar inte. Var god försök igen",
-        "signing_out": "Loggar ut",
         "reset_title": "Vecta återställ lösenord",
-        "signin_title": "Vecta logga in",
-        "require_name": "Namn krävs",
-        "signup_title": "Vecta registrera dig",
-        "invalid_pass": "Ogiltigt lösenord",
+        "signing_out": "Loggar ut",
+        "not_matched": "Lösenorden matchar inte. Var god försök igen",
+        "retype_pass": "Bekräfta lösenord",
+        "email_taken": "Det finns redan ett konto med den här emailadressen",
         "enable_popup": "Var god tillåt popups i din webbläsare.",
+        "invalid_pass": "Ogiltigt lösenord",
+        "signup_title": "Vecta registrera dig",
+        "require_name": "Namn krävs",
+        "signin_title": "Vecta logga in",
         "signup_github": "Registrera dig med Github",
         "invalid_email": "Ogiltig email",
         "signup_google": "Registrera dig med Google",
@@ -447,98 +446,97 @@
         "invalid_email_pwd": "Ogiltig email eller lösenord",
         "resetting_password": "Återställer lösenord..."
     },
+    "slack": {
+        "add": "Lägg till i Slack",
+        "confirm": "Gruppen har tagits bort",
+        "no_teams": "Du har inte integrerat något Slack-team till Vecta.",
+        "add_more": "Lägga till mer",
+        "settings": "Inställningar",
+        "contacting": "Kontaktar Slack",
+        "added_teams": "Tillagda Slack grupper",
+        "link_shared": "Delbar länk skickad.",
+        "channel_noti": "Välj en kanal för att skicka meddelanden",
+        "channel_link": "Välj en kanal för att dela länken",
+        "user_welcome": "Tack för att du installerade Vecta for Slack. Du kan nu börja bjuda in dina lagmedlemmar till Vecta och dela tecknings länkar till någon av kanalerna i det här laget.",
+        "code_invalid": "Koden är ogiltig. Försök att integrera Slack igen.",
+        "group_message": "Gruppmeddelanden med",
+        "shared_drawing": "har delat @@ i gruppen.",
+        "sending_failed": "Kan inte kommunicera med Slack. Vänligen försök att integrera Vecta med Slack igen.",
+        "team_integrate": "Bjud in dina Slack-lagmedlemmar",
+        "mismatched_code": "Vecta kunde inte läggas till ditt Slack team. <br/> Se till att du har klickat på en giltig Slack-knapp från Vecta. <br /> <span class = 'Muted.cls'> Fel: 0013 </ span>",
+        "success_integrate": "Nu kan du bjuda in dina Slack teammedlemmar till Vecta och dela länkar till @@! <br /> Denna sida omdirigeras automatiskt om 10 sekunder."
+    },
     "noti": {
-        "link": "Länk",
-        "deny": "Neka",
-        "team": "grupp.",
-        "days": "T.ex. 16 (dagar).",
         "left": "%% lämnade gruppen @@.",
+        "days": "T.ex. 16 (dagar).",
+        "team": "grupp.",
+        "deny": "Neka",
+        "link": "Länk",
         "allow": "Tillåt",
         "until": "Varaktighet",
         "joined": "%% anslöt till gruppen @@.",
         "kicked": "Du har ingen åtkomst till @@ ",
         "shared": "@@ är delad med dig. Klicka för att lägga till ritningen till kontrollpanelen.",
-        "no_noti": "Är det inte lite tyst? Meddelanden kommer att surra strax.",
-        "invited": "Du har blivit inbjuden att gå med i @@. Klicka för att acceptera inbjudan.",
-        "trashed": "@@ borttagna ",
         "day_ago": "1 dag sedan",
-        "message": "Meddelande",
-        "renamed": "@@ bytt namn till @@ ",
-        "created": "@@ skapad ",
-        "removed": "@@ borttagen ",
-        "deleted": "@@ raderad ",
         "blocked": "Oj, det ser ut som om du har inaktiverad push notification i din webbläsare. <br /> Vi kommer ihåg ditt beslut och skicka meddelanden till dig när du har aktiverat det igen.",
-        "restored": "@@ återställd ",
+        "deleted": "@@ raderad ",
+        "removed": "@@ borttagen ",
+        "created": "@@ skapad ",
+        "renamed": "@@ bytt namn till @@ ",
+        "message": "Meddelande",
+        "trashed": "@@ borttagna ",
+        "invited": "Du har blivit inbjuden att gå med i @@. Klicka för att acceptera inbjudan.",
+        "no_noti": "Är det inte lite tyst? Meddelanden kommer att surra strax.",
         "send_ann": "Skicka meddelande",
-        "hour_ago": "timme sedan",
-        "moved_in": "@@ tillagd ",
+        "restored": "@@ återställd ",
         "list_end": "Du har inga fler notifieringar",
-        "sent_ann": "Meddelandet skickat.",
-        "see_more": "Se mer",
         "same_day": "Obs! Meddelandet skickas samma dag som det skapades.",
-        "published": "@@ publicerades.",
-        "moved_out": "@@ borttagen ",
-        "notify_me": "Meddela mig!",
-        "hours_ago": "timmar sedan",
+        "see_more": "Se mer",
+        "sent_ann": "Meddelandet skickat.",
+        "moved_in": "@@ tillagd ",
+        "hour_ago": "timme sedan",
         "team_name": "i gruppen @@.",
+        "hours_ago": "timmar sedan",
+        "notify_me": "Meddela mig!",
+        "moved_out": "@@ borttagen ",
+        "published": "@@ publicerades.",
+        "second_ago": "sekund sedan",
         "minute_ago": "minut sedan",
         "requesting": "@@ begär åtkomst till @@. Klicka för att godkänna denna förfrågan.",
         "team_vecta": "Team Vecta",
         "create_ann": "Skapa ett meddelande",
         "moment_ago": "Ett ögonblick sen",
-        "second_ago": "sekund sedan",
         "minutes_ago": "minuter sedan",
         "seconds_ago": "sekunder sedan",
         "style_message": "Ingen HTML tack.",
         "your_dashboard": "på din kontrollpanel",
         "access_changed": "Your access has been changed from @@ to @@ ",
         "drawing_updated": "@@ uppdateras ",
-        "permission_given": "Push-meddelanden är nu aktiverade. <br /> Välkommen ombord på Vecta!",
-        "new_announcement": "Meddelande",
         "request_accepted": "Din begäran om åtkomst till @@ har beviljats. Klicka för att lägga till den här ritningen på din kontrollpanel.",
+        "new_announcement": "Meddelande",
+        "permission_given": "Push-meddelanden är nu aktiverade. <br /> Välkommen ombord på Vecta!",
         "denied_permission": "Okej, vi kommer att minnas ditt beslut och inte skicka push-meddelanden till dig.",
         "request_permission": "Hej @@, <br /> <br /> Bli anmäld av Vecta när dina lagkamrater gör en förändring i ditt lag eller ritning. <br /> <br /> Vill du aktivera push notifieringar?"
-    },
-    "slack": {
-        "add": "Lägg till i Slack",
-        "confirm": "Gruppen har tagits bort",
-        "settings": "Inställningar",
-        "add_more": "Lägga till mer",
-        "no_teams": "Du har inte integrerat något Slack-team till Vecta.",
-        "contacting": "Kontaktar Slack",
-        "link_shared": "Delbar länk skickad.",
-        "added_teams": "Tillagda Slack grupper",
-        "channel_team": "Välj en kanal för att skapa lag",
-        "code_invalid": "Koden är ogiltig. Försök att integrera Slack igen.",
-        "user_welcome": "Tack för att du installerade Vecta for Slack. Du kan nu börja bjuda in dina lagmedlemmar till Vecta och dela tecknings länkar till någon av kanalerna i det här laget.",
-        "channel_link": "Välj en kanal för att dela länken",
-        "channel_noti": "Välj en kanal för att skicka meddelanden",
-        "group_message": "Gruppmeddelanden med",
-        "team_integrate": "Bjud in dina Slack-lagmedlemmar",
-        "sending_failed": "Kan inte kommunicera med Slack. Vänligen försök att integrera Vecta med Slack igen.",
-        "shared_drawing": "har delat @@ i gruppen.",
-        "mismatched_code": "Vecta kunde inte läggas till ditt Slack team. <br/> Se till att du har klickat på en giltig Slack-knapp från Vecta. <br /> <span class = 'Muted.cls'> Fel: 0013 </ span>",
-        "success_integrate": "Nu kan du bjuda in dina Slack teammedlemmar till Vecta och dela länkar till @@! <br /> Denna sida omdirigeras automatiskt om 10 sekunder."
     },
     "access": {
         "you": "du",
         "and": "och",
         "done": "Klart",
-        "close": "Stäng",
-        "owner": "Ägare",
         "other": "andra",
-        "others": "andra",
+        "owner": "Ägare",
+        "close": "Stäng",
         "remove": "Ta bort",
-        "no_file": "Ritningen du begärde finns inte längre.",
-        "message": "Meddelande (valfritt)",
+        "others": "andra",
         "no_team": "Gruppen existerar inte längre.",
+        "message": "Meddelande (valfritt)",
+        "no_file": "Ritningen du begärde finns inte längre.",
         "can_edit": "Redigera och dela",
+        "accepting": "Acceptera begäran",
+        "not_found": "Hittades inte",
+        "sent_mssg": "Din förfrågan har skickats till ägaren.",
+        "no_access": "Du har inte behörighet till gruppen.",
         "view_only": "Vy endast",
         "left_team": "Du har nu lämnat gruppen.",
-        "no_access": "Du har inte behörighet till gruppen.",
-        "sent_mssg": "Din förfrågan har skickats till ägaren.",
-        "not_found": "Hittades inte",
-        "accepting": "Acceptera begäran",
         "requesting": "Efterfrågar åtkomst",
         "set_access": "Ange ritningsåtkomst till:",
         "shared_url": "Vem har tillgång",
@@ -561,35 +559,35 @@
         "team_members": "Gruppmedlemmar",
         "save_changes": "Spara ändringar",
         "resend_email": "Skicka email igen",
-        "shared_emails": "Email",
-        "access_denied": "Åtkomst nekad",
-        "no_permission": "Du har inte behörighet att komma åt den här gruppen eller filen.",
-        "remove_member": "Ta bort medlem",
-        "invite_failed": "Det gick inte att skicka email-inbjudningar. Vänligen klicka på knappen 'Medlemmar' i gruppen och försök igen.",
         "search_shares": "Kontrollera för delade användare",
-        "accept_request": "Tillåt åtkomst",
-        "update_pass_ok": "Uppdatering lyckad",
-        "shareable_link": "Få delbar länk",
-        "access_removed": "Åtkomst har tagits bort.",
-        "ask_permission": "Be ägaren om åtkomst, eller byt till ett konto med behörighet.",
-        "pending_invite": "Pågående inbjudan",
-        "reset_password": "Återställ ditt lösenord",
-        "get_shared_url": "Hämta länk som kan delas",
-        "manage_request": "Hantera åtkomst",
-        "private_access": "Privat",
-        "request_access": "Begär åtkomst",
-        "removing_files": "Ta bort ritningar och mappar",
-        "switch_account": "Byt konto",
-        "access_changed": "Tillgång till ritning har ändrats.",
-        "access_ignored": "Du har nekat förfrågan. Den sökande kommer att bli underrättad om ditt beslut.",
+        "invite_failed": "Det gick inte att skicka email-inbjudningar. Vänligen klicka på knappen 'Medlemmar' i gruppen och försök igen.",
+        "remove_member": "Ta bort medlem",
+        "no_permission": "Du har inte behörighet att komma åt den här gruppen eller filen.",
+        "access_denied": "Åtkomst nekad",
+        "shared_emails": "Email",
         "ignore_request": "Neka begäran",
+        "access_ignored": "Du har nekat förfrågan. Den sökande kommer att bli underrättad om ditt beslut.",
+        "access_changed": "Tillgång till ritning har ändrats.",
+        "switch_account": "Byt konto",
+        "removing_files": "Ta bort ritningar och mappar",
+        "request_access": "Begär åtkomst",
+        "private_access": "Privat",
+        "manage_request": "Hantera åtkomst",
+        "get_shared_url": "Hämta länk som kan delas",
+        "reset_password": "Återställ ditt lösenord",
+        "pending_invite": "Pågående inbjudan",
+        "ask_permission": "Be ägaren om åtkomst, eller byt till ett konto med behörighet.",
+        "access_removed": "Åtkomst har tagits bort.",
+        "shareable_link": "Få delbar länk",
+        "update_pass_ok": "Uppdatering lyckad",
+        "accept_request": "Tillåt åtkomst",
         "items_no_access": "Vissa innehåll flyttas inte till den valda destinationen eftersom <br /> du har begränsat tillstånd för dem, eller det är inte tillåtet att börja med.",
         "send_reset_pass": "en återsällningsbar länk har skickats till ",
         "check_ownership": "Kontrollerar ägande",
         "private_drawing": "Endast inbjudna användare har tillgång till den här ritningen",
-        "request_details": " har begärt åtkomst ",
-        "who_have_access": "Vem har åtkomst",
         "access_modified": "Åtkomst har ändrats.",
+        "who_have_access": "Vem har åtkomst",
+        "request_details": " har begärt åtkomst ",
         "update_pass_mssg": "Ditt lösenord har uppdaterats.",
         "move_same_parent": "Du är redan i mappen.",
         "public_view_help": "Vem som helst kan se denna ritning utan att logga in",
@@ -597,22 +595,22 @@
         "click_reset_pass": "Klicka på länken i e-postmeddelandet för att återställa ditt lösenord",
         "update_pass_error": "Uppdatering misslyckad",
         "permission_granted": "Åtkomst har beviljats. Anmälaren har meddelats ditt godkännande.",
-        "update_pass_failed": "Uppdateringen misslyckades, återställningslänken kan ha gått ut.",
         "successfully_moved": "Förflyttning lyckad",
+        "update_pass_failed": "Uppdateringen misslyckades, återställningslänken kan ha gått ut.",
+        "private_access_help": "Begränsad åtkomst för dig och dem som har delad åtkomst",
         "invite_failed_title": "Email-inbjudan misslyckades",
-        "permission_required": "Behörighet krävs",
-        "private_access_help": "Begränsad åtkomst för dig och dem som har delad åtkomst"
+        "permission_required": "Behörighet krävs"
     },
     "question": {
         "hr": "HR / Talanghantering",
         "work": "Abete",
-        "start": "Börja använda Vecta",
-        "title": "Hej @name! <br /><br />Berätta mer om dig själv",
-        "hobby": "Hobby",
         "scope": "Ditt arbetsområde är:",
-        "design": "Design",
-        "school": "Skola",
+        "hobby": "Hobby",
+        "title": "Hej @name! <br /><br />Berätta mer om dig själv",
+        "start": "Börja använda Vecta",
         "select": "-- Välj ett alternativ --",
+        "school": "Skola",
+        "design": "Design",
         "purpose": "Du använder Vecta för:",
         "logistic": "Logistik och försörjningskedja",
         "done_mssg": "Yay! Då kör vi!",
@@ -625,34 +623,69 @@
         "error": "Uppdateringsfel",
         "reset": "Återställ ditt lösenord",
         "update": "Uppdatera lösenord",
-        "error_mssg": "Uppdateringen misslyckades, återställningslänken kan ha gått ut.",
-        "reset_sent": "Klicka på länken i e-postmeddelandet för att återställa ditt lösenord",
-        "send_reset": "En återställnings länk har skickats till ",
         "successful": "Uppdatering lyckad",
+        "send_reset": "En återställnings länk har skickats till ",
+        "reset_sent": "Klicka på länken i e-postmeddelandet för att återställa ditt lösenord",
+        "error_mssg": "Uppdateringen misslyckades, återställningslänken kan ha gått ut.",
         "retype_pass": "Skriv lösenord igen",
         "resend_email": "Skicka email igen",
         "successful_mssg": "Ditt lösenord har uppdaterats."
     },
-    "publish": {
-        "stop": "Ritning borttagen från offentlig publicering.",
-        "done": "Ritning framgångsrikt publicerad på webben.",
-        "error": "Inga former finns. Du kan inte publicera din nuvarande ritning.",
-        "title": "Publicera på webben",
-        "change": "Publicera ändringar",
-        "remove": "Ta bort publicering",
-        "loading": "Håll fast, kolla publicerad ritning",
-        "copy_link": "Klicka på länken för att kopiera den.",
-        "publishing": "Publiceringsteckning",
-        "confirm_content": "Publicering av denna ritning kommer att göra ditt innehåll synligt för alla på Internet. <br /> Fortsätt?"
+    "onboard": {
+        "next": "Nästa",
+        "skip": "Hoppa över?",
+        "back": "Tillbaka",
+        "create": "Skapa endast lag",
+        "one_step": "Steg 2 av 2. ",
+        "continue": "Bjud in till ett nytt lag",
+        "end_list": "Du har nått slutet av listan.",
+        "team_best": "Vecta fungerar bäst i lag",
+        "two_steps": "Steg 1 av 2. ",
+        "team_start": "Kom igång med att skapa ditt första lag",
+        "select_all": "Välj alla",
+        "team_guide": "Ritningar skapade i ditt lag delas automatiskt bland medlemmar, det är det bästa sättet att maximera produktiviteten.",
+        "final_step": "1 sista steg kvar:",
+        "invite_para": "Få igång ditt lag snabbt med att bjuda in dina kollegor",
+        "invite_header": "Bjud in dina lagkamrater",
+        "welcome_to_vecta": "Välkommen till Vecta!<br /><br />Kom igång med din första ritning.<br />här.",
+        "team_placeholder": "My awesome team",
+        "prompt_create_team": "Skapa ett lag och bjud in dina vänner till att<br />smidigt dela och samarbeta på ritningar i<br />realtid.<br /><br />Klicka bara på '+' tecknet för att skapa ditt<br />första lag.",
+        "prompt_restore_team": "Vet du att du kan återställa ditt<br />lag även fast du slängt det i papperskorgen?",
+        "prompt_create_drawing": "Välkommer tillbaka!<br /><br />Vad vill du skapa idag?",
+        "prompt_restore_drawing": "Vet du att du kan återställa dina<br />ritningar efter att du har slängt  dem i<br />papperskorgen?"
+    },
+    "mssg": {
+        "load_ui": "Laddar sidan...",
+        "loading": "Läser in",
+        "sending": "Skicka potatis",
+        "load_icons": "Laddar symboler...",
+        "commit_mssg": "Anmärkning",
+        "load_publish": "Laddar publicerade ritningar ...",
+        "load_drawing": "Laddar ner hämtad ritning ...",
+        "cannot_upload": "Du måste vara inloggad för att importera bilder till Vecta.",
+        "not_supported": "Webbläsaren stöds inte",
+        "ver_committing": "Lämnar in ritning",
+        "checking_invite": "Kontrollerar din inbjudan",
+        "shape_prop_mssg": "Var god välj en form",
+        "ver_commit_fail": "Inlämning misslyckades. Var god försök igen senare.",
+        "fetching_preview": "Hämtar ritningsförhandsvisning",
+        "fetching_stencil": "Hämtar stencil",
+        "creating_preview": "Skapar förhandsvisning",
+        "download_drawing": "Hämtar ritning ...",
+        "not_supported_png": "Exportera PNG stöds för närvarande inte i Internet Explorer. <br /> Vänligen försök igen med en annan webbläsare.",
+        "not_supported_pdf": "Exportera PDF stöds för närvarande inte i Internet Explorer. <br /> Vänligen försök igen med en annan webbläsare.",
+        "fetching_channels": "Hämtar Slack kanaler",
+        "ver_commit_success": "Inlämning slutförd.",
+        "template_create_fail": "Mallen får inte vara en tom ritning."
     },
     "email": {
-        "remind": "har påmint dig att gå med i gruppen",
         "slogan": "Vecta: Realtidssamarbete för team",
-        "waiting": "väntar på att du går med i gruppen",
+        "remind": "har påmint dig att gå med i gruppen",
         "welcome": "Välkommen till Vecta!",
-        "with_you": "med dig på Vecta.io",
-        "on_vecta": "på Vecta.io",
+        "waiting": "väntar på att du går med i gruppen",
         "rejected": "har nekat din begäran om åtkomst",
+        "on_vecta": "på Vecta.io",
+        "with_you": "med dig på Vecta.io",
         "join_team": "har bjudit in dig att gå med i gruppen",
         "has_shared": "har delat",
         "team_button": "Bli medlem",
@@ -666,52 +699,17 @@
         "manage_access": "Godkänn eller neka den här förfrågan",
         "team_instruction": "Vänligen klicka på knappen nedan och logga in för att komma åt din grupps ritningar."
     },
-    "mssg": {
-        "sending": "Skicka potatis",
-        "loading": "Läser in",
-        "load_ui": "Laddar sidan...",
-        "load_icons": "Laddar symboler...",
-        "commit_mssg": "Anmärkning",
-        "load_publish": "Laddar publicerade ritningar ...",
-        "load_drawing": "Laddar ner hämtad ritning ...",
-        "cannot_upload": "Du måste vara inloggad för att importera bilder till Vecta.",
-        "not_supported": "Webbläsaren stöds inte",
-        "ver_committing": "Lämnar in ritning",
-        "ver_commit_fail": "Inlämning misslyckades. Var god försök igen senare.",
-        "shape_prop_mssg": "Var god välj en form",
-        "checking_invite": "Kontrollerar din inbjudan",
-        "fetching_preview": "Hämtar ritningsförhandsvisning",
-        "download_drawing": "Hämtar ritning ...",
-        "creating_preview": "Skapar förhandsvisning",
-        "fetching_stencil": "Hämtar stencil",
-        "not_supported_png": "Exportera PNG stöds för närvarande inte i Internet Explorer. <br /> Vänligen försök igen med en annan webbläsare.",
-        "fetching_channels": "Hämtar Slack kanaler",
-        "not_supported_pdf": "Exportera PDF stöds för närvarande inte i Internet Explorer. <br /> Vänligen försök igen med en annan webbläsare.",
-        "ver_commit_success": "Inlämning slutförd.",
-        "template_create_fail": "Mallen får inte vara en tom ritning."
-    },
-    "onboard": {
-        "back": "Tillbaka",
-        "skip": "Hoppa över?",
-        "next": "Nästa",
-        "create": "Skapa endast lag",
-        "one_step": "Steg 2 av 2. ",
-        "continue": "Bjud in till ett nytt lag",
-        "end_list": "Du har nått slutet av listan.",
-        "two_steps": "Steg 1 av 2. ",
-        "team_best": "Vecta fungerar bäst i lag",
-        "final_step": "1 sista steg kvar:",
-        "team_guide": "Ritningar skapade i ditt lag delas automatiskt bland medlemmar, det är det bästa sättet att maximera produktiviteten.",
-        "select_all": "Välj alla",
-        "team_start": "Kom igång med att skapa ditt första lag",
-        "invite_para": "Få igång ditt lag snabbt med att bjuda in dina kollegor",
-        "invite_header": "Bjud in dina lagkamrater",
-        "welcome_to_vecta": "Välkommen till Vecta!<br /><br />Kom igång med din första ritning.<br />här.",
-        "team_placeholder": "My awesome team",
-        "prompt_create_team": "Skapa ett lag och bjud in dina vänner till att<br />smidigt dela och samarbeta på ritningar i<br />realtid.<br /><br />Klicka bara på '+' tecknet för att skapa ditt<br />första lag.",
-        "prompt_restore_team": "Vet du att du kan återställa ditt<br />lag även fast du slängt det i papperskorgen?",
-        "prompt_create_drawing": "Välkommer tillbaka!<br /><br />Vad vill du skapa idag?",
-        "prompt_restore_drawing": "Vet du att du kan återställa dina<br />ritningar efter att du har slängt  dem i<br />papperskorgen?"
+    "publish": {
+        "done": "Ritning framgångsrikt publicerad på webben.",
+        "stop": "Ritning borttagen från offentlig publicering.",
+        "title": "Publicera på webben",
+        "error": "Inga former finns. Du kan inte publicera din nuvarande ritning.",
+        "remove": "Ta bort publicering",
+        "change": "Publicera ändringar",
+        "loading": "Håll fast, kolla publicerad ritning",
+        "copy_link": "Klicka på länken för att kopiera den.",
+        "publishing": "Publiceringsteckning",
+        "confirm_content": "Publicering av denna ritning kommer att göra ditt innehåll synligt för alla på Internet. <br /> Fortsätt?"
     },
     "signup": {
         "failed": "Registrering misslyckades",
@@ -723,21 +721,204 @@
         "creating_account": "Skapar Vecta konto",
         "ask_create_account": "<p>Det verkar som om du har loggat in, men vi kan inte hitta dig i något register.</p><p>Vänligen klicka på knappen nedan för att börja spara och dela dina ritningar direkt!</p>"
     },
-    "verify": {
-        "failed": "Verifiering misslyckades",
-        "update": "Uppdatera",
-        "resend": "Skicka om bekräftelse mail",
-        "confirm": "Bekräfta din emailadress",
-        "landing": "Gå till Vecta.io",
-        "verifying": "Verifierar",
-        "successful": "Verifiering lyckad",
-        "signin_now": "Logga in nu",
-        "failed_mssg": "Vi är ledsna, men det verkar som om verifieringslänken har löpt ut. Logga in för att skicka verifierings-mail igen.",
-        "successful_mssg": "Du kan nu logga in på Vecta och börja rita. Glöm inte att bjuda in ditt team och börja samarbeta.",
-        "password_updated": "Ditt lösenord har uppdaterats",
-        "activate_account": "Klicka på länken i e-postmeddelandet för att aktivera ditt konto.",
-        "send_confirmation": "Ett bekräftelsemail har skickats till ",
-        "confirmation_sent": "Bekräftelsemeddelande skickat"
+    "stencil": {
+        "check": "Kontrollera stencil status",
+        "loading": "Hämtar symboler",
+        "removed": "Vissa stenciler flyttas inte eftersom den har tagits bort, eller du får inte börja med det.",
+        "no_exist": "Stencilen finns inte längre.",
+        "aws": {
+            "name": "Amazon Web Services",
+            "desc": ""
+        },
+        "stencils": "Stenciler",
+        "imported": "Importering av data slutförd",
+        "importing": "Importerar data",
+        "google": {
+            "desc": "",
+            "name": "Google"
+        },
+        "drop_shapes": "Släpp former här",
+        "stencil_cat": "Stencil kategori (Separate med komma)",
+        "non_reverse": "Radera",
+        "symbol_tags": "Taggar (Separate med komma)",
+        "confirm_del": "Att radera en stencil är en icke-reversibel åtgärd. <br /> <br /> Är du säker på att du vill radera denna stencil?",
+        "symbol_desc": "Beskrivning",
+        "symbol_name": "Namn",
+        "stencil_name": "Stencil namn",
+        "general": {
+            "name": "Allmänt",
+            "desc": ""
+        },
+        "stencil_desc": "Stencil beskrivning",
+        "load_stencils": "Laddar stenciler...",
+        "total_results": "Resultat hittades",
+        "stencil_3": {
+            "desc": "Googles produktsymboler",
+            "name": "Google"
+        },
+        "stencil_2": {
+            "name": "Business Model Canvas",
+            "desc": "Affärsmodellduk i olika storlekar"
+        },
+        "stencil_9": {
+            "desc": "Amazon Web Services: Beräkna",
+            "name": "AWS Beräkna"
+        },
+        "stencil_5": {
+            "name": "AWS Analytics",
+            "desc": "Amazon Web Services: Analytics"
+        },
+        "public_stencil": "Sätt åtkomst av stencilen till offentlig, ingen inloggning krävs",
+        "create_stencil": "Skapa stencil",
+        "stencil_1": {
+            "name": "Färgglada anteckningar",
+            "desc": "Färgglada noter symboler"
+        },
+        "microsoft": {
+            "desc": "",
+            "name": "Microsoft"
+        },
+        "stencil_8": {
+            "name": "AWS Business Productivity",
+            "desc": "Amazon Web Services: Affärsproduktivitet"
+        },
+        "stencil_0": {
+            "name": "Flödesschema",
+            "desc": "Generella flödesschema symboler"
+        },
+        "stencil_4": {
+            "name": "Google Cloud Platform",
+            "desc": "Google Cloud Platform Symboler"
+        },
+        "stencil_7": {
+            "name": "AWS Artificial Intelligence",
+            "desc": "Amazon Web Services: Konstgjord intelligens"
+        },
+        "no_edit_symbol": "Du har inte behörighet att redigera denna symbol.",
+        "stencil_6": {
+            "name": "AWS Application Services",
+            "desc": "Amazon Web Services: Applikationstjänster"
+        },
+        "stencil_deleted": "Stencil raderad",
+        "stencil_17": {
+            "name": "AWS Messaging",
+            "desc": "Amazon Web Services: Meddelanden"
+        },
+        "stencil_20": {
+            "desc": "Amazon Web Services: Nätverk och innehållsleverans",
+            "name": "AWS Networking & Content Delivery"
+        },
+        "stencil_14": {
+            "name": "AWS General",
+            "desc": "Amazon Web Services: Allmänt"
+        },
+        "stencil_11": {
+            "desc": "Amazon Web Services: Stöd för stationär program",
+            "name": "AWS Desktop App Streaming"
+        },
+        "stencil_24": {
+            "name": "AWS Storage",
+            "desc": "Amazon Web Services: Lagring"
+        },
+        "stencil_32": {
+            "desc": "Microsoft Azure: Intune",
+            "name": "Microsoft Intune"
+        },
+        "stencil_18": {
+            "desc": "Amazon Web Services: Migration",
+            "name": "AWS-migrering"
+        },
+        "stencil_16": {
+            "name": "AWS Management Tools",
+            "desc": "Amazon Web Services: Managementverktyg"
+        },
+        "stencil_15": {
+            "name": "AWS Internet av saker",
+            "desc": "Amazon Web Services: Internet av saker"
+        },
+        "stencil_13": {
+            "name": "AWS Game Development",
+            "desc": "Amazon Web Services: Spelutveckling"
+        },
+        "no_edit_stencil": "Du har inte behörighet att redigera denna stencil.",
+        "stencil_23": {
+            "name": "AWS Security Identity & Compliance",
+            "desc": "Amazon Web Services: Identitet och överensstämmelse"
+        },
+        "stencil_25": {
+            "desc": "Allmänna webbteknologisymboler",
+            "name": "Webteknologier"
+        },
+        "stencil_28": {
+            "name": "Microsoft Azure Color",
+            "desc": "Microsoft Azure: Färg symboler"
+        },
+        "stencil_19": {
+            "desc": "Amazon Web Services: Mobila tjänster",
+            "name": "AWS Mobile Services"
+        },
+        "stencil_21": {
+            "name": "AWS On Demand Workforce",
+            "desc": "Amazon Web Services: On-demand arbetskraft"
+        },
+        "stencil_29": {
+            "name": "Microsoft virtuella maskiner",
+            "desc": "Microsoft Azure: Virtuella maskiner"
+        },
+        "stencil_27": {
+            "name": "Microsoft Azure Mono",
+            "desc": "Microsoft Azure: Svartvita symboler"
+        },
+        "stencil_26": {
+            "name": "Färgrika dokument och mappar",
+            "desc": "Färgglada dokument- och mappsymboler"
+        },
+        "stencil_33": {
+            "name": "Microsoft Office Products",
+            "desc": "Microsoft Azure: Kontorsprodukter"
+        },
+        "stencil_12": {
+            "desc": "Amazon Web Services: Utvecklarverktyg",
+            "name": "AWS Developer Tools"
+        },
+        "stencil_31": {
+            "desc": "Microsoft Azure: Enterprise",
+            "name": "Microsoft Enterprise"
+        },
+        "stencil_30": {
+            "desc": "Microsoft Azure: Systems center",
+            "name": "Microsoft Systems Center"
+        },
+        "untitled_symbol": "Namnlös symbol",
+        "stencil_10": {
+            "name": "AWS-databasen",
+            "desc": "Amazon Web Services: Databas"
+        },
+        "stencil_22": {
+            "name": "AWS SDKs",
+            "desc": "Amazon Web Services: Programvaruutvecklingssatser"
+        },
+        "search_sym_place": "Tryck på enter för att börja söka",
+        "untitled_stencil": "Namnlös stencil",
+        "no_delete_symbol": "Du har inte behörighet att radera den här symbolen.",
+        "stencil_cat_place": "Dev. symboler, 011 Symboler",
+        "login_make_symbol": "Logga in för att skapa en symbol."
+    },
+    "preload": {
+        "guide": "Använd guider för att anpassa och ordna former på ritningarna",
+        "search": "Leta efter ritningar, mappar eller lag med lätthet",
+        "layers": "Använd lag för att gömma eller visa relevant information",
+        "import": "Dra och släpp bara för att importera bilder",
+        "metrics": "Högerklicka på linjaler för att ställa in dina egna mätenheter",
+        "shortcuts": "Rita snabbare med dessa kortkommandon",
+        "duplicate": "Dubbla former med CTRL + Drag + Drop",
+        "shape-link": "Lägg till hyperlänkar i former för snabb åtkomst till webbplatser",
+        "create-team": "Skapa lag för att enkelt dela ritningar",
+        "save-symbols": "Dra och släpp till din anpassade stencil för att återanvända symboler",
+        "find-replace": "Sök enkelt efter text med Ctrl + F",
+        "share-drawing": "Använd länkar för att dela ritningar på sociala medier",
+        "invite-members": "Bjud medlemmarna att få ditt lag igång i Vecta",
+        "shape-properties": "Ändra former med hjälp av uttryck för hög noggrannhet"
     },
     "tips": {
         "Lock": {
@@ -797,26 +978,29 @@
         "delete": {
             "icon": "Radera"
         },
-        "profile": {
-            "icon": "Profil"
-        },
-        "arrange": {
-            "icon": "Arrangera z-ordning för<br/>valda former"
-        },
-        "descend": {
-            "icon": "Ändra sorteringsriktning"
+        "pointer": {
+            "icon": "Pekverktyget<br/>(Ctrl-1)"
         },
         "zoom_in": {
             "icon": "Zooma in<br/>Ctrl + mushjulet"
         },
-        "pointer": {
-            "icon": "Pekverktyget<br/>(Ctrl-1)"
+        "descend": {
+            "icon": "Ändra sorteringsriktning"
         },
-        "feedback": {
-            "icon": "Lämna feedback"
+        "arrange": {
+            "icon": "Arrangera z-ordning för<br/>valda former"
+        },
+        "profile": {
+            "icon": "Profil"
+        },
+        "line_end": {
+            "icon": "Linjeslut"
         },
         "chat_box": {
             "icon": "Chat"
+        },
+        "feedback": {
+            "icon": "Lämna feedback"
         },
         "zoom_fit": {
             "icon": "Zooma för att passa sidstorleken"
@@ -824,29 +1008,29 @@
         "zoom_out": {
             "icon": "Zooma ut<br/>Ctrl + mushjulet"
         },
-        "line_end": {
-            "icon": "Linjeslut"
+        "dashboard": {
+            "icon": "Gå till kontrollpanelen"
         },
         "font_size": {
             "icon": "Textstorlek"
         },
-        "dashboard": {
-            "icon": "Gå till kontrollpanelen"
-        },
-        "underline": {
-            "icon": "Understrykning"
-        },
-        "is_public": {
-            "icon": "Vem som helst kan få tillgång till"
-        },
-        "file_name": {
-            "icon": "Byt namn på ritning"
+        "draw_path": {
+            "icon": "Rita en bana, båge, kurva<br/>eller på frihand (Ctrl-4)"
         },
         "draw_rect": {
             "icon": "Rita en rektangel<br/>(Ctrl-2)"
         },
-        "draw_path": {
-            "icon": "Rita en bana, båge, kurva<br/>eller på frihand (Ctrl-4)"
+        "file_name": {
+            "icon": "Byt namn på ritning"
+        },
+        "is_public": {
+            "icon": "Vem som helst kan få tillgång till"
+        },
+        "underline": {
+            "icon": "Understrykning"
+        },
+        "fill_color": {
+            "icon": "Fyllnadsfärg"
         },
         "line_style": {
             "icon": "Linjestil"
@@ -875,8 +1059,17 @@
         "move_trash": {
             "icon": "Flytta till papperskorgen"
         },
-        "fill_color": {
-            "icon": "Fyllnadsfärg"
+        "color_trans": {
+            "help": "Transparens<br/>0-100 / 0%-100% / 0-1"
+        },
+        "set_public": {
+            "label": "Vem som helst kan få tillgång till"
+        },
+        "save_record": {
+            "icon": "Exportera makros"
+        },
+        "font_family": {
+            "icon": "Teckensnitt"
         },
         "play_record": {
             "icon": "Spela makros"
@@ -887,18 +1080,6 @@
         "line_weight": {
             "icon": "Linjestyrka"
         },
-        "font_family": {
-            "icon": "Teckensnitt"
-        },
-        "save_record": {
-            "icon": "Exportera makros"
-        },
-        "set_public": {
-            "label": "Vem som helst kan få tillgång till"
-        },
-        "color_trans": {
-            "help": "Transparens<br/>0-100 / 0%-100% / 0-1"
-        },
         "pause_record": {
             "icon": "Pausa makron"
         },
@@ -908,258 +1089,77 @@
         "round_corner": {
             "icon": "Runda hörn"
         },
+        "draw_connector": {
+            "icon": "Rita anslutningar<br/>(Ctrl-6)"
+        },
         "format_painter": {
             "icon": "Formateringsverktyg<br/>(Ctrl-7)"
         },
         "draw_textblock": {
             "icon": "Rita, flytta, ändra storlek eller<br />rotera text (Ctrl-5)"
         },
-        "draw_connector": {
-            "icon": "Rita anslutningar<br/>(Ctrl-6)"
-        },
         "line_end_format": {
             "icon": "Linjeformat",
             "menu": {
-                "[2,2]": "Båda stora",
                 "[0,2]": "Sluta stora",
-                "[1,1]": "Båda små",
                 "[1,0]": "Börja små",
+                "[1,1]": "Båda små",
+                "[2,2]": "Båda stora",
                 "[2,0]": "Börja stort",
                 "[0,1]": "Avsluta små",
-                "[0,1": {
-                    "5]": "Slutmedium"
-                },
                 "[1": {
                     "5,0]": "Börja mediet",
                     "5,1": {
                         "5]": "Båda mediet"
                     }
                 },
+                "[0,1": {
+                    "5]": "Slutmedium"
+                },
                 "linecap_butt": "Linecap butt hej världen",
                 "linecap_round": "Linecap rund",
-                "linejoin_miter": "Linejoin miter",
-                "linejoin_round": "Linejoin runda",
                 "linecap_square": "Linecap square",
-                "linejoin_bevel": "Linejoin bevel"
+                "linejoin_miter": "Linejoin miter",
+                "linejoin_bevel": "Linejoin bevel",
+                "linejoin_round": "Linejoin runda"
             }
         },
         "draw_conn_points": {
             "icon": "Anslutningspunkt <br/> (Skift + Ctrl-6)"
         }
     },
-    "preload": {
-        "guide": "Använd guider för att anpassa och ordna former på ritningarna",
-        "search": "Leta efter ritningar, mappar eller lag med lätthet",
-        "layers": "Använd lag för att gömma eller visa relevant information",
-        "import": "Dra och släpp bara för att importera bilder",
-        "metrics": "Högerklicka på linjaler för att ställa in dina egna mätenheter",
-        "shortcuts": "Rita snabbare med dessa kortkommandon",
-        "duplicate": "Dubbla former med CTRL + Drag + Drop",
-        "shape-link": "Lägg till hyperlänkar i former för snabb åtkomst till webbplatser",
-        "create-team": "Skapa lag för att enkelt dela ritningar",
-        "save-symbols": "Dra och släpp till din anpassade stencil för att återanvända symboler",
-        "find-replace": "Sök enkelt efter text med Ctrl + F",
-        "share-drawing": "Använd länkar för att dela ritningar på sociala medier",
-        "invite-members": "Bjud medlemmarna att få ditt lag igång i Vecta",
-        "shape-properties": "Ändra former med hjälp av uttryck för hög noggrannhet"
-    },
-    "stencil": {
-        "check": "Kontrollera stencil status",
-        "removed": "Vissa stenciler flyttas inte eftersom den har tagits bort, eller du får inte börja med det.",
-        "loading": "Hämtar symboler",
-        "imported": "Importering av data slutförd",
-        "stencils": "Stenciler",
-        "aws": {
-            "name": "Amazon Web Services",
-            "desc": ""
-        },
-        "no_exist": "Stencilen finns inte längre.",
-        "importing": "Importerar data",
-        "symbol_desc": "Beskrivning",
-        "confirm_del": "Att radera en stencil är en icke-reversibel åtgärd. <br /> <br /> Är du säker på att du vill radera denna stencil?",
-        "symbol_tags": "Taggar (Separate med komma)",
-        "non_reverse": "Radera",
-        "stencil_cat": "Stencil kategori (Separate med komma)",
-        "drop_shapes": "Släpp former här",
-        "symbol_name": "Namn",
-        "google": {
-            "name": "Google",
-            "desc": ""
-        },
-        "stencil_desc": "Stencil beskrivning",
-        "general": {
-            "desc": "",
-            "name": "Allmänt"
-        },
-        "stencil_name": "Stencil namn",
-        "load_stencils": "Laddar stenciler...",
-        "stencil_6": {
-            "desc": "Amazon Web Services: Applikationstjänster",
-            "name": "AWS Application Services"
-        },
-        "no_edit_symbol": "Du har inte behörighet att redigera denna symbol.",
-        "stencil_7": {
-            "desc": "Amazon Web Services: Konstgjord intelligens",
-            "name": "AWS Artificial Intelligence"
-        },
-        "stencil_4": {
-            "desc": "Google Cloud Platform Symboler",
-            "name": "Google Cloud Platform"
-        },
-        "stencil_0": {
-            "desc": "Generella flödesschema symboler",
-            "name": "Flödesschema"
-        },
-        "stencil_8": {
-            "desc": "Amazon Web Services: Affärsproduktivitet",
-            "name": "AWS Business Productivity"
-        },
-        "microsoft": {
-            "name": "Microsoft",
-            "desc": ""
-        },
-        "stencil_1": {
-            "desc": "Färgglada noter symboler",
-            "name": "Färgglada anteckningar"
-        },
-        "create_stencil": "Skapa stencil",
-        "stencil_3": {
-            "name": "Google",
-            "desc": "Googles produktsymboler"
-        },
-        "public_stencil": "Sätt åtkomst av stencilen till offentlig, ingen inloggning krävs",
-        "stencil_5": {
-            "desc": "Amazon Web Services: Analytics",
-            "name": "AWS Analytics"
-        },
-        "stencil_9": {
-            "name": "AWS Beräkna",
-            "desc": "Amazon Web Services: Beräkna"
-        },
-        "stencil_2": {
-            "desc": "Affärsmodellduk i olika storlekar",
-            "name": "Business Model Canvas"
-        },
-        "stencil_19": {
-            "desc": "Amazon Web Services: Mobila tjänster",
-            "name": "AWS Mobile Services"
-        },
-        "stencil_21": {
-            "name": "AWS On Demand Workforce",
-            "desc": "Amazon Web Services: On-demand arbetskraft"
-        },
-        "stencil_29": {
-            "name": "Microsoft virtuella maskiner",
-            "desc": "Microsoft Azure: Virtuella maskiner"
-        },
-        "stencil_27": {
-            "name": "Microsoft Azure Mono",
-            "desc": "Microsoft Azure: Svartvita symboler"
-        },
-        "stencil_26": {
-            "name": "Färgrika dokument och mappar",
-            "desc": "Färgglada dokument- och mappsymboler"
-        },
-        "stencil_33": {
-            "name": "Microsoft Office Products",
-            "desc": "Microsoft Azure: Kontorsprodukter"
-        },
-        "stencil_12": {
-            "desc": "Amazon Web Services: Utvecklarverktyg",
-            "name": "AWS Developer Tools"
-        },
-        "stencil_30": {
-            "desc": "Microsoft Azure: Systems center",
-            "name": "Microsoft Systems Center"
-        },
-        "untitled_symbol": "Namnlös symbol",
-        "stencil_10": {
-            "name": "AWS-databasen",
-            "desc": "Amazon Web Services: Databas"
-        },
-        "stencil_22": {
-            "name": "AWS SDKs",
-            "desc": "Amazon Web Services: Programvaruutvecklingssatser"
-        },
-        "stencil_31": {
-            "name": "Microsoft Enterprise",
-            "desc": "Microsoft Azure: Enterprise"
-        },
-        "stencil_28": {
-            "desc": "Microsoft Azure: Färg symboler",
-            "name": "Microsoft Azure Color"
-        },
-        "stencil_25": {
-            "name": "Webteknologier",
-            "desc": "Allmänna webbteknologisymboler"
-        },
-        "stencil_23": {
-            "desc": "Amazon Web Services: Identitet och överensstämmelse",
-            "name": "AWS Security Identity & Compliance"
-        },
-        "no_edit_stencil": "Du har inte behörighet att redigera denna stencil.",
-        "stencil_13": {
-            "desc": "Amazon Web Services: Spelutveckling",
-            "name": "AWS Game Development"
-        },
-        "stencil_15": {
-            "desc": "Amazon Web Services: Internet av saker",
-            "name": "AWS Internet av saker"
-        },
-        "stencil_16": {
-            "desc": "Amazon Web Services: Managementverktyg",
-            "name": "AWS Management Tools"
-        },
-        "stencil_18": {
-            "name": "AWS-migrering",
-            "desc": "Amazon Web Services: Migration"
-        },
-        "stencil_32": {
-            "name": "Microsoft Intune",
-            "desc": "Microsoft Azure: Intune"
-        },
-        "stencil_24": {
-            "desc": "Amazon Web Services: Lagring",
-            "name": "AWS Storage"
-        },
-        "stencil_11": {
-            "name": "AWS Desktop App Streaming",
-            "desc": "Amazon Web Services: Stöd för stationär program"
-        },
-        "stencil_14": {
-            "desc": "Amazon Web Services: Allmänt",
-            "name": "AWS General"
-        },
-        "stencil_20": {
-            "name": "AWS Networking & Content Delivery",
-            "desc": "Amazon Web Services: Nätverk och innehållsleverans"
-        },
-        "stencil_17": {
-            "desc": "Amazon Web Services: Meddelanden",
-            "name": "AWS Messaging"
-        },
-        "stencil_deleted": "Stencil raderad",
-        "no_delete_symbol": "Du har inte behörighet att radera den här symbolen.",
-        "untitled_stencil": "Namnlös stencil",
-        "stencil_cat_place": "Dev. symboler, 011 Symboler",
-        "login_make_symbol": "Logga in för att skapa en symbol."
+    "verify": {
+        "resend": "Skicka om bekräftelse mail",
+        "update": "Uppdatera",
+        "failed": "Verifiering misslyckades",
+        "confirm": "Bekräfta din emailadress",
+        "landing": "Gå till Vecta.io",
+        "verifying": "Verifierar",
+        "signin_now": "Logga in nu",
+        "successful": "Verifiering lyckad",
+        "failed_mssg": "Vi är ledsna, men det verkar som om verifieringslänken har löpt ut. Logga in för att skicka verifierings-mail igen.",
+        "successful_mssg": "Du kan nu logga in på Vecta och börja rita. Glöm inte att bjuda in ditt team och börja samarbeta.",
+        "password_updated": "Ditt lösenord har uppdaterats",
+        "activate_account": "Klicka på länken i e-postmeddelandet för att aktivera ditt konto.",
+        "send_confirmation": "Ett bekräftelsemail har skickats till ",
+        "confirmation_sent": "Bekräftelsemeddelande skickat"
     },
     "settings": {
         "sound": "Spela ljud när:",
         "reading": "Läsläge",
         "noti": {
             "push": "Aktivera skrivbordsmeddelanden",
-            "trashed": "Skräpte en ritning, mapp eller stencil",
+            "created": "Skapat en ny ritning, mapp eller stencil",
             "renamed": "Byt namn på en ritning, mapp eller stencil",
-            "created": "Skapat en ny ritning, mapp eller stencil"
+            "trashed": "Skräpte en ritning, mapp eller stencil"
         },
+        "receive_noti": "Meddela mig när en lagmedlem:",
         "general": {
             "lang": "Språk",
-            "new_user": "Samarbetare går med i redigering",
             "new_mssg": "Meddelandet om chattlådan har tagits emot",
+            "new_user": "Samarbetare går med i redigering",
             "sym_resize": "Ändra automatiskt symboler för att snäppa på rutnätet"
-        },
-        "receive_noti": "Meddela mig när en lagmedlem:"
+        }
     },
     "integrate": {
         "error": "Något har gått fel ...",
