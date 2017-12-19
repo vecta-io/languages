@@ -209,7 +209,6 @@
     "access": {
         "close": "Close",
         "shared_url": "Who can access",
-        "contact_fb": "Contacting Facebook",
         "private_drawing": "Only invited users can access this drawing",
         "public_edit": "Anyone with this link can edit this drawing",
         "public_view": "Anyone with this link can view this drawing",
@@ -447,11 +446,15 @@
         "shared_drawing": "has shared @@ with the team.",
         "settings": "Settings",
         "channel_noti": "Choose a channel to send notifications",
+        "channel_team": "Choose a channel to integrate with your team",
+        "connect_team_title": "Connect your team to a Slack channel",
+        "connect_team": "Connect team",
+        "connecting_team": "Connecting team",
         "link_shared": "Drawing link sent.",
         "success_integrate": "You can now invite your Slack team members to Vecta and share links to @@! <br /> This page will automatically redirect in 10 seconds.",
         "channel_link": "Choose a channel to share the link",
         "confirm": "Team successfully removed.",
-        "team_integrate": "Invite your Slack team members",
+        "team_integrate": "Invite your Slack channel",
         "code_invalid": "The code is invalid. Please retry Slack integration.",
         "mismatched_code": "Vecta could not be added to your Slack team. <br/>Please ensure that you have clicked on a valid Slack button from Vecta. <br /><span class='Muted.cls'>Error: 0013</span>"
     },
@@ -501,6 +504,7 @@
         "reminder_sent": "Reminder sent",
         "try_again": "Try again later",
         "invitation_removed": "Pending invitation removed.",
+        "channel_removed": "Slack channel is removed from the team",
         "check_metauid": "Connecting",
         "has_sent_invite": "You have previously invited these member(s).",
         "no_trash": "Your have no trashed drawings.",
@@ -922,10 +926,6 @@
             "name": "Microsoft Office Products",
             "desc": "Microsoft Azure: Office products"
         },
-        "stencil_34": {
-            "name": "People",
-            "desc": ""
-        },
         "no_exist": "The stencil no longer exists.",
         "create_stencil": "Create stencil",
         "non_reverse": "Delete",
@@ -937,7 +937,7 @@
         "stencil_deleted": "Stencil deleted",
         "stencil_desc": "Stencil description",
         "stencil_cat": "Stencil category (Separate with comma)",
-        "stencil_cat_place": "General, People, Brands",
+        "stencil_cat_place": "Dev. symbols, 011 Symbols",
         "symbol_name": "Name",
         "symbol_desc": "Description",
         "removed": "Some stencils are not moved because it has been removed, or you are not allowed to begin with.",
