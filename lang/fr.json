@@ -6,7 +6,6 @@
         "deg": "deg",
         "url": "Lien URL:",
         "dpi": "dpi",
-        "txty": "Text.Y",
         "view": "Vue",
         "lock": "Verrouiller les modifications de l'interface utilisateur",
         "text": "Texte",
@@ -17,7 +16,7 @@
         "less": "Moins",
         "load": "Charge",
         "txtx": "Text.X",
-        "end_y": "End.Y",
+        "txty": "Text.Y",
         "hsl": [
             "H",
             "S",
@@ -26,17 +25,14 @@
             "g",
             "B"
         ],
+        "end_y": "End.Y",
         "end_x": "End.X",
         "vecta": "Vecta",
         "width": "Largeur",
         "share": "Partager avec d'autres",
         "error": "Erreur",
         "angle": "Angle",
-        "opaque": "Opaque",
-        "height": "la taille",
-        "create": "Créer",
         "saving": "Économie",
-        "cancel": "Annuler",
         "layers": "Couches",
         "no_ids": "Impossible de déplacer l'élément vers la destination. <br /> Veuillez vous assurer que vous avez cliqué sur un objet autorisé.",
         "public": "Public",
@@ -46,6 +42,10 @@
         "resend": "Renvoyer",
         "length": "Longueur",
         "export": "Exportation",
+        "cancel": "Annuler",
+        "opaque": "Opaque",
+        "height": "la taille",
+        "create": "Créer",
         "default": "Défaut",
         "opening": "Ouverture du fichier",
         "begin_x": "Begin.X",
@@ -57,8 +57,8 @@
         "copy_of": "Copie de",
         "sorting": "Tri",
         "begin_y": "Begin.Y",
-        "deleting": "Suppression",
         "feedback": "Retour d'information",
+        "deleting": "Suppression",
         "new_team": "Nouvelle équipe",
         "txtangle": "Texte.Angle",
         "sample_1": "Diagramme de l'équipe",
@@ -69,11 +69,19 @@
         "no_files": "Vous n'avez pas encore de dessin.",
         "txtwidth": "Text.Width",
         "printing": "Pour l'impression",
-        "sample_3": "Bienvenue dans votre équipe",
-        "decimals": "décimales",
-        "download": "Télécharger",
-        "versions": "Versions",
         "round_to": "Arrondir à",
+        "versions": "Versions",
+        "download": "Télécharger",
+        "decimals": "décimales",
+        "sample_3": "Bienvenue dans votre équipe",
+        "only_load": "Charger quand même",
+        "help_size": "Accepte: pt, px. par exemple: 3 pt, 3 px, 3",
+        "no_shapes": "Aucune forme trouvée sur le dessin.",
+        "copy_link": "Copier le lien",
+        "txtheight": "Hauteur du texte",
+        "no_public": "Le dessin n'existe plus ou l'accès est refusé par le propriétaire. <br /> <span class = 'Muted.cls'> Erreur: 0007 </ span>",
+        "team_name": "Nom de l'équipe",
+        "file_menu": "Fichier",
         "no_access": "Le dessin n'existe plus ou l'accès est refusé par le propriétaire. <br /> <span class = 'Muted.cls'> Erreur: 0010 </ span>",
         "try_again": "Réessayez plus tard",
         "control_x": "Control.X1",
@@ -81,29 +89,21 @@
         "no_layers": "Vous n'avez pas de couches.",
         "file_name": "Titre du dessin",
         "control_y": "Control.Y1",
-        "file_menu": "Fichier",
-        "team_name": "Nom de l'équipe",
-        "only_load": "Charger quand même",
-        "help_size": "Accepte: pt, px. par exemple: 3 pt, 3 px, 3",
-        "no_shapes": "Aucune forme trouvée sur le dessin.",
-        "copy_link": "Copier le lien",
-        "txtheight": "Hauteur du texte",
-        "no_public": "Le dessin n'existe plus ou l'accès est refusé par le propriétaire. <br /> <span class = 'Muted.cls'> Erreur: 0007 </ span>",
-        "resolution": "Résolution:",
-        "no_version": "Aucune version antérieure trouvée.",
-        "help_scale": "Accepte: Entiers et décimales. par exemple: 1, 2, 0.5",
-        "export_svg": "Exporter SVG",
-        "control_x1": "Control.X2",
-        "import_svg": "Importation de SVG ...",
-        "must_login": "Le dessin auquel vous essayez d'accéder est privé. <br /> Connectez-vous pour accéder au dessin. <br /> <span class = 'Muted.cls'> Erreur: 0009 </ span>",
-        "background": "Contexte:",
         "control_y1": "Control.Y2",
-        "page_setup": "Mise en page",
         "no_metauid": "Le dessin n'existe plus, ou l'accès est refusé par le propriétaire. <br /> <span class = 'Muted.cls'> Erreur: 0001 </ span> <br /> <span class = 'Muted.cls'> FID: @ @ </ span>",
         "fid_denied": "La permission est refusée pour ce dessin. <br /> <span class = 'Muted.cls'> Erreur: 0003 </ span>",
         "pause_name": "Nom d'enregistrement",
         "no_formula": "Pas de formule",
+        "background": "Contexte:",
+        "must_login": "Le dessin auquel vous essayez d'accéder est privé. <br /> Connectez-vous pour accéder au dessin. <br /> <span class = 'Muted.cls'> Erreur: 0009 </ span>",
+        "import_svg": "Importation de SVG ...",
+        "control_x1": "Control.X2",
+        "export_svg": "Exporter SVG",
+        "help_scale": "Accepte: Entiers et décimales. par exemple: 1, 2, 0.5",
+        "no_version": "Aucune version antérieure trouvée.",
+        "resolution": "Résolution:",
         "no_metafid": "Le dessin n'existe plus. <br /> <span class = 'Muted.cls'> Erreur: 0005 </ span> <br /> <span class = 'Muted.cls'> FID: @@ </ span>",
+        "page_setup": "Mise en page",
         "transparent": "Transparent",
         "export_menu": "Exportation",
         "download_as": "Télécharger en tant que:",
@@ -122,26 +122,26 @@
         "process_xor": "Différence de traitement",
         "no_channels": "Impossible d'obtenir des chaînes. <br /> <span class = 'Muted.cls'> Erreur: 0014 </ span>",
         "loading_ver": "Chargement de la version sélectionnée",
+        "exported_svg": "Vecta does not accept exported svg. <br />Please select files downloaded from the option File > Download Drawing instead.",
+        "diagram_team": "Diagramming pour les équipes",
+        "creating_png": "Création de PNG",
+        "enter_emails": "anakin@darkside.org, emperor@empire.com",
+        "replace_text": "Remplacer",
+        "notification": "Notification",
+        "delete_layer": "Souhaitez-vous conserver les formes ou les supprimer avec la couche?",
+        "replace_with": "Remplacer par",
+        "export_image": "Exporter l'image",
         "sign_up_desc": "Créez gratuitement un compte pour continuer à créer et à partager des dessins avec votre équipe.",
         "moving_trash": "Passer à la corbeille",
         "transparency": "Transparence",
-        "remove_CDATA": "Retirer CDATA",
         "view_stencil": "Vous n'avez pas accès <br /> pour déplacer ce pochoir",
-        "export_image": "Exporter l'image",
-        "replace_with": "Remplacer par",
-        "delete_layer": "Souhaitez-vous conserver les formes ou les supprimer avec la couche?",
-        "notification": "Notification",
-        "replace_text": "Remplacer",
-        "enter_emails": "anakin@darkside.org, emperor@empire.com",
-        "creating_png": "Création de PNG",
-        "diagram_team": "Diagramming pour les équipes",
-        "exported_svg": "Vecta does not accept exported svg. <br />Please select files downloaded from the option File > Download Drawing instead.",
+        "remove_CDATA": "Retirer CDATA",
+        "items_deleted": "Supprimé avec succès",
         "loading_fonts": "Chargement des polices",
         "process_union": "Syndicat de traitement",
         "modify_access": "Modifier l'accès",
         "check_metauid": "De liaison",
         "last_modified": "Dernière modification",
-        "items_deleted": "Supprimé avec succès",
         "search_result": "@@ a trouvé",
         "reminder_sent": "Rappel envoyé",
         "share_drawing": "Partager",
@@ -170,10 +170,9 @@
         "commit_and_load": "Commettre et charger",
         "unsaved_changes": "Vous avez des modifications non enregistrées",
         "type_not_folder": "Le dossier que vous avez demandé n'est pas valide. <br /> <span class = 'Muted.cls'> Erreur: 0008 </ span>",
-        "wrong_file_type": "Actuellement, Vecta n'accepte pas ce type de fichier. (Type supporté: png, jpeg, gif et svg)",
         "exporting_image": "Tenez-vous bien, exportez",
+        "wrong_file_type": "Actuellement, Vecta n'accepte pas ce type de fichier. (Type supporté: png, jpeg, gif et svg)",
         "checking_members": "Vérification des membres",
-        "help_pauserecord": "Entrez un nom pour l'enregistrement mis en pause",
         "invitations_sent": "Invitations envoyées",
         "empty_activepage": "Impossible de lire le dessin, vide la page active. <br /> <span class = 'Muted.cls'> Erreur: 0006 </ span>",
         "link_placeholder": "https://vecta.io",
@@ -182,146 +181,55 @@
         "process_fragment": "Fragment de traitement",
         "custom_linestyle": "Style de ligne personnalisé",
         "untitled_drawing": "Dessin sans titre",
-        "default_recording": "default_recording",
-        "all_changes_saved": "Tous les changements enregistrés",
-        "process_intersect": "Traitement se croisent",
+        "help_pauserecord": "Entrez un nom pour l'enregistrement mis en pause",
         "custom_lineweight": "Poids de trait personnalisé",
+        "all_changes_saved": "Tous les changements enregistrés",
+        "default_recording": "default_recording",
+        "process_intersect": "Traitement se croisent",
         "custom_roundcorner": "Coin rond personnalisé",
         "no_shapes_selected": "Veuillez sélectionner des formes pour cette opération ...",
         "invitation_removed": "En attente d'invitation supprimée.",
         "incomplete_removal": "Certains dessin (s) / dossier (s) ne sont pas supprimés car vous ne disposez pas des autorisations requises.",
         "png_generation_failed": "L'image que vous avez demandée n'a pas pu être générée. <br /> <span class = 'Muted.cls'> Erreur: 0012 </ span>"
     },
-    "page": {
-        "a3": "A3: 420 mm x 297 mm",
-        "a4": "A4: 297 mm x 210 mm",
-        "a5": "A5: 210 mm x 148 mm",
-        "s1": "1: 1 (par défaut)",
-        "a0": "A0: 1189 mm x 841 mm",
-        "a1": "A1: 841 mm x 594 mm",
-        "a2": "A2: 594 mm x 420 mm",
-        "s25": "1: 25",
-        "s50": "1: 50",
-        "s10": "1: 10",
-        "size": "Taille:",
-        "s500": "1: 500",
-        "s100": "1100",
-        "save": "sauvegarder",
-        "s200": "1: 200",
-        "scale": "Échelle",
-        "s1000": "1: 1000",
-        "width": "Largeur",
-        "folio": "Folio: 13 po x 8,5 po",
-        "legal": "Légal: 14 po x 8,5 po",
-        "letter": "Lettre: 11 po x 8,5 po",
-        "custom": "Douane",
-        "ledger": "Ledger: 17 po x 11 po",
-        "height": "la taille",
-        "refresh": "Rafraîchir",
-        "portrait": "Portrait",
-        "cust_size": "Taille personnalisée: (largeur x hauteur)",
-        "landscape": "Paysage",
-        "no_refresh": "Pas maintenant",
-        "orientation": "Orientation:",
-        "page_changed": "La taille de la page a changé. Veuillez rafraîchir votre dessin.",
-        "lang_changed": "La langue sélectionnée a changé. Veuillez actualiser votre page pour que la modification prenne effet.",
-        "duplicate_idea": "Enregistrez une copie modifiable dans mon compte."
-    },
-    "dash": {
-        "in": "dans",
-        "dash": "Tableau de bord",
-        "file": "dessin",
-        "team": "Équipe",
-        "move": "Bouge toi",
-        "trash": "Poubelle",
-        "teams": "Équipes",
-        "moving": "En mouvement",
-        "invite": "Inviter",
-        "folder": "dossier",
-        "members": "Membres",
-        "folders": "Dossiers",
-        "copying": "Copier",
-        "welcome": "Bienvenue",
-        "stencils": "pochoirs",
-        "you_have": "Tu as",
-        "drawings": "dessins",
-        "searching": "Recherche",
-        "not_found": "Aucun résultat trouvé",
-        "templates": "modèles",
-        "check_trash": "Vérification de la corbeille",
-        "create_team": "Créer une équipe",
-        "rename_fail": "Impossible de renommer le fichier car vous n'avez pas les autorisations requises",
-        "create_dash": "Lecture de dessin et de dossiers",
-        "integration": "Intégrations",
-        "team_names": [
-            "Gagnants",
-            "La meilleure équipe jamais constituée",
-            "Amusement",
-            "Impressionnant",
-            "Fantastique",
-            "Content",
-            "Intelligent",
-            "Cool"
-        ],
-        "team_created": "Bienvenue dans votre nouvelle équipe!",
-        "move_to_team": "Déplacer vers une équipe",
-        "move_to_dash": "Déplacer vers le tableau de bord",
-        "invite_email": "Inviter (email)",
-        "create_folder": "Créer un nouveau dossier",
-        "invite_people": "Inviter des gens",
-        "name_your_team": "Nom de l'équipe / du projet",
-        "create_drawing": "Créer un nouveau dessin",
-        "setting_up_dash": "Création de tableau de bord",
-        "loading_folders": "Chargement de dossiers",
-        "pop_up_disabled": "Pop-up désactivé",
-        "setting_up_team": "Créer des équipes",
-        "create_template": "Créer un nouveau modèle",
-        "created_template": "Modèle créé avec succès."
-    },
-    "list": {
-        "sv": "suédois",
-        "ja": "Japonais",
-        "fr": "français",
-        "en": "Anglais"
-    },
     "drop": {
-        "in": "dans",
-        "mm": "mm",
         "px": "px",
-        "xor": "Différence",
-        "cut": "Couper",
-        "0px": "0px",
+        "mm": "mm",
+        "in": "dans",
         "new": "Nouveau",
+        "0px": "0px",
+        "cut": "Couper",
+        "xor": "Différence",
         "5px": "5px",
-        "10px": "10px",
-        "join": "Joindre",
-        "15px": "15px",
-        "lato": "Lato",
-        "copy": "Copie",
-        "edit": "modifier",
-        "open": "Ouvrir",
-        "move": "Déménager à",
-        "trim": "Réduire",
-        "lock": "Verrouiller la forme (s)",
         "back": "Envoyer au fond",
-        "print": "Impression",
-        "leave": "Laisser",
-        "front": "Mettre au premier plan",
-        "paste": "Coller",
-        "group": "Groupe",
-        "arial": "Arial",
-        "align": "Aligner",
-        "share": "Partager",
-        "union": "syndicat",
+        "lock": "Verrouiller la forme (s)",
+        "trim": "Réduire",
+        "move": "Déménager à",
+        "open": "Ouvrir",
+        "edit": "modifier",
+        "copy": "Copie",
+        "lato": "Lato",
+        "15px": "15px",
+        "join": "Joindre",
+        "10px": "10px",
         "slack": "Partager sur Slack",
-        "manage": "Gérer l'accès",
-        "unlock": "Déverrouiller la forme (s)",
-        "roboto": "Roboto",
-        "commit": "Commettre",
-        "rename": "Rebaptiser",
-        "reddit": "Partager sur Reddit",
-        "tahoma": "Tahoma",
+        "union": "syndicat",
+        "share": "Partager",
+        "align": "Aligner",
+        "arial": "Arial",
+        "group": "Groupe",
+        "paste": "Coller",
+        "front": "Mettre au premier plan",
+        "leave": "Laisser",
+        "print": "Impression",
         "delete": "Effacer",
+        "tahoma": "Tahoma",
+        "reddit": "Partager sur Reddit",
+        "rename": "Rebaptiser",
+        "commit": "Commettre",
+        "roboto": "Roboto",
+        "unlock": "Déverrouiller la forme (s)",
+        "manage": "Gérer l'accès",
         "restore": "Restaurer",
         "verdana": "Verdana",
         "arrange": "Organiser",
@@ -340,46 +248,46 @@
         "intersect": "Couper",
         "show_grid": "Afficher la grille",
         "hide_grid": "Masquer la grille",
-        "export_pdf": "Exporter en PDF",
-        "operations": "Opérations",
-        "flip_verti": "Retourner verticalement",
-        "lock_layer": "Verrouiller la couche",
-        "align_left": "Alignez à gauche",
-        "export_png": "Exporter en tant que PNG",
-        "export_jpg": "Exporter en JPG",
-        "sans_serif": "Sans-Serif",
-        "export_svg": "Exporter en SVG",
-        "file_moved": "Le dessin a été déplacé avec succès.",
-        "flip_horiz": "Retourner horizontalement",
-        "page_setup": "Mise en page",
-        "new_folder": "Nouveau dossier",
         "ver_commit": "Commit dessin",
         "delete_all": "Supprimer tout",
-        "align_right": "Aligner à droite",
-        "hide_layers": "Cacher les couches",
-        "show_guides": "Afficher les guides",
-        "insert_link": "Insérer un lien",
-        "restore_all": "Tout restaurer",
-        "share_vecta": "Partager avec des emails",
-        "preferences": "Préférences",
-        "ver_history": "Historique des versions",
-        "hide_guides": "Masquer les guides",
-        "hide_rulers": "Masquer les règles",
+        "new_folder": "Nouveau dossier",
+        "page_setup": "Mise en page",
+        "flip_horiz": "Retourner horizontalement",
+        "file_moved": "Le dessin a été déplacé avec succès.",
+        "export_svg": "Exporter en SVG",
+        "sans_serif": "Sans-Serif",
+        "export_jpg": "Exporter en JPG",
+        "export_png": "Exporter en tant que PNG",
+        "align_left": "Alignez à gauche",
+        "lock_layer": "Verrouiller la couche",
+        "flip_verti": "Retourner verticalement",
+        "operations": "Opérations",
+        "export_pdf": "Exporter en PDF",
         "show_rulers": "Afficher les règles",
-        "edit_symbol": "Modifier le symbole",
+        "align_right": "Aligner à droite",
         "show_layers": "Afficher les calques",
-        "edit_stencil": "Modifier le pochoir",
-        "unlock_layer": "Déverrouiller la couche",
-        "align_bottom": "Aligner le fond",
-        "open_drawing": "Ouvrir un dessin",
-        "align_middle": "Aligner le milieu",
-        "align_center": "Aligner le centre",
-        "assign_layer": "Attribuer à la couche",
-        "clear_guides": "Guides clairs",
-        "rename_layer": "Renommer le calque",
-        "delete_layer": "Supprimer le calque",
-        "select_layer": "Sélectionnez toutes les formes",
+        "edit_symbol": "Modifier le symbole",
+        "hide_rulers": "Masquer les règles",
+        "hide_guides": "Masquer les guides",
+        "ver_history": "Historique des versions",
+        "preferences": "Préférences",
+        "share_vecta": "Partager avec des emails",
+        "restore_all": "Tout restaurer",
+        "insert_link": "Insérer un lien",
+        "show_guides": "Afficher les guides",
+        "hide_layers": "Cacher les couches",
         "folder_moved": "Le dossier a été déplacé avec succès.",
+        "select_layer": "Sélectionnez toutes les formes",
+        "delete_layer": "Supprimer le calque",
+        "rename_layer": "Renommer le calque",
+        "clear_guides": "Guides clairs",
+        "assign_layer": "Attribuer à la couche",
+        "align_center": "Aligner le centre",
+        "align_middle": "Aligner le milieu",
+        "open_drawing": "Ouvrir un dessin",
+        "align_bottom": "Aligner le fond",
+        "unlock_layer": "Déverrouiller la couche",
+        "edit_stencil": "Modifier le pochoir",
         "hide_chat_box": "Masquer la boîte de discussion",
         "anonymous_pro": "Pro anonyme",
         "show_sym_name": "Afficher les noms d'icônes",
@@ -390,42 +298,134 @@
         "close_stencil": "Fermer",
         "creation_date": "Date de création",
         "move_to_trash": "Mettre à la corbeille",
-        "export_stencil": "Exportation",
         "import_stencil": "Importer",
         "hide_published": "Masquer lors de la publication",
         "update_preview": "Aperçu de mise à jour",
         "show_published": "Montrer quand publié",
-        "publish_drawing": "Publier le dessin",
-        "hide_properties": "Masquer les propriétés",
+        "export_stencil": "Exportation",
         "show_properties": "Afficher les propriétés",
         "printable_layer": "Couche imprimable",
+        "publish_drawing": "Publier le dessin",
+        "hide_properties": "Masquer les propriétés",
         "download_drawing": "Télécharger",
         "template_drawing": "Faire un modèle",
         "roboto_condensed": "Roboto condensé",
         "nonprintable_layer": "Couche non imprimable",
         "last_modified_by_me": "Dernière modification par moi"
     },
+    "list": {
+        "en": "Anglais",
+        "fr": "français",
+        "ja": "Japonais",
+        "sv": "suédois"
+    },
+    "dash": {
+        "in": "dans",
+        "move": "Bouge toi",
+        "team": "Équipe",
+        "file": "dessin",
+        "dash": "Tableau de bord",
+        "teams": "Équipes",
+        "trash": "Poubelle",
+        "moving": "En mouvement",
+        "invite": "Inviter",
+        "folder": "dossier",
+        "welcome": "Bienvenue",
+        "copying": "Copier",
+        "folders": "Dossiers",
+        "members": "Membres",
+        "stencils": "pochoirs",
+        "you_have": "Tu as",
+        "drawings": "dessins",
+        "searching": "Recherche",
+        "not_found": "Aucun résultat trouvé",
+        "templates": "modèles",
+        "integration": "Intégrations",
+        "create_dash": "Lecture de dessin et de dossiers",
+        "rename_fail": "Impossible de renommer le fichier car vous n'avez pas les autorisations requises",
+        "create_team": "Créer une équipe",
+        "check_trash": "Vérification de la corbeille",
+        "team_names": [
+            "Gagnants",
+            "La meilleure équipe jamais constituée",
+            "Amusement",
+            "Impressionnant",
+            "Fantastique",
+            "Content",
+            "Intelligent",
+            "Cool"
+        ],
+        "invite_email": "Inviter (email)",
+        "move_to_dash": "Déplacer vers le tableau de bord",
+        "move_to_team": "Déplacer vers une équipe",
+        "team_created": "Bienvenue dans votre nouvelle équipe!",
+        "invite_people": "Inviter des gens",
+        "create_folder": "Créer un nouveau dossier",
+        "create_drawing": "Créer un nouveau dessin",
+        "name_your_team": "Nom de l'équipe / du projet",
+        "create_template": "Créer un nouveau modèle",
+        "setting_up_team": "Créer des équipes",
+        "pop_up_disabled": "Pop-up désactivé",
+        "loading_folders": "Chargement de dossiers",
+        "setting_up_dash": "Création de tableau de bord",
+        "created_template": "Modèle créé avec succès."
+    },
+    "page": {
+        "a3": "A3: 420 mm x 297 mm",
+        "a2": "A2: 594 mm x 420 mm",
+        "a1": "A1: 841 mm x 594 mm",
+        "a0": "A0: 1189 mm x 841 mm",
+        "s1": "1: 1 (par défaut)",
+        "a5": "A5: 210 mm x 148 mm",
+        "a4": "A4: 297 mm x 210 mm",
+        "s10": "1: 10",
+        "s50": "1: 50",
+        "s25": "1: 25",
+        "s200": "1: 200",
+        "save": "sauvegarder",
+        "s100": "1100",
+        "s500": "1: 500",
+        "size": "Taille:",
+        "s1000": "1: 1000",
+        "scale": "Échelle",
+        "legal": "Légal: 14 po x 8,5 po",
+        "width": "Largeur",
+        "folio": "Folio: 13 po x 8,5 po",
+        "custom": "Douane",
+        "ledger": "Ledger: 17 po x 11 po",
+        "height": "la taille",
+        "letter": "Lettre: 11 po x 8,5 po",
+        "refresh": "Rafraîchir",
+        "portrait": "Portrait",
+        "cust_size": "Taille personnalisée: (largeur x hauteur)",
+        "landscape": "Paysage",
+        "no_refresh": "Pas maintenant",
+        "orientation": "Orientation:",
+        "lang_changed": "La langue sélectionnée a changé. Veuillez actualiser votre page pour que la modification prenne effet.",
+        "page_changed": "La taille de la page a changé. Veuillez rafraîchir votre dessin.",
+        "duplicate_idea": "Enregistrez une copie modifiable dans mon compte."
+    },
     "login": {
         "or": "OU",
-        "auth": "Authentification",
         "name": "prénom",
+        "auth": "Authentification",
         "email": "Email",
-        "signup": "S'enregistrer avec l'adresse e-mail",
-        "google": "Connectez-vous avec Google",
-        "signin": "Connectez-vous avec email",
-        "github": "Connectez-vous avec Github",
-        "collab": "En ligne",
         "verify": "Vérification du courrier électronique",
+        "collab": "En ligne",
+        "github": "Connectez-vous avec Github",
+        "signin": "Connectez-vous avec email",
+        "google": "Connectez-vous avec Google",
+        "signup": "S'enregistrer avec l'adresse e-mail",
         "signout": "Déconnexion",
-        "password": "Mot de passe",
         "facebook": "Connectez-vous avec Facebook",
+        "password": "Mot de passe",
         "short_pwd": "Votre mot de passe doit comporter au moins 8 caractères",
         "go_signin": "Vous avez déjà un compte? Connectez vous maintenant",
         "go_signup": "Vous n'avez pas de compte? S'inscrire maintenant",
-        "reset_title": "Vecta réinitialiser le mot de passe",
-        "retype_pass": "Confirmez le mot de passe",
-        "not_matched": "Le mot de passe ne correspond pas. Veuillez réessayer",
         "signing_out": "Déconnecter",
+        "not_matched": "Le mot de passe ne correspond pas. Veuillez réessayer",
+        "retype_pass": "Confirmez le mot de passe",
+        "reset_title": "Vecta réinitialiser le mot de passe",
         "email_taken": "Il y a déjà un compte avec cette adresse email",
         "require_name": "Le nom est requis",
         "invalid_pass": "Mot de passe incorrect",
@@ -442,9 +442,9 @@
         "firebase_error": "Si vous voyez cela, veuillez contacter support@vecta.io avec une capture d'écran de l'erreur ci-dessus.",
         "signup_facebook": "Inscrivez-vous avec Facebook",
         "storage_disabled": "Votre navigateur ne prend pas en charge le stockage Web ou il a été désactivé. <br /> Veuillez activer le stockage Web dans votre navigateur ou réessayer avec un autre navigateur.",
-        "remember_password": "S'identifier",
-        "invalid_email_pwd": "email ou mot de passe invalide",
         "wrong_credentials": "Vous vous êtes déjà connecté avec votre adresse e-mail et votre mot de passe. <br /> Veuillez vous connecter avec l'email et le mot de passe à la place.",
+        "invalid_email_pwd": "email ou mot de passe invalide",
+        "remember_password": "S'identifier",
         "resetting_password": "Réinitialisation du mot de passe Vecta ..."
     },
     "noti": {
@@ -453,11 +453,11 @@
         "left": "%% a quitté l'équipe @@.",
         "team": "équipe.",
         "link": "Lien",
-        "until": "Durée",
         "allow": "Permettre",
-        "kicked": "Votre accès a été retiré de @@",
-        "joined": "%% a rejoint l'équipe @@.",
+        "until": "Durée",
         "shared": "@@ est partagé avec vous. Cliquez pour ajouter ce dessin à votre tableau de bord.",
+        "joined": "%% a rejoint l'équipe @@.",
+        "kicked": "Votre accès a été retiré de @@",
         "renamed": "@@ renommé à @@",
         "message": "Message",
         "blocked": "Oups, il semble que vous ayez désactivé la notification push sur votre navigateur. <br /> Nous nous souviendrons de votre décision et enverrons des notifications push à votre façon une fois que vous l'aurez réactivée.",
@@ -469,24 +469,24 @@
         "created": "@@ créé",
         "no_noti": "C'est un peu calme, non? Les notifications vont bourdonner un peu.",
         "same_day": "Remarque: L'annonce commencera le jour même de sa création.",
-        "list_end": "Vous n'avez plus de notifications",
-        "see_more": "Voir plus",
-        "moved_in": "@@ ajoutée",
-        "sent_ann": "Annonce envoyée avec succès.",
-        "send_ann": "Envoyer une annonce",
-        "hour_ago": "Une heure avant",
         "restored": "@@ restauré",
-        "hours_ago": "il y a des heures",
-        "team_name": "en équipe @@.",
+        "hour_ago": "Une heure avant",
+        "send_ann": "Envoyer une annonce",
+        "moved_in": "@@ ajoutée",
+        "see_more": "Voir plus",
+        "list_end": "Vous n'avez plus de notifications",
+        "sent_ann": "Annonce envoyée avec succès.",
         "published": "@@ a été publié.",
+        "team_name": "en équipe @@.",
+        "hours_ago": "il y a des heures",
         "moved_out": "@@ supprimé",
         "notify_me": "Prévenez-moi!",
-        "create_ann": "Créer une annonce",
-        "requesting": "@@ demande d'accéder à @@. Cliquez pour approuver cette demande.",
-        "team_vecta": "Équipe Vecta",
-        "moment_ago": "Il y a un moment",
-        "second_ago": "deuxième il y a",
         "minute_ago": "il y a une minute",
+        "second_ago": "deuxième il y a",
+        "moment_ago": "Il y a un moment",
+        "team_vecta": "Équipe Vecta",
+        "requesting": "@@ demande d'accéder à @@. Cliquez pour approuver cette demande.",
+        "create_ann": "Créer une annonce",
         "minutes_ago": "il y a quelques minutes",
         "seconds_ago": "il y a quelques instants",
         "style_message": "Pas de HTML s'il vous plait.",
@@ -502,44 +502,44 @@
     "slack": {
         "add": "Ajouter à Slack",
         "confirm": "Équipe supprimée avec succès.",
-        "settings": "Paramètres",
-        "no_teams": "Vous n'avez intégré aucune équipe Slack à Vecta.",
         "add_more": "Ajouter plus",
+        "no_teams": "Vous n'avez intégré aucune équipe Slack à Vecta.",
+        "settings": "Paramètres",
         "contacting": "Contacter Slack",
         "link_shared": "Lien de dessin envoyé.",
         "added_teams": "Equipes Slack ajoutées",
-        "user_welcome": "Merci d'avoir installé Vecta for Slack. Vous pouvez maintenant commencer à inviter les membres de votre équipe à Vecta et partager des liens de dessin vers n'importe lequel des canaux de cette équipe.",
-        "code_invalid": "Le code est invalide. Veuillez réessayer l'intégration de Slack.",
         "channel_link": "Choisissez une chaîne pour partager le lien",
         "channel_noti": "Choisissez une chaîne pour envoyer des notifications",
         "connect_team": "Connectez l'équipe",
         "channel_team": "Choisissez une chaîne à intégrer avec votre équipe",
-        "no_new_member": "Aucun nouveau membre à inviter",
-        "group_message": "Messagerie de groupe avec",
+        "user_welcome": "Merci d'avoir installé Vecta for Slack. Vous pouvez maintenant commencer à inviter les membres de votre équipe à Vecta et partager des liens de dessin vers n'importe lequel des canaux de cette équipe.",
+        "code_invalid": "Le code est invalide. Veuillez réessayer l'intégration de Slack.",
         "connect_slack": "Connectez votre équipe à un canal Slack",
-        "sending_failed": "Impossible de communiquer avec Slack. Veuillez réessayer d'intégrer Vecta avec Slack.",
-        "shared_drawing": "a partagé @@ avec l'équipe.",
+        "group_message": "Messagerie de groupe avec",
+        "no_new_member": "Aucun nouveau membre à inviter",
         "team_integrate": "Invitez votre chaîne Slack",
-        "channel_removed": "Le canal Slack est retiré de l'équipe",
-        "connecting_team": "Équipe de connexion",
+        "shared_drawing": "a partagé @@ avec l'équipe.",
+        "sending_failed": "Impossible de communiquer avec Slack. Veuillez réessayer d'intégrer Vecta avec Slack.",
         "mismatched_code": "Vecta n'a pas pu être ajouté à votre équipe Slack. <br/> Veuillez vous assurer que vous avez cliqué sur un bouton Slack valide de Vecta. <br /> <span class = 'Muted.cls'> Erreur: 0013 </ span>",
+        "connecting_team": "Équipe de connexion",
+        "channel_removed": "Le canal Slack est retiré de l'équipe",
         "success_integrate": "You can now invite your Slack team members to Vecta and share links to @@! <br /> This page will automatically redirect in 10 seconds.",
         "channel_connected": "Le canal Slack est connecté à l'équipe",
-        "integrated_message": "Votre équipe est déjà connectée à un canal Slack. <br /> En continuant, vous remplacerez le canal Slack actuel.",
+        "integrated_message": "Votre équipe est déjà connectée à un canal Slack. <br /> En continuant, vous remplacerez le canal Slack actuel. <br /> <br /> Souhaitez-vous continuer?",
         "already_integrated": "Remplacer l'intégration"
     },
     "access": {
-        "you": "toi",
         "and": "et",
+        "you": "toi",
         "done": "Terminé",
         "owner": "Propriétaire",
         "other": "autre",
         "close": "Fermer",
-        "others": "autres",
         "remove": "Retirer",
-        "no_file": "Le dessin que vous avez demandé n'existe plus.",
-        "no_team": "L'équipe n'existe plus.",
+        "others": "autres",
         "message": "Message (facultatif)",
+        "no_team": "L'équipe n'existe plus.",
+        "no_file": "Le dessin que vous avez demandé n'existe plus.",
         "can_edit": "Modifier et partager",
         "accepting": "Demande d'acceptation",
         "not_found": "Pas trouvé",
@@ -561,59 +561,77 @@
         "team_exists": "Vous êtes déjà membre de l'équipe demandée.",
         "public_file": "Définir l'accès au public, aucune connexion requise",
         "owner_leave": "Vous êtes le seul propriétaire de cette équipe. <br /> L'équipe sera fermée et tous les membres perdront l'accès à l'équipe. <br /> <br /> Souhaitez-vous continuer?",
-        "remove_share": "Supprimer le partage",
-        "save_changes": "Sauvegarder les modifications",
-        "remove_files": "Supprimer les dessins et les dossiers",
-        "team_members": "Membres de l'équipe",
-        "member_leave": "Une fois que vous quittez cette équipe, vous perdrez l'accès à tous les dessins et dossiers de l'équipe. <br /> <br /> Souhaitez-vous continuer?",
-        "resend_email": "Ré-envoyer l'email",
-        "signed_in_as": "Vous êtes connecté en tant que:",
         "request_sent": "Demande envoyée",
-        "no_permission": "Vous n'êtes pas autorisé à accéder à cette équipe ou à ce fichier.",
-        "access_denied": "Accès refusé",
-        "invite_failed": "Impossible d'envoyer des invitations par e-mail. Veuillez cliquer sur le bouton \"Membres\" dans l'équipe et réessayer.",
-        "search_shares": "Vérification des utilisateurs partagés",
-        "shared_emails": "Emails",
+        "signed_in_as": "Vous êtes connecté en tant que:",
+        "resend_email": "Ré-envoyer l'email",
+        "member_leave": "Une fois que vous quittez cette équipe, vous perdrez l'accès à tous les dessins et dossiers de l'équipe. <br /> <br /> Souhaitez-vous continuer?",
+        "team_members": "Membres de l'équipe",
+        "remove_files": "Supprimer les dessins et les dossiers",
+        "save_changes": "Sauvegarder les modifications",
+        "remove_share": "Supprimer le partage",
         "remove_member": "Supprimer le membre",
-        "accept_request": "Permettre l'accès",
-        "ignore_request": "Ignorer la demande",
-        "removing_files": "Suppression de dessins et de dossiers",
-        "manage_request": "Gérer l'accès",
-        "pending_invite": "Invitation en attente",
-        "shareable_link": "Obtenir un lien partageable",
-        "get_shared_url": "Obtenir un lien de partage",
-        "reset_password": "réinitialisez votre mot de passe",
-        "switch_account": "Changer de compte",
-        "access_changed": "L'accès au dessin a été modifié avec succès.",
-        "access_removed": "Accès supprimé avec succès.",
-        "access_ignored": "Vous avez ignoré la demande. Le demandeur sera informé de votre décision.",
-        "ask_permission": "Demander l'accès au propriétaire ou passer à un compte avec autorisation.",
+        "shared_emails": "Emails",
+        "search_shares": "Vérification des utilisateurs partagés",
+        "invite_failed": "Impossible d'envoyer des invitations par e-mail. Veuillez cliquer sur le bouton \"Membres\" dans l'équipe et réessayer.",
+        "access_denied": "Accès refusé",
+        "no_permission": "Vous n'êtes pas autorisé à accéder à cette équipe ou à ce fichier.",
         "request_access": "Demande d'accès",
-        "private_access": "Privé",
+        "ask_permission": "Demander l'accès au propriétaire ou passer à un compte avec autorisation.",
+        "access_ignored": "Vous avez ignoré la demande. Le demandeur sera informé de votre décision.",
+        "access_removed": "Accès supprimé avec succès.",
+        "access_changed": "L'accès au dessin a été modifié avec succès.",
+        "switch_account": "Changer de compte",
+        "reset_password": "réinitialisez votre mot de passe",
+        "get_shared_url": "Obtenir un lien de partage",
+        "shareable_link": "Obtenir un lien partageable",
+        "pending_invite": "Invitation en attente",
+        "manage_request": "Gérer l'accès",
+        "removing_files": "Suppression de dessins et de dossiers",
+        "ignore_request": "Ignorer la demande",
+        "accept_request": "Permettre l'accès",
         "update_pass_ok": "Mise à jour",
-        "access_modified": "Accès avec succès modifié.",
-        "send_reset_pass": "Un lien de réinitialisation a été envoyé à",
-        "request_details": "a demandé votre permission d'accéder",
-        "private_drawing": "Seuls les utilisateurs invités peuvent accéder à ce dessin",
-        "items_no_access": "Certains contenus ne sont pas déplacés vers la destination sélectionnée parce que vous avez une permission limitée pour eux, ou que ce n'est pas autorisé pour commencer.",
-        "check_ownership": "Vérification de la propriété",
+        "private_access": "Privé",
         "who_have_access": "Qui a accès",
-        "public_view_help": "Toute personne sur Internet peut voir le dessin sans connexion",
-        "update_pass_mssg": "Votre mot de passe a été modifié avec succès.",
-        "move_same_parent": "Vous êtes déjà dans le dossier.",
-        "public_edit_help": "N'importe qui sur Internet peut modifier le dessin sans se connecter",
+        "check_ownership": "Vérification de la propriété",
+        "items_no_access": "Certains contenus ne sont pas déplacés vers la destination sélectionnée parce que vous avez une permission limitée pour eux, ou que ce n'est pas autorisé pour commencer.",
+        "private_drawing": "Seuls les utilisateurs invités peuvent accéder à ce dessin",
+        "request_details": "a demandé votre permission d'accéder",
+        "send_reset_pass": "Un lien de réinitialisation a été envoyé à",
+        "access_modified": "Accès avec succès modifié.",
         "click_reset_pass": "Cliquez sur le lien dans l'email pour réinitialiser votre mot de passe",
+        "public_edit_help": "N'importe qui sur Internet peut modifier le dessin sans se connecter",
+        "move_same_parent": "Vous êtes déjà dans le dossier.",
+        "update_pass_mssg": "Votre mot de passe a été modifié avec succès.",
+        "public_view_help": "Toute personne sur Internet peut voir le dessin sans connexion",
         "update_pass_error": "Erreur de mise à jour",
         "permission_granted": "Accès accordé avec succès. Le demandeur a été informé de votre approbation.",
         "successfully_moved": "Avec succès déplacé.",
         "update_pass_failed": "Le mot de passe a échoué. Le lien de réinitialisation a peut-être expiré.",
-        "private_access_help": "Accès restreint pour vous et ceux qui ont un accès partagé",
         "permission_required": "Permission requise",
+        "private_access_help": "Accès restreint pour vous et ceux qui ont un accès partagé",
         "invite_failed_title": "L'invitation par e-mail"
     },
+    "question": {
+        "hr": "HR / Gestion des talents",
+        "work": "Travail",
+        "title": "Bonjour @nom! <br /> <br /> Parlez-nous de vous",
+        "start": "Commencez à utiliser Vecta",
+        "hobby": "Loisir",
+        "scope": "Votre portée d'emploi est:",
+        "design": "Conception",
+        "school": "École",
+        "select": "-- Choisir une option --",
+        "purpose": "Vous utilisez Vecta pour:",
+        "logistic": "Logistique et chaîne d'approvisionnement",
+        "marketing": "Ventes marketing",
+        "done_mssg": "Yay! Nous sommes prêts à partir!",
+        "technology": "La technologie",
+        "business_owner": "Propriétaire d'entreprise",
+        "business_operation": "Fonctionnement de l'entreprise"
+    },
     "reset": {
-        "reset": "réinitialisez votre mot de passe",
         "error": "Erreur de mise à jour",
+        "reset": "réinitialisez votre mot de passe",
         "update": "Mettre à jour",
         "successful": "Mise à jour",
         "reset_sent": "Cliquez sur le lien dans l'email pour réinitialiser votre mot de passe",
@@ -623,31 +641,36 @@
         "resend_email": "Ré-envoyer l'email",
         "successful_mssg": "Votre mot de passe a été modifié avec succès."
     },
-    "question": {
-        "hr": "HR / Gestion des talents",
-        "work": "Travail",
-        "scope": "Votre portée d'emploi est:",
-        "hobby": "Loisir",
-        "start": "Commencez à utiliser Vecta",
-        "title": "Bonjour @nom! <br /> <br /> Parlez-nous de vous",
-        "design": "Conception",
-        "school": "École",
-        "select": "-- Choisir une option --",
-        "purpose": "Vous utilisez Vecta pour:",
-        "logistic": "Logistique et chaîne d'approvisionnement",
-        "done_mssg": "Yay! Nous sommes prêts à partir!",
-        "marketing": "Ventes marketing",
-        "technology": "La technologie",
-        "business_owner": "Propriétaire d'entreprise",
-        "business_operation": "Fonctionnement de l'entreprise"
+    "onboard": {
+        "skip": "Sauter?",
+        "back": "Arrière",
+        "next": "Prochain",
+        "create": "Créer une équipe seulement",
+        "one_step": "Étape 2 de 2.",
+        "end_list": "Vous avez atteint la fin de la liste.",
+        "continue": "Inviter à une nouvelle équipe",
+        "two_steps": "Étape 1 sur 2",
+        "team_best": "Vecta fonctionne mieux dans les équipes",
+        "final_step": "1 dernière étape pour aller:",
+        "select_all": "Tout sélectionner",
+        "team_guide": "Les dessins créés en équipes seront automatiquement partagés entre les membres, c'est la façon la plus simple de s'assurer que votre équipe devient vraiment productive.",
+        "team_start": "Commençons en créant votre première équipe",
+        "invite_para": "Faites fonctionner votre équipe rapidement en invitant vos collègues",
+        "invite_header": "Invitez vos coéquipiers",
+        "team_placeholder": "Mon équipe géniale",
+        "welcome_to_vecta": "Bienvenue à Vecta! <br /> <br /> Commençons avec votre premier dessin <br /> ici.",
+        "prompt_create_team": "Commencez à créer une équipe et invitez vos amis à <br /> partager des dessins facilement et à collaborer en temps réel. <br /> <br /> Cliquez simplement sur le signe '+' pour créer votre <br /> premier équipe.",
+        "prompt_restore_team": "Savez-vous que vous pouvez restaurer votre équipe de la poubelle même après l'avoir quittée?",
+        "prompt_create_drawing": "Bienvenue à nouveau! <br /> <br /> Quel dessin allez-vous créer aujourd'hui?",
+        "prompt_restore_drawing": "Savez-vous que vous pouvez restaurer vos dessins <br /> même après les avoir transférés dans des poubelles?"
     },
     "publish": {
         "done": "Dessin publié avec succès sur le Web.",
         "stop": "Dessin retiré de la publication publique.",
         "title": "Publier sur le Web",
         "error": "Aucune forme n'est trouvée. Vous ne pouvez pas publier votre dessin actuel.",
-        "remove": "Supprimer la publication",
         "change": "Publier les modifications",
+        "remove": "Supprimer la publication",
         "loading": "Tenez-vous bien, vérifiez le dessin publié",
         "copy_link": "Cliquez sur le lien pour le copier.",
         "publishing": "Publication de dessin",
@@ -659,10 +682,10 @@
         "loading": "Chargement",
         "load_icons": "Chargement des icônes ...",
         "commit_mssg": "Remarque",
-        "load_drawing": "Chargement du dessin téléchargé ...",
         "load_publish": "Chargement du dessin publié ...",
-        "cannot_upload": "Vous devez être connecté pour importer des images dans Vecta.",
+        "load_drawing": "Chargement du dessin téléchargé ...",
         "not_supported": "Navigateur non pris en charge",
+        "cannot_upload": "Vous devez être connecté pour importer des images dans Vecta.",
         "ver_committing": "Commettre le dessin",
         "ver_commit_fail": "La validation a échoué. Veuillez réessayer plus tard.",
         "checking_invite": "Vérification de votre invitation",
@@ -677,87 +700,38 @@
         "ver_commit_success": "S'engager avec succès.",
         "template_create_fail": "Le modèle ne doit pas être un dessin vide."
     },
-    "onboard": {
-        "skip": "Sauter?",
-        "back": "Arrière",
-        "next": "Prochain",
-        "create": "Créer une équipe seulement",
-        "continue": "Inviter à une nouvelle équipe",
-        "end_list": "Vous avez atteint la fin de la liste.",
-        "one_step": "Étape 2 de 2.",
-        "team_best": "Vecta fonctionne mieux dans les équipes",
-        "two_steps": "Étape 1 sur 2",
-        "team_start": "Commençons en créant votre première équipe",
-        "team_guide": "Les dessins créés en équipes seront automatiquement partagés entre les membres, c'est la façon la plus simple de s'assurer que votre équipe devient vraiment productive.",
-        "select_all": "Tout sélectionner",
-        "final_step": "1 dernière étape pour aller:",
-        "invite_para": "Faites fonctionner votre équipe rapidement en invitant vos collègues",
-        "invite_header": "Invitez vos coéquipiers",
-        "welcome_to_vecta": "Bienvenue à Vecta! <br /> <br /> Commençons avec votre premier dessin <br /> ici.",
-        "team_placeholder": "Mon équipe géniale",
-        "prompt_create_team": "Commencez à créer une équipe et invitez vos amis à <br /> partager des dessins facilement et à collaborer en temps réel. <br /> <br /> Cliquez simplement sur le signe '+' pour créer votre <br /> premier équipe.",
-        "prompt_restore_team": "Savez-vous que vous pouvez restaurer votre équipe de la poubelle même après l'avoir quittée?",
-        "prompt_create_drawing": "Bienvenue à nouveau! <br /> <br /> Quel dessin allez-vous créer aujourd'hui?",
-        "prompt_restore_drawing": "Savez-vous que vous pouvez restaurer vos dessins <br /> même après les avoir transférés dans des poubelles?"
-    },
     "email": {
-        "remind": "vous a rappelé de rejoindre l'équipe",
         "slogan": "Vecta: Schéma collaboratif en temps réel pour les équipes",
-        "waiting": "n'attend que vous pour rejoindre l'équipe",
+        "remind": "vous a rappelé de rejoindre l'équipe",
         "welcome": "Bienvenue à Vecta!",
-        "rejected": "a rejeté votre demande d'accès",
-        "with_you": "avec vous sur Vecta.io",
+        "waiting": "n'attend que vous pour rejoindre l'équipe",
         "on_vecta": "sur Vecta.io",
+        "with_you": "avec vous sur Vecta.io",
+        "rejected": "a rejeté votre demande d'accès",
         "join_team": "vous a invité à rejoindre l'équipe",
         "has_shared": "a partagé",
-        "has_granted": "vous a accordé l'autorisation d'accéder",
         "team_button": "Rejoignez votre équipe",
-        "please_click": "Cliquez sur le bouton ci-dessous et connectez-vous pour y accéder",
-        "team_message": "Rejoignez Vecta.io pour partager et collaborer facilement sur des dessins avec vos coéquipiers.",
-        "open_drawing": "Ouvrir le dessin dans Vecta",
+        "has_granted": "vous a accordé l'autorisation d'accéder",
         "has_rejected": "a rejeté votre demande d'accès",
+        "open_drawing": "Ouvrir le dessin dans Vecta",
+        "team_message": "Rejoignez Vecta.io pour partager et collaborer facilement sur des dessins avec vos coéquipiers.",
+        "please_click": "Cliquez sur le bouton ci-dessous et connectez-vous pour y accéder",
+        "manage_access": "Approuver ou rejeter cette demande",
         "share_subject": "a partagé @@ avec vous sur Vecta.io",
         "has_requested": "a demandé l'autorisation d'accéder",
-        "manage_access": "Approuver ou rejeter cette demande",
         "team_instruction": "Cliquez sur le bouton ci-dessous et connectez-vous pour accéder aux dessins de votre équipe."
-    },
-    "verify": {
-        "update": "Mettre à jour",
-        "failed": "Échec de la vérification",
-        "resend": "Renvoyer un courriel de confirmation",
-        "landing": "Aller à Vecta.io",
-        "confirm": "Confirmez votre adresse email",
-        "verifying": "Vérification",
-        "signin_now": "Connectez vous maintenant",
-        "successful": "Succès de la vérification",
-        "failed_mssg": "Nous sommes désolés mais il semble que votre lien de vérification ait expiré. Veuillez vous connecter pour renvoyer l'e-mail de validation.",
-        "successful_mssg": "Vous pouvez maintenant vous connecter à Vecta et commencer à dessiner. N'oubliez pas d'inviter votre équipe et de commencer à collaborer.",
-        "password_updated": "Votre mot de passe a été mis à jour",
-        "activate_account": "Cliquez sur le lien de confirmation dans l'email pour activer votre compte.",
-        "send_confirmation": "Un e-mail de confirmation a été envoyé à",
-        "confirmation_sent": "Courriel de Confirmation Envoyé"
-    },
-    "signup": {
-        "failed": "L'inscription a échoué",
-        "signout": "Non merci. Faites moi sortir d'ici",
-        "dont_go": "Nous détestons vous voir partir, mais nous comprenons totalement, s'il vous plaît revenez à tout moment.",
-        "redirect": "Rediriger ...",
-        "not_found": "Aucun compte trouvé",
-        "create_account": "Créer un compte",
-        "creating_account": "Créer un compte Vecta ...",
-        "ask_create_account": "<p> Il semble que vous vous soyez connecté, mais nous ne trouvons aucun enregistrement de votre inscription. </ p> <p> Cliquez sur le bouton ci-dessous pour commencer à enregistrer et partager vos dessins immédiatement! < / p>"
     },
     "stencil": {
         "check": "Vérification de l'état du stencil",
         "loading": "Obtenir des symboles",
         "removed": "Certains pochoirs ne sont pas déplacés car ils ont été supprimés ou vous n'êtes pas autorisé à les utiliser.",
-        "imported": "Importation de données terminée",
-        "no_exist": "Le pochoir n'existe plus.",
-        "stencils": "Pochoirs",
         "aws": {
-            "desc": "",
-            "name": "Amazon Web Services"
+            "name": "Amazon Web Services",
+            "desc": ""
         },
+        "stencils": "Pochoirs",
+        "no_exist": "Le pochoir n'existe plus.",
+        "imported": "Importation de données terminée",
         "importing": "Importer des données",
         "drop_shapes": "Déposer des formes ici",
         "symbol_desc": "La description",
@@ -778,15 +752,19 @@
         "stencil_name": "Nom du pochoir",
         "total_results": "de @@ résultats affichés",
         "load_stencils": "Chargement des pochoirs ...",
+        "stencil_5": {
+            "name": "AWS Analytics",
+            "desc": "Amazon Web Services: Analytics"
+        },
+        "stencil_2": {
+            "desc": "Toile modèle d'affaires de différentes tailles",
+            "name": "Modèle de Business Canvas"
+        },
         "stencil_6": {
             "desc": "Amazon Web Services: Services d'application",
             "name": "AWS Application Services"
         },
         "create_stencil": "Créer un pochoir",
-        "stencil_5": {
-            "desc": "Amazon Web Services: Analytics",
-            "name": "AWS Analytics"
-        },
         "stencil_1": {
             "name": "Notes colorées",
             "desc": "Symboles de notes colorées"
@@ -821,96 +799,17 @@
             "desc": "Symboles de produits Google",
             "name": "Google"
         },
-        "stencil_2": {
-            "name": "Modèle de Business Canvas",
-            "desc": "Toile modèle d'affaires de différentes tailles"
-        },
-        "stencil_22": {
-            "name": "SDK AWS",
-            "desc": "Amazon Web Services: kits de développement logiciel"
-        },
-        "stencil_14": {
-            "desc": "Amazon Web Services: Général",
-            "name": "AWS Général"
+        "stencil_30": {
+            "name": "Microsoft Systems Center",
+            "desc": "Microsoft Azure: Centre de systèmes"
         },
         "stencil_11": {
             "name": "AWS Desktop App Streaming",
             "desc": "Amazon Web Services: streaming d'applications de bureau"
         },
-        "stencil_28": {
-            "name": "Microsoft Azure Color",
-            "desc": "Microsoft Azure: symboles de couleur"
-        },
-        "stencil_29": {
-            "name": "Machines virtuelles Microsoft",
-            "desc": "Microsoft Azure: machines virtuelles"
-        },
-        "stencil_27": {
-            "name": "Microsoft Azure Mono",
-            "desc": "Microsoft Azure: symboles monochromes"
-        },
-        "stencil_31": {
-            "desc": "Microsoft Azure: Enterprise",
-            "name": "Microsoft Enterprise"
-        },
-        "stencil_20": {
-            "desc": "Amazon Web Services: mise en réseau et diffusion de contenu",
-            "name": "AWS Networking et la diffusion de contenu"
-        },
-        "untitled_symbol": "Symbole sans titre",
-        "stencil_deleted": "Stencil supprimé",
-        "stencil_25": {
-            "name": "Technologies Web",
-            "desc": "Symboles de la technologie web générale"
-        },
-        "stencil_17": {
-            "name": "AWS Messaging",
-            "desc": "Amazon Web Services: messagerie"
-        },
-        "stencil_18": {
-            "name": "AWS Migration",
-            "desc": "Amazon Web Services: migration"
-        },
-        "stencil_33": {
-            "desc": "Microsoft Azure: produits Office",
-            "name": "Produits Microsoft Office"
-        },
-        "stencil_12": {
-            "name": "Outils de développement AWS",
-            "desc": "Amazon Web Services: outils de développement"
-        },
-        "stencil_24": {
-            "desc": "Amazon Web Services: Stockage",
-            "name": "AWS Storage"
-        },
-        "stencil_15": {
-            "name": "AWS Internet des Objets",
-            "desc": "Amazon Web Services: Internet des objets"
-        },
-        "stencil_10": {
-            "desc": "Amazon Web Services: base de données",
-            "name": "Base de données AWS"
-        },
-        "stencil_32": {
-            "name": "Microsoft Intune",
-            "desc": "Microsoft Azure: Intune"
-        },
-        "stencil_16": {
-            "desc": "Amazon Web Services: outils de gestion",
-            "name": "Outils de gestion AWS"
-        },
-        "stencil_26": {
-            "name": "Documents et dossiers colorés",
-            "desc": "Symboles de documents et de dossiers colorés"
-        },
-        "no_edit_stencil": "Vous n'êtes pas autorisé à modifier ce gabarit.",
-        "stencil_30": {
-            "desc": "Microsoft Azure: Centre de systèmes",
-            "name": "Microsoft Systems Center"
-        },
         "stencil_19": {
-            "name": "AWS Mobile Services",
-            "desc": "Amazon Web Services: Services mobiles"
+            "desc": "Amazon Web Services: Services mobiles",
+            "name": "AWS Mobile Services"
         },
         "stencil_23": {
             "desc": "Amazon Web Services: Identité et conformité",
@@ -928,39 +827,159 @@
             "desc": "Amazon Web Services: force de travail à la demande",
             "name": "AWS On Demand Workforce"
         },
+        "no_edit_stencil": "Vous n'êtes pas autorisé à modifier ce gabarit.",
+        "stencil_26": {
+            "desc": "Symboles de documents et de dossiers colorés",
+            "name": "Documents et dossiers colorés"
+        },
+        "stencil_16": {
+            "name": "Outils de gestion AWS",
+            "desc": "Amazon Web Services: outils de gestion"
+        },
+        "stencil_32": {
+            "desc": "Microsoft Azure: Intune",
+            "name": "Microsoft Intune"
+        },
+        "stencil_10": {
+            "name": "Base de données AWS",
+            "desc": "Amazon Web Services: base de données"
+        },
+        "stencil_15": {
+            "desc": "Amazon Web Services: Internet des objets",
+            "name": "AWS Internet des Objets"
+        },
+        "stencil_24": {
+            "name": "AWS Storage",
+            "desc": "Amazon Web Services: Stockage"
+        },
+        "stencil_12": {
+            "desc": "Amazon Web Services: outils de développement",
+            "name": "Outils de développement AWS"
+        },
+        "stencil_22": {
+            "desc": "Amazon Web Services: kits de développement logiciel",
+            "name": "SDK AWS"
+        },
+        "stencil_33": {
+            "name": "Produits Microsoft Office",
+            "desc": "Microsoft Azure: produits Office"
+        },
+        "stencil_18": {
+            "desc": "Amazon Web Services: migration",
+            "name": "AWS Migration"
+        },
+        "stencil_17": {
+            "desc": "Amazon Web Services: messagerie",
+            "name": "AWS Messaging"
+        },
+        "stencil_25": {
+            "desc": "Symboles de la technologie web générale",
+            "name": "Technologies Web"
+        },
+        "stencil_14": {
+            "desc": "Amazon Web Services: Général",
+            "name": "AWS Général"
+        },
+        "stencil_deleted": "Stencil supprimé",
+        "untitled_symbol": "Symbole sans titre",
+        "stencil_28": {
+            "name": "Microsoft Azure Color",
+            "desc": "Microsoft Azure: symboles de couleur"
+        },
+        "stencil_29": {
+            "name": "Machines virtuelles Microsoft",
+            "desc": "Microsoft Azure: machines virtuelles"
+        },
+        "stencil_20": {
+            "name": "AWS Networking et la diffusion de contenu",
+            "desc": "Amazon Web Services: mise en réseau et diffusion de contenu"
+        },
+        "stencil_31": {
+            "name": "Microsoft Enterprise",
+            "desc": "Microsoft Azure: Enterprise"
+        },
+        "stencil_27": {
+            "desc": "Microsoft Azure: symboles monochromes",
+            "name": "Microsoft Azure Mono"
+        },
         "search_sym_place": "Appuyez sur Entrée pour commencer la recherche",
         "no_delete_symbol": "Vous n'êtes pas autorisé à supprimer ce symbole.",
         "untitled_stencil": "Pochoir sans titre",
-        "stencil_cat_place": "Dev. symboles, 011 Symboles",
-        "login_make_symbol": "Veuillez vous connecter pour créer un symbole."
+        "login_make_symbol": "Veuillez vous connecter pour créer un symbole.",
+        "stencil_cat_place": "Dev. symboles, 011 Symboles"
+    },
+    "signup": {
+        "failed": "L'inscription a échoué",
+        "dont_go": "Nous détestons vous voir partir, mais nous comprenons totalement, s'il vous plaît revenez à tout moment.",
+        "signout": "Non merci. Faites moi sortir d'ici",
+        "redirect": "Rediriger ...",
+        "not_found": "Aucun compte trouvé",
+        "create_account": "Créer un compte",
+        "creating_account": "Créer un compte Vecta ...",
+        "ask_create_account": "<p> Il semble que vous vous soyez connecté, mais nous ne trouvons aucun enregistrement de votre inscription. </ p> <p> Cliquez sur le bouton ci-dessous pour commencer à enregistrer et partager vos dessins immédiatement! < / p>"
+    },
+    "verify": {
+        "resend": "Renvoyer un courriel de confirmation",
+        "failed": "Échec de la vérification",
+        "update": "Mettre à jour",
+        "confirm": "Confirmez votre adresse email",
+        "landing": "Aller à Vecta.io",
+        "verifying": "Vérification",
+        "successful": "Succès de la vérification",
+        "signin_now": "Connectez vous maintenant",
+        "failed_mssg": "Nous sommes désolés mais il semble que votre lien de vérification ait expiré. Veuillez vous connecter pour renvoyer l'e-mail de validation.",
+        "successful_mssg": "Vous pouvez maintenant vous connecter à Vecta et commencer à dessiner. N'oubliez pas d'inviter votre équipe et de commencer à collaborer.",
+        "activate_account": "Cliquez sur le lien de confirmation dans l'email pour activer votre compte.",
+        "password_updated": "Votre mot de passe a été mis à jour",
+        "confirmation_sent": "Courriel de Confirmation Envoyé",
+        "send_confirmation": "Un e-mail de confirmation a été envoyé à"
+    },
+    "preload": {
+        "guide": "Utilisez des guides pour aligner et organiser des formes sur vos dessins",
+        "import": "Il suffit de faire glisser et déposer pour importer des images",
+        "layers": "Utiliser des calques pour masquer ou afficher des informations pertinentes",
+        "search": "Recherchez des dessins, des dossiers ou des équipes en toute simplicité",
+        "scaling": "Spécifiez l'échelle de votre dessin pour modéliser les mesures du monde réel",
+        "metrics": "Faites un clic droit sur les règles pour définir vos propres unités de mesure",
+        "duplicate": "Dupliquer des formes par CTRL + Glisser + Déposer",
+        "shortcuts": "Dessinez plus rapidement avec ces raccourcis clavier",
+        "publishing": "Publiez et partagez votre dessin sur le monde",
+        "shape-link": "Ajouter des hyperliens dans des formes pour un accès rapide aux sites Web",
+        "create-team": "Créez des équipes pour partager facilement des dessins",
+        "save-symbols": "Faites glisser et déposez sur votre gabarit personnalisé pour réutiliser les symboles",
+        "find-replace": "Recherchez facilement du texte avec Ctrl + F",
+        "share-drawing": "Utiliser des liens pour partager des dessins sur les médias sociaux",
+        "invite-members": "Inviter des membres pour faire fonctionner votre équipe à Vecta",
+        "version-history": "Utiliser l'historique des versions pour suivre les modifications de votre dessin",
+        "shape-properties": "Modifier des formes en utilisant des expressions pour une grande précision"
     },
     "tips": {
         "Lock": {
             "cls": "Ce gabarit ne peut pas être modifié. Vous pouvez ajouter et modifier des symboles en créant vos propres pochoirs."
         },
-        "undo": {
-            "icon": "Annuler <br/> (Ctrl-Z)"
-        },
-        "grid": {
-            "icon": "Vue de la grille"
-        },
-        "redo": {
-            "icon": "Rétablir <br/> (Ctrl-Y)"
-        },
-        "pref": {
-            "icon": "Préférences"
-        },
-        "bold": {
-            "icon": "Audacieux"
-        },
-        "list": {
-            "icon": "Vue de la liste"
+        "sort": {
+            "icon": "Trier par"
         },
         "noti": {
             "icon": "Notifications"
         },
-        "sort": {
-            "icon": "Trier par"
+        "list": {
+            "icon": "Vue de la liste"
+        },
+        "bold": {
+            "icon": "Audacieux"
+        },
+        "pref": {
+            "icon": "Préférences"
+        },
+        "redo": {
+            "icon": "Rétablir <br/> (Ctrl-Y)"
+        },
+        "grid": {
+            "icon": "Vue de la grille"
+        },
+        "undo": {
+            "icon": "Annuler <br/> (Ctrl-Z)"
         },
         "login": {
             "icon": "se connecter"
@@ -971,23 +990,23 @@
         "align": {
             "icon": "Aligner les formes sélectionnées"
         },
-        "expand": {
-            "icon": "Plus d'outils ..."
-        },
-        "italic": {
-            "icon": "Italique"
-        },
-        "ascend": {
-            "icon": "Inverser la direction du tri"
-        },
-        "remove": {
-            "help": "Supprimer l'utilisateur"
+        "delete": {
+            "icon": "Effacer"
         },
         "logout": {
             "icon": "Déconnexion"
         },
-        "delete": {
-            "icon": "Effacer"
+        "remove": {
+            "help": "Supprimer l'utilisateur"
+        },
+        "ascend": {
+            "icon": "Inverser la direction du tri"
+        },
+        "italic": {
+            "icon": "Italique"
+        },
+        "expand": {
+            "icon": "Plus d'outils ..."
         },
         "record": {
             "icon": "Enregistrer des macros"
@@ -995,71 +1014,62 @@
         "arrange": {
             "icon": "Organiser l'ordre z pour <br/> les formes sélectionnées"
         },
-        "profile": {
-            "icon": "Profil"
-        },
-        "pointer": {
-            "icon": "Outil pointeur <br/> (Ctrl-1)"
+        "zoom_in": {
+            "icon": "Zoom avant <br/> Ctrl + molette de la souris"
         },
         "descend": {
             "icon": "Inverser la direction du tri"
         },
-        "zoom_in": {
-            "icon": "Zoom avant <br/> Ctrl + molette de la souris"
+        "pointer": {
+            "icon": "Outil pointeur <br/> (Ctrl-1)"
         },
-        "chat_box": {
-            "icon": "Boîte de discussion"
-        },
-        "feedback": {
-            "icon": "Envoyer un commentaire"
-        },
-        "line_end": {
-            "icon": "Fin de ligne"
-        },
-        "zoom_fit": {
-            "icon": "Zoom pour adapter la page"
+        "profile": {
+            "icon": "Profil"
         },
         "zoom_out": {
             "icon": "Zoom arrière <br/> Ctrl + molette de la souris"
         },
-        "file_name": {
-            "icon": "Renommer le dessin"
+        "zoom_fit": {
+            "icon": "Zoom pour adapter la page"
         },
-        "draw_rect": {
-            "icon": "Dessiner rectangle <br/> (Ctrl-2)"
+        "line_end": {
+            "icon": "Fin de ligne"
         },
-        "underline": {
-            "icon": "Souligner"
+        "feedback": {
+            "icon": "Envoyer un commentaire"
         },
-        "is_public": {
-            "icon": "Toute personne sur Internet peut trouver et accéder"
-        },
-        "draw_path": {
-            "icon": "Tracer le chemin, l'arc, la courbe <br/> ou la forme libre (Ctrl-4)"
-        },
-        "dashboard": {
-            "icon": "Aller au tableau de bord"
+        "chat_box": {
+            "icon": "Boîte de discussion"
         },
         "font_size": {
             "icon": "Taille de police"
         },
+        "dashboard": {
+            "icon": "Aller au tableau de bord"
+        },
+        "draw_path": {
+            "icon": "Tracer le chemin, l'arc, la courbe <br/> ou la forme libre (Ctrl-4)"
+        },
+        "is_public": {
+            "icon": "Toute personne sur Internet peut trouver et accéder"
+        },
+        "underline": {
+            "icon": "Souligner"
+        },
+        "draw_rect": {
+            "icon": "Dessiner rectangle <br/> (Ctrl-2)"
+        },
+        "file_name": {
+            "icon": "Renommer le dessin"
+        },
         "line_style": {
             "icon": "Style de ligne"
         },
-        "page_setup": {
-            "icon": "Mise en page"
+        "operations": {
+            "icon": "Grouper, dissocier, retourner ou joindre des formes sélectionnées"
         },
-        "zoom_level": {
-            "icon": "Le niveau de zoom"
-        },
-        "move_trash": {
-            "icon": "Mettre à la corbeille"
-        },
-        "fill_color": {
-            "icon": "La couleur de remplissage"
-        },
-        "font_color": {
-            "icon": "Couleur de la police"
+        "line_color": {
+            "icon": "Couleur de la ligne"
         },
         "shared_url": {
             "icon": "Obtenir un lien partageable sans envoyer d'e-mails"
@@ -1067,44 +1077,50 @@
         "text_align": {
             "icon": "Alignement du texte"
         },
-        "line_color": {
-            "icon": "Couleur de la ligne"
+        "font_color": {
+            "icon": "Couleur de la police"
         },
-        "operations": {
-            "icon": "Grouper, dissocier, retourner ou joindre des formes sélectionnées"
+        "fill_color": {
+            "icon": "La couleur de remplissage"
         },
-        "font_family": {
-            "icon": "Famille de polices"
+        "move_trash": {
+            "icon": "Mettre à la corbeille"
+        },
+        "zoom_level": {
+            "icon": "Le niveau de zoom"
+        },
+        "page_setup": {
+            "icon": "Mise en page"
         },
         "line_weight": {
             "icon": "Poids de ligne"
         },
-        "set_public": {
-            "label": "Toute personne sur Internet peut trouver et accéder"
-        },
-        "toggle_grid": {
-            "icon": "Afficher / masquer la grille"
-        },
-        "save_record": {
-            "icon": "Exporter des macros"
-        },
-        "color_trans": {
-            "help": "Transparence <br/> 0-100 / 0% -100% / 0-1"
+        "font_family": {
+            "icon": "Famille de polices"
         },
         "play_record": {
             "icon": "Lire des macros"
         },
-        "draw_ellipse": {
-            "icon": "Dessiner un cercle ou <br/> ellipse (Ctrl-3)"
+        "color_trans": {
+            "help": "Transparence <br/> 0-100 / 0% -100% / 0-1"
         },
-        "round_corner": {
-            "icon": "Coin rond"
+        "save_record": {
+            "icon": "Exporter des macros"
+        },
+        "toggle_grid": {
+            "icon": "Afficher / masquer la grille"
+        },
+        "set_public": {
+            "label": "Toute personne sur Internet peut trouver et accéder"
         },
         "pause_record": {
             "icon": "Suspendre les macros"
         },
-        "format_painter": {
-            "icon": "Artiste peintre de formats <br/> (Ctrl-7)"
+        "round_corner": {
+            "icon": "Coin rond"
+        },
+        "draw_ellipse": {
+            "icon": "Dessiner un cercle ou <br/> ellipse (Ctrl-3)"
         },
         "draw_connector": {
             "icon": "Dessiner des connecteurs <br/> (Ctrl-6)"
@@ -1112,15 +1128,18 @@
         "draw_textblock": {
             "icon": "Dessiner, déplacer, redimensionner ou <br /> faire pivoter le texte (Ctrl-5)"
         },
+        "format_painter": {
+            "icon": "Artiste peintre de formats <br/> (Ctrl-7)"
+        },
         "line_end_format": {
             "icon": "Format de fin de ligne",
             "menu": {
+                "[0,1]": "Fin petit",
                 "[2,0]": "Commencez gros",
                 "[2,2]": "Les deux grands",
                 "[1,0]": "Commencez petit",
                 "[1,1]": "Les deux petits",
                 "[0,2]": "Fin grand",
-                "[0,1]": "Fin petit",
                 "[0,1": {
                     "5]": "Fin moyen"
                 },
@@ -1133,50 +1152,31 @@
                 "linecap_butt": "Linecap fesses bonjour monde",
                 "linecap_round": "Linecap ronde",
                 "linejoin_bevel": "Linejoin biseau",
-                "linejoin_miter": "Linejoin mitre",
+                "linecap_square": "Linecap carré",
                 "linejoin_round": "Linejoin round",
-                "linecap_square": "Linecap carré"
+                "linejoin_miter": "Linejoin mitre"
             }
         },
         "draw_conn_points": {
             "icon": "Connection point<br/>(Shift+Ctrl-6)"
         }
     },
-    "preload": {
-        "guide": "Utilisez des guides pour aligner et organiser des formes sur vos dessins",
-        "layers": "Utiliser des calques pour masquer ou afficher des informations pertinentes",
-        "import": "Il suffit de faire glisser et déposer pour importer des images",
-        "search": "Recherchez des dessins, des dossiers ou des équipes en toute simplicité",
-        "metrics": "Faites un clic droit sur les règles pour définir vos propres unités de mesure",
-        "scaling": "Spécifiez l'échelle de votre dessin pour modéliser les mesures du monde réel",
-        "duplicate": "Dupliquer des formes par CTRL + Glisser + Déposer",
-        "shortcuts": "Dessinez plus rapidement avec ces raccourcis clavier",
-        "shape-link": "Ajouter des hyperliens dans des formes pour un accès rapide aux sites Web",
-        "publishing": "Publiez et partagez votre dessin sur le monde",
-        "create-team": "Créez des équipes pour partager facilement des dessins",
-        "find-replace": "Recherchez facilement du texte avec Ctrl + F",
-        "save-symbols": "Faites glisser et déposez sur votre gabarit personnalisé pour réutiliser les symboles",
-        "share-drawing": "Utiliser des liens pour partager des dessins sur les médias sociaux",
-        "invite-members": "Inviter des membres pour faire fonctionner votre équipe à Vecta",
-        "version-history": "Utiliser l'historique des versions pour suivre les modifications de votre dessin",
-        "shape-properties": "Modifier des formes en utilisant des expressions pour une grande précision"
-    },
     "settings": {
         "sound": "Jouer le son quand:",
         "reading": "Lire les préférences",
         "noti": {
             "push": "Activer la notification de bureau",
-            "trashed": "Trashed un dessin, un dossier ou un pochoir",
             "renamed": "Renommé un dessin, un dossier ou un pochoir",
+            "trashed": "Trashed un dessin, un dossier ou un pochoir",
             "created": "Créé un nouveau dessin, un dossier ou un pochoir"
         },
-        "receive_noti": "Prévenez-moi lorsqu'un membre de l'équipe:",
         "general": {
             "lang": "La langue",
             "new_mssg": "Le message de boîte de conversation est reçu",
             "new_user": "Collaborateur rejoint l'édition",
             "sym_resize": "Redimensionner automatiquement les symboles pour les aligner sur la grille"
-        }
+        },
+        "receive_noti": "Prévenez-moi lorsqu'un membre de l'équipe:"
     },
     "integrate": {
         "error": "Quelque chose a mal tourné ...",
