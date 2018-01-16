@@ -78,8 +78,8 @@
         "descend.icon": "Reverse sort direction",
         "sort.icon": "Sort by",
         "toggle_grid.icon": "Show / hide grid",
-        "Lock.tip": "This stencil cannot be edited. You can add and edit symbols by creating your own stencils.",
-        "Search.tip": "This stencil is a previously saved search and cannot be edited.",
+        "Lock.tip": "Stencil locked",
+        "Search.tip": "Search stencil cannot be edited",
         "expand.icon": "More tools...",
         "shared_url.icon": "Get a shareable link without sending emails",
         "noti.icon": "Notifications",
@@ -101,7 +101,13 @@
             "linejoin_miter": "Linejoin miter",
             "linejoin_round": "Linejoin round",
             "linejoin_bevel": "Linejoin bevel"
-        }
+        },
+        "preserve_ratio.icon": "Lock/Unlock aspect ratio",
+        "formula_prop.icon": "Show / hide formulas",
+        "fields_prop.icon": "Add a field",
+        "add_layer.icon": "Add a layer",
+        "Select.tip": "Select all shapes in layer",
+        "Visible.tip": "Show / hide shapes in layer"
     },
     "mssg": {
         "sending": "Sending",
@@ -293,6 +299,8 @@
         "retype_pass": "Re-type password"
     },
     "email": {
+        "over_invite": "Too many invites",
+        "over_limit": "Your account has reached our invitation limit. The limit will reset after some time. <br /> If you think this is a mistake, please contact hello@vecta.io",
         "remind": "has reminded you to join Team",
         "waiting": "is waiting for you to join Team",
         "rejected": "has rejected your request to access",
@@ -1030,7 +1038,6 @@
         "no_exist": "The stencil no longer exists.",
         "symbol_no_exist": "The symbol no longer exists.",
         "create_stencil": "Create stencil",
-        "non_reverse": "Delete",
         "confirm_del": "Deleting a stencil is a non reversible action.<br /><br />Are you sure you want to delete this stencil?",
         "no_drop_symbol": "You cannot save a symbol into the saved search stencil.",
         "untitled_symbol": "Untitled symbol",
@@ -1045,6 +1052,7 @@
         "no_symbol": "No symbols found",
         "symbol_desc": "Description",
         "symbol_deleted": "Symbol deleted",
+        "delete_stencil": "Delete stencil",
         "removed": "Some stencils are not moved because it has been removed, or you are not allowed to begin with.",
         "symbol_tags": "Tags (Separate with comma)",
         "public_stencil": "Set stencil access to public, no sign in required",
