@@ -23,6 +23,7 @@
         "create": "Create team only"
     },
     "tips": {
+        "search.icon": "Search for symbols",
         "dashboard.icon": "Go to Dashboard",
         "pointer.icon": "Pointer tool<br/>(Ctrl-1)",
         "draw_rect.icon": "Draw rectangle<br/>(Ctrl-2)",
@@ -481,8 +482,7 @@
         "ben2": "-Invite Slack channel members into Vecta teams",
         "coming_soon": "Coming soon: Notification",
         "channel_label": "Channel list",
-        "team_guide": "Slack integration allows you to share Vecta drawing directly to your Slack Channels and invite your Slack channel members into Vecta teams.",
-        "mismatched_code": "Vecta could not be added to your Slack team. <br/>Please ensure that you have clicked on a valid Slack button from Vecta. <br /><span class='Muted.cls'>Error: 0013</span>"
+        "team_guide": "Slack integration allows you to share Vecta drawing directly to your Slack Channels and invite your Slack channel members into Vecta teams."
     },
     "ui": {
         "vecta": "Vecta",
@@ -570,7 +570,10 @@
         "no_access": "Drawing no longer exists, or access is denied by owner.<br /><span class='Muted.cls'>Error: 0010</span>",
         "png_generation_failed": "The image you requested could not be generated. <br /><span class='Muted.cls'>Error: 0011</span>",
         "no_channels": "Unable to get channels. <br /><span class='Muted.cls'>Error: 0012</span>",
-        "not_published": "The drawing is not published, or publishing has been retracted. <br /><span class='Muted.cls'>Error: 0013</span>",
+        "mismatched_code": "Vecta could not be added to your Slack team. <br/>Please ensure that you have clicked on a valid Slack button from Vecta. <br /><span class='Muted.cls'>Error: 0013</span>",
+        "not_published": "The drawing is not published, or publishing has been retracted. <br /><span class='Muted.cls'>Error: 0014</span>",
+        "no_stencil": "The stencil you requested no longer exists, or you have no permission to access it.<br /><span class='Muted.cls'>Error: 0015</span><br /><span class='Muted.cls'>SID: @@</span>",
+        "no_symbol": "The symbol you requested no longer exists, or you have no permission to access it.<br /><span class='Muted.cls'>Error: 0016</span><br /><span class='Muted.cls'>SID: @@</span>",
         "loading_fonts": "Loading fonts",
         "delete_layer": "Do you wish to keep the shapes, or remove them along with the layer?",
         "keep": "Keep shapes",
@@ -744,6 +747,7 @@
         "open": "Open",
         "new": "New",
         "edit": "Edit",
+        "change_icon": "Change icon",
         "rename": "Rename",
         "leave": "Leave",
         "delete": "Delete",
@@ -751,8 +755,6 @@
         "share": "Share",
         "new_doc": "New drawing",
         "new_folder": "New folder",
-        "file_moved": "Drawing was successfully moved.",
-        "folder_moved": "Folder was successfully moved.",
         "print": "Print",
         "preferences": "Preferences",
         "export_pdf": "Export as PDF",
