@@ -109,7 +109,7 @@
         "fields_prop.icon": "Add a field",
         "add_layer.icon": "Add a layer",
         "Select.tip": "Select all shapes in layer",
-        "save.icon": "Drag and drop to the left to save",
+        "save_rect.icon": "Drag and drop to the left to save",
         "reset.icon": "Reset selected gradient",
         "Visible.tip": "Show / hide shapes in layer"
     },
@@ -140,6 +140,7 @@
         "ver_delete_fail": "Delete failed. Please try again later.",
         "template_create_fail": "The template must not be an empty drawing.",
         "formula_same_field": "Formula expression on same field not allowed",
+        "grad_exist": "Gradient already exist!",
         "formula_circular_dependency": "Similar formula expression found on @@"
     },
     "login": {
@@ -833,10 +834,9 @@
         "unlock": "Unlock shape(s)",
         "manage": "Manage access",
         "hyperlink": "Hyperlink",
-        "insert_link": "Insert hyperlink(s)",
-        "remove_link": "Remove hyperlink(s)",
-        "edit_link": "Edit hyperlink(s)",
-        "jump_to": "Jump to:"
+        "insert_link": "Insert hyperlink",
+        "remove_link": "Remove hyperlink",
+        "edit_link": "Edit hyperlink"
     },
     "stencil": {
         "stencil_0": {
@@ -1082,6 +1082,13 @@
                 "General"
             ]
         },
+        "stencil_36": {
+            "name": "Network Basic",
+            "desc": "Basic network symbols",
+            "cat": [
+                "Network"
+            ]
+        },
         "no_exist": "Unable to set the following items. The stencil may no longer exists, or <br /> you do not have the permission to access it.",
         "symbol_no_exist": "Unable to set the following items. The symbol may no longer exists, or <br /> you do not have the permission to access it.",
         "create_stencil": "Create stencil",
@@ -1209,7 +1216,12 @@
         "search": "Search for drawings, folders or teams with ease",
         "share-drawing": "Use links to share drawings on social media",
         "save-symbols": "Drag and drop to your custom stencil to reuse symbols",
-        "publishing": "Publish and share your drawing to the world"
+        "publishing": "Publish and share your drawing to the world",
+        "chat": "Chat with your teammates right away in Vecta's editor",
+        "gradient": "Use linear or radial gradient to make your drawing lively",
+        "slack": "Integrate your Vecta teams with Slack channels for deeper collaboration",
+        "symbol-search": "Search for symbols in Vecta's growing symbols library",
+        "formula": "Create smart shapes using formula"
     },
     "settings": {
         "reading": "Reading preferences",
