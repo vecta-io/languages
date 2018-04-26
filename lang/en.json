@@ -28,6 +28,9 @@
         "dashboard.icon": "Go to Dashboard",
         "revert_icon.icon": "Revert icon to last updated",
         "update_icon.icon": "Update symbol icon",
+        // "cut.icon": "Cut - Internal only.<br />Use Ctrl-X to cut to system clipboard",
+        // "copy.icon": "Copy - Internal only.<br />Use Ctrl-C to copy to system clipboard",
+        // "paste.icon": "Paste - Internal only.<br />Use Ctrl-V to paste from system clipboard",
         "pointer.icon": "Pointer tool<br/>(Ctrl-1)",
         "draw_rect.icon": "Draw rectangle<br/>(Ctrl-2)",
         "draw_ellipse.icon": "Draw circle or<br/>ellipse (Ctrl-3)",
@@ -79,7 +82,7 @@
         "set_public.label": "Anyone on the internet can find and access",
         "remove.help": "Remove user",
         "page_setup.icon": "Page Setup",
-        "ascend.icon": "Reverse sort direction",
+        "ascend.icon":"Reverse sort direction",
         "descend.icon": "Reverse sort direction",
         "sort.icon": "Sort by",
         "toggle_grid.icon": "Show / hide grid",
@@ -129,8 +132,8 @@
         "fetching_channels": "Fetching Slack channels",
         "loading": "Loading",
         "checking_invite": "Checking your invitation",
-        "not_supported_png": "Export PNG is currently not supported on Internet Explorer. <br /> Please try again with a different browser.",
-        "not_supported_pdf": "Export PDF is currently not supported on Internet Explorer. <br /> Please try again with a different browser.",
+        "not_supported_png":"Export PNG is currently not supported on Internet Explorer. <br /> Please try again with a different browser.",
+        "not_supported_pdf":"Export PDF is currently not supported on Internet Explorer. <br /> Please try again with a different browser.",
         "cannot_upload": "You must be logged in to import images into Vecta.",
         "not_supported": "Browser not supported",
         "shape_prop_mssg": "Please select a shape",
@@ -228,8 +231,9 @@
         "resend_email": "Resend email",
         "retype_pass": "Re-type password"
     },
+    //for sharing
     "access": {
-        "close": "Close",
+        "close" : "Close",
         "shared_url": "Who can access",
         "contact_fb": "Contacting Facebook",
         "private_drawing": "Only invited users can access this drawing",
@@ -312,6 +316,7 @@
         "resend_email": "Resend email",
         "retype_pass": "Re-type password"
     },
+    //for emailing
     "email": {
         "over_invite": "Too many invites",
         "over_limit": "Your account has reached our invitation limit. The limit will reset after some time. <br /> If this is a mistake, please contact hello@vecta.io",
@@ -373,16 +378,7 @@
         "create_template": "Creating new template",
         "created_template": "Template successfully created.",
         "loading_folders": "Loading folders",
-        "team_names": [
-            "Fun",
-            "Awesome",
-            "Happy",
-            "Best team ever",
-            "Cool",
-            "Smart",
-            "Fantastic",
-            "Winners"
-        ],
+        "team_names": ["Fun", "Awesome", "Happy", "Best team ever", "Cool", "Smart", "Fantastic", "Winners"],
         "move": "Move",
         "moving": "Moving",
         "copying": "Copying",
@@ -415,7 +411,7 @@
         "team_name": "in Team @@.",
         "team": "team.",
         "your_dashboard": "on your Dashboard.",
-        "published": "@@ was published.",
+        "published": "@@ was published.", 
         "trashed": "@@ trashed ",
         "restored": "@@ restored ",
         "created": "@@ created ",
@@ -442,19 +438,22 @@
         "hours_ago": "hours ago",
         "day_ago": "1 day ago"
     },
-    "publish": {
+    "publish" : {
         "loading": "Hold tight, checking published drawing",
-        "confirm_content": "Publishing this drawing will make your content visible to anyone on the Internet. <br />Continue?",
-        "title": "Publish to the Web",
-        "done": "Drawing successfully published to the web.",
-        "stop": "Drawing removed from public publishing.",
+        "confirm_content" : "Publishing this drawing will make your content visible to anyone on the Internet. <br />Continue?",
+        "title" : "Publish to the Web",
+        "done" : "Drawing successfully published to the web.",
+        "stop" : "Drawing removed from public publishing.",
         "remove": "Remove Publishing",
         "publishing": "Publishing drawing",
         "change": "Publish Changes",
         "error": "No shapes are found. You cannot publish your current drawing."
     },
+    //OK.cls is not required as it will always be scanned and replaced
     "dialog": {
-        "get_color.drop": {}
+        "get_color.drop": {
+            //empty, just to enable processing
+        }
     },
     "integrate": {
         "redirect_prev": "Return to previous page now",
@@ -462,6 +461,7 @@
         "error": "Something has gone wrong...",
         "success": "Integration successful"
     },
+    //SLACK
     "slack": {
         "sending_failed": "Unable to communicate with Slack. Please retry integrating Vecta with Slack.",
         "group_message": "Group messaging",
@@ -615,14 +615,7 @@
         "view_template": "You have view only access<br />to this template",
         "view": "View",
         "transparency": "Transparency",
-        "hsl": [
-            "H",
-            "S",
-            "L",
-            "R",
-            "G",
-            "B"
-        ],
+        "hsl": ["H", "S", "L", "R", "G", "B"],
         "more": "More",
         "less": "Less",
         "share_drawing": "Share",
@@ -633,10 +626,11 @@
         "wrong_file_type": "Vecta currently does not accept this file type. (Supported type: png, jpeg, gif and svg)",
         "downloaded_svg_only": "This feature only accepts SVG files from File > Download.",
         "exported_svg": "Vecta does not accept exported svg. <br />Please select files downloaded from the option File > Download Drawing instead.",
-        "copy_link": "Copy link",
+        "copy_link" : "Copy link",
         "shape_properties": "Shape Properties",
         "chat_box": "Chat box",
         "url": "URL link:",
+        // review: @Tom remove all these
         "txtx": "TxtX",
         "txtcx": "TxtCenterX",
         "txty": "TxtY",
@@ -712,7 +706,7 @@
         "template_of": "Template of ",
         "restored_to": "The restored item(s) has been moved to ",
         "current_version": "Current version",
-        "no_formula": "No formula",
+        "no_formula" : "No formula",
         "multiple_shapes": "Multiple shapes selected",
         "radius": "Radius",
         "radial": "Radial",
@@ -726,7 +720,7 @@
         "share_to": "Or share directly to:"
     },
     "drop": {
-        "add_ctrl_pt": "Add control points",
+        "add_ctrl_pt": "Add control point",
         "refresh": "Refresh",
         "members": "Manage members",
         "new_layer": "New layer",
@@ -821,8 +815,8 @@
         "align_bottom": "Align bottom",
         "hide_properties": "Hide properties",
         "show_properties": "Show properties",
-        "show_chat_box": "Show chat box",
-        "hide_chat_box": "Hide chat box",
+        "show_chat_box":"Show chat box",
+        "hide_chat_box":"Hide chat box",
         "show_icon_preview": "Show icon preview",
         "hide_icon_preview": "Hide icon preview",
         "clone_drawing": "Duplicate",
@@ -831,10 +825,10 @@
         "publish_drawing": "Publish drawing",
         "publish": "Publish",
         "template_drawing": "Make template",
-        "ver_history": "Version history",
+        "ver_history" : "Version history",
         "commit": "Commit",
         "ver_commit": "Commit drawing",
-        "page_setup": "Page setup",
+        "page_setup" : "Page setup",
         "in": "in",
         "mm": "mm",
         "px": "px",
@@ -856,332 +850,61 @@
         "playlist": "Playlist",
         "tutorial_vid": "Videos"
     },
-    "stencil": {
-        "stencil_0": {
-            "name": "Flow Chart",
-            "desc": "General flow chart symbols"
-        },
-        "stencil_1": {
-            "name": "Colorful notes",
-            "desc": "Colorful notes symbols",
-            "cat": [
-                "General"
-            ]
-        },
-        "stencil_2": {
-            "name": "Business Model Canvas",
-            "desc": "Business model canvas in different sizes"
-        },
-        "stencil_3": {
-            "name": "Google",
-            "desc": "Google product symbols",
-            "cat": [
-                "Google"
-            ]
-        },
-        "stencil_4": {
-            "name": "Google Cloud Platform",
-            "desc": "Google cloud platform symbols",
-            "cat": [
-                "Google"
-            ]
-        },
-        "stencil_5": {
-            "name": "AWS Analytics",
-            "desc": "Amazon Web Services: Analytics",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_6": {
-            "name": "AWS Application Services",
-            "desc": "Amazon Web Services: Application services",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_7": {
-            "name": "AWS Artificial Intelligence",
-            "desc": "Amazon Web Services: Artificial intelligence",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_8": {
-            "name": "AWS Business Productivity",
-            "desc": "Amazon Web Services: Business productivity",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_9": {
-            "name": "AWS Compute",
-            "desc": "Amazon Web Services: Compute",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_10": {
-            "name": "AWS Database",
-            "desc": "Amazon Web Services: Database",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_11": {
-            "name": "AWS Desktop App Streaming",
-            "desc": "Amazon Web Services: Desktop application streaming",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_12": {
-            "name": "AWS Developer Tools",
-            "desc": "Amazon Web Services: Developer tools",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_13": {
-            "name": "AWS Game Development",
-            "desc": "Amazon Web Services: Game development",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_14": {
-            "name": "AWS General",
-            "desc": "Amazon Web Services: General",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_15": {
-            "name": "AWS Internet of Things",
-            "desc": "Amazon Web Services: Internet of things",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_16": {
-            "name": "AWS Management Tools",
-            "desc": "Amazon Web Services: Management tools",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_17": {
-            "name": "AWS Messaging",
-            "desc": "Amazon Web Services: Messaging",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_18": {
-            "name": "AWS Migration",
-            "desc": "Amazon Web Services: Migration",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_19": {
-            "name": "AWS Mobile Services",
-            "desc": "Amazon Web Services: Mobile services",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_20": {
-            "name": "AWS Networking & Content Delivery",
-            "desc": "Amazon Web Services: Networking and content delivery",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_21": {
-            "name": "AWS On Demand Workforce",
-            "desc": "Amazon Web Services: On demand work force",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_22": {
-            "name": "AWS SDKs",
-            "desc": "Amazon Web Services: Software development kits",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_23": {
-            "name": "AWS Security Identity & Compliance",
-            "desc": "Amazon Web Services: Identity and compliance",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_24": {
-            "name": "AWS Storage",
-            "desc": "Amazon Web Services: Storage",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_25": {
-            "name": "Web Technologies",
-            "desc": "General web technology symbols"
-        },
-        "stencil_26": {
-            "name": "Colorful Documents and Folders",
-            "desc": "Colorful document and folder symbols",
-            "cat": [
-                "General"
-            ]
-        },
-        "stencil_27": {
-            "name": "Microsoft Azure Mono",
-            "desc": "Microsoft Azure: Monochrome symbols",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_28": {
-            "name": "Microsoft Azure Color",
-            "desc": "Microsoft Azure: Color symbols",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_29": {
-            "name": "Microsoft Virtual Machines",
-            "desc": "Microsoft Azure: Virtual machines",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_30": {
-            "name": "Microsoft Systems Center",
-            "desc": "Microsoft Azure: Systems center",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_31": {
-            "name": "Microsoft Enterprise",
-            "desc": "Microsoft Azure: Enterprise",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_32": {
-            "name": "Microsoft Intune",
-            "desc": "Microsoft Azure: Intune",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_33": {
-            "name": "Microsoft Office Products",
-            "desc": "Microsoft Azure: Office products",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_34": {
-            "name": "People",
-            "desc": "",
-            "cat": [
-                "General"
-            ]
-        },
-        "stencil_35": {
-            "name": "Containers",
-            "desc": "Blocks that acts as containers",
-            "cat": [
-                "General"
-            ]
-        },
-        "stencil_36": {
-            "name": "Network Infrastructure",
-            "desc": "Network infrastructure symbols",
-            "cat": [
-                "Network"
-            ]
-        },
-        "stencil_37": {
-            "name": "Basic Network",
-            "desc": "Basic Network Symbols",
-            "cat": [
-                "Network"
-            ]
-        },
-        "stencil_38": {
-            "name": "Computers and Monitors",
-            "desc": "Display Devices",
-            "cat": [
-                "Network"
-            ]
-        },
-        "stencil_39": {
-            "name": "Use Case",
-            "desc": "Use case diagramming",
-            "cat": [
-                "UML"
-            ]
-        },
-        "stencil_40": {
-            "name": "Activity",
-            "desc": "Activity diagramming",
-            "cat": [
-                "UML"
-            ]
-        },
-        "stencil_41": {
-            "name": "Class",
-            "desc": "Class diagramming",
-            "cat": [
-                "UML"
-            ]
-        },
-        "stencil_42": {
-            "name": "Entity relationship",
-            "desc": "Entity relationship diagramming",
-            "cat": [
-                "UML"
-            ]
-        },
-        "stencil_43": {
-            "name": "Venn Diagrams",
-            "desc": "A representation of logical or mathematical relations"
-        },
-        "stencil_44": {
-            "name": "Bar Chart",
-            "desc": "Bar chart representation",
-            "cat": [
-                "Chart"
-            ]
-        },
-        "stencil_45": {
-            "name": "Organization Chart",
-            "desc": "A graphic representation of the structure of an organization showing the relationships of the positions or jobs within it.",
-            "cat": [
-                "Chart"
-            ]
-        },
-        "stencil_46": {
-            "name": "Gateway",
-            "desc": "Decision point that can adjust the path based on conditions or events.",
-            "cat": [
-                "UML"
-            ]
-        },
-        "stencil_47": {
-            "name": "Mind map",
-            "desc": "A graphic representation of ideas and concepts"
-        },
-        "stencil_48": {
-            "name": "Tables",
-            "desc": "A representation of rows and columns of cells"
-        },
+    "stencil" : {
+        // "aws": { "name": "Amazon Web Services", "desc": "" },
+        // "microsoft": { "name": "Microsoft", "desc": ""},
+        // "general": { "name": "General", "desc": ""},
+        // "google": { "name": "Google", "desc" : ""},
+        "stencil_0": { "name": "Flow Chart", "desc": "General flow chart symbols" },
+        "stencil_1": { "name": "Colorful notes", "desc": "Colorful notes symbols", "cat": ["General"] },
+        "stencil_2": { "name": "Business Model Canvas", "desc": "Business model canvas in different sizes" },
+        "stencil_3": { "name": "Google", "desc": "Google product symbols", "cat": ["Google"] },
+        "stencil_4": { "name": "Google Cloud Platform", "desc": "Google cloud platform symbols", "cat": ["Google"] },
+        "stencil_5": { "name": "AWS Analytics", "desc": "Amazon Web Services: Analytics", "cat": ["Amazon Web Services"] },
+        "stencil_6": { "name": "AWS Application Services", "desc": "Amazon Web Services: Application services", "cat": ["Amazon Web Services"] },
+        "stencil_7": { "name": "AWS Artificial Intelligence", "desc": "Amazon Web Services: Artificial intelligence", "cat": ["Amazon Web Services"] },
+        "stencil_8": { "name": "AWS Business Productivity", "desc": "Amazon Web Services: Business productivity", "cat": ["Amazon Web Services"] },
+        "stencil_9": { "name": "AWS Compute", "desc": "Amazon Web Services: Compute", "cat": ["Amazon Web Services"] },
+        "stencil_10": { "name": "AWS Database", "desc": "Amazon Web Services: Database", "cat": ["Amazon Web Services"] },
+        "stencil_11": { "name": "AWS Desktop App Streaming", "desc": "Amazon Web Services: Desktop application streaming", "cat": ["Amazon Web Services"] },
+        "stencil_12": { "name": "AWS Developer Tools", "desc": "Amazon Web Services: Developer tools", "cat": ["Amazon Web Services"] },
+        "stencil_13": { "name": "AWS Game Development", "desc": "Amazon Web Services: Game development", "cat": ["Amazon Web Services"] },
+        "stencil_14": { "name": "AWS General", "desc": "Amazon Web Services: General", "cat": ["Amazon Web Services"] },
+        "stencil_15": { "name": "AWS Internet of Things", "desc": "Amazon Web Services: Internet of things", "cat": ["Amazon Web Services"] },
+        "stencil_16": { "name": "AWS Management Tools", "desc": "Amazon Web Services: Management tools", "cat": ["Amazon Web Services"] },
+        "stencil_17": { "name": "AWS Messaging", "desc": "Amazon Web Services: Messaging", "cat": ["Amazon Web Services"] },
+        "stencil_18": { "name": "AWS Migration", "desc": "Amazon Web Services: Migration", "cat": ["Amazon Web Services"] },
+        "stencil_19": { "name": "AWS Mobile Services", "desc": "Amazon Web Services: Mobile services", "cat": ["Amazon Web Services"] },
+        "stencil_20": { "name": "AWS Networking & Content Delivery", "desc": "Amazon Web Services: Networking and content delivery",
+            "cat": ["Amazon Web Services"] },
+        "stencil_21": { "name": "AWS On Demand Workforce", "desc": "Amazon Web Services: On demand work force", "cat": ["Amazon Web Services"] },
+        "stencil_22": { "name": "AWS SDKs", "desc": "Amazon Web Services: Software development kits", "cat": ["Amazon Web Services"] },
+        "stencil_23": { "name": "AWS Security Identity & Compliance", "desc": "Amazon Web Services: Identity and compliance", "cat": ["Amazon Web Services"] },
+        "stencil_24": { "name": "AWS Storage", "desc": "Amazon Web Services: Storage", "cat": ["Amazon Web Services"] },
+        "stencil_25": { "name": "Web Technologies", "desc": "General web technology symbols" },
+        "stencil_26": { "name": "Colorful Documents and Folders", "desc": "Colorful document and folder symbols", "cat": ["General"]},
+        "stencil_27": { "name": "Microsoft Azure Mono", "desc": "Microsoft Azure: Monochrome symbols", "cat": ["Microsoft"] },
+        "stencil_28": { "name": "Microsoft Azure Color", "desc": "Microsoft Azure: Color symbols", "cat": ["Microsoft"] },
+        "stencil_29": { "name": "Microsoft Virtual Machines", "desc": "Microsoft Azure: Virtual machines", "cat": ["Microsoft"] },
+        "stencil_30": { "name": "Microsoft Systems Center", "desc": "Microsoft Azure: Systems center", "cat": ["Microsoft"] },
+        "stencil_31": { "name": "Microsoft Enterprise", "desc": "Microsoft Azure: Enterprise", "cat": ["Microsoft"] },
+        "stencil_32": { "name": "Microsoft Intune", "desc": "Microsoft Azure: Intune", "cat": ["Microsoft"] },
+        "stencil_33": { "name": "Microsoft Office Products", "desc": "Microsoft Azure: Office products", "cat": ["Microsoft"] },
+        "stencil_34": { "name": "People", "desc": "", "cat": ["General"]},
+        "stencil_35": { "name": "Containers", "desc": "Blocks that acts as containers", "cat": ["General"]},
+        "stencil_36": { "name": "Network Infrastructure", "desc": "Network infrastructure symbols", "cat" : ["Network"]},
+        "stencil_37": { "name": "Basic Network", "desc": "Basic Network Symbols", "cat" : ["Network"]},
+        "stencil_38": { "name": "Computers and Monitors", "desc": "Display Devices", "cat" : ["Network"]},
+        "stencil_39": { "name": "Use Case", "desc": "Use case diagramming", "cat" : ["UML"]},
+        "stencil_40": { "name": "Activity", "desc": "Activity diagramming", "cat" : ["UML"]},
+        "stencil_41": { "name": "Class", "desc": "Class diagramming", "cat" : ["UML"]},
+        "stencil_42": { "name": "Entity relationship", "desc": "Entity relationship diagramming", "cat" : ["UML"]},
+        "stencil_43": { "name": "Venn Diagrams", "desc": "A representation of logical or mathematical relations"},
+        "stencil_44": { "name": "Bar Chart", "desc": "Bar chart representation", "cat" : ["Chart"]},
+        "stencil_45": { "name": "Organization Chart", "desc": "A graphic representation of the structure of an organization showing the relationships of the positions or jobs within it.", "cat" : ["Chart"]},
+        "stencil_46": { "name": "Gateway", "desc": "Decision point that can adjust the path based on conditions or events.", "cat" : ["UML"]},
+        "stencil_47": { "name": "Mind map", "desc": "A graphic representation of ideas and concepts"},
+        "stencil_48": { "name": "Tables", "desc": "A representation of rows and columns of cells"},
         "no_exist": "Unable to set the following items. The stencil may no longer exists, or <br /> you do not have the permission to access it.",
         "symbol_no_exist": "Unable to set the following items. The symbol may no longer exists, or <br /> you do not have the permission to access it.",
         "create_stencil": "Create stencil",
@@ -1220,8 +943,9 @@
         "find_symbols": "Find symbols",
         "icon_preview": "Preview",
         "revert_icon": "Revert"
+
     },
-    "page": {
+    "page" : {
         "orientation": "Orientation:",
         "portrait": "Portrait",
         "landscape": "Landscape",
