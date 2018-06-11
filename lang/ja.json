@@ -939,7 +939,21 @@
             "icon": "行末"
         },
         "draw_path": {
-            "icon": "パス、円弧、曲線<br/>またはフリーフォーム（Ctrl-4）"
+            "icon": "パス、円弧、曲線<br/>またはフリーフォーム（Ctrl-4）",
+            "menu": {
+                "draw_line": {
+                    "icon": "線を引く"
+                },
+                "draw_quad": {
+                    "icon": "クワッドを描く"
+                },
+                "draw_cubic": {
+                    "icon": "立方体を描く"
+                },
+                "draw_free": {
+                    "icon": "フリーフォームを描く"
+                }
+            }
         },
         "file_name": {
             "icon": "図面の名前を変更する"
@@ -975,7 +989,15 @@
             "icon": "グループ化、グループ解除、選択した図形のフリップまたは結合"
         },
         "text_align": {
-            "icon": "テキストの配置"
+            "icon": "テキストの配置",
+            "menu": {
+                "start": "開始",
+                "middle": "中間",
+                "end": "終わり",
+                "top": "上",
+                "central": "中央",
+                "bottom": "ボトム"
+            }
         },
         "page_setup": {
             "icon": "ページ設定"
@@ -1044,7 +1066,18 @@
             "icon": "アスペクト比のロック/ロック解除"
         },
         "draw_connector": {
-            "icon": "コネクタを引く<br/> <br/>（Ctrl-6）"
+            "icon": "コネクタを引く<br/> <br/>（Ctrl-6）",
+            "menu": {
+                "draw_conn_verti": {
+                    "icon": "コネクタ垂直"
+                },
+                "draw_conn_line": {
+                    "icon": "コネクタライン"
+                },
+                "draw_conn_points": {
+                    "icon": "コネクタポイント"
+                }
+            }
         },
         "line_end_format": {
             "icon": "行末形式",
