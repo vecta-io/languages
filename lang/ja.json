@@ -80,7 +80,7 @@
         "new_team": "新しいチーム",
         "endArrow": "エンド・アロー",
         "feedback": "フィードバック",
-        "round_to": "丸め",
+        "round_to": "精度：",
         "download": "ダウンロード",
         "no_trash": "あなたは破棄された図面を持っていません。",
         "archived": "非アクティブなため、この図面はアーカイブされています。作図を続けたい場合は、ページを更新してください。",
@@ -365,7 +365,7 @@
         "hyperlink": "ハイパーリンク",
         "show_grid": "グリッド表示",
         "edit_link": "ハイパーリンクを編集する",
-        "file_prop": "プロパティ",
+        "file_prop": "ドキュメント設定",
         "edit_icon": "編集アイコン",
         "open_sans": "オープンサンズ",
         "hide_grid": "グリッドを非表示",
@@ -427,26 +427,23 @@
         "show_sym_name": "アイコン名を表示する",
         "file_prop_info": "タイトルと説明は、あなたの出版物やソーシャルメディアで使用されます。<br />図を公開すると、インターネット上の誰でもあなたのコンテンツを見ることができます。",
         "export_stencil": "輸出する",
-        "show_published": "公開時に表示",
-        "hide_published": "公開時に非表示",
         "import_stencil": "インポート",
         "show_properties": "プロパティを表示する",
         "hide_properties": "プロパティを非表示",
         "publish_drawing": "図面を公開する",
-        "printable_layer": "印刷可能なレイヤー",
         "template_drawing": "テンプレートを作る",
         "roboto_condensed": "Roboto Condensed",
         "download_drawing": "ダウンロード",
         "show_icon_preview": "アイコンのプレビューを表示する",
         "hide_icon_preview": "アイコンのプレビューを隠す",
-        "nonprintable_layer": "印刷不可能なレイヤー",
         "last_modified_by_me": "最後に更新した図面",
         "tools": "ツール",
         "convert_path": "パスに変換する",
         "make_public": "公開公開する",
         "custom_json": "カスタムデータ",
         "switch_line_end": "スイッチラインエンド",
-        "undo_history": "履歴を元に戻す"
+        "undo_history": "履歴を元に戻す",
+        "show_when_published": "印刷する/出版する"
     },
     "login": {
         "or": "または",
@@ -937,7 +934,31 @@
             "icon": "ページに合わせて拡大"
         },
         "line_end": {
-            "icon": "行末"
+            "icon": "ラインプロパティ",
+            "menu": {
+                "[1,0]": "小さなものから始める",
+                "[1,1]": "どちらも小さい",
+                "[0,1]": "小さな終わり",
+                "[1": {
+                    "5,0]": "媒体を始める",
+                    "5,1": {
+                        "5]": "両方の媒体"
+                    }
+                },
+                "[0,1": {
+                    "5]": "媒体を終了する"
+                },
+                "[2,0]": "ビッグビギニング",
+                "[2,2]": "どちらも大きい",
+                "[0,2]": "ビッグエンド",
+                "linecap_butt": "リネカップバット",
+                "linecap_round": "リニアキャップラウンド",
+                "linecap_square": "リニアキャップ正方形",
+                "linejoin_miter": "ラインジョイントマイター",
+                "linejoin_round": "ラインジョイントラウンド",
+                "linejoin_bevel": "ラインジョイントベベル",
+                "swap": "スイッチラインの終わり"
+            }
         },
         "draw_path": {
             "icon": "パス、円弧、曲線<br/>またはフリーフォーム（Ctrl-4）"
@@ -1047,32 +1068,6 @@
         "draw_connector": {
             "icon": "コネクタを引く<br/> <br/>（Ctrl-6）"
         },
-        "line_end_format": {
-            "icon": "行末形式",
-            "menu": {
-                "[1,1]": "どちらも小さい",
-                "[2,0]": "ビッグビギニング",
-                "[2,2]": "どちらも大きい",
-                "[0,2]": "ビッグエンド",
-                "[1,0]": "小さなものから始める",
-                "[0,1]": "小さな終わり",
-                "[0,1": {
-                    "5]": "媒体を終了する"
-                },
-                "[1": {
-                    "5,0]": "媒体を始める",
-                    "5,1": {
-                        "5]": "両方の媒体"
-                    }
-                },
-                "linecap_butt": "リネカップバット",
-                "linecap_round": "リニアキャップラウンド",
-                "linejoin_miter": "ラインジョイントマイター",
-                "linecap_square": "リニアキャップ正方形",
-                "linejoin_round": "ラインジョイントラウンド",
-                "linejoin_bevel": "ラインジョイントベベル"
-            }
-        },
         "custom_gradient": {
             "icon": "左にドラッグ＆ドロップすると保存できます"
         },
@@ -1087,33 +1082,6 @@
         },
         "Close": {
             "tip": "閉じる"
-        },
-        "line_end2": {
-            "icon": "ラインプロパティ",
-            "menu": {
-                "[1,0]": "小さなものから始める",
-                "[1,1]": "どちらも小さい",
-                "[0,1]": "小さな終わり",
-                "[1": {
-                    "5,0]": "媒体を始める",
-                    "5,1": {
-                        "5]": "両方の媒体"
-                    }
-                },
-                "[0,1": {
-                    "5]": "媒体を終了する"
-                },
-                "[2,0]": "ビッグビギニング",
-                "[2,2]": "どちらも大きい",
-                "[0,2]": "ビッグエンド",
-                "linecap_butt": "リネカップバット",
-                "linecap_round": "リニアキャップラウンド",
-                "linecap_square": "リニアキャップ正方形",
-                "linejoin_miter": "ラインジョイントマイター",
-                "linejoin_round": "ラインジョイントラウンド",
-                "linejoin_bevel": "ラインジョイントベベル",
-                "swap": "スイッチラインの終わり"
-            }
         },
         "Expand": {
             "tip": "展開する"
@@ -1591,6 +1559,13 @@
         "stencil_52": {
             "name": "AWS Contact Center",
             "desc": "Amazon Webサービス：コンタクトセンター",
+            "cat": [
+                "Amazon Webサービス"
+            ]
+        },
+        "stencil_53": {
+            "name": "AWSコンテナ",
+            "desc": "Amazon Webサービス：コンテナ",
             "cat": [
                 "Amazon Webサービス"
             ]
