@@ -73,7 +73,7 @@
         "sample_2": "Modèle de Business Canvas",
         "txtwidth": "TxtWidth",
         "archived": "En raison de l'inactivité, ce dessin a été archivé. Si vous souhaitez continuer à dessiner, veuillez actualiser la page.",
-        "round_to": "Arrondir à",
+        "round_to": "Précision:",
         "deleting": "Suppression",
         "txtangle": "TxtAngle",
         "download": "Télécharger",
@@ -364,7 +364,7 @@
         "edit_icon": "Modifier l'icône",
         "hide_grid": "Masquer la grille",
         "open_sans": "Ouvrir Sans",
-        "file_prop": "Propriétés",
+        "file_prop": "Configuration du document",
         "intersect": "Couper",
         "export_pdf": "Exporter en PDF",
         "page_setup": "Mise en page",
@@ -419,12 +419,9 @@
         "anonymous_pro": "Pro anonyme",
         "hide_sym_name": "Masquer les noms d'icône",
         "share_stencil": "Partager le pochoir",
-        "hide_published": "Masquer lors de la publication",
         "export_stencil": "Exportation",
         "import_stencil": "Importer",
-        "show_published": "Montrer quand publié",
         "file_prop_info": "Le titre et la description sont utilisés sur votre publication et sur les réseaux sociaux. <br /> La publication de dessin rendra votre contenu visible à tous sur Internet.",
-        "printable_layer": "Couche imprimable",
         "show_properties": "Afficher les propriétés",
         "hide_properties": "Masquer les propriétés",
         "publish_drawing": "Publier le dessin",
@@ -433,14 +430,14 @@
         "roboto_condensed": "Roboto condensé",
         "show_icon_preview": "Afficher l'aperçu de l'icône",
         "hide_icon_preview": "Masquer l'aperçu des icônes",
-        "nonprintable_layer": "Couche non imprimable",
         "last_modified_by_me": "Dernière modification par moi",
         "tools": "Outils",
         "convert_path": "Convertir en chemin",
         "make_public": "Rendre le dessin public",
         "custom_json": "Données personnalisées",
         "switch_line_end": "Changer la fin de la ligne",
-        "undo_history": "Annuler l'historique"
+        "undo_history": "Annuler l'historique",
+        "show_when_published": "Afficher dans imprimer / publier"
     },
     "list": {
         "en": "Anglais",
@@ -945,7 +942,31 @@
             "icon": "Outil pointeur <br/> (Ctrl-1)"
         },
         "line_end": {
-            "icon": "Fin de ligne"
+            "icon": "Propriétés de ligne",
+            "menu": {
+                "[1,0]": "Commencez petit",
+                "[1,1]": "Les deux petits",
+                "[0,1]": "Fin petit",
+                "[1": {
+                    "5,0]": "Commencer le milieu",
+                    "5,1": {
+                        "5]": "Les deux moyens"
+                    }
+                },
+                "[0,1": {
+                    "5]": "Fin moyen"
+                },
+                "[2,0]": "Commencez gros",
+                "[2,2]": "Les deux grands",
+                "[0,2]": "Fin grand",
+                "linecap_butt": "Linecap bout à bout",
+                "linecap_round": "Linecap ronde",
+                "linecap_square": "Linecap carré",
+                "linejoin_miter": "Linejoin mitre",
+                "linejoin_round": "Linejoin round",
+                "linejoin_bevel": "Linejoin biseau",
+                "swap": "Commuter les extrémités de ligne"
+            }
         },
         "chat_box": {
             "icon": "Boîte de discussion"
@@ -1067,32 +1088,6 @@
         "preserve_ratio": {
             "icon": "Verrouiller / déverrouiller le rapport d'aspect"
         },
-        "line_end_format": {
-            "icon": "Format de fin de ligne",
-            "menu": {
-                "[0,1]": "Fin petit",
-                "[1,0]": "Commencez petit",
-                "[1,1]": "Les deux petits",
-                "[0,2]": "Fin grand",
-                "[2,2]": "Les deux grands",
-                "[2,0]": "Commencez gros",
-                "[0,1": {
-                    "5]": "Fin moyen"
-                },
-                "[1": {
-                    "5,0]": "Commencer le milieu",
-                    "5,1": {
-                        "5]": "Les deux moyens"
-                    }
-                },
-                "linecap_butt": "Linecap fesses bonjour monde",
-                "linecap_round": "Linecap ronde",
-                "linejoin_miter": "Linejoin mitre",
-                "linejoin_bevel": "Linejoin biseau",
-                "linecap_square": "Linecap carré",
-                "linejoin_round": "Linejoin round"
-            }
-        },
         "custom_gradient": {
             "icon": "Faites glisser et déposez à gauche pour enregistrer"
         },
@@ -1107,33 +1102,6 @@
         },
         "Close": {
             "tip": "Fermer"
-        },
-        "line_end2": {
-            "icon": "Propriétés de ligne",
-            "menu": {
-                "[1,0]": "Commencez petit",
-                "[1,1]": "Les deux petits",
-                "[0,1]": "Fin petit",
-                "[1": {
-                    "5,0]": "Commencer le milieu",
-                    "5,1": {
-                        "5]": "Les deux moyens"
-                    }
-                },
-                "[0,1": {
-                    "5]": "Fin moyen"
-                },
-                "[2,0]": "Commencez gros",
-                "[2,2]": "Les deux grands",
-                "[0,2]": "Fin grand",
-                "linecap_butt": "Linecap bout à bout",
-                "linecap_round": "Linecap ronde",
-                "linecap_square": "Linecap carré",
-                "linejoin_miter": "Linejoin mitre",
-                "linejoin_round": "Linejoin round",
-                "linejoin_bevel": "Linejoin biseau",
-                "swap": "Commuter les extrémités de ligne"
-            }
         },
         "Expand": {
             "tip": "Développer"
@@ -1593,6 +1561,13 @@
         "stencil_52": {
             "name": "Centre de contact AWS",
             "desc": "Amazon Web Services: Centre de contact",
+            "cat": [
+                "Amazon Web Services"
+            ]
+        },
+        "stencil_53": {
+            "name": "AWS Containers",
+            "desc": "Amazon Web Services: Conteneurs",
             "cat": [
                 "Amazon Web Services"
             ]
