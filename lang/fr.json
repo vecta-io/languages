@@ -988,7 +988,21 @@
             "icon": "Aller au tableau de bord"
         },
         "draw_path": {
-            "icon": "Tracer le chemin, l'arc, la courbe <br/> ou la forme libre (Ctrl-4)"
+            "icon": "Tracer le chemin, l'arc, la courbe <br/> ou la forme libre (Ctrl-4)",
+            "menu": {
+                "draw_line": {
+                    "icon": "Dessiner une ligne"
+                },
+                "draw_quad": {
+                    "icon": "Dessiner un arc"
+                },
+                "draw_cubic": {
+                    "icon": "Dessiner la courbe"
+                },
+                "draw_free": {
+                    "icon": "Dessiner une forme libre"
+                }
+            }
         },
         "draw_rect": {
             "icon": "Dessiner rectangle <br/> (Ctrl-2)"
@@ -1033,7 +1047,15 @@
             "icon": "Obtenir un lien partageable sans envoyer d'e-mails"
         },
         "text_align": {
-            "icon": "Alignement du texte"
+            "icon": "Alignement du texte",
+            "menu": {
+                "start": "Alignez à gauche",
+                "middle": "Aligner le milieu",
+                "end": "Aligner à droite",
+                "top": "Aligner en haut",
+                "central": "Aligner le centre",
+                "bottom": "Aligner le fond"
+            }
         },
         "revert_icon": {
             "icon": "Rétablir l'icône pour la dernière mise à jour"
@@ -1084,7 +1106,18 @@
             "icon": "Dessiner, déplacer, redimensionner ou <br /> faire pivoter le texte (Ctrl-5)"
         },
         "draw_connector": {
-            "icon": "Dessiner des connecteurs <br/> (Ctrl-6)"
+            "icon": "Dessiner des connecteurs <br/> (Ctrl-6)",
+            "menu": {
+                "draw_conn_verti": {
+                    "icon": "Coude"
+                },
+                "draw_conn_line": {
+                    "icon": "Connecteur droit"
+                },
+                "draw_conn_points": {
+                    "icon": "Point de connexion"
+                }
+            }
         },
         "preserve_ratio": {
             "icon": "Verrouiller / déverrouiller le rapport d'aspect"
@@ -1608,5 +1641,8 @@
             "title": "Appliquez la dernière couleur utilisée directement sur d'autres formes, textes et lignes facilement",
             "desc": "Utilisez pleinement votre peintre des couleurs pour appliquer la dernière couleur utilisée sur vos formes, textes et lignes."
         }
+    },
+    "version": {
+        "begin": "Début du dessin"
     }
 }
