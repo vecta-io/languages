@@ -988,7 +988,21 @@
             "icon": "Rita en rektangel<br/>(Ctrl-2)"
         },
         "draw_path": {
-            "icon": "Rita en bana, båge, kurva<br/>eller på frihand (Ctrl-4)"
+            "icon": "Rita en bana, båge, kurva<br/>eller på frihand (Ctrl-4)",
+            "menu": {
+                "draw_line": {
+                    "icon": "Rita linje"
+                },
+                "draw_quad": {
+                    "icon": "Rita båge"
+                },
+                "draw_cubic": {
+                    "icon": "Rita kurvan"
+                },
+                "draw_free": {
+                    "icon": "Rita fritt format"
+                }
+            }
         },
         "add_layer": {
             "icon": "Lägg till ett lager"
@@ -1015,7 +1029,15 @@
             "icon": "Sammanslut, dela upp, vänd<br/>eller anslut valda former"
         },
         "text_align": {
-            "icon": "Justera text"
+            "icon": "Justera text",
+            "menu": {
+                "start": "Justera vänster",
+                "middle": "Rikta in mitten",
+                "end": "Anpassa till höger",
+                "top": "Justera toppen",
+                "central": "Centrera i linje med",
+                "bottom": "Justera botten"
+            }
         },
         "font_color": {
             "icon": "Textfärg"
@@ -1075,7 +1097,18 @@
             "icon": "Runda hörn"
         },
         "draw_connector": {
-            "icon": "Rita anslutningar<br/>(Ctrl-6)"
+            "icon": "Rita anslutningar<br/>(Ctrl-6)",
+            "menu": {
+                "draw_conn_verti": {
+                    "icon": "Armbågeanslutning"
+                },
+                "draw_conn_line": {
+                    "icon": "Rak kontakt"
+                },
+                "draw_conn_points": {
+                    "icon": "Anslutningspunkt"
+                }
+            }
         },
         "preserve_ratio": {
             "icon": "Lås / Lås upp bildförhållande"
@@ -1605,5 +1638,8 @@
             "title": "Använd senast använda färg direkt på andra former, texter och rader enkelt",
             "desc": "Använd full färgfärg för att använda den senast använda färgen på dina former, texter och linjer."
         }
+    },
+    "version": {
+        "begin": "Början av ritningen"
     }
 }
