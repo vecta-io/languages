@@ -261,7 +261,9 @@
         "no_plugin": "Det plugin du begärde finns inte längre, eller du har inget tillstånd att komma åt det. <br /> <span class = 'Muted.cls'> Fel: 0016 <span> <br /> <span class = 'Muted.cls '> SID: @@ </ span>",
         "no_share_access": "Du har inte tillgång till dialogrutan Dela.",
         "import_stencil": "Importerar stencil, kan ta några minuter ...",
-        "image_cannot_copy": "Det gick inte att kopiera bilden över. Bilden finns inte längre, eller du har inte tillgång till bilden."
+        "image_cannot_copy": "Det gick inte att kopiera bilden över. Bilden finns inte längre, eller du har inte tillgång till bilden.",
+        "drop_shadow": "Drop skugga",
+        "blur": "Fläck"
     },
     "drop": {
         "in": "tum",
@@ -426,8 +428,7 @@
         "history_list": "Historiklista",
         "close_plugin": "Stäng plugin",
         "no_skew": "Återställ isometrisk",
-        "blur": "Fläck",
-        "drop_shadow": "Drop skugga"
+        "blur": "Fläck"
     },
     "page": {
         "mm": "Millimeter",
@@ -1264,6 +1265,9 @@
         },
         "fit_to_drawing": {
             "tip": "Öka bredden och höjden för att lägga till marginalen"
+        },
+        "new_page": {
+            "icon": "Ny sida"
         }
     },
     "verify": {
@@ -1831,18 +1835,18 @@
         "pinned_plugins": "Pinned plugins",
         "plugin_0": {
             "name": "Hej världen",
-            "desc": "Enkelt sätt att mata ut till konsolen"
+            "desc": "Skriv ut Hej, \"skaparens namn\" i ritningen"
         },
         "plugin_1": {
             "name": "TSV till bordet",
-            "desc": "Skapar ett bord ur en tappad tsv-fil",
+            "desc": "Skapa ett bord från en tsv-fil som har tappat bort",
             "cat": [
                 "rapporter"
             ]
         },
         "plugin_2": {
             "name": "JSON till träd",
-            "desc": "Skapar ett träd ur en droppad jsonfil",
+            "desc": "Konvertera en tappad JSON-fil till trädvy",
             "cat": [
                 "rapporter"
             ]
@@ -1853,8 +1857,40 @@
         },
         "plugin_4": {
             "name": "spridare",
-            "desc": ""
+            "desc": "Slumpmässigt fördela utvalda former i din ritning"
         },
-        "create_plugin": "Skapa plugin"
+        "create_plugin": "Skapa plugin",
+        "plugin_5": {
+            "name": "Pennvässare",
+            "desc": "Snap dina teckens former till närmaste galler"
+        },
+        "plugin_6": {
+            "name": "Linjediagram",
+            "desc": "Skriv en linje / kurvdiagram enligt ingående data",
+            "cat": [
+                "diagram"
+            ]
+        },
+        "plugin_7": {
+            "name": "Tårtdiagram",
+            "desc": "Dela en cirkel / ellips enligt ingångsdata",
+            "cat": [
+                "diagram"
+            ]
+        },
+        "plugin_8": {
+            "name": "Material Design ikoner",
+            "desc": "Markera och importera ikoner från en lista med material.io-ikoner",
+            "cat": [
+                "ikoner"
+            ]
+        },
+        "plugin_9": {
+            "name": "Teckensnitt Fantastiska ikoner",
+            "desc": "Markera och importera ikoner från en lista med Font Awesome ikoner (gratis)",
+            "cat": [
+                "ikoner"
+            ]
+        }
     }
 }
