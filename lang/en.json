@@ -77,6 +77,7 @@
         "set_public.label": "Anyone on the internet can find and access",
         "remove.help": "Remove user",
         "page_setup.icon": "Page Setup",
+        "new_page.icon": "New Page",
         "ascend.icon": "Reverse sort direction",
         "descend.icon": "Reverse sort direction",
         "sort.icon": "Sort by",
@@ -538,6 +539,8 @@
         "shadow_warn_range": "Valid range",
         "the_group_shape_has_shadow_already": "The group has shadow already.",
         "change": "Change",
+        "drop_shadow": "Drop shadow",
+        "blur": "Blur",
         "angle": "Angle",
         "vecta": "Vecta",
         "search": "Search",
@@ -799,7 +802,6 @@
     "drop": {
         "effects": "Effects",
         "blur": "Blur",
-        "drop_shadow": "Drop shadow",
         "isometric_x": "Isometric x",
         "isometric_y": "Isometric y",
         "isometric_z": "Isometric z",
@@ -1405,18 +1407,18 @@
     "plugin": {
         "plugin_0": {
             "name": "Hello World",
-            "desc": "Simple way to output to console"
+            "desc": "Print Hello,\"creator's name\" in drawing"
         },
         "plugin_1": {
             "name": "TSV to table",
-            "desc": "Creates a table out of a dropped tsv file",
+            "desc": "Create a table from a dropped tsv file",
             "cat": [
                 "Reports"
             ]
         },
         "plugin_2": {
             "name": "JSON to tree",
-            "desc": "Creates a tree out of a dropped json file",
+            "desc": "Convert a dropped JSON file to tree view",
             "cat": [
                 "Reports"
             ]
@@ -1427,7 +1429,39 @@
         },
         "plugin_4": {
             "name": "Scatterer",
-            "desc": ""
+            "desc": "Randomly distribute selected shapes in your drawing"
+        },
+        "plugin_5": {
+            "name": "Sharpener",
+            "desc": "Snap your drawing's shapes to the nearest grid"
+        },
+        "plugin_6": {
+            "name": "Line chart",
+            "desc": "Plot a line/ curvy chart according to input data",
+            "cat": [
+                "Charts"
+            ]
+        },
+        "plugin_7": {
+            "name": "Pie Chart",
+            "desc": "Split a circle/ ellipse according to input data",
+            "cat": [
+                "Charts"
+            ]
+        },
+        "plugin_8": {
+            "name": "Material Design icons",
+            "desc": "Select and import icons from a list of Material.io icons",
+            "cat": [
+                "Icons"
+            ]
+        },
+        "plugin_9": {
+            "name": "Font Awesome icons",
+            "desc": "Select and import icons from a list of Font Awesome icons (free)",
+            "cat": [
+                "Icons"
+            ]
         },
         "plugins": "Plugins",
         "get_plugins": "Getting plugins",
