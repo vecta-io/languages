@@ -261,7 +261,9 @@
         "no_plugin": "Le plugin que vous avez demandé n'existe plus, ou vous n'avez aucune permission d'y accéder. <br /> <span class = 'Muted.cls'> Erreur: 0016 </ span> <br /> <span class = 'Muted.cls '> SID: @@ </ span>",
         "no_share_access": "Vous n'avez pas accès à la boîte de dialogue Partager.",
         "import_stencil": "Importer un pochoir, peut prendre quelques minutes ...",
-        "image_cannot_copy": "Impossible de copier l'image. L'image n'existe plus ou vous n'avez plus accès à l'image."
+        "image_cannot_copy": "Impossible de copier l'image. L'image n'existe plus ou vous n'avez plus accès à l'image.",
+        "drop_shadow": "Ombre portée",
+        "blur": "Brouiller"
     },
     "page": {
         "cm": "Centimètre",
@@ -527,8 +529,7 @@
         "history_list": "Liste de l'historique",
         "close_plugin": "Fermer le plugin",
         "no_skew": "Réinitialiser l'isométrie",
-        "blur": "Brouiller",
-        "drop_shadow": "Ombre portée"
+        "blur": "Brouiller"
     },
     "list": {
         "en": "Anglais",
@@ -1263,6 +1264,9 @@
         },
         "fit_to_drawing": {
             "tip": "Augmentez la largeur et la hauteur pour ajouter la marge"
+        },
+        "new_page": {
+            "icon": "Nouvelle page"
         }
     },
     "signup": {
@@ -1830,18 +1834,18 @@
         "pinned_plugins": "Plugins épinglés",
         "plugin_0": {
             "name": "Bonjour le monde",
-            "desc": "Un moyen simple de sortir sur la console"
+            "desc": "Imprimer Bonjour, \"nom du créateur\" en dessin"
         },
         "plugin_1": {
             "name": "TSV à table",
-            "desc": "Crée une table à partir d'un fichier tsv supprimé",
+            "desc": "Créer une table à partir d'un fichier tsv supprimé",
             "cat": [
                 "Rapports"
             ]
         },
         "plugin_2": {
             "name": "JSON à l'arbre",
-            "desc": "Crée un arbre à partir d'un fichier json supprimé",
+            "desc": "Convertir un fichier JSON supprimé en arborescence",
             "cat": [
                 "Rapports"
             ]
@@ -1852,8 +1856,40 @@
         },
         "plugin_4": {
             "name": "Diffuseur",
-            "desc": ""
+            "desc": "Distribuer aléatoirement les formes sélectionnées dans votre dessin"
         },
-        "create_plugin": "Créer un plugin"
+        "create_plugin": "Créer un plugin",
+        "plugin_5": {
+            "name": "Taille crayon",
+            "desc": "Aligner les formes de votre dessin sur la grille la plus proche"
+        },
+        "plugin_6": {
+            "name": "Graphique en ligne",
+            "desc": "Tracer un graphique en ligne / courbe en fonction des données d'entrée",
+            "cat": [
+                "Graphiques"
+            ]
+        },
+        "plugin_7": {
+            "name": "Camembert",
+            "desc": "Diviser un cercle / ellipse en fonction des données d'entrée",
+            "cat": [
+                "Graphiques"
+            ]
+        },
+        "plugin_8": {
+            "name": "Icônes de conception matérielle",
+            "desc": "Sélectionner et importer des icônes à partir d'une liste d'icônes Material.io",
+            "cat": [
+                "Des icônes"
+            ]
+        },
+        "plugin_9": {
+            "name": "Icônes de polices géniales",
+            "desc": "Sélectionnez et importez des icônes à partir d'une liste d'icônes Font Awesome (gratuites)",
+            "cat": [
+                "Des icônes"
+            ]
+        }
     }
 }
