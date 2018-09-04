@@ -1029,9 +1029,6 @@
         "descend": {
             "icon": "逆ソート方向"
         },
-        "pointer": {
-            "icon": "ポインタツール<br/>（Ctrl-1）"
-        },
         "zoom_in": {
             "icon": "ズームイン<br/> Ctrl +マウスホイール"
         },
@@ -1263,8 +1260,16 @@
         "new_page": {
             "icon": "新しいページ"
         },
-        "pan": {
-            "icon": "パンツール<br/>（Ctrl-Q）"
+        "cursor": {
+            "icon": "ポインタ、パン（Ctrl-1）",
+            "menu": {
+                "pointer": {
+                    "icon": "ポインタツール"
+                },
+                "pan": {
+                    "icon": "パンツール"
+                }
+            }
         }
     },
     "preload": {
