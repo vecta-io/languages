@@ -178,7 +178,7 @@
         "generate_image": "画像の生成",
         "commit_changes": "変更をコミットする",
         "who_has_access": "誰がアクセスできるか",
-        "confirm_commit": "選択したバージョンを読み込むと、現在の図面が上書きされます。 <br />現在の図面をコミットしますか？",
+        "confirm_commit": "選択したバージョンを読み込むと、現在の図面が上書きされます。 <br />先に進む前に、現在の図面を最初にコミットしますか？",
         "help_linestyle": "フォーマット：ダッシュ（px）ギャップ（px）[繰り返し]。例：5 5。",
         "export_records": "輸出記録",
         "textDecoration": "TextDecoration",
@@ -669,7 +669,12 @@
         "created_template": "テンプレートが正常に作成されました。",
         "permission_removed": "このチームへのアクセスは削除されました。",
         "permission_changed": "このチームへのアクセスが変更されました。変更を確認するには、チームをリフレッシュしてください。",
-        "template": "テンプレート"
+        "template": "テンプレート",
+        "templates_title": "テンプレートをブラウズする",
+        "templates_button": "ブラウズ",
+        "templates_categories": "カテゴリー",
+        "templates_new": "新しい",
+        "templates_not_exists": "テンプレートを取得できません"
     },
     "noti": {
         "left": "%% left Team @@。",
@@ -939,7 +944,8 @@
         "naming_version": "名前付けバージョン",
         "no_menu": "メニューなし",
         "shapes": "形",
-        "scroll_tip": "左または右に簡単にスクロールするヒントがあります！<br/>マウスをスクロールしながらSHIFTキーを押したままにします。"
+        "scroll_tip": "左または右に簡単にスクロールするヒントがあります！<br/>マウスをスクロールしながらSHIFTキーを押したままにします。",
+        "template_already_exists": "テンプレートはすでにライブラリに存在しています。"
     },
     "publish": {
         "done": "図面がウェブに公開されました。",
@@ -1963,6 +1969,117 @@
             "desc": "フォント驚くばかりのアイコンのリストからアイコンを選択してインポートする（無料）",
             "cat": [
                 "アイコン"
+            ]
+        },
+        "plugin_11": {
+            "name": "転置",
+            "desc": "一群の図形を転置する"
+        }
+    },
+    "templates": {
+        "-LNDGKK59pQgGW29c1Oj": {
+            "name": "UMLシーケンス図",
+            "desc": "UMLシーケンス図",
+            "cat": [
+                "UML"
+            ]
+        },
+        "-LN9zR_hz2HNRobwPB41": {
+            "name": "ビジネスモデルキャンバス（A2）",
+            "desc": "ビジネスモデルキャンバス（A2）",
+            "cat": [
+                "事業の型"
+            ]
+        },
+        "-LN9yYZnQt2gVwJIr6uT": {
+            "name": "ビジネスモデルキャンバス（A3）",
+            "desc": "ビジネスモデルキャンバス（A3）",
+            "cat": [
+                "事業の型"
+            ]
+        },
+        "-LN9hSF-Fm2xirwpQa6n": {
+            "name": "ビジネスモデルキャンバス（A4）",
+            "desc": "ビジネスモデルキャンバス（A4）",
+            "cat": [
+                "事業の型"
+            ]
+        },
+        "-LN8ScHse2lYJU2aqwGz": {
+            "name": "UMLユースケース図",
+            "desc": "UMLユースケース図",
+            "cat": [
+                "UML"
+            ]
+        },
+        "-LMtezCzhzkr8schB_hV": {
+            "name": "UML図（管理）",
+            "desc": "UML図（管理）",
+            "cat": [
+                "UML"
+            ]
+        },
+        "-LMtYtJLegGbbYBrtvgM": {
+            "name": "プロジェクトのフローチャート",
+            "desc": "プロジェクトのフローチャート",
+            "cat": [
+                "フローチャート"
+            ]
+        },
+        "-LMp21HHVmsm0MFCTSLy": {
+            "name": "基本フローチャート",
+            "desc": "基本フローチャート",
+            "cat": [
+                "フローチャート"
+            ]
+        },
+        "-LMjpgbZaszla6vBhLcW": {
+            "name": "データベースのフローチャート",
+            "desc": "データベースのフローチャート",
+            "cat": [
+                "フローチャート"
+            ]
+        },
+        "-LMjW6xyl2NipCTVWmUA": {
+            "name": "組織図",
+            "desc": "組織図",
+            "cat": [
+                "組織図"
+            ]
+        },
+        "-LMjSQkl8ZNOB6oGN6GD": {
+            "name": "スイムレーン（販売プロセス）",
+            "desc": "スイムレーン（販売プロセス）",
+            "cat": [
+                "フローチャート"
+            ]
+        },
+        "-LMjMZBOIaooAM1Z98gx": {
+            "name": "プログラミングフローチャート",
+            "desc": "プログラミングフローチャート",
+            "cat": [
+                "フローチャート"
+            ]
+        },
+        "-LMjLQJ2RGcCro-T0oso": {
+            "name": "決定フローチャート",
+            "desc": "決定フローチャート",
+            "cat": [
+                "フローチャート"
+            ]
+        },
+        "-LMjL0oBc3JLbMsDohKy": {
+            "name": "マインドマップ",
+            "desc": "マインドマップ",
+            "cat": [
+                "心理図"
+            ]
+        },
+        "-LMjKYtq8Bh_53BlGN5u": {
+            "name": "販売フローチャート",
+            "desc": "販売フローチャート",
+            "cat": [
+                "フローチャート"
             ]
         }
     }
