@@ -196,6 +196,7 @@
         "ver_delete_success": "Delete successful.",
         "ver_delete_fail": "Delete failed. Please try again later.",
         "template_create_fail": "The template must not be an empty drawing.",
+        "template_already_exists": "Template is already existed in the library.",
         "formula_same_field": "Formula expression on same field not allowed",
         "grad_exist": "Gradient already exist",
         "redirecting": "Redirecting",
@@ -447,7 +448,12 @@
         "searching": "Searching",
         "not_found": "No results found",
         "no_clone": "You can not clone an empty drawing.",
-        "template": "Template"
+        "template": "Template",
+        "templates_title": "Browse templates",
+        "templates_button": "Browse",
+        "templates_categories": "Categories",
+        "templates_new": "New",
+        "templates_not_exists": "Unable to retrieve the templates"
     },
     "noti": {
         "same_day": "Note: Announcement will start on the very same day it was created.",
@@ -576,7 +582,7 @@
         "notification": "Notification",
         "general": "General",
         "deg": "deg",
-        "confirm_commit": "Loading the selected version would overwrite your current drawing. <br /> Would you like to commit your current drawing?",
+        "confirm_commit": "Loading the selected version would overwrite your current drawing. <br /> Would you like to commit your current drawing first before proceeding?",
         "commit_and_load": "Commit and load",
         "only_load": "Load anyway",
         "load": "Load",
@@ -1517,6 +1523,10 @@
                 "Icons"
             ]
         },
+        "plugin_11": {
+            "name": "Transpose",
+            "desc": "Transpose a group of shapes"
+        },
         "plugins": "Plugins",
         "get_plugins": "Getting plugins",
         "no_plugins": "No plugins found",
@@ -1547,6 +1557,113 @@
         "pinned_plugins": "Pinned plugins",
         "running_plugin": "Running plugin",
         "saving_plugin": "Saving plugin"
+    },
+    "templates": {
+        "-LNDGKK59pQgGW29c1Oj": {
+            "name": "UML Sequence Diagram",
+            "desc": "UML Sequence Diagram",
+            "cat": [
+                "UML"
+            ]
+        },
+        "-LN9zR_hz2HNRobwPB41": {
+            "name": "Business Model Canvas ( A2 )",
+            "desc": "Business Model Canvas ( A2 )",
+            "cat": [
+                "Business Model"
+            ]
+        },
+        "-LN9yYZnQt2gVwJIr6uT": {
+            "name": "Business Model Canvas ( A3 )",
+            "desc": "Business Model Canvas ( A3 )",
+            "cat": [
+                "Business Model"
+            ]
+        },
+        "-LN9hSF-Fm2xirwpQa6n": {
+            "name": "Business Model Canvas ( A4 )",
+            "desc": "Business Model Canvas ( A4 )",
+            "cat": [
+                "Business Model"
+            ]
+        },
+        "-LN8ScHse2lYJU2aqwGz": {
+            "name": "UML UseCase Diagram",
+            "desc": "UML UseCase Diagram",
+            "cat": [
+                "UML"
+            ]
+        },
+        "-LMtezCzhzkr8schB_hV": {
+            "name": "UML Diagram ( Management )",
+            "desc": "UML Diagram ( Management )",
+            "cat": [
+                "UML"
+            ]
+        },
+        "-LMtYtJLegGbbYBrtvgM": {
+            "name": "Project flowchart",
+            "desc": "Project flowchart",
+            "cat": [
+                "Flowchart"
+            ]
+        },
+        "-LMp21HHVmsm0MFCTSLy": {
+            "name": "Basic Flowchart",
+            "desc": "Basic Flowchart",
+            "cat": [
+                "Flowchart"
+            ]
+        },
+        "-LMjpgbZaszla6vBhLcW": {
+            "name": "Database Flowchart",
+            "desc": "Database Flowchart",
+            "cat": [
+                "Flowchart"
+            ]
+        },
+        "-LMjW6xyl2NipCTVWmUA": {
+            "name": "Organization Chart",
+            "desc": "Organization Chart",
+            "cat": [
+                "Organization Chart"
+            ]
+        },
+        "-LMjSQkl8ZNOB6oGN6GD": {
+            "name": "Swim Lane ( Sales Process )",
+            "desc": "Swim Lane ( Sales Process )",
+            "cat": [
+                "Flowchart"
+            ]
+        },
+        "-LMjMZBOIaooAM1Z98gx": {
+            "name": "Programming Flowchart",
+            "desc": "Programming Flowchart",
+            "cat": [
+                "Flowchart"
+            ]
+        },
+        "-LMjLQJ2RGcCro-T0oso": {
+            "name": "Decision Flowchart",
+            "desc": "Decision Flowchart",
+            "cat": [
+                "Flowchart"
+            ]
+        },
+        "-LMjL0oBc3JLbMsDohKy": {
+            "name": "Mind Maps",
+            "desc": "Mind Maps",
+            "cat": [
+                "Mind Map"
+            ]
+        },
+        "-LMjKYtq8Bh_53BlGN5u": {
+            "name": "Sales Flowchart",
+            "desc": "Sales Flowchart",
+            "cat": [
+                "Flowchart"
+            ]
+        }
     },
     "page": {
         "orientation": "Orientation:",
