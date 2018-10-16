@@ -96,8 +96,9 @@
         "list.icon": "List view",
         "set_public.label": "Anyone on the internet can find and access",
         "remove.help": "Remove user",
-        "page_setup.icon": "Page Setup",
-        "new_page.icon": "New Page",
+        "page_setup.icon": "Page setup",
+        "new_page.icon": "New page",
+        "delete_page.icon": "Delete page",
         "ascend.icon": "Reverse sort direction",
         "descend.icon": "Reverse sort direction",
         "sort.icon": "Sort by",
@@ -829,7 +830,10 @@
         "go_undo": "Go to Undo History",
         "custom_menu": "Custom Menu",
         "cannot_open": "Opening a drawing through dropping the .SVG file is not supported in edit icon mode.",
-        "image_cannot_copy": "Unable to copy the image over. The image no longer exist, or you do not have access to the image."
+        "image_cannot_copy": "Unable to copy the image over. The image no longer exist, or you do not have access to the image.",
+        "creating_page": "Creating page",
+        "loading_page": "Loading page",
+        "delete_page": "Delete page"
     },
     "drop": {
         "effects": "Effects",
@@ -1824,6 +1828,7 @@
         }
     },
     "page": {
+        "name": "Name",
         "orientation": "Orientation:",
         "portrait": "Portrait",
         "landscape": "Landscape",
@@ -1915,7 +1920,8 @@
         "mm": "Milimeter",
         "cm": "Centimeter",
         "in": "Inches",
-        "delete_last": "Unable to delete only page in drawing"
+        "delete_last": "Unable to delete only page in drawing",
+        "confirm_del": "Deleting a page is a non reversible action.<br /><br />Are you sure you want to delete this page?"
     },
     "question": {
         "purpose": "You're using Vecta for:",
