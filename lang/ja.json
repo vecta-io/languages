@@ -550,7 +550,7 @@
         "setup": "セットアップ",
         "refresh_search": "検索の更新",
         "pin_drawing": "ピンから上へ",
-        "remove_pin": "ピンを取り外す"
+        "unpin": "固定解除する"
     },
     "login": {
         "or": "または",
@@ -1331,7 +1331,8 @@
         "convert-text-to-outline": "テキストをパスに変換して移植性を向上させる",
         "edit-profile": "自分のアバターを選んで、あなたのプロフィールを編集してください。",
         "plugins": "Javascriptベースのプラグインでもっとやる",
-        "scale-resizing": "シェイプのサイズ変更時にストロークの幅とフォントサイズの比率を保持する"
+        "scale-resizing": "シェイプのサイズ変更時にストロークの幅とフォントサイズの比率を保持する",
+        "templates": "あなたのアイデアをより早く提示するためにVectaテンプレートを使用する"
     },
     "verify": {
         "resend": "確認メールを再送信",
@@ -2023,7 +2024,9 @@
         "plugin_15": {
             "name": "箇条書きリスト",
             "desc": "テキストリストに箇条書きを追加する"
-        }
+        },
+        "success_refresh": "プラグインが正常に更新されました。",
+        "fail_refresh": "プラグインはもう存在しません。"
     },
     "templates_dev": {
         "-LNDGKK59pQgGW29c1Oj": {
@@ -2240,7 +2243,10 @@
         },
         "-LLhghOZRW58l26roIoK": {
             "name": "ビジネス分析",
-            "desc": "ビジネス分析"
+            "desc": "ビジネス分析",
+            "cat": [
+                "ビジネスダイアグラム"
+            ]
         },
         "-LOHa7f3BRxDbIyGzEC1": {
             "name": "UMLクラス図",
@@ -2304,6 +2310,27 @@
             "desc": "マインドマップ（枝）",
             "cat": [
                 "心理図"
+            ]
+        },
+        "-LRdPOMliqEvD2nYm7PG": {
+            "name": "ERD図の注文",
+            "desc": "ERD図の注文",
+            "cat": [
+                "ERD"
+            ]
+        },
+        "-LRF6o0_5PUaEftUzpeW": {
+            "name": "タイムラインインフォグラフィック",
+            "desc": "タイムラインインフォグラフィック",
+            "cat": [
+                "インフォグラフィック"
+            ]
+        },
+        "-LRUU-VbjDv_co_rrDtT": {
+            "name": "比較インフォグラフィック",
+            "desc": "比較インフォグラフィック",
+            "cat": [
+                "インフォグラフィック"
             ]
         }
     }
