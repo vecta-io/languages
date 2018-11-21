@@ -849,7 +849,7 @@
         "isometric_z": "Isometric z",
         "no_skew": "Reset isometric",
         "pin_drawing": "Pin to top",
-        "remove_pin": "Remove pin",
+        "unpin": "Unpin",
         "tools": "Tools",
         "convert_path": "Convert to path",
         "add_ctrl_pt": "Add control point",
@@ -1600,7 +1600,9 @@
         "active_plugins": "Auto run plugins",
         "pinned_plugins": "Pinned plugins",
         "running_plugin": "Running plugin",
-        "saving_plugin": "Saving plugin"
+        "saving_plugin": "Saving plugin",
+        "success_refresh": "Plugin successfully refreshed.",
+        "fail_refresh": "Plugin no longer exist."
     },
     "templates_dev": {
         "-LNDGKK59pQgGW29c1Oj": {
@@ -1710,18 +1712,39 @@
         }
     },
     "templates": {
-        "-LR9ZsIBctq8yAIOy_LN": {
-            "name": "Pyramid Infographic",
-            "desc": "Pyramid Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
         "-LQNMChVpVmAYrWWXPm3": {
             "name": "Business Chart",
             "desc": "Business Chart",
             "cat": [
                 "Business Diagram"
+            ]
+        },
+        "-LRdPOMliqEvD2nYm7PG": {
+            "name": "Order ERD Diagram",
+            "desc": "Order ERD Diagram",
+            "cat": [
+                "ERD"
+            ]
+        },
+        "-LRF6o0_5PUaEftUzpeW": {
+            "name": "Timeline Infographic",
+            "desc": "Timeline Infographic",
+            "cat": [
+                "Infographic"
+            ]
+        },
+        "-LRUU-VbjDv_co_rrDtT": {
+            "name": "Comparison Infographic",
+            "desc": "Comparison Infographic",
+            "cat": [
+                "Infographic"
+            ]
+        },
+        "-LR9ZsIBctq8yAIOy_LN": {
+            "name": "Pyramid Infographic",
+            "desc": "Pyramid Infographic",
+            "cat": [
+                "Infographic"
             ]
         },
         "-LQM_hBqWlmtLjrB9xdn": {
@@ -1770,7 +1793,9 @@
         "-LLhghOZRW58l26roIoK": {
             "name": "Business SWOT Analysis",
             "desc": "Business SWOT Analysis",
-            "cat": []
+            "cat": [
+                "Business Diagram"
+            ]
         },
         "-LNIZEvf6QRTnewa24Qu": {
             "name": "Sales Process Flowchart",
@@ -2030,7 +2055,8 @@
         "convert-text-to-outline": "Convert your text to path for better portability",
         "edit-profile": "Pick your own avatar, edit your profile and just be yourself!",
         "plugins": "Do more with Javascript based plugins",
-        "scale-resizing": "Preserve stroke width and font size proportions when resizing shapes"
+        "scale-resizing": "Preserve stroke width and font size proportions when resizing shapes",
+        "templates": " Use Vecta templates to present your ideas faster"
     },
     "settings": {
         "reading": "Reading preferences",
