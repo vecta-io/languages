@@ -612,7 +612,7 @@
         "created": "@@ créé",
         "removed": "@@ supprimé",
         "invited": "Vous êtes invité à rejoindre @@. Cliquez pour accepter l'invitation",
-        "blocked": "Oups, on dirait que vous avez désactivé la notification push sur votre navigateur. <br /> Nous nous souviendrons de votre décision et enverrons les notifications push une fois que vous les aurez activées.",
+        "blocked": "Oups, on dirait que vous avez désactivé la notification du bureau sur votre navigateur. <br /> Vous devez autoriser la notification à recevoir une notification de poste de travail.",
         "trashed": "@@ saccagé",
         "message": "Message",
         "renamed": "@@ renommé à @@",
@@ -646,9 +646,10 @@
         "permission_given": "Push notifications are now enabled. <br /> Welcome aboard Vecta!",
         "new_announcement": "Annonce",
         "denied_permission": "D'accord, nous nous souviendrons de votre décision et ne vous enverrons pas de notifications push.",
-        "request_permission": "Bonjour @@, <br /> <br /> Recevez une notification de Vecta lorsque vos coéquipiers apportent des modifications à votre équipe ou à votre dessin. <br /> <br /> Souhaitez-vous activer les notifications push?",
+        "request_permission": "Bonjour @@, <br /> <br /> Recevez une notification de Vecta lorsque vos coéquipiers apportent des modifications à votre équipe ou à votre dessin. <br /> <br /> Souhaitez-vous activer les notifications sur le Bureau?",
         "no_ann": "Il n'y a pas d'annonce.",
-        "ann_title": "Quoi de neuf"
+        "ann_title": "Quoi de neuf",
+        "incognito": "Oups, on dirait que vous êtes en mode de navigation de la vie privée qui ne permet pas la notification du bureau. <br /> Vous devez autoriser la notification en mode de navigation par défaut pour recevoir une notification de poste de travail."
     },
     "slack": {
         "add": "Ajouter à Slack",
@@ -2382,7 +2383,10 @@
             "rem_cat_comp": "Supprimer le composant de la catégorie",
             "add_cat": "Ajouter une catégorie",
             "edit_cat": "Modifier la catégorie",
-            "del_cat": "Supprimer la catégorie"
+            "del_cat": "Supprimer la catégorie",
+            "updating_comp": "Composant de mise à jour",
+            "confirm_del_comp": "Êtes-vous sûr de vouloir supprimer ce composant?",
+            "updating_cat": "Mise à jour de la catégorie"
         }
     }
 }
