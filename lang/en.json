@@ -70,7 +70,6 @@
         "arrange.icon": "Arrange z-order for selected shapes",
         "operations.icon": "Group, ungroup, flip or join selected shapes",
         "align.icon": "Align selected shapes",
-        "create_schem.icon": "Create Schematic Symbol",
         "file_name.icon": "Rename drawing",
         "zoom_out.icon": "Zoom out\nCtrl + mouse wheel",
         "zoom_level.icon": "Zoom level",
@@ -844,7 +843,9 @@
         "delete_page": "Delete page",
         "deleting_page": "Deleting page",
         "prev": "Previous",
-        "next": "Next"
+        "next": "Next",
+        "filter_title": "Edit Filter",
+        "filter_apply": "Apply"
     },
     "drop": {
         "effects": "Effects",
@@ -2170,6 +2171,7 @@
     },
     "electra": {
         "components": {
+            "category": "Category",
             "add_comp": "Add new component",
             "edit_comp": "Edit component",
             "del_comp": "Delete component",
@@ -2182,9 +2184,20 @@
             "del_cat": "Delete category",
             "get_layouts": "Getting layout shapes"
         },
-        "sym_tab": "Symbol",
-        "comp_tab": "Component",
-        "pin_tab": "Pin",
+        "schematic": {
+            "symbol": "Symbol",
+            "component": "Component",
+            "pin": "Pin",
+            "get_comp": "Getting components",
+            "symbol_type": "Symbol Type",
+            "default_ref": "Default Reference",
+            "default_verti": "Vertical by default",
+            "hide_desc": "Hide description",
+            "no_desc": "No description",
+            "insert_sym_menu": "Insert Horizontal/Vertical Menu",
+            "show_all_comp": "Show All",
+            "search_comp": "Search components"
+        },
         "electrical": "Electrical",
         "pneumatic": "Pneumatic",
         "hydraulic": "Hydraulic"
