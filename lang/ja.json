@@ -272,7 +272,23 @@
         "next": "次",
         "no_stencils": "まだステンシルはありません。",
         "filter_title": "フィルタの編集",
-        "filter_apply": "適用"
+        "bevel": "ベベル",
+        "shadow": "影",
+        "blur": "ぼかし",
+        "apply": "適用する",
+        "smoothness": "滑らかさ",
+        "sharpness": "切れ味",
+        "offset_x": "オフセットX",
+        "offset_y": "オフセットY",
+        "opacity": "不透明度",
+        "light_color": "明色",
+        "color": "色",
+        "depth": "深さ",
+        "type": "タイプ",
+        "inner_shadow": "内側の影",
+        "drop_shadow": "影を落とす",
+        "inner": "内なる",
+        "drop": "ドロップ"
     },
     "list": {
         "sv": "スウェーデン語",
@@ -994,7 +1010,7 @@
             "icon": "大胆な"
         },
         "undo": {
-            "icon": "元に戻す\n（Ctrl-Z）"
+            "icon": "元に戻す（Ctrl + Z）"
         },
         "grid": {
             "icon": "グリッドビュー"
@@ -1009,7 +1025,7 @@
             "icon": "設定"
         },
         "redo": {
-            "icon": "やり直し\n（Ctrl-Y）"
+            "icon": "やり直し<br>（Ctrl-Y）"
         },
         "noti": {
             "icon": "通知"
@@ -1054,13 +1070,13 @@
             "icon": "サインアウト"
         },
         "arrange": {
-            "icon": "選択した図形のzオーダーを整列する"
+            "icon": "選択した図形にZオーダーを配置<br>"
         },
         "descend": {
             "icon": "逆ソート方向"
         },
         "zoom_in": {
-            "icon": "ズームイン\nCtrl +マウスホイール"
+            "icon": "ズームイン<br> Ctrl +マウスホイール"
         },
         "profile": {
             "icon": "プロフィール"
@@ -1072,7 +1088,7 @@
             "icon": "チャットボックス"
         },
         "zoom_out": {
-            "icon": "ズームアウトする\nCtrl +マウスホイール"
+            "icon": "ズームアウト<br> Ctrl +マウスホイール"
         },
         "zoom_fit": {
             "icon": "ページに合わせて拡大"
@@ -1105,7 +1121,7 @@
             }
         },
         "draw_path": {
-            "icon": "パス、アーク、カーブまたはフリーフォームを描画する\n（Ctrl-4）",
+            "icon": "パス、円弧、曲線またはフリーフォームを描画<br>（Ctrl-4）",
             "menu": {
                 "draw_line": {
                     "icon": "線を引く"
@@ -1140,7 +1156,7 @@
             "icon": "レイヤーを追加する"
         },
         "draw_rect": {
-            "icon": "四角形を描く\n（Ctrl-2）"
+            "icon": "長方形を描く<br>（Ctrl-2）"
         },
         "font_color": {
             "icon": "フォントの色"
@@ -1149,7 +1165,7 @@
             "icon": "線の色"
         },
         "operations": {
-            "icon": "グループ化、グループ解除、選択した図形のフリップまたは結合"
+            "icon": "選択した図形をグループ化、グループ解除、反転、または結合する"
         },
         "text_align": {
             "icon": "テキストの配置",
@@ -1208,7 +1224,7 @@
             "icon": "数式の表示/非表示"
         },
         "draw_ellipse": {
-            "icon": "円または楕円を描く\n（Ctrl-3）"
+            "icon": "円または楕円を描く<br>（Ctrl-3）"
         },
         "pause_record": {
             "icon": "マクロを一時停止する"
@@ -1217,16 +1233,16 @@
             "icon": "丸い角"
         },
         "draw_textblock": {
-            "icon": "テキストの描画、移動、サイズ変更または回転\n（Ctrl-5）"
+            "icon": "テキストの描画、移動、サイズ変更、または回転<br>（Ctrl-5）"
         },
         "format_painter": {
-            "icon": "フォーマットペインタ\n（Ctrl-7）"
+            "icon": "フォーマット、色、または数式の作成者<br>（Ctrl-7）"
         },
         "preserve_ratio": {
             "icon": "ロック/アンロックの幅と高さ"
         },
         "draw_connector": {
-            "icon": "コネクターを引く\n（Ctrl-6）",
+            "icon": "コネクタを描画する<br>（Ctrl-6）",
             "menu": {
                 "draw_conn_verti": {
                     "icon": "エルボーコネクタ"
@@ -1285,7 +1301,7 @@
             "icon": "新しいページ"
         },
         "cursor": {
-            "icon": "ポインタツール、パンツール\n（Ctrl-1）",
+            "icon": "ポインタ、パンツール<br>（Ctrl-1）",
             "menu": {
                 "pointer": {
                     "icon": "ポインタツール"
@@ -1301,18 +1317,14 @@
         "pages": {
             "icon": "別のページを見る"
         },
-        "color_help": "カスタムカラー\n#fff / #ffffff / rgb（0、0、0）",
-        "bevel": {
-            "deviation": "ベベル深さ",
-            "surface_scale": "端を柔らかくする"
+        "color": {
+            "help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）"
         },
-        "shadow": {
-            "deviation": "影の広がり",
-            "x": "影の縦方向",
-            "y": "影の横方向"
+        "bevel_color": {
+            "help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）"
         },
-        "blur": {
-            "deviation": "ぼやけ"
+        "shadow_color": {
+            "help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）"
         }
     },
     "preload": {
@@ -2395,6 +2407,17 @@
             "insert_sym_menu": "水平/垂直メニューを挿入する",
             "show_all_comp": "すべて表示する",
             "search_comp": "コンポーネントの検索"
+        },
+        "edit_net_name": {
+            "wire_name": "ワイヤー名",
+            "cur_name": "現在の電線名",
+            "hide_name": "ワイヤ名を隠す",
+            "show": "見せる",
+            "all_pages": "すべてのページ",
+            "this_page": "このページ",
+            "click_wire": "ワイヤー名をクリックして場所を表示",
+            "exists_wires": "既存のワイヤ名",
+            "location": "ロケーション"
         }
     }
 }
