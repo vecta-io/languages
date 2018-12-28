@@ -272,7 +272,23 @@
         "next": "Suivant",
         "no_stencils": "Vous n'avez pas encore de pochoirs.",
         "filter_title": "Modifier le filtre",
-        "filter_apply": "Appliquer"
+        "bevel": "Biseau",
+        "shadow": "Ombre",
+        "blur": "Brouiller",
+        "apply": "Appliquer",
+        "smoothness": "Douceur",
+        "sharpness": "Acuité",
+        "offset_x": "Décalage X",
+        "offset_y": "Décalage Y",
+        "opacity": "Opacité",
+        "light_color": "Couleur claire",
+        "color": "Couleur",
+        "depth": "Profondeur",
+        "type": "Type",
+        "inner_shadow": "Ombre intérieure",
+        "drop_shadow": "Ombre portée",
+        "inner": "interne",
+        "drop": "laissez tomber"
     },
     "page": {
         "cm": "Centimètre",
@@ -1019,7 +1035,7 @@
             "tip": "Stencil verrouillé"
         },
         "redo": {
-            "icon": "Refaire\n(Ctrl-Y)"
+            "icon": "Redo <br> (Ctrl-Y)"
         },
         "pref": {
             "icon": "Préférences"
@@ -1028,7 +1044,7 @@
             "icon": "Trier par"
         },
         "undo": {
-            "icon": "annuler\n(Ctrl-Z)"
+            "icon": "Annuler <br> (Ctrl-Z)"
         },
         "list": {
             "icon": "Vue de la liste"
@@ -1088,13 +1104,13 @@
             "icon": "Profil"
         },
         "arrange": {
-            "icon": "Organiser l'ordre z pour les formes sélectionnées"
+            "icon": "Organiser l'ordre Z pour les formes sélectionnées"
         },
         "descend": {
             "icon": "Inverser la direction du tri"
         },
         "zoom_in": {
-            "icon": "Agrandir\nCtrl + molette de la souris"
+            "icon": "Zoom avant <br> Ctrl + molette de la souris"
         },
         "line_end": {
             "icon": "Propriétés de ligne",
@@ -1133,7 +1149,7 @@
             "icon": "Envoyer un commentaire"
         },
         "zoom_out": {
-            "icon": "Dézoomer\nCtrl + molette de la souris"
+            "icon": "Zoom arrière <br> Ctrl + molette de la souris"
         },
         "SaveSearch": {
             "tip": "Sauvegarder le pochoir de recherche"
@@ -1142,7 +1158,7 @@
             "icon": "Aller au tableau de bord"
         },
         "draw_path": {
-            "icon": "Tracer un chemin, un arc, une courbe ou une forme libre\n(Ctrl-4)",
+            "icon": "Dessiner un chemin, un arc, une courbe ou une forme libre <br> (Ctrl-4)",
             "menu": {
                 "draw_line": {
                     "icon": "Dessiner une ligne"
@@ -1159,7 +1175,7 @@
             }
         },
         "draw_rect": {
-            "icon": "Dessiner un rectangle\n(Ctrl-2)"
+            "icon": "Dessiner un rectangle <br> (Ctrl-2)"
         },
         "font_size": {
             "icon": "Taille de police"
@@ -1174,7 +1190,7 @@
             "icon": "Renommer le dessin"
         },
         "operations": {
-            "icon": "Grouper, dégrouper, retourner ou joindre les formes sélectionnées"
+            "icon": "Grouper, dégrouper, retourner ou joindre des formes sélectionnées"
         },
         "line_color": {
             "icon": "Couleur de la ligne"
@@ -1236,7 +1252,7 @@
             "icon": "Afficher / masquer la grille"
         },
         "draw_ellipse": {
-            "icon": "Tracez un cercle ou une ellipse\n(Ctrl-3)"
+            "icon": "Tracez un cercle ou une ellipse <br> (Ctrl-3)"
         },
         "round_corner": {
             "icon": "Coin rond"
@@ -1248,13 +1264,13 @@
             "icon": "Afficher / masquer les formules"
         },
         "format_painter": {
-            "icon": "Peintre de format\n(Ctrl-7)"
+            "icon": "Peintre de formats, de couleurs ou de formules <br> <br> (Ctrl-7)"
         },
         "draw_textblock": {
-            "icon": "Dessiner, déplacer, redimensionner ou faire pivoter du texte\n(Ctrl-5)"
+            "icon": "Dessiner, déplacer, redimensionner ou faire pivoter du texte <br> (Ctrl-5)"
         },
         "draw_connector": {
-            "icon": "Dessiner des connecteurs\n(Ctrl-6)",
+            "icon": "Dessiner des connecteurs <br> (Ctrl-6)",
             "menu": {
                 "draw_conn_verti": {
                     "icon": "Coude"
@@ -1316,7 +1332,7 @@
             "icon": "Nouvelle page"
         },
         "cursor": {
-            "icon": "Pointeur, outil de panoramique\n(Ctrl-1)",
+            "icon": "Pointeur, outil panoramique <br> (Ctrl-1)",
             "menu": {
                 "pointer": {
                     "icon": "Outil de pointeur"
@@ -1338,18 +1354,14 @@
         "edit_info": {
             "icon": "Un lien de confirmation sera <br> envoyé à votre email précédent."
         },
-        "color_help": "Couleur personnalisée\n#fff / #ffffff / rgb (0, 0, 0)",
-        "bevel": {
-            "deviation": "Profondeur de biseau",
-            "surface_scale": "Bord ramollir"
+        "color": {
+            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
         },
-        "shadow": {
-            "deviation": "Propagation des ombres",
-            "x": "Direction verticale de l'ombre",
-            "y": "Direction horizontale de l'ombre"
+        "bevel_color": {
+            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
         },
-        "blur": {
-            "deviation": "Propagation du flou"
+        "shadow_color": {
+            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
         }
     },
     "signup": {
@@ -2418,6 +2430,17 @@
             "insert_sym_menu": "Insérer un menu horizontal / vertical",
             "show_all_comp": "Montre tout",
             "search_comp": "Composants de recherche"
+        },
+        "edit_net_name": {
+            "wire_name": "Nom du fil",
+            "cur_name": "Nom actuel du fil",
+            "hide_name": "Masquer le nom du fil",
+            "show": "Spectacle",
+            "all_pages": "Toutes les pages",
+            "this_page": "Cette page",
+            "click_wire": "Cliquez sur un nom de fil pour afficher l'emplacement",
+            "exists_wires": "Noms de fils existants",
+            "location": "Emplacement"
         }
     }
 }
