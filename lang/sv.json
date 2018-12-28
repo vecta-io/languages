@@ -272,7 +272,23 @@
         "next": "Nästa",
         "no_stencils": "Du har inga stenciler än.",
         "filter_title": "Redigera filter",
-        "filter_apply": "Tillämpa"
+        "bevel": "Fasa",
+        "shadow": "Skugga",
+        "blur": "Fläck",
+        "apply": "Tillämpa",
+        "smoothness": "jämnhet",
+        "sharpness": "Skärpa",
+        "offset_x": "Offset X",
+        "offset_y": "Offset Y",
+        "opacity": "Opacitet",
+        "light_color": "Ljus färg",
+        "color": "Färg",
+        "depth": "Djup",
+        "type": "Typ",
+        "inner_shadow": "Inre skugga",
+        "drop_shadow": "Drop Shadow",
+        "inner": "inre",
+        "drop": "släppa"
     },
     "drop": {
         "in": "tum",
@@ -1017,7 +1033,7 @@
             "tip": "Stencil låst"
         },
         "undo": {
-            "icon": "Ångra\n(Ctrl-Z)"
+            "icon": "Ångra <br> (Ctrl-Z)"
         },
         "grid": {
             "icon": "Rutnät"
@@ -1029,7 +1045,7 @@
             "icon": "Dra och släpp till vänster för att spara"
         },
         "redo": {
-            "icon": "Göra om\n(Ctrl-Y)"
+            "icon": "Göra om <br> (Ctrl-Y)"
         },
         "noti": {
             "icon": "Notifiering"
@@ -1089,10 +1105,10 @@
             "icon": "Profil"
         },
         "arrange": {
-            "icon": "Ordna z-ordning för valda former"
+            "icon": "Ordna z-order <br> för utvalda former"
         },
         "zoom_in": {
-            "icon": "Zooma in\nCtrl + mushjul"
+            "icon": "Zooma in <br> Ctrl + mushjul"
         },
         "line_end": {
             "icon": "Linjeegenskaper",
@@ -1131,7 +1147,7 @@
             "icon": "Chat"
         },
         "zoom_out": {
-            "icon": "Zooma ut\nCtrl + mushjul"
+            "icon": "Zooma ut <br> Ctrl + mushjulet"
         },
         "file_name": {
             "icon": "Byt namn på ritning"
@@ -1140,10 +1156,10 @@
             "icon": "Gå till kontrollpanelen"
         },
         "draw_rect": {
-            "icon": "Rita rektangel\n(Ctrl-2)"
+            "icon": "Rita rektangel <br> (Ctrl-2)"
         },
         "draw_path": {
-            "icon": "Rita väg, båge, kurva eller friform\n(Ctrl-4)",
+            "icon": "Rita väg, båge, <br> kurva eller freeform <br> (Ctrl-4)",
             "menu": {
                 "draw_line": {
                     "icon": "Rita linje"
@@ -1178,7 +1194,7 @@
             "icon": "Linjefärg"
         },
         "operations": {
-            "icon": "Sammanslut, dela upp, vänd<br/>eller anslut valda former"
+            "icon": "Gruppera, gruppera, flip <br> eller gå med valda former"
         },
         "text_align": {
             "icon": "Justera text",
@@ -1240,13 +1256,13 @@
             "icon": "Pausa makron"
         },
         "draw_ellipse": {
-            "icon": "Rita cirkel eller ellips\n(Ctrl-3)"
+            "icon": "Rita cirkel eller ellips <br> (Ctrl-3)"
         },
         "round_corner": {
             "icon": "Runda hörn"
         },
         "draw_connector": {
-            "icon": "Rita kontakter\n(Ctrl-6)",
+            "icon": "Rita kontakter <br> (Ctrl-6)",
             "menu": {
                 "draw_conn_verti": {
                     "icon": "Armbågeanslutning"
@@ -1266,10 +1282,10 @@
             "icon": "Lås / Lås upp bredd och höjd"
         },
         "draw_textblock": {
-            "icon": "Rita, flytta, ändra storlek eller rotera text\n(Ctrl-5)"
+            "icon": "Rita, flytta, ändra storlek på eller rotera text <br> (Ctrl-5)"
         },
         "format_painter": {
-            "icon": "Formatera målare\n(Ctrl-7)"
+            "icon": "Formatera, färg eller bildformelare <br> (Ctrl-7)"
         },
         "custom_gradient": {
             "icon": "Dra och släpp till vänster för att spara"
@@ -1314,7 +1330,7 @@
             "icon": "Ny sida"
         },
         "cursor": {
-            "icon": "Pekare verktyg, pan verktyg\n(Ctrl-1)",
+            "icon": "Pekare, panverktyg <br> (Ctrl-1)",
             "menu": {
                 "pointer": {
                     "icon": "Pekare verktyg"
@@ -1330,18 +1346,14 @@
         "pages": {
             "icon": "Visa en annan sida"
         },
-        "color_help": "Anpassad färg\n#fff / #ffffff / rgb (0, 0, 0)",
-        "bevel": {
-            "deviation": "Skaldjup",
-            "surface_scale": "Edge mjukna"
+        "color": {
+            "help": "Anpassad färg <br> #fff / #ffffff / rgb (0, 0, 0)"
         },
-        "shadow": {
-            "deviation": "Skuggspridning",
-            "x": "Vertikal riktning av skugga",
-            "y": "Horisontell riktning av skugga"
+        "bevel_color": {
+            "help": "Anpassad färg <br> #fff / #ffffff / rgb (0, 0, 0)"
         },
-        "blur": {
-            "deviation": "Suddig spridning"
+        "shadow_color": {
+            "help": "Anpassad färg <br> #fff / #ffffff / rgb (0, 0, 0)"
         }
     },
     "verify": {
@@ -2394,6 +2406,17 @@
             "insert_sym_menu": "Infoga horisontell / vertikal meny",
             "show_all_comp": "Visa allt",
             "search_comp": "Sök komponenter"
+        },
+        "edit_net_name": {
+            "wire_name": "Trådnamn",
+            "cur_name": "Nuvarande trådnamn",
+            "hide_name": "Dölj trådnamn",
+            "show": "Show",
+            "all_pages": "Alla sidor",
+            "this_page": "Denna sida",
+            "click_wire": "Klicka på ett trådnamn för att visa plats",
+            "exists_wires": "Befintliga trådnamn",
+            "location": "Plats"
         }
     }
 }
