@@ -276,7 +276,6 @@
         "shadow": "Skugga",
         "blur": "Fläck",
         "apply": "Tillämpa",
-        "smoothness": "jämnhet",
         "sharpness": "Skärpa",
         "offset_x": "Offset X",
         "offset_y": "Offset Y",
@@ -287,8 +286,7 @@
         "type": "Typ",
         "inner_shadow": "Inre skugga",
         "drop_shadow": "Drop Shadow",
-        "inner": "inre",
-        "drop": "släppa"
+        "size": "Storlek"
     },
     "drop": {
         "in": "tum",
@@ -1354,7 +1352,9 @@
         },
         "shadow_color": {
             "help": "Anpassad färg <br> #fff / #ffffff / rgb (0, 0, 0)"
-        }
+        },
+        "blur_help": "Blur kan inte användas med några effekter.",
+        "shadow_help": "Drop Shadow kan användas med Bevel. <br> Inner Shadow kan inte användas med några effekter."
     },
     "verify": {
         "failed": "Verifiering misslyckades",
