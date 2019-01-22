@@ -2071,7 +2071,26 @@
             "desc": "テキストリストに箇条書きを追加する"
         },
         "success_refresh": "プラグインが正常に更新されました。",
-        "fail_refresh": "プラグインはもう存在しません。"
+        "fail_refresh": "プラグインはもう存在しません。",
+        "plugin_16": {
+            "name": "コロプレスの地図",
+            "desc": "統計値に従ってJSONデータを網掛けの比率に変換"
+        },
+        "plugin_17": {
+            "name": "テーブル",
+            "desc": "入力された行数と列数に基づいてテーブルを作成します。"
+        },
+        "plugin_18": {
+            "name": "ポリゴン",
+            "desc": "辺数の入力に基づいて多角形を作成します"
+        },
+        "plugin_19": {
+            "name": "グロー効果",
+            "desc": "グロー効果のある楕円を作成する",
+            "cat": [
+                "全般"
+            ]
+        }
     },
     "templates_dev": {
         "-LNDGKK59pQgGW29c1Oj": {
@@ -2469,11 +2488,24 @@
             "this_page": "このページ",
             "click_wire": "ワイヤー名をクリックして場所を表示",
             "exists_wires": "既存のワイヤ名",
-            "location": "ロケーション"
+            "location": "ロケーション",
+            "set_no_name": "NoNameに設定",
+            "no_name": "ノーネーム"
         },
         "edit_ref": {
             "all_shapes": "すべての形",
-            "this_shape": "この形"
+            "this_shape": "この形",
+            "shape": "形状",
+            "shapes": "形",
+            "page": "ページ",
+            "ref": "参照",
+            "refs": "参考文献",
+            "desc": "説明",
+            "selected_ref": "選択した参照用の形状",
+            "component": "成分",
+            "hide_desc": "説明を隠す",
+            "hide_ref": "参照を隠す",
+            "page_prefix": "ページプレフィックスを使用"
         },
         "pins": {
             "set_pin_names": "ピン名を設定",
@@ -2484,6 +2516,12 @@
             "del_pin": "ピンセットを削除",
             "select_pin": "ピンセットを選択してください。 （その他のオプションについては右クリック）",
             "incorrect_pin": "ピン数が正しくありません"
+        },
+        "component": "成分",
+        "auto_loc": {
+            "locate_ref": "参照を探す",
+            "loc_col": "列に配置する",
+            "reference": "参照"
         }
     }
 }
