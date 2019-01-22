@@ -1608,6 +1608,25 @@
             "name": "Bullet List",
             "desc": "Add bullets to text list"
         },
+        "plugin_16": {
+            "name": "Choropleth Map",
+            "desc": "Convert JSON data into shaded proportion according to statistical values"
+        },
+        "plugin_17": {
+            "name": "Tables",
+            "desc": "Creates tables based on number of rows and columns input"
+        },
+        "plugin_18": {
+            "name": "Polygon",
+            "desc": "Creates polygon based on number of sides input"
+        },
+        "plugin_19": {
+            "name": "Glow Effect",
+            "desc": "Create an ellipse with glow effect",
+            "cat": [
+                "General"
+            ]
+        },
         "plugins": "Plugins",
         "get_plugins": "Getting plugins",
         "no_plugins": "No plugins found",
@@ -2286,14 +2305,28 @@
             "this_page": "This Page",
             "click_wire": "Click on a wire name to show location",
             "exists_wires": "Existing Wire Names",
-            "location": "Location"
+            "location": "Location",
+            "set_no_name": "Set to NoName",
+            "no_name": "NoName"
         },
         "electrical": "Electrical",
         "pneumatic": "Pneumatic",
         "hydraulic": "Hydraulic",
+        "component": "Component",
         "edit_ref": {
+            "shape": "Shape",
+            "shapes": "Shapes",
+            "page": "Page",
+            "ref": "Reference",
+            "refs": "References",
+            "desc": "Description",
+            "selected_ref": "Shapes for selected reference",
             "all_shapes": "All Shapes",
-            "this_shape": "This Shape"
+            "this_shape": "This Shape",
+            "component": "Component",
+            "hide_desc": "Hide Description",
+            "hide_ref": "Hide Reference",
+            "page_prefix": "Use Page Prefix"
         },
         "pins": {
             "set_pin_names": "Set Pin Names",
@@ -2304,6 +2337,11 @@
             "del_pin": "Delete Pin Set",
             "select_pin": "Select pin set. (Right-click for more options)",
             "incorrect_pin": "Incorrect number of pins"
+        },
+        "auto_loc": {
+            "locate_ref": "Locate Reference",
+            "loc_col": "Arrange locations in column(s)",
+            "reference": "Reference"
         }
     }
 }
