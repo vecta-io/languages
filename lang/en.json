@@ -245,10 +245,10 @@
         "signup_github": "Sign up with Github",
         "signup_cancel": "No thanks",
         "network_failed": "Are you connected to the Internet? Please check your connection and try again.",
-        "user_disabled": "Your account has been disabled. If you think this is a mistake, please contact <a href=\"mailto:support@vecta.io\">support@vecta.io</a>.",
+        "user_disabled": "Your account has been disabled. If you think this is a mistake, please contact support@vecta.io.",
         "storage_disabled": "Your browser does not support web storage, or it has been disabled. <br />Please enable web storage in your browser or try again with a different browser.",
         "or": "OR",
-        "firebase_error": "If you are seeing this, please contact <a href=\"mailto:support@vecta.io\">support@vecta.io</a> with a screenshot of the error above.",
+        "firebase_error": "If you are seeing this, please contact <a href='mailto:support@vecta.io'>support@vecta.io</a> with a screenshot of the error above.",
         "wrong_credentials": "You have previously logged in using your email and password. <br /> Please log in with the email and password instead.",
         "invalid_email_pwd": "Invalid email or password",
         "signin_failed": "Sign in failed",
@@ -842,8 +842,8 @@
         "email_help": "Emails are separated by commas",
         "share_to": "Or share directly to:",
         "img_added": "Image successfully added.",
-        "img_copying": "Image is being copied, please do not close your browser",
-        "img_uploading": "Image is being uploaded, please do not close your browser",
+        "img_copying": "Image is being copied over. <br/> Please hold off closing the current window.",
+        "img_uploading": "Image is being uploaded to our image bucket. <br/>Please hold off closing the current window.",
         "edit_profile": "Edit Profile",
         "remove_avatar": "Remove Avatar",
         "anonymous": "Anonymous",
@@ -1504,13 +1504,12 @@
                 "Charts"
             ]
         },
-        "stencil_71": {
-            "name": "Gauge and Meters",
-            "desc": "Interactive gauges and meters."
-        },
         "no_exist": "Unable to set the following items. The stencil may no longer exists, or <br /> you do not have the permission to access it.",
         "symbol_no_exist": "Unable to set the following items. The symbol may no longer exists, or <br /> you do not have the permission to access it.",
         "create_stencil": "Create stencil",
+        "free_svg_symbols": "Free SVG Symbols",
+        "request_symbols_title": "Request for symbols",
+        "request_symbols": "Request Symbols",
         "confirm_del": "Deleting a stencil is a non reversible action.<br /><br />Are you sure you want to delete this stencil?",
         "no_drop_symbol": "You cannot save a symbol into the saved search stencil.",
         "untitled_symbol": "Untitled symbol",
@@ -2184,7 +2183,7 @@
         "save-symbols": "Drag and drop to a stencil to save and reuse symbols",
         "publishing": "Publish and share your drawings to the world",
         "chat": "Chat with your teammates right away in Vecta's editor",
-        "gradient": "Unleash your creativity with multiple stop gradient",
+        "gradient": "Use linear or radial gradients to make your drawings come alive",
         "slack": "Integrate Vecta with Slack for better collaboration",
         "symbol-search": "Search for symbols in Vecta's growing symbols library",
         "formula": "Create smart shapes using formulas and expressions",
@@ -2197,9 +2196,7 @@
         "scale-resizing": "Preserve stroke width and font size proportions when resizing shapes",
         "templates": " Use Vecta templates to present your ideas faster",
         "pin-drawing": " Pin drawings in dashboard and get access to them quickly",
-        "effects": " Add shadow, bevel or blur effect to make amazing graphics",
-        "pages": "Create and manage multiple pages in a single drawing",
-        "pan": "Easily navigate using the pan tool shortcut"
+        "effects": " Add shadow, bevel or blur effect to make amazing graphics"
     },
     "settings": {
         "reading": "Reading preferences",
