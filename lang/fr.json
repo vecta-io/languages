@@ -229,8 +229,8 @@
         "increment": "Incrément",
         "compress_svg": "Compresser SVG",
         "img_added": "Image ajoutée avec succès.",
-        "img_uploading": "L'image est en cours de téléchargement dans notre panier d'images. <br/> Veuillez patienter en fermant la fenêtre en cours.",
-        "img_copying": "L'image est en cours de copie. <br/> Veuillez patienter en fermant la fenêtre en cours.",
+        "img_uploading": "L'image est en cours de téléchargement, veuillez ne pas fermer votre navigateur",
+        "img_copying": "L'image est en cours de copie, ne fermez pas votre navigateur.",
         "change": "Changement",
         "edit_profile": "Editer le profil",
         "anonymous": "Anonyme",
@@ -620,13 +620,13 @@
         "require_name": "Le nom est requis",
         "signin_failed": "La connexion a échoué",
         "signup_cancel": "Non merci",
-        "user_disabled": "Votre compte a été désactivé. Si vous pensez que c'est une erreur, veuillez contacter support@vecta.io.",
+        "user_disabled": "Votre compte a été désactivé. Si vous pensez que c'est une erreur, veuillez contacter <a href=\"mailto:support@vecta.io\"> support@vecta.io </a>.",
         "signup_github": "Inscrivez-vous avec Github",
         "signup_google": "Inscrivez-vous avec Google",
         "invalid_email": "Email invalide",
         "network_failed": "Êtes-vous connecté à Internet? Veuillez vérifier votre connexion et réessayer.",
         "reset_password": "mot de passe oublié?",
-        "firebase_error": "Si cela se produit, contactez <a href='mailto:support@vecta.io'> support@vecta.io </a> avec une capture d'écran de l'erreur ci-dessus.",
+        "firebase_error": "Si cela se produit, contactez <a href=\"mailto:support@vecta.io\"> support@vecta.io </a> avec une capture d'écran de l'erreur ci-dessus.",
         "signup_facebook": "Inscrivez-vous avec Facebook",
         "storage_disabled": "Votre navigateur ne prend pas en charge le stockage Web ou il a été désactivé. <br /> Veuillez activer le stockage Web dans votre navigateur ou réessayer avec un autre navigateur.",
         "remember_password": "S'identifier",
@@ -1046,7 +1046,7 @@
         "convert-to-path": "Convertir des formes de base en chemins et créer des formes uniques",
         "custom-google-fonts": "Accédez à plus de 900 polices Web pour une créativité sans limites",
         "format-painter": "Utiliser des peintres pour copier rapidement les propriétés d'une forme",
-        "gradient": "Utilisez des dégradés linéaires ou radiaux pour donner vie à vos dessins",
+        "gradient": "Libérez votre créativité avec plusieurs dégradés",
         "formula": "Créer des formes intelligentes à l'aide de formules et d'expressions",
         "convert-text-to-outline": "Convertissez votre texte en chemin pour une meilleure portabilité",
         "edit-profile": "Choisissez votre propre avatar, modifiez votre profil et soyez vous-même!",
@@ -1054,7 +1054,9 @@
         "scale-resizing": "Conserver les proportions de la largeur de trait et de la taille de police lors du redimensionnement des formes",
         "templates": "Utilisez les modèles Vecta pour présenter vos idées plus rapidement",
         "pin-drawing": "Épinglez des dessins dans le tableau de bord et accédez-y rapidement",
-        "effects": "Ajoutez des effets d'ombre, de biseau ou de flou pour créer des graphismes époustouflants"
+        "effects": "Ajoutez des effets d'ombre, de biseau ou de flou pour créer des graphismes époustouflants",
+        "pages": "Créer et gérer plusieurs pages dans un seul dessin",
+        "pan": "Naviguez facilement à l'aide du raccourci de l'outil de panoramique"
     },
     "tips": {
         "Lock": {
@@ -1935,9 +1937,10 @@
             "name": "Médias sociaux (Shadow)",
             "desc": "Collection d'icônes de médias sociaux"
         },
-        "free_svg_symbols": "Symboles SVG gratuits",
-        "request_symbols_title": "Demande de symboles",
-        "request_symbols": "Demander des symboles"
+        "stencil_71": {
+            "name": "Jauge et mètres",
+            "desc": "Jauges et compteurs interactifs."
+        }
     },
     "videos": {
         "nlAyOo-_HLQ": {
@@ -2016,7 +2019,7 @@
         "plugins": "Plugins",
         "find_plugins": "Trouver des plugins",
         "no_active_plugins": "Aucun plug-in d'exécution automatique pour dessiner",
-        "active_plugins": "Exécution automatique des plugins",
+        "active_plugins": "Exécuter automatiquement les plugins",
         "plugin_cat": "Catégorie de plugin (Séparer avec une virgule)",
         "plugin_cat_place": "Général, Spreadsheet, Fichiers",
         "running_plugin": "Exécution du plugin",
