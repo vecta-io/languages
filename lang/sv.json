@@ -229,8 +229,8 @@
         "increment": "Ökning",
         "compress_svg": "Komprimera SVG",
         "img_added": "Bilden har lagts till.",
-        "img_uploading": "Bilden laddas upp, var god stäng inte webbläsaren",
-        "img_copying": "Bilden kopieras, var god stäng inte webbläsaren",
+        "img_uploading": "Bilden laddas upp till vår bildhink. <br/> Vänligen fortsätt stänga det aktuella fönstret.",
+        "img_copying": "Bilden kopieras över. <br/> Vänligen fortsätt stänga det aktuella fönstret.",
         "change": "Byta",
         "edit_profile": "Redigera profil",
         "anonymous": "Anonym",
@@ -302,10 +302,7 @@
         "copy_clipboard": "Kopiera till Urklipp",
         "copy_complete": "Kopiera till klippbordet slutfört",
         "desc": "Beskrivning",
-        "properties": "Egenskaper",
-        "shape": "Form",
-        "effects": "effekter",
-        "no_effects": "Inga effekter hittades"
+        "animation": "Animering"
     },
     "drop": {
         "in": "tum",
@@ -626,8 +623,8 @@
         "signup_google": "Registrera dig med Google",
         "signin_failed": "Inloggning misslyckades",
         "signup_github": "Registrera dig med Github",
-        "user_disabled": "Ditt konto har avaktiverats. Om du tycker att detta är ett misstag, vänligen kontakta <a href=\"mailto:support@vecta.io\"> support@vecta.io </a>.",
-        "firebase_error": "Om du ser detta, vänligen kontakta <a href=\"mailto:support@vecta.io\"> support@vecta.io </a> med en skärmdump av felet ovan.",
+        "user_disabled": "Ditt konto har avaktiverats. Om du tycker att det här är ett misstag, vänligen kontakta support@vecta.io.",
+        "firebase_error": "Om du ser detta, vänligen kontakta <a href='mailto:support@vecta.io'> support@vecta.io </a> med en skärmdump av felet ovan.",
         "network_failed": "Är du ansluten till internet? Var god kontrollera din anslutning och försök igen.",
         "reset_password": "Glömt lösenord?",
         "signup_facebook": "Registrera dig med Facebook",
@@ -1039,7 +1036,7 @@
         "publishing": "Publicera och dela dina ritningar till världen",
         "create-team": "Skapa lag för att enkelt dela ritningar",
         "save-symbols": "Dra och släpp till en stencil för att spara och återanvända symboler",
-        "find-replace": "Sök snabbt och ersätt text med Ctrl + F",
+        "find-replace": "Sök enkelt efter text med Ctrl + F",
         "share-drawing": "Använd länkar för att dela ritningar på sociala medier",
         "invite-members": "Bjud medlemmarna att få ditt lag igång i Vecta",
         "shape-properties": "Ändra former med hjälp av uttryck för hög noggrannhet",
@@ -1047,17 +1044,15 @@
         "custom-google-fonts": "Få tillgång till över 900 webbfonter för obegränsad kreativitet",
         "format-painter": "Använd målare att kopiera en forms egenskaper till en annan snabbt",
         "scaling": "Ange ritningsskalan för att modellera riktiga världsmätningar",
-        "gradient": "Släpp lös din kreativitet med flera stoppgradienter",
+        "gradient": "Använd linjära eller radiella gradienter för att göra dina ritningar levande",
         "formula": "Skapa smarta former med formler och uttryck",
-        "convert-text-to-outline": "Konvertera din text till skissera för bättre portabilitet",
+        "convert-text-to-outline": "Konvertera din text till banan för bättre portabilitet",
         "edit-profile": "Välj din egen avatar, redigera din profil och var bara dig själv!",
-        "plugins": "Automatisera dina ritningar med JavaScript baserade plugins",
+        "plugins": "Gör mer med Javascript-baserade plugins",
         "scale-resizing": "Behåll strokebredden och storleken på teckenstorleken när du ändrar former",
         "templates": "Använd Vectas mallar för att presentera dina idéer snabbare",
         "pin-drawing": "Pin ritningar i instrumentbrädan och få tillgång till dem snabbt",
-        "effects": "Lägg till skugg-, kant- eller suddig effekt för att göra fantastisk grafik",
-        "pages": "Skapa och hantera flera sidor i en ritning",
-        "pan": "Navigera enkelt med hjälp av genvägsverktyget"
+        "effects": "Lägg till skugg-, kant- eller suddig effekt för att göra fantastisk grafik"
     },
     "tips": {
         "Lock": {
@@ -1940,10 +1935,11 @@
         "stencil_71": {
             "cat": [
                 "odefinierad"
-            ],
-            "name": "Mätare och mätare",
-            "desc": "Interaktiva mätare och mätare."
-        }
+            ]
+        },
+        "free_svg_symbols": "Gratis SVG-symboler",
+        "request_symbols_title": "Begäran om symboler",
+        "request_symbols": "Begär symboler"
     },
     "integrate": {
         "error": "Något har gått fel ...",
@@ -2028,7 +2024,7 @@
         "plugins": "plugins",
         "find_plugins": "Hitta plugins",
         "no_active_plugins": "Inga auto run plugins för ritning",
-        "active_plugins": "Kör pluggar automatiskt",
+        "active_plugins": "Auto kör plugins",
         "plugin_cat": "Plugin kategori (Separate med komma)",
         "plugin_cat_place": "Allmänt, kalkylblad, filer",
         "running_plugin": "Kör plugin",
