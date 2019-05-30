@@ -311,7 +311,12 @@
         "editor": "Redaktör",
         "no_target": "Det gick inte att hitta animationsmål.",
         "invite_friend": "Dela Ritning",
-        "img_invalid": "Bilden är ogiltig"
+        "img_invalid": "Bilden är ogiltig",
+        "edit_tblock": "Redigera Titelblock",
+        "value": "Värde",
+        "scope": "Omfattning",
+        "doc": "Dokumentera",
+        "page": "Sida"
     },
     "drop": {
         "in": "tum",
@@ -1408,6 +1413,24 @@
         },
         "rect_help": {
             "icon": "Hjälp"
+        },
+        "create_schem": {
+            "icon": "Skapa schematiskt symbol"
+        },
+        "comp_db": {
+            "icon": "Komponentdatabas"
+        },
+        "options": {
+            "icon": "Dokumentalternativ"
+        },
+        "create_tblock": {
+            "icon": "Skapa titelblock"
+        },
+        "manage_comps": {
+            "icon": "Hantera komponenter"
+        },
+        "create_tdata": {
+            "icon": "Infoga titelblokdata"
         }
     },
     "verify": {
@@ -2663,15 +2686,19 @@
             "text_pos": "Textposition",
             "no_conn_pts": "Inga anslutningspunkter hittades",
             "select_comp": "Välj Komponent",
-            "selected_comp": "Vald komponent"
+            "selected_comp": "Vald komponent",
+            "add_pin_names": "Vill du lägga till pinnamn för denna symbol?",
+            "generate": "Generera",
+            "sym_name": "Symbolnamn",
+            "sym_prompt": "Symbolprompt",
+            "verti": "Vertikal",
+            "horiz": "Horisontell"
         },
         "edit_net_name": {
             "wire_name": "Trådnamn",
             "cur_name": "Nuvarande trådnamn",
             "hide_name": "Dölj trådnamn",
             "show": "Show",
-            "all_pages": "Alla sidor",
-            "this_page": "Denna sida",
             "click_wire": "Klicka på ett trådnamn för att visa plats",
             "exists_wires": "Befintliga trådnamn",
             "location": "Plats",
@@ -2691,7 +2718,8 @@
             "component": "Komponent",
             "hide_desc": "Dölj beskrivning",
             "hide_ref": "Dölj referens",
-            "page_prefix": "Använd sidprefix"
+            "page_prefix": "Använd sidprefix",
+            "panel_prefix": "Använd panelprefix"
         },
         "pins": {
             "set_pin_names": "Ange PIN-namn",
@@ -2724,21 +2752,32 @@
         },
         "assign_comp": {
             "save_as_new_comp": "Spara som ny komponent",
-            "close": "Stänga"
+            "close": "Stänga",
+            "left": "Vänster",
+            "top": "Topp",
+            "right": "Höger",
+            "bottom": "Botten",
+            "ref_pos": "Referensposition",
+            "qty_pos": "Mängd Position"
         },
         "title_block": {
-            "edit_tblock": "Redigera Titelblock",
             "name": "namn",
-            "value": "Värde",
             "scope": "Omfattning",
             "doc": "Dokumentera",
-            "page": "Sida"
+            "page": "Sida",
+            "create_tdata": "Infoga titelblokdata",
+            "create_tblock": "Skapa titelblock",
+            "stencil": "namn",
+            "def_val": "Standardvärde",
+            "prompt": "Prompt",
+            "no_shape": "Var god välj en form",
+            "dup_names": "Duplikerat data namn",
+            "dup_names_mssg": "Grupperad Titelblock innehåller block med dubblerade datanamn.\nVänligen ungroup och redigera för att alla block ska ha unika datanamn.",
+            "gen_tblock": "Generering av titelblock"
         },
         "gen_term_list": {
             "gen_tlist": "Generera Terminall Block Listing",
             "generate": "Generera",
-            "all_pages": "Alla sidor",
-            "this_page": "Denna sida",
             "term_per_row": "Terminaler per rad"
         },
         "reports": {
@@ -2754,6 +2793,77 @@
             "page": "Sida",
             "name_label": "Trådnamn - Plats",
             "show_all": "Visa allt"
+        },
+        "sorting_shapes": "Sortera former",
+        "terminal": "Terminal",
+        "stencil": "Stencil",
+        "all_pages": "Alla sidor",
+        "this_page": "Denna sida",
+        "prepare_layout": {
+            "manage_comps": "Hantera komponenter",
+            "gen_layout": "Generera layout",
+            "grouping": "gruppering",
+            "panel": "Panel",
+            "insert_data": "Infoga alla data i ritning",
+            "no_comp": "Ingen komponent hittades",
+            "gen_lay_new_page": "Generera till ny sida",
+            "group": "Grupp"
+        },
+        "renum_term_list": {
+            "renum_list": "Renumber Terminals",
+            "start_num": "Startnummer",
+            "suffix_char": "Suffix-tecken (valfri, komma-separerad)",
+            "hide_tblock_txt": "Dölj terminal block referens"
+        },
+        "auto_rename": {
+            "title": "Auto Rename",
+            "wire_tab": {
+                "title": "Trådnamn / referenser",
+                "label": {
+                    "wire": "Välj tråd (er) för att behålla originalnamn",
+                    "reference": "Välj referens (er) för att behålla originalnamnet"
+                }
+            },
+            "tube_tab": {
+                "title": "Rörnamn / slangnamn",
+                "label": {
+                    "tube": "Välj rör (er) för att behålla originalnamnet",
+                    "hose": "Välj slang (er) för att behålla originalnamnet"
+                }
+            },
+            "from": "Från",
+            "to": "Till"
+        },
+        "loc_options": {
+            "location": "Plats",
+            "loc_info_1": "Electra kommer att lista formplaceringar baserat",
+            "loc_info_2": "På ett osynligt rutnät ställer du in nätet",
+            "loc_info_3": "längd och avstånd till dina krav",
+            "loc_size_help": "Accepterar: i, cm, mm, px. t.ex.: 3mm, 3px, 3",
+            "loc_format_help": "Exempel: /3.A5"
+        },
+        "general_options": {
+            "general": "Allmän",
+            "general_options": "Generella val",
+            "ref_pop_up": "Popup-referensfönstret på droppe",
+            "auto_convert": "Automatisk in / mm / cm / meter resize",
+            "propagate": "Automatisk trådförökning och detektering",
+            "term_split_wire": "Delade ledningar när du släpper terminalerna",
+            "conn_dot": "Hantera automatiskt anslutningspunkter för trådar",
+            "straighten_wire": "Justera och justera ledningarna automatiskt",
+            "panel_prefix": "Aktivera panelprefix på referenser",
+            "ask_create_cable": "Popup för att be om åtgärder när ingen kabelkärna finns tillgänglig",
+            "renum_LZone": "Automatiskt omnummersymboler / trådar när de flyttas inom stegzonen",
+            "sym_split_wire": "Dela ledningar när du släpper symboler",
+            "page_prefix": "Sidprefix",
+            "page_prefix_ref": "Aktivera referenser",
+            "page_prefix_wires": "Aktivera på ledningar",
+            "wire_sep": "Separator för tråd",
+            "wire_sep_help": "Separatorn kan inte ha numeriska värden, t.ex. 0-9",
+            "layout": "Layoutform",
+            "auto_placement": "Placera automatiskt layoutsymboler på skenor",
+            "placement_offset": "Initial placering offset",
+            "offset_help": "Accepterar: i, cm, mm, px. t.ex.: 3mm, 3px, 3"
         }
     },
     "symbol_sizes": {
