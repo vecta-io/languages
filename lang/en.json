@@ -176,7 +176,13 @@
         },
         "fit_to_drawing.tip": "Increase the width and height to add the margin",
         "blur_help": "Blur cannot be used with any effects.",
-        "shadow_help": "Drop Shadow can be used with Bevel.<br>Inner Shadow cannot be used with any effects."
+        "shadow_help": "Drop Shadow can be used with Bevel.<br>Inner Shadow cannot be used with any effects.",
+        "create_schem.icon": "Create Schematic Symbol",
+        "comp_db.icon": "Component Database",
+        "options.icon": "Document Options",
+        "create_tblock.icon": "Create Title Block",
+        "manage_comps.icon": "Manage Components",
+        "create_tdata.icon": "Insert Title Block Data"
     },
     "mssg": {
         "sending": "Sending",
@@ -903,6 +909,11 @@
         "important": "Important: ",
         "request_sent": "Request sent",
         "comment_not_exist": "The comment no longer exists",
+        "edit_tblock": "Edit Title Block",
+        "value": "Value",
+        "scope": "Scope",
+        "doc": "Document",
+        "page": "Page",
         "effects": "Effects",
         "no_effects": "No effects found",
         "menu_title": "Title"
@@ -2471,6 +2482,8 @@
             "invalid_default_ref": "Zero length or empty strings not allowed for default reference",
             "invalid_sym_name": "Zero length or empty strings not allowed for symbol name",
             "invalid_size": "Invalid size units. Valid size units are 10mm, 20in, 30cm, etc.",
+            "add_pin_names": "Do you want to add pin names for this symbol?",
+            "generate": "Generate",
             "help_pin_names": "e.g. 13, 23, 33. Separate pin set names with comma.",
             "sym_priority": "Priority",
             "loc_type": "Location Type",
@@ -2478,15 +2491,17 @@
             "text_pos": "Text Position",
             "no_conn_pts": "No connection points found",
             "select_comp": "Select Component",
-            "selected_comp": "Selected Component"
+            "selected_comp": "Selected Component",
+            "sym_name": "Symbol Name",
+            "sym_prompt": "Symbol Prompt",
+            "verti": "Vertical",
+            "horiz": "Horizontal"
         },
         "edit_net_name": {
             "wire_name": "Wire Name",
             "cur_name": "Current wire name",
             "hide_name": "Hide Wire Name",
             "show": "Show",
-            "all_pages": "All Pages",
-            "this_page": "This Page",
             "click_wire": "Click on a wire name to show location",
             "exists_wires": "Existing Wire Names",
             "location": "Location",
@@ -2510,7 +2525,8 @@
             "component": "Component",
             "hide_desc": "Hide Description",
             "hide_ref": "Hide Reference",
-            "page_prefix": "Use Page Prefix"
+            "page_prefix": "Use Page Prefix",
+            "panel_prefix": "Use Panel Prefix"
         },
         "pins": {
             "set_pin_names": "Set Pin Names",
@@ -2540,29 +2556,46 @@
             "help": "Accepts all major units. E.g. 2 mm, 2 in, 2 cm etc.",
             "gen": "Generate"
         },
+        "sorting_shapes": "Sorting Shapes",
+        "terminal": "Terminal",
         "yes": "Yes",
         "no": "No",
+        "stencil": "Stencil",
+        "all_pages": "All Pages",
+        "this_page": "This Page",
         "assign_comp": {
             "save_as_new_comp": "Save As New Component",
             "close": "Close",
-            "save_comp": "Save changes to component data?"
+            "save_comp": "Save changes to component data?",
+            "left": "Left",
+            "top": "Top",
+            "right": "Right",
+            "bottom": "Bottom",
+            "ref_pos": "Reference Position",
+            "qty_pos": "Quantity Position"
+        },
+        "prepare_layout": {
+            "manage_comps": "Manage Components",
+            "gen_layout": "Generate Layout",
+            "grouping": "Grouping",
+            "panel": "Panel",
+            "insert_data": "Insert All Data into Drawing",
+            "no_comp": "No component found",
+            "gen_lay_new_page": "Generate to New Page",
+            "group": "Group"
         },
         "gen_term_list": {
             "gen_tlist": "Generate Terminall Block Listing",
             "generate": "Generate",
-            "all_pages": "All Pages",
-            "this_page": "This Page",
             "term_per_row": "Terminals Per Row",
             "scan_terms": "Scanning Terminals",
             "gen_term_lists": "Generating Terminal Block Listing"
         },
-        "title_block": {
-            "edit_tblock": "Edit Title Block",
-            "name": "Name",
-            "value": "Value",
-            "scope": "Scope",
-            "doc": "Document",
-            "page": "Page"
+        "renum_term_list": {
+            "renum_list": "Renumber Terminals",
+            "start_num": "Starting number",
+            "suffix_char": "Suffix characters (optional, comma separated)",
+            "hide_tblock_txt": "Hide terminal block reference"
         },
         "reports": {
             "title": "Cross Reference Report",
@@ -2577,6 +2610,71 @@
             "page": "Page",
             "name_label": "Wire Name - Location",
             "show_all": "Show All"
+        },
+        "title_block": {
+            "create_tdata": "Insert Title Block Data",
+            "create_tblock": "Create Title Block",
+            "stencil": "Name",
+            "name": "Name",
+            "def_val": "Default Value",
+            "prompt": "Prompt",
+            "scope": "Scope",
+            "doc": "Document",
+            "page": "Page",
+            "no_shape": "Please select a shape",
+            "dup_names": "Duplicated Data Name",
+            "dup_names_mssg": "Grouped Title Block contains blocks with duplicated data names.\nPlease ungroup and edit to ensure all blocks have unique data names.",
+            "gen_tblock": "Generating Title Block"
+        },
+        "auto_rename": {
+            "title": "Auto Rename",
+            "wire_tab": {
+                "title": "Wire Name/References",
+                "label": {
+                    "wire": "Select wire(s) to retain original name",
+                    "reference": "Select reference(s) to retain original name"
+                }
+            },
+            "tube_tab": {
+                "title": "Tube Name/Hose Name",
+                "label": {
+                    "tube": "Select tube(s) to retain original name",
+                    "hose": "Select hose(s) to retain original name"
+                }
+            },
+            "from": "From",
+            "to": "To"
+        },
+        "loc_options": {
+            "location": "Location",
+            "loc_info_1": "Electra will list shape locations based",
+            "loc_info_2": "on an invisible grid, set the grid starting",
+            "loc_info_3": "length and spacing to your requirements",
+            "loc_size_help": "Accepts: in, cm, mm, px. eg: 3mm, 3px, 3",
+            "loc_format_help": "Example: /3.A5"
+        },
+        "general_options": {
+            "general": "General",
+            "general_options": "General Options",
+            "ref_pop_up": "Popup reference window on drop",
+            "auto_convert": "Automatic in/mm/cm/meters resize",
+            "propagate": "Automatic wire propagation and detection",
+            "term_split_wire": "Split wires when dropping terminals",
+            "conn_dot": "Automatically manage connection dots for wires",
+            "straighten_wire": "Automatically adjust and straighten wires",
+            "panel_prefix": "Enable panel prefix on references",
+            "ask_create_cable": "Popup to ask for actions when no cable core available",
+            "renum_LZone": "Automatically renumber symbols/wires when moved within ladder zone",
+            "sym_split_wire": "Split wires when dropping symbols",
+            "page_prefix": "Page Prefix",
+            "page_prefix_ref": "Enable on references",
+            "page_prefix_wires": "Enable on wires",
+            "wire_sep": "Separator for wire",
+            "wire_sep_help": "Separator cannot have numeric values, e.g. 0-9",
+            "layout": "Layout Shape",
+            "auto_placement": "Automatically place layout symbols on rails",
+            "placement_offset": "Initial placement offset",
+            "offset_help": "Accepts: in, cm, mm, px. eg: 3mm, 3px, 3"
         }
     }
 }
