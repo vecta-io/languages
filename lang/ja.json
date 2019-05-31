@@ -310,12 +310,7 @@
         "menu_title": "タイトル",
         "no_target": "アニメーションターゲットが見つかりません。",
         "invite_friend": "図面を共有する",
-        "img_invalid": "画像が無効です",
-        "edit_tblock": "タイトルブロックを編集",
-        "value": "値",
-        "scope": "範囲",
-        "doc": "資料",
-        "page": "ページ"
+        "img_invalid": "画像が無効です"
     },
     "list": {
         "sv": "スウェーデン語",
@@ -607,7 +602,10 @@
         "new_stencil": "新ステンシル",
         "collapse_stencil": "ステンシルを折りたたむ",
         "collapse_all_stencils": "すべてのステンシルを折りたたむ",
-        "symbols_size": "シンボルサイズ"
+        "symbols_size": "アイコンサイズ",
+        "small_size": "小さいアイコン",
+        "medium_size": "中アイコン",
+        "large_size": "大きなアイコン"
     },
     "login": {
         "or": "または",
@@ -1381,24 +1379,6 @@
         },
         "page_down": {
             "icon": "次のページ"
-        },
-        "create_schem": {
-            "icon": "回路図シンボルを作成"
-        },
-        "comp_db": {
-            "icon": "部品データベース"
-        },
-        "options": {
-            "icon": "文書オプション"
-        },
-        "create_tblock": {
-            "icon": "タイトルブロックを作成"
-        },
-        "manage_comps": {
-            "icon": "コンポーネントを管理する"
-        },
-        "create_tdata": {
-            "icon": "タイトルブロックデータを挿入"
         }
     },
     "preload": {
@@ -2683,13 +2663,7 @@
             "text_pos": "テキスト位置",
             "no_conn_pts": "接続点が見つかりません",
             "select_comp": "コンポーネントを選択",
-            "selected_comp": "選択されたコンポーネント",
-            "add_pin_names": "このシンボルにピン名を追加しますか？",
-            "generate": "生成する",
-            "sym_name": "シンボル名",
-            "sym_prompt": "シンボルプロンプト",
-            "verti": "垂直",
-            "horiz": "水平"
+            "selected_comp": "選択されたコンポーネント"
         },
         "edit_net_name": {
             "wire_name": "ワイヤー名",
@@ -2700,7 +2674,9 @@
             "exists_wires": "既存のワイヤ名",
             "location": "ロケーション",
             "set_no_name": "NoNameに設定",
-            "no_name": "ノーネーム"
+            "no_name": "ノーネーム",
+            "all_pages": "すべてのページ",
+            "this_page": "このページ"
         },
         "edit_ref": {
             "all_shapes": "すべての形",
@@ -2715,8 +2691,7 @@
             "component": "成分",
             "hide_desc": "説明を隠す",
             "hide_ref": "参照を隠す",
-            "page_prefix": "ページプレフィックスを使用",
-            "panel_prefix": "パネルプレフィックスを使用"
+            "page_prefix": "ページプレフィックスを使用"
         },
         "pins": {
             "set_pin_names": "ピン名を設定",
@@ -2750,13 +2725,7 @@
         "assign_comp": {
             "save_as_new_comp": "新しいコンポーネントとして保存",
             "close": "閉じる",
-            "save_comp": "コンポーネントデータへの変更を保存しますか？",
-            "left": "左",
-            "top": "上",
-            "right": "右",
-            "bottom": "底",
-            "ref_pos": "基準位置",
-            "qty_pos": "数量ポジション"
+            "save_comp": "コンポーネントデータへの変更を保存しますか？"
         },
         "yes": "はい",
         "no": "いいえ",
@@ -2765,20 +2734,15 @@
             "scope": "範囲",
             "doc": "資料",
             "page": "ページ",
-            "create_tdata": "タイトルブロックデータを挿入",
-            "create_tblock": "タイトルブロックを作成",
-            "stencil": "名",
-            "def_val": "デフォルト値",
-            "prompt": "プロンプト",
-            "no_shape": "形状を選択してください",
-            "dup_names": "重複データ名",
-            "dup_names_mssg": "グループ化タイトルブロックには、データ名が重複するブロックが含まれています。\nすべてのブロックが一意のデータ名を持つようにグループ解除して編集してください。",
-            "gen_tblock": "タイトルブロックの生成"
+            "edit_tblock": "タイトルブロックを編集",
+            "value": "値"
         },
         "gen_term_list": {
             "gen_tlist": "Terminallブロックリストを生成する",
             "generate": "生成する",
-            "term_per_row": "行ごとの端末"
+            "term_per_row": "行ごとの端末",
+            "all_pages": "すべてのページ",
+            "this_page": "このページ"
         },
         "reports": {
             "title": "クロスリファレンスレポート",
@@ -2793,83 +2757,7 @@
             "page": "ページ",
             "name_label": "ワイヤ名 - 場所",
             "show_all": "すべて表示する"
-        },
-        "sorting_shapes": "図形の並べ替え",
-        "terminal": "ターミナル",
-        "stencil": "ステンシル",
-        "all_pages": "すべてのページ",
-        "this_page": "このページ",
-        "prepare_layout": {
-            "manage_comps": "コンポーネントを管理する",
-            "gen_layout": "レイアウトを生成",
-            "grouping": "グルーピング",
-            "panel": "パネル",
-            "insert_data": "図面にすべてのデータを挿入",
-            "no_comp": "コンポーネントが見つかりません",
-            "gen_lay_new_page": "新しいページに生成",
-            "group": "グループ"
-        },
-        "renum_term_list": {
-            "renum_list": "端末の番号を付け直す",
-            "start_num": "開始番号",
-            "suffix_char": "サフィックス文字（オプション、コンマ区切り）",
-            "hide_tblock_txt": "端子台参照を非表示"
-        },
-        "auto_rename": {
-            "title": "自動名前変更",
-            "wire_tab": {
-                "title": "電線名/参考文献",
-                "label": {
-                    "wire": "元の名前を保持するワイヤを選択してください",
-                    "reference": "元の名前を保持するために参照を選択してください"
-                }
-            },
-            "tube_tab": {
-                "title": "チューブ名/ホース名",
-                "label": {
-                    "tube": "元の名前を保持するチューブを選択",
-                    "hose": "元の名前を保持するホースを選択してください"
-                }
-            },
-            "from": "から",
-            "to": "に"
-        },
-        "loc_options": {
-            "location": "ロケーション",
-            "loc_info_1": "エレクトラは形状に基づいて形状の位置をリストします",
-            "loc_info_2": "目に見えないグリッドでは、グリッドの開始を設定します",
-            "loc_info_3": "あなたの条件への長さそして間隔",
-            "loc_size_help": "受け入れます：インチ、センチメートル、ミリメートル、ピクセル。例：3mm、3px、3",
-            "loc_format_help": "例：/3.A5"
-        },
-        "general_options": {
-            "general": "全般",
-            "general_options": "一般オプション",
-            "ref_pop_up": "ドロップ時のポップアップ参照ウィンドウ",
-            "auto_convert": "自動インチ/ mm / cm /メートルサイズ変更",
-            "propagate": "自動ワイヤ伝播と検出",
-            "term_split_wire": "端子を落とすときにワイヤーを分割する",
-            "conn_dot": "ワイヤの接続点を自動的に管理",
-            "straighten_wire": "ワイヤを自動的に調整して真っ直ぐにする",
-            "panel_prefix": "参照のパネルプレフィックスを有効にする",
-            "ask_create_cable": "利用可能なケーブルコアがない場合にアクションを求めるポップアップ",
-            "renum_LZone": "ラダーゾーン内を移動すると自動的にシンボル/ワイヤの番号を変更します",
-            "sym_split_wire": "シンボルをドロップするときにワイヤーを分割する",
-            "page_prefix": "ページプレフィックス",
-            "page_prefix_ref": "参照を有効にする",
-            "page_prefix_wires": "ワイヤーで有効にする",
-            "wire_sep": "ワイヤー用セパレータ",
-            "wire_sep_help": "セパレータは数値を持つことができません。 0〜9",
-            "layout": "レイアウト形状",
-            "auto_placement": "レールにレイアウトシンボルを自動的に配置する",
-            "placement_offset": "初期配置オフセット",
-            "offset_help": "受け入れます：インチ、センチメートル、ミリメートル、ピクセル。例：3mm、3px、3"
         }
-    },
-    "symbol_sizes": {
-        "small": "小さい",
-        "medium": "中",
-        "large": "大"
     },
     "dialog": {
         "help": {
