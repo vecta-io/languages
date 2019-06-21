@@ -312,7 +312,12 @@
         "no_target": "Det gick inte att hitta animationsmål.",
         "invite_friend": "Dela Ritning",
         "img_invalid": "Bilden är ogiltig",
-        "process_flatten": "Bearbetning platt"
+        "process_flatten": "Bearbetning platt",
+        "edit_tblock": "Redigera Titelblock",
+        "value": "Värde",
+        "scope": "Omfattning",
+        "doc": "Document",
+        "page": "Sida"
     },
     "drop": {
         "in": "tum",
@@ -494,7 +499,9 @@
         "small_size": "Små ikoner",
         "medium_size": "Medium ikoner",
         "large_size": "Stora ikoner",
-        "flatten": "Platta"
+        "flatten": "Platta",
+        "create_tdata": "Infoga titelblokdata",
+        "create_tblock": "Create Title Block"
     },
     "page": {
         "mm": "Millimeter",
@@ -518,7 +525,7 @@
         "save": "Spara",
         "scale": "Skala",
         "width": "Bredd",
-        "units": "Enheter",
+        "units": "Mätenheter",
         "folio": "Folio: 13 in x 8.5 in",
         "s1000": "1: 1000",
         "legal": "Legal: 14 in x 8.5 in",
@@ -1074,7 +1081,8 @@
         "pan": "Navigera enkelt med hjälp av genvägsverktyget",
         "resizing": "Behåll strokebredden och storleken på teckenstorlekar när du ändrar former",
         "jump-connector": "Lägg till hoppa kontakt för att skilja linjer",
-        "clip-path": "Använd klippväg för att markera din klippningsregion"
+        "clip-path": "Använd klippväg för att markera din klippningsregion",
+        "flatten": "Plattformar för att ta bort dolda vägar och former"
     },
     "tips": {
         "Lock": {
@@ -1413,6 +1421,27 @@
         },
         "rect_help": {
             "icon": "Hjälp"
+        },
+        "Delete": {
+            "tip": "Delete"
+        },
+        "AddField": {
+            "tip": "Add field"
+        },
+        "FormulaField": {
+            "tip": "Redigera formel"
+        },
+        "AddLayer": {
+            "tip": "Lägg till lager"
+        },
+        "AddEffect": {
+            "tip": "Lägg till effekt"
+        },
+        "AddCustomMenu": {
+            "tip": "Lägg till anpassad meny"
+        },
+        "ListCustomMenu": {
+            "tip": "Lista anpassad meny"
         }
     },
     "verify": {
@@ -1992,7 +2021,7 @@
             "credit_link": "https://www.vectorlogo.zone/"
         },
         "stencil_74": {
-            "name": "Varumärken AP - AZ",
+            "name": "Brands AP - AZ",
             "desc": "",
             "cat": [
                 "Varumärkeslogotyp"
@@ -2001,7 +2030,7 @@
             "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_75": {
-            "name": "Varumärken BA - BZ",
+            "name": "Brands BA - BZ",
             "desc": "",
             "cat": [
                 "Varumärkeslogotyp"
@@ -2019,7 +2048,7 @@
             "credit_link": "https://www.vectorlogo.zone/"
         },
         "stencil_77": {
-            "name": "Varumärken CL - CZ",
+            "name": "Brands CL - CZ",
             "desc": "",
             "cat": [
                 "Varumärkeslogotyp"
@@ -2028,7 +2057,7 @@
             "credit_link": "https://www.vectorlogo.zone/"
         },
         "stencil_78": {
-            "name": "Varumärken DA - DZ",
+            "name": "Brands DA - DZ",
             "desc": "",
             "cat": [
                 "Varumärkeslogotyp"
@@ -2037,7 +2066,7 @@
             "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_79": {
-            "name": "Varumärken EA - EZ",
+            "name": "Brands EA - EZ",
             "desc": "",
             "cat": [
                 "Varumärkeslogotyp"
@@ -2046,7 +2075,7 @@
             "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_80": {
-            "name": "Varumärken FA - FZ",
+            "name": "Brands FA - FZ",
             "desc": "",
             "cat": [
                 "Varumärkeslogotyp"
@@ -2055,7 +2084,7 @@
             "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_81": {
-            "name": "Varumärken GA - GO",
+            "name": "Brands GA - GO",
             "desc": "",
             "cat": [
                 "Varumärkeslogotyp"
@@ -2064,7 +2093,7 @@
             "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_82": {
-            "name": "Varumärken GO - GZ",
+            "name": "Brands GO - GZ",
             "desc": "",
             "cat": [
                 "Varumärkeslogotyp"
@@ -2092,6 +2121,1035 @@
             "cat": [
                 "Wireframe"
             ]
+        },
+        "stencil_83": {
+            "name": "Brands HA - HZ"
+        },
+        "stencil_84": {
+            "name": "Varumärken IA - IZ"
+        },
+        "stencil_85": {
+            "name": "Brands JA - JZ"
+        },
+        "stencil_86": {
+            "name": "Varumärken KA - KZ"
+        },
+        "stencil_87": {
+            "name": "Brands LA - LZ"
+        },
+        "stencil_88": {
+            "name": "Brands MA - MZ"
+        },
+        "stencil_89": {
+            "name": "Varumärken NA - NZ"
+        },
+        "stencil_90": {
+            "name": "Varumärken OA - OZ"
+        },
+        "stencil_91": {
+            "name": "Brands PA - PI"
+        },
+        "stencil_92": {
+            "name": "Brands PI - PZ"
+        },
+        "stencil_93": {
+            "name": "Brands QA - QZ"
+        },
+        "stencil_94": {
+            "name": "Varumärken RA - RZ"
+        },
+        "stencil_95": {
+            "name": "Varumärken SA - SN"
+        },
+        "stencil_96": {
+            "name": "Brands SN - SZ"
+        },
+        "stencil_97": {
+            "name": "Brands TA - TH"
+        },
+        "stencil_98": {
+            "name": "Varumärken TI - TZ"
+        },
+        "stencil_99": {
+            "name": "Brands UA - UZ"
+        },
+        "stencil_100": {
+            "name": "Varumärken VA - VZ"
+        },
+        "stencil_101": {
+            "name": "Brands WA - WZ"
+        },
+        "stencil_102": {
+            "name": "Varumärken XA - XZ"
+        },
+        "stencil_103": {
+            "name": "Brands YA - YZ"
+        },
+        "stencil_104": {
+            "name": "Varumärken ZA - ZZ"
+        },
+        "stencil_108": {
+            "name": "Symbols - Keycap",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_109": {
+            "name": "Symbols - Other Symbol",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_110": {
+            "name": "Activities - Game",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_111": {
+            "name": "Symbols - Alphanum",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_112": {
+            "name": "Flags - Country Flag",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_113": {
+            "name": "Travel Places - Sky Weather",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_114": {
+            "name": "Travel Places - Place Other",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_115": {
+            "name": "Travel Places - Place Geographic",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_116": {
+            "name": "Travel Places - Place Map",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_117": {
+            "name": "Food Drink - Food Prepared",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_118": {
+            "name": "Food Drink - Food Vegetable",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_119": {
+            "name": "Animals Nature - Plant Other",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_120": {
+            "name": "Djur Natur - Växtblomma",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_121": {
+            "name": "Mat Dryck - Mat Frukt",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_122": {
+            "name": "Mat Dryck - Mat Asiatisk",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_123": {
+            "name": "Mat Dryck - Mat söt",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_124": {
+            "name": "Food Drink - Dishware",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_125": {
+            "name": "Food Drink - Drink",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_126": {
+            "name": "Aktiviteter - Evenemang",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_127": {
+            "name": "People Body - Person Fantasy",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_128": {
+            "name": "Flags - Flag",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_129": {
+            "name": "Objects - Clothing",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_130": {
+            "name": "Activities - Award Medal",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_131": {
+            "name": "Objects - Music",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_132": {
+            "name": "Activities - Sport",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_133": {
+            "name": "Symbols - Av Symbol",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_134": {
+            "name": "Activities - Arts Crafts",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_135": {
+            "name": "Objekt - Musikinstrument",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_136": {
+            "name": "Människor Kropp - Person Sport",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_137": {
+            "name": "Objekt - Verktyg",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_138": {
+            "name": "Component - Skin Tone",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_139": {
+            "name": "Animals Nature - Animal Mammal",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_140": {
+            "name": "Symbols - Transport Sign",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_141": {
+            "name": "Flags - Subdivision Flag",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_142": {
+            "name": "Objekt - Boka papper",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_143": {
+            "name": "People Body - Person Activity",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_144": {
+            "name": "Travel Places - Transport Ground",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_145": {
+            "name": "Travel Places - Place Building",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_146": {
+            "name": "Animals Nature - Animal Reptile",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_147": {
+            "name": "Animals Nature - Animal Marine",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_148": {
+            "name": "Animals Nature - Animal Bug",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_149": {
+            "name": "Animals Nature - Animal Bird",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_150": {
+            "name": "Animals Nature - Animal Amphibian",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_151": {
+            "name": "People Body - Body Parts",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_152": {
+            "name": "Smileys Emotion - Emotion",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_153": {
+            "name": "People Body - Hand Single Finger",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_154": {
+            "name": "People Body - Hand Fingers Closed",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_155": {
+            "name": "People Body - Hand Fingers Open",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_156": {
+            "name": "People Body - Hand Fingers Partial",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_157": {
+            "name": "People Body - Hands",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_158": {
+            "name": "People Body - Person Symbol",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_159": {
+            "name": "People Body - Person",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_160": {
+            "name": "People Body - Person Role",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_161": {
+            "name": "People Body - Family",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_162": {
+            "name": "Smileys Emotion - Face Costume",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_163": {
+            "name": "Smileys Emotion - Face Negative",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_164": {
+            "name": "People Body - Person Gesture",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_165": {
+            "name": "People Body - Hand Prop",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_166": {
+            "name": "Objects - Medical",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_167": {
+            "name": "Symbols - Geometric",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_168": {
+            "name": "Objects - Money",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_169": {
+            "name": "Travel Places - Transport Air",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_170": {
+            "name": "Objects - Computer",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_171": {
+            "name": "Objects - Office",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_172": {
+            "name": "Objects - Writing",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_173": {
+            "name": "Objects - Phone",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_174": {
+            "name": "Objects - Science",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_175": {
+            "name": "Objekt - Ljud",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_176": {
+            "name": "Objects - Mail",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_177": {
+            "name": "Objekt - Varning",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_178": {
+            "name": "Objects - Lock",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_179": {
+            "name": "Symbols - Religion",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_180": {
+            "name": "Resor Platser - Placera Religiösa",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_181": {
+            "name": "Objects - Arrow",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_182": {
+            "name": "Resor Platser - Tid",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_183": {
+            "name": "Objekt - annat objekt",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_184": {
+            "name": "Smileys Emotion - Face Smiling",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_185": {
+            "name": "Smileys Emotion - Face Tongue",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_186": {
+            "name": "Smileys Emotion - Face Sleepy",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_187": {
+            "name": "Smileys Emotion - Face Affection",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_188": {
+            "name": "Smileys Emotion - Ansiktsglasögon",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_189": {
+            "name": "Smileys Emotion - Face Neutral Skeptical",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_190": {
+            "name": "Smileys Emotion - Face Concerned",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_191": {
+            "name": "Smileys Emotion - Face Unwell",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_192": {
+            "name": "Smileys Emotion - Cat Face",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_193": {
+            "name": "Smileys Emotion - Monkey Face",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_194": {
+            "name": "Travel Places - Transport Water",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_195": {
+            "name": "Objects - Household",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_196": {
+            "name": "People Body - Person Resting",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_197": {
+            "name": "Resebyråer - Hotell",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_198": {
+            "name": "Smileys Emotion - Face Hand",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_199": {
+            "name": "Smileys Emotion - Face Hat",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_200": {
+            "name": "Mat Dryck - Mat Marine",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_201": {
+            "name": "Komponent - Hårstil",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_202": {
+            "name": "Extra Unicode - Symbol Övrigt",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_203": {
+            "name": "Symboler - Kön",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_204": {
+            "name": "Symbols - Zodiac",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_205": {
+            "name": "Extras Openmoji - Djur Natur",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_206": {
+            "name": "Extras Openmoji - Brand",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_207": {
+            "name": "Extra Openmoji - Nödfall",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_208": {
+            "name": "Extra Openmoji - Mat Dryck",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_209": {
+            "name": "Extras Openmoji - Interaction",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_210": {
+            "name": "Extras Openmoji - Objekt",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_211": {
+            "name": "Extras Openmoji - Människor",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_212": {
+            "name": "Extras Openmoji - Technology",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_213": {
+            "name": "Extras Openmoji - Travel Places",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_214": {
+            "name": "Extras Openmoji - Ui Element",
+            "desc": "",
+            "cat": [
+                "OpenMoji"
+            ],
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
         }
     },
     "integrate": {
@@ -2617,169 +3675,69 @@
             "cat": [
                 "Karta"
             ]
-        }
-    },
-    "electra": {
-        "electrical": "Elektrisk",
-        "pneumatic": "Pneumatisk",
-        "hydraulic": "Hydraulisk",
-        "components": {
-            "add_comp": "Lägg till ny komponent",
-            "edit_comp": "Redigera komponent",
-            "del_comp": "Ta bort komponent",
-            "rem_cat_comp": "Ta bort komponent från kategori",
-            "add_cat": "Lägg till Kategori",
-            "edit_cat": "Redigera kategori",
-            "del_cat": "Ta bort kategori",
-            "updating_comp": "Uppdatering av komponent",
-            "confirm_del_comp": "Är du säker på att du vill radera den här komponenten?",
-            "updating_cat": "Uppdaterar kategori",
-            "get_layouts": "Få layoutformer",
-            "category": "Kategori",
-            "removing_comp": "Ta bort komponent",
-            "confirm_del_cat": "Är du säker på att du vill ta bort denna kategori?",
-            "confirm_del_cat_comp": "Är du säker på att du vill ta bort den här komponenten från kategorin?",
-            "removing_cat": "Ta bort kategori",
-            "cat_comp_existed": "Komponenten finns redan i kategorin",
-            "comp_db": "Komponentdatabas",
-            "sort_by": "Sortera efter",
-            "comp_desc": "Beskrivning",
-            "comp_brand": "varumärke",
-            "comp_rating": "Betyg",
-            "comp_model": "Modell",
-            "comp_order_no": "Beställningsnr",
-            "comp_supplier": "Leverantör",
-            "comp_remarks": "Anmärkningar",
-            "comp_price": "Pris",
-            "comp_layout": "Layout",
-            "comp_layshape": "Layoutform",
-            "include_layout": "Inkludera komponent i layout",
-            "comp_quantity": "Kvantitet",
-            "diameter": "Diameter",
-            "help_dimension": "Accepterar alla större enheter. T.ex. 2 mm, 2 in, 2 cm, etc."
         },
-        "schematic": {
-            "symbol": "Symbol",
-            "component": "Komponent",
-            "pin": "Stift",
-            "get_comp": "Få komponenter",
-            "symbol_type": "Symboltyp",
-            "default_ref": "Standardreferens",
-            "default_verti": "Vertikal som standard",
-            "hide_desc": "Dölj beskrivning",
-            "no_desc": "Ingen beskrivning",
-            "insert_sym_menu": "Infoga horisontell / vertikal meny",
-            "show_all_comp": "Visa allt",
-            "search_comp": "Sök komponenter",
-            "generate_symbol": "Genereringssymbol",
-            "invalid_default_ref": "Nollängd eller tomma strängar är inte tillåtna för standardreferens",
-            "invalid_sym_name": "Nollängd eller tomma strängar är inte tillåtna för symbolnamn",
-            "create_sym": "Skapa symbol",
-            "combine_shapes": "Flera former som valts. Vill du kombinera dem i en form?",
-            "options": "alternativ",
-            "add": "Lägg till",
-            "select": "Välj",
-            "desc_text": "Beskrivning text",
-            "invalid_value": "Ogiltigt värde",
-            "invalid_size": "Ogiltiga storlekenheter. Giltiga storlekenheter är 10mm, 20in, 30cm, etc.",
-            "help_pin_names": "t.ex. 13, 23, 33. Separata stiftuppsättningar med komma.",
-            "sym_priority": "Prioritet",
-            "loc_type": "Plats Typ",
-            "text_orient": "Textorientering",
-            "text_pos": "Textposition",
-            "no_conn_pts": "Inga anslutningspunkter hittades",
-            "select_comp": "Välj Komponent",
-            "selected_comp": "Vald komponent"
+        "-LhhebPqMoBxzm7hV6cz": {
+            "name": "Nätverkstopologi (Star)",
+            "desc": "Nätverkstopologi (Star)",
+            "cat": [
+                "Nätverks diagram"
+            ]
         },
-        "edit_net_name": {
-            "wire_name": "Trådnamn",
-            "cur_name": "Nuvarande trådnamn",
-            "hide_name": "Dölj trådnamn",
-            "show": "Show",
-            "click_wire": "Klicka på ett trådnamn för att visa plats",
-            "exists_wires": "Befintliga trådnamn",
-            "location": "Plats",
-            "set_no_name": "Ange till NoName",
-            "no_name": "Inget namn",
-            "all_pages": "Alla sidor",
-            "this_page": "Denna sida"
+        "-LhhfSKJr0PMCUbMew3m": {
+            "name": "Nätverkstopologi (Ring)",
+            "desc": "Network Topology (Ring)",
+            "cat": [
+                "Network Diagram"
+            ]
         },
-        "edit_ref": {
-            "all_shapes": "Alla former",
-            "this_shape": "Denna form",
-            "shape": "Form",
-            "shapes": "former",
-            "page": "Sida",
-            "ref": "Referens",
-            "refs": "referenser",
-            "desc": "Beskrivning",
-            "selected_ref": "Former för vald referens",
-            "component": "Komponent",
-            "hide_desc": "Dölj beskrivning",
-            "hide_ref": "Dölj referens",
-            "page_prefix": "Använd sidprefix"
+        "-LhhfiMrAzzKmLQ_f49X": {
+            "name": "Nätverkstopologi (buss)",
+            "desc": "Network Topology (Bus)",
+            "cat": [
+                "Network Diagram"
+            ]
         },
-        "pins": {
-            "set_pin_names": "Ange PIN-namn",
-            "show_pin": "Visa pennnamn",
-            "hide_pin": "Dölj PIN-namn",
-            "edit_pin": "Redigera Pin Set",
-            "add_pin": "Lägg till ny Pin Set",
-            "del_pin": "Ta bort Pin Set",
-            "select_pin": "Välj stiftuppsättning. (Högerklicka för fler alternativ)",
-            "incorrect_pin": "Felaktigt antal stift"
+        "-Lhhg00ZXeL9WZZ54LkB": {
+            "name": "Server Nätverksdiagram",
+            "desc": "Server Network Diagram",
+            "cat": [
+                "Nätverks diagram"
+            ]
         },
-        "component": "Komponent",
-        "auto_loc": {
-            "locate_ref": "Hitta referens",
-            "loc_col": "Ordna platser i kolumn (er)",
-            "reference": "Referens",
-            "ref_not_found": "Referens ej hittad",
-            "no_shape_for_ref": "Ingen form hittad för referens @@"
+        "-LhhgBiRHs3OM8z4XGFw": {
+            "name": "Home Network Diagram",
+            "desc": "Home Network Diagram",
+            "cat": [
+                "Nätverks diagram"
+            ]
         },
-        "plc": {
-            "plc_mod": "PLC-modulen",
-            "plc_point": "Inledande PLC-punkt",
-            "num_points": "Antal poäng",
-            "max_inc": "Max. Ökning",
-            "disable_pl": "Inaktivera Pilot Light",
-            "width": "Bredd",
-            "spacing": "Mellanrum",
-            "gen": "Generera",
-            "help": "Accepterar alla större enheter. T.ex. 2 mm, 2 in, 2 cm etc."
+        "-LhhhySu8e6nzEMrc3vo": {
+            "name": "Office Network Diagram",
+            "desc": "Office Network Diagram",
+            "cat": [
+                "Nätverks diagram"
+            ]
         },
-        "assign_comp": {
-            "save_as_new_comp": "Spara som ny komponent",
-            "close": "Stänga"
+        "-LhhjEx-6EoS8kBd_5sc": {
+            "name": "Cloud Computing Service",
+            "desc": "Cloud Computing Service",
+            "cat": [
+                "Network Diagram"
+            ]
         },
-        "title_block": {
-            "name": "namn",
-            "scope": "Omfattning",
-            "doc": "Dokumentera",
-            "page": "Sida",
-            "edit_tblock": "Redigera Titelblock",
-            "value": "Värde"
+        "-Lhhly3yKRE5IHr62aXk": {
+            "name": "Cloud Computing Typer",
+            "desc": "Cloud Computing Typer",
+            "cat": [
+                "Nätverks diagram"
+            ]
         },
-        "gen_term_list": {
-            "gen_tlist": "Generera Terminall Block Listing",
-            "generate": "Generera",
-            "term_per_row": "Terminaler per rad",
-            "all_pages": "Alla sidor",
-            "this_page": "Denna sida"
-        },
-        "reports": {
-            "title": "Korsreferensrapport",
-            "reuse_existing": "Återanvänd befintliga rapporter",
-            "remove_existing": "Ta bort befintliga rapporter och skapa nya",
-            "ignore_existing": "Ignorera eller behåll befintliga rapporter och skapa nya"
-        },
-        "wire_link": {
-            "get_wire_link": "Få trådlänkar",
-            "title": "Wire Link",
-            "available_link": "Tillgänglig länk",
-            "page": "Sida",
-            "name_label": "Trådnamn - Plats",
-            "show_all": "Visa allt"
+        "-LhhkGx3d6h2h7z_mLPS": {
+            "name": "Arkitektur av Cloud Computing",
+            "desc": "Arkitektur av Cloud Computing",
+            "cat": [
+                "Network Diagram"
+            ]
         }
     },
     "dialog": {
