@@ -48,6 +48,7 @@
         "Maximize.tip": "Maximize",
         "Close.tip": "Close",
         "rect_help.icon": "Help",
+        "bug.icon": "Feedback and Bug Reporting",
         "videos.icon": "Watch tutorial videos",
         "SaveSearch.tip": "Save search stencil",
         "dashboard.icon": "Go to Dashboard",
@@ -181,7 +182,6 @@
         "AddField.tip": "Add field",
         "FormulaField.tip": "Edit formula",
         "AddLayer.tip": "Add layer",
-        "EditLayer.tip": "Edit layer",
         "AddEffect.tip": "Add effect",
         "AddCustomMenu.tip": "Add custom menu",
         "ListCustomMenu.tip": "List custom menu"
@@ -615,6 +615,7 @@
         "vecta": "Vecta",
         "search": "Search",
         "feedback": "Feedback",
+        "feedback_and_bug": "Feedback and Bug Reporting",
         "default": "Default",
         "no_share_access": "You have no access to the Share dialog.",
         "versions": "Versions",
@@ -713,7 +714,8 @@
         "not_published": "The drawing is not published, or publishing has been retracted. <br /><span class='Muted.cls'>Error: 0014</span>",
         "no_stencil": "The stencil you requested no longer exists, or you have no permission to access it.<br /><span class='Muted.cls'>Error: 0015</span><br /><span class='Muted.cls'>SID: @@</span>",
         "no_symbol": "The symbol you requested no longer exists, or you have no permission to access it.<br /><span class='Muted.cls'>Error: 0016</span><br /><span class='Muted.cls'>SID: @@</span>",
-        "no_plugin": "The plugin you requested no longer exists, or you have no permission to access it.<br /><span class='Muted.cls'>Error: 0016</span><br /><span class='Muted.cls'>SID: @@</span>",
+        "no_plugin": "The plugin you requested no longer exists, or you have no permission to access it.<br /><span class='Muted.cls'>Error: 0017</span><br /><span class='Muted.cls'>SID: @@</span>",
+        "team_denied": "Permission is denied for this team. <br/>Please ask the owner for access.<br /> <span class='Muted.cls'>Error: 0018</span> <br /> <span class='Muted.cls'>FID: @@ </span>",
         "loading_fonts": "Loading fonts",
         "add_fonts": "Add Custom Fonts",
         "help_fonts": "400: Normal, 400i: Normal Italic, 700: Bold, 700i: Bold Italic",
@@ -931,7 +933,7 @@
         "doc": "Document",
         "page": "Page",
         "effects": "Effects",
-        "no_effects": "No effects found",
+        "no_effects": "Please add an effect",
         "menu_title": "Title",
         "attachment": "Attachment",
         "done": "Done, thank you for the request",
@@ -940,7 +942,13 @@
         "show_dev": "Developer mode enabled",
         "hide_dev": "Developer mode disabled",
         "logout_session_title": "You have signed out from another session",
-        "logout_session_content": "Any changes made will not be saved. Please sign in to continue."
+        "logout_session_content": "Any changes made will not be saved. Please sign in to continue.",
+        "choose_file": "Choose File",
+        "unknown": "Unknown",
+        "remove_and_reinvite": "Please remove and re-invite this person again.",
+        "file_saved": "File saved",
+        "open_help_center": "Open help center",
+        "check_for_updates": "Check for updates"
     },
     "drop": {
         "effects": "Effects",
@@ -1018,7 +1026,7 @@
         "print": "Print",
         "preferences": "Preferences",
         "file_prop": "Document setup",
-        "file_prop_info": "The title and description are used on your publication, and on social media.<br />Publishing drawing will make your content visible to anyone on the Internet.",
+        "file_prop_info": "The title and description are used on your publication, and on social media.<br />Publishing drawings will make your content visible to anyone on the Internet.",
         "file_title": "Title",
         "export_pdf": "Export as PDF",
         "export_jpg": "Export as JPG",
@@ -1090,6 +1098,8 @@
         "unlock": "Unlock shape(s)",
         "set_clip": "Set clip path",
         "rel_clip": "Remove clip path",
+        "flow_text": "Flow text",
+        "unflow_text": "Unflow text",
         "manage": "Manage access",
         "hyperlink": "Hyperlink",
         "insert_link": "Insert hyperlink",
@@ -1130,7 +1140,9 @@
         "copy_symbol": "Copy symbol",
         "paste_symbol_prop": "Paste name, description and tags",
         "paste_symbol": "Paste symbol",
-        "perm_link": "Permanent link"
+        "perm_link": "Permanent link",
+        "save_as": "Save as",
+        "save": "Save"
     },
     "stencil": {
         "stencil_0": {
@@ -2992,6 +3004,7 @@
         "load_stencils": "Loading stencils...",
         "creating_search": "Creating stencil...",
         "loading": "Getting symbols",
+        "getting_stencils": "Getting stencils",
         "importing": "Importing data",
         "save_search": "Save search",
         "imported": "Importing data completed",
@@ -3717,7 +3730,11 @@
         "pan": "Easily navigate using the pan tool shortcut",
         "jump-connector": "Add jump connector to differentiate lines",
         "clip-path": "Use clip path to mark out your clipping region",
-        "copy-paste-symbol": "Copy and paste your symbol to a stencil"
+        "copy-paste-symbol": "Copy and paste your symbol to a stencil",
+        "nano-preload-1": "Powerful, online SVG editor build for great teams",
+        "nano-preload-2": "WYSIWYG, at its finest quality with smallest size in the industry",
+        "nano-preload-3": "Thousands of beautiful symbols ready to fit your drawing needs!",
+        "nano-preload-4": "Save more time by automating your drawings with Vecta plugins!"
     },
     "settings": {
         "reading": "Reading preferences",
