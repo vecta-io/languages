@@ -257,7 +257,7 @@
         "outlining_fonts": "Skissera text",
         "updating_plugin": "Uppdatering av plugin",
         "load_drawing": "Laddar ritning ...",
-        "no_plugin": "Det plugin du begärde finns inte längre, eller du har inget tillstånd att komma åt det. <br /> <span class = 'Muted.cls'> Fel: 0016 <span> <br /> <span class = 'Muted.cls '> SID: @@ </ span>",
+        "no_plugin": "Plugin som du begär existerar inte längre, eller du har ingen behörighet att komma åt den. <br /> <span class='Muted.cls'>Fel: 0017</span> <br /> <span class='Muted.cls'>SID: @@</span>",
         "no_share_access": "Du har inte tillgång till dialogrutan Dela.",
         "import_stencil": "Importerar stencil, kan ta några minuter ...",
         "image_cannot_copy": "Det gick inte att kopiera bilden över. Bilden finns inte längre, eller du har inte tillgång till bilden.",
@@ -305,7 +305,7 @@
         "properties": "Egenskaper",
         "shape": "Form",
         "effects": "effekter",
-        "no_effects": "Inga effekter hittades",
+        "no_effects": "Lägg till en effekt",
         "no_menu": "Inga menyer hittades",
         "menu_title": "Titel",
         "editor": "Redaktör",
@@ -335,7 +335,15 @@
         "export_pdf": "Exportera PDF",
         "multi_page": "Alla sidor",
         "one_page": "En sida",
-        "import_dxf": "Importerar dxf ..."
+        "import_dxf": "Importerar dxf ...",
+        "feedback_and_bug": "Feedback och felrapportering",
+        "team_denied": "Tillstånd nekas för detta team. <br/> Be ägaren om tillgång. <br /> <span class='Muted.cls'>Fel: 0018</span> <br /> <span class='Muted.cls'>FID: @@</span>",
+        "choose_file": "Välj FIL",
+        "unknown": "Okänd",
+        "remove_and_reinvite": "Ta bort och bjud in den här personen igen.",
+        "file_saved": "Fil sparad",
+        "open_help_center": "Öppna hjälpcentret",
+        "check_for_updates": "Sök efter uppdateringar"
     },
     "drop": {
         "in": "tum",
@@ -449,7 +457,7 @@
         "move_to_trash": "Flytta till papperskorgen",
         "close_stencil": "Stänga",
         "show_sym_name": "Visa symbolnamn",
-        "file_prop_info": "Titeln och beskrivningen används i din publikation och på sociala medier. <br/> Publiceringsteckning kommer att göra ditt innehåll synligt för alla på Internet.",
+        "file_prop_info": "Titeln och beskrivningen används på din publikation och på sociala medier. <br /> Att publicera ritningar gör ditt innehåll synligt för alla på Internet.",
         "update_preview": "Uppdatera förhandsvisning",
         "import_stencil": "Importera",
         "export_stencil": "Exportera",
@@ -526,7 +534,11 @@
         "copy_symbol": "Kopiera symbol",
         "paste_symbol": "Klistra in symbol",
         "paste_symbol_prop": "Klistra in namn, beskrivning och taggar",
-        "perm_link": "Permanent länk"
+        "perm_link": "Permanent länk",
+        "flow_text": "Flödetekst",
+        "unflow_text": "Ta bort text",
+        "save_as": "Spara som",
+        "save": "Spara"
     },
     "page": {
         "mm": "Millimeter",
@@ -1110,7 +1122,11 @@
         "jump-connector": "Lägg till hoppa kontakt för att skilja linjer",
         "clip-path": "Använd klippväg för att markera din klippningsregion",
         "flatten": "Plattformar för att ta bort dolda vägar och former",
-        "copy-paste-symbol": "Kopiera och klistra in din symbol till en stencil"
+        "copy-paste-symbol": "Kopiera och klistra in din symbol till en stencil",
+        "nano-preload-1": "Kraftfull, online-SVG redaktör bygga för stora grupper",
+        "nano-preload-2": "WYSIWYG, på allra högsta kvalitet med minsta storleken i branschen",
+        "nano-preload-3": "Tusentals vackra symboler redo att passa din ritning behov!",
+        "nano-preload-4": "Spara mer tid genom att automatisera dina ritningar med Vecta plugins!"
     },
     "tips": {
         "Lock": {
@@ -1471,8 +1487,8 @@
         "ListCustomMenu": {
             "tip": "Lista anpassad meny"
         },
-        "EditLayer": {
-            "tip": "Redigera lager"
+        "bug": {
+            "icon": "Feedback och felrapportering"
         }
     },
     "verify": {
@@ -3269,7 +3285,8 @@
             "credit_link": "https://cisco.com/",
             "credit_name": "Cisco"
         },
-        "sym_copied": "Symbol kopierad"
+        "sym_copied": "Symbol kopierad",
+        "getting_stencils": "Få stencils"
     },
     "integrate": {
         "error": "Något har gått fel ...",
