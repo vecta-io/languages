@@ -257,7 +257,7 @@
         "outlining_fonts": "Décrire le texte",
         "updating_plugin": "Mise à jour du plugin",
         "load_drawing": "Chargement du dessin ...",
-        "no_plugin": "Le plugin que vous avez demandé n'existe plus, ou vous n'avez aucune permission d'y accéder. <br /> <span class = 'Muted.cls'> Erreur: 0016 </ span> <br /> <span class = 'Muted.cls '> SID: @@ </ span>",
+        "no_plugin": "Le plugin que vous avez demandé n&#39;existe plus ou vous n&#39;êtes pas autorisé à y accéder. <br /> <span class='Muted.cls'>Erreur: 0017</span> <br /> <span class='Muted.cls'>SID: @@</span>",
         "no_share_access": "Vous n'avez pas accès à la boîte de dialogue Partager.",
         "import_stencil": "Importer un pochoir, peut prendre quelques minutes ...",
         "image_cannot_copy": "Impossible de copier l'image. L'image n'existe plus ou vous n'avez plus accès à l'image.",
@@ -305,7 +305,7 @@
         "properties": "Propriétés",
         "shape": "Forme",
         "effects": "Effets",
-        "no_effects": "Aucun effet trouvé",
+        "no_effects": "S'il vous plaît ajouter un effet",
         "no_menu": "Aucun menu trouvé",
         "menu_title": "Titre",
         "editor": "Éditeur",
@@ -335,7 +335,15 @@
         "export_pdf": "Exporter le PDF",
         "multi_page": "Toutes les pages",
         "one_page": "Une seule page",
-        "import_dxf": "Importation de dxf ..."
+        "import_dxf": "Importation de dxf ...",
+        "feedback_and_bug": "Feedback et rapport de bugs",
+        "team_denied": "L&#39;autorisation est refusée pour cette équipe. <br/> S&#39;il vous plaît demander au propriétaire pour l&#39;accès. <br /> <span class='Muted.cls'>Erreur: 0018</span> <br /> <span class='Muted.cls'>FID: @@</span>",
+        "choose_file": "Choisir le fichier",
+        "unknown": "Inconnu",
+        "remove_and_reinvite": "S'il vous plaît supprimer et ré-inviter cette personne à nouveau.",
+        "file_saved": "Fichier sauvegardé",
+        "open_help_center": "Ouvrir le centre d'aide",
+        "check_for_updates": "Vérifier les mises à jour"
     },
     "page": {
         "cm": "Centimètre",
@@ -559,7 +567,7 @@
         "share_stencil": "Partager le pochoir",
         "export_stencil": "Exportation",
         "import_stencil": "Importer",
-        "file_prop_info": "Le titre et la description sont utilisés sur votre publication et sur les réseaux sociaux. <br /> La publication de dessin rendra votre contenu visible à tous sur Internet.",
+        "file_prop_info": "Le titre et la description sont utilisés dans votre publication et sur les réseaux sociaux. <br /> La publication de dessins rendra votre contenu visible à quiconque sur Internet.",
         "show_properties": "Afficher les propriétés",
         "hide_properties": "Masquer les propriétés",
         "publish_drawing": "Publier le dessin",
@@ -633,7 +641,11 @@
         "copy_symbol": "Symbole de copie",
         "paste_symbol": "Coller le symbole",
         "paste_symbol_prop": "Coller le nom, la description et les tags",
-        "perm_link": "Lien permanent"
+        "perm_link": "Lien permanent",
+        "flow_text": "Flux de texte",
+        "unflow_text": "Déballer le texte",
+        "save_as": "Enregistrer sous",
+        "save": "sauvegarder"
     },
     "list": {
         "en": "Anglais",
@@ -1115,7 +1127,11 @@
         "jump-connector": "Ajouter un connecteur de saut pour différencier les lignes",
         "clip-path": "Utilisez le chemin du clip pour marquer votre région de découpage",
         "flatten": "Flatten shapes to remove hidden paths and shapes",
-        "copy-paste-symbol": "Copiez et collez votre symbole sur un pochoir"
+        "copy-paste-symbol": "Copiez et collez votre symbole sur un pochoir",
+        "nano-preload-1": "Puissant, éditeur en ligne SVG construit pour les grandes équipes",
+        "nano-preload-2": "WYSIWYG, dans sa qualité la plus fine avec la plus petite taille de l'industrie",
+        "nano-preload-3": "Des milliers de beaux symboles prêts à répondre à vos besoins en matière de dessin!",
+        "nano-preload-4": "Gagnez plus de temps en automatisant vos dessins avec les plugins Vecta!"
     },
     "tips": {
         "Lock": {
@@ -1482,8 +1498,8 @@
         "ListCustomMenu": {
             "tip": "Liste du menu personnalisé"
         },
-        "EditLayer": {
-            "tip": "Modifier le calque"
+        "bug": {
+            "icon": "Feedback et rapport de bugs"
         }
     },
     "signup": {
@@ -3281,7 +3297,8 @@
             "credit_link": "https://cisco.com/",
             "credit_name": "Cisco"
         },
-        "sym_copied": "Symbole copié"
+        "sym_copied": "Symbole copié",
+        "getting_stencils": "Obtenir des pochoirs"
     },
     "videos": {
         "nlAyOo-_HLQ": {
