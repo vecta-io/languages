@@ -257,7 +257,7 @@
         "outlining_fonts": "アウトラインテキスト",
         "updating_plugin": "プラグインの更新",
         "load_drawing": "図面を読み込んでいます...",
-        "no_plugin": "<br /> <span class = 'Muted.cls'>エラー：0016 </ span> <br /> <span class = 'Muted.cls>あなたがリクエストしたプラグインは存在しません。 '> SID：@@ </ span>",
+        "no_plugin": "要求したプラグインが存在しないか、アクセスする権限がありません。 <br /> <span class='Muted.cls'>エラー：0017</span> <br /> <span class='Muted.cls'>SID：@@</span>",
         "no_share_access": "[共有]ダイアログにはアクセスできません。",
         "import_stencil": "ステンシルをインポートすると、数分かかる場合があります...",
         "image_cannot_copy": "画像をコピーできません。イメージはもはや存在しないか、イメージにアクセスできません。",
@@ -305,7 +305,7 @@
         "properties": "プロパティ",
         "shape": "形状",
         "effects": "効果",
-        "no_effects": "効果が見つかりません",
+        "no_effects": "エフェクトを追加してください",
         "no_menu": "メニューが見つかりません",
         "menu_title": "タイトル",
         "no_target": "アニメーションターゲットが見つかりません。",
@@ -333,7 +333,15 @@
         "export_pdf": "PDFをエクスポート",
         "multi_page": "すべてのページ",
         "one_page": "単一ページ",
-        "import_dxf": "dxfをインポートしています..."
+        "import_dxf": "dxfをインポートしています...",
+        "feedback_and_bug": "フィードバックとバグ報告",
+        "team_denied": "このチームの許可は拒否されました。 <br/>所有者にアクセスを依頼してください。 <br /> <span class='Muted.cls'>エラー：0018</span> <br /> <span class='Muted.cls'>FID：@@</span>",
+        "choose_file": "ファイルを選ぶ",
+        "unknown": "道の",
+        "remove_and_reinvite": "このユーザーを削除して再度招待してください。",
+        "file_saved": "ファイルを保存しました",
+        "open_help_center": "ヘルプセンターを開く",
+        "check_for_updates": "アップデートを確認"
     },
     "list": {
         "sv": "スウェーデン語",
@@ -561,7 +569,7 @@
         "show_chat_box": "チャットボックスを表示する",
         "hide_chat_box": "チャットボックスを非表示にする",
         "show_sym_name": "アイコン名を表示する",
-        "file_prop_info": "タイトルと説明は、あなたの出版物やソーシャルメディアで使用されます。<br />図を公開すると、インターネット上の誰でもあなたのコンテンツを見ることができます。",
+        "file_prop_info": "タイトルと説明は、出版物およびソーシャルメディアで使用されます。 <br />図面を公開すると、インターネット上の誰でもコンテンツを見ることができます。",
         "export_stencil": "輸出する",
         "import_stencil": "インポート",
         "show_properties": "プロパティを表示する",
@@ -637,7 +645,11 @@
         "copy_symbol": "シンボルをコピー",
         "paste_symbol": "シンボルを貼り付け",
         "paste_symbol_prop": "名前、説明、タグを貼り付け",
-        "perm_link": "パーマネントリンク"
+        "perm_link": "パーマネントリンク",
+        "flow_text": "フローテキスト",
+        "unflow_text": "フロー解除テキスト",
+        "save_as": "名前を付けて保存",
+        "save": "保存する"
     },
     "login": {
         "or": "または",
@@ -1436,8 +1448,8 @@
         "ListCustomMenu": {
             "tip": "List custom menu"
         },
-        "EditLayer": {
-            "tip": "レイヤーを編集"
+        "bug": {
+            "icon": "フィードバックとバグ報告"
         }
     },
     "preload": {
@@ -1474,7 +1486,11 @@
         "resizing": "図形のサイズを変更するときに線幅とフォントサイズの比率を維持する",
         "clip-path": "クリップパスを使ってクリッピング領域をマークアウトする",
         "flatten": "隠れたパスや図形を削除するために図形を平坦化する",
-        "copy-paste-symbol": "シンボルをステンシルにコピーして貼り付ける"
+        "copy-paste-symbol": "シンボルをステンシルにコピーして貼り付ける",
+        "nano-preload-1": "優れたチーム向けの強力なオンラインSVGエディタービルド",
+        "nano-preload-2": "WYSIWYGは、業界で最小サイズの最高品質で",
+        "nano-preload-3": "たくさんの美しいシンボルがあなたの図面に合うように準備ができています！",
+        "nano-preload-4": "Vectaのプラグインを使用して図面を自動化することにより、時間を節約できます。"
     },
     "verify": {
         "resend": "確認メールを再送信",
@@ -3279,7 +3295,8 @@
             "credit_link": "https://cisco.com/",
             "credit_name": "シスコ"
         },
-        "sym_copied": "コピーされたシンボル"
+        "sym_copied": "コピーされたシンボル",
+        "getting_stencils": "ステンシルを入手する"
     },
     "videos": {
         "tp2ryqLTz1M": {
