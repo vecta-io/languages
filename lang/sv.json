@@ -96,7 +96,7 @@
         "no_public": "Ritningen existerar inte längre, eller åtkomst nekas av ägaren.<br /><span class='Muted.cls'>Error: 0007</span>",
         "file_name": "Ritningsnamn",
         "file_path": "Plats",
-        "help_size": "Tillåtna: pt, px. t ex: 3 pt, 3 px, 3",
+        "help_size": "Kan acceptera större enheter",
         "beginSize": "BeginArrowSize",
         "txtheight": "TxtHeight",
         "control_y": "ControlY1",
@@ -173,7 +173,7 @@
         "reminder_sent": "Påminnelse skickad",
         "last_modified": "Senast ändrad",
         "not_published": "Ritningen är inte publicerad, eller publicering har dragits in. <br /> <span class = 'Muted.cls'> Fel: 0014 </ span>",
-        "help_pagesize": "Tillåtna: tum, cm, mm, px. t.ex: 3 mm, 3 px, 3",
+        "help_pagesize": "Accepterar: m, in, cm, mm, px. t.ex. 3 mm, 3 px, 3",
         "textDecoration": "TextDecoration",
         "pasting_shapes": "Klistrar in former",
         "help_linestyle": "Format: streck(px) mellanrum(px) [repetera]. t ex: 5 5.",
@@ -200,7 +200,7 @@
         "current_version": "Nuvarande version",
         "multiple_shapes": "Flera former som valts",
         "checking_members": "Kontrollerar medlemmar",
-        "help_roundcorner": "Tillåtna: tum, cm, mm, pt, px. t.ex: 3 mm, 3 px, 3",
+        "help_roundcorner": "Accepterar: m, in, cm, mm, pt, px. t.ex. 3 mm, 3 px, 3",
         "empty_activepage": "Det gick inte att läsa ritningen, töm aktiv sida.<br /><span class='Muted.cls'>Error: 0006</span>",
         "shape_properties": "Formegenskaper",
         "process_fragment": "Bearbetar fragmentering",
@@ -647,7 +647,8 @@
         "success_page_del": "Sidan raderad",
         "default_title": "Sida",
         "delete_page": "Ta bort sida",
-        "confirm_del": "Att radera en sida är en omvänd handling. <br /> <br /> Är du säker på att du vill radera den här sidan?"
+        "confirm_del": "Att radera en sida är en omvänd handling. <br /> <br /> Är du säker på att du vill radera den här sidan?",
+        "m": "Meter"
     },
     "list": {
         "en": "Engelska",
@@ -1491,9 +1492,6 @@
         },
         "ListCustomMenu": {
             "tip": "Lista anpassad meny"
-        },
-        "bug": {
-            "icon": "Feedback och felrapportering"
         }
     },
     "verify": {
@@ -3888,9 +3886,7 @@
         }
     },
     "dialog": {
-        "help": {
-            "title": "Vecta Hjälp",
-            "search": "Skriv något att söka"
-        }
+        "help_title": "Vecta Hjälp",
+        "help_search": "Skriv något för att söka"
     }
 }
