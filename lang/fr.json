@@ -98,7 +98,7 @@
         "file_path": "Emplacement",
         "only_load": "Charger quand même",
         "control_y": "ControlY1",
-        "help_size": "Accepte: pt, px. par exemple: 3 pt, 3 px, 3",
+        "help_size": "Peut accepter les unités principales",
         "copy_link": "Copier le lien",
         "view_menu": "Vue",
         "no_shapes": "Aucune forme trouvée.",
@@ -160,7 +160,7 @@
         "share_drawing": "Partager",
         "modify_access": "Modifier l'accès",
         "creating_team": "Créer une équipe",
-        "help_pagesize": "Accepte: en, cm, mm, px. par exemple: 3 mm, 3 px, 3",
+        "help_pagesize": "Accepte: m, in, cm, mm, px. par exemple: 3 mm, 3 px, 3",
         "reminder_sent": "Rappel envoyé",
         "not_published": "Le dessin n'est pas publié ou la publication a été rétractée. <br /> <span class = 'Muted.cls'> Erreur: 0014 </ span>",
         "last_modified": "Dernière modification",
@@ -205,7 +205,7 @@
         "shape_properties": "Propriétés de forme",
         "empty_activepage": "Impossible de lire le dessin, vide la page active. <br /> <span class = 'Muted.cls'> Erreur: 0006 </ span>",
         "process_fragment": "Fragment de traitement",
-        "help_roundcorner": "Accepte: en, cm, mm, pt, px. par exemple: 3 mm, 3 px, 3",
+        "help_roundcorner": "Accepte: m, in, cm, mm, pt, px. par exemple: 3 mm, 3 px, 3",
         "invitations_sent": "Invitations envoyées",
         "help_pauserecord": "Entrez un nom pour l'enregistrement mis en pause",
         "link_placeholder": "https://vecta.io",
@@ -452,7 +452,8 @@
         "success_page_del": "Page supprimée",
         "default_title": "Page",
         "delete_page": "Supprimer la page",
-        "confirm_del": "Supprimer une page est une action irréversible. <br /> <br /> Êtes-vous sûr de vouloir supprimer cette page?"
+        "confirm_del": "Supprimer une page est une action irréversible. <br /> <br /> Êtes-vous sûr de vouloir supprimer cette page?",
+        "m": "Mètre"
     },
     "drop": {
         "in": "dans",
@@ -1502,9 +1503,6 @@
         },
         "ListCustomMenu": {
             "tip": "Liste du menu personnalisé"
-        },
-        "bug": {
-            "icon": "Feedback et rapport de bugs"
         }
     },
     "signup": {
@@ -3921,9 +3919,7 @@
         "Biggest": "Le plus gros"
     },
     "dialog": {
-        "help": {
-            "title": "Aide Vecta",
-            "search": "Tapez quelque chose à rechercher"
-        }
+        "help_title": "Aide Vecta",
+        "help_search": "Tapez quelque chose à rechercher"
     }
 }
