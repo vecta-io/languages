@@ -106,7 +106,7 @@
         "copy_link": "リンクをコピーする",
         "file_name": "図面のタイトル",
         "no_public": "<br /> <span class = 'Muted.cls'>エラー：0007 </ span>図面が存在しないか、アクセスがオーナーによって拒否されました。",
-        "help_size": "受け入れ：pt、px。例：3 pt、3 px、3",
+        "help_size": "主要なユニットを受け入れることができます",
         "no_metafid": "<span class = 'Muted.cls'>エラー：0005 </ span> <br /> <span class = 'Muted.cls'> FID：@@ </ span>",
         "no_stencil": "<br /> <span class = 'Muted.cls'>エラー：0015 </ span> <br /> <span class = 'Muted.cls>あなたがリクエストしたステンシルが存在しなくなりました。 '> SID：@@ </ span>",
         "fontWeight": "FontWeight",
@@ -163,7 +163,7 @@
         "modify_access": "アクセスの変更",
         "not_published": "図面が公開されていないか、公開が取り消されています。 <br /> <span class = 'Muted.cls'>エラー：0014 </ span>",
         "items_trashed": "ゴミ箱に移動しました",
-        "help_pagesize": "受け入れる：in、cm、mm、px。例：3 mm、3 px、3",
+        "help_pagesize": "対応：m、in、cm、mm、px。例：3 mm、3 px、3",
         "last_modified": "最終更新日",
         "process_union": "組合の処理",
         "view_template": "このテンプレートには閲覧のみが可能です。<br />",
@@ -207,7 +207,7 @@
         "untitled_drawing": "無題の図面",
         "empty_activepage": "図面を読むことができません。空のアクティブなページです。<br /> <span class = 'Muted.cls'>エラー：0006 </ span>",
         "invitations_sent": "招待状が送信されました",
-        "help_roundcorner": "受け入れる：in、cm、mm、pt、px。例：3 mm、3 px、3",
+        "help_roundcorner": "許可：m、in、cm、mm、pt、px。例：3 mm、3 px、3",
         "custom_linestyle": "カスタムラインスタイル",
         "all_changes_saved": "すべての変更を保存しました",
         "default_recording": "default_recording",
@@ -456,7 +456,8 @@
         "success_page_del": "ページが削除された",
         "default_title": "ページ",
         "delete_page": "ページを削除",
-        "confirm_del": "<br /> <br />このページを削除してもよろしいですか？"
+        "confirm_del": "<br /> <br />このページを削除してもよろしいですか？",
+        "m": "メーター"
     },
     "drop": {
         "px": "px",
@@ -1449,9 +1450,6 @@
         },
         "ListCustomMenu": {
             "tip": "List custom menu"
-        },
-        "bug": {
-            "icon": "フィードバックとバグ報告"
         }
     },
     "preload": {
@@ -3892,9 +3890,7 @@
         }
     },
     "dialog": {
-        "help": {
-            "title": "Vectaヘルプ",
-            "search": "検索するものを入力してください"
-        }
+        "help_title": "Vectaヘルプ",
+        "help_search": "検索するものを入力してください"
     }
 }
