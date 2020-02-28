@@ -373,7 +373,44 @@
         "dxf_settings": "DWG / DXF",
         "upload": "Télécharger",
         "upload_custom_fonts": "Importer des polices",
-        "svg_invalid": "Le fichier SVG n'est pas valide"
+        "svg_invalid": "Le fichier SVG n'est pas valide",
+        "color_formats": {
+            "hex": "HEX",
+            "rgb": "RVB",
+            "hsl": "HSL",
+            "hsv": "HSV",
+            "cmyk": "CMJN",
+            "pantone": "Pantone",
+            "lab": "LABORATOIRE"
+        },
+        "color_abrv": {
+            "rgb": [
+                "R",
+                "g",
+                "B"
+            ],
+            "hsl": [
+                "H",
+                "S",
+                "L"
+            ],
+            "hsv": [
+                "H",
+                "S",
+                "V"
+            ],
+            "cmyk": [
+                "C",
+                "M",
+                "Oui",
+                "K"
+            ],
+            "lab": [
+                "L",
+                "une",
+                "b"
+            ]
+        }
     },
     "page": {
         "cm": "Centimètre",
@@ -602,7 +639,6 @@
         "show_properties": "Afficher les propriétés",
         "hide_properties": "Masquer les propriétés",
         "publish_drawing": "Publier le dessin",
-        "template_drawing": "Faire un modèle",
         "download_drawing": "Télécharger",
         "roboto_condensed": "Roboto condensé",
         "show_icon_preview": "Afficher l'aperçu de l'icône",
@@ -679,7 +715,9 @@
         "save": "sauvegarder",
         "export_dxf": "Exporter au format DXF",
         "export_dwg": "Exporter en DWG",
-        "upload_fonts": "Importer des polices"
+        "upload_fonts": "Importer des polices",
+        "make_template": "Créer un modèle",
+        "remove_template": "Supprimer le modèle"
     },
     "list": {
         "en": "Anglais",
@@ -882,7 +920,7 @@
         "setting_up_team": "Créer des équipes",
         "loading_folders": "Chargement de dossiers",
         "create_template": "Créer un nouveau modèle",
-        "created_template": "Modèle créé avec succès.",
+        "created_template": "Modèle créé avec succès",
         "permission_changed": "Votre accès à cette équipe a été modifié. Veuillez rafraîchir l'équipe pour voir les changements.",
         "permission_removed": "Votre accès à cette équipe a été supprimé.",
         "template": "Modèle",
@@ -911,7 +949,9 @@
         "created": "Créé",
         "applying_changes": "Appliquer les modifications",
         "confirm_del": "Confirmer la suppression des utilisateurs",
-        "confirm_del_mssg": "Les actions sont irréversibles. Les dessins, le dossier et les équipes seront déplacés vers l'équipe d'administration."
+        "confirm_del_mssg": "Les actions sont irréversibles. Les dessins, le dossier et les équipes seront déplacés vers l'équipe d'administration.",
+        "remove_template": "Suppression du modèle",
+        "removed_template": "Le modèle a bien été supprimé"
     },
     "access": {
         "and": "et",
@@ -3587,424 +3627,6 @@
         "personal_plugins": "Plugins personnels",
         "team_plugins": "Plugins d'équipe",
         "public_plugins": "Plugins publics"
-    },
-    "templates_dev": {
-        "-LNDGKK59pQgGW29c1Oj": {
-            "name": "Diagramme de séquence UML",
-            "desc": "Diagramme de séquence UML",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LN9zR_hz2HNRobwPB41": {
-            "name": "Canevas du diagramme d'activité (A2)",
-            "desc": "Canevas du diagramme d'activité (A2)",
-            "cat": [
-                "Diagramme d'affaires"
-            ]
-        },
-        "-LN9yYZnQt2gVwJIr6uT": {
-            "name": "Diagramme d'activité (A3)",
-            "desc": "Diagramme d'activité (A3)",
-            "cat": [
-                "Diagramme d'affaires"
-            ]
-        },
-        "-LN9hSF-Fm2xirwpQa6n": {
-            "name": "Diagramme d'activité (A4)",
-            "desc": "Diagramme d'activité (A4)",
-            "cat": [
-                "Diagramme d'affaires"
-            ]
-        },
-        "-LN8ScHse2lYJU2aqwGz": {
-            "name": "Diagramme d'Utilisation d'UML",
-            "desc": "Diagramme d'Utilisation d'UML",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LMtezCzhzkr8schB_hV": {
-            "name": "Diagramme UML (Gestion)",
-            "desc": "Diagramme UML (Gestion)",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LMtYtJLegGbbYBrtvgM": {
-            "name": "Organigramme du projet",
-            "desc": "Organigramme du projet",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LMp21HHVmsm0MFCTSLy": {
-            "name": "Organigramme de base",
-            "desc": "Organigramme de base",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LMjpgbZaszla6vBhLcW": {
-            "name": "Organigramme de base de données",
-            "desc": "Organigramme de base de données",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LMjW6xyl2NipCTVWmUA": {
-            "name": "Organigramme",
-            "desc": "Organigramme",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LMjSQkl8ZNOB6oGN6GD": {
-            "name": "Swim Lane (Processus de vente)",
-            "desc": "Swim Lane (Processus de vente)",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LMjMZBOIaooAM1Z98gx": {
-            "name": "Organigramme de programmation",
-            "desc": "Organigramme de programmation",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LMjLQJ2RGcCro-T0oso": {
-            "name": "Diagramme de décision",
-            "desc": "Diagramme de décision",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LMjL0oBc3JLbMsDohKy": {
-            "name": "Les cartes mentales",
-            "desc": "Les cartes mentales",
-            "cat": [
-                "Carte mentale"
-            ]
-        },
-        "-LMjKYtq8Bh_53BlGN5u": {
-            "name": "Organigramme des ventes",
-            "desc": "Organigramme des ventes",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LZOfSobN6z2CpjUpeL0": {
-            "name": "Carte du monde",
-            "desc": "Carte du monde de choroplèthes",
-            "cat": [
-                "Carte"
-            ]
-        }
-    },
-    "templates": {
-        "-LOHjfDR2T6gdSufCPpP": {
-            "name": "Carte mentale",
-            "desc": "Carte mentale",
-            "cat": [
-                "Carte mentale"
-            ]
-        },
-        "-LOHAWLviWMYhb5w0Z8y": {
-            "name": "Diagramme de séquence UML",
-            "desc": "Diagramme de séquence UML",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LOH5fviZ62awSHSgVcq": {
-            "name": "Toile de modèle d'affaires (A3)",
-            "desc": "Toile de modèle d'affaires (A3)",
-            "cat": [
-                "Diagramme d'affaires"
-            ]
-        },
-        "-LOH5HsyAjMkvXo1B6L8": {
-            "name": "Canevas de modèles d'affaires (A2)",
-            "desc": "Canevas de modèles d'affaires (A2)",
-            "cat": [
-                "Diagramme d'affaires"
-            ]
-        },
-        "-LOH4CnGjyzeCZGCDc_v": {
-            "name": "Toile de modèle d'affaires (A4)",
-            "desc": "Toile de modèle d'affaires (A4)",
-            "cat": [
-                "Diagramme d'affaires"
-            ]
-        },
-        "-LNF1FdJo_WcDWlVcglb": {
-            "name": "Organigramme de base",
-            "desc": "Organigramme de base",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LNNlsHoLCqJUEp0C1os": {
-            "name": "Organigramme du projet",
-            "desc": "Organigramme du projet",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LO25Hk-Oshy6HvJD__7": {
-            "name": "Organigramme de programmation",
-            "desc": "Organigramme de programmation",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LO1umSlHxzk7IQ2cNbp": {
-            "name": "Diagramme de décision",
-            "desc": "Diagramme de décision",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LNmmxIQUISMU9UZhVpA": {
-            "name": "Diagramme de gestion UML",
-            "desc": "Diagramme UML (Gestion)",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LNNlun7IW-vqb4Jkf2K": {
-            "name": "Organigramme de déploiement",
-            "desc": "Organigramme de déploiement",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LNIeomS7DYPI4mQoDts": {
-            "name": "Organigramme de production",
-            "desc": "Organigramme de production",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LNIcdLxnrL6TKudHSu7": {
-            "name": "Diagramme de flux de nage",
-            "desc": "Diagramme de flux de nage",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LNIbml-y6Um9Cc96Xs2": {
-            "name": "Organigramme de processus du système",
-            "desc": "Organigramme de processus du système",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LNIZEvf6QRTnewa24Qu": {
-            "name": "Organigramme du processus de vente",
-            "desc": "Organigramme du processus de vente",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LLhghOZRW58l26roIoK": {
-            "name": "Analyse SWOT des entreprises",
-            "desc": "Analyse SWOT des entreprises",
-            "cat": [
-                "Diagramme d'affaires"
-            ]
-        },
-        "-LOHa7f3BRxDbIyGzEC1": {
-            "name": "Diagramme de classes UML",
-            "desc": "Diagramme de classes UML",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LOHZUUYiIbyXeccMvRn": {
-            "name": "Cas d'utilisation UML",
-            "desc": "Cas d'utilisation UML",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LR9ZsIBctq8yAIOy_LN": {
-            "name": "Infographie de pyramide",
-            "desc": "Infographie de pyramide",
-            "cat": [
-                "Infographie"
-            ]
-        },
-        "-LQNMChVpVmAYrWWXPm3": {
-            "name": "Graphique de l'entreprise",
-            "desc": "Graphique de l'entreprise",
-            "cat": [
-                "Diagramme d'affaires"
-            ]
-        },
-        "-LQM_hBqWlmtLjrB9xdn": {
-            "name": "Nombre infographique",
-            "desc": "Infographie",
-            "cat": [
-                "Infographie"
-            ]
-        },
-        "-LPOrD-tZb-bAgKyCenP": {
-            "name": "Tableau infographique",
-            "desc": "Tableau infographique",
-            "cat": [
-                "Infographie"
-            ]
-        },
-        "-LPiIk6iw7E8380ogJ5T": {
-            "name": "Carte mentale d'infographie",
-            "desc": "Carte mentale d'infographie",
-            "cat": [
-                "Carte mentale",
-                "Infographie"
-            ]
-        },
-        "-LPiIHIhgqkbaVv5sUPd": {
-            "name": "Chronologie du flux de travail (infographie)",
-            "desc": "Chronologie du flux de travail (infographie)",
-            "cat": [
-                "Infographie"
-            ]
-        },
-        "-LPP5w0wVEFswv7tvxmn": {
-            "name": "Carte mentale des branches",
-            "desc": "Carte mentale (branches)",
-            "cat": [
-                "Carte mentale"
-            ]
-        },
-        "-LRdPOMliqEvD2nYm7PG": {
-            "name": "Ordre Schéma DER",
-            "desc": "Ordre Schéma DER",
-            "cat": [
-                "DRE"
-            ]
-        },
-        "-LRF6o0_5PUaEftUzpeW": {
-            "name": "Chronologie infographique",
-            "desc": "Chronologie infographique",
-            "cat": [
-                "Infographie"
-            ]
-        },
-        "-LRUU-VbjDv_co_rrDtT": {
-            "name": "Infographie de comparaison",
-            "desc": "Infographie de comparaison",
-            "cat": [
-                "Infographie"
-            ]
-        },
-        "-LRpTMoTd8FvLTxu5FIq": {
-            "name": "Diagramme DER de la bibliothèque",
-            "desc": "Diagramme DER de la bibliothèque",
-            "cat": [
-                "DRE"
-            ]
-        },
-        "-LSSMftbca2xpyKrbprU": {
-            "name": "Organigramme",
-            "desc": "Organigramme",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LSS68ML75_xvplWe8tf": {
-            "name": "Organigramme",
-            "desc": "Organigramme",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LSS00zdkW_M9D1lPuRx": {
-            "name": "Organigramme",
-            "desc": "Organigramme",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LSHhWe0mqET00_I9rT4": {
-            "name": "Organigramme",
-            "desc": "Organigramme",
-            "cat": [
-                "Organigramme"
-            ]
-        },
-        "-LZClwSzDW0SN_TeAxE8": {
-            "name": "Carte du monde",
-            "desc": "Carte du monde de choroplèthes",
-            "cat": [
-                "Carte"
-            ]
-        },
-        "-LhhebPqMoBxzm7hV6cz": {
-            "name": "Network Topology (Star)",
-            "desc": "Network Topology (Star)",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhfSKJr0PMCUbMew3m": {
-            "name": "Network Topology (Ring)",
-            "desc": "Network Topology (Ring)",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhfiMrAzzKmLQ_f49X": {
-            "name": "Network Topology (Bus)",
-            "desc": "Network Topology (Bus)",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-Lhhg00ZXeL9WZZ54LkB": {
-            "name": "Server Network Diagram",
-            "desc": "Server Network Diagram",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhgBiRHs3OM8z4XGFw": {
-            "name": "Home Network Diagram",
-            "desc": "Home Network Diagram",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhhySu8e6nzEMrc3vo": {
-            "name": "Office Network Diagram",
-            "desc": "Office Network Diagram",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhjEx-6EoS8kBd_5sc": {
-            "name": "Cloud Computing Service",
-            "desc": "Cloud Computing Service",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-Lhhly3yKRE5IHr62aXk": {
-            "name": "Cloud Computing Types",
-            "desc": "Cloud Computing Types",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhkGx3d6h2h7z_mLPS": {
-            "name": "Architecture of Cloud Computing",
-            "desc": "Architecture of Cloud Computing",
-            "cat": [
-                "Network Diagram"
-            ]
-        }
     },
     "symbol_sizes": {
         "Biggest": "Le plus gros"
