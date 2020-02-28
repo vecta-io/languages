@@ -482,7 +482,9 @@
         "create_drawing": "Creating new drawing",
         "create_folder": "Creating new folder",
         "create_template": "Creating new template",
-        "created_template": "Template successfully created.",
+        "created_template": "Template successfully created",
+        "remove_template": "Removing template",
+        "removed_template": "Template successfully removed",
         "loading_folders": "Loading folders",
         "team_names": [
             "Fun",
@@ -789,14 +791,6 @@
         "transparency": "Transparency",
         "gradient_transparency": "Gradient transparency",
         "color_transparency": "Color transparency",
-        "hsl": [
-            "H",
-            "S",
-            "L",
-            "R",
-            "G",
-            "B"
-        ],
         "more": "More",
         "less": "Less",
         "share_drawing": "Share",
@@ -818,6 +812,51 @@
         "color_modes": {
             "rgb": "RGB",
             "cmyk": "CMYK"
+        },
+        "color_formats": {
+            "hex": "HEX",
+            "rgb": "RGB",
+            "hsl": "HSL",
+            "hsv": "HSV",
+            "cmyk": "CMYK",
+            "pantone": "Pantone",
+            "lab": "LAB"
+        },
+        "hsl": [
+            "H",
+            "S",
+            "L",
+            "R",
+            "G",
+            "B"
+        ],
+        "color_abrv": {
+            "rgb": [
+                "R",
+                "G",
+                "B"
+            ],
+            "hsl": [
+                "H",
+                "S",
+                "L"
+            ],
+            "hsv": [
+                "H",
+                "S",
+                "V"
+            ],
+            "cmyk": [
+                "C",
+                "M",
+                "Y",
+                "K"
+            ],
+            "lab": [
+                "L",
+                "a",
+                "b"
+            ]
         },
         "red": "Red",
         "green": "Green",
@@ -1152,7 +1191,8 @@
         "publish_drawing": "Publish drawing",
         "publish": "Publish",
         "make_public": "Make drawing public",
-        "template_drawing": "Make template",
+        "make_template": "Make template",
+        "remove_template": "Remove template",
         "ver_history": "Version history",
         "history_list": "History list",
         "name_version": "Name current version",
@@ -3242,424 +3282,6 @@
         "saving_plugin": "Saving plugin",
         "success_refresh": "Plugin successfully refreshed.",
         "fail_refresh": "Plugin no longer exist."
-    },
-    "templates_dev": {
-        "-LNDGKK59pQgGW29c1Oj": {
-            "name": "UML Sequence Diagram",
-            "desc": "UML Sequence Diagram",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LN9zR_hz2HNRobwPB41": {
-            "name": "Business Diagram Canvas ( A2 )",
-            "desc": "Business Diagram Canvas ( A2 )",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LN9yYZnQt2gVwJIr6uT": {
-            "name": "Business Diagram Canvas ( A3 )",
-            "desc": "Business Diagram Canvas ( A3 )",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LN9hSF-Fm2xirwpQa6n": {
-            "name": "Business Diagram Canvas ( A4 )",
-            "desc": "Business Diagram Canvas ( A4 )",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LN8ScHse2lYJU2aqwGz": {
-            "name": "UML UseCase Diagram",
-            "desc": "UML UseCase Diagram",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LMtezCzhzkr8schB_hV": {
-            "name": "UML Diagram ( Management )",
-            "desc": "UML Diagram ( Management )",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LMtYtJLegGbbYBrtvgM": {
-            "name": "Project flowchart",
-            "desc": "Project flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LMp21HHVmsm0MFCTSLy": {
-            "name": "Basic Flowchart",
-            "desc": "Basic Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LMjpgbZaszla6vBhLcW": {
-            "name": "Database Flowchart",
-            "desc": "Database Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LMjW6xyl2NipCTVWmUA": {
-            "name": "Organization Chart",
-            "desc": "Organization Chart",
-            "cat": [
-                "Organization Chart"
-            ]
-        },
-        "-LMjSQkl8ZNOB6oGN6GD": {
-            "name": "Swim Lane ( Sales Process )",
-            "desc": "Swim Lane ( Sales Process )",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LMjMZBOIaooAM1Z98gx": {
-            "name": "Programming Flowchart",
-            "desc": "Programming Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LMjLQJ2RGcCro-T0oso": {
-            "name": "Decision Flowchart",
-            "desc": "Decision Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LMjL0oBc3JLbMsDohKy": {
-            "name": "Mind Maps",
-            "desc": "Mind Maps",
-            "cat": [
-                "Mind Map"
-            ]
-        },
-        "-LZOfSobN6z2CpjUpeL0": {
-            "name": "World Map",
-            "desc": "Choropleth World Map",
-            "cat": [
-                "Map"
-            ]
-        },
-        "-LMjKYtq8Bh_53BlGN5u": {
-            "name": "Sales Flowchart",
-            "desc": "Sales Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        }
-    },
-    "templates": {
-        "-LSSMftbca2xpyKrbprU": {
-            "name": "Organization Chart",
-            "desc": "Organization Chart",
-            "cat": [
-                "Organization Chart"
-            ]
-        },
-        "-LSS68ML75_xvplWe8tf": {
-            "name": "Organization Chart",
-            "desc": "Organization Chart",
-            "cat": [
-                "Organization Chart"
-            ]
-        },
-        "-LSS00zdkW_M9D1lPuRx": {
-            "name": "Organization chart",
-            "desc": "Organization chart",
-            "cat": [
-                "Organization Chart"
-            ]
-        },
-        "-LSHhWe0mqET00_I9rT4": {
-            "name": "Organization chart",
-            "desc": "Organization chart",
-            "cat": [
-                "Organization Chart"
-            ]
-        },
-        "-LRpTMoTd8FvLTxu5FIq": {
-            "name": "Library ERD Diagram",
-            "desc": "Library ERD Diagram",
-            "cat": [
-                "ERD"
-            ]
-        },
-        "-LRUU-VbjDv_co_rrDtT": {
-            "name": "Comparison Infographic",
-            "desc": "Comparison Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LQNMChVpVmAYrWWXPm3": {
-            "name": "Business Chart",
-            "desc": "Business Chart",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LRdPOMliqEvD2nYm7PG": {
-            "name": "Order ERD Diagram",
-            "desc": "Order ERD Diagram",
-            "cat": [
-                "ERD"
-            ]
-        },
-        "-LRF6o0_5PUaEftUzpeW": {
-            "name": "Timeline Infographic",
-            "desc": "Timeline Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LR9ZsIBctq8yAIOy_LN": {
-            "name": "Pyramid Infographic",
-            "desc": "Pyramid Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LQM_hBqWlmtLjrB9xdn": {
-            "name": "Number Infographic",
-            "desc": "Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LPOrD-tZb-bAgKyCenP": {
-            "name": "Infographic Chart",
-            "desc": "Infographic Chart",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LPiIk6iw7E8380ogJ5T": {
-            "name": "Infographic Mind Map",
-            "desc": "Infographic Mind Map",
-            "cat": [
-                "Mind Map",
-                "Infographic"
-            ]
-        },
-        "-LPiIHIhgqkbaVv5sUPd": {
-            "name": "Workflow Timeline ( Infographic )",
-            "desc": "Workflow Timeline ( Infographic )",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LPP5w0wVEFswv7tvxmn": {
-            "name": "Branches Mind Map",
-            "desc": "Mind Map ( Branches )",
-            "cat": [
-                "Mind Map"
-            ]
-        },
-        "-LNmmxIQUISMU9UZhVpA": {
-            "name": "UML Management Diagram",
-            "desc": "UML Diagram ( Management )",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LLhghOZRW58l26roIoK": {
-            "name": "Business SWOT Analysis",
-            "desc": "Business SWOT Analysis",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LNIZEvf6QRTnewa24Qu": {
-            "name": "Sales Process Flowchart",
-            "desc": "Sales Process Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LNIeomS7DYPI4mQoDts": {
-            "name": "Production Flowchart",
-            "desc": "Production Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LNNlsHoLCqJUEp0C1os": {
-            "name": "Project Flowchart",
-            "desc": "Project Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LO25Hk-Oshy6HvJD__7": {
-            "name": "Programming Flowchart",
-            "desc": "Programming Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LOHjfDR2T6gdSufCPpP": {
-            "name": "Mind Map",
-            "desc": "Mind Map",
-            "cat": [
-                "Mind Map"
-            ]
-        },
-        "-LOHZUUYiIbyXeccMvRn": {
-            "name": "UML Use Case",
-            "desc": "UML Use Case",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LOHa7f3BRxDbIyGzEC1": {
-            "name": "UML Class Diagram",
-            "desc": "UML Class Diagram",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LOHAWLviWMYhb5w0Z8y": {
-            "name": "UML Sequence Diagram",
-            "desc": "UML Sequence Diagram",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LNIcdLxnrL6TKudHSu7": {
-            "name": "Swim Lane Flowchart",
-            "desc": "Swim Lane Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LNIbml-y6Um9Cc96Xs2": {
-            "name": "System Process Flowchart",
-            "desc": "System Process Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LNF1FdJo_WcDWlVcglb": {
-            "name": "Basic Flowchart",
-            "desc": "Basic Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LO1umSlHxzk7IQ2cNbp": {
-            "name": "Decision Flowchart",
-            "desc": "Decision Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LOH5fviZ62awSHSgVcq": {
-            "name": "Business Model Canvas ( A3 )",
-            "desc": "Business Model Canvas ( A3 )",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LOH5HsyAjMkvXo1B6L8": {
-            "name": "Business Model Canvas ( A2 )",
-            "desc": "Business Model Canvas ( A2 )",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LOH4CnGjyzeCZGCDc_v": {
-            "name": "Business Model  Canvas ( A4 )",
-            "desc": "Business Model  Canvas ( A4 )",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LZClwSzDW0SN_TeAxE8": {
-            "name": "World Map",
-            "desc": "Choropleth World Map",
-            "cat": [
-                "Map"
-            ]
-        },
-        "-LNNlun7IW-vqb4Jkf2K": {
-            "name": "Deployment Flowchart",
-            "desc": "Deployment Flowchart",
-            "cat": [
-                "Flowchart"
-            ]
-        },
-        "-LhhebPqMoBxzm7hV6cz": {
-            "name": "Network Topology (Star)",
-            "desc": "Network Topology (Star)",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhfSKJr0PMCUbMew3m": {
-            "name": "Network Topology (Ring)",
-            "desc": "Network Topology (Ring)",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhfiMrAzzKmLQ_f49X": {
-            "name": "Network Topology (Bus)",
-            "desc": "Network Topology (Bus)",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-Lhhg00ZXeL9WZZ54LkB": {
-            "name": "Server Network Diagram",
-            "desc": "Server Network Diagram",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhgBiRHs3OM8z4XGFw": {
-            "name": "Home Network Diagram",
-            "desc": "Home Network Diagram",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhhySu8e6nzEMrc3vo": {
-            "name": "Office Network Diagram",
-            "desc": "Office Network Diagram",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhjEx-6EoS8kBd_5sc": {
-            "name": "Cloud Computing Service",
-            "desc": "Cloud Computing Service",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-Lhhly3yKRE5IHr62aXk": {
-            "name": "Cloud Computing Types",
-            "desc": "Cloud Computing Types",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhkGx3d6h2h7z_mLPS": {
-            "name": "Architecture of Cloud Computing",
-            "desc": "Architecture of Cloud Computing",
-            "cat": [
-                "Network Diagram"
-            ]
-        }
     },
     "page": {
         "name": "Name",
