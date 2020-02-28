@@ -371,7 +371,44 @@
         "dxf_settings": "DWG/DXF",
         "upload": "アップロードする",
         "upload_custom_fonts": "フォントをアップロードする",
-        "svg_invalid": "SVGファイルが無効です"
+        "svg_invalid": "SVGファイルが無効です",
+        "color_formats": {
+            "hex": "HEX",
+            "rgb": "RGB",
+            "hsl": "HSL",
+            "hsv": "HSV",
+            "cmyk": "CMYK",
+            "pantone": "パントン",
+            "lab": "LAB"
+        },
+        "color_abrv": {
+            "rgb": [
+                "R",
+                "G",
+                "B"
+            ],
+            "hsl": [
+                "H",
+                "S",
+                "L"
+            ],
+            "hsv": [
+                "H",
+                "S",
+                "V"
+            ],
+            "cmyk": [
+                "C",
+                "M",
+                "Y",
+                "K"
+            ],
+            "lab": [
+                "L",
+                "a",
+                "b"
+            ]
+        }
     },
     "list": {
         "sv": "スウェーデン語",
@@ -606,7 +643,6 @@
         "show_properties": "プロパティを表示する",
         "hide_properties": "プロパティを非表示",
         "publish_drawing": "図面を公開する",
-        "template_drawing": "テンプレートを作る",
         "roboto_condensed": "Roboto Condensed",
         "download_drawing": "ダウンロード",
         "show_icon_preview": "アイコンのプレビューを表示する",
@@ -683,7 +719,9 @@
         "save": "保存する",
         "export_dxf": "DXFとしてエクスポート",
         "export_dwg": "DWGとしてエクスポート",
-        "upload_fonts": "フォントをアップロードする"
+        "upload_fonts": "フォントをアップロードする",
+        "make_template": "テンプレートを作成",
+        "remove_template": "テンプレートを削除"
     },
     "login": {
         "or": "または",
@@ -823,7 +861,7 @@
         "pop_up_disabled": "ポップアップが無効",
         "setting_up_dash": "ダッシュボードの作成",
         "create_template": "新しいテンプレートを作成する",
-        "created_template": "テンプレートが正常に作成されました。",
+        "created_template": "テンプレートが作成されました",
         "permission_removed": "このチームへのアクセスは削除されました。",
         "permission_changed": "このチームへのアクセスが変更されました。変更を確認するには、チームをリフレッシュしてください。",
         "template": "テンプレート",
@@ -852,7 +890,9 @@
         "created": "作成した",
         "applying_changes": "変更を適用する",
         "confirm_del": "ユーザーの削除を確認する",
-        "confirm_del_mssg": "アクションは元に戻せません。図面、フォルダ、およびチームは管理チームに移動されます。"
+        "confirm_del_mssg": "アクションは元に戻せません。図面、フォルダ、およびチームは管理チームに移動されます。",
+        "remove_template": "テンプレートの削除",
+        "removed_template": "テンプレートを削除しました"
     },
     "noti": {
         "left": "%% left Team @@。",
@@ -3585,400 +3625,6 @@
         "personal_plugins": "個人用プラグイン",
         "team_plugins": "チームプラグイン",
         "public_plugins": "公開プラグイン"
-    },
-    "templates_dev": {
-        "-LNDGKK59pQgGW29c1Oj": {
-            "name": "UMLシーケンス図",
-            "desc": "UMLシーケンス図",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LN9zR_hz2HNRobwPB41": {
-            "name": "ビジネスダイアグラムキャンバス（A2）",
-            "desc": "ビジネスダイアグラムキャンバス（A2）",
-            "cat": [
-                "ビジネスダイアグラム"
-            ]
-        },
-        "-LN9yYZnQt2gVwJIr6uT": {
-            "name": "ビジネスダイアグラムキャンバス（A3）",
-            "desc": "ビジネスダイアグラムキャンバス（A3）",
-            "cat": [
-                "ビジネスダイアグラム"
-            ]
-        },
-        "-LN9hSF-Fm2xirwpQa6n": {
-            "name": "ビジネスダイアグラムキャンバス（A4）",
-            "desc": "ビジネスダイアグラムキャンバス（A4）",
-            "cat": [
-                "ビジネスダイアグラム"
-            ]
-        },
-        "-LN8ScHse2lYJU2aqwGz": {
-            "name": "UMLユースケース図",
-            "desc": "UMLユースケース図",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LMtezCzhzkr8schB_hV": {
-            "name": "UML図（管理）",
-            "desc": "UML図（管理）",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LMtYtJLegGbbYBrtvgM": {
-            "name": "プロジェクトのフローチャート",
-            "desc": "プロジェクトのフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LMp21HHVmsm0MFCTSLy": {
-            "name": "基本フローチャート",
-            "desc": "基本フローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LMjpgbZaszla6vBhLcW": {
-            "name": "データベースのフローチャート",
-            "desc": "データベースのフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LMjW6xyl2NipCTVWmUA": {
-            "name": "組織図",
-            "desc": "組織図",
-            "cat": [
-                "組織図"
-            ]
-        },
-        "-LMjSQkl8ZNOB6oGN6GD": {
-            "name": "スイムレーン（販売プロセス）",
-            "desc": "スイムレーン（販売プロセス）",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LMjMZBOIaooAM1Z98gx": {
-            "name": "プログラミングフローチャート",
-            "desc": "プログラミングフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LMjLQJ2RGcCro-T0oso": {
-            "name": "決定フローチャート",
-            "desc": "決定フローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LMjL0oBc3JLbMsDohKy": {
-            "name": "マインドマップ",
-            "desc": "マインドマップ",
-            "cat": [
-                "心理図"
-            ]
-        },
-        "-LMjKYtq8Bh_53BlGN5u": {
-            "name": "販売フローチャート",
-            "desc": "販売フローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LZOfSobN6z2CpjUpeL0": {
-            "name": "世界地図",
-            "desc": "コロプレスワールドマップ",
-            "cat": [
-                "地図"
-            ]
-        }
-    },
-    "templates": {
-        "-LOHjfDR2T6gdSufCPpP": {
-            "name": "心理図",
-            "desc": "心理図",
-            "cat": [
-                "心理図"
-            ]
-        },
-        "-LOHAWLviWMYhb5w0Z8y": {
-            "name": "UMLシーケンス図",
-            "desc": "UMLシーケンス図",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LOH5fviZ62awSHSgVcq": {
-            "name": "ビジネスモデルキャンバス（A3）",
-            "desc": "ビジネスモデルキャンバス（A3）",
-            "cat": [
-                "ビジネスダイアグラム"
-            ]
-        },
-        "-LOH5HsyAjMkvXo1B6L8": {
-            "name": "ビジネスモデルキャンバス（A2）",
-            "desc": "ビジネスモデルキャンバス（A2）",
-            "cat": [
-                "ビジネスダイアグラム"
-            ]
-        },
-        "-LOH4CnGjyzeCZGCDc_v": {
-            "name": "ビジネスモデルキャンバス（A4）",
-            "desc": "ビジネスモデルキャンバス（A4）",
-            "cat": [
-                "ビジネスダイアグラム"
-            ]
-        },
-        "-LNF1FdJo_WcDWlVcglb": {
-            "name": "基本フローチャート",
-            "desc": "基本フローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LNNlsHoLCqJUEp0C1os": {
-            "name": "プロジェクトのフローチャート",
-            "desc": "プロジェクトのフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LO25Hk-Oshy6HvJD__7": {
-            "name": "プログラミングフローチャート",
-            "desc": "プログラミングフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LO1umSlHxzk7IQ2cNbp": {
-            "name": "決定フローチャート",
-            "desc": "決定フローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LNmmxIQUISMU9UZhVpA": {
-            "name": "UML管理図",
-            "desc": "UML図（管理）",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LNNlun7IW-vqb4Jkf2K": {
-            "name": "展開のフローチャート",
-            "desc": "展開のフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LNIeomS7DYPI4mQoDts": {
-            "name": "生産フローチャート",
-            "desc": "生産フローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LNIcdLxnrL6TKudHSu7": {
-            "name": "スイムレーンのフローチャート",
-            "desc": "スイムレーンのフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LNIbml-y6Um9Cc96Xs2": {
-            "name": "システムプロセスフローチャート",
-            "desc": "システムプロセスフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LNIZEvf6QRTnewa24Qu": {
-            "name": "販売プロセスフローチャート",
-            "desc": "販売プロセスフローチャート",
-            "cat": [
-                "フローチャート"
-            ]
-        },
-        "-LLhghOZRW58l26roIoK": {
-            "name": "ビジネス分析",
-            "desc": "ビジネス分析",
-            "cat": [
-                "ビジネスダイアグラム"
-            ]
-        },
-        "-LOHa7f3BRxDbIyGzEC1": {
-            "name": "UMLクラス図",
-            "desc": "UMLクラス図",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LOHZUUYiIbyXeccMvRn": {
-            "name": "UMLユースケース",
-            "desc": "UMLユースケース",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LR9ZsIBctq8yAIOy_LN": {
-            "name": "ピラミッドインフォグラフィック",
-            "desc": "ピラミッドインフォグラフィック",
-            "cat": [
-                "インフォグラフィック"
-            ]
-        },
-        "-LQNMChVpVmAYrWWXPm3": {
-            "name": "ビジネスチャート",
-            "desc": "ビジネスチャート",
-            "cat": [
-                "ビジネスダイアグラム"
-            ]
-        },
-        "-LQM_hBqWlmtLjrB9xdn": {
-            "name": "ナンバーインフォグラフィック",
-            "desc": "インフォグラフィック",
-            "cat": [
-                "インフォグラフィック"
-            ]
-        },
-        "-LPOrD-tZb-bAgKyCenP": {
-            "name": "インフォグラフィックチャート",
-            "desc": "インフォグラフィックチャート",
-            "cat": [
-                "インフォグラフィック"
-            ]
-        },
-        "-LPiIk6iw7E8380ogJ5T": {
-            "name": "インフォグラフィックマインドマップ",
-            "desc": "インフォグラフィックマインドマップ",
-            "cat": [
-                "心理図",
-                "インフォグラフィック"
-            ]
-        },
-        "-LPiIHIhgqkbaVv5sUPd": {
-            "name": "ワークフロータイムライン（インフォグラフィック）",
-            "desc": "ワークフロータイムライン（インフォグラフィック）",
-            "cat": [
-                "インフォグラフィック"
-            ]
-        },
-        "-LPP5w0wVEFswv7tvxmn": {
-            "name": "枝のマインドマップ",
-            "desc": "マインドマップ（枝）",
-            "cat": [
-                "心理図"
-            ]
-        },
-        "-LRdPOMliqEvD2nYm7PG": {
-            "name": "ERD図の注文",
-            "desc": "ERD図の注文",
-            "cat": [
-                "ERD"
-            ]
-        },
-        "-LRF6o0_5PUaEftUzpeW": {
-            "name": "タイムラインインフォグラフィック",
-            "desc": "タイムラインインフォグラフィック",
-            "cat": [
-                "インフォグラフィック"
-            ]
-        },
-        "-LRUU-VbjDv_co_rrDtT": {
-            "name": "比較インフォグラフィック",
-            "desc": "比較インフォグラフィック",
-            "cat": [
-                "インフォグラフィック"
-            ]
-        },
-        "-LRpTMoTd8FvLTxu5FIq": {
-            "name": "ライブラリERD図",
-            "desc": "ライブラリERD図",
-            "cat": [
-                "ERD"
-            ]
-        },
-        "-LSS68ML75_xvplWe8tf": {
-            "name": "組織図",
-            "desc": "組織図"
-        },
-        "-LZClwSzDW0SN_TeAxE8": {
-            "name": "世界地図",
-            "desc": "コロプレスワールドマップ",
-            "cat": [
-                "地図"
-            ]
-        },
-        "-LhhebPqMoBxzm7hV6cz": {
-            "name": "ネットワークトポロジ（スター）",
-            "desc": "ネットワークトポロジ（スター）",
-            "cat": [
-                "ネットワーク図"
-            ]
-        },
-        "-LhhfSKJr0PMCUbMew3m": {
-            "name": "ネットワークトポロジ（リング）",
-            "desc": "Network Topology (Ring)",
-            "cat": [
-                "ネットワーク図"
-            ]
-        },
-        "-LhhfiMrAzzKmLQ_f49X": {
-            "name": "ネットワークトポロジ（バス）",
-            "desc": "ネットワークトポロジ（バス）",
-            "cat": [
-                "ネットワーク図"
-            ]
-        },
-        "-Lhhg00ZXeL9WZZ54LkB": {
-            "name": "Server Network Diagram",
-            "desc": "Server Network Diagram",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhgBiRHs3OM8z4XGFw": {
-            "name": "ホームネットワーク図",
-            "desc": "ホームネットワーク図",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhhySu8e6nzEMrc3vo": {
-            "name": "Office Network Diagram",
-            "desc": "オフィスネットワーク図",
-            "cat": [
-                "ネットワーク図"
-            ]
-        },
-        "-LhhjEx-6EoS8kBd_5sc": {
-            "name": "クラウドコンピューティングサービス",
-            "desc": "Cloud Computing Service",
-            "cat": [
-                "ネットワーク図"
-            ]
-        },
-        "-Lhhly3yKRE5IHr62aXk": {
-            "name": "Cloud Computing Types",
-            "desc": "クラウドコンピューティングの種類",
-            "cat": [
-                "ネットワーク図"
-            ]
-        },
-        "-LhhkGx3d6h2h7z_mLPS": {
-            "name": "クラウドコンピューティングのアーキテクチャ",
-            "desc": "Architecture of Cloud Computing",
-            "cat": [
-                "ネットワーク図"
-            ]
-        }
     },
     "dialog": {
         "help_title": "Vectaヘルプ",
