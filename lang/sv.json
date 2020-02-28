@@ -373,7 +373,44 @@
         "dxf_settings": "DWG/DXF",
         "upload": "Ladda upp",
         "upload_custom_fonts": "Ladda upp teckensnitt",
-        "svg_invalid": "SVG-filen är ogiltig"
+        "svg_invalid": "SVG-filen är ogiltig",
+        "color_formats": {
+            "hex": "HEX",
+            "rgb": "RGB",
+            "hsl": "HSL",
+            "hsv": "HSV",
+            "cmyk": "CMYK",
+            "pantone": "Pantone",
+            "lab": "LABB"
+        },
+        "color_abrv": {
+            "rgb": [
+                "R",
+                "G",
+                "B"
+            ],
+            "hsl": [
+                "H",
+                "S",
+                "L"
+            ],
+            "hsv": [
+                "H",
+                "S",
+                "V"
+            ],
+            "cmyk": [
+                "C",
+                "M",
+                "Y",
+                "K"
+            ],
+            "lab": [
+                "L",
+                "en",
+                "b"
+            ]
+        }
     },
     "drop": {
         "in": "tum",
@@ -494,7 +531,6 @@
         "show_properties": "Visa egenskaper",
         "publish_drawing": "Publicera ritning",
         "hide_properties": "Dölj egenskaper",
-        "template_drawing": "Skapa mall",
         "roboto_condensed": "Roboto Condensed",
         "download_drawing": "Ladda ner",
         "hide_icon_preview": "Dölj ikon förhandsvisning",
@@ -571,7 +607,9 @@
         "save": "Spara",
         "export_dxf": "Exportera som DXF",
         "export_dwg": "Exportera som DWG",
-        "upload_fonts": "Ladda upp teckensnitt"
+        "upload_fonts": "Ladda upp teckensnitt",
+        "make_template": "Gör mall",
+        "remove_template": "Ta bort mallen"
     },
     "page": {
         "mm": "Millimeter",
@@ -786,7 +824,7 @@
         "create_template": "Skapar ny mall",
         "loading_folders": "Laddar mappar",
         "setting_up_dash": "Skapar kontrollpanel",
-        "created_template": "Mall skapad.",
+        "created_template": "Mall har skapats",
         "permission_removed": "Din åtkomst till det här laget har tagits bort.",
         "permission_changed": "Din tillgång till det här laget ändrades. Uppdatera laget för att se ändringarna.",
         "template": "Mall",
@@ -815,7 +853,9 @@
         "created": "Skapad",
         "applying_changes": "Tillämpa ändringar",
         "confirm_del": "Bekräfta radering av användare",
-        "confirm_del_mssg": "Åtgärder är irreversibla. Ritningar, mapp och lag flyttas till admin team."
+        "confirm_del_mssg": "Åtgärder är irreversibla. Ritningar, mapp och lag flyttas till admin team.",
+        "remove_template": "Tar bort mallen",
+        "removed_template": "Mallen har tagits bort"
     },
     "noti": {
         "deny": "Neka",
@@ -3581,400 +3621,6 @@
         "personal_plugins": "Personliga plugins",
         "team_plugins": "Team plugins",
         "public_plugins": "Offentliga plugins"
-    },
-    "templates_dev": {
-        "-LNDGKK59pQgGW29c1Oj": {
-            "name": "UML Sequence Diagram",
-            "desc": "UML Sequence Diagram",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LN9zR_hz2HNRobwPB41": {
-            "name": "Business Diagram Canvas (A2)",
-            "desc": "Business Diagram Canvas (A2)",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LN9yYZnQt2gVwJIr6uT": {
-            "name": "Business Diagram Canvas (A3)",
-            "desc": "Business Diagram Canvas (A3)",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LN9hSF-Fm2xirwpQa6n": {
-            "name": "Business Diagram Canvas (A4)",
-            "desc": "Business Diagram Canvas (A4)",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LN8ScHse2lYJU2aqwGz": {
-            "name": "UML UseCase Diagram",
-            "desc": "UML UseCase Diagram",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LMtezCzhzkr8schB_hV": {
-            "name": "UML Diagram (Management)",
-            "desc": "UML Diagram (Management)",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LMtYtJLegGbbYBrtvgM": {
-            "name": "Projektflödesschema",
-            "desc": "Projektflödesschema",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LMp21HHVmsm0MFCTSLy": {
-            "name": "Grundläggande flödesdiagram",
-            "desc": "Grundläggande flödesdiagram",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LMjpgbZaszla6vBhLcW": {
-            "name": "Databas Flowchart",
-            "desc": "Databas Flowchart",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LMjW6xyl2NipCTVWmUA": {
-            "name": "Organisationsschema",
-            "desc": "Organisationsschema",
-            "cat": [
-                "Organisationsschema"
-            ]
-        },
-        "-LMjSQkl8ZNOB6oGN6GD": {
-            "name": "Swim Lane (Försäljningsprocess)",
-            "desc": "Swim Lane (Försäljningsprocess)",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LMjMZBOIaooAM1Z98gx": {
-            "name": "Programmering Flödesschema",
-            "desc": "Programmering Flödesschema",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LMjLQJ2RGcCro-T0oso": {
-            "name": "Decision Flowchart",
-            "desc": "Decision Flowchart",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LMjL0oBc3JLbMsDohKy": {
-            "name": "Mind Maps",
-            "desc": "Mind Maps",
-            "cat": [
-                "Mind Map"
-            ]
-        },
-        "-LMjKYtq8Bh_53BlGN5u": {
-            "name": "Försäljningsflödesdiagram",
-            "desc": "Försäljningsflödesdiagram",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LZOfSobN6z2CpjUpeL0": {
-            "name": "Världskarta",
-            "desc": "Choropleth World Map",
-            "cat": [
-                "Karta"
-            ]
-        }
-    },
-    "templates": {
-        "-LOHjfDR2T6gdSufCPpP": {
-            "name": "Mind Map",
-            "desc": "Mind Map",
-            "cat": [
-                "Mind Map"
-            ]
-        },
-        "-LOHAWLviWMYhb5w0Z8y": {
-            "name": "UML Sequence Diagram",
-            "desc": "UML Sequence Diagram",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LOH5fviZ62awSHSgVcq": {
-            "name": "Business Model Canvas (A3)",
-            "desc": "Business Model Canvas (A3)",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LOH5HsyAjMkvXo1B6L8": {
-            "name": "Business Model Canvas (A2)",
-            "desc": "Business Model Canvas (A2)",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LOH4CnGjyzeCZGCDc_v": {
-            "name": "Business Model Canvas (A4)",
-            "desc": "Business Model Canvas (A4)",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LNF1FdJo_WcDWlVcglb": {
-            "name": "Grundläggande flödesdiagram",
-            "desc": "Grundläggande flödesdiagram",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LNNlsHoLCqJUEp0C1os": {
-            "name": "Projekt Flödesdiagram",
-            "desc": "Projekt Flödesdiagram",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LO25Hk-Oshy6HvJD__7": {
-            "name": "Programmering Flödesschema",
-            "desc": "Programmering Flödesschema",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LO1umSlHxzk7IQ2cNbp": {
-            "name": "Decision Flowchart",
-            "desc": "Decision Flowchart",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LNmmxIQUISMU9UZhVpA": {
-            "name": "UML Management Diagram",
-            "desc": "UML Diagram (Management)",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LNNlun7IW-vqb4Jkf2K": {
-            "name": "Distribution Flowchart",
-            "desc": "Distribution Flowchart",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LNIeomS7DYPI4mQoDts": {
-            "name": "Production Flowchart",
-            "desc": "Production Flowchart",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LNIcdLxnrL6TKudHSu7": {
-            "name": "Swim Lane Flowchart",
-            "desc": "Swim Lane Flowchart",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LNIbml-y6Um9Cc96Xs2": {
-            "name": "System Process Flowchart",
-            "desc": "System Process Flowchart",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LNIZEvf6QRTnewa24Qu": {
-            "name": "Sales Process Flowchart",
-            "desc": "Sales Process Flowchart",
-            "cat": [
-                "Flödesschema"
-            ]
-        },
-        "-LLhghOZRW58l26roIoK": {
-            "name": "Business SWOT-analys",
-            "desc": "Business SWOT-analys",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LOHa7f3BRxDbIyGzEC1": {
-            "name": "UML-klassdiagram",
-            "desc": "UML-klassdiagram",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LOHZUUYiIbyXeccMvRn": {
-            "name": "UML Användningsfall",
-            "desc": "UML Användningsfall",
-            "cat": [
-                "UML"
-            ]
-        },
-        "-LR9ZsIBctq8yAIOy_LN": {
-            "name": "Pyramid Infographic",
-            "desc": "Pyramid Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LQNMChVpVmAYrWWXPm3": {
-            "name": "Företagsdiagram",
-            "desc": "Företagsdiagram",
-            "cat": [
-                "Business Diagram"
-            ]
-        },
-        "-LQM_hBqWlmtLjrB9xdn": {
-            "name": "Antal Infografiska",
-            "desc": "Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LPOrD-tZb-bAgKyCenP": {
-            "name": "Infografisk diagram",
-            "desc": "Infografisk diagram",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LPiIk6iw7E8380ogJ5T": {
-            "name": "Infographic Mind Map",
-            "desc": "Infographic Mind Map",
-            "cat": [
-                "Mind Map",
-                "Infographic"
-            ]
-        },
-        "-LPiIHIhgqkbaVv5sUPd": {
-            "name": "Tidslinje för arbetsflöde (Infographic)",
-            "desc": "Tidslinje för arbetsflöde (Infographic)",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LPP5w0wVEFswv7tvxmn": {
-            "name": "Branches Mind Map",
-            "desc": "Mind Map (Branches)",
-            "cat": [
-                "Mind Map"
-            ]
-        },
-        "-LRdPOMliqEvD2nYm7PG": {
-            "name": "Beställ ERD Diagram",
-            "desc": "Beställ ERD Diagram",
-            "cat": [
-                "ERD"
-            ]
-        },
-        "-LRF6o0_5PUaEftUzpeW": {
-            "name": "Tidslinje Infographic",
-            "desc": "Tidslinje Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LRUU-VbjDv_co_rrDtT": {
-            "name": "Jämförelse Infographic",
-            "desc": "Jämförelse Infographic",
-            "cat": [
-                "Infographic"
-            ]
-        },
-        "-LRpTMoTd8FvLTxu5FIq": {
-            "name": "Biblioteket ERD Diagram",
-            "desc": "Biblioteket ERD Diagram",
-            "cat": [
-                "ERD"
-            ]
-        },
-        "-LSS68ML75_xvplWe8tf": {
-            "name": "Organisationsschema",
-            "desc": "Organisationsschema"
-        },
-        "-LZClwSzDW0SN_TeAxE8": {
-            "name": "Världskarta",
-            "desc": "Choropleth World Map",
-            "cat": [
-                "Karta"
-            ]
-        },
-        "-LhhebPqMoBxzm7hV6cz": {
-            "name": "Nätverkstopologi (Star)",
-            "desc": "Nätverkstopologi (Star)",
-            "cat": [
-                "Nätverks diagram"
-            ]
-        },
-        "-LhhfSKJr0PMCUbMew3m": {
-            "name": "Nätverkstopologi (Ring)",
-            "desc": "Network Topology (Ring)",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-LhhfiMrAzzKmLQ_f49X": {
-            "name": "Nätverkstopologi (buss)",
-            "desc": "Network Topology (Bus)",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-Lhhg00ZXeL9WZZ54LkB": {
-            "name": "Server Nätverksdiagram",
-            "desc": "Server Network Diagram",
-            "cat": [
-                "Nätverks diagram"
-            ]
-        },
-        "-LhhgBiRHs3OM8z4XGFw": {
-            "name": "Home Network Diagram",
-            "desc": "Home Network Diagram",
-            "cat": [
-                "Nätverks diagram"
-            ]
-        },
-        "-LhhhySu8e6nzEMrc3vo": {
-            "name": "Office Network Diagram",
-            "desc": "Office Network Diagram",
-            "cat": [
-                "Nätverks diagram"
-            ]
-        },
-        "-LhhjEx-6EoS8kBd_5sc": {
-            "name": "Cloud Computing Service",
-            "desc": "Cloud Computing Service",
-            "cat": [
-                "Network Diagram"
-            ]
-        },
-        "-Lhhly3yKRE5IHr62aXk": {
-            "name": "Cloud Computing Typer",
-            "desc": "Cloud Computing Typer",
-            "cat": [
-                "Nätverks diagram"
-            ]
-        },
-        "-LhhkGx3d6h2h7z_mLPS": {
-            "name": "Arkitektur av Cloud Computing",
-            "desc": "Arkitektur av Cloud Computing",
-            "cat": [
-                "Network Diagram"
-            ]
-        }
     },
     "dialog": {
         "help_title": "Vecta Hjälp",
