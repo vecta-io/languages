@@ -658,6 +658,9 @@
         "team_guide": "Slack integration allows you to share Vecta drawing directly to your Slack Channels and invite your Slack channel members into Vecta teams."
     },
     "ui": {
+        "event": "Event",
+        "code": "Code",
+        "action": "Action",
         "ready": "Ready",
         "no_target": "Unable to find animation target.",
         "load_drawing": "Loading drawing...",
@@ -794,10 +797,6 @@
         "round_to": "Precision: ",
         "decimals": "decimals",
         "remove_CDATA": "Remove CDATA",
-        "embed_fonts": "Embed fonts",
-        "maintain_id": "Maintain ID",
-        "maintain_class": "Maintain classes",
-        "maintain_structure": "Maintain structure",
         "view_access": "You have view only access<br />to this drawing",
         "view_template": "You have view only access<br />to this template",
         "view": "View",
@@ -1038,6 +1037,11 @@
         "upload_font_noti": "Only file with .woff extension is allowed"
     },
     "drop": {
+        "maintain_id": "Maintain ID",
+        "maintain_class": "Maintain classes",
+        "maintain_structure": "Maintain structure",
+        "maintain_events": "Maintain events",
+        "embed_fonts": "Embed fonts",
         "effects": "Effects",
         "blur": "Blur",
         "drop_shadow": "Drop shadow",
@@ -1197,6 +1201,7 @@
         "playlist": "Playlist",
         "tutorial_vid": "Videos",
         "custom_json": "Custom JSON",
+        "custom_events": "Custom events",
         "custom_json_layer": "Custom JSON (Layer)",
         "outline_text": "Outline text",
         "switch_line_end": "Switch line end",
@@ -3524,9 +3529,7 @@
         "en": "English",
         "fr": "French",
         "ja": "Japanese",
-        "sv": "Swedish",
-        "zh-CN": "Simplified Chinese",
-        "zh-TW": "Traditional Chinese"
+        "sv": "Swedish"
     },
     "account": {
         "contacting_server": "Contacting server",
@@ -3602,7 +3605,11 @@
         "method_updated": "Payment method updated",
         "method_deleted": "Payment method deleted",
         "method_change_failed": "Failed to change payment method",
-        "permission_denied": "Permission denied"
+        "permission_denied": "Permission denied",
+        "devices": "Devices",
+        "device": "device",
+        "remove_devices": "Remove all",
+        "confirm_device": "Remove all devices from this serial key?"
     },
     "license": {
         "activate": "Activate",
