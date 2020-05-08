@@ -818,14 +818,16 @@
         "invite_email": "電子メールで招待（オプション）",
         "enable_popup": "ブラウザでポップアップを有効にしてください。",
         "move_to_dash": "ダッシュボードに移動",
-        "team_names.0": "ファンタスティック",
-        "team_names.1": "スマート",
-        "team_names.2": "ハッピー",
-        "team_names.3": "ヤバイ",
-        "team_names.4": "今までで最高のチーム",
-        "team_names.5": "クール",
-        "team_names.6": "楽しい",
-        "team_names.7": "勝ち組",
+        "team_names": [
+            "ファンタスティック",
+            "スマート",
+            "ハッピー",
+            "ヤバイ",
+            "今までで最高のチーム",
+            "クール",
+            "楽しい",
+            "勝ち組"
+        ],
         "create_folder": "新しいフォルダを作成する",
         "invite_people": "人を招待する",
         "name_your_team": "チーム/プロジェクト名",
@@ -1176,113 +1178,313 @@
         "publish_before_copy": "リンクをコピーする前に、図面を公開してください"
     },
     "tips": {
-        "Lock.tip": "ステンシルロック",
-        "sort.icon": "並び替え",
-        "bold.icon": "ボールド",
-        "undo.icon": "元に戻す（Ctrl + Z）",
-        "grid.icon": "グリッドビュー",
-        "list.icon": "リストビュー",
-        "save.icon": "左にドラッグ＆ドロップすると保存できます",
-        "pref.icon": "設定",
-        "redo.icon": "やり直し<br>（Ctrl-Y）",
-        "noti.icon": "通知",
-        "login.icon": "サインイン",
-        "Search.tip": "検索ステンシルは編集できません",
-        "reset.icon": "選択したグラデーションをリセット",
-        "align.icon": "選択した図形を整列する",
-        "Select.tip": "レイヤー内のすべての図形を選択",
-        "remove.help": "ユーザーを削除",
-        "expand.icon": "その他のツール...",
-        "italic.icon": "イタリック",
-        "videos.icon": "チュートリアルビデオを見る",
-        "Visible.tip": "レイヤーでのシェイプの表示/非表示",
-        "record.icon": "レコードマクロ",
-        "ascend.icon": "ソートを戻す",
-        "logout.icon": "サインアウト",
-        "arrange.icon": "選択した図形の重ね順を整列する",
-        "descend.icon": "ソートを逆にする",
-        "zoom_in.icon": "ズームイン<br> Ctrl +マウスホイール",
-        "profile.icon": "プロフィール",
-        "feedback.icon": "フィードバックを送信する",
-        "chat_box.icon": "チャットボックス",
-        "zoom_out.icon": "ズームアウト<br> Ctrl +マウスホイール",
-        "zoom_fit.icon": "ページに合わせて拡大",
-        "line_end.icon": "ラインプロパティ",
-        "line_end.menu": "始めを小さく",
-        "draw_path.icon": "パス、円弧、曲線の描画<br/>またはフリーフォーム（Ctrl-4）",
-        "draw_path.menu": "線を引く",
-        "file_name.icon": "図面の名前を変更する",
-        "underline.icon": "アンダーライン",
-        "font_size.icon": "フォントサイズ",
-        "dashboard.icon": "ダッシュボードを開く",
-        "SaveSearch.tip": "検索ステンシルを保存",
-        "add_layer.icon": "レイヤーを追加する",
-        "draw_rect.icon": "長方形を描画する<br/>（Ctrl-2）",
-        "font_color.icon": "フォントの色",
-        "line_color.icon": "線の色",
-        "operations.icon": "選択した図形をグループ化、グループ解除、反転、または結合する",
-        "text_align.icon": "テキストの整列",
-        "text_align.menu": "左揃え",
-        "page_setup.icon": "ページ設定",
-        "fill_color.icon": "色を塗る",
-        "shared_url.icon": "電子メールを送信せずに共有可能なリンクを取得する",
-        "zoom_level.icon": "ズームレベル",
-        "line_style.icon": "線のスタイル",
-        "save_record.icon": "マクロをエクスポートする",
-        "update_icon.icon": "シンボルアイコンを更新",
-        "revert_icon.icon": "アイコンを元に戻す",
-        "fields_prop.icon": "フィールドを追加する",
-        "line_weight.icon": "行の重み",
-        "color_trans.help": "透明度<br/> 0-100 / 0％-100％/ 0-1",
-        "toggle_grid.icon": "グリッドの表示/非表示",
-        "play_record.icon": "マクロを再生する",
-        "font_family.icon": "フォントファミリー",
-        "formula_prop.icon": "数式の表示/非表示",
-        "draw_ellipse.icon": "円または楕円を描く<br>（Ctrl-3）",
-        "pause_record.icon": "マクロを一時停止する",
-        "round_corner.icon": "角丸",
-        "draw_textblock.icon": "描画、移動、サイズ変更、<br />またはテキストの回転（Ctrl-5）",
-        "format_painter.icon": "フォーマット、色、 <br>式または<br> jsonペインター<br> （Ctrl-7）",
-        "preserve_ratio.icon": "ロック/アンロックの幅と高さ",
-        "draw_connector.icon": "コネクタを描画する<br>（Ctrl-6）",
-        "draw_connector.menu": "エルボーコネクタ",
-        "custom_gradient.icon": "左にドラッグ＆ドロップすると保存できます",
-        "Playlist.tip": "動画再生リスト",
-        "Minimize.tip": "最小化する",
-        "Maximize.tip": "最大化する",
-        "Close.tip": "閉じる",
-        "Expand.tip": "展開する",
-        "Collapse.tip": "崩壊",
-        "Add.tip": "追加",
-        "Remove.tip": "削除する",
-        "Save.tip": "セーブ",
-        "edit_profile.icon": "プロファイル編集",
-        "plug_main.icon": "プラグイン",
-        "fit_to_drawing.tip": "幅と高さを増やして余白を追加する",
-        "new_page.icon": "新しいページ",
-        "cursor.icon": "ポインタ、パンツール<br>（Ctrl-1）",
-        "cursor.menu": "ポインタツール",
-        "delete_page.icon": "ページを削除",
-        "pages.icon": "別のページを見る",
-        "color.help": "色の選択<br/> #fff / #ffffff / rgb（0、0、0）",
-        "bevel_color.help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）",
-        "shadow_color.help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）",
+        "Lock": {
+            "tip": "ステンシルロック"
+        },
+        "sort": {
+            "icon": "並び替え"
+        },
+        "bold": {
+            "icon": "ボールド"
+        },
+        "undo": {
+            "icon": "元に戻す（Ctrl + Z）"
+        },
+        "grid": {
+            "icon": "グリッドビュー"
+        },
+        "list": {
+            "icon": "リストビュー"
+        },
+        "save": {
+            "icon": "左にドラッグ＆ドロップすると保存できます"
+        },
+        "pref": {
+            "icon": "設定"
+        },
+        "redo": {
+            "icon": "やり直し<br>（Ctrl-Y）"
+        },
+        "noti": {
+            "icon": "通知"
+        },
+        "login": {
+            "icon": "サインイン"
+        },
+        "Search": {
+            "tip": "検索ステンシルは編集できません"
+        },
+        "reset": {
+            "icon": "選択したグラデーションをリセット"
+        },
+        "align": {
+            "icon": "選択した図形を整列する"
+        },
+        "Select": {
+            "tip": "レイヤー内のすべての図形を選択"
+        },
+        "remove": {
+            "help": "ユーザーを削除"
+        },
+        "expand": {
+            "icon": "その他のツール..."
+        },
+        "italic": {
+            "icon": "イタリック"
+        },
+        "videos": {
+            "icon": "チュートリアルビデオを見る"
+        },
+        "Visible": {
+            "tip": "レイヤーでのシェイプの表示/非表示"
+        },
+        "record": {
+            "icon": "レコードマクロ"
+        },
+        "ascend": {
+            "icon": "ソートを戻す"
+        },
+        "logout": {
+            "icon": "サインアウト"
+        },
+        "arrange": {
+            "icon": "選択した図形の重ね順を整列する"
+        },
+        "descend": {
+            "icon": "ソートを逆にする"
+        },
+        "zoom_in": {
+            "icon": "ズームイン<br> Ctrl +マウスホイール"
+        },
+        "profile": {
+            "icon": "プロフィール"
+        },
+        "feedback": {
+            "icon": "フィードバックを送信する"
+        },
+        "chat_box": {
+            "icon": "チャットボックス"
+        },
+        "zoom_out": {
+            "icon": "ズームアウト<br> Ctrl +マウスホイール"
+        },
+        "zoom_fit": {
+            "icon": "ページに合わせて拡大"
+        },
+        "line_end": {
+            "icon": "ラインプロパティ",
+            "menu": "始めを小さく"
+        },
+        "draw_path": {
+            "icon": "パス、円弧、曲線の描画<br/>またはフリーフォーム（Ctrl-4）",
+            "menu": "線を引く"
+        },
+        "file_name": {
+            "icon": "図面の名前を変更する"
+        },
+        "underline": {
+            "icon": "アンダーライン"
+        },
+        "font_size": {
+            "icon": "フォントサイズ"
+        },
+        "dashboard": {
+            "icon": "ダッシュボードを開く"
+        },
+        "SaveSearch": {
+            "tip": "検索ステンシルを保存"
+        },
+        "add_layer": {
+            "icon": "レイヤーを追加する"
+        },
+        "draw_rect": {
+            "icon": "長方形を描画する<br/>（Ctrl-2）"
+        },
+        "font_color": {
+            "icon": "フォントの色"
+        },
+        "line_color": {
+            "icon": "線の色"
+        },
+        "operations": {
+            "icon": "選択した図形をグループ化、グループ解除、反転、または結合する"
+        },
+        "text_align": {
+            "icon": "テキストの整列",
+            "menu": "左揃え"
+        },
+        "page_setup": {
+            "icon": "ページ設定"
+        },
+        "fill_color": {
+            "icon": "色を塗る"
+        },
+        "shared_url": {
+            "icon": "電子メールを送信せずに共有可能なリンクを取得する"
+        },
+        "zoom_level": {
+            "icon": "ズームレベル"
+        },
+        "line_style": {
+            "icon": "線のスタイル"
+        },
+        "save_record": {
+            "icon": "マクロをエクスポートする"
+        },
+        "update_icon": {
+            "icon": "シンボルアイコンを更新"
+        },
+        "revert_icon": {
+            "icon": "アイコンを元に戻す"
+        },
+        "fields_prop": {
+            "icon": "フィールドを追加する"
+        },
+        "line_weight": {
+            "icon": "行の重み"
+        },
+        "color_trans": {
+            "help": "透明度<br/> 0-100 / 0％-100％/ 0-1"
+        },
+        "toggle_grid": {
+            "icon": "グリッドの表示/非表示"
+        },
+        "play_record": {
+            "icon": "マクロを再生する"
+        },
+        "font_family": {
+            "icon": "フォントファミリー"
+        },
+        "formula_prop": {
+            "icon": "数式の表示/非表示"
+        },
+        "draw_ellipse": {
+            "icon": "円または楕円を描く<br>（Ctrl-3）"
+        },
+        "pause_record": {
+            "icon": "マクロを一時停止する"
+        },
+        "round_corner": {
+            "icon": "角丸"
+        },
+        "draw_textblock": {
+            "icon": "描画、移動、サイズ変更、<br />またはテキストの回転（Ctrl-5）"
+        },
+        "format_painter": {
+            "icon": "フォーマット、色、 <br>式または<br> jsonペインター<br> （Ctrl-7）"
+        },
+        "preserve_ratio": {
+            "icon": "ロック/アンロックの幅と高さ"
+        },
+        "draw_connector": {
+            "icon": "コネクタを描画する<br>（Ctrl-6）",
+            "menu": "エルボーコネクタ"
+        },
+        "custom_gradient": {
+            "icon": "左にドラッグ＆ドロップすると保存できます"
+        },
+        "Playlist": {
+            "tip": "動画再生リスト"
+        },
+        "Minimize": {
+            "tip": "最小化する"
+        },
+        "Maximize": {
+            "tip": "最大化する"
+        },
+        "Close": {
+            "tip": "閉じる"
+        },
+        "Expand": {
+            "tip": "展開する"
+        },
+        "Collapse": {
+            "tip": "崩壊"
+        },
+        "Add": {
+            "tip": "追加"
+        },
+        "Remove": {
+            "tip": "削除する"
+        },
+        "Save": {
+            "tip": "セーブ"
+        },
+        "edit_profile": {
+            "icon": "プロファイル編集"
+        },
+        "plug_main": {
+            "icon": "プラグイン"
+        },
+        "fit_to_drawing": {
+            "tip": "幅と高さを増やして余白を追加する"
+        },
+        "new_page": {
+            "icon": "新しいページ"
+        },
+        "cursor": {
+            "icon": "ポインタ、パンツール<br>（Ctrl-1）",
+            "menu": "ポインタツール"
+        },
+        "delete_page": {
+            "icon": "ページを削除"
+        },
+        "pages": {
+            "icon": "別のページを見る"
+        },
+        "color": {
+            "help": "色の選択<br/> #fff / #ffffff / rgb（0、0、0）"
+        },
+        "bevel_color": {
+            "help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）"
+        },
+        "shadow_color": {
+            "help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）"
+        },
         "blur_help": "ぼかしはどんな効果でも使用できません。",
         "shadow_help": "ドロップシャドウはベベルと一緒に使用できます。<br>インナーシャドウはどのエフェクトとも一緒には使用できません。",
-        "rect_help.icon": "助けて",
-        "page_up.icon": "前のページ",
-        "page_down.icon": "次のページ",
-        "Delete.tip": "Delete",
-        "AddField.tip": "Add field",
-        "FormulaField.tip": "Edit formula",
-        "AddLayer.tip": "Add layer",
-        "AddEffect.tip": "Add effect",
-        "AddCustomMenu.tip": "Add custom menu",
-        "ListCustomMenu.tip": "List custom menu",
-        "share.icon": "シェア",
-        "view.icon": "見る",
-        "file.icon": "環境設定",
-        "export.icon": "書き出す"
+        "rect_help": {
+            "icon": "助けて"
+        },
+        "page_up": {
+            "icon": "前のページ"
+        },
+        "page_down": {
+            "icon": "次のページ"
+        },
+        "Delete": {
+            "tip": "Delete"
+        },
+        "AddField": {
+            "tip": "Add field"
+        },
+        "FormulaField": {
+            "tip": "Edit formula"
+        },
+        "AddLayer": {
+            "tip": "Add layer"
+        },
+        "AddEffect": {
+            "tip": "Add effect"
+        },
+        "AddCustomMenu": {
+            "tip": "Add custom menu"
+        },
+        "ListCustomMenu": {
+            "tip": "List custom menu"
+        },
+        "share": {
+            "icon": "シェア"
+        },
+        "view": {
+            "icon": "見る"
+        },
+        "file": {
+            "icon": "環境設定"
+        },
+        "export": {
+            "icon": "書き出す"
+        }
     },
     "preload": {
         "slack": "優れたコラボレーションのためにVectaとSlackを統合",
@@ -1364,29 +1566,37 @@
     "settings": {
         "sound": "次の場合にサウンドを再生する：",
         "reading": "読書設定",
-        "noti.push": "デスクトップ通知を有効にする",
-        "noti.renamed": "図面、フォルダまたはステンシルの名前が変更されました",
-        "noti.trashed": "図面、フォルダ、またはステンシルをゴミ箱に入れた",
-        "noti.created": "新しい図面、フォルダ、またはステンシルを作成しました。",
-        "general.lang": "言語",
-        "general.new_user": "共同編集者が編集に参加する",
-        "general.new_mssg": "チャットメッセージを受信しました",
-        "general.sym_resize": "グリッドにスナップするシンボルのサイズを自動的に変更",
-        "general.export_selection": "エクスポート時に選択を無視してページ全体を使用する",
-        "general.key_incre_type": "キーボードインクリメント",
-        "general.key_incre_types": "オート",
-        "general.custom_key_incre": "増分を設定",
-        "general.connector_curve": "コネクタ曲線サイズ",
-        "general.show_stencil_bar": "ステンシルのスクロールバーを常に表示する",
+        "noti": {
+            "push": "デスクトップ通知を有効にする",
+            "renamed": "図面、フォルダまたはステンシルの名前が変更されました",
+            "trashed": "図面、フォルダ、またはステンシルをゴミ箱に入れた",
+            "created": "新しい図面、フォルダ、またはステンシルを作成しました。"
+        },
+        "general": {
+            "lang": "言語",
+            "new_user": "共同編集者が編集に参加する",
+            "new_mssg": "チャットメッセージを受信しました",
+            "sym_resize": "グリッドにスナップするシンボルのサイズを自動的に変更",
+            "export_selection": "エクスポート時に選択を無視してページ全体を使用する",
+            "key_incre_type": "キーボードインクリメント",
+            "key_incre_types": "オート",
+            "custom_key_incre": "増分を設定",
+            "connector_curve": "コネクタ曲線サイズ",
+            "show_stencil_bar": "ステンシルのスクロールバーを常に表示する"
+        },
         "receive_noti": "チームメンバー：",
-        "files.sten": "ステンシルパス：",
-        "files.plug": "プラグインパス：",
-        "files.compdb": "コンポーネントデータベースパス：",
-        "import.default_unit": "デフォルト単位",
-        "import.units": "オート",
-        "import.dxf_dimensions": "インポート寸法",
-        "import.dxf_layers": "レイヤーをインポートする",
-        "import.dxf_stroke": "ストローク幅"
+        "files": {
+            "sten": "ステンシルパス：",
+            "plug": "プラグインパス：",
+            "compdb": "コンポーネントデータベースパス："
+        },
+        "import": {
+            "default_unit": "デフォルト単位",
+            "units": "オート",
+            "dxf_dimensions": "インポート寸法",
+            "dxf_layers": "レイヤーをインポートする",
+            "dxf_stroke": "ストローク幅"
+        }
     },
     "integrate": {
         "error": "何かが間違っている...",
@@ -1415,162 +1625,260 @@
         "stencil_desc": "ステンシル記述",
         "total_results": "表示される@@結果の",
         "load_stencils": "ステンシルの読み込み中...",
-        "stencil_5.desc": "Amazon Webサービス：Analytics",
-        "stencil_5.name": "AWS Analytics",
-        "stencil_5.cat": "Amazon Webサービス",
-        "stencil_2.desc": "異なるサイズのビジネスモデルキャンバス",
-        "stencil_2.name": "ビジネスモデルキャンバス",
+        "stencil_5": {
+            "desc": "Amazon Webサービス：Analytics",
+            "name": "AWS Analytics",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_2": {
+            "desc": "異なるサイズのビジネスモデルキャンバス",
+            "name": "ビジネスモデルキャンバス"
+        },
         "no_edit_symbol": "このシンボルを編集する権限がありません。",
         "public_stencil": "公開 - 誰でもシンボルにアクセスできます",
         "stencil_access": "ステンシルアクセス",
         "delete_stencil": "ステンシルを削除",
-        "stencil_8.name": "AWSビジネスの生産性",
-        "stencil_8.desc": "Amazon Webサービス：ビジネス生産性",
-        "stencil_8.cat": "Amazon Webサービス",
-        "stencil_9.name": "AWS計算",
-        "stencil_9.desc": "Amazon Webサービス：計算",
-        "stencil_9.cat": "Amazon Webサービス",
+        "stencil_8": {
+            "name": "AWSビジネスの生産性",
+            "desc": "Amazon Webサービス：ビジネス生産性",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_9": {
+            "name": "AWS計算",
+            "desc": "Amazon Webサービス：計算",
+            "cat": "Amazon Webサービス"
+        },
         "create_stencil": "ステンシルを作成する",
-        "stencil_0.name": "フローチャート",
-        "stencil_0.desc": "一般的なフローチャートのシンボル",
-        "stencil_0.cat": "チャートと図",
-        "stencil_4.name": "Google Cloud Platform",
-        "stencil_4.desc": "Googleクラウドプラットフォームのシンボル",
-        "stencil_4.cat": "Google",
+        "stencil_0": {
+            "name": "フローチャート",
+            "desc": "一般的なフローチャートのシンボル",
+            "cat": "チャートと図"
+        },
+        "stencil_4": {
+            "name": "Google Cloud Platform",
+            "desc": "Googleクラウドプラットフォームのシンボル",
+            "cat": "Google"
+        },
         "no_drop_symbol": "保存された検索ステンシルにシンボルを保存することはできません。",
-        "stencil_6.name": "AWSアプリケーションサービス",
-        "stencil_6.desc": "Amazon Webサービス：アプリケーションサービス",
-        "stencil_6.cat": "Amazon Webサービス",
-        "stencil_7.desc": "Amazon Webサービス：人工知能",
-        "stencil_7.name": "AWS人工知能",
-        "stencil_7.cat": "Amazon Webサービス",
-        "stencil_1.desc": "カラフルな音符記号",
-        "stencil_1.name": "カラフルなノート",
-        "stencil_1.cat": "人、旗、文書",
-        "stencil_3.desc": "Googleの商品シンボル",
-        "stencil_3.name": "Google",
-        "stencil_3.cat": "Google",
+        "stencil_6": {
+            "name": "AWSアプリケーションサービス",
+            "desc": "Amazon Webサービス：アプリケーションサービス",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_7": {
+            "desc": "Amazon Webサービス：人工知能",
+            "name": "AWS人工知能",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_1": {
+            "desc": "カラフルな音符記号",
+            "name": "カラフルなノート",
+            "cat": "人、旗、文書"
+        },
+        "stencil_3": {
+            "desc": "Googleの商品シンボル",
+            "name": "Google",
+            "cat": "Google"
+        },
         "not_updateable": "ステンシルが更新されません",
-        "stencil_21.desc": "Amazon Webサービス：オンデマンドの労働力",
-        "stencil_21.name": "AWS On Demand Workforce",
-        "stencil_21.cat": "Amazon Webサービス",
-        "stencil_32.name": "Microsoft Intune",
-        "stencil_32.desc": "Microsoft Azure：Intune",
-        "stencil_32.cat": "マイクロソフト",
-        "stencil_19.name": "AWSモバイルサービス",
-        "stencil_19.desc": "Amazon Webサービス：モバイルサービス",
-        "stencil_19.cat": "Amazon Webサービス",
-        "stencil_36.name": "ネットワークインフラ",
-        "stencil_36.desc": "ネットワークインフラストラクチャシンボル",
-        "stencil_36.cat": "コンピュータとネットワーク",
-        "stencil_37.desc": "基本的なネットワークシンボル",
-        "stencil_37.name": "基本的なネットワーク",
-        "stencil_37.cat": "コンピュータとネットワーク",
-        "stencil_20.name": "AWSネットワーク＆コンテンツ配信",
-        "stencil_20.desc": "Amazon Web Services：ネットワークとコンテンツ配信",
-        "stencil_20.cat": "Amazon Webサービス",
-        "stencil_25.name": "ウェブ技術",
-        "stencil_25.desc": "一般的なWebテクノロジーのシンボル",
-        "stencil_25.cat": "コンピュータとネットワーク",
-        "stencil_31.name": "マイクロソフトエンタープライズ",
-        "stencil_31.desc": "Microsoft Azure：エンタープライズ",
-        "stencil_31.cat": "マイクロソフト",
+        "stencil_21": {
+            "desc": "Amazon Webサービス：オンデマンドの労働力",
+            "name": "AWS On Demand Workforce",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_32": {
+            "name": "Microsoft Intune",
+            "desc": "Microsoft Azure：Intune",
+            "cat": "マイクロソフト"
+        },
+        "stencil_19": {
+            "name": "AWSモバイルサービス",
+            "desc": "Amazon Webサービス：モバイルサービス",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_36": {
+            "name": "ネットワークインフラ",
+            "desc": "ネットワークインフラストラクチャシンボル",
+            "cat": "コンピュータとネットワーク"
+        },
+        "stencil_37": {
+            "desc": "基本的なネットワークシンボル",
+            "name": "基本的なネットワーク",
+            "cat": "コンピュータとネットワーク"
+        },
+        "stencil_20": {
+            "name": "AWSネットワーク＆コンテンツ配信",
+            "desc": "Amazon Web Services：ネットワークとコンテンツ配信",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_25": {
+            "name": "ウェブ技術",
+            "desc": "一般的なWebテクノロジーのシンボル",
+            "cat": "コンピュータとネットワーク"
+        },
+        "stencil_31": {
+            "name": "マイクロソフトエンタープライズ",
+            "desc": "Microsoft Azure：エンタープライズ",
+            "cat": "マイクロソフト"
+        },
         "creating_search": "ステンシルの作成...",
-        "stencil_17.desc": "Amazon Webサービス：メッセージング",
-        "stencil_17.name": "AWSメッセージング",
-        "stencil_17.cat": "Amazon Webサービス",
-        "stencil_38.name": "コンピュータとモニタ",
-        "stencil_38.desc": "表示装置",
-        "stencil_38.cat": "コンピュータとネットワーク",
-        "stencil_14.desc": "Amazon Webサービス：一般",
-        "stencil_14.name": "AWS全般",
-        "stencil_14.cat": "Amazon Webサービス",
-        "stencil_27.name": "Microsoft Azure Mono",
-        "stencil_27.desc": "Microsoft Azure：モノクロ記号",
-        "stencil_27.cat": "マイクロソフト",
-        "stencil_13.desc": "Amazon Webサービス：ゲーム開発",
-        "stencil_13.name": "AWSゲーム開発",
-        "stencil_13.cat": "Amazon Webサービス",
-        "stencil_10.name": "AWSデータベース",
-        "stencil_10.desc": "Amazon Webサービス：データベース",
-        "stencil_10.cat": "Amazon Webサービス",
-        "stencil_40.desc": "UMLアクティビティ図",
-        "stencil_40.name": "UMLの活動",
-        "stencil_40.cat": "チャートと図",
-        "stencil_28.name": "マイクロソフトアズールカラー",
-        "stencil_28.desc": "Microsoft Azure：色の記号",
-        "stencil_28.cat": "マイクロソフト",
-        "stencil_34.desc": "",
-        "stencil_34.name": "人",
-        "stencil_34.cat": "人、旗、文書",
-        "stencil_15.name": "AWSインターネットオブシチュエーション",
-        "stencil_15.desc": "Amazon Webサービス：物のインターネット",
-        "stencil_15.cat": "Amazon Webサービス",
-        "stencil_18.name": "AWSの移行",
-        "stencil_18.desc": "Amazon Webサービス：移行",
-        "stencil_18.cat": "Amazon Webサービス",
+        "stencil_17": {
+            "desc": "Amazon Webサービス：メッセージング",
+            "name": "AWSメッセージング",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_38": {
+            "name": "コンピュータとモニタ",
+            "desc": "表示装置",
+            "cat": "コンピュータとネットワーク"
+        },
+        "stencil_14": {
+            "desc": "Amazon Webサービス：一般",
+            "name": "AWS全般",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_27": {
+            "name": "Microsoft Azure Mono",
+            "desc": "Microsoft Azure：モノクロ記号",
+            "cat": "マイクロソフト"
+        },
+        "stencil_13": {
+            "desc": "Amazon Webサービス：ゲーム開発",
+            "name": "AWSゲーム開発",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_10": {
+            "name": "AWSデータベース",
+            "desc": "Amazon Webサービス：データベース",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_40": {
+            "desc": "UMLアクティビティ図",
+            "name": "UMLの活動",
+            "cat": "チャートと図"
+        },
+        "stencil_28": {
+            "name": "マイクロソフトアズールカラー",
+            "desc": "Microsoft Azure：色の記号",
+            "cat": "マイクロソフト"
+        },
+        "stencil_34": {
+            "desc": "",
+            "name": "人",
+            "cat": "人、旗、文書"
+        },
+        "stencil_15": {
+            "name": "AWSインターネットオブシチュエーション",
+            "desc": "Amazon Webサービス：物のインターネット",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_18": {
+            "name": "AWSの移行",
+            "desc": "Amazon Webサービス：移行",
+            "cat": "Amazon Webサービス"
+        },
         "no_edit_stencil": "このステンシルを編集する権限がありません。",
-        "stencil_44.desc": "棒グラフ表現",
-        "stencil_44.name": "棒グラフ",
-        "stencil_44.cat": "チャートと図",
-        "stencil_24.name": "AWSストレージ",
-        "stencil_24.desc": "Amazon Webサービス：ストレージ",
-        "stencil_24.cat": "Amazon Webサービス",
-        "stencil_45.name": "組織図",
-        "stencil_45.desc": "組織内の位置や職務の関係を示す組織の構造のグラフィック表現。",
-        "stencil_45.cat": "チャートと図",
-        "stencil_43.desc": "論理的または数学的関係の表現",
-        "stencil_43.name": "ベンダイアグラム",
-        "stencil_43.cat": "チャートと図",
-        "stencil_47.name": "心理図",
-        "stencil_47.desc": "アイデアとコンセプトのグラフィック表現",
-        "stencil_48.desc": "セルの行と列の表現",
-        "stencil_48.name": "テーブル",
-        "stencil_33.desc": "Microsoft Azure：Office製品",
-        "stencil_33.name": "Microsoft Office製品",
-        "stencil_33.cat": "マイクロソフト",
-        "stencil_26.desc": "カラフルな文書とフォルダシンボル",
-        "stencil_26.name": "カラフルな文書とフォルダ",
-        "stencil_26.cat": "人、旗、文書",
-        "stencil_12.name": "AWSデベロッパーツール",
-        "stencil_12.desc": "Amazon Webサービス：開発ツール",
-        "stencil_12.cat": "Amazon Webサービス",
-        "stencil_41.name": "UMLクラス",
-        "stencil_41.desc": "UMLクラス図",
-        "stencil_41.cat": "チャートと図",
+        "stencil_44": {
+            "desc": "棒グラフ表現",
+            "name": "棒グラフ",
+            "cat": "チャートと図"
+        },
+        "stencil_24": {
+            "name": "AWSストレージ",
+            "desc": "Amazon Webサービス：ストレージ",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_45": {
+            "name": "組織図",
+            "desc": "組織内の位置や職務の関係を示す組織の構造のグラフィック表現。",
+            "cat": "チャートと図"
+        },
+        "stencil_43": {
+            "desc": "論理的または数学的関係の表現",
+            "name": "ベンダイアグラム",
+            "cat": "チャートと図"
+        },
+        "stencil_47": {
+            "name": "心理図",
+            "desc": "アイデアとコンセプトのグラフィック表現"
+        },
+        "stencil_48": {
+            "desc": "セルの行と列の表現",
+            "name": "テーブル"
+        },
+        "stencil_33": {
+            "desc": "Microsoft Azure：Office製品",
+            "name": "Microsoft Office製品",
+            "cat": "マイクロソフト"
+        },
+        "stencil_26": {
+            "desc": "カラフルな文書とフォルダシンボル",
+            "name": "カラフルな文書とフォルダ",
+            "cat": "人、旗、文書"
+        },
+        "stencil_12": {
+            "name": "AWSデベロッパーツール",
+            "desc": "Amazon Webサービス：開発ツール",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_41": {
+            "name": "UMLクラス",
+            "desc": "UMLクラス図",
+            "cat": "チャートと図"
+        },
         "untitled_symbol": "無題のシンボル",
         "private_stencil": "プライベート - あなたまたはあなたのチームだけがシンボルにアクセスできます",
-        "stencil_29.desc": "Microsoft Azure：仮想マシン",
-        "stencil_29.name": "Microsoft仮想マシン",
-        "stencil_29.cat": "マイクロソフト",
+        "stencil_29": {
+            "desc": "Microsoft Azure：仮想マシン",
+            "name": "Microsoft仮想マシン",
+            "cat": "マイクロソフト"
+        },
         "symbol_no_exist": "以下の項目は設定できません。シンボルはもはや存在しないかもしれません。あるいは、あなたはそれにアクセスする許可を持っていません。",
-        "stencil_22.name": "AWS SDK",
-        "stencil_22.desc": "Amazon Webサービス：ソフトウェア開発キット",
-        "stencil_22.cat": "Amazon Webサービス",
-        "stencil_16.name": "AWS管理ツール",
-        "stencil_16.desc": "Amazon Webサービス：管理ツール",
-        "stencil_16.cat": "Amazon Webサービス",
-        "stencil_39.name": "UMLのユースケース",
-        "stencil_39.desc": "UMLユースケース図",
-        "stencil_39.cat": "チャートと図",
-        "stencil_35.desc": "コンテナとして機能するブロック",
-        "stencil_35.name": "コンテナ",
-        "stencil_35.cat": "人、旗、文書",
-        "stencil_42.desc": "UMLエンティティ関係図",
-        "stencil_42.name": "UMLエンティティの関係",
-        "stencil_42.cat": "チャートと図",
-        "stencil_46.desc": "条件またはイベントに基づいてパスを調整できるUML決定点。",
-        "stencil_46.name": "UMLゲートウェイ",
-        "stencil_46.cat": "チャートと図",
-        "stencil_30.desc": "Microsoft Azure：システムセンター",
-        "stencil_30.name": "Microsoft Systems Center",
-        "stencil_30.cat": "マイクロソフト",
-        "stencil_23.desc": "Amazon Webサービス：アイデンティティとコンプライアンス",
-        "stencil_23.name": "AWSセキュリティのアイデンティティとコンプライアンス",
-        "stencil_23.cat": "Amazon Webサービス",
-        "stencil_11.name": "AWSデスクトップアプリストリーミング",
-        "stencil_11.desc": "Amazon Webサービス：デスクトップアプリケーションのストリーミング",
-        "stencil_11.cat": "Amazon Webサービス",
+        "stencil_22": {
+            "name": "AWS SDK",
+            "desc": "Amazon Webサービス：ソフトウェア開発キット",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_16": {
+            "name": "AWS管理ツール",
+            "desc": "Amazon Webサービス：管理ツール",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_39": {
+            "name": "UMLのユースケース",
+            "desc": "UMLユースケース図",
+            "cat": "チャートと図"
+        },
+        "stencil_35": {
+            "desc": "コンテナとして機能するブロック",
+            "name": "コンテナ",
+            "cat": "人、旗、文書"
+        },
+        "stencil_42": {
+            "desc": "UMLエンティティ関係図",
+            "name": "UMLエンティティの関係",
+            "cat": "チャートと図"
+        },
+        "stencil_46": {
+            "desc": "条件またはイベントに基づいてパスを調整できるUML決定点。",
+            "name": "UMLゲートウェイ",
+            "cat": "チャートと図"
+        },
+        "stencil_30": {
+            "desc": "Microsoft Azure：システムセンター",
+            "name": "Microsoft Systems Center",
+            "cat": "マイクロソフト"
+        },
+        "stencil_23": {
+            "desc": "Amazon Webサービス：アイデンティティとコンプライアンス",
+            "name": "AWSセキュリティのアイデンティティとコンプライアンス",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_11": {
+            "name": "AWSデスクトップアプリストリーミング",
+            "desc": "Amazon Webサービス：デスクトップアプリケーションのストリーミング",
+            "cat": "Amazon Webサービス"
+        },
         "untitled_stencil": "無題のステンシル",
         "no_delete_symbol": "このシンボルを削除する権限はありません。",
         "login_make_symbol": "シンボルを作成するにはログインしてください。",
@@ -1579,770 +1887,1146 @@
         "offline": "あなたは現在オフラインです。オンラインのときにもう一度お試しください。",
         "success_refresh": "シンボルは正常にリフレッシュされました。",
         "fail_refresh": "シンボルは存在しません。",
-        "stencil_49.name": "測定ツール",
-        "stencil_49.desc": "測定ツール",
-        "stencil_50.name": "マテリアルデザインパレット",
-        "stencil_50.desc": "マテリアルデザインからインスパイアされたカラーパレット",
-        "stencil_50.cat": "Google",
+        "stencil_49": {
+            "name": "測定ツール",
+            "desc": "測定ツール"
+        },
+        "stencil_50": {
+            "name": "マテリアルデザインパレット",
+            "desc": "マテリアルデザインからインスパイアされたカラーパレット",
+            "cat": "Google"
+        },
         "open_all": "すべてのステンシルを開く",
-        "stencil_51.name": "タイトルブロック",
-        "stencil_51.desc": "タイトルブロックのテンプレート",
-        "stencil_52.name": "AWS Contact Center",
-        "stencil_52.desc": "Amazon Webサービス：コンタクトセンター",
-        "stencil_52.cat": "Amazon Webサービス",
-        "stencil_53.name": "AWSコンテナ",
-        "stencil_53.desc": "Amazon Webサービス：コンテナ",
-        "stencil_53.cat": "Amazon Webサービス",
+        "stencil_51": {
+            "name": "タイトルブロック",
+            "desc": "タイトルブロックのテンプレート"
+        },
+        "stencil_52": {
+            "name": "AWS Contact Center",
+            "desc": "Amazon Webサービス：コンタクトセンター",
+            "cat": "Amazon Webサービス"
+        },
+        "stencil_53": {
+            "name": "AWSコンテナ",
+            "desc": "Amazon Webサービス：コンテナ",
+            "cat": "Amazon Webサービス"
+        },
         "no_share_stencil": "このステンシルを共有する権限がありません。",
-        "stencil_54.name": "写真の組織図",
-        "stencil_54.desc": "画像ホルダー付きの組織図のコンテナのリスト",
-        "stencil_54.cat": "チャートと図",
-        "stencil_55.name": "セリフフォント",
-        "stencil_55.desc": "印刷媒体に適したフォント",
-        "stencil_55.cat": "グーグル",
-        "stencil_56.name": "San Serifフォント",
-        "stencil_56.desc": "デジタルスクリーン用の好ましいフォント。",
-        "stencil_56.cat": "グーグル",
-        "stencil_57.name": "固定幅フォント",
-        "stencil_57.desc": "タイプライティングに適したフォント。",
-        "stencil_57.cat": "グーグル",
-        "stencil_58.name": "手書き用フォント",
-        "stencil_58.desc": "ブランディング、デザイン作品、印刷媒体に最適なフォント",
-        "stencil_58.cat": "グーグル",
-        "stencil_59.name": "表示用フォント",
-        "stencil_59.desc": "Preferred fonts for branding, design artworks and printed medium",
-        "stencil_59.cat": "グーグル",
-        "stencil_60.name": "Cisco Application Control Engine",
-        "stencil_60.desc": "アプリケーション制御エンジン -  ACE XML Gateway",
-        "stencil_60.cat": "シスコ",
-        "stencil_61.name": "Cisco UC500シリーズ",
-        "stencil_61.desc": "中小企業向けCisco Unified Communications 500シリーズ",
-        "stencil_61.cat": "シスコ",
-        "stencil_62.name": "シスコセキュリティステルスウォッチ",
-        "stencil_62.desc": "シスコセキュリティステルスウォッチのシンボル",
-        "stencil_62.cat": "シスコ",
-        "stencil_63.name": "Cisco SAFEのアーキテクチャ",
-        "stencil_63.desc": "Cisco SAFEのアーキテクチャシンボル",
-        "stencil_63.cat": "シスコ",
+        "stencil_54": {
+            "name": "写真の組織図",
+            "desc": "画像ホルダー付きの組織図のコンテナのリスト",
+            "cat": "チャートと図"
+        },
+        "stencil_55": {
+            "name": "セリフフォント",
+            "desc": "印刷媒体に適したフォント",
+            "cat": "グーグル"
+        },
+        "stencil_56": {
+            "name": "San Serifフォント",
+            "desc": "デジタルスクリーン用の好ましいフォント。",
+            "cat": "グーグル"
+        },
+        "stencil_57": {
+            "name": "固定幅フォント",
+            "desc": "タイプライティングに適したフォント。",
+            "cat": "グーグル"
+        },
+        "stencil_58": {
+            "name": "手書き用フォント",
+            "desc": "ブランディング、デザイン作品、印刷媒体に最適なフォント",
+            "cat": "グーグル"
+        },
+        "stencil_59": {
+            "name": "表示用フォント",
+            "desc": "Preferred fonts for branding, design artworks and printed medium",
+            "cat": "グーグル"
+        },
+        "stencil_60": {
+            "name": "Cisco Application Control Engine",
+            "desc": "アプリケーション制御エンジン -  ACE XML Gateway",
+            "cat": "シスコ"
+        },
+        "stencil_61": {
+            "name": "Cisco UC500シリーズ",
+            "desc": "中小企業向けCisco Unified Communications 500シリーズ",
+            "cat": "シスコ"
+        },
+        "stencil_62": {
+            "name": "シスコセキュリティステルスウォッチ",
+            "desc": "シスコセキュリティステルスウォッチのシンボル",
+            "cat": "シスコ"
+        },
+        "stencil_63": {
+            "name": "Cisco SAFEのアーキテクチャ",
+            "desc": "Cisco SAFEのアーキテクチャシンボル",
+            "cat": "シスコ"
+        },
         "sym_update_failed": "<br />存在しないか、許可がないために、一部のシンボルが更新されません。",
         "all_saved": "すべてのステンシル変更を保存",
-        "stencil_65.name": "ソーシャルメディア",
-        "stencil_65.desc": "有名なソーシャルメディアのアイコンのコレクション",
-        "stencil_66.name": "世界の国旗",
-        "stencil_66.desc": "SVGフォーマットの世界の国旗の大規模なコレクション",
-        "stencil_66.cat": "人、旗、文書",
-        "stencil_67.name": "間取り図",
-        "stencil_67.desc": "カスタマイズ可能な平面図記号",
-        "stencil_68.name": "アバター",
-        "stencil_68.desc": "人のアバター",
-        "stencil_68.cat": "人、旗、文書",
-        "stencil_69.name": "コメント",
-        "stencil_69.desc": "Comments are assigned to layers, so you can customize its visibility during exporting/printing",
-        "stencil_69.cat": "人、旗、文書",
-        "stencil_70.name": "ドーナツチャート",
-        "stencil_70.desc": "ドーナツグラフ表示",
-        "stencil_70.cat": "チャートと図",
-        "stencil_64.name": "ソーシャルメディア（シャドウ）",
-        "stencil_64.desc": "ソーシャルメディアのアイコンのコレクション",
-        "stencil_71.name": "ゲージとメーター",
-        "stencil_71.desc": "インタラクティブゲージとメーター",
+        "stencil_65": {
+            "name": "ソーシャルメディア",
+            "desc": "有名なソーシャルメディアのアイコンのコレクション"
+        },
+        "stencil_66": {
+            "name": "世界の国旗",
+            "desc": "SVGフォーマットの世界の国旗の大規模なコレクション",
+            "cat": "人、旗、文書"
+        },
+        "stencil_67": {
+            "name": "間取り図",
+            "desc": "カスタマイズ可能な平面図記号"
+        },
+        "stencil_68": {
+            "name": "アバター",
+            "desc": "人のアバター",
+            "cat": "人、旗、文書"
+        },
+        "stencil_69": {
+            "name": "コメント",
+            "desc": "Comments are assigned to layers, so you can customize its visibility during exporting/printing",
+            "cat": "人、旗、文書"
+        },
+        "stencil_70": {
+            "name": "ドーナツチャート",
+            "desc": "ドーナツグラフ表示",
+            "cat": "チャートと図"
+        },
+        "stencil_64": {
+            "name": "ソーシャルメディア（シャドウ）",
+            "desc": "ソーシャルメディアのアイコンのコレクション"
+        },
+        "stencil_71": {
+            "name": "ゲージとメーター",
+            "desc": "インタラクティブゲージとメーター"
+        },
         "free_svg_symbols": "無料のSVGシンボル",
         "request_symbols_title": "シンボル請求",
         "request_symbols": "シンボルをリクエスト",
-        "stencil_72.name": "Brands 0 - 9",
-        "stencil_72.desc": "",
-        "stencil_72.cat": "ブランドロゴ",
-        "stencil_72.credit_name": "ベクトルロゴゾーン",
-        "stencil_72.credit_link": "https://www.vectorlogo.zone/",
-        "stencil_73.name": "ブランドAA  -  AO",
-        "stencil_73.desc": "",
-        "stencil_73.cat": "ブランドロゴ",
-        "stencil_73.credit_name": "ベクトルロゴゾーン",
-        "stencil_73.credit_link": "https://www.vectorlogo.zone/",
-        "stencil_74.name": "Brands AP - AZ",
-        "stencil_74.desc": "",
-        "stencil_74.cat": "ブランドロゴ",
-        "stencil_74.credit_name": "ベクトルロゴゾーン",
-        "stencil_74.credit_link": "https://vectorlogo.zone/",
-        "stencil_75.name": "Brands BA - BZ",
-        "stencil_75.desc": "",
-        "stencil_75.cat": "ブランドロゴ",
-        "stencil_75.credit_name": "ベクトルロゴゾーン",
-        "stencil_75.credit_link": "https://vectorlogo.zone/",
-        "stencil_76.name": "Brands CA - CL",
-        "stencil_76.desc": "",
-        "stencil_76.cat": "ブランドロゴ",
-        "stencil_76.credit_name": "ベクトルロゴゾーン",
-        "stencil_76.credit_link": "https://www.vectorlogo.zone/",
-        "stencil_77.name": "ブランドCM  -  CZ",
-        "stencil_77.desc": "",
-        "stencil_77.cat": "ブランドロゴ",
-        "stencil_77.credit_name": "ベクトルロゴゾーン",
-        "stencil_77.credit_link": "https://www.vectorlogo.zone/",
-        "stencil_78.name": "Brands DA - DZ",
-        "stencil_78.desc": "",
-        "stencil_78.cat": "ブランドロゴ",
-        "stencil_78.credit_name": "ベクトルロゴゾーン",
-        "stencil_78.credit_link": "https://vectorlogo.zone/",
-        "stencil_79.name": "Brands EA - EZ",
-        "stencil_79.desc": "",
-        "stencil_79.cat": "ブランドロゴ",
-        "stencil_79.credit_name": "ベクトルロゴゾーン",
-        "stencil_79.credit_link": "https://vectorlogo.zone/",
-        "stencil_80.name": "Brands FA - FZ",
-        "stencil_80.desc": "",
-        "stencil_80.cat": "ブランドロゴ",
-        "stencil_80.credit_name": "ベクトルロゴゾーン",
-        "stencil_80.credit_link": "https://vectorlogo.zone/",
-        "stencil_81.name": "ブランドGA  -  GN",
-        "stencil_81.desc": "",
-        "stencil_81.cat": "ブランドロゴ",
-        "stencil_81.credit_name": "ベクトルロゴゾーン",
-        "stencil_81.credit_link": "https://vectorlogo.zone/",
-        "stencil_82.name": "Brands GO - GZ",
-        "stencil_82.desc": "",
-        "stencil_82.cat": "ブランドロゴ",
-        "stencil_82.credit_name": "ベクトルロゴゾーン",
-        "stencil_82.credit_link": "https://vectorlogo.zone/",
-        "stencil_105.name": "ワイヤフレームブラウザ",
-        "stencil_105.desc": "",
-        "stencil_105.cat": "チャートと図",
-        "stencil_106.name": "ワイヤフレームアンドロイド",
-        "stencil_106.desc": "",
-        "stencil_106.cat": "チャートと図",
-        "stencil_107.name": "ワイヤーフレームiPhone",
-        "stencil_107.desc": "",
-        "stencil_107.cat": "チャートと図",
-        "stencil_83.name": "Brands HA - HZ",
-        "stencil_84.name": "Brands IA - IZ",
-        "stencil_85.name": "Brands JA - JZ",
-        "stencil_86.name": "Brands KA - KZ",
-        "stencil_87.name": "ブランドLA  -  LZ",
-        "stencil_88.name": "Brands MA - MZ",
-        "stencil_89.name": "Brands NA - NZ",
-        "stencil_90.name": "Brands OA - OZ",
-        "stencil_91.name": "Brands PA - PI",
-        "stencil_92.name": "ブランドPJ  -  PZ",
-        "stencil_93.name": "Brands QA - QZ",
-        "stencil_94.name": "Brands RA - RZ",
-        "stencil_95.name": "ブランドSA  -  SM",
-        "stencil_96.name": "Brands SN - SZ",
-        "stencil_97.name": "Brands TA - TH",
-        "stencil_98.name": "Brands TI - TZ",
-        "stencil_99.name": "Brands UA - UZ",
-        "stencil_100.name": "Brands VA - VZ",
-        "stencil_101.name": "Brands WA - WZ",
-        "stencil_102.name": "Brands XA - XZ",
-        "stencil_103.name": "Brands YA - YZ",
-        "stencil_104.name": "Brands ZA - ZZ",
-        "stencil_108.name": "Activities - Arts Crafts",
-        "stencil_108.desc": "",
-        "stencil_108.cat": "OpenMoji",
-        "stencil_108.credit_name": "OpenMoji",
-        "stencil_108.credit_link": "https://openmoji.org/",
-        "stencil_109.name": "アクティビティ - 賞メダル",
-        "stencil_109.desc": "",
-        "stencil_109.cat": "OpenMoji",
-        "stencil_109.credit_name": "OpenMoji",
-        "stencil_109.credit_link": "https://openmoji.org/",
-        "stencil_110.name": "アクティビティ - イベント",
-        "stencil_110.desc": "",
-        "stencil_110.cat": "OpenMoji",
-        "stencil_110.credit_name": "OpenMoji",
-        "stencil_110.credit_link": "https://openmoji.org/",
-        "stencil_111.name": "アクティビティ - ゲーム",
-        "stencil_111.desc": "",
-        "stencil_111.cat": "OpenMoji",
-        "stencil_111.credit_name": "OpenMoji",
-        "stencil_111.credit_link": "https://openmoji.org/",
-        "stencil_112.name": "アクティビティ - スポーツ",
-        "stencil_112.desc": "",
-        "stencil_112.cat": "OpenMoji",
-        "stencil_112.credit_name": "OpenMoji",
-        "stencil_112.credit_link": "https://openmoji.org/",
-        "stencil_113.name": "Animals Nature - Animal Amphibian",
-        "stencil_113.desc": "",
-        "stencil_113.cat": "OpenMoji",
-        "stencil_113.credit_name": "OpenMoji",
-        "stencil_113.credit_link": "https://openmoji.org/",
-        "stencil_114.name": "動物自然 - 動物の鳥",
-        "stencil_114.desc": "",
-        "stencil_114.cat": "OpenMoji",
-        "stencil_114.credit_name": "OpenMoji",
-        "stencil_114.credit_link": "https://openmoji.org/",
-        "stencil_115.name": "動物自然 - 動物のバグ",
-        "stencil_115.desc": "",
-        "stencil_115.cat": "OpenMoji",
-        "stencil_115.credit_name": "OpenMoji",
-        "stencil_115.credit_link": "https://openmoji.org/",
-        "stencil_116.name": "動物自然 - 動物哺乳類",
-        "stencil_116.desc": "",
-        "stencil_116.cat": "OpenMoji",
-        "stencil_116.credit_name": "OpenMoji",
-        "stencil_116.credit_link": "https://openmoji.org/",
-        "stencil_117.name": "Animals Nature - Animal Marine",
-        "stencil_117.desc": "",
-        "stencil_117.cat": "OpenMoji",
-        "stencil_117.credit_name": "OpenMoji",
-        "stencil_117.credit_link": "https://openmoji.org/",
-        "stencil_118.name": "Animals Nature - Animal Reptile",
-        "stencil_118.desc": "",
-        "stencil_118.cat": "OpenMoji",
-        "stencil_118.credit_name": "OpenMoji",
-        "stencil_118.credit_link": "https://openmoji.org/",
-        "stencil_119.name": "動物自然 - 植物の花",
-        "stencil_119.desc": "",
-        "stencil_119.cat": "OpenMoji",
-        "stencil_119.credit_name": "OpenMoji",
-        "stencil_119.credit_link": "https://openmoji.org/",
-        "stencil_120.name": "動物自然 - 植物その他",
-        "stencil_120.desc": "",
-        "stencil_120.cat": "OpenMoji",
-        "stencil_120.credit_name": "OpenMoji",
-        "stencil_120.credit_link": "https://openmoji.org/",
-        "stencil_121.name": "コンポーネント - ヘアスタイル",
-        "stencil_121.desc": "",
-        "stencil_121.cat": "OpenMoji",
-        "stencil_121.credit_name": "OpenMoji",
-        "stencil_121.credit_link": "https://openmoji.org/",
-        "stencil_122.name": "Component - Skin Tone",
-        "stencil_122.desc": "",
-        "stencil_122.cat": "OpenMoji",
-        "stencil_122.credit_name": "OpenMoji",
-        "stencil_122.credit_link": "https://openmoji.org/",
-        "stencil_123.name": "Openmoji  - 動物ネイチャー",
-        "stencil_123.desc": "",
-        "stencil_123.cat": "OpenMoji",
-        "stencil_123.credit_name": "OpenMoji",
-        "stencil_123.credit_link": "https://openmoji.org/",
-        "stencil_124.name": "Extras Openmoji - Brand",
-        "stencil_124.desc": "",
-        "stencil_124.cat": "OpenMoji",
-        "stencil_124.credit_name": "OpenMoji",
-        "stencil_124.credit_link": "https://openmoji.org/",
-        "stencil_125.name": "その他のOpenmoji  -  Emergency",
-        "stencil_125.desc": "",
-        "stencil_125.cat": "OpenMoji",
-        "stencil_125.credit_name": "OpenMoji",
-        "stencil_125.credit_link": "https://openmoji.org/",
-        "stencil_126.name": "Extras Openmoji - Food Drink",
-        "stencil_126.desc": "",
-        "stencil_126.cat": "OpenMoji",
-        "stencil_126.credit_name": "OpenMoji",
-        "stencil_126.credit_link": "https://openmoji.org/",
-        "stencil_127.name": "Openmoji  - インタラクション",
-        "stencil_127.desc": "",
-        "stencil_127.cat": "OpenMoji",
-        "stencil_127.credit_name": "OpenMoji",
-        "stencil_127.credit_link": "https://openmoji.org/",
-        "stencil_128.name": "Extras Openmoji - Objects",
-        "stencil_128.desc": "",
-        "stencil_128.cat": "OpenMoji",
-        "stencil_128.credit_name": "OpenMoji",
-        "stencil_128.credit_link": "https://openmoji.org/",
-        "stencil_129.name": "Openmoji  - 人",
-        "stencil_129.desc": "",
-        "stencil_129.cat": "OpenMoji",
-        "stencil_129.credit_name": "OpenMoji",
-        "stencil_129.credit_link": "https://openmoji.org/",
-        "stencil_130.name": "Openmoji  - テクノロジー",
-        "stencil_130.desc": "",
-        "stencil_130.cat": "OpenMoji",
-        "stencil_130.credit_name": "OpenMoji",
-        "stencil_130.credit_link": "https://openmoji.org/",
-        "stencil_131.name": "Extras Openmoji - Travel Places",
-        "stencil_131.desc": "",
-        "stencil_131.cat": "OpenMoji",
-        "stencil_131.credit_name": "OpenMoji",
-        "stencil_131.credit_link": "https://openmoji.org/",
-        "stencil_132.name": "その他のOpenmoji  -  Ui Element",
-        "stencil_132.desc": "",
-        "stencil_132.cat": "OpenMoji",
-        "stencil_132.credit_name": "OpenMoji",
-        "stencil_132.credit_link": "https://openmoji.org/",
-        "stencil_133.name": "Unicode  - シンボルその他",
-        "stencil_133.desc": "",
-        "stencil_133.cat": "OpenMoji",
-        "stencil_133.credit_name": "OpenMoji",
-        "stencil_133.credit_link": "https://openmoji.org/",
-        "stencil_134.name": "国旗 - 国旗",
-        "stencil_134.desc": "",
-        "stencil_134.cat": "OpenMoji",
-        "stencil_134.credit_name": "OpenMoji",
-        "stencil_134.credit_link": "https://openmoji.org/",
-        "stencil_135.name": "フラグ - フラグ",
-        "stencil_135.desc": "",
-        "stencil_135.cat": "OpenMoji",
-        "stencil_135.credit_name": "OpenMoji",
-        "stencil_135.credit_link": "https://openmoji.org/",
-        "stencil_136.name": "フラグ - 細分化フラグ",
-        "stencil_136.desc": "",
-        "stencil_136.cat": "OpenMoji",
-        "stencil_136.credit_name": "OpenMoji",
-        "stencil_136.credit_link": "https://openmoji.org/",
-        "stencil_137.name": "フードドリンク - 食器",
-        "stencil_137.desc": "",
-        "stencil_137.cat": "OpenMoji",
-        "stencil_137.credit_name": "OpenMoji",
-        "stencil_137.credit_link": "https://openmoji.org/",
-        "stencil_138.name": "食べ物飲み物 - 飲み物",
-        "stencil_138.desc": "",
-        "stencil_138.cat": "OpenMoji",
-        "stencil_138.credit_name": "OpenMoji",
-        "stencil_138.credit_link": "https://openmoji.org/",
-        "stencil_139.name": "フードドリンク - フードアジア",
-        "stencil_139.desc": "",
-        "stencil_139.cat": "OpenMoji",
-        "stencil_139.credit_name": "OpenMoji",
-        "stencil_139.credit_link": "https://openmoji.org/",
-        "stencil_140.name": "Food Drink - Food Fruit",
-        "stencil_140.desc": "",
-        "stencil_140.cat": "OpenMoji",
-        "stencil_140.credit_name": "OpenMoji",
-        "stencil_140.credit_link": "https://openmoji.org/",
-        "stencil_141.name": "フードドリンク - フードマリン",
-        "stencil_141.desc": "",
-        "stencil_141.cat": "OpenMoji",
-        "stencil_141.credit_name": "OpenMoji",
-        "stencil_141.credit_link": "https://openmoji.org/",
-        "stencil_142.name": "フードドリンク - 調理済み食品",
-        "stencil_142.desc": "",
-        "stencil_142.cat": "OpenMoji",
-        "stencil_142.credit_name": "OpenMoji",
-        "stencil_142.credit_link": "https://openmoji.org/",
-        "stencil_143.name": "フードドリンク - フードスウィート",
-        "stencil_143.desc": "",
-        "stencil_143.cat": "OpenMoji",
-        "stencil_143.credit_name": "OpenMoji",
-        "stencil_143.credit_link": "https://openmoji.org/",
-        "stencil_144.name": "Food Drink - Food Vegetable",
-        "stencil_144.desc": "",
-        "stencil_144.cat": "OpenMoji",
-        "stencil_144.credit_name": "OpenMoji",
-        "stencil_144.credit_link": "https://openmoji.org/",
-        "stencil_145.name": "Objects - Book Paper",
-        "stencil_145.desc": "",
-        "stencil_145.cat": "OpenMoji",
-        "stencil_145.credit_name": "OpenMoji",
-        "stencil_145.credit_link": "https://openmoji.org/",
-        "stencil_146.name": "オブジェクト - 服",
-        "stencil_146.desc": "",
-        "stencil_146.cat": "OpenMoji",
-        "stencil_146.credit_name": "OpenMoji",
-        "stencil_146.credit_link": "https://openmoji.org/",
-        "stencil_147.name": "オブジェクト - コンピュータ",
-        "stencil_147.desc": "",
-        "stencil_147.cat": "OpenMoji",
-        "stencil_147.credit_name": "OpenMoji",
-        "stencil_147.credit_link": "https://openmoji.org/",
-        "stencil_148.name": "オブジェクト - 世帯",
-        "stencil_148.desc": "",
-        "stencil_148.cat": "OpenMoji",
-        "stencil_148.credit_name": "OpenMoji",
-        "stencil_148.credit_link": "https://openmoji.org/",
-        "stencil_149.name": "オブジェクト - 光ビデオ",
-        "stencil_149.desc": "",
-        "stencil_149.cat": "OpenMoji",
-        "stencil_149.credit_name": "OpenMoji",
-        "stencil_149.credit_link": "https://openmoji.org/",
-        "stencil_150.name": "Objects - Lock",
-        "stencil_150.desc": "",
-        "stencil_150.cat": "OpenMoji",
-        "stencil_150.credit_name": "OpenMoji",
-        "stencil_150.credit_link": "https://openmoji.org/",
-        "stencil_151.name": "Objects - Mail",
-        "stencil_151.desc": "",
-        "stencil_151.cat": "OpenMoji",
-        "stencil_151.credit_name": "OpenMoji",
-        "stencil_151.credit_link": "https://openmoji.org/",
-        "stencil_152.name": "オブジェクト - 医療",
-        "stencil_152.desc": "",
-        "stencil_152.cat": "OpenMoji",
-        "stencil_152.credit_name": "OpenMoji",
-        "stencil_152.credit_link": "https://openmoji.org/",
-        "stencil_153.name": "Objects - Money",
-        "stencil_153.desc": "",
-        "stencil_153.cat": "OpenMoji",
-        "stencil_153.credit_name": "OpenMoji",
-        "stencil_153.credit_link": "https://openmoji.org/",
-        "stencil_154.name": "オブジェクト - 音楽",
-        "stencil_154.desc": "",
-        "stencil_154.cat": "OpenMoji",
-        "stencil_154.credit_name": "OpenMoji",
-        "stencil_154.credit_link": "https://openmoji.org/",
-        "stencil_155.name": "Objects - Musical Instrument",
-        "stencil_155.desc": "",
-        "stencil_155.cat": "OpenMoji",
-        "stencil_155.credit_name": "OpenMoji",
-        "stencil_155.credit_link": "https://openmoji.org/",
-        "stencil_156.name": "オブジェクト - オフィス",
-        "stencil_156.desc": "",
-        "stencil_156.cat": "OpenMoji",
-        "stencil_156.credit_name": "OpenMoji",
-        "stencil_156.credit_link": "https://openmoji.org/",
-        "stencil_157.name": "Objects - Other Object",
-        "stencil_157.desc": "",
-        "stencil_157.cat": "OpenMoji",
-        "stencil_157.credit_name": "OpenMoji",
-        "stencil_157.credit_link": "https://openmoji.org/",
-        "stencil_158.name": "オブジェクト - 電話",
-        "stencil_158.desc": "",
-        "stencil_158.cat": "OpenMoji",
-        "stencil_158.credit_name": "OpenMoji",
-        "stencil_158.credit_link": "https://openmoji.org/",
-        "stencil_159.name": "オブジェクト - 科学",
-        "stencil_159.desc": "",
-        "stencil_159.cat": "OpenMoji",
-        "stencil_159.credit_name": "OpenMoji",
-        "stencil_159.credit_link": "https://openmoji.org/",
-        "stencil_160.name": "Objects - Sound",
-        "stencil_160.desc": "",
-        "stencil_160.cat": "OpenMoji",
-        "stencil_160.credit_name": "OpenMoji",
-        "stencil_160.credit_link": "https://openmoji.org/",
-        "stencil_161.name": "オブジェクト - ツール",
-        "stencil_161.desc": "",
-        "stencil_161.cat": "OpenMoji",
-        "stencil_161.credit_name": "OpenMoji",
-        "stencil_161.credit_link": "https://openmoji.org/",
-        "stencil_162.name": "Objects - Writing",
-        "stencil_162.desc": "",
-        "stencil_162.cat": "OpenMoji",
-        "stencil_162.credit_name": "OpenMoji",
-        "stencil_162.credit_link": "https://openmoji.org/",
-        "stencil_163.name": "人体 - ボディパーツ",
-        "stencil_163.desc": "",
-        "stencil_163.cat": "OpenMoji",
-        "stencil_163.credit_name": "OpenMoji",
-        "stencil_163.credit_link": "https://openmoji.org/",
-        "stencil_164.name": "人体 - 家族",
-        "stencil_164.desc": "",
-        "stencil_164.cat": "OpenMoji",
-        "stencil_164.credit_name": "OpenMoji",
-        "stencil_164.credit_link": "https://openmoji.org/",
-        "stencil_165.name": "People Body - Hand Fingers Closed",
-        "stencil_165.desc": "",
-        "stencil_165.cat": "OpenMoji",
-        "stencil_165.credit_name": "OpenMoji",
-        "stencil_165.credit_link": "https://openmoji.org/",
-        "stencil_166.name": "人体 - 手指を開く",
-        "stencil_166.desc": "",
-        "stencil_166.cat": "OpenMoji",
-        "stencil_166.credit_name": "OpenMoji",
-        "stencil_166.credit_link": "https://openmoji.org/",
-        "stencil_167.name": "人体 - 手指の一部",
-        "stencil_167.desc": "",
-        "stencil_167.cat": "OpenMoji",
-        "stencil_167.credit_name": "OpenMoji",
-        "stencil_167.credit_link": "https://openmoji.org/",
-        "stencil_168.name": "人体 - ハンドプロップ",
-        "stencil_168.desc": "",
-        "stencil_168.cat": "OpenMoji",
-        "stencil_168.credit_name": "OpenMoji",
-        "stencil_168.credit_link": "https://openmoji.org/",
-        "stencil_169.name": "人体 - ハンドシングルフィンガー",
-        "stencil_169.desc": "",
-        "stencil_169.cat": "OpenMoji",
-        "stencil_169.credit_name": "OpenMoji",
-        "stencil_169.credit_link": "https://openmoji.org/",
-        "stencil_170.name": "人体 - 手",
-        "stencil_170.desc": "",
-        "stencil_170.cat": "OpenMoji",
-        "stencil_170.credit_name": "OpenMoji",
-        "stencil_170.credit_link": "https://openmoji.org/",
-        "stencil_171.name": "People Body - Person",
-        "stencil_171.desc": "",
-        "stencil_171.cat": "OpenMoji",
-        "stencil_171.credit_name": "OpenMoji",
-        "stencil_171.credit_link": "https://openmoji.org/",
-        "stencil_172.name": "人体 - 人の活動",
-        "stencil_172.desc": "",
-        "stencil_172.cat": "OpenMoji",
-        "stencil_172.credit_name": "OpenMoji",
-        "stencil_172.credit_link": "https://openmoji.org/",
-        "stencil_173.name": "人の体 - 人のファンタジー",
-        "stencil_173.desc": "",
-        "stencil_173.cat": "OpenMoji",
-        "stencil_173.credit_name": "OpenMoji",
-        "stencil_173.credit_link": "https://openmoji.org/",
-        "stencil_174.name": "人体 - 人のジェスチャー",
-        "stencil_174.desc": "",
-        "stencil_174.cat": "OpenMoji",
-        "stencil_174.credit_name": "OpenMoji",
-        "stencil_174.credit_link": "https://openmoji.org/",
-        "stencil_175.name": "People Body - Person Resting",
-        "stencil_175.desc": "",
-        "stencil_175.cat": "OpenMoji",
-        "stencil_175.credit_name": "OpenMoji",
-        "stencil_175.credit_link": "https://openmoji.org/",
-        "stencil_176.name": "人体 - 人の役割",
-        "stencil_176.desc": "",
-        "stencil_176.cat": "OpenMoji",
-        "stencil_176.credit_name": "OpenMoji",
-        "stencil_176.credit_link": "https://openmoji.org/",
-        "stencil_177.name": "People Body - Person Sport",
-        "stencil_177.desc": "",
-        "stencil_177.cat": "OpenMoji",
-        "stencil_177.credit_name": "OpenMoji",
-        "stencil_177.credit_link": "https://openmoji.org/",
-        "stencil_178.name": "人体 - 人のシンボル",
-        "stencil_178.desc": "",
-        "stencil_178.cat": "OpenMoji",
-        "stencil_178.credit_name": "OpenMoji",
-        "stencil_178.credit_link": "https://openmoji.org/",
-        "stencil_179.name": "スマイリーエモーション - 猫の顔",
-        "stencil_179.desc": "",
-        "stencil_179.cat": "OpenMoji",
-        "stencil_179.credit_name": "OpenMoji",
-        "stencil_179.credit_link": "https://openmoji.org/",
-        "stencil_180.name": "Smileys Emotion - Emotion",
-        "stencil_180.desc": "",
-        "stencil_180.cat": "OpenMoji",
-        "stencil_180.credit_name": "OpenMoji",
-        "stencil_180.credit_link": "https://openmoji.org/",
-        "stencil_181.name": "スマイリーエモーション - フェイスアフェクション",
-        "stencil_181.desc": "",
-        "stencil_181.cat": "OpenMoji",
-        "stencil_181.credit_name": "OpenMoji",
-        "stencil_181.credit_link": "https://openmoji.org/",
-        "stencil_182.name": "スマイリーエモーション - 気になる顔",
-        "stencil_182.desc": "",
-        "stencil_182.cat": "OpenMoji",
-        "stencil_182.credit_name": "OpenMoji",
-        "stencil_182.credit_link": "https://openmoji.org/",
-        "stencil_183.name": "Smileys Emotion - Face Costume",
-        "stencil_183.desc": "",
-        "stencil_183.cat": "OpenMoji",
-        "stencil_183.credit_name": "OpenMoji",
-        "stencil_183.credit_link": "https://openmoji.org/",
-        "stencil_184.name": "スマイリーエモーション - フェイスグラス",
-        "stencil_184.desc": "",
-        "stencil_184.cat": "OpenMoji",
-        "stencil_184.credit_name": "OpenMoji",
-        "stencil_184.credit_link": "https://openmoji.org/",
-        "stencil_185.name": "スマイリーエモーション - フェイスハンド",
-        "stencil_185.desc": "",
-        "stencil_185.cat": "OpenMoji",
-        "stencil_185.credit_name": "OpenMoji",
-        "stencil_185.credit_link": "https://openmoji.org/",
-        "stencil_186.name": "スマイリーエモーション - フェイスハット",
-        "stencil_186.desc": "",
-        "stencil_186.cat": "OpenMoji",
-        "stencil_186.credit_name": "OpenMoji",
-        "stencil_186.credit_link": "https://openmoji.org/",
-        "stencil_187.name": "スマイリーエモーション - ネガティブフェイス",
-        "stencil_187.desc": "",
-        "stencil_187.cat": "OpenMoji",
-        "stencil_187.credit_name": "OpenMoji",
-        "stencil_187.credit_link": "https://openmoji.org/",
-        "stencil_188.name": "スマイリーエモーション - フェイスニュートラル懐疑的",
-        "stencil_188.desc": "",
-        "stencil_188.cat": "OpenMoji",
-        "stencil_188.credit_name": "OpenMoji",
-        "stencil_188.credit_link": "https://openmoji.org/",
-        "stencil_189.name": "Smileys Emotion - Face Sleepy",
-        "stencil_189.desc": "",
-        "stencil_189.cat": "OpenMoji",
-        "stencil_189.credit_name": "OpenMoji",
-        "stencil_189.credit_link": "https://openmoji.org/",
-        "stencil_190.name": "スマイリーエモーション - 顔の笑顔",
-        "stencil_190.desc": "",
-        "stencil_190.cat": "OpenMoji",
-        "stencil_190.credit_name": "OpenMoji",
-        "stencil_190.credit_link": "https://openmoji.org/",
-        "stencil_191.name": "Smileys Emotion - Face Tongue",
-        "stencil_191.desc": "",
-        "stencil_191.cat": "OpenMoji",
-        "stencil_191.credit_name": "OpenMoji",
-        "stencil_191.credit_link": "https://openmoji.org/",
-        "stencil_192.name": "Smileys Emotion - Face Unwell",
-        "stencil_192.desc": "",
-        "stencil_192.cat": "OpenMoji",
-        "stencil_192.credit_name": "OpenMoji",
-        "stencil_192.credit_link": "https://openmoji.org/",
-        "stencil_193.name": "スマイリーエモーション - モンキーフェイス",
-        "stencil_193.desc": "",
-        "stencil_193.cat": "OpenMoji",
-        "stencil_193.credit_name": "OpenMoji",
-        "stencil_193.credit_link": "https://openmoji.org/",
-        "stencil_194.name": "シンボル - 英数字",
-        "stencil_194.desc": "",
-        "stencil_194.cat": "OpenMoji",
-        "stencil_194.credit_name": "OpenMoji",
-        "stencil_194.credit_link": "https://openmoji.org/",
-        "stencil_195.name": "記号 - 矢印",
-        "stencil_195.desc": "",
-        "stencil_195.cat": "OpenMoji",
-        "stencil_195.credit_name": "OpenMoji",
-        "stencil_195.credit_link": "https://openmoji.org/",
-        "stencil_196.name": "Symbols - Av Symbol",
-        "stencil_196.desc": "",
-        "stencil_196.cat": "OpenMoji",
-        "stencil_196.credit_name": "OpenMoji",
-        "stencil_196.credit_link": "https://openmoji.org/",
-        "stencil_197.name": "シンボル - 性別",
-        "stencil_197.desc": "",
-        "stencil_197.cat": "OpenMoji",
-        "stencil_197.credit_name": "OpenMoji",
-        "stencil_197.credit_link": "https://openmoji.org/",
-        "stencil_198.name": "Symbols - Geometric",
-        "stencil_198.desc": "",
-        "stencil_198.cat": "OpenMoji",
-        "stencil_198.credit_name": "OpenMoji",
-        "stencil_198.credit_link": "https://openmoji.org/",
-        "stencil_199.name": "Symbols - Keycap",
-        "stencil_199.desc": "",
-        "stencil_199.cat": "OpenMoji",
-        "stencil_199.credit_name": "OpenMoji",
-        "stencil_199.credit_link": "https://openmoji.org/",
-        "stencil_200.name": "シンボル - その他のシンボル",
-        "stencil_200.desc": "",
-        "stencil_200.cat": "OpenMoji",
-        "stencil_200.credit_name": "OpenMoji",
-        "stencil_200.credit_link": "https://openmoji.org/",
-        "stencil_201.name": "シンボル - 宗教",
-        "stencil_201.desc": "",
-        "stencil_201.cat": "OpenMoji",
-        "stencil_201.credit_name": "OpenMoji",
-        "stencil_201.credit_link": "https://openmoji.org/",
-        "stencil_202.name": "Symbols - Transport Sign",
-        "stencil_202.desc": "",
-        "stencil_202.cat": "OpenMoji",
-        "stencil_202.credit_name": "OpenMoji",
-        "stencil_202.credit_link": "https://openmoji.org/",
-        "stencil_203.name": "記号 - 警告",
-        "stencil_203.desc": "",
-        "stencil_203.cat": "OpenMoji",
-        "stencil_203.credit_name": "OpenMoji",
-        "stencil_203.credit_link": "https://openmoji.org/",
-        "stencil_204.name": "シンボル - ゾディアック",
-        "stencil_204.desc": "",
-        "stencil_204.cat": "OpenMoji",
-        "stencil_204.credit_name": "OpenMoji",
-        "stencil_204.credit_link": "https://openmoji.org/",
-        "stencil_205.name": "旅行場所 - ホテル",
-        "stencil_205.desc": "",
-        "stencil_205.cat": "OpenMoji",
-        "stencil_205.credit_name": "OpenMoji",
-        "stencil_205.credit_link": "https://openmoji.org/",
-        "stencil_206.name": "旅行場所 - プレースビル",
-        "stencil_206.desc": "",
-        "stencil_206.cat": "OpenMoji",
-        "stencil_206.credit_name": "OpenMoji",
-        "stencil_206.credit_link": "https://openmoji.org/",
-        "stencil_207.name": "Travel Places - Place Geographic",
-        "stencil_207.desc": "",
-        "stencil_207.cat": "OpenMoji",
-        "stencil_207.credit_name": "OpenMoji",
-        "stencil_207.credit_link": "https://openmoji.org/",
-        "stencil_208.name": "Travel Places - Place Map",
-        "stencil_208.desc": "",
-        "stencil_208.cat": "OpenMoji",
-        "stencil_208.credit_name": "OpenMoji",
-        "stencil_208.credit_link": "https://openmoji.org/",
-        "stencil_209.name": "Travel Places - Place Other",
-        "stencil_209.desc": "",
-        "stencil_209.cat": "OpenMoji",
-        "stencil_209.credit_name": "OpenMoji",
-        "stencil_209.credit_link": "https://openmoji.org/",
-        "stencil_210.name": "Travel Places - Place Religious",
-        "stencil_210.desc": "",
-        "stencil_210.cat": "OpenMoji",
-        "stencil_210.credit_name": "OpenMoji",
-        "stencil_210.credit_link": "https://openmoji.org/",
-        "stencil_211.name": "旅行場所 - スカイ天気",
-        "stencil_211.desc": "",
-        "stencil_211.cat": "OpenMoji",
-        "stencil_211.credit_name": "OpenMoji",
-        "stencil_211.credit_link": "https://openmoji.org/",
-        "stencil_212.name": "旅行場所 - タイム",
-        "stencil_212.desc": "",
-        "stencil_212.cat": "OpenMoji",
-        "stencil_212.credit_name": "OpenMoji",
-        "stencil_212.credit_link": "https://openmoji.org/",
-        "stencil_213.name": "旅行場所 - トランスポートエア",
-        "stencil_213.desc": "",
-        "stencil_213.cat": "OpenMoji",
-        "stencil_213.credit_name": "OpenMoji",
-        "stencil_213.credit_link": "https://openmoji.org/",
-        "stencil_214.name": "旅行地 - 交通の便",
-        "stencil_214.desc": "",
-        "stencil_214.cat": "OpenMoji",
-        "stencil_214.credit_name": "OpenMoji",
-        "stencil_214.credit_link": "https://openmoji.org/",
-        "stencil_215.name": "Travel Places - Transport Water",
-        "stencil_215.desc": "",
-        "stencil_215.cat": "OpenMoji",
-        "stencil_215.credit_name": "OpenMoji",
-        "stencil_215.credit_link": "https://openmoji.org/",
-        "stencil_238.name": "コンピュータブランド",
-        "stencil_238.desc": "",
-        "stencil_238.cat": "コンピュータとネットワーク",
-        "stencil_239.name": "ファイルフォーマット",
-        "stencil_239.desc": "一般的なファイル形式のリスト",
-        "stencil_239.cat": "人、旗、文書",
-        "stencil_241.name": "Ciscoネットワークトポロジアイコン白黒",
-        "stencil_241.desc": "",
-        "stencil_241.cat": "シスコ",
-        "stencil_241.credit_link": "https://cisco.com/",
-        "stencil_241.credit_name": "シスコ",
-        "stencil_240.name": "Ciscoネットワークトポロジアイコン3015",
-        "stencil_240.desc": "",
-        "stencil_240.cat": "シスコ",
-        "stencil_240.credit_link": "https://cisco.com/",
-        "stencil_240.credit_name": "シスコ",
-        "stencil_242.name": "CiscoワイヤレスIW 3700",
-        "stencil_242.desc": "",
-        "stencil_242.cat": "シスコ",
-        "stencil_242.credit_link": "https://cisco.com/",
-        "stencil_242.credit_name": "シスコ",
-        "stencil_243.name": "Cisco VGシリーズゲートウェイ",
-        "stencil_243.desc": "",
-        "stencil_243.cat": "シスコ",
-        "stencil_243.credit_link": "https://cisco.com/",
-        "stencil_243.credit_name": "シスコ",
-        "stencil_244.name": "Cisco Unified IP Phone 7800および8800シリーズ",
-        "stencil_244.desc": "",
-        "stencil_244.cat": "Cisco",
-        "stencil_244.credit_link": "https://cisco.com/",
-        "stencil_244.credit_name": "Cisco",
+        "stencil_72": {
+            "name": "Brands 0 - 9",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://www.vectorlogo.zone/"
+        },
+        "stencil_73": {
+            "name": "ブランドAA  -  AO",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://www.vectorlogo.zone/"
+        },
+        "stencil_74": {
+            "name": "Brands AP - AZ",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
+        },
+        "stencil_75": {
+            "name": "Brands BA - BZ",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
+        },
+        "stencil_76": {
+            "name": "Brands CA - CL",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://www.vectorlogo.zone/"
+        },
+        "stencil_77": {
+            "name": "ブランドCM  -  CZ",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://www.vectorlogo.zone/"
+        },
+        "stencil_78": {
+            "name": "Brands DA - DZ",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
+        },
+        "stencil_79": {
+            "name": "Brands EA - EZ",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
+        },
+        "stencil_80": {
+            "name": "Brands FA - FZ",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
+        },
+        "stencil_81": {
+            "name": "ブランドGA  -  GN",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
+        },
+        "stencil_82": {
+            "name": "Brands GO - GZ",
+            "desc": "",
+            "cat": "ブランドロゴ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
+        },
+        "stencil_105": {
+            "name": "ワイヤフレームブラウザ",
+            "desc": "",
+            "cat": "チャートと図"
+        },
+        "stencil_106": {
+            "name": "ワイヤフレームアンドロイド",
+            "desc": "",
+            "cat": "チャートと図"
+        },
+        "stencil_107": {
+            "name": "ワイヤーフレームiPhone",
+            "desc": "",
+            "cat": "チャートと図"
+        },
+        "stencil_83": {
+            "name": "Brands HA - HZ"
+        },
+        "stencil_84": {
+            "name": "Brands IA - IZ"
+        },
+        "stencil_85": {
+            "name": "Brands JA - JZ"
+        },
+        "stencil_86": {
+            "name": "Brands KA - KZ"
+        },
+        "stencil_87": {
+            "name": "ブランドLA  -  LZ"
+        },
+        "stencil_88": {
+            "name": "Brands MA - MZ"
+        },
+        "stencil_89": {
+            "name": "Brands NA - NZ"
+        },
+        "stencil_90": {
+            "name": "Brands OA - OZ"
+        },
+        "stencil_91": {
+            "name": "Brands PA - PI"
+        },
+        "stencil_92": {
+            "name": "ブランドPJ  -  PZ"
+        },
+        "stencil_93": {
+            "name": "Brands QA - QZ"
+        },
+        "stencil_94": {
+            "name": "Brands RA - RZ"
+        },
+        "stencil_95": {
+            "name": "ブランドSA  -  SM"
+        },
+        "stencil_96": {
+            "name": "Brands SN - SZ"
+        },
+        "stencil_97": {
+            "name": "Brands TA - TH"
+        },
+        "stencil_98": {
+            "name": "Brands TI - TZ"
+        },
+        "stencil_99": {
+            "name": "Brands UA - UZ"
+        },
+        "stencil_100": {
+            "name": "Brands VA - VZ"
+        },
+        "stencil_101": {
+            "name": "Brands WA - WZ"
+        },
+        "stencil_102": {
+            "name": "Brands XA - XZ"
+        },
+        "stencil_103": {
+            "name": "Brands YA - YZ"
+        },
+        "stencil_104": {
+            "name": "Brands ZA - ZZ"
+        },
+        "stencil_108": {
+            "name": "Activities - Arts Crafts",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_109": {
+            "name": "アクティビティ - 賞メダル",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_110": {
+            "name": "アクティビティ - イベント",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_111": {
+            "name": "アクティビティ - ゲーム",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_112": {
+            "name": "アクティビティ - スポーツ",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_113": {
+            "name": "Animals Nature - Animal Amphibian",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_114": {
+            "name": "動物自然 - 動物の鳥",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_115": {
+            "name": "動物自然 - 動物のバグ",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_116": {
+            "name": "動物自然 - 動物哺乳類",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_117": {
+            "name": "Animals Nature - Animal Marine",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_118": {
+            "name": "Animals Nature - Animal Reptile",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_119": {
+            "name": "動物自然 - 植物の花",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_120": {
+            "name": "動物自然 - 植物その他",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_121": {
+            "name": "コンポーネント - ヘアスタイル",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_122": {
+            "name": "Component - Skin Tone",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_123": {
+            "name": "Openmoji  - 動物ネイチャー",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_124": {
+            "name": "Extras Openmoji - Brand",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_125": {
+            "name": "その他のOpenmoji  -  Emergency",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_126": {
+            "name": "Extras Openmoji - Food Drink",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_127": {
+            "name": "Openmoji  - インタラクション",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_128": {
+            "name": "Extras Openmoji - Objects",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_129": {
+            "name": "Openmoji  - 人",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_130": {
+            "name": "Openmoji  - テクノロジー",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_131": {
+            "name": "Extras Openmoji - Travel Places",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_132": {
+            "name": "その他のOpenmoji  -  Ui Element",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_133": {
+            "name": "Unicode  - シンボルその他",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_134": {
+            "name": "国旗 - 国旗",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_135": {
+            "name": "フラグ - フラグ",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_136": {
+            "name": "フラグ - 細分化フラグ",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_137": {
+            "name": "フードドリンク - 食器",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_138": {
+            "name": "食べ物飲み物 - 飲み物",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_139": {
+            "name": "フードドリンク - フードアジア",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_140": {
+            "name": "Food Drink - Food Fruit",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_141": {
+            "name": "フードドリンク - フードマリン",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_142": {
+            "name": "フードドリンク - 調理済み食品",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_143": {
+            "name": "フードドリンク - フードスウィート",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_144": {
+            "name": "Food Drink - Food Vegetable",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_145": {
+            "name": "Objects - Book Paper",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_146": {
+            "name": "オブジェクト - 服",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_147": {
+            "name": "オブジェクト - コンピュータ",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_148": {
+            "name": "オブジェクト - 世帯",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_149": {
+            "name": "オブジェクト - 光ビデオ",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_150": {
+            "name": "Objects - Lock",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_151": {
+            "name": "Objects - Mail",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_152": {
+            "name": "オブジェクト - 医療",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_153": {
+            "name": "Objects - Money",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_154": {
+            "name": "オブジェクト - 音楽",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_155": {
+            "name": "Objects - Musical Instrument",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_156": {
+            "name": "オブジェクト - オフィス",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_157": {
+            "name": "Objects - Other Object",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_158": {
+            "name": "オブジェクト - 電話",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_159": {
+            "name": "オブジェクト - 科学",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_160": {
+            "name": "Objects - Sound",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_161": {
+            "name": "オブジェクト - ツール",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_162": {
+            "name": "Objects - Writing",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_163": {
+            "name": "人体 - ボディパーツ",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_164": {
+            "name": "人体 - 家族",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_165": {
+            "name": "People Body - Hand Fingers Closed",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_166": {
+            "name": "人体 - 手指を開く",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_167": {
+            "name": "人体 - 手指の一部",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_168": {
+            "name": "人体 - ハンドプロップ",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_169": {
+            "name": "人体 - ハンドシングルフィンガー",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_170": {
+            "name": "人体 - 手",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_171": {
+            "name": "People Body - Person",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_172": {
+            "name": "人体 - 人の活動",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_173": {
+            "name": "人の体 - 人のファンタジー",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_174": {
+            "name": "人体 - 人のジェスチャー",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_175": {
+            "name": "People Body - Person Resting",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_176": {
+            "name": "人体 - 人の役割",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_177": {
+            "name": "People Body - Person Sport",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_178": {
+            "name": "人体 - 人のシンボル",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_179": {
+            "name": "スマイリーエモーション - 猫の顔",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_180": {
+            "name": "Smileys Emotion - Emotion",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_181": {
+            "name": "スマイリーエモーション - フェイスアフェクション",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_182": {
+            "name": "スマイリーエモーション - 気になる顔",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_183": {
+            "name": "Smileys Emotion - Face Costume",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_184": {
+            "name": "スマイリーエモーション - フェイスグラス",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_185": {
+            "name": "スマイリーエモーション - フェイスハンド",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_186": {
+            "name": "スマイリーエモーション - フェイスハット",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_187": {
+            "name": "スマイリーエモーション - ネガティブフェイス",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_188": {
+            "name": "スマイリーエモーション - フェイスニュートラル懐疑的",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_189": {
+            "name": "Smileys Emotion - Face Sleepy",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_190": {
+            "name": "スマイリーエモーション - 顔の笑顔",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_191": {
+            "name": "Smileys Emotion - Face Tongue",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_192": {
+            "name": "Smileys Emotion - Face Unwell",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_193": {
+            "name": "スマイリーエモーション - モンキーフェイス",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_194": {
+            "name": "シンボル - 英数字",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_195": {
+            "name": "記号 - 矢印",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_196": {
+            "name": "Symbols - Av Symbol",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_197": {
+            "name": "シンボル - 性別",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_198": {
+            "name": "Symbols - Geometric",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_199": {
+            "name": "Symbols - Keycap",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_200": {
+            "name": "シンボル - その他のシンボル",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_201": {
+            "name": "シンボル - 宗教",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_202": {
+            "name": "Symbols - Transport Sign",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_203": {
+            "name": "記号 - 警告",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_204": {
+            "name": "シンボル - ゾディアック",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_205": {
+            "name": "旅行場所 - ホテル",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_206": {
+            "name": "旅行場所 - プレースビル",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_207": {
+            "name": "Travel Places - Place Geographic",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_208": {
+            "name": "Travel Places - Place Map",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_209": {
+            "name": "Travel Places - Place Other",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_210": {
+            "name": "Travel Places - Place Religious",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_211": {
+            "name": "旅行場所 - スカイ天気",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_212": {
+            "name": "旅行場所 - タイム",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_213": {
+            "name": "旅行場所 - トランスポートエア",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_214": {
+            "name": "旅行地 - 交通の便",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_215": {
+            "name": "Travel Places - Transport Water",
+            "desc": "",
+            "cat": "OpenMoji",
+            "credit_name": "OpenMoji",
+            "credit_link": "https://openmoji.org/"
+        },
+        "stencil_238": {
+            "name": "コンピュータブランド",
+            "desc": "",
+            "cat": "コンピュータとネットワーク"
+        },
+        "stencil_239": {
+            "name": "ファイルフォーマット",
+            "desc": "一般的なファイル形式のリスト",
+            "cat": "人、旗、文書"
+        },
+        "stencil_241": {
+            "name": "Ciscoネットワークトポロジアイコン白黒",
+            "desc": "",
+            "cat": "シスコ",
+            "credit_link": "https://cisco.com/",
+            "credit_name": "シスコ"
+        },
+        "stencil_240": {
+            "name": "Ciscoネットワークトポロジアイコン3015",
+            "desc": "",
+            "cat": "シスコ",
+            "credit_link": "https://cisco.com/",
+            "credit_name": "シスコ"
+        },
+        "stencil_242": {
+            "name": "CiscoワイヤレスIW 3700",
+            "desc": "",
+            "cat": "シスコ",
+            "credit_link": "https://cisco.com/",
+            "credit_name": "シスコ"
+        },
+        "stencil_243": {
+            "name": "Cisco VGシリーズゲートウェイ",
+            "desc": "",
+            "cat": "シスコ",
+            "credit_link": "https://cisco.com/",
+            "credit_name": "シスコ"
+        },
+        "stencil_244": {
+            "name": "Cisco Unified IP Phone 7800および8800シリーズ",
+            "desc": "",
+            "cat": "Cisco",
+            "credit_link": "https://cisco.com/",
+            "credit_name": "Cisco"
+        },
         "sym_copied": "コピーされたシンボル",
         "getting_stencils": "ステンシルを入手する",
         "drop_symbol": "ドロップシンボル",
         "show_more": "もっと見せる",
         "login_save_symbol": "サインインしてシンボルを保存してください。",
-        "stencil_248.name": "コロナウイルス",
-        "stencil_248.desc": "コロナウイルス発生のグラフィック",
+        "stencil_248": {
+            "name": "コロナウイルス",
+            "desc": "コロナウイルス発生のグラフィック"
+        },
         "credits_link": "クレジットリンク",
         "credits_to": "クレジット"
     },
     "videos": {
-        "tp2ryqLTz1M.desc": "比率を固定するにはSHIFTキーを使用し、オフセットを使用するにはALTキーを使用します。",
-        "tp2ryqLTz1M.title": "比例的に図形のサイズを変更し、オフセットを使用する方法",
-        "EWtTCLx8ngg.desc": "最後に使用した色にアクセスし、RGB値またはHEXコードを使用して色をカスタマイズする方法については、このガイドをご覧ください。",
-        "EWtTCLx8ngg.title": "ヴェクタカラーパレットの解剖",
-        "nlAyOo-_HLQ.desc": "フラグメント、ユニオン、差分、交差操作で独自のシンボルを作成します。",
-        "nlAyOo-_HLQ.title": "断片、連合、差異、交差点への簡単な紹介",
-        "1XbHln-9QDg.desc": "任意のチームやフォルダにドラッグアンドドロップするだけで簡単に図面を移動できます。あなたの図面を簡単に見つけるために検索バーを使用してください！",
-        "1XbHln-9QDg.title": "ダッシュボードで図面とフォルダを整理する方法",
-        "JBvyeA743Qo.desc": "レイヤーを使用すると、簡単に編集できるように図形を分類したり、情報を隠すことができます。",
-        "JBvyeA743Qo.title": "レイヤーとは何ですか？レイヤーの使い方",
-        "RX3vce2QXyk.desc": "コネクタとラインの違いは何ですか？",
-        "RX3vce2QXyk.title": "形状を正確に接続する方法",
-        "wZUVOSDEpPo.desc": "あなたのステンシルにシンボルを保存する方法については、このビデオをご覧ください。反復記号を図面上にドラッグアンドドロップするだけで、より多くの時間を節約できます。",
-        "wZUVOSDEpPo.title": "シンボルとステンシルの使い方",
-        "Y-lxlpDM-7g.desc": "テキストボックスに簡単にテキストボックスを追加したり、テキストモードでテキストボックスのサイズを変更したり回転したりするには、Ctrl-5を使用します。",
-        "Y-lxlpDM-7g.title": "図形のテキストボックスを追加または編集する方法",
-        "AOeIJRAECEk.desc": "友人やチームメイトに効果的にコラボレーションするように依頼してください。",
-        "AOeIJRAECEk.title": "チームの作成とチームメンバーの招待",
-        "Zap6sT5bOB0.title": "直前に使用した色を他の図形、テキスト、および線に直接適用する",
-        "Zap6sT5bOB0.desc": "カラーペインタを使い、最後に使用した色を図形、テキスト、および線に適用します。",
-        "5z7hF_yIILw.title": "シェイプのプロパティを使用してシェイプを表示および編集する",
-        "5z7hF_yIILw.desc": "VisioのSize＆Position Dialogと同様に、Vectaでシェイプを表示および編集できるようになりました。",
-        "a1Mv0H_jZKM.title": "ヴェクタでのシンボル検索",
-        "a1Mv0H_jZKM.desc": "あなたのシンボルをVectaで簡単かつ効率的に見つける方法を見てください。",
-        "YPYPdGPi-nI.title": "ペインタツール",
-        "YPYPdGPi-nI.desc": "カラーペインタを使い、最後に使用した色を図形、テキスト、および線に適用します。"
+        "tp2ryqLTz1M": {
+            "desc": "比率を固定するにはSHIFTキーを使用し、オフセットを使用するにはALTキーを使用します。",
+            "title": "比例的に図形のサイズを変更し、オフセットを使用する方法"
+        },
+        "EWtTCLx8ngg": {
+            "desc": "最後に使用した色にアクセスし、RGB値またはHEXコードを使用して色をカスタマイズする方法については、このガイドをご覧ください。",
+            "title": "ヴェクタカラーパレットの解剖"
+        },
+        "nlAyOo-_HLQ": {
+            "desc": "フラグメント、ユニオン、差分、交差操作で独自のシンボルを作成します。",
+            "title": "断片、連合、差異、交差点への簡単な紹介"
+        },
+        "1XbHln-9QDg": {
+            "desc": "任意のチームやフォルダにドラッグアンドドロップするだけで簡単に図面を移動できます。あなたの図面を簡単に見つけるために検索バーを使用してください！",
+            "title": "ダッシュボードで図面とフォルダを整理する方法"
+        },
+        "JBvyeA743Qo": {
+            "desc": "レイヤーを使用すると、簡単に編集できるように図形を分類したり、情報を隠すことができます。",
+            "title": "レイヤーとは何ですか？レイヤーの使い方"
+        },
+        "RX3vce2QXyk": {
+            "desc": "コネクタとラインの違いは何ですか？",
+            "title": "形状を正確に接続する方法"
+        },
+        "wZUVOSDEpPo": {
+            "desc": "あなたのステンシルにシンボルを保存する方法については、このビデオをご覧ください。反復記号を図面上にドラッグアンドドロップするだけで、より多くの時間を節約できます。",
+            "title": "シンボルとステンシルの使い方"
+        },
+        "Y-lxlpDM-7g": {
+            "desc": "テキストボックスに簡単にテキストボックスを追加したり、テキストモードでテキストボックスのサイズを変更したり回転したりするには、Ctrl-5を使用します。",
+            "title": "図形のテキストボックスを追加または編集する方法"
+        },
+        "AOeIJRAECEk": {
+            "desc": "友人やチームメイトに効果的にコラボレーションするように依頼してください。",
+            "title": "チームの作成とチームメンバーの招待"
+        },
+        "Zap6sT5bOB0": {
+            "title": "直前に使用した色を他の図形、テキスト、および線に直接適用する",
+            "desc": "カラーペインタを使い、最後に使用した色を図形、テキスト、および線に適用します。"
+        },
+        "5z7hF_yIILw": {
+            "title": "シェイプのプロパティを使用してシェイプを表示および編集する",
+            "desc": "VisioのSize＆Position Dialogと同様に、Vectaでシェイプを表示および編集できるようになりました。"
+        },
+        "a1Mv0H_jZKM": {
+            "title": "ヴェクタでのシンボル検索",
+            "desc": "あなたのシンボルをVectaで簡単かつ効率的に見つける方法を見てください。"
+        },
+        "YPYPdGPi-nI": {
+            "title": "ペインタツール",
+            "desc": "カラーペインタを使い、最後に使用した色を図形、テキスト、および線に適用します。"
+        }
     },
     "plugin": {
         "no_exist": "以下の項目は設定できません。プラグインはもう存在しないかもしれません。または、あなたはプラグインにアクセスする権限がありません。",
@@ -2374,55 +3058,93 @@
         "saving_plugin": "プラグインの保存",
         "no_pinned_plugins": "描画用の固定プラグインはありません",
         "pinned_plugins": "固定プラグイン",
-        "plugin_0.name": "こんにちは世界",
-        "plugin_0.desc": "絵にこんにちは、 \"作成者の名前\"を印刷してください",
-        "plugin_1.name": "テーブルへのTSV",
-        "plugin_1.desc": "ドロップされたtsvファイルからテーブルを作成する",
-        "plugin_1.cat": "レポート",
-        "plugin_2.name": "ツリーへのJSON",
-        "plugin_2.desc": "ドロップされたJSONファイルをツリービューに変換する",
-        "plugin_2.cat": "レポート",
-        "plugin_3.name": "フラクタルツリーを描く",
-        "plugin_3.desc": "フラクタルツリーを作成する",
-        "plugin_4.name": "散乱体",
-        "plugin_4.desc": "選択した図形を無作為に図面に配布する",
+        "plugin_0": {
+            "name": "こんにちは世界",
+            "desc": "絵にこんにちは、 \"作成者の名前\"を印刷してください"
+        },
+        "plugin_1": {
+            "name": "テーブルへのTSV",
+            "desc": "ドロップされたtsvファイルからテーブルを作成する",
+            "cat": "レポート"
+        },
+        "plugin_2": {
+            "name": "ツリーへのJSON",
+            "desc": "ドロップされたJSONファイルをツリービューに変換する",
+            "cat": "レポート"
+        },
+        "plugin_3": {
+            "name": "フラクタルツリーを描く",
+            "desc": "フラクタルツリーを作成する"
+        },
+        "plugin_4": {
+            "name": "散乱体",
+            "desc": "選択した図形を無作為に図面に配布する"
+        },
         "create_plugin": "プラグインの作成",
-        "plugin_5.name": "削り器",
-        "plugin_5.desc": "あなたの図形を最も近いグリッドにスナップする",
-        "plugin_6.name": "折れ線グラフ",
-        "plugin_6.desc": "入力データに応じて線グラフ/曲線グラフをプロットする",
-        "plugin_6.cat": "チャート",
-        "plugin_7.name": "円グラフ",
-        "plugin_7.desc": "入力データに従って円/楕円を分割する",
-        "plugin_7.cat": "チャート",
-        "plugin_8.name": "マテリアルデザインアイコン",
-        "plugin_8.desc": "Material.ioアイコンのリストからアイコンを選択してインポートする",
-        "plugin_8.cat": "アイコン",
-        "plugin_9.name": "フォント驚くばかりのアイコン",
-        "plugin_9.desc": "フォント驚くばかりのアイコンのリストからアイコンを選択してインポートする（無料）",
-        "plugin_9.cat": "アイコン",
-        "plugin_11.name": "転置",
-        "plugin_11.desc": "一群の図形を転置する",
-        "plugin_10.name": "分度器",
-        "plugin_10.desc": "円を描く分度器を描く",
-        "plugin_12.name": "スペーサー",
-        "plugin_12.desc": "形状の間にスペースを入れてください。",
-        "plugin_13.name": "スプリッタ",
-        "plugin_13.desc": "四角形または四角形を指定された数の列、行およびそれぞれの溝に分割します。",
-        "plugin_13.cat": "一般",
-        "plugin_15.name": "箇条書きリスト",
-        "plugin_15.desc": "テキストリストに箇条書きを追加する",
+        "plugin_5": {
+            "name": "削り器",
+            "desc": "あなたの図形を最も近いグリッドにスナップする"
+        },
+        "plugin_6": {
+            "name": "折れ線グラフ",
+            "desc": "入力データに応じて線グラフ/曲線グラフをプロットする",
+            "cat": "チャート"
+        },
+        "plugin_7": {
+            "name": "円グラフ",
+            "desc": "入力データに従って円/楕円を分割する",
+            "cat": "チャート"
+        },
+        "plugin_8": {
+            "name": "マテリアルデザインアイコン",
+            "desc": "Material.ioアイコンのリストからアイコンを選択してインポートする",
+            "cat": "アイコン"
+        },
+        "plugin_9": {
+            "name": "フォント驚くばかりのアイコン",
+            "desc": "フォント驚くばかりのアイコンのリストからアイコンを選択してインポートする（無料）",
+            "cat": "アイコン"
+        },
+        "plugin_11": {
+            "name": "転置",
+            "desc": "一群の図形を転置する"
+        },
+        "plugin_10": {
+            "name": "分度器",
+            "desc": "円を描く分度器を描く"
+        },
+        "plugin_12": {
+            "name": "スペーサー",
+            "desc": "形状の間にスペースを入れてください。"
+        },
+        "plugin_13": {
+            "name": "スプリッタ",
+            "desc": "四角形または四角形を指定された数の列、行およびそれぞれの溝に分割します。",
+            "cat": "一般"
+        },
+        "plugin_15": {
+            "name": "箇条書きリスト",
+            "desc": "テキストリストに箇条書きを追加する"
+        },
         "success_refresh": "プラグインが正常に更新されました。",
         "fail_refresh": "プラグインはもう存在しません。",
-        "plugin_16.name": "コロプレスの地図",
-        "plugin_16.desc": "統計値に従ってJSONデータを網掛けの比率に変換",
-        "plugin_17.name": "テーブル",
-        "plugin_17.desc": "入力された行数と列数に基づいてテーブルを作成します。",
-        "plugin_18.name": "ポリゴン",
-        "plugin_18.desc": "辺数の入力に基づいて多角形を作成します",
-        "plugin_19.name": "グロー効果",
-        "plugin_19.desc": "グロー効果のある楕円を作成する",
-        "plugin_19.cat": "全般",
+        "plugin_16": {
+            "name": "コロプレスの地図",
+            "desc": "統計値に従ってJSONデータを網掛けの比率に変換"
+        },
+        "plugin_17": {
+            "name": "テーブル",
+            "desc": "入力された行数と列数に基づいてテーブルを作成します。"
+        },
+        "plugin_18": {
+            "name": "ポリゴン",
+            "desc": "辺数の入力に基づいて多角形を作成します"
+        },
+        "plugin_19": {
+            "name": "グロー効果",
+            "desc": "グロー効果のある楕円を作成する",
+            "cat": "全般"
+        },
         "personal_plugins": "個人用プラグイン",
         "team_plugins": "チームプラグイン",
         "public_plugins": "公開プラグイン",
