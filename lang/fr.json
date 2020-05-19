@@ -875,16 +875,14 @@
         "enable_popup": "S'il vous plaît activer popup dans votre navigateur.",
         "team_created": "Bienvenue dans votre nouvelle équipe!",
         "move_to_team": "Déplacer vers une équipe",
-        "team_names": [
-            "Gagnants",
-            "La meilleure équipe jamais constituée",
-            "Amusement",
-            "Impressionnant",
-            "Fantastique",
-            "Content",
-            "Intelligent",
-            "Cool"
-        ],
+        "team_names.0": "Gagnants",
+        "team_names.1": "La meilleure équipe jamais constituée",
+        "team_names.2": "Amusement",
+        "team_names.3": "Impressionnant",
+        "team_names.4": "Fantastique",
+        "team_names.5": "Content",
+        "team_names.6": "Intelligent",
+        "team_names.7": "Cool",
         "move_to_dash": "Déplacer vers le tableau de bord",
         "refresh_team": "Accès changé",
         "invite_email": "Inviter par email (optionnel)",
@@ -1228,382 +1226,142 @@
         "duplicate-shape": "Ctrl + D pour appliquer les changements sur les propriétés de la forme sélectionnée"
     },
     "tips": {
-        "Lock": {
-            "tip": "Stencil verrouillé"
-        },
-        "redo": {
-            "icon": "Redo <br> (Ctrl-Y)"
-        },
-        "pref": {
-            "icon": "Préférences"
-        },
-        "sort": {
-            "icon": "Trier par"
-        },
-        "undo": {
-            "icon": "Annuler <br> (Ctrl-Z)"
-        },
-        "list": {
-            "icon": "Vue de la liste"
-        },
-        "noti": {
-            "icon": "Notifications"
-        },
-        "grid": {
-            "icon": "Vue de la grille"
-        },
-        "save": {
-            "icon": "Faites glisser et déposez à gauche pour enregistrer"
-        },
-        "bold": {
-            "icon": "Audacieux"
-        },
-        "align": {
-            "icon": "Aligner les formes sélectionnées"
-        },
-        "reset": {
-            "icon": "Réinitialiser le gradient sélectionné"
-        },
-        "Select": {
-            "tip": "Sélectionnez toutes les formes dans la couche"
-        },
-        "Search": {
-            "tip": "Le pochoir de recherche ne peut pas être modifié"
-        },
-        "login": {
-            "icon": "se connecter"
-        },
-        "remove": {
-            "help": "Supprimer l'utilisateur"
-        },
-        "italic": {
-            "icon": "Italique"
-        },
-        "expand": {
-            "icon": "Plus d'outils ..."
-        },
-        "logout": {
-            "icon": "Déconnexion"
-        },
-        "Visible": {
-            "tip": "Afficher / masquer les formes dans la couche"
-        },
-        "record": {
-            "icon": "Enregistrer des macros"
-        },
-        "videos": {
-            "icon": "Regardez des vidéos de tutoriel"
-        },
-        "ascend": {
-            "icon": "Inverser la direction du tri"
-        },
-        "profile": {
-            "icon": "Profil"
-        },
-        "arrange": {
-            "icon": "Organiser l'ordre Z pour les formes sélectionnées"
-        },
-        "descend": {
-            "icon": "Inverser la direction du tri"
-        },
-        "zoom_in": {
-            "icon": "Zoom avant <br> Ctrl + molette de la souris"
-        },
-        "line_end": {
-            "icon": "Propriétés de ligne",
-            "menu": {
-                "[1,0]": "Commencez petit",
-                "[1,1]": "Les deux petits",
-                "[0,1]": "Fin petit",
-                "[1": {
-                    "5,0]": "Commencer le milieu",
-                    "5,1": {
-                        "5]": "Les deux moyens"
-                    }
-                },
-                "[0,1": {
-                    "5]": "Fin moyen"
-                },
-                "[2,0]": "Commencez gros",
-                "[2,2]": "Les deux grands",
-                "[0,2]": "Fin grand",
-                "linecap_butt": "Linecap bout à bout",
-                "linecap_round": "Linecap ronde",
-                "linecap_square": "Linecap carré",
-                "linejoin_miter": "Linejoin mitre",
-                "linejoin_round": "Linejoin round",
-                "linejoin_bevel": "Linejoin biseau",
-                "swap": "Commuter les extrémités de ligne"
-            }
-        },
-        "chat_box": {
-            "icon": "Boîte de discussion"
-        },
-        "zoom_fit": {
-            "icon": "Zoom pour adapter la page"
-        },
-        "feedback": {
-            "icon": "Envoyer un commentaire"
-        },
-        "zoom_out": {
-            "icon": "Zoom arrière <br> Ctrl + molette de la souris"
-        },
-        "SaveSearch": {
-            "tip": "Sauvegarder le pochoir de recherche"
-        },
-        "dashboard": {
-            "icon": "Aller au tableau de bord"
-        },
-        "draw_path": {
-            "icon": "Dessiner un chemin, un arc, une courbe ou une forme libre <br> (Ctrl-4)",
-            "menu": {
-                "draw_line": {
-                    "icon": "Dessiner une ligne"
-                },
-                "draw_quad": {
-                    "icon": "Dessiner un arc"
-                },
-                "draw_cubic": {
-                    "icon": "Dessiner la courbe"
-                },
-                "draw_free": {
-                    "icon": "Dessiner une forme libre"
-                }
-            }
-        },
-        "draw_rect": {
-            "icon": "Dessiner un rectangle <br> (Ctrl-2)"
-        },
-        "font_size": {
-            "icon": "Taille de police"
-        },
-        "underline": {
-            "icon": "Souligner"
-        },
-        "add_layer": {
-            "icon": "Ajouter une couche"
-        },
-        "file_name": {
-            "icon": "Renommer le dessin"
-        },
-        "operations": {
-            "icon": "Grouper, dégrouper, retourner ou joindre des formes sélectionnées"
-        },
-        "line_color": {
-            "icon": "Couleur de la ligne"
-        },
-        "page_setup": {
-            "icon": "Mise en page"
-        },
-        "line_style": {
-            "icon": "Style de ligne"
-        },
-        "fill_color": {
-            "icon": "La couleur de remplissage"
-        },
-        "font_color": {
-            "icon": "Couleur de la police"
-        },
-        "zoom_level": {
-            "icon": "Le niveau de zoom"
-        },
-        "shared_url": {
-            "icon": "Obtenir un lien partageable sans envoyer d'e-mails"
-        },
-        "text_align": {
-            "icon": "Alignement du texte",
-            "menu": {
-                "start": "Alignez à gauche",
-                "middle": "Aligner le milieu",
-                "end": "Aligner à droite",
-                "top": "Aligner en haut",
-                "central": "Aligner le centre",
-                "bottom": "Aligner le fond"
-            }
-        },
-        "revert_icon": {
-            "icon": "Rétablir l'icône pour la dernière mise à jour"
-        },
-        "update_icon": {
-            "icon": "Mise à jour icône"
-        },
-        "color_trans": {
-            "help": "Transparence <br/> 0-100 / 0% -100% / 0-1"
-        },
-        "play_record": {
-            "icon": "Lire des macros"
-        },
-        "fields_prop": {
-            "icon": "Ajouter un champ"
-        },
-        "font_family": {
-            "icon": "Famille de polices"
-        },
-        "line_weight": {
-            "icon": "Poids en ligne"
-        },
-        "save_record": {
-            "icon": "Exporter des macros"
-        },
-        "toggle_grid": {
-            "icon": "Afficher / masquer la grille"
-        },
-        "draw_ellipse": {
-            "icon": "Tracez un cercle ou une ellipse <br> (Ctrl-3)"
-        },
-        "round_corner": {
-            "icon": "Coin rond"
-        },
-        "pause_record": {
-            "icon": "Suspendre les macros"
-        },
-        "formula_prop": {
-            "icon": "Afficher / masquer les formules"
-        },
-        "format_painter": {
-            "icon": "Format, couleur, <br> formule ou <br> peintre json <br> (Ctrl-7)"
-        },
-        "draw_textblock": {
-            "icon": "Dessiner, déplacer, redimensionner ou faire pivoter du texte <br> (Ctrl-5)"
-        },
-        "draw_connector": {
-            "icon": "Dessiner des connecteurs <br> (Ctrl-6)",
-            "menu": {
-                "draw_conn_verti": {
-                    "icon": "Coude"
-                },
-                "draw_conn_line": {
-                    "icon": "Connecteur droit"
-                },
-                "draw_conn_points": {
-                    "icon": "Point de connexion"
-                },
-                "draw_conn_jump": {
-                    "icon": "Connecteur de coude"
-                },
-                "draw_conn_ljump": {
-                    "icon": "Connecteur de saut droit"
-                }
-            }
-        },
-        "preserve_ratio": {
-            "icon": "Verrouiller / Débloquer la largeur et la hauteur"
-        },
-        "custom_gradient": {
-            "icon": "Faites glisser et déposez à gauche pour enregistrer"
-        },
-        "Playlist": {
-            "tip": "Playlist de vidéos"
-        },
-        "Minimize": {
-            "tip": "Minimiser"
-        },
-        "Maximize": {
-            "tip": "Maximiser"
-        },
-        "Close": {
-            "tip": "Fermer"
-        },
-        "Expand": {
-            "tip": "Développer"
-        },
-        "Collapse": {
-            "tip": "Effondrer"
-        },
-        "Add": {
-            "tip": "Ajouter"
-        },
-        "Remove": {
-            "tip": "Retirer"
-        },
-        "Save": {
-            "tip": "sauvegarder"
-        },
-        "edit_profile": {
-            "icon": "Editer le profil"
-        },
-        "fit_to_drawing": {
-            "tip": "Augmentez la largeur et la hauteur pour ajouter la marge"
-        },
-        "new_page": {
-            "icon": "Nouvelle page"
-        },
-        "cursor": {
-            "icon": "Pointeur, outil panoramique <br> (Ctrl-1)",
-            "menu": {
-                "pointer": {
-                    "icon": "Outil de pointeur"
-                },
-                "pan": {
-                    "icon": "Outil pan"
-                }
-            }
-        },
-        "delete_page": {
-            "icon": "Supprimer la page"
-        },
-        "pages": {
-            "icon": "Voir une autre page"
-        },
-        "set_public": {
-            "label": "Toute personne sur Internet peut trouver et accéder à"
-        },
-        "edit_info": {
-            "icon": "Un lien de confirmation sera <br> envoyé à votre email précédent."
-        },
-        "color": {
-            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
-        },
-        "bevel_color": {
-            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
-        },
-        "shadow_color": {
-            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
-        },
+        "Lock.tip": "Stencil verrouillé",
+        "redo.icon": "Redo <br> (Ctrl-Y)",
+        "pref.icon": "Préférences",
+        "sort.icon": "Trier par",
+        "undo.icon": "Annuler <br> (Ctrl-Z)",
+        "list.icon": "Vue de la liste",
+        "noti.icon": "Notifications",
+        "grid.icon": "Vue de la grille",
+        "save.icon": "Faites glisser et déposez à gauche pour enregistrer",
+        "bold.icon": "Audacieux",
+        "align.icon": "Aligner les formes sélectionnées",
+        "reset.icon": "Réinitialiser le gradient sélectionné",
+        "Select.tip": "Sélectionnez toutes les formes dans la couche",
+        "Search.tip": "Le pochoir de recherche ne peut pas être modifié",
+        "login.icon": "se connecter",
+        "remove.help": "Supprimer l'utilisateur",
+        "italic.icon": "Italique",
+        "expand.icon": "Plus d'outils ...",
+        "logout.icon": "Déconnexion",
+        "Visible.tip": "Afficher / masquer les formes dans la couche",
+        "record.icon": "Enregistrer des macros",
+        "videos.icon": "Regardez des vidéos de tutoriel",
+        "ascend.icon": "Inverser la direction du tri",
+        "profile.icon": "Profil",
+        "arrange.icon": "Organiser l'ordre Z pour les formes sélectionnées",
+        "descend.icon": "Inverser la direction du tri",
+        "zoom_in.icon": "Zoom avant <br> Ctrl + molette de la souris",
+        "line_end.icon": "Propriétés de ligne",
+        "line_end.menu.[1,0]": "Commencez petit",
+        "line_end.menu.[1,1]": "Les deux petits",
+        "line_end.menu.[0,1]": "Fin petit",
+        "line_end.menu.[1.5,0]": "Commencer le milieu",
+        "line_end.menu.[1.5,1.5]": "Les deux moyens",
+        "line_end.menu.[0,1.5]": "Fin moyen",
+        "line_end.menu.[2,0]": "Commencez gros",
+        "line_end.menu.[2,2]": "Les deux grands",
+        "line_end.menu.[0,2]": "Fin grand",
+        "line_end.menu.linecap_butt": "Linecap bout à bout",
+        "line_end.menu.linecap_round": "Linecap ronde",
+        "line_end.menu.linecap_square": "Linecap carré",
+        "line_end.menu.linejoin_miter": "Linejoin mitre",
+        "line_end.menu.linejoin_round": "Linejoin round",
+        "line_end.menu.linejoin_bevel": "Linejoin biseau",
+        "line_end.menu.swap": "Commuter les extrémités de ligne",
+        "chat_box.icon": "Boîte de discussion",
+        "zoom_fit.icon": "Zoom pour adapter la page",
+        "feedback.icon": "Envoyer un commentaire",
+        "zoom_out.icon": "Zoom arrière <br> Ctrl + molette de la souris",
+        "SaveSearch.tip": "Sauvegarder le pochoir de recherche",
+        "dashboard.icon": "Aller au tableau de bord",
+        "draw_path.icon": "Dessiner un chemin, un arc, une courbe ou une forme libre <br> (Ctrl-4)",
+        "draw_path.menu.draw_line.icon": "Dessiner une ligne",
+        "draw_path.menu.draw_quad.icon": "Dessiner un arc",
+        "draw_path.menu.draw_cubic.icon": "Dessiner la courbe",
+        "draw_path.menu.draw_free.icon": "Dessiner une forme libre",
+        "draw_rect.icon": "Dessiner un rectangle <br> (Ctrl-2)",
+        "font_size.icon": "Taille de police",
+        "underline.icon": "Souligner",
+        "add_layer.icon": "Ajouter une couche",
+        "file_name.icon": "Renommer le dessin",
+        "operations.icon": "Grouper, dégrouper, retourner ou joindre des formes sélectionnées",
+        "line_color.icon": "Couleur de la ligne",
+        "page_setup.icon": "Mise en page",
+        "line_style.icon": "Style de ligne",
+        "fill_color.icon": "La couleur de remplissage",
+        "font_color.icon": "Couleur de la police",
+        "zoom_level.icon": "Le niveau de zoom",
+        "shared_url.icon": "Obtenir un lien partageable sans envoyer d'e-mails",
+        "text_align.icon": "Alignement du texte",
+        "text_align.menu.start": "Alignez à gauche",
+        "text_align.menu.middle": "Aligner le milieu",
+        "text_align.menu.end": "Aligner à droite",
+        "text_align.menu.top": "Aligner en haut",
+        "text_align.menu.central": "Aligner le centre",
+        "text_align.menu.bottom": "Aligner le fond",
+        "revert_icon.icon": "Rétablir l'icône pour la dernière mise à jour",
+        "update_icon.icon": "Mise à jour icône",
+        "color_trans.help": "Transparence <br/> 0-100 / 0% -100% / 0-1",
+        "play_record.icon": "Lire des macros",
+        "fields_prop.icon": "Ajouter un champ",
+        "font_family.icon": "Famille de polices",
+        "line_weight.icon": "Poids de ligne",
+        "save_record.icon": "Exporter des macros",
+        "toggle_grid.icon": "Afficher / masquer la grille",
+        "draw_ellipse.icon": "Tracez un cercle ou une ellipse <br> (Ctrl-3)",
+        "round_corner.icon": "Coin rond",
+        "pause_record.icon": "Suspendre les macros",
+        "formula_prop.icon": "Afficher / masquer les formules",
+        "format_painter.icon": "Format, couleur, <br> formule ou <br> peintre json <br> (Ctrl-7)",
+        "draw_textblock.icon": "Dessiner, déplacer, redimensionner ou faire pivoter du texte <br> (Ctrl-5)",
+        "draw_connector.icon": "Dessiner des connecteurs <br> (Ctrl-6)",
+        "draw_connector.menu.draw_conn_verti.icon": "Coude",
+        "draw_connector.menu.draw_conn_line.icon": "Connecteur droit",
+        "draw_connector.menu.draw_conn_points.icon": "Point de connexion",
+        "draw_connector.menu.draw_conn_jump.icon": "Connecteur de coude",
+        "draw_connector.menu.draw_conn_ljump.icon": "Connecteur de saut droit",
+        "preserve_ratio.icon": "Verrouiller / Débloquer la largeur et la hauteur",
+        "custom_gradient.icon": "Faites glisser et déposez à gauche pour enregistrer",
+        "Playlist.tip": "Playlist de vidéos",
+        "Minimize.tip": "Minimiser",
+        "Maximize.tip": "Maximiser",
+        "Close.tip": "Fermer",
+        "Expand.tip": "Développer",
+        "Collapse.tip": "Effondrer",
+        "Add.tip": "Ajouter",
+        "Remove.tip": "Retirer",
+        "Save.tip": "sauvegarder",
+        "edit_profile.icon": "Editer le profil",
+        "fit_to_drawing.tip": "Augmentez la largeur et la hauteur pour ajouter la marge",
+        "new_page.icon": "Nouvelle page",
+        "cursor.icon": "Pointeur, outil panoramique <br> (Ctrl-1)",
+        "cursor.menu.pointer.icon": "Outil de pointeur",
+        "cursor.menu.pan.icon": "Outil pan",
+        "delete_page.icon": "Supprimer la page",
+        "pages.icon": "Voir une autre page",
+        "set_public.label": "Toute personne sur Internet peut trouver et accéder à",
+        "edit_info.icon": "Un lien de confirmation sera <br> envoyé à votre email précédent.",
+        "color.help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)",
+        "bevel_color.help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)",
+        "shadow_color.help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)",
         "blur_help": "Le flou ne peut être utilisé avec aucun effet.",
         "shadow_help": "L'ombre portée peut être utilisée avec Bevel. <br> Inner Shadow ne peut être utilisé avec aucun effet.",
-        "page_up": {
-            "icon": "Page précédente"
-        },
-        "page_down": {
-            "icon": "Page suivante"
-        },
-        "rect_help": {
-            "icon": "Aidez-moi"
-        },
-        "Delete": {
-            "tip": "Effacer"
-        },
-        "AddField": {
-            "tip": "Ajouter le champ"
-        },
-        "FormulaField": {
-            "tip": "Modifier la formule"
-        },
-        "AddLayer": {
-            "tip": "Ajouter une couche"
-        },
-        "AddEffect": {
-            "tip": "Ajouter un effet"
-        },
-        "AddCustomMenu": {
-            "tip": "Ajouter un menu personnalisé"
-        },
-        "ListCustomMenu": {
-            "tip": "Liste du menu personnalisé"
-        },
-        "file": {
-            "icon": "Préférences"
-        },
-        "export": {
-            "icon": "Exportation"
-        },
-        "share": {
-            "icon": "Partager"
-        },
-        "view": {
-            "icon": "Vue"
-        }
+        "page_up.icon": "Page précédente",
+        "page_down.icon": "Page suivante",
+        "rect_help.icon": "Aidez-moi",
+        "Delete.tip": "Effacer",
+        "AddField.tip": "Ajouter le champ",
+        "FormulaField.tip": "Modifier la formule",
+        "AddLayer.tip": "Ajouter une couche",
+        "AddEffect.tip": "Ajouter un effet",
+        "AddCustomMenu.tip": "Ajouter un menu personnalisé",
+        "ListCustomMenu.tip": "Liste du menu personnalisé",
+        "file.icon": "Préférences",
+        "export.icon": "Exportation",
+        "share.icon": "Partager",
+        "view.icon": "Vue"
     },
     "signup": {
         "failed": "L'inscription a échoué",
@@ -1643,44 +1401,32 @@
     "settings": {
         "sound": "Jouer le son quand:",
         "reading": "Lire les préférences",
-        "noti": {
-            "push": "Activer la notification de bureau",
-            "renamed": "Renommé un dessin, un dossier ou un pochoir",
-            "created": "Créé un nouveau dessin, un dossier ou un pochoir",
-            "trashed": "Trashed un dessin, un dossier ou un pochoir"
-        },
+        "noti.push": "Activer la notification de bureau",
+        "noti.renamed": "Renommé un dessin, un dossier ou un pochoir",
+        "noti.created": "Créé un nouveau dessin, un dossier ou un pochoir",
+        "noti.trashed": "Trashed un dessin, un dossier ou un pochoir",
         "receive_noti": "Prévenez-moi lorsqu'un membre de l'équipe:",
-        "general": {
-            "lang": "La langue",
-            "new_mssg": "Le message de chat est reçu",
-            "new_user": "Collaborateur rejoint l'édition",
-            "sym_resize": "Redimensionner automatiquement les symboles pour les aligner sur la grille",
-            "export_selection": "Ignorer la sélection et utiliser la page entière lors de l'exportation",
-            "key_incre_type": "Incrément du clavier",
-            "key_incre_types": {
-                "auto": "Auto",
-                "custom": "Douane"
-            },
-            "custom_key_incre": "Définir l'incrément",
-            "connector_curve": "Taille de la courbe du connecteur",
-            "show_stencil_bar": "Toujours afficher la barre de défilement du pochoir"
-        },
-        "files": {
-            "sten": "Chemin des pochoirs:",
-            "plug": "Chemin des plugins:",
-            "compdb": "Chemin de la base de données des composants:"
-        },
-        "import": {
-            "default_unit": "Unité par défaut",
-            "units": {
-                "auto": "Auto",
-                "mm": "mm",
-                "in": "dans"
-            },
-            "dxf_dimensions": "Importer des dimensions",
-            "dxf_layers": "Importer des calques",
-            "dxf_stroke": "Largeur du trait"
-        }
+        "general.lang": "La langue",
+        "general.new_mssg": "Le message de chat est reçu",
+        "general.new_user": "Collaborateur rejoint l'édition",
+        "general.sym_resize": "Redimensionner automatiquement les symboles pour les aligner sur la grille",
+        "general.export_selection": "Ignorer la sélection et utiliser la page entière lors de l'exportation",
+        "general.key_incre_type": "Incrément du clavier",
+        "general.key_incre_types.auto": "Auto",
+        "general.key_incre_types.custom": "Douane",
+        "general.custom_key_incre": "Définir l'incrément",
+        "general.connector_curve": "Taille de la courbe du connecteur",
+        "general.show_stencil_bar": "Toujours afficher la barre de défilement du pochoir",
+        "files.sten": "Chemin des pochoirs:",
+        "files.plug": "Chemin des plugins:",
+        "files.compdb": "Chemin de la base de données des composants:",
+        "import.default_unit": "Unité par défaut",
+        "import.units.auto": "Auto",
+        "import.units.mm": "mm",
+        "import.units.in": "dans",
+        "import.dxf_dimensions": "Importer des dimensions",
+        "import.dxf_layers": "Importer des calques",
+        "import.dxf_stroke": "Largeur du trait"
     },
     "integrate": {
         "error": "Quelque chose a mal tourné ...",
@@ -1709,344 +1455,158 @@
         "stencil_name": "Nom du pochoir",
         "total_results": "de @@ résultats affichés",
         "load_stencils": "Chargement des pochoirs ...",
-        "stencil_5": {
-            "name": "AWS Analytics",
-            "desc": "Amazon Web Services: Analytics",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
+        "stencil_5.name": "AWS Analytics",
+        "stencil_5.desc": "Amazon Web Services: Analytics",
+        "stencil_5.cat.0": "Amazon Web Services",
         "delete_stencil": "Supprimer le pochoir",
-        "stencil_9": {
-            "desc": "Amazon Web Services: Calculer",
-            "name": "AWS Compute",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
+        "stencil_9.desc": "Amazon Web Services: Calculer",
+        "stencil_9.name": "AWS Compute",
+        "stencil_9.cat.0": "Amazon Web Services",
         "no_edit_symbol": "Vous n'êtes pas autorisé à modifier ce symbole.",
-        "stencil_8": {
-            "desc": "Amazon Web Services: productivité de l'entreprise",
-            "name": "AWS Business Productivity",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_0": {
-            "desc": "Symboles de l'organigramme général",
-            "name": "Organigramme",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
+        "stencil_8.desc": "Amazon Web Services: productivité de l'entreprise",
+        "stencil_8.name": "AWS Business Productivity",
+        "stencil_8.cat.0": "Amazon Web Services",
+        "stencil_0.desc": "Symboles de l'organigramme général",
+        "stencil_0.name": "Organigramme",
+        "stencil_0.cat.0": "Graphiques et diagrammes",
         "not_updateable": "Pochoir non mis à jour",
-        "stencil_1": {
-            "name": "Notes colorées",
-            "desc": "Symboles de notes colorées",
-            "cat": [
-                "Personnes, drapeaux et documents"
-            ]
-        },
-        "stencil_7": {
-            "desc": "Amazon Web Services: Intelligence artificielle",
-            "name": "AWS Intelligence artificielle",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_6": {
-            "desc": "Amazon Web Services: Services d'application",
-            "name": "AWS Application Services",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
+        "stencil_1.name": "Notes colorées",
+        "stencil_1.desc": "Symboles de notes colorées",
+        "stencil_1.cat.0": "Personnes, drapeaux et documents",
+        "stencil_7.desc": "Amazon Web Services: Intelligence artificielle",
+        "stencil_7.name": "AWS Intelligence artificielle",
+        "stencil_7.cat.0": "Amazon Web Services",
+        "stencil_6.desc": "Amazon Web Services: Services d'application",
+        "stencil_6.name": "AWS Application Services",
+        "stencil_6.cat.0": "Amazon Web Services",
         "public_stencil": "Public - Tout le monde peut accéder aux symboles",
         "create_stencil": "Créer un pochoir",
-        "stencil_4": {
-            "desc": "Symboles de la plateforme cloud Google",
-            "name": "Google Cloud Platform",
-            "cat": [
-                "Google"
-            ]
-        },
+        "stencil_4.desc": "Symboles de la plateforme cloud Google",
+        "stencil_4.name": "Google Cloud Platform",
+        "stencil_4.cat.0": "Google",
         "stencil_access": "Pochoir",
-        "stencil_3": {
-            "desc": "Symboles de produits Google",
-            "name": "Google",
-            "cat": [
-                "Google"
-            ]
-        },
+        "stencil_3.desc": "Symboles de produits Google",
+        "stencil_3.name": "Google",
+        "stencil_3.cat.0": "Google",
         "no_drop_symbol": "Vous ne pouvez pas enregistrer un symbole dans le gabarit de recherche enregistré.",
-        "stencil_33": {
-            "name": "Produits Microsoft Office",
-            "desc": "Microsoft Azure: produits Office",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_28": {
-            "name": "Microsoft Azure Color",
-            "desc": "Microsoft Azure: symboles de couleur",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_46": {
-            "name": "Passerelle UML",
-            "desc": "Point de décision UML pouvant ajuster le chemin en fonction de conditions ou d'événements.",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_48": {
-            "desc": "Une représentation des lignes et des colonnes de cellules",
-            "name": "les tables"
-        },
-        "stencil_41": {
-            "name": "Classe UML",
-            "desc": "Diagrammes de classes UML",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
+        "stencil_33.name": "Produits Microsoft Office",
+        "stencil_33.desc": "Microsoft Azure: produits Office",
+        "stencil_33.cat.0": "Microsoft",
+        "stencil_28.name": "Microsoft Azure Color",
+        "stencil_28.desc": "Microsoft Azure: symboles de couleur",
+        "stencil_28.cat.0": "Microsoft",
+        "stencil_46.name": "Passerelle UML",
+        "stencil_46.desc": "Point de décision UML pouvant ajuster le chemin en fonction de conditions ou d'événements.",
+        "stencil_46.cat.0": "Graphiques et diagrammes",
+        "stencil_48.desc": "Une représentation des lignes et des colonnes de cellules",
+        "stencil_48.name": "les tables",
+        "stencil_41.name": "Classe UML",
+        "stencil_41.desc": "Diagrammes de classes UML",
+        "stencil_41.cat.0": "Graphiques et diagrammes",
         "untitled_symbol": "Symbole sans titre",
-        "stencil_15": {
-            "name": "AWS Internet des Objets",
-            "desc": "Amazon Web Services: Internet des objets",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_24": {
-            "desc": "Amazon Web Services: Stockage",
-            "name": "AWS Storage",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_27": {
-            "desc": "Microsoft Azure: symboles monochromes",
-            "name": "Microsoft Azure Mono",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_42": {
-            "name": "Relation d'entité UML",
-            "desc": "Diagrammes de relations d'entités UML",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_30": {
-            "desc": "Microsoft Azure: Centre de systèmes",
-            "name": "Microsoft Systems Center",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_14": {
-            "name": "AWS Général",
-            "desc": "Amazon Web Services: Général",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_31": {
-            "name": "Microsoft Enterprise",
-            "desc": "Microsoft Azure: Enterprise",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_17": {
-            "desc": "Amazon Web Services: messagerie",
-            "name": "AWS Messaging",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_32": {
-            "desc": "Microsoft Azure: Intune",
-            "name": "Microsoft Intune",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_29": {
-            "desc": "Microsoft Azure: machines virtuelles",
-            "name": "Machines virtuelles Microsoft",
-            "cat": [
-                "Microsoft"
-            ]
-        },
-        "stencil_38": {
-            "name": "Ordinateurs et Moniteurs",
-            "desc": "Afficher les périphériques",
-            "cat": [
-                "Ordinateurs et réseau"
-            ]
-        },
-        "stencil_43": {
-            "name": "Diagrammes de Venn",
-            "desc": "Une représentation des relations logiques ou mathématiques",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_34": {
-            "desc": "",
-            "name": "Gens",
-            "cat": [
-                "Personnes, drapeaux et documents"
-            ]
-        },
-        "stencil_44": {
-            "name": "Diagramme à bandes",
-            "desc": "Représentation graphique à barres",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_45": {
-            "name": "Organigramme",
-            "desc": "Une représentation graphique de la structure d'une organisation montrant les relations des postes ou des emplois à l'intérieur de celle-ci.",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_23": {
-            "name": "AWS Security Identité et conformité",
-            "desc": "Amazon Web Services: Identité et conformité",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
+        "stencil_15.name": "AWS Internet des Objets",
+        "stencil_15.desc": "Amazon Web Services: Internet des objets",
+        "stencil_15.cat.0": "Amazon Web Services",
+        "stencil_24.desc": "Amazon Web Services: Stockage",
+        "stencil_24.name": "AWS Storage",
+        "stencil_24.cat.0": "Amazon Web Services",
+        "stencil_27.desc": "Microsoft Azure: symboles monochromes",
+        "stencil_27.name": "Microsoft Azure Mono",
+        "stencil_27.cat.0": "Microsoft",
+        "stencil_42.name": "Relation d'entité UML",
+        "stencil_42.desc": "Diagrammes de relations d'entités UML",
+        "stencil_42.cat.0": "Graphiques et diagrammes",
+        "stencil_30.desc": "Microsoft Azure: Centre de systèmes",
+        "stencil_30.name": "Microsoft Systems Center",
+        "stencil_30.cat.0": "Microsoft",
+        "stencil_14.name": "AWS Général",
+        "stencil_14.desc": "Amazon Web Services: Général",
+        "stencil_14.cat.0": "Amazon Web Services",
+        "stencil_31.name": "Microsoft Enterprise",
+        "stencil_31.desc": "Microsoft Azure: Enterprise",
+        "stencil_31.cat.0": "Microsoft",
+        "stencil_17.desc": "Amazon Web Services: messagerie",
+        "stencil_17.name": "AWS Messaging",
+        "stencil_17.cat.0": "Amazon Web Services",
+        "stencil_32.desc": "Microsoft Azure: Intune",
+        "stencil_32.name": "Microsoft Intune",
+        "stencil_32.cat.0": "Microsoft",
+        "stencil_29.desc": "Microsoft Azure: machines virtuelles",
+        "stencil_29.name": "Machines virtuelles Microsoft",
+        "stencil_29.cat.0": "Microsoft",
+        "stencil_38.name": "Ordinateurs et Moniteurs",
+        "stencil_38.desc": "Afficher les périphériques",
+        "stencil_38.cat.0": "Ordinateurs et réseau",
+        "stencil_43.name": "Diagrammes de Venn",
+        "stencil_43.desc": "Une représentation des relations logiques ou mathématiques",
+        "stencil_43.cat.0": "Graphiques et diagrammes",
+        "stencil_34.desc": "",
+        "stencil_34.name": "Gens",
+        "stencil_34.cat.0": "Personnes, drapeaux et documents",
+        "stencil_44.name": "Diagramme à bandes",
+        "stencil_44.desc": "Représentation graphique à barres",
+        "stencil_44.cat.0": "Graphiques et diagrammes",
+        "stencil_45.name": "Organigramme",
+        "stencil_45.desc": "Une représentation graphique de la structure d'une organisation montrant les relations des postes ou des emplois à l'intérieur de celle-ci.",
+        "stencil_45.cat.0": "Graphiques et diagrammes",
+        "stencil_23.name": "AWS Security Identité et conformité",
+        "stencil_23.desc": "Amazon Web Services: Identité et conformité",
+        "stencil_23.cat.0": "Amazon Web Services",
         "creating_search": "Créer un pochoir ...",
-        "stencil_11": {
-            "name": "AWS Desktop App Streaming",
-            "desc": "Amazon Web Services: streaming d'applications de bureau",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_22": {
-            "desc": "Amazon Web Services: kits de développement logiciel",
-            "name": "SDK AWS",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_39": {
-            "desc": "Diagrammes de cas d'utilisation UML",
-            "name": "Cas d'utilisation UML",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_36": {
-            "desc": "Symboles d'infrastructure réseau",
-            "name": "Infrastructure de réseau",
-            "cat": [
-                "Ordinateurs et réseau"
-            ]
-        },
-        "stencil_10": {
-            "name": "Base de données AWS",
-            "desc": "Amazon Web Services: base de données",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
+        "stencil_11.name": "AWS Desktop App Streaming",
+        "stencil_11.desc": "Amazon Web Services: streaming d'applications de bureau",
+        "stencil_11.cat.0": "Amazon Web Services",
+        "stencil_22.desc": "Amazon Web Services: kits de développement logiciel",
+        "stencil_22.name": "SDK AWS",
+        "stencil_22.cat.0": "Amazon Web Services",
+        "stencil_39.desc": "Diagrammes de cas d'utilisation UML",
+        "stencil_39.name": "Cas d'utilisation UML",
+        "stencil_39.cat.0": "Graphiques et diagrammes",
+        "stencil_36.desc": "Symboles d'infrastructure réseau",
+        "stencil_36.name": "Infrastructure de réseau",
+        "stencil_36.cat.0": "Ordinateurs et réseau",
+        "stencil_10.name": "Base de données AWS",
+        "stencil_10.desc": "Amazon Web Services: base de données",
+        "stencil_10.cat.0": "Amazon Web Services",
         "private_stencil": "Privé - Seul vous ou votre équipe pouvez accéder aux symboles",
-        "stencil_20": {
-            "name": "AWS Networking et la diffusion de contenu",
-            "desc": "Amazon Web Services: mise en réseau et diffusion de contenu",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_16": {
-            "desc": "Amazon Web Services: outils de gestion",
-            "name": "Outils de gestion AWS",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_21": {
-            "desc": "Amazon Web Services: force de travail à la demande",
-            "name": "AWS On Demand Workforce",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_19": {
-            "desc": "Amazon Web Services: Services mobiles",
-            "name": "AWS Mobile Services",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_12": {
-            "desc": "Amazon Web Services: outils de développement",
-            "name": "Outils de développement AWS",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_37": {
-            "name": "Réseau de base",
-            "desc": "Symboles de réseau de base",
-            "cat": [
-                "Ordinateurs et réseau"
-            ]
-        },
-        "stencil_13": {
-            "name": "AWS Game Development",
-            "desc": "Amazon Web Services: développement de jeux",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_40": {
-            "desc": "Diagramme d'activité UML",
-            "name": "Activité UML",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
+        "stencil_20.name": "AWS Networking et la diffusion de contenu",
+        "stencil_20.desc": "Amazon Web Services: mise en réseau et diffusion de contenu",
+        "stencil_20.cat.0": "Amazon Web Services",
+        "stencil_16.desc": "Amazon Web Services: outils de gestion",
+        "stencil_16.name": "Outils de gestion AWS",
+        "stencil_16.cat.0": "Amazon Web Services",
+        "stencil_21.desc": "Amazon Web Services: force de travail à la demande",
+        "stencil_21.name": "AWS On Demand Workforce",
+        "stencil_21.cat.0": "Amazon Web Services",
+        "stencil_19.desc": "Amazon Web Services: Services mobiles",
+        "stencil_19.name": "AWS Mobile Services",
+        "stencil_19.cat.0": "Amazon Web Services",
+        "stencil_12.desc": "Amazon Web Services: outils de développement",
+        "stencil_12.name": "Outils de développement AWS",
+        "stencil_12.cat.0": "Amazon Web Services",
+        "stencil_37.name": "Réseau de base",
+        "stencil_37.desc": "Symboles de réseau de base",
+        "stencil_37.cat.0": "Ordinateurs et réseau",
+        "stencil_13.name": "AWS Game Development",
+        "stencil_13.desc": "Amazon Web Services: développement de jeux",
+        "stencil_13.cat.0": "Amazon Web Services",
+        "stencil_40.desc": "Diagramme d'activité UML",
+        "stencil_40.name": "Activité UML",
+        "stencil_40.cat.0": "Graphiques et diagrammes",
         "no_edit_stencil": "Vous n'êtes pas autorisé à modifier ce gabarit.",
-        "stencil_18": {
-            "name": "AWS Migration",
-            "desc": "Amazon Web Services: migration",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_35": {
-            "desc": "Blocs qui agissent comme des conteneurs",
-            "name": "Conteneurs",
-            "cat": [
-                "Personnes, drapeaux et documents"
-            ]
-        },
-        "stencil_26": {
-            "desc": "Symboles de documents et de dossiers colorés",
-            "name": "Documents et dossiers colorés",
-            "cat": [
-                "Personnes, drapeaux et documents"
-            ]
-        },
+        "stencil_18.name": "AWS Migration",
+        "stencil_18.desc": "Amazon Web Services: migration",
+        "stencil_18.cat.0": "Amazon Web Services",
+        "stencil_35.desc": "Blocs qui agissent comme des conteneurs",
+        "stencil_35.name": "Conteneurs",
+        "stencil_35.cat.0": "Personnes, drapeaux et documents",
+        "stencil_26.desc": "Symboles de documents et de dossiers colorés",
+        "stencil_26.name": "Documents et dossiers colorés",
+        "stencil_26.cat.0": "Personnes, drapeaux et documents",
         "symbol_no_exist": "Impossible de définir les éléments suivants. Le symbole peut ne plus exister, ou <br /> vous n'avez pas la permission d'y accéder.",
-        "stencil_25": {
-            "desc": "Symboles de la technologie web générale",
-            "name": "Technologies Web",
-            "cat": [
-                "Ordinateurs et réseau"
-            ]
-        },
+        "stencil_25.desc": "Symboles de la technologie web générale",
+        "stencil_25.name": "Technologies Web",
+        "stencil_25.cat.0": "Ordinateurs et réseau",
         "untitled_stencil": "Pochoir sans titre",
         "no_delete_symbol": "Vous n'êtes pas autorisé à supprimer ce symbole.",
         "stencil_cat_place": "Général, Gens, Marques",
@@ -2055,1438 +1615,770 @@
         "offline": "Vous êtes actuellement hors connexion. Veuillez réessayer lorsque vous êtes en ligne.",
         "success_refresh": "Symbole mis à jour avec succès.",
         "fail_refresh": "Le symbole n'existe plus.",
-        "stencil_49": {
-            "name": "Outils de mesure",
-            "desc": "Outils pour les mesures"
-        },
-        "stencil_50": {
-            "name": "Palettes de conception matérielle",
-            "desc": "Palettes de couleurs inspirées par Material Design",
-            "cat": [
-                "Google"
-            ]
-        },
+        "stencil_49.name": "Outils de mesure",
+        "stencil_49.desc": "Outils pour les mesures",
+        "stencil_50.name": "Palettes de conception matérielle",
+        "stencil_50.desc": "Palettes de couleurs inspirées par Material Design",
+        "stencil_50.cat.0": "Google",
         "open_all": "Ouvrir tous les pochoirs",
-        "stencil_51": {
-            "name": "Blocs de titre",
-            "desc": "Modèles pour le cartouche"
-        },
-        "stencil_52": {
-            "name": "Centre de contact AWS",
-            "desc": "Amazon Web Services: Centre de contact",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
-        "stencil_53": {
-            "name": "AWS Containers",
-            "desc": "Amazon Web Services: Conteneurs",
-            "cat": [
-                "Amazon Web Services"
-            ]
-        },
+        "stencil_51.name": "Blocs de titre",
+        "stencil_51.desc": "Modèles pour le cartouche",
+        "stencil_52.name": "Centre de contact AWS",
+        "stencil_52.desc": "Amazon Web Services: Centre de contact",
+        "stencil_52.cat.0": "Amazon Web Services",
+        "stencil_53.name": "AWS Containers",
+        "stencil_53.desc": "Amazon Web Services: Conteneurs",
+        "stencil_53.cat.0": "Amazon Web Services",
         "no_share_stencil": "Vous n'êtes pas autorisé à partager ce gabarit.",
-        "stencil_54": {
-            "name": "Organigramme photo",
-            "desc": "Une liste de conteneurs pour les organigrammes avec porte-photo",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_55": {
-            "name": "Polices Serif",
-            "desc": "Polices préférées pour le support imprimé",
-            "cat": [
-                "Google"
-            ]
-        },
-        "stencil_56": {
-            "name": "Polices San Serif",
-            "desc": "Polices préférées pour l'écran numérique.",
-            "cat": [
-                "Google"
-            ]
-        },
-        "stencil_57": {
-            "name": "Polices monospaces",
-            "desc": "Polices préférées pour la dactylographie.",
-            "cat": [
-                "Google"
-            ]
-        },
-        "stencil_58": {
-            "name": "Polices pour l'écriture manuscrite",
-            "desc": "Polices préférées pour la stratégie de marque, les dessins et modèles imprimés et le support imprimé",
-            "cat": [
-                "Google"
-            ]
-        },
-        "stencil_59": {
-            "name": "Polices d'affichage",
-            "desc": "Polices préférées pour la stratégie de marque, les dessins et modèles imprimés et le support imprimé",
-            "cat": [
-                "Google"
-            ]
-        },
-        "stencil_60": {
-            "name": "Cisco Application Control Engine",
-            "desc": "Passerelle XML ACE d'Application Control Engine",
-            "cat": [
-                "Cisco"
-            ]
-        },
-        "stencil_61": {
-            "name": "Série Cisco UC500",
-            "desc": "Cisco Unified Communications série 500 pour petites entreprises",
-            "cat": [
-                "Cisco"
-            ]
-        },
-        "stencil_62": {
-            "name": "Surveillance de sécurité Cisco",
-            "desc": "Symboles Cisco Security Stealthwatch",
-            "cat": [
-                "Cisco"
-            ]
-        },
-        "stencil_63": {
-            "name": "Cisco SAFE Architectural",
-            "desc": "Symboles architecturaux Cisco SAFE",
-            "cat": [
-                "Cisco"
-            ]
-        },
+        "stencil_54.name": "Organigramme photo",
+        "stencil_54.desc": "Une liste de conteneurs pour les organigrammes avec porte-photo",
+        "stencil_54.cat.0": "Graphiques et diagrammes",
+        "stencil_55.name": "Polices Serif",
+        "stencil_55.desc": "Polices préférées pour le support imprimé",
+        "stencil_55.cat.0": "Google",
+        "stencil_56.name": "Polices San Serif",
+        "stencil_56.desc": "Polices préférées pour l'écran numérique.",
+        "stencil_56.cat.0": "Google",
+        "stencil_57.name": "Polices monospaces",
+        "stencil_57.desc": "Polices préférées pour la dactylographie.",
+        "stencil_57.cat.0": "Google",
+        "stencil_58.name": "Polices pour l'écriture manuscrite",
+        "stencil_58.desc": "Polices préférées pour la stratégie de marque, les dessins et modèles imprimés et le support imprimé",
+        "stencil_58.cat.0": "Google",
+        "stencil_59.name": "Polices d'affichage",
+        "stencil_59.desc": "Polices préférées pour la stratégie de marque, les dessins et modèles imprimés et le support imprimé",
+        "stencil_59.cat.0": "Google",
+        "stencil_60.name": "Cisco Application Control Engine",
+        "stencil_60.desc": "Passerelle XML ACE d'Application Control Engine",
+        "stencil_60.cat.0": "Cisco",
+        "stencil_61.name": "Série Cisco UC500",
+        "stencil_61.desc": "Cisco Unified Communications série 500 pour petites entreprises",
+        "stencil_61.cat.0": "Cisco",
+        "stencil_62.name": "Surveillance de sécurité Cisco",
+        "stencil_62.desc": "Symboles Cisco Security Stealthwatch",
+        "stencil_62.cat.0": "Cisco",
+        "stencil_63.name": "Cisco SAFE Architectural",
+        "stencil_63.desc": "Symboles architecturaux Cisco SAFE",
+        "stencil_63.cat.0": "Cisco",
         "sym_update_failed": "Certains symboles ne sont pas mis à jour car ils <br /> n'existent plus ou vous n'êtes pas autorisé.",
         "all_saved": "Toutes les modifications de gabarit enregistrées",
-        "stencil_65": {
-            "name": "Des médias sociaux",
-            "desc": "Une collection d'icônes bien connues des médias sociaux"
-        },
-        "stencil_66": {
-            "name": "Drapeaux du monde",
-            "desc": "Grande collection de drapeaux du monde au format SVG",
-            "cat": [
-                "Personnes, drapeaux et documents"
-            ]
-        },
-        "stencil_67": {
-            "name": "Plans d'étage",
-            "desc": "Symboles personnalisables"
-        },
-        "stencil_68": {
-            "name": "Avatars",
-            "desc": "Avatars des gens",
-            "cat": [
-                "Personnes, drapeaux et documents"
-            ]
-        },
-        "stencil_69": {
-            "name": "commentaires",
-            "desc": "Les commentaires sont attribués aux calques afin que vous puissiez personnaliser sa visibilité lors de l'exportation / impression",
-            "cat": [
-                "Personnes, drapeaux et documents"
-            ]
-        },
-        "stencil_70": {
-            "name": "Graphique en beignet",
-            "desc": "Représentation graphique en beignet",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_64": {
-            "name": "Médias sociaux (Shadow)",
-            "desc": "Collection d'icônes de médias sociaux"
-        },
-        "stencil_71": {
-            "name": "Jauge et mètres",
-            "desc": "Jauges et compteurs interactifs"
-        },
+        "stencil_65.name": "Des médias sociaux",
+        "stencil_65.desc": "Une collection d'icônes bien connues des médias sociaux",
+        "stencil_66.name": "Drapeaux du monde",
+        "stencil_66.desc": "Grande collection de drapeaux du monde au format SVG",
+        "stencil_66.cat.0": "Personnes, drapeaux et documents",
+        "stencil_67.name": "Plans d'étage",
+        "stencil_67.desc": "Symboles personnalisables",
+        "stencil_68.name": "Avatars",
+        "stencil_68.desc": "Avatars des gens",
+        "stencil_68.cat.0": "Personnes, drapeaux et documents",
+        "stencil_69.name": "commentaires",
+        "stencil_69.desc": "Les commentaires sont attribués aux calques afin que vous puissiez personnaliser sa visibilité lors de l'exportation / impression",
+        "stencil_69.cat.0": "Personnes, drapeaux et documents",
+        "stencil_70.name": "Graphique en beignet",
+        "stencil_70.desc": "Représentation graphique en beignet",
+        "stencil_70.cat.0": "Graphiques et diagrammes",
+        "stencil_64.name": "Médias sociaux (Shadow)",
+        "stencil_64.desc": "Collection d'icônes de médias sociaux",
+        "stencil_71.name": "Jauge et mètres",
+        "stencil_71.desc": "Jauges et compteurs interactifs",
         "free_svg_symbols": "Symboles SVG gratuits",
         "request_symbols_title": "Demande de symboles",
         "request_symbols": "Demander des symboles",
-        "stencil_72": {
-            "name": "Marques 0 - 9",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://www.vectorlogo.zone/"
-        },
-        "stencil_73": {
-            "name": "Marques AA - AO",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://www.vectorlogo.zone/"
-        },
-        "stencil_74": {
-            "name": "Marques AP - AZ",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://vectorlogo.zone/"
-        },
-        "stencil_75": {
-            "name": "Marques BA - BZ",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://vectorlogo.zone/"
-        },
-        "stencil_76": {
-            "name": "Marques CA - CL",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://www.vectorlogo.zone/"
-        },
-        "stencil_77": {
-            "name": "Marques CM - CZ",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://www.vectorlogo.zone/"
-        },
-        "stencil_78": {
-            "name": "Marques DA - DZ",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://vectorlogo.zone/"
-        },
-        "stencil_79": {
-            "name": "Marques EA - EZ",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://vectorlogo.zone/"
-        },
-        "stencil_80": {
-            "name": "Marques FA - FZ",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://vectorlogo.zone/"
-        },
-        "stencil_81": {
-            "name": "Marques GA - GN",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://vectorlogo.zone/"
-        },
-        "stencil_82": {
-            "name": "Marques GO - GZ",
-            "desc": "",
-            "cat": [
-                "Logo des marques"
-            ],
-            "credit_name": "Zone de logo vectoriel",
-            "credit_link": "https://vectorlogo.zone/"
-        },
-        "stencil_105": {
-            "name": "Navigateur filaire",
-            "desc": "",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_106": {
-            "name": "Filaire Android",
-            "desc": "",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_107": {
-            "name": "IPhone filaire",
-            "desc": "",
-            "cat": [
-                "Graphiques et diagrammes"
-            ]
-        },
-        "stencil_83": {
-            "name": "Marques HA - HZ"
-        },
-        "stencil_84": {
-            "name": "Marques IA - IZ"
-        },
-        "stencil_85": {
-            "name": "Marques JA - JZ"
-        },
-        "stencil_86": {
-            "name": "Marques KA - KZ"
-        },
-        "stencil_87": {
-            "name": "Marques LA - LZ"
-        },
-        "stencil_88": {
-            "name": "Marques MA - MZ"
-        },
-        "stencil_89": {
-            "name": "Marques NA - NZ"
-        },
-        "stencil_90": {
-            "name": "Marques OA - OZ"
-        },
-        "stencil_91": {
-            "name": "Marques PA - PI"
-        },
-        "stencil_92": {
-            "name": "Marques PJ - PZ"
-        },
-        "stencil_93": {
-            "name": "Marques QA - QZ"
-        },
-        "stencil_94": {
-            "name": "Marques RA - RZ"
-        },
-        "stencil_95": {
-            "name": "Brands SA - SM"
-        },
-        "stencil_96": {
-            "name": "Marques SN - SZ"
-        },
-        "stencil_97": {
-            "name": "Marques TA - TH"
-        },
-        "stencil_98": {
-            "name": "Marques TI - TZ"
-        },
-        "stencil_99": {
-            "name": "Marques UA - UZ"
-        },
-        "stencil_100": {
-            "name": "Marques VA - VZ"
-        },
-        "stencil_101": {
-            "name": "Marques WA - WZ"
-        },
-        "stencil_102": {
-            "name": "Marques XA - XZ"
-        },
-        "stencil_103": {
-            "name": "Marques YA - YZ"
-        },
-        "stencil_104": {
-            "name": "Marques ZA - ZZ"
-        },
-        "stencil_108": {
-            "name": "Activités - Artisanat d'Art",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_109": {
-            "name": "Activités - Médaille",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_110": {
-            "name": "Activities - Event",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_111": {
-            "name": "Activités - Jeu",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_112": {
-            "name": "Activités - Sport",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_113": {
-            "name": "Animaux Nature - Amphibiens Animaux",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_114": {
-            "name": "Animaux Nature - Animal Oiseau",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_115": {
-            "name": "Animaux Nature - Animal Bug",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_116": {
-            "name": "Animaux Nature - Animal Mammifère",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_117": {
-            "name": "Animals Nature - Animal Marine",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_118": {
-            "name": "Animaux Nature - Reptile Animal",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_119": {
-            "name": "Animaux Nature - Plante Fleur",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_120": {
-            "name": "Animaux Nature - Plante Autre",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_121": {
-            "name": "Composant - Style de cheveux",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_122": {
-            "name": "Composant - Ton peau",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_123": {
-            "name": "Extras Openmoji - Animaux Nature",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_124": {
-            "name": "Extras Openmoji - Marque",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_125": {
-            "name": "Extras Openmoji - Urgence",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_126": {
-            "name": "Extras Openmoji - Boisson Alimentaire",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_127": {
-            "name": "Extras Openmoji - Interaction",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_128": {
-            "name": "Extras Openmoji - Objets",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_129": {
-            "name": "Extras Openmoji - Personnes",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_130": {
-            "name": "Extras Openmoji - Technologie",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_131": {
-            "name": "Extras Openmoji - Lieux de Voyage",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_132": {
-            "name": "Extras Openmoji - Élément Ui",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_133": {
-            "name": "Extras Unicode - Symbol Other",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_134": {
-            "name": "Drapeaux - Drapeau Pays",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_135": {
-            "name": "Drapeaux - Drapeau",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_136": {
-            "name": "Drapeaux - Drapeau de subdivision",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_137": {
-            "name": "Nourriture boisson - vaisselle",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_138": {
-            "name": "Boisson alimentaire - boisson",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_139": {
-            "name": "Nourriture boisson - nourriture asiatique",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_140": {
-            "name": "Food Drink - Food Fruit",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_141": {
-            "name": "Nourriture boisson - nourriture marine",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_142": {
-            "name": "Nourriture boisson - nourriture préparée",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_143": {
-            "name": "Nourriture boisson - nourriture sucrée",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_144": {
-            "name": "Nourriture boisson - légume alimentaire",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_145": {
-            "name": "Objets - Livre Livre",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_146": {
-            "name": "Objets - Vêtements",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_147": {
-            "name": "Objets - Ordinateur",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_148": {
-            "name": "Objets - Ménage",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_149": {
-            "name": "Objets - Vidéo légère",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_150": {
-            "name": "Objets - Serrure",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_151": {
-            "name": "Objets - Courrier",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_152": {
-            "name": "Objets - Médical",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_153": {
-            "name": "Objets - Argent",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_154": {
-            "name": "Objets - Musique",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_155": {
-            "name": "Objets - Instrument de musique",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_156": {
-            "name": "Objets - Bureau",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_157": {
-            "name": "Objets - Autre objet",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_158": {
-            "name": "Objets - Téléphone",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_159": {
-            "name": "Objets - Science",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_160": {
-            "name": "Objects - Sound",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_161": {
-            "name": "Objets - Outil",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_162": {
-            "name": "Objects - Writing",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_163": {
-            "name": "Corps des personnes - parties du corps",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_164": {
-            "name": "People Body - Family",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_165": {
-            "name": "People Body - Hand Fingers Closed",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_166": {
-            "name": "Personnes corps - main doigts ouverts",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_167": {
-            "name": "Corps des personnes - doigts de la main partielle",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_168": {
-            "name": "People Body - Hand Prop",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_169": {
-            "name": "Corps des personnes - main unique doigt",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_170": {
-            "name": "Corps du peuple - Mains",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_171": {
-            "name": "Corps des personnes - personne",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_172": {
-            "name": "Corps de personnes - Activité de personne",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_173": {
-            "name": "People Body - Person Fantasy",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_174": {
-            "name": "Corps des personnes - geste de la personne",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_175": {
-            "name": "Corps du peuple - Personne au repos",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_176": {
-            "name": "Corps du peuple - Rôle de la personne",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_177": {
-            "name": "Personnes corps - personne sport",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_178": {
-            "name": "Corps du peuple - symbole de la personne",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_179": {
-            "name": "Smileys Emotion - Visage de chat",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_180": {
-            "name": "Smileys Emotion - Emotion",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_181": {
-            "name": "Smileys Emotion - Affection du visage",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_182": {
-            "name": "Smileys Emotion - Face Concerned",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_183": {
-            "name": "Smileys Emotion - Costume pour le visage",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_184": {
-            "name": "Smileys Emotion - Lunettes de visage",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_185": {
-            "name": "Smileys Emotion - Visage Main",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_186": {
-            "name": "Smileys Emotion - Chapeau de visage",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_187": {
-            "name": "Smileys Emotion - Visage Négatif",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_188": {
-            "name": "Smileys Emotion - Visage neutre sceptique",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_189": {
-            "name": "Smileys Emotion - Face Sleepy",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_190": {
-            "name": "Smileys Emotion - Sourire Visage",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_191": {
-            "name": "Smileys Emotion - Face Tongue",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_192": {
-            "name": "Smileys Emotion - Face Unwell",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_193": {
-            "name": "Smileys Emotion - Visage de singe",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_194": {
-            "name": "Symboles - Alphanum",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_195": {
-            "name": "Symbols - Arrow",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_196": {
-            "name": "Symboles - Symbole Av",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_197": {
-            "name": "Symboles - Genre",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_198": {
-            "name": "Symboles - Géométrique",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_199": {
-            "name": "Symboles - Keycap",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_200": {
-            "name": "Symbols - Other Symbol",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_201": {
-            "name": "Symboles - Religion",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_202": {
-            "name": "Symboles - Panneau de transport",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_203": {
-            "name": "Symboles - Avertissement",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_204": {
-            "name": "Symbols - Zodiac",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_205": {
-            "name": "Travel Places - Hotel",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_206": {
-            "name": "Travel Places - Place Building",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_207": {
-            "name": "Lieux de voyage - Lieu géographique",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_208": {
-            "name": "Travel Places - Place Map",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_209": {
-            "name": "Travel Places - Place Autres",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_210": {
-            "name": "Travel Places - Place Religious",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_211": {
-            "name": "Lieux de voyage - Météo Sky",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_212": {
-            "name": "Lieux de voyage - Temps",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_213": {
-            "name": "Lieux de voyage - Transport aérien",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_214": {
-            "name": "Lieux de voyage - Terrain de transport",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_215": {
-            "name": "Lieux de voyage - Transport d'eau",
-            "desc": "",
-            "cat": [
-                "OpenMoji"
-            ],
-            "credit_name": "OpenMoji",
-            "credit_link": "https://openmoji.org/"
-        },
-        "stencil_238": {
-            "name": "Computer Brands",
-            "desc": "",
-            "cat": [
-                "Ordinateurs et réseau"
-            ]
-        },
-        "stencil_239": {
-            "name": "File formats",
-            "desc": "List of common file formats",
-            "cat": [
-                "Personnes, drapeaux et documents"
-            ]
-        },
-        "stencil_241": {
-            "name": "Icônes de topologie de réseau Cisco en noir et blanc",
-            "desc": "",
-            "cat": [
-                "Cisco"
-            ],
-            "credit_link": "https://cisco.com/",
-            "credit_name": "Cisco"
-        },
-        "stencil_240": {
-            "name": "Icônes de topologie de réseau Cisco 3015",
-            "desc": "",
-            "cat": [
-                "Cisco"
-            ],
-            "credit_link": "https://cisco.com/",
-            "credit_name": "Cisco"
-        },
-        "stencil_242": {
-            "name": "Cisco Wireless IW 3700",
-            "desc": "",
-            "cat": [
-                "Cisco"
-            ],
-            "credit_link": "https://cisco.com/",
-            "credit_name": "Cisco"
-        },
-        "stencil_243": {
-            "name": "Passerelles de la gamme Cisco VG",
-            "desc": "",
-            "cat": [
-                "Cisco"
-            ],
-            "credit_link": "https://cisco.com/",
-            "credit_name": "Cisco"
-        },
-        "stencil_244": {
-            "name": "Téléphone IP Cisco Unified série 7800 et 8800",
-            "desc": "",
-            "cat": [
-                "Cisco"
-            ],
-            "credit_link": "https://cisco.com/",
-            "credit_name": "Cisco"
-        },
+        "stencil_72.name": "Marques 0 - 9",
+        "stencil_72.desc": "",
+        "stencil_72.cat.0": "Logo des marques",
+        "stencil_72.credit_name": "Zone de logo vectoriel",
+        "stencil_72.credit_link": "https://www.vectorlogo.zone/",
+        "stencil_73.name": "Marques AA - AO",
+        "stencil_73.desc": "",
+        "stencil_73.cat.0": "Logo des marques",
+        "stencil_73.credit_name": "Zone de logo vectoriel",
+        "stencil_73.credit_link": "https://www.vectorlogo.zone/",
+        "stencil_74.name": "Marques AP - AZ",
+        "stencil_74.desc": "",
+        "stencil_74.cat.0": "Logo des marques",
+        "stencil_74.credit_name": "Zone de logo vectoriel",
+        "stencil_74.credit_link": "https://vectorlogo.zone/",
+        "stencil_75.name": "Marques BA - BZ",
+        "stencil_75.desc": "",
+        "stencil_75.cat.0": "Logo des marques",
+        "stencil_75.credit_name": "Zone de logo vectoriel",
+        "stencil_75.credit_link": "https://vectorlogo.zone/",
+        "stencil_76.name": "Marques CA - CL",
+        "stencil_76.desc": "",
+        "stencil_76.cat.0": "Logo des marques",
+        "stencil_76.credit_name": "Zone de logo vectoriel",
+        "stencil_76.credit_link": "https://www.vectorlogo.zone/",
+        "stencil_77.name": "Marques CM - CZ",
+        "stencil_77.desc": "",
+        "stencil_77.cat.0": "Logo des marques",
+        "stencil_77.credit_name": "Zone de logo vectoriel",
+        "stencil_77.credit_link": "https://www.vectorlogo.zone/",
+        "stencil_78.name": "Marques DA - DZ",
+        "stencil_78.desc": "",
+        "stencil_78.cat.0": "Logo des marques",
+        "stencil_78.credit_name": "Zone de logo vectoriel",
+        "stencil_78.credit_link": "https://vectorlogo.zone/",
+        "stencil_79.name": "Marques EA - EZ",
+        "stencil_79.desc": "",
+        "stencil_79.cat.0": "Logo des marques",
+        "stencil_79.credit_name": "Zone de logo vectoriel",
+        "stencil_79.credit_link": "https://vectorlogo.zone/",
+        "stencil_80.name": "Marques FA - FZ",
+        "stencil_80.desc": "",
+        "stencil_80.cat.0": "Logo des marques",
+        "stencil_80.credit_name": "Zone de logo vectoriel",
+        "stencil_80.credit_link": "https://vectorlogo.zone/",
+        "stencil_81.name": "Marques GA - GN",
+        "stencil_81.desc": "",
+        "stencil_81.cat.0": "Logo des marques",
+        "stencil_81.credit_name": "Zone de logo vectoriel",
+        "stencil_81.credit_link": "https://vectorlogo.zone/",
+        "stencil_82.name": "Marques GO - GZ",
+        "stencil_82.desc": "",
+        "stencil_82.cat.0": "Logo des marques",
+        "stencil_82.credit_name": "Zone de logo vectoriel",
+        "stencil_82.credit_link": "https://vectorlogo.zone/",
+        "stencil_105.name": "Navigateur filaire",
+        "stencil_105.desc": "",
+        "stencil_105.cat.0": "Graphiques et diagrammes",
+        "stencil_106.name": "Filaire Android",
+        "stencil_106.desc": "",
+        "stencil_106.cat.0": "Graphiques et diagrammes",
+        "stencil_107.name": "IPhone filaire",
+        "stencil_107.desc": "",
+        "stencil_107.cat.0": "Graphiques et diagrammes",
+        "stencil_83.name": "Marques HA - HZ",
+        "stencil_84.name": "Marques IA - IZ",
+        "stencil_85.name": "Marques JA - JZ",
+        "stencil_86.name": "Marques KA - KZ",
+        "stencil_87.name": "Marques LA - LZ",
+        "stencil_88.name": "Marques MA - MZ",
+        "stencil_89.name": "Marques NA - NZ",
+        "stencil_90.name": "Marques OA - OZ",
+        "stencil_91.name": "Marques PA - PI",
+        "stencil_92.name": "Marques PJ - PZ",
+        "stencil_93.name": "Marques QA - QZ",
+        "stencil_94.name": "Marques RA - RZ",
+        "stencil_95.name": "Brands SA - SM",
+        "stencil_96.name": "Marques SN - SZ",
+        "stencil_97.name": "Marques TA - TH",
+        "stencil_98.name": "Marques TI - TZ",
+        "stencil_99.name": "Marques UA - UZ",
+        "stencil_100.name": "Marques VA - VZ",
+        "stencil_101.name": "Marques WA - WZ",
+        "stencil_102.name": "Marques XA - XZ",
+        "stencil_103.name": "Marques YA - YZ",
+        "stencil_104.name": "Marques ZA - ZZ",
+        "stencil_108.name": "Activités - Artisanat d'Art",
+        "stencil_108.desc": "",
+        "stencil_108.cat.0": "OpenMoji",
+        "stencil_108.credit_name": "OpenMoji",
+        "stencil_108.credit_link": "https://openmoji.org/",
+        "stencil_109.name": "Activités - Médaille",
+        "stencil_109.desc": "",
+        "stencil_109.cat.0": "OpenMoji",
+        "stencil_109.credit_name": "OpenMoji",
+        "stencil_109.credit_link": "https://openmoji.org/",
+        "stencil_110.name": "Activities - Event",
+        "stencil_110.desc": "",
+        "stencil_110.cat.0": "OpenMoji",
+        "stencil_110.credit_name": "OpenMoji",
+        "stencil_110.credit_link": "https://openmoji.org/",
+        "stencil_111.name": "Activités - Jeu",
+        "stencil_111.desc": "",
+        "stencil_111.cat.0": "OpenMoji",
+        "stencil_111.credit_name": "OpenMoji",
+        "stencil_111.credit_link": "https://openmoji.org/",
+        "stencil_112.name": "Activités - Sport",
+        "stencil_112.desc": "",
+        "stencil_112.cat.0": "OpenMoji",
+        "stencil_112.credit_name": "OpenMoji",
+        "stencil_112.credit_link": "https://openmoji.org/",
+        "stencil_113.name": "Animaux Nature - Amphibiens Animaux",
+        "stencil_113.desc": "",
+        "stencil_113.cat.0": "OpenMoji",
+        "stencil_113.credit_name": "OpenMoji",
+        "stencil_113.credit_link": "https://openmoji.org/",
+        "stencil_114.name": "Animaux Nature - Animal Oiseau",
+        "stencil_114.desc": "",
+        "stencil_114.cat.0": "OpenMoji",
+        "stencil_114.credit_name": "OpenMoji",
+        "stencil_114.credit_link": "https://openmoji.org/",
+        "stencil_115.name": "Animaux Nature - Animal Bug",
+        "stencil_115.desc": "",
+        "stencil_115.cat.0": "OpenMoji",
+        "stencil_115.credit_name": "OpenMoji",
+        "stencil_115.credit_link": "https://openmoji.org/",
+        "stencil_116.name": "Animaux Nature - Animal Mammifère",
+        "stencil_116.desc": "",
+        "stencil_116.cat.0": "OpenMoji",
+        "stencil_116.credit_name": "OpenMoji",
+        "stencil_116.credit_link": "https://openmoji.org/",
+        "stencil_117.name": "Animals Nature - Animal Marine",
+        "stencil_117.desc": "",
+        "stencil_117.cat.0": "OpenMoji",
+        "stencil_117.credit_name": "OpenMoji",
+        "stencil_117.credit_link": "https://openmoji.org/",
+        "stencil_118.name": "Animaux Nature - Reptile Animal",
+        "stencil_118.desc": "",
+        "stencil_118.cat.0": "OpenMoji",
+        "stencil_118.credit_name": "OpenMoji",
+        "stencil_118.credit_link": "https://openmoji.org/",
+        "stencil_119.name": "Animaux Nature - Plante Fleur",
+        "stencil_119.desc": "",
+        "stencil_119.cat.0": "OpenMoji",
+        "stencil_119.credit_name": "OpenMoji",
+        "stencil_119.credit_link": "https://openmoji.org/",
+        "stencil_120.name": "Animaux Nature - Plante Autre",
+        "stencil_120.desc": "",
+        "stencil_120.cat.0": "OpenMoji",
+        "stencil_120.credit_name": "OpenMoji",
+        "stencil_120.credit_link": "https://openmoji.org/",
+        "stencil_121.name": "Composant - Style de cheveux",
+        "stencil_121.desc": "",
+        "stencil_121.cat.0": "OpenMoji",
+        "stencil_121.credit_name": "OpenMoji",
+        "stencil_121.credit_link": "https://openmoji.org/",
+        "stencil_122.name": "Composant - Ton peau",
+        "stencil_122.desc": "",
+        "stencil_122.cat.0": "OpenMoji",
+        "stencil_122.credit_name": "OpenMoji",
+        "stencil_122.credit_link": "https://openmoji.org/",
+        "stencil_123.name": "Extras Openmoji - Animaux Nature",
+        "stencil_123.desc": "",
+        "stencil_123.cat.0": "OpenMoji",
+        "stencil_123.credit_name": "OpenMoji",
+        "stencil_123.credit_link": "https://openmoji.org/",
+        "stencil_124.name": "Extras Openmoji - Marque",
+        "stencil_124.desc": "",
+        "stencil_124.cat.0": "OpenMoji",
+        "stencil_124.credit_name": "OpenMoji",
+        "stencil_124.credit_link": "https://openmoji.org/",
+        "stencil_125.name": "Extras Openmoji - Urgence",
+        "stencil_125.desc": "",
+        "stencil_125.cat.0": "OpenMoji",
+        "stencil_125.credit_name": "OpenMoji",
+        "stencil_125.credit_link": "https://openmoji.org/",
+        "stencil_126.name": "Extras Openmoji - Boisson Alimentaire",
+        "stencil_126.desc": "",
+        "stencil_126.cat.0": "OpenMoji",
+        "stencil_126.credit_name": "OpenMoji",
+        "stencil_126.credit_link": "https://openmoji.org/",
+        "stencil_127.name": "Extras Openmoji - Interaction",
+        "stencil_127.desc": "",
+        "stencil_127.cat.0": "OpenMoji",
+        "stencil_127.credit_name": "OpenMoji",
+        "stencil_127.credit_link": "https://openmoji.org/",
+        "stencil_128.name": "Extras Openmoji - Objets",
+        "stencil_128.desc": "",
+        "stencil_128.cat.0": "OpenMoji",
+        "stencil_128.credit_name": "OpenMoji",
+        "stencil_128.credit_link": "https://openmoji.org/",
+        "stencil_129.name": "Extras Openmoji - Personnes",
+        "stencil_129.desc": "",
+        "stencil_129.cat.0": "OpenMoji",
+        "stencil_129.credit_name": "OpenMoji",
+        "stencil_129.credit_link": "https://openmoji.org/",
+        "stencil_130.name": "Extras Openmoji - Technologie",
+        "stencil_130.desc": "",
+        "stencil_130.cat.0": "OpenMoji",
+        "stencil_130.credit_name": "OpenMoji",
+        "stencil_130.credit_link": "https://openmoji.org/",
+        "stencil_131.name": "Extras Openmoji - Lieux de Voyage",
+        "stencil_131.desc": "",
+        "stencil_131.cat.0": "OpenMoji",
+        "stencil_131.credit_name": "OpenMoji",
+        "stencil_131.credit_link": "https://openmoji.org/",
+        "stencil_132.name": "Extras Openmoji - Élément Ui",
+        "stencil_132.desc": "",
+        "stencil_132.cat.0": "OpenMoji",
+        "stencil_132.credit_name": "OpenMoji",
+        "stencil_132.credit_link": "https://openmoji.org/",
+        "stencil_133.name": "Extras Unicode - Symbol Other",
+        "stencil_133.desc": "",
+        "stencil_133.cat.0": "OpenMoji",
+        "stencil_133.credit_name": "OpenMoji",
+        "stencil_133.credit_link": "https://openmoji.org/",
+        "stencil_134.name": "Drapeaux - Drapeau Pays",
+        "stencil_134.desc": "",
+        "stencil_134.cat.0": "OpenMoji",
+        "stencil_134.credit_name": "OpenMoji",
+        "stencil_134.credit_link": "https://openmoji.org/",
+        "stencil_135.name": "Drapeaux - Drapeau",
+        "stencil_135.desc": "",
+        "stencil_135.cat.0": "OpenMoji",
+        "stencil_135.credit_name": "OpenMoji",
+        "stencil_135.credit_link": "https://openmoji.org/",
+        "stencil_136.name": "Drapeaux - Drapeau de subdivision",
+        "stencil_136.desc": "",
+        "stencil_136.cat.0": "OpenMoji",
+        "stencil_136.credit_name": "OpenMoji",
+        "stencil_136.credit_link": "https://openmoji.org/",
+        "stencil_137.name": "Nourriture boisson - vaisselle",
+        "stencil_137.desc": "",
+        "stencil_137.cat.0": "OpenMoji",
+        "stencil_137.credit_name": "OpenMoji",
+        "stencil_137.credit_link": "https://openmoji.org/",
+        "stencil_138.name": "Boisson alimentaire - boisson",
+        "stencil_138.desc": "",
+        "stencil_138.cat.0": "OpenMoji",
+        "stencil_138.credit_name": "OpenMoji",
+        "stencil_138.credit_link": "https://openmoji.org/",
+        "stencil_139.name": "Nourriture boisson - nourriture asiatique",
+        "stencil_139.desc": "",
+        "stencil_139.cat.0": "OpenMoji",
+        "stencil_139.credit_name": "OpenMoji",
+        "stencil_139.credit_link": "https://openmoji.org/",
+        "stencil_140.name": "Food Drink - Food Fruit",
+        "stencil_140.desc": "",
+        "stencil_140.cat.0": "OpenMoji",
+        "stencil_140.credit_name": "OpenMoji",
+        "stencil_140.credit_link": "https://openmoji.org/",
+        "stencil_141.name": "Nourriture boisson - nourriture marine",
+        "stencil_141.desc": "",
+        "stencil_141.cat.0": "OpenMoji",
+        "stencil_141.credit_name": "OpenMoji",
+        "stencil_141.credit_link": "https://openmoji.org/",
+        "stencil_142.name": "Nourriture boisson - nourriture préparée",
+        "stencil_142.desc": "",
+        "stencil_142.cat.0": "OpenMoji",
+        "stencil_142.credit_name": "OpenMoji",
+        "stencil_142.credit_link": "https://openmoji.org/",
+        "stencil_143.name": "Nourriture boisson - nourriture sucrée",
+        "stencil_143.desc": "",
+        "stencil_143.cat.0": "OpenMoji",
+        "stencil_143.credit_name": "OpenMoji",
+        "stencil_143.credit_link": "https://openmoji.org/",
+        "stencil_144.name": "Nourriture boisson - légume alimentaire",
+        "stencil_144.desc": "",
+        "stencil_144.cat.0": "OpenMoji",
+        "stencil_144.credit_name": "OpenMoji",
+        "stencil_144.credit_link": "https://openmoji.org/",
+        "stencil_145.name": "Objets - Livre Livre",
+        "stencil_145.desc": "",
+        "stencil_145.cat.0": "OpenMoji",
+        "stencil_145.credit_name": "OpenMoji",
+        "stencil_145.credit_link": "https://openmoji.org/",
+        "stencil_146.name": "Objets - Vêtements",
+        "stencil_146.desc": "",
+        "stencil_146.cat.0": "OpenMoji",
+        "stencil_146.credit_name": "OpenMoji",
+        "stencil_146.credit_link": "https://openmoji.org/",
+        "stencil_147.name": "Objets - Ordinateur",
+        "stencil_147.desc": "",
+        "stencil_147.cat.0": "OpenMoji",
+        "stencil_147.credit_name": "OpenMoji",
+        "stencil_147.credit_link": "https://openmoji.org/",
+        "stencil_148.name": "Objets - Ménage",
+        "stencil_148.desc": "",
+        "stencil_148.cat.0": "OpenMoji",
+        "stencil_148.credit_name": "OpenMoji",
+        "stencil_148.credit_link": "https://openmoji.org/",
+        "stencil_149.name": "Objets - Vidéo légère",
+        "stencil_149.desc": "",
+        "stencil_149.cat.0": "OpenMoji",
+        "stencil_149.credit_name": "OpenMoji",
+        "stencil_149.credit_link": "https://openmoji.org/",
+        "stencil_150.name": "Objets - Serrure",
+        "stencil_150.desc": "",
+        "stencil_150.cat.0": "OpenMoji",
+        "stencil_150.credit_name": "OpenMoji",
+        "stencil_150.credit_link": "https://openmoji.org/",
+        "stencil_151.name": "Objets - Courrier",
+        "stencil_151.desc": "",
+        "stencil_151.cat.0": "OpenMoji",
+        "stencil_151.credit_name": "OpenMoji",
+        "stencil_151.credit_link": "https://openmoji.org/",
+        "stencil_152.name": "Objets - Médical",
+        "stencil_152.desc": "",
+        "stencil_152.cat.0": "OpenMoji",
+        "stencil_152.credit_name": "OpenMoji",
+        "stencil_152.credit_link": "https://openmoji.org/",
+        "stencil_153.name": "Objets - Argent",
+        "stencil_153.desc": "",
+        "stencil_153.cat.0": "OpenMoji",
+        "stencil_153.credit_name": "OpenMoji",
+        "stencil_153.credit_link": "https://openmoji.org/",
+        "stencil_154.name": "Objets - Musique",
+        "stencil_154.desc": "",
+        "stencil_154.cat.0": "OpenMoji",
+        "stencil_154.credit_name": "OpenMoji",
+        "stencil_154.credit_link": "https://openmoji.org/",
+        "stencil_155.name": "Objets - Instrument de musique",
+        "stencil_155.desc": "",
+        "stencil_155.cat.0": "OpenMoji",
+        "stencil_155.credit_name": "OpenMoji",
+        "stencil_155.credit_link": "https://openmoji.org/",
+        "stencil_156.name": "Objets - Bureau",
+        "stencil_156.desc": "",
+        "stencil_156.cat.0": "OpenMoji",
+        "stencil_156.credit_name": "OpenMoji",
+        "stencil_156.credit_link": "https://openmoji.org/",
+        "stencil_157.name": "Objets - Autre objet",
+        "stencil_157.desc": "",
+        "stencil_157.cat.0": "OpenMoji",
+        "stencil_157.credit_name": "OpenMoji",
+        "stencil_157.credit_link": "https://openmoji.org/",
+        "stencil_158.name": "Objets - Téléphone",
+        "stencil_158.desc": "",
+        "stencil_158.cat.0": "OpenMoji",
+        "stencil_158.credit_name": "OpenMoji",
+        "stencil_158.credit_link": "https://openmoji.org/",
+        "stencil_159.name": "Objets - Science",
+        "stencil_159.desc": "",
+        "stencil_159.cat.0": "OpenMoji",
+        "stencil_159.credit_name": "OpenMoji",
+        "stencil_159.credit_link": "https://openmoji.org/",
+        "stencil_160.name": "Objects - Sound",
+        "stencil_160.desc": "",
+        "stencil_160.cat.0": "OpenMoji",
+        "stencil_160.credit_name": "OpenMoji",
+        "stencil_160.credit_link": "https://openmoji.org/",
+        "stencil_161.name": "Objets - Outil",
+        "stencil_161.desc": "",
+        "stencil_161.cat.0": "OpenMoji",
+        "stencil_161.credit_name": "OpenMoji",
+        "stencil_161.credit_link": "https://openmoji.org/",
+        "stencil_162.name": "Objects - Writing",
+        "stencil_162.desc": "",
+        "stencil_162.cat.0": "OpenMoji",
+        "stencil_162.credit_name": "OpenMoji",
+        "stencil_162.credit_link": "https://openmoji.org/",
+        "stencil_163.name": "Corps des personnes - parties du corps",
+        "stencil_163.desc": "",
+        "stencil_163.cat.0": "OpenMoji",
+        "stencil_163.credit_name": "OpenMoji",
+        "stencil_163.credit_link": "https://openmoji.org/",
+        "stencil_164.name": "People Body - Family",
+        "stencil_164.desc": "",
+        "stencil_164.cat.0": "OpenMoji",
+        "stencil_164.credit_name": "OpenMoji",
+        "stencil_164.credit_link": "https://openmoji.org/",
+        "stencil_165.name": "People Body - Hand Fingers Closed",
+        "stencil_165.desc": "",
+        "stencil_165.cat.0": "OpenMoji",
+        "stencil_165.credit_name": "OpenMoji",
+        "stencil_165.credit_link": "https://openmoji.org/",
+        "stencil_166.name": "Personnes corps - main doigts ouverts",
+        "stencil_166.desc": "",
+        "stencil_166.cat.0": "OpenMoji",
+        "stencil_166.credit_name": "OpenMoji",
+        "stencil_166.credit_link": "https://openmoji.org/",
+        "stencil_167.name": "Corps des personnes - doigts de la main partielle",
+        "stencil_167.desc": "",
+        "stencil_167.cat.0": "OpenMoji",
+        "stencil_167.credit_name": "OpenMoji",
+        "stencil_167.credit_link": "https://openmoji.org/",
+        "stencil_168.name": "People Body - Hand Prop",
+        "stencil_168.desc": "",
+        "stencil_168.cat.0": "OpenMoji",
+        "stencil_168.credit_name": "OpenMoji",
+        "stencil_168.credit_link": "https://openmoji.org/",
+        "stencil_169.name": "Corps des personnes - main unique doigt",
+        "stencil_169.desc": "",
+        "stencil_169.cat.0": "OpenMoji",
+        "stencil_169.credit_name": "OpenMoji",
+        "stencil_169.credit_link": "https://openmoji.org/",
+        "stencil_170.name": "Corps du peuple - Mains",
+        "stencil_170.desc": "",
+        "stencil_170.cat.0": "OpenMoji",
+        "stencil_170.credit_name": "OpenMoji",
+        "stencil_170.credit_link": "https://openmoji.org/",
+        "stencil_171.name": "Corps des personnes - personne",
+        "stencil_171.desc": "",
+        "stencil_171.cat.0": "OpenMoji",
+        "stencil_171.credit_name": "OpenMoji",
+        "stencil_171.credit_link": "https://openmoji.org/",
+        "stencil_172.name": "Corps de personnes - Activité de personne",
+        "stencil_172.desc": "",
+        "stencil_172.cat.0": "OpenMoji",
+        "stencil_172.credit_name": "OpenMoji",
+        "stencil_172.credit_link": "https://openmoji.org/",
+        "stencil_173.name": "People Body - Person Fantasy",
+        "stencil_173.desc": "",
+        "stencil_173.cat.0": "OpenMoji",
+        "stencil_173.credit_name": "OpenMoji",
+        "stencil_173.credit_link": "https://openmoji.org/",
+        "stencil_174.name": "Corps des personnes - geste de la personne",
+        "stencil_174.desc": "",
+        "stencil_174.cat.0": "OpenMoji",
+        "stencil_174.credit_name": "OpenMoji",
+        "stencil_174.credit_link": "https://openmoji.org/",
+        "stencil_175.name": "Corps du peuple - Personne au repos",
+        "stencil_175.desc": "",
+        "stencil_175.cat.0": "OpenMoji",
+        "stencil_175.credit_name": "OpenMoji",
+        "stencil_175.credit_link": "https://openmoji.org/",
+        "stencil_176.name": "Corps du peuple - Rôle de la personne",
+        "stencil_176.desc": "",
+        "stencil_176.cat.0": "OpenMoji",
+        "stencil_176.credit_name": "OpenMoji",
+        "stencil_176.credit_link": "https://openmoji.org/",
+        "stencil_177.name": "Personnes corps - personne sport",
+        "stencil_177.desc": "",
+        "stencil_177.cat.0": "OpenMoji",
+        "stencil_177.credit_name": "OpenMoji",
+        "stencil_177.credit_link": "https://openmoji.org/",
+        "stencil_178.name": "Corps du peuple - symbole de la personne",
+        "stencil_178.desc": "",
+        "stencil_178.cat.0": "OpenMoji",
+        "stencil_178.credit_name": "OpenMoji",
+        "stencil_178.credit_link": "https://openmoji.org/",
+        "stencil_179.name": "Smileys Emotion - Visage de chat",
+        "stencil_179.desc": "",
+        "stencil_179.cat.0": "OpenMoji",
+        "stencil_179.credit_name": "OpenMoji",
+        "stencil_179.credit_link": "https://openmoji.org/",
+        "stencil_180.name": "Smileys Emotion - Emotion",
+        "stencil_180.desc": "",
+        "stencil_180.cat.0": "OpenMoji",
+        "stencil_180.credit_name": "OpenMoji",
+        "stencil_180.credit_link": "https://openmoji.org/",
+        "stencil_181.name": "Smileys Emotion - Affection du visage",
+        "stencil_181.desc": "",
+        "stencil_181.cat.0": "OpenMoji",
+        "stencil_181.credit_name": "OpenMoji",
+        "stencil_181.credit_link": "https://openmoji.org/",
+        "stencil_182.name": "Smileys Emotion - Face Concerned",
+        "stencil_182.desc": "",
+        "stencil_182.cat.0": "OpenMoji",
+        "stencil_182.credit_name": "OpenMoji",
+        "stencil_182.credit_link": "https://openmoji.org/",
+        "stencil_183.name": "Smileys Emotion - Costume pour le visage",
+        "stencil_183.desc": "",
+        "stencil_183.cat.0": "OpenMoji",
+        "stencil_183.credit_name": "OpenMoji",
+        "stencil_183.credit_link": "https://openmoji.org/",
+        "stencil_184.name": "Smileys Emotion - Lunettes de visage",
+        "stencil_184.desc": "",
+        "stencil_184.cat.0": "OpenMoji",
+        "stencil_184.credit_name": "OpenMoji",
+        "stencil_184.credit_link": "https://openmoji.org/",
+        "stencil_185.name": "Smileys Emotion - Visage Main",
+        "stencil_185.desc": "",
+        "stencil_185.cat.0": "OpenMoji",
+        "stencil_185.credit_name": "OpenMoji",
+        "stencil_185.credit_link": "https://openmoji.org/",
+        "stencil_186.name": "Smileys Emotion - Chapeau de visage",
+        "stencil_186.desc": "",
+        "stencil_186.cat.0": "OpenMoji",
+        "stencil_186.credit_name": "OpenMoji",
+        "stencil_186.credit_link": "https://openmoji.org/",
+        "stencil_187.name": "Smileys Emotion - Visage Négatif",
+        "stencil_187.desc": "",
+        "stencil_187.cat.0": "OpenMoji",
+        "stencil_187.credit_name": "OpenMoji",
+        "stencil_187.credit_link": "https://openmoji.org/",
+        "stencil_188.name": "Smileys Emotion - Visage neutre sceptique",
+        "stencil_188.desc": "",
+        "stencil_188.cat.0": "OpenMoji",
+        "stencil_188.credit_name": "OpenMoji",
+        "stencil_188.credit_link": "https://openmoji.org/",
+        "stencil_189.name": "Smileys Emotion - Face Sleepy",
+        "stencil_189.desc": "",
+        "stencil_189.cat.0": "OpenMoji",
+        "stencil_189.credit_name": "OpenMoji",
+        "stencil_189.credit_link": "https://openmoji.org/",
+        "stencil_190.name": "Smileys Emotion - Sourire Visage",
+        "stencil_190.desc": "",
+        "stencil_190.cat.0": "OpenMoji",
+        "stencil_190.credit_name": "OpenMoji",
+        "stencil_190.credit_link": "https://openmoji.org/",
+        "stencil_191.name": "Smileys Emotion - Face Tongue",
+        "stencil_191.desc": "",
+        "stencil_191.cat.0": "OpenMoji",
+        "stencil_191.credit_name": "OpenMoji",
+        "stencil_191.credit_link": "https://openmoji.org/",
+        "stencil_192.name": "Smileys Emotion - Face Unwell",
+        "stencil_192.desc": "",
+        "stencil_192.cat.0": "OpenMoji",
+        "stencil_192.credit_name": "OpenMoji",
+        "stencil_192.credit_link": "https://openmoji.org/",
+        "stencil_193.name": "Smileys Emotion - Visage de singe",
+        "stencil_193.desc": "",
+        "stencil_193.cat.0": "OpenMoji",
+        "stencil_193.credit_name": "OpenMoji",
+        "stencil_193.credit_link": "https://openmoji.org/",
+        "stencil_194.name": "Symboles - Alphanum",
+        "stencil_194.desc": "",
+        "stencil_194.cat.0": "OpenMoji",
+        "stencil_194.credit_name": "OpenMoji",
+        "stencil_194.credit_link": "https://openmoji.org/",
+        "stencil_195.name": "Symbols - Arrow",
+        "stencil_195.desc": "",
+        "stencil_195.cat.0": "OpenMoji",
+        "stencil_195.credit_name": "OpenMoji",
+        "stencil_195.credit_link": "https://openmoji.org/",
+        "stencil_196.name": "Symboles - Symbole Av",
+        "stencil_196.desc": "",
+        "stencil_196.cat.0": "OpenMoji",
+        "stencil_196.credit_name": "OpenMoji",
+        "stencil_196.credit_link": "https://openmoji.org/",
+        "stencil_197.name": "Symboles - Genre",
+        "stencil_197.desc": "",
+        "stencil_197.cat.0": "OpenMoji",
+        "stencil_197.credit_name": "OpenMoji",
+        "stencil_197.credit_link": "https://openmoji.org/",
+        "stencil_198.name": "Symboles - Géométrique",
+        "stencil_198.desc": "",
+        "stencil_198.cat.0": "OpenMoji",
+        "stencil_198.credit_name": "OpenMoji",
+        "stencil_198.credit_link": "https://openmoji.org/",
+        "stencil_199.name": "Symboles - Keycap",
+        "stencil_199.desc": "",
+        "stencil_199.cat.0": "OpenMoji",
+        "stencil_199.credit_name": "OpenMoji",
+        "stencil_199.credit_link": "https://openmoji.org/",
+        "stencil_200.name": "Symbols - Other Symbol",
+        "stencil_200.desc": "",
+        "stencil_200.cat.0": "OpenMoji",
+        "stencil_200.credit_name": "OpenMoji",
+        "stencil_200.credit_link": "https://openmoji.org/",
+        "stencil_201.name": "Symboles - Religion",
+        "stencil_201.desc": "",
+        "stencil_201.cat.0": "OpenMoji",
+        "stencil_201.credit_name": "OpenMoji",
+        "stencil_201.credit_link": "https://openmoji.org/",
+        "stencil_202.name": "Symboles - Panneau de transport",
+        "stencil_202.desc": "",
+        "stencil_202.cat.0": "OpenMoji",
+        "stencil_202.credit_name": "OpenMoji",
+        "stencil_202.credit_link": "https://openmoji.org/",
+        "stencil_203.name": "Symboles - Avertissement",
+        "stencil_203.desc": "",
+        "stencil_203.cat.0": "OpenMoji",
+        "stencil_203.credit_name": "OpenMoji",
+        "stencil_203.credit_link": "https://openmoji.org/",
+        "stencil_204.name": "Symbols - Zodiac",
+        "stencil_204.desc": "",
+        "stencil_204.cat.0": "OpenMoji",
+        "stencil_204.credit_name": "OpenMoji",
+        "stencil_204.credit_link": "https://openmoji.org/",
+        "stencil_205.name": "Travel Places - Hotel",
+        "stencil_205.desc": "",
+        "stencil_205.cat.0": "OpenMoji",
+        "stencil_205.credit_name": "OpenMoji",
+        "stencil_205.credit_link": "https://openmoji.org/",
+        "stencil_206.name": "Travel Places - Place Building",
+        "stencil_206.desc": "",
+        "stencil_206.cat.0": "OpenMoji",
+        "stencil_206.credit_name": "OpenMoji",
+        "stencil_206.credit_link": "https://openmoji.org/",
+        "stencil_207.name": "Lieux de voyage - Lieu géographique",
+        "stencil_207.desc": "",
+        "stencil_207.cat.0": "OpenMoji",
+        "stencil_207.credit_name": "OpenMoji",
+        "stencil_207.credit_link": "https://openmoji.org/",
+        "stencil_208.name": "Travel Places - Place Map",
+        "stencil_208.desc": "",
+        "stencil_208.cat.0": "OpenMoji",
+        "stencil_208.credit_name": "OpenMoji",
+        "stencil_208.credit_link": "https://openmoji.org/",
+        "stencil_209.name": "Travel Places - Place Autres",
+        "stencil_209.desc": "",
+        "stencil_209.cat.0": "OpenMoji",
+        "stencil_209.credit_name": "OpenMoji",
+        "stencil_209.credit_link": "https://openmoji.org/",
+        "stencil_210.name": "Travel Places - Place Religious",
+        "stencil_210.desc": "",
+        "stencil_210.cat.0": "OpenMoji",
+        "stencil_210.credit_name": "OpenMoji",
+        "stencil_210.credit_link": "https://openmoji.org/",
+        "stencil_211.name": "Lieux de voyage - Météo Sky",
+        "stencil_211.desc": "",
+        "stencil_211.cat.0": "OpenMoji",
+        "stencil_211.credit_name": "OpenMoji",
+        "stencil_211.credit_link": "https://openmoji.org/",
+        "stencil_212.name": "Lieux de voyage - Temps",
+        "stencil_212.desc": "",
+        "stencil_212.cat.0": "OpenMoji",
+        "stencil_212.credit_name": "OpenMoji",
+        "stencil_212.credit_link": "https://openmoji.org/",
+        "stencil_213.name": "Lieux de voyage - Transport aérien",
+        "stencil_213.desc": "",
+        "stencil_213.cat.0": "OpenMoji",
+        "stencil_213.credit_name": "OpenMoji",
+        "stencil_213.credit_link": "https://openmoji.org/",
+        "stencil_214.name": "Lieux de voyage - Terrain de transport",
+        "stencil_214.desc": "",
+        "stencil_214.cat.0": "OpenMoji",
+        "stencil_214.credit_name": "OpenMoji",
+        "stencil_214.credit_link": "https://openmoji.org/",
+        "stencil_215.name": "Lieux de voyage - Transport d'eau",
+        "stencil_215.desc": "",
+        "stencil_215.cat.0": "OpenMoji",
+        "stencil_215.credit_name": "OpenMoji",
+        "stencil_215.credit_link": "https://openmoji.org/",
+        "stencil_238.name": "Computer Brands",
+        "stencil_238.desc": "",
+        "stencil_238.cat.0": "Ordinateurs et réseau",
+        "stencil_239.name": "File formats",
+        "stencil_239.desc": "List of common file formats",
+        "stencil_239.cat.0": "Personnes, drapeaux et documents",
+        "stencil_241.name": "Icônes de topologie de réseau Cisco en noir et blanc",
+        "stencil_241.desc": "",
+        "stencil_241.cat.0": "Cisco",
+        "stencil_241.credit_link": "https://cisco.com/",
+        "stencil_241.credit_name": "Cisco",
+        "stencil_240.name": "Icônes de topologie de réseau Cisco 3015",
+        "stencil_240.desc": "",
+        "stencil_240.cat.0": "Cisco",
+        "stencil_240.credit_link": "https://cisco.com/",
+        "stencil_240.credit_name": "Cisco",
+        "stencil_242.name": "Cisco Wireless IW 3700",
+        "stencil_242.desc": "",
+        "stencil_242.cat.0": "Cisco",
+        "stencil_242.credit_link": "https://cisco.com/",
+        "stencil_242.credit_name": "Cisco",
+        "stencil_243.name": "Passerelles de la gamme Cisco VG",
+        "stencil_243.desc": "",
+        "stencil_243.cat.0": "Cisco",
+        "stencil_243.credit_link": "https://cisco.com/",
+        "stencil_243.credit_name": "Cisco",
+        "stencil_244.name": "Téléphone IP Cisco Unified série 7800 et 8800",
+        "stencil_244.desc": "",
+        "stencil_244.cat.0": "Cisco",
+        "stencil_244.credit_link": "https://cisco.com/",
+        "stencil_244.credit_name": "Cisco",
         "sym_copied": "Symbole copié",
         "getting_stencils": "Obtenir des pochoirs",
         "drop_symbol": "Symbole en baisse",
         "show_more": "Montre plus",
         "login_save_symbol": "Veuillez vous connecter pour enregistrer votre symbole.",
-        "stencil_248": {
-            "name": "Coronavirus",
-            "desc": "Graphiques pour l'épidémie de coronavirus"
-        },
+        "stencil_248.name": "Coronavirus",
+        "stencil_248.desc": "Graphiques pour l'épidémie de coronavirus",
         "credits_link": "Lien crédits",
         "credits_to": "Crédits à"
     },
     "videos": {
-        "nlAyOo-_HLQ": {
-            "desc": "Créez vos propres symboles avec l'opération fragment, union, différence et intersection.",
-            "title": "Introduction rapide à Fragment, Union, Différence, Intersection"
-        },
-        "EWtTCLx8ngg": {
-            "desc": "Regardez ce guide pour savoir comment accéder à la dernière couleur utilisée et personnaliser les couleurs en utilisant les valeurs RVB ou les codes HEX.",
-            "title": "Anatomie de la palette de couleurs Vecta"
-        },
-        "1XbHln-9QDg": {
-            "desc": "Déplacez vos dessins facilement en les faisant glisser vers n'importe quelle équipe ou dossier. Utilisez la barre de recherche pour trouver facilement vos dessins!",
-            "title": "Comment organiser des dessins et des dossiers dans le tableau de bord"
-        },
-        "JBvyeA743Qo": {
-            "desc": "Utilisez des calques pour mieux classer vos formes afin de les modifier plus facilement ou pour masquer les informations.",
-            "title": "Quelles sont les couches et comment les utiliser"
-        },
-        "RX3vce2QXyk": {
-            "desc": "Quelle est la différence entre les connecteurs et les lignes?",
-            "title": "Comment connecter des formes avec précision"
-        },
-        "wZUVOSDEpPo": {
-            "desc": "Regardez cette vidéo sur comment enregistrer des symboles dans vos propres pochoirs. Gagnez plus de temps en faisant simplement glisser et déposer des symboles répétitifs sur le dessin.",
-            "title": "Comment utiliser les symboles et les pochoirs"
-        },
-        "Y-lxlpDM-7g": {
-            "desc": "Utilisez Ctrl-5 pour ajouter facilement une zone de texte, redimensionner ou faire pivoter votre zone de texte en mode texte.",
-            "title": "Comment ajouter ou modifier une zone de texte dans des formes"
-        },
-        "AOeIJRAECEk": {
-            "desc": "Invitez vos amis et vos coéquipiers à collaborer efficacement.",
-            "title": "Créer une équipe et inviter des membres de l'équipe"
-        },
-        "tp2ryqLTz1M": {
-            "desc": "Utilisez la touche MAJ pour fixer les proportions et la touche ALT pour utiliser le décalage.",
-            "title": "Comment redimensionner les formes proportionnellement et utiliser le décalage"
-        },
-        "Zap6sT5bOB0": {
-            "title": "Appliquez la dernière couleur utilisée directement sur d'autres formes, textes et lignes facilement",
-            "desc": "Utilisez pleinement votre peintre des couleurs pour appliquer la dernière couleur utilisée sur vos formes, textes et lignes."
-        },
-        "5z7hF_yIILw": {
-            "title": "Afficher et modifier la forme à l'aide des propriétés de forme",
-            "desc": "Tout comme le dialogue Taille & Position de Visio, vous pouvez désormais visualiser et modifier des formes dans Vecta."
-        },
-        "a1Mv0H_jZKM": {
-            "title": "Recherche de symbole dans Vecta",
-            "desc": "Regardez comment trouver vos symboles facilement et efficacement dans Vecta."
-        },
-        "YPYPdGPi-nI": {
-            "title": "Outil de peintre",
-            "desc": "Utilisez pleinement votre peintre de couleurs pour appliquer la dernière couleur utilisée sur vos formes, textes et lignes."
-        }
+        "nlAyOo-_HLQ.desc": "Créez vos propres symboles avec l'opération fragment, union, différence et intersection.",
+        "nlAyOo-_HLQ.title": "Introduction rapide à Fragment, Union, Différence, Intersection",
+        "EWtTCLx8ngg.desc": "Regardez ce guide pour savoir comment accéder à la dernière couleur utilisée et personnaliser les couleurs en utilisant les valeurs RVB ou les codes HEX.",
+        "EWtTCLx8ngg.title": "Anatomie de la palette de couleurs Vecta",
+        "1XbHln-9QDg.desc": "Déplacez vos dessins facilement en les faisant glisser vers n'importe quelle équipe ou dossier. Utilisez la barre de recherche pour trouver facilement vos dessins!",
+        "1XbHln-9QDg.title": "Comment organiser des dessins et des dossiers dans le tableau de bord",
+        "JBvyeA743Qo.desc": "Utilisez des calques pour mieux classer vos formes afin de les modifier plus facilement ou pour masquer les informations.",
+        "JBvyeA743Qo.title": "Quelles sont les couches et comment les utiliser",
+        "RX3vce2QXyk.desc": "Quelle est la différence entre les connecteurs et les lignes?",
+        "RX3vce2QXyk.title": "Comment connecter des formes avec précision",
+        "wZUVOSDEpPo.desc": "Regardez cette vidéo sur comment enregistrer des symboles dans vos propres pochoirs. Gagnez plus de temps en faisant simplement glisser et déposer des symboles répétitifs sur le dessin.",
+        "wZUVOSDEpPo.title": "Comment utiliser les symboles et les pochoirs",
+        "Y-lxlpDM-7g.desc": "Utilisez Ctrl-5 pour ajouter facilement une zone de texte, redimensionner ou faire pivoter votre zone de texte en mode texte.",
+        "Y-lxlpDM-7g.title": "Comment ajouter ou modifier une zone de texte dans des formes",
+        "AOeIJRAECEk.desc": "Invitez vos amis et vos coéquipiers à collaborer efficacement.",
+        "AOeIJRAECEk.title": "Créer une équipe et inviter des membres de l'équipe",
+        "tp2ryqLTz1M.desc": "Utilisez la touche MAJ pour fixer les proportions et la touche ALT pour utiliser le décalage.",
+        "tp2ryqLTz1M.title": "Comment redimensionner les formes proportionnellement et utiliser le décalage",
+        "Zap6sT5bOB0.title": "Appliquez la dernière couleur utilisée directement sur d'autres formes, textes et lignes facilement",
+        "Zap6sT5bOB0.desc": "Utilisez pleinement votre peintre des couleurs pour appliquer la dernière couleur utilisée sur vos formes, textes et lignes.",
+        "5z7hF_yIILw.title": "Afficher et modifier la forme à l'aide des propriétés de forme",
+        "5z7hF_yIILw.desc": "Tout comme le dialogue Taille & Position de Visio, vous pouvez désormais visualiser et modifier des formes dans Vecta.",
+        "a1Mv0H_jZKM.title": "Recherche de symbole dans Vecta",
+        "a1Mv0H_jZKM.desc": "Regardez comment trouver vos symboles facilement et efficacement dans Vecta.",
+        "YPYPdGPi-nI.title": "Outil de peintre",
+        "YPYPdGPi-nI.desc": "Utilisez pleinement votre peintre de couleurs pour appliquer la dernière couleur utilisée sur vos formes, textes et lignes."
     },
     "plugin": {
         "no_exist": "Impossible de définir les éléments suivants. Le plugin n'existe peut-être plus, ou <br /> vous n'avez pas la permission d'y accéder.",
@@ -3518,109 +2410,55 @@
         "saving_plugin": "Enregistrement du plugin",
         "no_pinned_plugins": "Aucun plugin épinglé pour dessiner",
         "pinned_plugins": "Plugins épinglés",
-        "plugin_0": {
-            "name": "Bonjour le monde",
-            "desc": "Imprimer Bonjour, \"nom du créateur\" en dessin"
-        },
-        "plugin_1": {
-            "name": "TSV à table",
-            "desc": "Créer une table à partir d'un fichier tsv supprimé",
-            "cat": [
-                "Rapports"
-            ]
-        },
-        "plugin_2": {
-            "name": "JSON à l'arbre",
-            "desc": "Convertir un fichier JSON supprimé en arborescence",
-            "cat": [
-                "Rapports"
-            ]
-        },
-        "plugin_3": {
-            "name": "Dessiner un arbre fractal",
-            "desc": "Créer un arbre fractal"
-        },
-        "plugin_4": {
-            "name": "Diffuseur",
-            "desc": "Distribuer aléatoirement les formes sélectionnées dans votre dessin"
-        },
+        "plugin_0.name": "Bonjour le monde",
+        "plugin_0.desc": "Imprimer Bonjour, \"nom du créateur\" en dessin",
+        "plugin_1.name": "TSV à table",
+        "plugin_1.desc": "Créer une table à partir d'un fichier tsv supprimé",
+        "plugin_1.cat.0": "Rapports",
+        "plugin_2.name": "JSON à l'arbre",
+        "plugin_2.desc": "Convertir un fichier JSON supprimé en arborescence",
+        "plugin_2.cat.0": "Rapports",
+        "plugin_3.name": "Dessiner un arbre fractal",
+        "plugin_3.desc": "Créer un arbre fractal",
+        "plugin_4.name": "Diffuseur",
+        "plugin_4.desc": "Distribuer aléatoirement les formes sélectionnées dans votre dessin",
         "create_plugin": "Créer un plugin",
-        "plugin_5": {
-            "name": "Taille crayon",
-            "desc": "Aligner les formes de votre dessin sur la grille la plus proche"
-        },
-        "plugin_6": {
-            "name": "Graphique en ligne",
-            "desc": "Tracer un graphique en ligne / courbe en fonction des données d'entrée",
-            "cat": [
-                "Graphiques"
-            ]
-        },
-        "plugin_7": {
-            "name": "Camembert",
-            "desc": "Diviser un cercle / ellipse en fonction des données d'entrée",
-            "cat": [
-                "Graphiques"
-            ]
-        },
-        "plugin_8": {
-            "name": "Icônes de conception matérielle",
-            "desc": "Sélectionner et importer des icônes à partir d'une liste d'icônes Material.io",
-            "cat": [
-                "Des icônes"
-            ]
-        },
-        "plugin_9": {
-            "name": "Icônes de polices géniales",
-            "desc": "Sélectionnez et importez des icônes à partir d'une liste d'icônes Font Awesome (gratuites)",
-            "cat": [
-                "Des icônes"
-            ]
-        },
-        "plugin_11": {
-            "name": "Transposer",
-            "desc": "Transposer un groupe de formes"
-        },
-        "plugin_10": {
-            "name": "Rapporteur",
-            "desc": "Dessine un rapporteur en cercle"
-        },
-        "plugin_12": {
-            "name": "Spacer",
-            "desc": "Mettez des espaces entre les formes."
-        },
-        "plugin_13": {
-            "name": "Splitter",
-            "desc": "Diviser un rectangle ou un carré en un nombre spécifié de colonnes, de rangées et de gouttières respectives.",
-            "cat": [
-                "Général"
-            ]
-        },
-        "plugin_15": {
-            "name": "Liste à puces",
-            "desc": "Ajouter des puces à la liste de texte"
-        },
+        "plugin_5.name": "Taille crayon",
+        "plugin_5.desc": "Aligner les formes de votre dessin sur la grille la plus proche",
+        "plugin_6.name": "Graphique en ligne",
+        "plugin_6.desc": "Tracer un graphique en ligne / courbe en fonction des données d'entrée",
+        "plugin_6.cat.0": "Graphiques",
+        "plugin_7.name": "Camembert",
+        "plugin_7.desc": "Diviser un cercle / ellipse en fonction des données d'entrée",
+        "plugin_7.cat.0": "Graphiques",
+        "plugin_8.name": "Icônes de conception matérielle",
+        "plugin_8.desc": "Sélectionner et importer des icônes à partir d'une liste d'icônes Material.io",
+        "plugin_8.cat.0": "Des icônes",
+        "plugin_9.name": "Icônes de polices géniales",
+        "plugin_9.desc": "Sélectionnez et importez des icônes à partir d'une liste d'icônes Font Awesome (gratuites)",
+        "plugin_9.cat.0": "Des icônes",
+        "plugin_11.name": "Transposer",
+        "plugin_11.desc": "Transposer un groupe de formes",
+        "plugin_10.name": "Rapporteur",
+        "plugin_10.desc": "Dessine un rapporteur en cercle",
+        "plugin_12.name": "Spacer",
+        "plugin_12.desc": "Mettez des espaces entre les formes.",
+        "plugin_13.name": "Splitter",
+        "plugin_13.desc": "Diviser un rectangle ou un carré en un nombre spécifié de colonnes, de rangées et de gouttières respectives.",
+        "plugin_13.cat.0": "Général",
+        "plugin_15.name": "Liste à puces",
+        "plugin_15.desc": "Ajouter des puces à la liste de texte",
         "success_refresh": "Plugin actualisé avec succès.",
         "fail_refresh": "Le plugin n'existe plus.",
-        "plugin_16": {
-            "name": "Carte de choroplèthes",
-            "desc": "Convertir les données JSON en proportion ombrée en fonction de valeurs statistiques"
-        },
-        "plugin_17": {
-            "name": "les tables",
-            "desc": "Crée des tables en fonction du nombre de lignes et de colonnes saisies"
-        },
-        "plugin_18": {
-            "name": "Polygone",
-            "desc": "Crée un polygone en fonction du nombre de côtés saisis"
-        },
-        "plugin_19": {
-            "name": "Effet de luminescence",
-            "desc": "Créer une ellipse avec un effet lumineux",
-            "cat": [
-                "Général"
-            ]
-        },
+        "plugin_16.name": "Carte de choroplèthes",
+        "plugin_16.desc": "Convertir les données JSON en proportion ombrée en fonction de valeurs statistiques",
+        "plugin_17.name": "les tables",
+        "plugin_17.desc": "Crée des tables en fonction du nombre de lignes et de colonnes saisies",
+        "plugin_18.name": "Polygone",
+        "plugin_18.desc": "Crée un polygone en fonction du nombre de côtés saisis",
+        "plugin_19.name": "Effet de luminescence",
+        "plugin_19.desc": "Créer une ellipse avec un effet lumineux",
+        "plugin_19.cat.0": "Général",
         "personal_plugins": "Plugins personnels",
         "team_plugins": "Plugins d'équipe",
         "public_plugins": "Plugins publics",
