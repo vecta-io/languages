@@ -335,7 +335,6 @@
         "gradient_transparency": "Transparence dégradée",
         "color_transparency": "Transparence des couleurs",
         "reset": "Réinitialiser",
-        "help": "Aidez-moi",
         "about": "À propos",
         "export_dxf": "Exporter au format DXF ...",
         "files": "Des dossiers",
@@ -376,6 +375,7 @@
         "event": "un événement",
         "invalid_events": "Événements ou codes non valides, non autorisés à être vides"
     },
+    "ui.help": "Aidez-moi",
     "page": {
         "cm": "Centimètre",
         "a0": "A0: 1189 mm x 841 mm",
@@ -484,212 +484,665 @@
         "confirm_del": "Supprimer une page est une action irréversible. <br /> <br /> Êtes-vous sûr de vouloir supprimer cette page?",
         "m": "Mètre"
     },
-    "drop": {
-        "in": "dans",
-        "px": "px",
-        "mm": "mm",
-        "5px": "5px",
-        "cut": "Couper",
-        "new": "Nouveau",
-        "0px": "0px",
-        "open": "Ouvrir",
-        "edit": "modifier",
-        "join": "Joindre",
-        "lato": "Lato",
-        "move": "Déménager à",
-        "lock": "Verrouiller la forme (s)",
-        "15px": "15px",
-        "trim": "Réduire",
-        "copy": "Copie",
-        "10px": "10px",
-        "back": "Envoyer au fond",
-        "paste": "Coller",
-        "leave": "Laisser",
-        "slack": "Partager sur Slack",
-        "union": "syndicat",
-        "front": "Mettre au premier plan",
-        "align": "Aligner",
-        "print": "Impression",
-        "share": "Partager",
-        "group": "Groupe",
-        "commit": "Commettre",
-        "unlock": "Déverrouiller la forme (s)",
-        "roboto": "Roboto",
-        "rename": "Rebaptiser",
-        "reddit": "Partager sur Reddit",
-        "manage": "Gérer l'accès",
-        "delete": "Effacer",
-        "cousine": "Cousine",
-        "restore": "Restaurer",
-        "arrange": "Organiser",
-        "members": "Gérer les membres",
-        "twitter": "Partager sur Twitter",
-        "jump_to": "Sauter à:",
+    "in": {
+        "drop": "dans"
+    },
+    "px": {
+        "drop": "px"
+    },
+    "mm": {
+        "drop": "mm"
+    },
+    "5px": {
+        "drop": "5px"
+    },
+    "cut": {
+        "drop": "Couper"
+    },
+    "new": {
+        "drop": "Nouveau"
+    },
+    "0px": {
+        "drop": "0px"
+    },
+    "open": {
+        "drop": "Ouvrir"
+    },
+    "edit": {
+        "drop": "modifier"
+    },
+    "join": {
+        "drop": "Joindre"
+    },
+    "lato": {
+        "drop": "Lato"
+    },
+    "move": {
+        "drop": "Déménager à"
+    },
+    "lock": {
+        "drop": "Verrouiller la forme (s)"
+    },
+    "15px": {
+        "drop": "15px"
+    },
+    "trim": {
+        "drop": "Réduire"
+    },
+    "copy": {
+        "drop": "Copie"
+    },
+    "10px": {
+        "drop": "10px"
+    },
+    "back": {
+        "drop": "Envoyer au fond"
+    },
+    "paste": {
+        "drop": "Coller"
+    },
+    "leave": {
+        "drop": "Laisser"
+    },
+    "slack": {
+        "drop": "Partager sur Slack",
+        "add": "Ajouter à Slack",
+        "ben2": "-Inviter les membres de la chaîne Slack dans les équipes Vecta",
+        "ben1": "-Partage Vecta directement sur vos canaux Slack",
+        "confirm": "Équipe supprimée avec succès.",
+        "settings": "Paramètres",
+        "add_more": "Ajouter une équipe Slack",
+        "no_teams": "Vous n'avez intégré aucune équipe Slack à Vecta.",
+        "contacting": "Contacter Slack",
+        "team_guide": "L'intégration de Slack vous permet de partager le dessin Vecta directement sur vos canaux Slack et d'inviter vos membres de la chaîne Slack dans les équipes Vecta.",
+        "coming_soon": "À venir: Notification",
+        "integration": "Slack intégration:",
+        "added_teams": "Slack équipes",
+        "link_shared": "Lien de dessin envoyé.",
+        "channel_noti": "Choisissez une chaîne pour envoyer des notifications",
+        "channel_team": "Choisissez une chaîne à intégrer avec votre équipe",
+        "connect_team": "Connectez l'équipe",
+        "channel_link": "Choisissez une chaîne pour partager le lien",
+        "code_invalid": "Le code est invalide. Veuillez réessayer l'intégration de Slack.",
+        "user_welcome": "Merci d'avoir installé Vecta for Slack. Vous pouvez maintenant commencer à inviter les membres de votre équipe à Vecta et partager des liens de dessin vers n'importe lequel des canaux de cette équipe.",
+        "no_new_member": "Aucun nouveau membre à inviter",
+        "connect_slack": "Connectez votre équipe à un canal Slack",
+        "checking_team": "Vérification de l'équipe ...",
+        "group_message": "Messagerie de groupe",
+        "channel_label": "Liste des chaînes",
+        "team_integrate": "Invitez votre chaîne Slack",
+        "shared_drawing": "a partagé @@ avec l'équipe.",
+        "sending_failed": "Impossible de communiquer avec Slack. Veuillez réessayer d'intégrer Vecta avec Slack.",
+        "connecting_team": "Équipe de connexion ...",
+        "channel_removed": "Le canal Slack est retiré de l'équipe",
+        "channel_connected": "Le canal Slack est connecté à l'équipe",
+        "success_integrate": "You can now invite your Slack team members to Vecta and share links to @@! <br /> This page will automatically redirect in 10 seconds.",
+        "integrated_message": "Votre équipe est déjà connectée à un canal Slack @@. <br /> En continuant, vous remplacerez le canal Slack actuel. <br /> <br /> Souhaitez-vous continuer?",
+        "already_integrated": "Remplacer l'intégration"
+    },
+    "union": {
+        "drop": "syndicat"
+    },
+    "front": {
+        "drop": "Mettre au premier plan"
+    },
+    "align": {
+        "drop": "Aligner"
+    },
+    "print": {
+        "drop": "Impression"
+    },
+    "share": {
+        "drop": "Partager"
+    },
+    "group": {
+        "drop": "Groupe"
+    },
+    "commit": {
+        "drop": "Commettre"
+    },
+    "unlock": {
+        "drop": "Déverrouiller la forme (s)"
+    },
+    "roboto": {
+        "drop": "Roboto"
+    },
+    "rename": {
+        "drop": "Rebaptiser"
+    },
+    "reddit": {
+        "drop": "Partager sur Reddit"
+    },
+    "manage": {
+        "drop": "Gérer l'accès"
+    },
+    "delete": {
+        "drop": "Effacer"
+    },
+    "cousine": {
+        "drop": "Cousine"
+    },
+    "restore": {
+        "drop": "Restaurer"
+    },
+    "arrange": {
+        "drop": "Organiser"
+    },
+    "members": {
+        "drop": "Gérer les membres"
+    },
+    "twitter": {
+        "drop": "Partager sur Twitter"
+    },
+    "jump_to": {
+        "drop": "Sauter à:"
+    },
+    "publish": {
+        "drop": "Publier",
+        "done": "Dessin publié avec succès sur le Web.",
+        "stop": "Dessin retiré de la publication publique.",
+        "error": "Aucune forme n'est trouvée. Vous ne pouvez pas publier votre dessin actuel.",
+        "title": "Publier sur le Web",
+        "change": "Publier les modifications",
+        "remove": "Retirer",
+        "loading": "Tenez-vous bien, vérifiez le dessin publié",
+        "publishing": "Publication de dessin",
+        "confirm_content": "La publication de ce dessin rendra votre contenu visible à tous sur Internet",
+        "continue": "Continuer",
         "publish": "Publier",
-        "refresh": "Rafraîchir",
-        "forward": "Avancer",
-        "ungroup": "Dissocier",
-        "no_line": "Pas de ligne",
-        "new_doc": "Nouveau dessin",
-        "fragment": "Fragment",
-        "playlist": "Playlist",
-        "backward": "Envoyer vers l'arrière",
-        "facebook": "Partager sur Facebook",
-        "edit_link": "Modifier le lien hypertexte",
-        "show_grid": "Afficher la grille",
-        "align_top": "Aligner en haut",
-        "hyperlink": "Hyperlien",
-        "new_layer": "Nouvelle Couche",
-        "edit_icon": "Modifier l'icône",
-        "hide_grid": "Masquer la grille",
-        "open_sans": "Ouvrir Sans",
-        "intersect": "Couper",
-        "export_pdf": "Exporter en PDF",
-        "page_setup": "Mise en page",
-        "export_png": "Exporter en tant que PNG",
-        "flip_horiz": "Retourner horizontalement",
-        "new_folder": "Nouveau dossier",
-        "ver_commit": "Commit dessin",
-        "file_title": "Titre",
-        "difference": "Différence",
-        "export_svg": "Exporter en SVG",
-        "flip_verti": "Retourner verticalement",
-        "delete_all": "Supprimer tout",
-        "export_jpg": "Exporter en JPG",
-        "lock_layer": "Verrouiller la couche",
-        "align_left": "Alignez à gauche",
-        "operations": "Opérations",
-        "hide_rulers": "Masquer les règles",
-        "hide_guides": "Masquer les guides",
-        "export_icon": "Icône d'exportation",
-        "hide_layers": "Cacher les couches",
-        "ver_history": "Historique des versions",
-        "preferences": "Préférences",
-        "align_right": "Aligner à droite",
-        "show_layers": "Afficher les calques",
-        "add_ctrl_pt": "Ajouter un point de contrôle",
-        "share_vecta": "Partager avec d'autres",
-        "insert_link": "Insérer un lien hypertexte",
-        "show_guides": "Afficher les guides",
-        "show_rulers": "Afficher les règles",
-        "restore_all": "Tout restaurer",
-        "edit_symbol": "Modifier le symbole",
-        "unlock_layer": "Déverrouiller la couche",
-        "tutorial_vid": "Vidéos",
-        "select_layer": "Sélectionnez toutes les formes",
-        "align_middle": "Aligner le milieu",
-        "clear_guides": "Guides clairs",
-        "align_center": "Aligner le centre",
-        "align_bottom": "Aligner le fond",
-        "edit_stencil": "Modifier le pochoir",
-        "assign_layer": "Attribuer à la couche",
-        "open_drawing": "Ouvrir un dessin",
-        "delete_layer": "Supprimer le calque",
-        "rename_layer": "Renommer le calque",
-        "show_sym_name": "Afficher les noms d'icônes",
-        "close_stencil": "Fermer",
-        "hide_chat_box": "Masquer la boîte de discussion",
-        "creation_date": "Date de création",
-        "move_to_trash": "Mettre à la corbeille",
-        "clone_drawing": "Dupliquer",
-        "show_chat_box": "Afficher la boîte de discussion",
-        "anonymous_pro": "Pro anonyme",
-        "hide_sym_name": "Masquer les noms d'icône",
-        "share_stencil": "Partager le pochoir",
-        "export_stencil": "Exportation",
-        "import_stencil": "Importer",
-        "show_properties": "Afficher les propriétés",
-        "hide_properties": "Masquer les propriétés",
-        "publish_drawing": "Publier le dessin",
-        "download_drawing": "Télécharger",
-        "roboto_condensed": "Roboto condensé",
-        "last_modified_by_me": "Dernière modification par moi",
-        "tools": "Outils",
-        "convert_path": "Convertir en chemin",
-        "make_public": "Rendre le dessin public",
-        "custom_json": "JSON personnalisé",
-        "switch_line_end": "Changer la fin de la ligne",
-        "show_when_published": "Afficher dans imprimer / publier",
-        "by_name": "De nom",
-        "effects": "Effets",
-        "export_tsv": "Données personnalisées en tant que TSV",
-        "remove_field": "Supprimer le champ",
-        "edit_code": "Modifier le code",
-        "new_plugin": "Nouveau plugin",
-        "edit_plugin": "Modifier le plugin",
-        "share_plugin": "Partager le plugin",
-        "del_plugin": "Supprimer le plugin",
-        "edit_script": "Modifier le script",
-        "run_page": "Exécuter au chargement de la page",
-        "hide_custom_menu": "Masquer le menu personnalisé",
-        "show_custom_menu": "Afficher le menu personnalisé",
-        "remove_menu": "Supprimer le menu",
-        "more_opt": "Plus d'options",
-        "move_up": "Déplacer vers le haut",
-        "move_down": "Descendre",
-        "show_plugin_name": "Afficher les noms de plugins",
-        "hide_plugin_name": "Masquer les noms des plugins",
-        "name_version": "Nom de la version actuelle",
-        "outline_text": "Texte de contour",
-        "view_script": "Voir le script",
-        "isometric_x": "Isométrique x",
-        "isometric_y": "Isométrique y",
-        "isometric_z": "Z isométrique",
-        "stop_script": "Arrêter le script",
-        "activate_script": "Script d'exécution automatique",
-        "run_script": "Script de lancement",
-        "history_list": "Liste de l'historique",
-        "close_plugin": "Fermer le plugin",
-        "no_skew": "Réinitialiser l'isométrie",
-        "blur": "Brouiller",
-        "drop_shadow": "Ombre portée",
-        "update_abox": "Mettre à jour la boîte d'alignement",
-        "setup": "Installer",
-        "refresh_search": "Actualiser la recherche",
-        "pin_drawing": "Dessin à la broche",
-        "unpin_drawing": "Retirer le dessin",
-        "tag_friends": "Tag amis",
-        "set_clip": "Définir le chemin du clip",
-        "rel_clip": "Supprimer le chemin du clip",
-        "del_link": "Supprimer le lien hypertexte",
-        "new_stencil": "Nouveau pochoir",
-        "collapse_stencil": "Réduire le pochoir",
-        "collapse_all_stencils": "Réduire tous les pochoirs",
-        "symbols_size": "Taille de l'icône",
-        "small_size": "Petites icônes",
-        "medium_size": "Icônes moyennes",
-        "large_size": "Grandes icônes",
-        "flatten": "Aplatir",
-        "light_theme": "Montrer le thème de la lumière",
-        "dark_theme": "Afficher le thème sombre",
-        "source_stencil": "Pochoir contenant ouvert",
-        "show_dev_mode": "Afficher le mode développeur",
-        "hide_dev_mode": "Masquer le mode développeur",
-        "copy_symbol": "Symbole de copie",
-        "paste_symbol": "Coller le symbole",
-        "paste_symbol_prop": "Coller le nom, la description et les tags",
-        "perm_link": "Lien permanent",
-        "flow_text": "Flux de texte",
-        "unflow_text": "Déballer le texte",
-        "save_as": "Enregistrer sous",
-        "save": "sauvegarder",
-        "export_dxf": "Exporter au format DXF",
-        "export_dwg": "Exporter en DWG",
-        "upload_fonts": "Importer des polices",
-        "make_template": "Créer un modèle",
-        "remove_template": "Supprimer le modèle",
-        "custom_json_layer": "JSON personnalisé (calque)",
-        "reset_ratio": "Rapport de réinitialisation",
-        "doc_setup_info": "Le titre et la description sont utilisés sur votre publication et sur les réseaux sociaux. <br /> La publication de dessins rendra votre contenu visible par quiconque sur Internet.",
-        "doc_setup": "Configuration du document",
-        "remove_default": "Supprimer la valeur par défaut",
-        "make_default": "Faire défaut",
-        "maintain_events": "Maintenir les événements",
-        "custom_events": "Événements personnalisés",
-        "maintain_structure": "Maintenir la structure",
-        "embed_fonts": "Incorporer des polices",
-        "maintain_class": "Maintenir les classes",
-        "maintain_id": "Maintenir l'ID"
+        "publish_before_copy": "Veuillez publier le dessin avant de pouvoir copier le lien"
+    },
+    "refresh": {
+        "drop": "Rafraîchir"
+    },
+    "forward": {
+        "drop": "Avancer"
+    },
+    "ungroup": {
+        "drop": "Dissocier"
+    },
+    "no_line": {
+        "drop": "Pas de ligne"
+    },
+    "new_doc": {
+        "drop": "Nouveau dessin"
+    },
+    "fragment": {
+        "drop": "Fragment"
+    },
+    "playlist": {
+        "drop": "Playlist"
+    },
+    "backward": {
+        "drop": "Envoyer vers l'arrière"
+    },
+    "facebook": {
+        "drop": "Partager sur Facebook"
+    },
+    "edit_link": {
+        "drop": "Modifier le lien hypertexte"
+    },
+    "show_grid": {
+        "drop": "Afficher la grille"
+    },
+    "align_top": {
+        "drop": "Aligner en haut"
+    },
+    "hyperlink": {
+        "drop": "Hyperlien"
+    },
+    "new_layer": {
+        "drop": "Nouvelle Couche"
+    },
+    "edit_icon": {
+        "drop": "Modifier l'icône"
+    },
+    "hide_grid": {
+        "drop": "Masquer la grille"
+    },
+    "open_sans": {
+        "drop": "Ouvrir Sans"
+    },
+    "intersect": {
+        "drop": "Couper"
+    },
+    "export_pdf": {
+        "drop": "Exporter en PDF"
+    },
+    "page_setup": {
+        "drop": "Mise en page"
+    },
+    "export_png": {
+        "drop": "Exporter en tant que PNG"
+    },
+    "flip_horiz": {
+        "drop": "Retourner horizontalement"
+    },
+    "new_folder": {
+        "drop": "Nouveau dossier"
+    },
+    "ver_commit": {
+        "drop": "Commit dessin"
+    },
+    "file_title": {
+        "drop": "Titre"
+    },
+    "difference": {
+        "drop": "Différence"
+    },
+    "export_svg": {
+        "drop": "Exporter en SVG"
+    },
+    "flip_verti": {
+        "drop": "Retourner verticalement"
+    },
+    "delete_all": {
+        "drop": "Supprimer tout"
+    },
+    "export_jpg": {
+        "drop": "Exporter en JPG"
+    },
+    "lock_layer": {
+        "drop": "Verrouiller la couche"
+    },
+    "align_left": {
+        "drop": "Alignez à gauche"
+    },
+    "operations": {
+        "drop": "Opérations"
+    },
+    "hide_rulers": {
+        "drop": "Masquer les règles"
+    },
+    "hide_guides": {
+        "drop": "Masquer les guides"
+    },
+    "export_icon": {
+        "drop": "Icône d'exportation"
+    },
+    "hide_layers": {
+        "drop": "Cacher les couches"
+    },
+    "ver_history": {
+        "drop": "Historique des versions"
+    },
+    "preferences": {
+        "drop": "Préférences"
+    },
+    "align_right": {
+        "drop": "Aligner à droite"
+    },
+    "show_layers": {
+        "drop": "Afficher les calques"
+    },
+    "add_ctrl_pt": {
+        "drop": "Ajouter un point de contrôle"
+    },
+    "share_vecta": {
+        "drop": "Partager avec d'autres"
+    },
+    "insert_link": {
+        "drop": "Insérer un lien hypertexte"
+    },
+    "show_guides": {
+        "drop": "Afficher les guides"
+    },
+    "show_rulers": {
+        "drop": "Afficher les règles"
+    },
+    "restore_all": {
+        "drop": "Tout restaurer"
+    },
+    "edit_symbol": {
+        "drop": "Modifier le symbole"
+    },
+    "unlock_layer": {
+        "drop": "Déverrouiller la couche"
+    },
+    "tutorial_vid": {
+        "drop": "Vidéos"
+    },
+    "select_layer": {
+        "drop": "Sélectionnez toutes les formes"
+    },
+    "align_middle": {
+        "drop": "Aligner le milieu"
+    },
+    "clear_guides": {
+        "drop": "Guides clairs"
+    },
+    "align_center": {
+        "drop": "Aligner le centre"
+    },
+    "align_bottom": {
+        "drop": "Aligner le fond"
+    },
+    "edit_stencil": {
+        "drop": "Modifier le pochoir"
+    },
+    "assign_layer": {
+        "drop": "Attribuer à la couche"
+    },
+    "open_drawing": {
+        "drop": "Ouvrir un dessin"
+    },
+    "delete_layer": {
+        "drop": "Supprimer le calque"
+    },
+    "rename_layer": {
+        "drop": "Renommer le calque"
+    },
+    "show_sym_name": {
+        "drop": "Afficher les noms d'icônes"
+    },
+    "close_stencil": {
+        "drop": "Fermer"
+    },
+    "hide_chat_box": {
+        "drop": "Masquer la boîte de discussion"
+    },
+    "creation_date": {
+        "drop": "Date de création"
+    },
+    "move_to_trash": {
+        "drop": "Mettre à la corbeille"
+    },
+    "clone_drawing": {
+        "drop": "Dupliquer"
+    },
+    "show_chat_box": {
+        "drop": "Afficher la boîte de discussion"
+    },
+    "anonymous_pro": {
+        "drop": "Pro anonyme"
+    },
+    "hide_sym_name": {
+        "drop": "Masquer les noms d'icône"
+    },
+    "share_stencil": {
+        "drop": "Partager le pochoir"
+    },
+    "export_stencil": {
+        "drop": "Exportation"
+    },
+    "import_stencil": {
+        "drop": "Importer"
+    },
+    "show_properties": {
+        "drop": "Afficher les propriétés"
+    },
+    "hide_properties": {
+        "drop": "Masquer les propriétés"
+    },
+    "publish_drawing": {
+        "drop": "Publier le dessin"
+    },
+    "download_drawing": {
+        "drop": "Télécharger"
+    },
+    "roboto_condensed": {
+        "drop": "Roboto condensé"
+    },
+    "last_modified_by_me": {
+        "drop": "Dernière modification par moi"
+    },
+    "tools": {
+        "drop": "Outils"
+    },
+    "convert_path": {
+        "drop": "Convertir en chemin"
+    },
+    "make_public": {
+        "drop": "Rendre le dessin public"
+    },
+    "custom_json": {
+        "drop": "JSON personnalisé"
+    },
+    "switch_line_end": {
+        "drop": "Changer la fin de la ligne"
+    },
+    "show_when_published": {
+        "drop": "Afficher dans imprimer / publier"
+    },
+    "by_name": {
+        "drop": "De nom"
+    },
+    "effects": {
+        "drop": "Effets"
+    },
+    "export_tsv": {
+        "drop": "Données personnalisées en tant que TSV"
+    },
+    "remove_field": {
+        "drop": "Supprimer le champ"
+    },
+    "edit_code": {
+        "drop": "Modifier le code"
+    },
+    "new_plugin": {
+        "drop": "Nouveau plugin"
+    },
+    "edit_plugin": {
+        "drop": "Modifier le plugin"
+    },
+    "share_plugin": {
+        "drop": "Partager le plugin"
+    },
+    "del_plugin": {
+        "drop": "Supprimer le plugin"
+    },
+    "edit_script": {
+        "drop": "Modifier le script"
+    },
+    "run_page": {
+        "drop": "Exécuter au chargement de la page"
+    },
+    "hide_custom_menu": {
+        "drop": "Masquer le menu personnalisé"
+    },
+    "show_custom_menu": {
+        "drop": "Afficher le menu personnalisé"
+    },
+    "remove_menu": {
+        "drop": "Supprimer le menu"
+    },
+    "more_opt": {
+        "drop": "Plus d'options"
+    },
+    "move_up": {
+        "drop": "Déplacer vers le haut"
+    },
+    "move_down": {
+        "drop": "Descendre"
+    },
+    "show_plugin_name": {
+        "drop": "Afficher les noms de plugins"
+    },
+    "hide_plugin_name": {
+        "drop": "Masquer les noms des plugins"
+    },
+    "name_version": {
+        "drop": "Nom de la version actuelle"
+    },
+    "outline_text": {
+        "drop": "Texte de contour"
+    },
+    "view_script": {
+        "drop": "Voir le script"
+    },
+    "isometric_x": {
+        "drop": "Isométrique x"
+    },
+    "isometric_y": {
+        "drop": "Isométrique y"
+    },
+    "isometric_z": {
+        "drop": "Z isométrique"
+    },
+    "stop_script": {
+        "drop": "Arrêter le script"
+    },
+    "activate_script": {
+        "drop": "Script d'exécution automatique"
+    },
+    "run_script": {
+        "drop": "Script de lancement"
+    },
+    "history_list": {
+        "drop": "Liste de l'historique"
+    },
+    "close_plugin": {
+        "drop": "Fermer le plugin"
+    },
+    "no_skew": {
+        "drop": "Réinitialiser l'isométrie"
+    },
+    "blur": {
+        "drop": "Brouiller"
+    },
+    "drop_shadow": {
+        "drop": "Ombre portée"
+    },
+    "update_abox": {
+        "drop": "Mettre à jour la boîte d'alignement"
+    },
+    "setup": {
+        "drop": "Installer"
+    },
+    "refresh_search": {
+        "drop": "Actualiser la recherche"
+    },
+    "pin_drawing": {
+        "drop": "Dessin à la broche"
+    },
+    "unpin_drawing": {
+        "drop": "Retirer le dessin"
+    },
+    "tag_friends": {
+        "drop": "Tag amis"
+    },
+    "set_clip": {
+        "drop": "Définir le chemin du clip"
+    },
+    "rel_clip": {
+        "drop": "Supprimer le chemin du clip"
+    },
+    "del_link": {
+        "drop": "Supprimer le lien hypertexte"
+    },
+    "new_stencil": {
+        "drop": "Nouveau pochoir"
+    },
+    "collapse_stencil": {
+        "drop": "Réduire le pochoir"
+    },
+    "collapse_all_stencils": {
+        "drop": "Réduire tous les pochoirs"
+    },
+    "symbols_size": {
+        "drop": "Taille de l'icône"
+    },
+    "small_size": {
+        "drop": "Petites icônes"
+    },
+    "medium_size": {
+        "drop": "Icônes moyennes"
+    },
+    "large_size": {
+        "drop": "Grandes icônes"
+    },
+    "flatten": {
+        "drop": "Aplatir"
+    },
+    "light_theme": {
+        "drop": "Montrer le thème de la lumière"
+    },
+    "dark_theme": {
+        "drop": "Afficher le thème sombre"
+    },
+    "source_stencil": {
+        "drop": "Pochoir contenant ouvert"
+    },
+    "show_dev_mode": {
+        "drop": "Afficher le mode développeur"
+    },
+    "hide_dev_mode": {
+        "drop": "Masquer le mode développeur"
+    },
+    "copy_symbol": {
+        "drop": "Symbole de copie"
+    },
+    "paste_symbol": {
+        "drop": "Coller le symbole"
+    },
+    "paste_symbol_prop": {
+        "drop": "Coller le nom, la description et les tags"
+    },
+    "perm_link": {
+        "drop": "Lien permanent"
+    },
+    "flow_text": {
+        "drop": "Flux de texte"
+    },
+    "unflow_text": {
+        "drop": "Déballer le texte"
+    },
+    "save_as": {
+        "drop": "Enregistrer sous"
+    },
+    "save": {
+        "drop": "sauvegarder"
+    },
+    "export_dxf": {
+        "drop": "Exporter au format DXF"
+    },
+    "export_dwg": {
+        "drop": "Exporter en DWG"
+    },
+    "upload_fonts": {
+        "drop": "Importer des polices"
+    },
+    "make_template": {
+        "drop": "Créer un modèle"
+    },
+    "remove_template": {
+        "drop": "Supprimer le modèle"
+    },
+    "custom_json_layer": {
+        "drop": "JSON personnalisé (calque)"
+    },
+    "reset_ratio": {
+        "drop": "Rapport de réinitialisation"
+    },
+    "doc_setup_info": {
+        "drop": "Le titre et la description sont utilisés sur votre publication et sur les réseaux sociaux. <br /> La publication de dessins rendra votre contenu visible par quiconque sur Internet."
+    },
+    "doc_setup": {
+        "drop": "Configuration du document"
+    },
+    "remove_default": {
+        "drop": "Supprimer la valeur par défaut"
+    },
+    "make_default": {
+        "drop": "Faire défaut"
+    },
+    "maintain_events": {
+        "drop": "Maintenir les événements"
+    },
+    "custom_events": {
+        "drop": "Événements personnalisés"
+    },
+    "maintain_structure": {
+        "drop": "Maintenir la structure"
+    },
+    "embed_fonts": {
+        "drop": "Incorporer des polices"
+    },
+    "maintain_class": {
+        "drop": "Maintenir les classes"
+    },
+    "maintain_id": {
+        "drop": "Maintenir l'ID"
     },
     "list": {
         "en": "Anglais",
@@ -810,41 +1263,6 @@
         "tagged": "Vous avez été tagué sur un commentaire dans @@ drawing.",
         "day_ago": "il y a un jour",
         "days_ago": "il y a quelques jours"
-    },
-    "slack": {
-        "add": "Ajouter à Slack",
-        "ben2": "-Inviter les membres de la chaîne Slack dans les équipes Vecta",
-        "ben1": "-Partage Vecta directement sur vos canaux Slack",
-        "confirm": "Équipe supprimée avec succès.",
-        "settings": "Paramètres",
-        "add_more": "Ajouter une équipe Slack",
-        "no_teams": "Vous n'avez intégré aucune équipe Slack à Vecta.",
-        "contacting": "Contacter Slack",
-        "team_guide": "L'intégration de Slack vous permet de partager le dessin Vecta directement sur vos canaux Slack et d'inviter vos membres de la chaîne Slack dans les équipes Vecta.",
-        "coming_soon": "À venir: Notification",
-        "integration": "Slack intégration:",
-        "added_teams": "Slack équipes",
-        "link_shared": "Lien de dessin envoyé.",
-        "channel_noti": "Choisissez une chaîne pour envoyer des notifications",
-        "channel_team": "Choisissez une chaîne à intégrer avec votre équipe",
-        "connect_team": "Connectez l'équipe",
-        "channel_link": "Choisissez une chaîne pour partager le lien",
-        "code_invalid": "Le code est invalide. Veuillez réessayer l'intégration de Slack.",
-        "user_welcome": "Merci d'avoir installé Vecta for Slack. Vous pouvez maintenant commencer à inviter les membres de votre équipe à Vecta et partager des liens de dessin vers n'importe lequel des canaux de cette équipe.",
-        "no_new_member": "Aucun nouveau membre à inviter",
-        "connect_slack": "Connectez votre équipe à un canal Slack",
-        "checking_team": "Vérification de l'équipe ...",
-        "group_message": "Messagerie de groupe",
-        "channel_label": "Liste des chaînes",
-        "team_integrate": "Invitez votre chaîne Slack",
-        "shared_drawing": "a partagé @@ avec l'équipe.",
-        "sending_failed": "Impossible de communiquer avec Slack. Veuillez réessayer d'intégrer Vecta avec Slack.",
-        "connecting_team": "Équipe de connexion ...",
-        "channel_removed": "Le canal Slack est retiré de l'équipe",
-        "channel_connected": "Le canal Slack est connecté à l'équipe",
-        "success_integrate": "You can now invite your Slack team members to Vecta and share links to @@! <br /> This page will automatically redirect in 10 seconds.",
-        "integrated_message": "Votre équipe est déjà connectée à un canal Slack @@. <br /> En continuant, vous remplacerez le canal Slack actuel. <br /> <br /> Souhaitez-vous continuer?",
-        "already_integrated": "Remplacer l'intégration"
     },
     "dash": {
         "dash": "Accueil",
@@ -1097,20 +1515,6 @@
         "onboard_share": "Partagez vos dessins avec votre équipe pour les garder dans la boucle!",
         "onboard_done": "Génial! Vous êtes prêt à commencer à explorer!"
     },
-    "publish": {
-        "done": "Dessin publié avec succès sur le Web.",
-        "stop": "Dessin retiré de la publication publique.",
-        "error": "Aucune forme n'est trouvée. Vous ne pouvez pas publier votre dessin actuel.",
-        "title": "Publier sur le Web",
-        "change": "Publier les modifications",
-        "remove": "Retirer",
-        "loading": "Tenez-vous bien, vérifiez le dessin publié",
-        "publishing": "Publication de dessin",
-        "confirm_content": "La publication de ce dessin rendra votre contenu visible à tous sur Internet",
-        "continue": "Continuer",
-        "publish": "Publier",
-        "publish_before_copy": "Veuillez publier le dessin avant de pouvoir copier le lien"
-    },
     "mssg": {
         "loading": "Chargement",
         "load_ui": "Chargement de l'interface utilisateur ...",
@@ -1228,382 +1632,154 @@
         "duplicate-shape": "Ctrl + D pour appliquer les changements sur les propriétés de la forme sélectionnée"
     },
     "tips": {
-        "Lock": {
-            "tip": "Stencil verrouillé"
-        },
-        "redo": {
-            "icon": "Redo <br> (Ctrl-Y)"
-        },
-        "pref": {
-            "icon": "Préférences"
-        },
-        "sort": {
-            "icon": "Trier par"
-        },
-        "undo": {
-            "icon": "Annuler <br> (Ctrl-Z)"
-        },
-        "list": {
-            "icon": "Vue de la liste"
-        },
-        "noti": {
-            "icon": "Notifications"
-        },
-        "grid": {
-            "icon": "Vue de la grille"
-        },
-        "save": {
-            "icon": "Faites glisser et déposez à gauche pour enregistrer"
-        },
-        "bold": {
-            "icon": "Audacieux"
-        },
-        "align": {
-            "icon": "Aligner les formes sélectionnées"
-        },
-        "reset": {
-            "icon": "Réinitialiser le gradient sélectionné"
-        },
-        "Select": {
-            "tip": "Sélectionnez toutes les formes dans la couche"
-        },
-        "Search": {
-            "tip": "Le pochoir de recherche ne peut pas être modifié"
-        },
-        "login": {
-            "icon": "se connecter"
-        },
-        "remove": {
-            "help": "Supprimer l'utilisateur"
-        },
-        "italic": {
-            "icon": "Italique"
-        },
-        "expand": {
-            "icon": "Plus d'outils ..."
-        },
-        "logout": {
-            "icon": "Déconnexion"
-        },
-        "Visible": {
-            "tip": "Afficher / masquer les formes dans la couche"
-        },
-        "record": {
-            "icon": "Enregistrer des macros"
-        },
-        "videos": {
-            "icon": "Regardez des vidéos de tutoriel"
-        },
-        "ascend": {
-            "icon": "Inverser la direction du tri"
-        },
-        "profile": {
-            "icon": "Profil"
-        },
-        "arrange": {
-            "icon": "Organiser l'ordre Z pour les formes sélectionnées"
-        },
-        "descend": {
-            "icon": "Inverser la direction du tri"
-        },
-        "zoom_in": {
-            "icon": "Zoom avant <br> Ctrl + molette de la souris"
-        },
-        "line_end": {
-            "icon": "Propriétés de ligne",
-            "menu": {
-                "[1,0]": "Commencez petit",
-                "[1,1]": "Les deux petits",
-                "[0,1]": "Fin petit",
-                "[1": {
-                    "5,0]": "Commencer le milieu",
-                    "5,1": {
-                        "5]": "Les deux moyens"
-                    }
-                },
-                "[0,1": {
-                    "5]": "Fin moyen"
-                },
-                "[2,0]": "Commencez gros",
-                "[2,2]": "Les deux grands",
-                "[0,2]": "Fin grand",
-                "linecap_butt": "Linecap bout à bout",
-                "linecap_round": "Linecap ronde",
-                "linecap_square": "Linecap carré",
-                "linejoin_miter": "Linejoin mitre",
-                "linejoin_round": "Linejoin round",
-                "linejoin_bevel": "Linejoin biseau",
-                "swap": "Commuter les extrémités de ligne"
-            }
-        },
-        "chat_box": {
-            "icon": "Boîte de discussion"
-        },
-        "zoom_fit": {
-            "icon": "Zoom pour adapter la page"
-        },
-        "feedback": {
-            "icon": "Envoyer un commentaire"
-        },
-        "zoom_out": {
-            "icon": "Zoom arrière <br> Ctrl + molette de la souris"
-        },
-        "SaveSearch": {
-            "tip": "Sauvegarder le pochoir de recherche"
-        },
-        "dashboard": {
-            "icon": "Aller au tableau de bord"
-        },
-        "draw_path": {
-            "icon": "Dessiner un chemin, un arc, une courbe ou une forme libre <br> (Ctrl-4)",
-            "menu": {
-                "draw_line": {
-                    "icon": "Dessiner une ligne"
-                },
-                "draw_quad": {
-                    "icon": "Dessiner un arc"
-                },
-                "draw_cubic": {
-                    "icon": "Dessiner la courbe"
-                },
-                "draw_free": {
-                    "icon": "Dessiner une forme libre"
-                }
-            }
-        },
-        "draw_rect": {
-            "icon": "Dessiner un rectangle <br> (Ctrl-2)"
-        },
-        "font_size": {
-            "icon": "Taille de police"
-        },
-        "underline": {
-            "icon": "Souligner"
-        },
-        "add_layer": {
-            "icon": "Ajouter une couche"
-        },
-        "file_name": {
-            "icon": "Renommer le dessin"
-        },
-        "operations": {
-            "icon": "Grouper, dégrouper, retourner ou joindre des formes sélectionnées"
-        },
-        "line_color": {
-            "icon": "Couleur de la ligne"
-        },
-        "page_setup": {
-            "icon": "Mise en page"
-        },
-        "line_style": {
-            "icon": "Style de ligne"
-        },
-        "fill_color": {
-            "icon": "La couleur de remplissage"
-        },
-        "font_color": {
-            "icon": "Couleur de la police"
-        },
-        "zoom_level": {
-            "icon": "Le niveau de zoom"
-        },
-        "shared_url": {
-            "icon": "Obtenir un lien partageable sans envoyer d'e-mails"
-        },
-        "text_align": {
-            "icon": "Alignement du texte",
-            "menu": {
-                "start": "Alignez à gauche",
-                "middle": "Aligner le milieu",
-                "end": "Aligner à droite",
-                "top": "Aligner en haut",
-                "central": "Aligner le centre",
-                "bottom": "Aligner le fond"
-            }
-        },
-        "revert_icon": {
-            "icon": "Rétablir l'icône pour la dernière mise à jour"
-        },
-        "update_icon": {
-            "icon": "Mise à jour icône"
-        },
-        "color_trans": {
-            "help": "Transparence <br/> 0-100 / 0% -100% / 0-1"
-        },
-        "play_record": {
-            "icon": "Lire des macros"
-        },
-        "fields_prop": {
-            "icon": "Ajouter un champ"
-        },
-        "font_family": {
-            "icon": "Famille de polices"
-        },
-        "line_weight": {
-            "icon": "Poids des lignes"
-        },
-        "save_record": {
-            "icon": "Exporter des macros"
-        },
-        "toggle_grid": {
-            "icon": "Afficher / masquer la grille"
-        },
-        "draw_ellipse": {
-            "icon": "Tracez un cercle ou une ellipse <br> (Ctrl-3)"
-        },
-        "round_corner": {
-            "icon": "Coin rond"
-        },
-        "pause_record": {
-            "icon": "Suspendre les macros"
-        },
-        "formula_prop": {
-            "icon": "Afficher / masquer les formules"
-        },
-        "format_painter": {
-            "icon": "Format, couleur, <br> formule ou <br> peintre json <br> (Ctrl-7)"
-        },
-        "draw_textblock": {
-            "icon": "Dessiner, déplacer, redimensionner ou faire pivoter du texte <br> (Ctrl-5)"
-        },
-        "draw_connector": {
-            "icon": "Dessiner des connecteurs <br> (Ctrl-6)",
-            "menu": {
-                "draw_conn_verti": {
-                    "icon": "Coude"
-                },
-                "draw_conn_line": {
-                    "icon": "Connecteur droit"
-                },
-                "draw_conn_points": {
-                    "icon": "Point de connexion"
-                },
-                "draw_conn_jump": {
-                    "icon": "Connecteur de coude"
-                },
-                "draw_conn_ljump": {
-                    "icon": "Connecteur de saut droit"
-                }
-            }
-        },
-        "preserve_ratio": {
-            "icon": "Verrouiller / Débloquer la largeur et la hauteur"
-        },
-        "custom_gradient": {
-            "icon": "Faites glisser et déposez à gauche pour enregistrer"
-        },
-        "Playlist": {
-            "tip": "Playlist de vidéos"
-        },
-        "Minimize": {
-            "tip": "Minimiser"
-        },
-        "Maximize": {
-            "tip": "Maximiser"
-        },
-        "Close": {
-            "tip": "Fermer"
-        },
-        "Expand": {
-            "tip": "Développer"
-        },
-        "Collapse": {
-            "tip": "Effondrer"
-        },
-        "Add": {
-            "tip": "Ajouter"
-        },
-        "Remove": {
-            "tip": "Retirer"
-        },
-        "Save": {
-            "tip": "sauvegarder"
-        },
-        "edit_profile": {
-            "icon": "Editer le profil"
-        },
-        "fit_to_drawing": {
-            "tip": "Augmentez la largeur et la hauteur pour ajouter la marge"
-        },
-        "new_page": {
-            "icon": "Nouvelle page"
-        },
-        "cursor": {
-            "icon": "Pointeur, outil panoramique <br> (Ctrl-1)",
-            "menu": {
-                "pointer": {
-                    "icon": "Outil de pointeur"
-                },
-                "pan": {
-                    "icon": "Outil pan"
-                }
-            }
-        },
-        "delete_page": {
-            "icon": "Supprimer la page"
-        },
-        "pages": {
-            "icon": "Voir une autre page"
-        },
+        "Lock.tip": "Stencil verrouillé",
+        "redo.icon": "Redo <br> (Ctrl-Y)",
+        "pref.icon": "Préférences",
+        "sort.icon": "Trier par",
+        "undo.icon": "Annuler <br> (Ctrl-Z)",
+        "list.icon": "Vue de la liste",
+        "noti.icon": "Notifications",
+        "grid.icon": "Vue de la grille",
+        "save.icon": "Faites glisser et déposez à gauche pour enregistrer",
+        "bold.icon": "Audacieux",
+        "align.icon": "Aligner les formes sélectionnées",
+        "reset.icon": "Réinitialiser le gradient sélectionné",
+        "Select.tip": "Sélectionnez toutes les formes dans la couche",
+        "Search.tip": "Le pochoir de recherche ne peut pas être modifié",
+        "login.icon": "se connecter",
+        "remove.help": "Supprimer l'utilisateur",
+        "italic.icon": "Italique",
+        "expand.icon": "Plus d'outils ...",
+        "logout.icon": "Déconnexion",
+        "Visible.tip": "Afficher / masquer les formes dans la couche",
+        "record.icon": "Enregistrer des macros",
+        "videos.icon": "Regardez des vidéos de tutoriel",
+        "ascend.icon": "Inverser la direction du tri",
+        "profile.icon": "Profil",
+        "arrange.icon": "Organiser l'ordre Z pour les formes sélectionnées",
+        "descend.icon": "Inverser la direction du tri",
+        "zoom_in.icon": "Zoom avant <br> Ctrl + molette de la souris",
+        "line_end.icon": "Propriétés de ligne",
+        "line_end.menu": {
+            "[1,0]": "Commencez petit",
+            "[1,1]": "Les deux petits",
+            "[0,1]": "Fin petit",
+            "[1.5,0]": "Commencer le milieu",
+            "[1.5,1.5]": "Les deux moyens",
+            "[0,1.5]": "Fin moyen",
+            "[2,0]": "Commencez gros",
+            "[2,2]": "Les deux grands",
+            "[0,2]": "Fin grand",
+            "linecap_butt": "Linecap bout à bout",
+            "linecap_round": "Linecap ronde",
+            "linecap_square": "Linecap carré",
+            "linejoin_miter": "Linejoin mitre",
+            "linejoin_round": "Linejoin round",
+            "linejoin_bevel": "Linejoin biseau",
+            "swap": "Commuter les extrémités de ligne"
+        },
+        "chat_box.icon": "Boîte de discussion",
+        "zoom_fit.icon": "Zoom pour adapter la page",
+        "feedback.icon": "Envoyer un commentaire",
+        "zoom_out.icon": "Zoom arrière <br> Ctrl + molette de la souris",
+        "SaveSearch.tip": "Sauvegarder le pochoir de recherche",
+        "dashboard.icon": "Aller au tableau de bord",
+        "draw_path.icon": "Dessiner un chemin, un arc, une courbe ou une forme libre <br> (Ctrl-4)",
+        "draw_path.menu": {
+            "draw_line.icon": "Dessiner une ligne",
+            "draw_quad.icon": "Dessiner un arc",
+            "draw_cubic.icon": "Dessiner la courbe",
+            "draw_free.icon": "Dessiner une forme libre"
+        },
+        "draw_rect.icon": "Dessiner un rectangle <br> (Ctrl-2)",
+        "font_size.icon": "Taille de police",
+        "underline.icon": "Souligner",
+        "add_layer.icon": "Ajouter une couche",
+        "file_name.icon": "Renommer le dessin",
+        "operations.icon": "Grouper, dégrouper, retourner ou joindre des formes sélectionnées",
+        "line_color.icon": "Couleur de la ligne",
+        "page_setup.icon": "Mise en page",
+        "line_style.icon": "Style de ligne",
+        "fill_color.icon": "La couleur de remplissage",
+        "font_color.icon": "Couleur de la police",
+        "zoom_level.icon": "Le niveau de zoom",
+        "shared_url.icon": "Obtenir un lien partageable sans envoyer d'e-mails",
+        "text_align.icon": "Alignement du texte",
+        "text_align.menu": {
+            "start": "Alignez à gauche",
+            "middle": "Aligner le milieu",
+            "end": "Aligner à droite",
+            "top": "Aligner en haut",
+            "central": "Aligner le centre",
+            "bottom": "Aligner le fond"
+        },
+        "revert_icon.icon": "Rétablir l'icône pour la dernière mise à jour",
+        "update_icon.icon": "Mise à jour icône",
+        "color_trans.help": "Transparence <br/> 0-100 / 0% -100% / 0-1",
+        "play_record.icon": "Lire des macros",
+        "fields_prop.icon": "Ajouter un champ",
+        "font_family.icon": "Famille de polices",
+        "line_weight.icon": "Poids de ligne",
+        "save_record.icon": "Exporter des macros",
+        "toggle_grid.icon": "Afficher / masquer la grille",
+        "draw_ellipse.icon": "Tracez un cercle ou une ellipse <br> (Ctrl-3)",
+        "round_corner.icon": "Coin rond",
+        "pause_record.icon": "Suspendre les macros",
+        "formula_prop.icon": "Afficher / masquer les formules",
+        "format_painter.icon": "Format, couleur, <br> formule ou <br> peintre json <br> (Ctrl-7)",
+        "draw_textblock.icon": "Dessiner, déplacer, redimensionner ou faire pivoter du texte <br> (Ctrl-5)",
+        "draw_connector.icon": "Dessiner des connecteurs <br> (Ctrl-6)",
+        "draw_connector.menu": {
+            "draw_conn_verti.icon": "Coude",
+            "draw_conn_line.icon": "Connecteur droit",
+            "draw_conn_points.icon": "Point de connexion",
+            "draw_conn_jump.icon": "Connecteur de coude",
+            "draw_conn_ljump.icon": "Connecteur de saut droit"
+        },
+        "preserve_ratio.icon": "Verrouiller / Débloquer la largeur et la hauteur",
+        "custom_gradient.icon": "Faites glisser et déposez à gauche pour enregistrer",
+        "Playlist.tip": "Playlist de vidéos",
+        "Minimize.tip": "Minimiser",
+        "Maximize.tip": "Maximiser",
+        "Close.tip": "Fermer",
+        "Expand.tip": "Développer",
+        "Collapse.tip": "Effondrer",
+        "Add.tip": "Ajouter",
+        "Remove.tip": "Retirer",
+        "Save.tip": "sauvegarder",
+        "edit_profile.icon": "Editer le profil",
+        "fit_to_drawing.tip": "Augmentez la largeur et la hauteur pour ajouter la marge",
+        "new_page.icon": "Nouvelle page",
+        "cursor.icon": "Pointeur, outil panoramique <br> (Ctrl-1)",
+        "cursor.menu": {
+            "pointer.icon": "Outil de pointeur",
+            "pan.icon": "Outil pan"
+        },
+        "delete_page.icon": "Supprimer la page",
+        "pages.icon": "Voir une autre page",
         "set_public": {
             "label": "Toute personne sur Internet peut trouver et accéder à"
         },
-        "edit_info": {
-            "icon": "Un lien de confirmation sera <br> envoyé à votre email précédent."
-        },
-        "color": {
-            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
-        },
-        "bevel_color": {
-            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
-        },
-        "shadow_color": {
-            "help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)"
-        },
+        "edit_info.icon": "Un lien de confirmation sera <br> envoyé à votre email précédent.",
+        "color.help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)",
+        "bevel_color.help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)",
+        "shadow_color.help": "Couleur personnalisée <br> #fff / #ffffff / rgb (0, 0, 0)",
         "blur_help": "Le flou ne peut être utilisé avec aucun effet.",
         "shadow_help": "L'ombre portée peut être utilisée avec Bevel. <br> Inner Shadow ne peut être utilisé avec aucun effet.",
-        "page_up": {
-            "icon": "Page précédente"
-        },
-        "page_down": {
-            "icon": "Page suivante"
-        },
-        "rect_help": {
-            "icon": "Aidez-moi"
-        },
-        "Delete": {
-            "tip": "Effacer"
-        },
-        "AddField": {
-            "tip": "Ajouter le champ"
-        },
-        "FormulaField": {
-            "tip": "Modifier la formule"
-        },
-        "AddLayer": {
-            "tip": "Ajouter une couche"
-        },
-        "AddEffect": {
-            "tip": "Ajouter un effet"
-        },
-        "AddCustomMenu": {
-            "tip": "Ajouter un menu personnalisé"
-        },
-        "ListCustomMenu": {
-            "tip": "Liste du menu personnalisé"
-        },
-        "file": {
-            "icon": "Préférences"
-        },
-        "export": {
-            "icon": "Exportation"
-        },
-        "share": {
-            "icon": "Partager"
-        },
-        "view": {
-            "icon": "Vue"
-        }
+        "page_up.icon": "Page précédente",
+        "page_down.icon": "Page suivante",
+        "rect_help.icon": "Aidez-moi",
+        "Delete.tip": "Effacer",
+        "AddField.tip": "Ajouter le champ",
+        "FormulaField.tip": "Modifier la formule",
+        "AddLayer.tip": "Ajouter une couche",
+        "AddEffect.tip": "Ajouter un effet",
+        "AddCustomMenu.tip": "Ajouter un menu personnalisé",
+        "ListCustomMenu.tip": "Liste du menu personnalisé",
+        "file.icon": "Préférences",
+        "export.icon": "Exportation",
+        "share.icon": "Partager",
+        "view.icon": "Vue"
     },
     "signup": {
         "failed": "L'inscription a échoué",
