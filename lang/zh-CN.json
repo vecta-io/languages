@@ -43,379 +43,153 @@
         "diagram_smart_symbols": "使用公式创建智能形状并节省更多时间！"
     },
     "tips": {
-        "Playlist": {
-            "tip": "视频播放列表"
+        "Playlist.tip": "视频播放列表",
+        "Minimize.tip": "最小化",
+        "Maximize.tip": "最大化",
+        "Close.tip": "关闭",
+        "rect_help.icon": "帮助",
+        "videos.icon": "观看教程视频",
+        "SaveSearch.tip": "保存搜索模具",
+        "dashboard.icon": "转到显示面板",
+        "revert_icon.icon": "将图标恢复为上次更新",
+        "update_icon.icon": "更新符号图标",
+        "cursor.icon": "指针,平移工具<br>(Ctrl-1)",
+        "cursor.menu": {
+            "pointer.icon": "指针工具",
+            "pan.icon": "平移工具"
         },
-        "Minimize": {
-            "tip": "最小化"
+        "draw_rect.icon": "绘制的矩形<br>(Ctrl-2)",
+        "draw_ellipse.icon": "绘制圈或椭圆<br>(Ctrl-3)",
+        "draw_path.icon": "绘制路径，弧线，<br> 曲线或自由形式<br>(Ctrl-4)",
+        "draw_path.menu": {
+            "draw_line.icon": "绘制直线",
+            "draw_quad.icon": "绘制弧",
+            "draw_cubic.icon": "绘制曲线",
+            "draw_free.icon": "绘制自由格式"
         },
-        "Maximize": {
-            "tip": "最大化"
+        "draw_textblock.icon": "绘制、移动、调整<br＞或旋转文本<br>(Ctrl-5)",
+        "draw_connector.icon": "绘图连接器<br>(Ctrl-6)",
+        "draw_connector.menu": {
+            "draw_conn_verti.icon": "弯头连接器",
+            "draw_conn_line.icon": "直接头",
+            "draw_conn_jump.icon": "肘跳连接器",
+            "draw_conn_ljump.icon": "直跳连接器",
+            "draw_conn_points.icon": "连接点"
         },
-        "Close": {
-            "tip": "关闭"
+        "format_painter.icon": "格式、颜色, <br>公式或<br>对象简谱漆匠<br>(Ctrl-7)",
+        "undo.icon": "撤消<br>(Ctrl-Z)",
+        "redo.icon": "重做<br>(Ctrl-Y)",
+        "line_weight.icon": "线宽",
+        "line_style.icon": "线条样式",
+        "line_color.icon": "线条颜色",
+        "line_end.icon": "线属性",
+        "line_end.menu": {
+            "[1,0]": "从小开始",
+            "[1,1]": "均为小",
+            "[0,1]": "结束小",
+            "[1.5,0]": "从中开始",
+            "[1.5,1.5]": "均为中",
+            "[0,1.5]": "结束中",
+            "[2,0]": "从大开始",
+            "[2,2]": "均为大",
+            "[0,2]": "结束大",
+            "linecap_butt": "对接线帽",
+            "linecap_round": "圆线帽",
+            "linecap_square": "正方形线帽",
+            "linejoin_miter": "斜接线连接",
+            "linejoin_round": "圆线连接",
+            "linejoin_bevel": "斜角线连接",
+            "swap": "切换线结束"
         },
-        "rect_help": {
-            "icon": "帮助"
+        "fill_color.icon": "填充颜色",
+        "round_corner.icon": "圆角",
+        "arrange.icon": "为选定的形状安排z阶<br>",
+        "operations.icon": "分组，取消分组，翻转<br＞或加入所选择的形状",
+        "align.icon": "对齐选定的形状",
+        "file_name.icon": "重命名绘图",
+        "zoom_out.icon": "缩小<br>Ctrl+鼠标滚轮",
+        "zoom_level.icon": "缩放级别",
+        "zoom_in.icon": "放大<br>Ctrl+鼠标滚轮",
+        "zoom_fit.icon": "缩放至适合页面大小",
+        "pages.icon": "查看另一个页面",
+        "view.icon": "查看",
+        "export.icon": "导出",
+        "share.icon": "分享",
+        "file.icon": "首选项",
+        "feedback.icon": "提交反馈",
+        "text_align.icon": "文字对齐",
+        "text_align.menu": {
+            "start": "向左对齐",
+            "middle": "对齐中间",
+            "end": "向右对齐",
+            "top": "对齐顶部",
+            "central": "对齐中心",
+            "bottom": "对齐底部"
         },
-        "videos": {
-            "icon": "观看教程视频"
-        },
-        "SaveSearch": {
-            "tip": "保存搜索模具"
-        },
-        "dashboard": {
-            "icon": "转到显示面板"
-        },
-        "revert_icon": {
-            "icon": "将图标恢复为上次更新"
-        },
-        "update_icon": {
-            "icon": "更新符号图标"
-        },
-        "cursor": {
-            "icon": "指针,平移工具<br>(Ctrl-1)",
-            "menu": {
-                "pointer": {
-                    "icon": "指针工具"
-                },
-                "pan": {
-                    "icon": "平移工具"
-                }
-            }
-        },
-        "draw_rect": {
-            "icon": "绘制的矩形<br>(Ctrl-2)"
-        },
-        "draw_ellipse": {
-            "icon": "绘制圈或椭圆<br>(Ctrl-3)"
-        },
-        "draw_path": {
-            "icon": "绘制路径，弧线，<br> 曲线或自由形式<br>(Ctrl-4)",
-            "menu": {
-                "draw_line": {
-                    "icon": "绘制直线"
-                },
-                "draw_quad": {
-                    "icon": "绘制弧"
-                },
-                "draw_cubic": {
-                    "icon": "绘制曲线"
-                },
-                "draw_free": {
-                    "icon": "绘制自由格式"
-                }
-            }
-        },
-        "draw_textblock": {
-            "icon": "绘制、移动、调整<br＞或旋转文本<br>(Ctrl-5)"
-        },
-        "draw_connector": {
-            "icon": "绘图连接器<br>(Ctrl-6)",
-            "menu": {
-                "draw_conn_verti": {
-                    "icon": "弯头连接器"
-                },
-                "draw_conn_line": {
-                    "icon": "直接头"
-                },
-                "draw_conn_jump": {
-                    "icon": "肘跳连接器"
-                },
-                "draw_conn_ljump": {
-                    "icon": "直跳连接器"
-                },
-                "draw_conn_points": {
-                    "icon": "连接点"
-                }
-            }
-        },
-        "format_painter": {
-            "icon": "格式、颜色, <br>公式或<br>对象简谱漆匠<br>(Ctrl-7)"
-        },
-        "undo": {
-            "icon": "撤消<br>(Ctrl-Z)"
-        },
-        "redo": {
-            "icon": "重做<br>(Ctrl-Y)"
-        },
-        "line_weight": {
-            "icon": "线重"
-        },
-        "line_style": {
-            "icon": "线条样式"
-        },
-        "line_color": {
-            "icon": "线条颜色"
-        },
-        "line_end": {
-            "icon": "线属性",
-            "menu": {
-                "[1,0]": "从小开始",
-                "[1,1]": "均为小",
-                "[0,1]": "结束小",
-                "[1": {
-                    "5,0]": "从中开始",
-                    "5,1": {
-                        "5]": "均为中"
-                    }
-                },
-                "[0,1": {
-                    "5]": "结束中"
-                },
-                "[2,0]": "从大开始",
-                "[2,2]": "均为大",
-                "[0,2]": "结束大",
-                "linecap_butt": "对接线帽",
-                "linecap_round": "圆线帽",
-                "linecap_square": "正方形线帽",
-                "linejoin_miter": "斜接线连接",
-                "linejoin_round": "圆线连接",
-                "linejoin_bevel": "斜角线连接",
-                "swap": "切换线结束"
-            }
-        },
-        "fill_color": {
-            "icon": "填充颜色"
-        },
-        "round_corner": {
-            "icon": "圆角"
-        },
-        "arrange": {
-            "icon": "为选定的形状安排z阶<br>"
-        },
-        "operations": {
-            "icon": "分组，取消分组，翻转<br＞或加入所选择的形状"
-        },
-        "align": {
-            "icon": "对齐选定的形状"
-        },
-        "file_name": {
-            "icon": "重命名绘图"
-        },
-        "zoom_out": {
-            "icon": "缩小<br>Ctrl+鼠标滚轮"
-        },
-        "zoom_level": {
-            "icon": "缩放级别"
-        },
-        "zoom_in": {
-            "icon": "放大<br>Ctrl+鼠标滚轮"
-        },
-        "zoom_fit": {
-            "icon": "缩放至适合页面大小"
-        },
-        "pages": {
-            "icon": "查看另一个页面"
-        },
-        "view": {
-            "icon": "查看"
-        },
-        "export": {
-            "icon": "导出"
-        },
-        "share": {
-            "icon": "分享"
-        },
-        "file": {
-            "icon": "首选项"
-        },
-        "feedback": {
-            "icon": "提交反馈"
-        },
-        "text_align": {
-            "icon": "文字对齐",
-            "menu": {
-                "start": "向左对齐",
-                "middle": "对齐中间",
-                "end": "向右对齐",
-                "top": "对齐顶部",
-                "central": "对齐中心",
-                "bottom": "对齐底部"
-            }
-        },
-        "font_family": {
-            "icon": "字体家族"
-        },
-        "font_size": {
-            "icon": "字体大小"
-        },
-        "font_color": {
-            "icon": "字体颜色"
-        },
-        "color": {
-            "help": "自定义颜色<br>#fff / #ffffff / rgb(0, 0, 0)"
-        },
-        "bevel_color": {
-            "help": "自定义颜色<br>#fff / #ffffff / rgb(0, 0, 0)"
-        },
-        "shadow_color": {
-            "help": "自定义颜色<br>#fff / #ffffff / rgb(0, 0, 0)"
-        },
-        "color_trans": {
-            "help": "透明度<br/>0-100 / 0%-100% / 0-1"
-        },
-        "bold": {
-            "icon": "粗体"
-        },
-        "italic": {
-            "icon": "斜体"
-        },
-        "underline": {
-            "icon": "下划线"
-        },
-        "login": {
-            "icon": "登录"
-        },
-        "logout": {
-            "icon": "登出"
-        },
-        "profile": {
-            "icon": "个人资料"
-        },
-        "record": {
-            "icon": "记录宏"
-        },
-        "save_record": {
-            "icon": "导出宏"
-        },
-        "play_record": {
-            "icon": "播放宏"
-        },
-        "pause_record": {
-            "icon": "暂停宏"
-        },
-        "grid": {
-            "icon": "网格视图"
-        },
-        "list": {
-            "icon": "列表视图"
-        },
+        "font_family.icon": "字体家族",
+        "font_size.icon": "字体大小",
+        "font_color.icon": "字体颜色",
+        "color.help": "自定义颜色<br>#fff / #ffffff / rgb(0, 0, 0)",
+        "bevel_color.help": "自定义颜色<br>#fff / #ffffff / rgb(0, 0, 0)",
+        "shadow_color.help": "自定义颜色<br>#fff / #ffffff / rgb(0, 0, 0)",
+        "color_trans.help": "透明度<br/>0-100 / 0%-100% / 0-1",
+        "bold.icon": "粗体",
+        "italic.icon": "斜体",
+        "underline.icon": "下划线",
+        "login.icon": "登录",
+        "logout.icon": "登出",
+        "profile.icon": "个人资料",
+        "record.icon": "记录宏",
+        "save_record.icon": "导出宏",
+        "play_record.icon": "播放宏",
+        "pause_record.icon": "暂停宏",
+        "grid.icon": "网格视图",
+        "list.icon": "列表视图",
         "set_public": {
             "label": "互联网上的任何人都可以找到和访问"
         },
-        "remove": {
-            "help": "删除用户"
-        },
-        "page_setup": {
-            "icon": "页面设置"
-        },
-        "page_up": {
-            "icon": "上一页"
-        },
-        "page_down": {
-            "icon": "下一页"
-        },
-        "new_page": {
-            "icon": "新页面"
-        },
-        "delete_page": {
-            "icon": "删除页面"
-        },
-        "ascend": {
-            "icon": "反向排序方向"
-        },
-        "descend": {
-            "icon": "反向排序方向"
-        },
-        "sort": {
-            "icon": "排序依据"
-        },
-        "toggle_grid": {
-            "icon": "显示/隐藏网格"
-        },
-        "Lock": {
-            "tip": "模具已锁定"
-        },
-        "Search": {
-            "tip": "无法编辑搜索模具"
-        },
-        "expand": {
-            "icon": "更多的工具..."
-        },
-        "shared_url": {
-            "icon": "获取可共享的链接而不发送电子邮件"
-        },
-        "noti": {
-            "icon": "通知"
-        },
-        "pref": {
-            "icon": "首选项"
-        },
-        "chat_box": {
-            "icon": "聊天室"
-        },
-        "preserve_ratio": {
-            "icon": "锁定/解锁宽度和高度"
-        },
-        "formula_prop": {
-            "icon": "显示/隐藏公式"
-        },
-        "fields_prop": {
-            "icon": "添加领域"
-        },
-        "add_layer": {
-            "icon": "添加图层"
-        },
-        "Select": {
-            "tip": "选择图层中的所有形状"
-        },
-        "custom_gradient": {
-            "icon": "拖放到左侧以保存"
-        },
-        "reset": {
-            "icon": "重置选定的渐变"
-        },
-        "Visible": {
-            "tip": "显示/隐藏图层中的形状"
-        },
-        "edit_info": {
-            "icon": "确认链接将<br>发送到您以前的电子邮件中"
-        },
-        "Expand": {
-            "tip": "扩大"
-        },
-        "Collapse": {
-            "tip": "折叠"
-        },
-        "Add": {
-            "tip": "添加"
-        },
-        "Remove": {
-            "tip": "移除"
-        },
-        "Delete": {
-            "tip": "删除"
-        },
-        "Save": {
-            "tip": "保存"
-        },
-        "edit_profile": {
-            "icon": "编辑个人资料"
-        },
-        "fit_to_drawing": {
-            "tip": "增加宽度和高度以增加边距"
-        },
+        "remove.help": "删除用户",
+        "page_setup.icon": "页面设置",
+        "page_up.icon": "上一页",
+        "page_down.icon": "下一页",
+        "new_page.icon": "新页面",
+        "delete_page.icon": "删除页面",
+        "ascend.icon": "反向排序方向",
+        "descend.icon": "反向排序方向",
+        "sort.icon": "排序依据",
+        "toggle_grid.icon": "显示/隐藏网格",
+        "Lock.tip": "模具已锁定",
+        "Search.tip": "无法编辑搜索模具",
+        "expand.icon": "更多的工具...",
+        "shared_url.icon": "获取可共享的链接而不发送电子邮件",
+        "noti.icon": "通知",
+        "pref.icon": "首选项",
+        "chat_box.icon": "聊天室",
+        "preserve_ratio.icon": "锁定/解锁宽度和高度",
+        "formula_prop.icon": "显示/隐藏公式",
+        "fields_prop.icon": "添加领域",
+        "add_layer.icon": "添加图层",
+        "Select.tip": "选择图层中的所有形状",
+        "custom_gradient.icon": "拖放到左侧以保存",
+        "reset.icon": "重置选定的渐变",
+        "Visible.tip": "显示/隐藏图层中的形状",
+        "edit_info.icon": "确认链接将<br>发送到您以前的电子邮件中",
+        "Expand.tip": "扩大",
+        "Collapse.tip": "折叠",
+        "Add.tip": "添加",
+        "Remove.tip": "移除",
+        "Delete.tip": "删除",
+        "Save.tip": "保存",
+        "edit_profile.icon": "编辑个人资料",
+        "fit_to_drawing.tip": "增加宽度和高度以增加边距",
         "blur_help": "模糊不能与任何效果一起使用",
         "shadow_help": "拖放阴影可以与斜角一起使用<br>内部阴影不能与任何效果一起使用",
-        "AddField": {
-            "tip": "添加字段"
-        },
-        "FormulaField": {
-            "tip": "编辑公式"
-        },
-        "AddLayer": {
-            "tip": "添加图层"
-        },
-        "AddEffect": {
-            "tip": "增加效果"
-        },
-        "AddCustomMenu": {
-            "tip": "添加自定义菜单"
-        },
-        "ListCustomMenu": {
-            "tip": "列表自定义菜单"
-        }
+        "AddField.tip": "添加字段",
+        "FormulaField.tip": "编辑公式",
+        "AddLayer.tip": "添加图层",
+        "AddEffect.tip": "增加效果",
+        "AddCustomMenu.tip": "添加自定义菜单",
+        "ListCustomMenu.tip": "列表自定义菜单"
     },
     "mssg": {
         "sending": "正在发送",
@@ -838,7 +612,8 @@
         "publish": "发布",
         "continue": "继续",
         "error": "未找到形状。您无法发布当前绘图",
-        "publish_before_copy": "在复制链接之前请先发布绘图"
+        "publish_before_copy": "在复制链接之前请先发布绘图",
+        "drop": "发布"
     },
     "dialog": {
         "help_title": "Vecta帮助",
@@ -883,7 +658,8 @@
         "ben2": "-邀请Slack频道成员加入Vecta团队",
         "coming_soon": "即将推出：通知",
         "channel_label": "频道列表",
-        "team_guide": "Slack集成允许您将Vecta绘图直接共享到Slack频道，并邀请Slack频道成员加入Vecta团队"
+        "team_guide": "Slack集成允许您将Vecta绘图直接共享到Slack频道，并邀请Slack频道成员加入Vecta团队",
+        "drop": "分享到Slack"
     },
     "ui": {
         "event": "事件",
@@ -1249,7 +1025,6 @@
         "blank": "在新标签页中打开",
         "self": "在当前标签页中打开",
         "reset": "重置",
-        "help": "帮助",
         "about": "关于",
         "files": "文件",
         "dont_save": "不保存",
@@ -1269,211 +1044,612 @@
         "upload_font_noti": "仅允许使用扩展名为.woff的文件",
         "invalid_events": "无效的事件或代码，不允许为空"
     },
-    "drop": {
-        "maintain_id": "维护ID",
-        "maintain_class": "维护类",
-        "maintain_structure": "维护结构",
-        "maintain_events": "维护事件",
-        "embed_fonts": "嵌入的字体",
-        "effects": "效果",
-        "blur": "模糊",
-        "drop_shadow": "投影",
-        "isometric_x": "等距x",
-        "isometric_y": "等距y",
-        "isometric_z": "等距z",
-        "no_skew": "重置等距",
-        "pin_drawing": "固定绘图",
-        "unpin_drawing": "取消固定绘图",
-        "tools": "工具",
-        "convert_path": "转换为路径",
-        "add_ctrl_pt": "添加控制点",
-        "refresh": "刷新",
-        "members": "管理成员",
-        "upload_fonts": "上传字体",
-        "new_layer": "新图层",
-        "rename_layer": "重新命名图层",
-        "delete_layer": "删除图层",
-        "assign_layer": "分配给图层",
-        "select_layer": "选择所有形状",
-        "lock_layer": "锁定图层",
-        "unlock_layer": "解锁图层",
-        "show_when_published": "以印刷/出版方式显示",
-        "show_layers": "显示图层",
-        "hide_layers": "隐藏图层",
-        "hide_custom_menu": "隐藏自定义菜单",
-        "show_custom_menu": "显示自定义菜单",
-        "show_guides": "显示指南",
-        "hide_guides": "隐藏指南",
-        "clear_guides": "清除指南",
-        "show_rulers": "显示标尺",
-        "hide_rulers": "隐藏标尺",
-        "show_grid": "显示网格",
-        "hide_grid": "隐藏网格",
-        "group": "聚合（组）",
-        "ungroup": "取消分组",
-        "operations": "操作",
-        "arrange": "安排",
-        "front": "移至最前",
-        "forward": "移至前面",
-        "backward": "移至后面",
-        "back": "移至最后",
-        "flip_verti": "垂直翻转",
-        "flip_horiz": "水平翻转",
-        "join": "加入",
-        "trim": "修整",
-        "fragment": "片段",
-        "union": "联合",
-        "difference": "差异",
-        "intersect": "相交",
-        "flatten": "展平",
-        "cut": "剪切",
-        "copy": "复制",
-        "paste": "粘贴",
-        "restore": "还原",
-        "restore_all": "全部还原",
-        "move": "移至",
-        "open": "打开",
-        "new": "新的",
-        "new_stencil": "新模具”",
-        "source_stencil": "打开包含模具",
-        "collapse_stencil": "折叠模具",
-        "collapse_all_stencils": "折叠所有模具",
-        "symbols_size": "图标尺寸",
-        "edit": "编辑",
-        "edit_icon": "编辑图标",
-        "rename": "重命名",
-        "leave": "离开",
-        "delete": "删除",
-        "delete_all": "全部删除",
-        "share": "分享",
-        "new_doc": "新绘图",
-        "new_folder": "新文件夹",
-        "print": "印刷",
-        "preferences": "首选择",
-        "doc_setup": "文件设置",
-        "doc_setup_info": "标题和描述在出版物和社交媒体上都会使用<br />发布图纸将使互联网上的任何人都可以看到您的内容",
-        "file_title": "标题",
-        "export_pdf": "导出为PDF",
-        "export_jpg": "导出为JPG",
-        "export_png": "导出为PNG",
-        "export_dxf": "导出为DXF",
-        "export_dwg": "导出为DWG",
-        "export_svg": "导出为SVG",
-        "export_tsv": "自定义数据为TSV",
-        "0px": "0像素（px）",
-        "5px": "5像素（px）",
-        "10px": "10像素（px）",
-        "15px": "15像素（px）",
-        "share_vecta": "与他人共享",
-        "facebook": "分享到面子书",
-        "reddit": "分享到红迪",
-        "twitter": "分享到推特",
-        "slack": "分享到Slack",
-        "refresh_search": "刷新搜索",
-        "show_sym_name": "显示图标名称",
-        "hide_sym_name": "隐藏图标名称",
-        "edit_stencil": "编辑模具",
-        "export_icon": "导出图标",
-        "export_stencil": "导出",
-        "import_stencil": "导入",
-        "close_stencil": "关闭",
-        "move_to_trash": "移至垃圾箱",
-        "share_stencil": "分享模具",
-        "edit_symbol": "编辑符号",
-        "creation_date": "创建日期",
-        "last_modified_by_me": "我上次修改",
-        "by_name": "按名称",
-        "align": "对齐",
-        "align_left": "向左对齐",
-        "align_middle": "居中对齐",
-        "align_right": "向右对齐",
-        "align_top": "顶部对齐",
-        "align_center": "中心对齐",
-        "align_bottom": "底部对齐",
-        "hide_properties": "隐藏属性",
-        "show_properties": "显示属性",
-        "light_theme": "显示白天模式",
-        "dark_theme": "显示夜间模式",
-        "show_chat_box": "显示聊天框",
-        "hide_chat_box": "隐藏聊天框",
-        "clone_drawing": "克隆",
-        "download_drawing": "下载",
-        "open_drawing": "打开绘图",
-        "publish_drawing": "发布绘图",
-        "publish": "发布",
-        "make_public": "公开绘图",
-        "make_template": "制作模板",
-        "remove_template": "删除模板",
-        "ver_history": "版本历史",
-        "history_list": "历史列表",
-        "name_version": "命名当前版本",
-        "commit": "提交",
-        "ver_commit": "提交绘图",
-        "page_setup": "页面设置",
-        "in": "in",
-        "mm": "mm",
-        "px": "px",
-        "cousine": "Cousine",
-        "anonymous_pro": "Anonymous Pro",
-        "lato": "Lato",
-        "roboto": "Roboto",
-        "roboto_condensed": "Roboto Condensed",
-        "open_sans": "Open Sans",
-        "no_line": "没有线",
-        "lock": "锁定形状",
-        "unlock": "解锁形状",
-        "set_clip": "设置剪辑路径",
-        "rel_clip": "删除剪辑路径",
-        "flow_text": "流文本",
-        "unflow_text": "取消流文本",
-        "manage": "管理访问",
-        "hyperlink": "超链接",
-        "insert_link": "插入超链接",
-        "del_link": "删除超链接",
-        "edit_link": "编辑超链接",
-        "playlist": "播放列表",
-        "tutorial_vid": "视频",
-        "custom_json": "自定义JSON",
-        "custom_events": "自定义事件",
-        "custom_json_layer": "定义JSON(图层)",
-        "outline_text": "文本提纲",
-        "switch_line_end": "切换线端",
-        "remove_field": "删除字段",
-        "edit_code": "编辑代码",
-        "new_plugin": "新插件",
-        "edit_plugin": "编辑插件",
-        "share_plugin": "共享插件",
-        "del_plugin": "删除插件",
-        "edit_script": "编辑脚本",
-        "close_plugin": "关闭插件",
-        "view_script": "查看脚本",
-        "activate_script": "自动运行脚本",
-        "run_script": "运行脚本",
-        "stop_script": "停止脚本",
-        "run_page": "在页面加载时运行",
-        "remove_menu": "删除菜单",
-        "more_opt": "更多选择",
-        "move_up": "向上移动",
-        "move_down": "向下移动",
-        "show_plugin_name": "显示插件名称",
-        "hide_plugin_name": "隐藏插件名称",
-        "update_abox": "更新对齐框",
-        "setup": "设置",
-        "tag_friends": "标记朋友",
-        "small_size": "小图标",
-        "medium_size": "中图标",
-        "large_size": "大图标",
-        "show_dev_mode": "显示开发模式",
-        "hide_dev_mode": "隐藏开发模式",
-        "copy_symbol": "复制符号",
-        "paste_symbol_prop": "粘贴名称，描述和标签",
-        "paste_symbol": "粘贴符号",
-        "perm_link": "永久链接",
-        "save_as": "另存为",
-        "save": "保存",
-        "reset_ratio": "重置比率",
-        "make_default": "设为默认",
-        "remove_default": "删除默认值"
+    "ui.help": "帮助",
+    "maintain_id": {
+        "drop": "维护ID"
+    },
+    "maintain_class": {
+        "drop": "维护类"
+    },
+    "maintain_structure": {
+        "drop": "维护结构"
+    },
+    "maintain_events": {
+        "drop": "维护事件"
+    },
+    "embed_fonts": {
+        "drop": "嵌入的字体"
+    },
+    "effects": {
+        "drop": "效果"
+    },
+    "blur": {
+        "drop": "模糊"
+    },
+    "drop_shadow": {
+        "drop": "投影"
+    },
+    "isometric_x": {
+        "drop": "等距x"
+    },
+    "isometric_y": {
+        "drop": "等距y"
+    },
+    "isometric_z": {
+        "drop": "等距z"
+    },
+    "no_skew": {
+        "drop": "重置等距"
+    },
+    "pin_drawing": {
+        "drop": "固定绘图"
+    },
+    "unpin_drawing": {
+        "drop": "取消固定绘图"
+    },
+    "tools": {
+        "drop": "工具"
+    },
+    "convert_path": {
+        "drop": "转换为路径"
+    },
+    "add_ctrl_pt": {
+        "drop": "添加控制点"
+    },
+    "refresh": {
+        "drop": "刷新"
+    },
+    "members": {
+        "drop": "管理成员"
+    },
+    "upload_fonts": {
+        "drop": "上传字体"
+    },
+    "new_layer": {
+        "drop": "新图层"
+    },
+    "rename_layer": {
+        "drop": "重新命名图层"
+    },
+    "delete_layer": {
+        "drop": "删除图层"
+    },
+    "assign_layer": {
+        "drop": "分配给图层"
+    },
+    "select_layer": {
+        "drop": "选择所有形状"
+    },
+    "lock_layer": {
+        "drop": "锁定图层"
+    },
+    "unlock_layer": {
+        "drop": "解锁图层"
+    },
+    "show_when_published": {
+        "drop": "以印刷/出版方式显示"
+    },
+    "show_layers": {
+        "drop": "显示图层"
+    },
+    "hide_layers": {
+        "drop": "隐藏图层"
+    },
+    "hide_custom_menu": {
+        "drop": "隐藏自定义菜单"
+    },
+    "show_custom_menu": {
+        "drop": "显示自定义菜单"
+    },
+    "show_guides": {
+        "drop": "显示指南"
+    },
+    "hide_guides": {
+        "drop": "隐藏指南"
+    },
+    "clear_guides": {
+        "drop": "清除指南"
+    },
+    "show_rulers": {
+        "drop": "显示标尺"
+    },
+    "hide_rulers": {
+        "drop": "隐藏标尺"
+    },
+    "show_grid": {
+        "drop": "显示网格"
+    },
+    "hide_grid": {
+        "drop": "隐藏网格"
+    },
+    "group": {
+        "drop": "聚合（组）"
+    },
+    "ungroup": {
+        "drop": "取消分组"
+    },
+    "operations": {
+        "drop": "操作"
+    },
+    "arrange": {
+        "drop": "安排"
+    },
+    "front": {
+        "drop": "移至最前"
+    },
+    "forward": {
+        "drop": "移至前面"
+    },
+    "backward": {
+        "drop": "移至后面"
+    },
+    "back": {
+        "drop": "移至最后"
+    },
+    "flip_verti": {
+        "drop": "垂直翻转"
+    },
+    "flip_horiz": {
+        "drop": "水平翻转"
+    },
+    "join": {
+        "drop": "加入"
+    },
+    "trim": {
+        "drop": "修整"
+    },
+    "fragment": {
+        "drop": "片段"
+    },
+    "union": {
+        "drop": "联合"
+    },
+    "difference": {
+        "drop": "差异"
+    },
+    "intersect": {
+        "drop": "相交"
+    },
+    "flatten": {
+        "drop": "展平"
+    },
+    "cut": {
+        "drop": "剪切"
+    },
+    "copy": {
+        "drop": "复制"
+    },
+    "paste": {
+        "drop": "粘贴"
+    },
+    "restore": {
+        "drop": "还原"
+    },
+    "restore_all": {
+        "drop": "全部还原"
+    },
+    "move": {
+        "drop": "移至"
+    },
+    "open": {
+        "drop": "打开"
+    },
+    "new": {
+        "drop": "新的"
+    },
+    "new_stencil": {
+        "drop": "新模具”"
+    },
+    "source_stencil": {
+        "drop": "打开包含模具"
+    },
+    "collapse_stencil": {
+        "drop": "折叠模具"
+    },
+    "collapse_all_stencils": {
+        "drop": "折叠所有模具"
+    },
+    "symbols_size": {
+        "drop": "图标尺寸"
+    },
+    "edit": {
+        "drop": "编辑"
+    },
+    "edit_icon": {
+        "drop": "编辑图标"
+    },
+    "rename": {
+        "drop": "重命名"
+    },
+    "leave": {
+        "drop": "离开"
+    },
+    "delete": {
+        "drop": "删除"
+    },
+    "delete_all": {
+        "drop": "全部删除"
+    },
+    "share": {
+        "drop": "分享"
+    },
+    "new_doc": {
+        "drop": "新绘图"
+    },
+    "new_folder": {
+        "drop": "新文件夹"
+    },
+    "print": {
+        "drop": "印刷"
+    },
+    "preferences": {
+        "drop": "首选择"
+    },
+    "doc_setup": {
+        "drop": "文件设置"
+    },
+    "doc_setup_info": {
+        "drop": "标题和描述在出版物和社交媒体上都会使用<br />发布图纸将使互联网上的任何人都可以看到您的内容"
+    },
+    "file_title": {
+        "drop": "标题"
+    },
+    "export_pdf": {
+        "drop": "导出为PDF"
+    },
+    "export_jpg": {
+        "drop": "导出为JPG"
+    },
+    "export_png": {
+        "drop": "导出为PNG"
+    },
+    "export_dxf": {
+        "drop": "导出为DXF"
+    },
+    "export_dwg": {
+        "drop": "导出为DWG"
+    },
+    "export_svg": {
+        "drop": "导出为SVG"
+    },
+    "export_tsv": {
+        "drop": "自定义数据为TSV"
+    },
+    "0px": {
+        "drop": "0像素（px）"
+    },
+    "5px": {
+        "drop": "5像素（px）"
+    },
+    "10px": {
+        "drop": "10像素（px）"
+    },
+    "15px": {
+        "drop": "15像素（px）"
+    },
+    "share_vecta": {
+        "drop": "与他人共享"
+    },
+    "facebook": {
+        "drop": "分享到面子书"
+    },
+    "reddit": {
+        "drop": "分享到红迪"
+    },
+    "twitter": {
+        "drop": "分享到推特"
+    },
+    "refresh_search": {
+        "drop": "刷新搜索"
+    },
+    "show_sym_name": {
+        "drop": "显示图标名称"
+    },
+    "hide_sym_name": {
+        "drop": "隐藏图标名称"
+    },
+    "edit_stencil": {
+        "drop": "编辑模具"
+    },
+    "export_icon": {
+        "drop": "导出图标"
+    },
+    "export_stencil": {
+        "drop": "导出"
+    },
+    "import_stencil": {
+        "drop": "导入"
+    },
+    "close_stencil": {
+        "drop": "关闭"
+    },
+    "move_to_trash": {
+        "drop": "移至垃圾箱"
+    },
+    "share_stencil": {
+        "drop": "分享模具"
+    },
+    "edit_symbol": {
+        "drop": "编辑符号"
+    },
+    "creation_date": {
+        "drop": "创建日期"
+    },
+    "last_modified_by_me": {
+        "drop": "我上次修改"
+    },
+    "by_name": {
+        "drop": "按名称"
+    },
+    "align": {
+        "drop": "对齐"
+    },
+    "align_left": {
+        "drop": "向左对齐"
+    },
+    "align_middle": {
+        "drop": "居中对齐"
+    },
+    "align_right": {
+        "drop": "向右对齐"
+    },
+    "align_top": {
+        "drop": "顶部对齐"
+    },
+    "align_center": {
+        "drop": "中心对齐"
+    },
+    "align_bottom": {
+        "drop": "底部对齐"
+    },
+    "hide_properties": {
+        "drop": "隐藏属性"
+    },
+    "show_properties": {
+        "drop": "显示属性"
+    },
+    "light_theme": {
+        "drop": "显示白天模式"
+    },
+    "dark_theme": {
+        "drop": "显示夜间模式"
+    },
+    "show_chat_box": {
+        "drop": "显示聊天框"
+    },
+    "hide_chat_box": {
+        "drop": "隐藏聊天框"
+    },
+    "clone_drawing": {
+        "drop": "克隆"
+    },
+    "download_drawing": {
+        "drop": "下载"
+    },
+    "open_drawing": {
+        "drop": "打开绘图"
+    },
+    "publish_drawing": {
+        "drop": "发布绘图"
+    },
+    "make_public": {
+        "drop": "公开绘图"
+    },
+    "make_template": {
+        "drop": "制作模板"
+    },
+    "remove_template": {
+        "drop": "删除模板"
+    },
+    "ver_history": {
+        "drop": "版本历史"
+    },
+    "history_list": {
+        "drop": "历史列表"
+    },
+    "name_version": {
+        "drop": "命名当前版本"
+    },
+    "commit": {
+        "drop": "提交"
+    },
+    "ver_commit": {
+        "drop": "提交绘图"
+    },
+    "page_setup": {
+        "drop": "页面设置"
+    },
+    "in": {
+        "drop": "in"
+    },
+    "mm": {
+        "drop": "mm"
+    },
+    "px": {
+        "drop": "px"
+    },
+    "cousine": {
+        "drop": "Cousine"
+    },
+    "anonymous_pro": {
+        "drop": "Anonymous Pro"
+    },
+    "lato": {
+        "drop": "Lato"
+    },
+    "roboto": {
+        "drop": "Roboto"
+    },
+    "roboto_condensed": {
+        "drop": "Roboto Condensed"
+    },
+    "open_sans": {
+        "drop": "Open Sans"
+    },
+    "no_line": {
+        "drop": "没有线"
+    },
+    "lock": {
+        "drop": "锁定形状"
+    },
+    "unlock": {
+        "drop": "解锁形状"
+    },
+    "set_clip": {
+        "drop": "设置剪辑路径"
+    },
+    "rel_clip": {
+        "drop": "删除剪辑路径"
+    },
+    "flow_text": {
+        "drop": "流文本"
+    },
+    "unflow_text": {
+        "drop": "取消流文本"
+    },
+    "manage": {
+        "drop": "管理访问"
+    },
+    "hyperlink": {
+        "drop": "超链接"
+    },
+    "insert_link": {
+        "drop": "插入超链接"
+    },
+    "del_link": {
+        "drop": "删除超链接"
+    },
+    "edit_link": {
+        "drop": "编辑超链接"
+    },
+    "playlist": {
+        "drop": "播放列表"
+    },
+    "tutorial_vid": {
+        "drop": "视频"
+    },
+    "custom_json": {
+        "drop": "自定义JSON"
+    },
+    "custom_events": {
+        "drop": "自定义事件"
+    },
+    "custom_json_layer": {
+        "drop": "定义JSON(图层)"
+    },
+    "outline_text": {
+        "drop": "文本提纲"
+    },
+    "switch_line_end": {
+        "drop": "切换线端"
+    },
+    "remove_field": {
+        "drop": "删除字段"
+    },
+    "edit_code": {
+        "drop": "编辑代码"
+    },
+    "new_plugin": {
+        "drop": "新插件"
+    },
+    "edit_plugin": {
+        "drop": "编辑插件"
+    },
+    "share_plugin": {
+        "drop": "共享插件"
+    },
+    "del_plugin": {
+        "drop": "删除插件"
+    },
+    "edit_script": {
+        "drop": "编辑脚本"
+    },
+    "close_plugin": {
+        "drop": "关闭插件"
+    },
+    "view_script": {
+        "drop": "查看脚本"
+    },
+    "activate_script": {
+        "drop": "自动运行脚本"
+    },
+    "run_script": {
+        "drop": "运行脚本"
+    },
+    "stop_script": {
+        "drop": "停止脚本"
+    },
+    "run_page": {
+        "drop": "在页面加载时运行"
+    },
+    "remove_menu": {
+        "drop": "删除菜单"
+    },
+    "more_opt": {
+        "drop": "更多选择"
+    },
+    "move_up": {
+        "drop": "向上移动"
+    },
+    "move_down": {
+        "drop": "向下移动"
+    },
+    "show_plugin_name": {
+        "drop": "显示插件名称"
+    },
+    "hide_plugin_name": {
+        "drop": "隐藏插件名称"
+    },
+    "update_abox": {
+        "drop": "更新对齐框"
+    },
+    "setup": {
+        "drop": "设置"
+    },
+    "tag_friends": {
+        "drop": "标记朋友"
+    },
+    "small_size": {
+        "drop": "小图标"
+    },
+    "medium_size": {
+        "drop": "中图标"
+    },
+    "large_size": {
+        "drop": "大图标"
+    },
+    "show_dev_mode": {
+        "drop": "显示开发模式"
+    },
+    "hide_dev_mode": {
+        "drop": "隐藏开发模式"
+    },
+    "copy_symbol": {
+        "drop": "复制符号"
+    },
+    "paste_symbol_prop": {
+        "drop": "粘贴名称，描述和标签"
+    },
+    "paste_symbol": {
+        "drop": "粘贴符号"
+    },
+    "perm_link": {
+        "drop": "永久链接"
+    },
+    "save_as": {
+        "drop": "另存为"
+    },
+    "save": {
+        "drop": "保存"
+    },
+    "reset_ratio": {
+        "drop": "重置比率"
+    },
+    "make_default": {
+        "drop": "设为默认"
+    },
+    "remove_default": {
+        "drop": "删除默认值"
     },
     "stencil": {
         "stencil_0": {
