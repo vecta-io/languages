@@ -333,7 +333,6 @@
         "gradient_transparency": "グラデーションの透明度",
         "color_transparency": "色の透明度",
         "reset": "リセットする",
-        "help": "助けて",
         "about": "約",
         "export_dxf": "DXFにエクスポートしています...",
         "files": "ファイル",
@@ -373,6 +372,7 @@
         "code": "コード",
         "invalid_events": "無効なイベントまたはコード、空にすることはできません"
     },
+    "ui.help": "助けて",
     "list": {
         "sv": "スウェーデン語",
         "ja": "日本語",
@@ -489,212 +489,665 @@
         "confirm_del": "<br /> <br />このページを削除してもよろしいですか？",
         "m": "メーター"
     },
-    "drop": {
-        "px": "px",
-        "mm": "mm",
-        "in": "に",
-        "cut": "カット",
-        "new": "新しい",
-        "0px": "0px",
-        "5px": "5ピクセル",
-        "back": "返信する",
-        "10px": "10ピクセル",
-        "move": "へ引っ越す",
-        "lato": "ラト",
-        "15px": "15ピクセル",
-        "lock": "ロック形状",
-        "edit": "編集",
-        "copy": "コピー",
-        "open": "開いた",
-        "join": "参加する",
-        "trim": "トリム",
-        "paste": "ペースト",
-        "union": "連合",
-        "print": "印刷",
-        "slack": "スラックに共有",
-        "group": "グループ",
-        "front": "前に持ってくる",
-        "align": "整列",
-        "leave": "離れる",
-        "share": "シェア",
-        "roboto": "ロボト",
-        "reddit": "Redditに共有する",
-        "delete": "削除",
-        "commit": "コミット",
-        "rename": "名前を変更する",
-        "manage": "アクセスを管理する",
-        "unlock": "形状のロックを解除する",
-        "forward": "前に持っていく",
-        "jump_to": "移動：",
-        "new_doc": "新しい図面",
+    "px": {
+        "drop": "px"
+    },
+    "mm": {
+        "drop": "mm"
+    },
+    "in": {
+        "drop": "に"
+    },
+    "cut": {
+        "drop": "カット"
+    },
+    "new": {
+        "drop": "新しい"
+    },
+    "0px": {
+        "drop": "0px"
+    },
+    "5px": {
+        "drop": "5ピクセル"
+    },
+    "back": {
+        "drop": "返信する"
+    },
+    "10px": {
+        "drop": "10ピクセル"
+    },
+    "move": {
+        "drop": "へ引っ越す"
+    },
+    "lato": {
+        "drop": "ラト"
+    },
+    "15px": {
+        "drop": "15ピクセル"
+    },
+    "lock": {
+        "drop": "ロック形状"
+    },
+    "edit": {
+        "drop": "編集"
+    },
+    "copy": {
+        "drop": "コピー"
+    },
+    "open": {
+        "drop": "開いた"
+    },
+    "join": {
+        "drop": "参加する"
+    },
+    "trim": {
+        "drop": "トリム"
+    },
+    "paste": {
+        "drop": "ペースト"
+    },
+    "union": {
+        "drop": "連合"
+    },
+    "print": {
+        "drop": "印刷"
+    },
+    "slack": {
+        "drop": "スラックに共有",
+        "add": "スラックに加える",
+        "ben1": "あなたのスラックチャンネルに直接描画する共有Vecta",
+        "ben2": "Vectaチームにチャネルメンバーを夢中にさせる",
+        "confirm": "チームは正常に削除されました。",
+        "no_teams": "SlackチームはVectaに統合されていません。",
+        "settings": "設定",
+        "add_more": "スラックチームを追加",
+        "team_guide": "スラックインテグレーションでは、スラックチャンネルに直接Vecta図面を共有したり、スラックチャンネルメンバーをVectaチームに招待したりできます。",
+        "contacting": "スラックに連絡する",
+        "added_teams": "スラックチーム",
+        "link_shared": "描画リンクが送信されました。",
+        "coming_soon": "近日公開予定：お知らせ",
+        "integration": "不十分な統合：",
+        "user_welcome": "Vecta for Slackをインストールしていただきありがとうございます。チームメンバーをVectaに招待し、このチームの任意のチャンネルに描画リンクを共有することができます。",
+        "connect_team": "チームを結ぶ",
+        "channel_noti": "通知を送信するチャネルを選択する",
+        "channel_team": "チームと統合するチャネルを選択する",
+        "channel_link": "リンクを共有するチャンネルを選択する",
+        "code_invalid": "コードは無効です。スラックの統合をやり直してください。",
+        "channel_label": "チャンネルリスト",
+        "connect_slack": "チームをスラックチャンネルに接続する",
+        "no_new_member": "招待される新会員はいません",
+        "checking_team": "チームの確認中...",
+        "group_message": "グループメッセージング",
+        "sending_failed": "スラックと通信できません。 VectaとSlackを統合して再試行してください。",
+        "team_integrate": "スラックチャンネルを招待する",
+        "shared_drawing": "チームと@@を共有しました。",
+        "connecting_team": "チームをつなぐ...",
+        "channel_removed": "スラックチャンネルがチームから削除されました",
+        "channel_connected": "スラックチャンネルはチームに接続されています",
+        "success_integrate": "スラックチームメンバーをVectaに招待し、@@へのリンクを共有することができます。 <br />このページは自動的に10秒後にリダイレクトされます。",
+        "integrated_message": "あなたのチームはすでにスラックチャンネル@@に接続しています。<br />続けることで、現在のスラックチャンネルを置き換えます。<br /> <br />続行しますか？",
+        "already_integrated": "統合を置き換える"
+    },
+    "group": {
+        "drop": "グループ"
+    },
+    "front": {
+        "drop": "前に持ってくる"
+    },
+    "align": {
+        "drop": "整列"
+    },
+    "leave": {
+        "drop": "離れる"
+    },
+    "share": {
+        "drop": "シェア"
+    },
+    "roboto": {
+        "drop": "ロボト"
+    },
+    "reddit": {
+        "drop": "Redditに共有する"
+    },
+    "delete": {
+        "drop": "削除"
+    },
+    "commit": {
+        "drop": "コミット"
+    },
+    "rename": {
+        "drop": "名前を変更する"
+    },
+    "manage": {
+        "drop": "アクセスを管理する"
+    },
+    "unlock": {
+        "drop": "形状のロックを解除する"
+    },
+    "forward": {
+        "drop": "前に持っていく"
+    },
+    "jump_to": {
+        "drop": "移動："
+    },
+    "new_doc": {
+        "drop": "新しい図面"
+    },
+    "publish": {
+        "drop": "公開する",
+        "done": "図面がウェブに公開されました。",
+        "stop": "パブリックパブリッシングから図面が削除されました。",
+        "title": "Webに公開する",
+        "error": "形は見つかりません。現在の図面を公開することはできません。",
+        "remove": "削除する",
+        "change": "変更を公開する",
+        "loading": "公表されている図面をチェックしてください",
+        "publishing": "図の公開",
+        "confirm_content": "この図面を公開すると、インターネット上の誰でもコンテンツを見ることができます",
+        "continue": "持続する",
         "publish": "公開する",
-        "cousine": "カウシン",
-        "restore": "リストア",
-        "no_line": "行なし",
-        "members": "メンバーの管理",
-        "twitter": "Twitterに共有する",
-        "arrange": "アレンジ",
-        "ungroup": "グループを解除する",
-        "refresh": "リフレッシュ",
-        "fragment": "断片",
-        "playlist": "プレイリスト",
-        "backward": "後ろに送る",
-        "facebook": "Facebookに共有",
-        "hyperlink": "ハイパーリンク",
-        "show_grid": "グリッド表示",
-        "edit_link": "ハイパーリンクを編集する",
-        "edit_icon": "編集アイコン",
-        "open_sans": "オープンサンズ",
-        "hide_grid": "グリッドを非表示",
-        "new_layer": "新しいレイヤー",
-        "align_top": "上揃え",
-        "intersect": "交差点",
-        "page_setup": "ページ設定",
-        "export_svg": "SVGとしてエクスポート",
-        "export_jpg": "JPGとしてエクスポート",
-        "export_pdf": "PDF形式でエクスポート",
-        "delete_all": "すべて削除",
-        "new_folder": "新しいフォルダ",
-        "lock_layer": "ロックレイヤー",
-        "difference": "差",
-        "flip_horiz": "フリップ水平",
-        "operations": "オペレーション",
-        "align_left": "左揃え",
-        "file_title": "タイトル",
-        "export_png": "PNG形式でエクスポート",
-        "ver_commit": "図面をコミットする",
-        "flip_verti": "縦書きを反転",
-        "show_rulers": "定規を表示する",
-        "hide_rulers": "定規を隠す",
-        "share_vecta": "他の人と共有する",
-        "restore_all": "すべての復元",
-        "show_guides": "ガイドを表示する",
-        "export_icon": "アイコンのエクスポート",
-        "insert_link": "ハイパーリンクを挿入する",
-        "ver_history": "バージョン履歴",
-        "edit_symbol": "シンボルの編集",
-        "hide_guides": "ガイドを隠す",
-        "align_right": "右揃え",
-        "preferences": "設定",
-        "hide_layers": "レイヤーを隠す",
-        "show_layers": "レイヤーを表示する",
-        "add_ctrl_pt": "コントロールポイントを追加する",
-        "unlock_layer": "層のロック解除",
-        "align_bottom": "下揃え",
-        "align_middle": "真ん中に揃える",
-        "delete_layer": "レイヤーを削除する",
-        "tutorial_vid": "ビデオ",
-        "open_drawing": "図面を開く",
-        "align_center": "中心合わせ",
-        "assign_layer": "レイヤーに割り当てる",
-        "rename_layer": "層の名前を変更する",
-        "edit_stencil": "ステンシルの編集",
-        "clear_guides": "ガイドをクリアする",
-        "select_layer": "すべての図形を選択",
-        "clone_drawing": "重複",
-        "anonymous_pro": "匿名プロ",
-        "move_to_trash": "ゴミ箱に移動",
-        "creation_date": "作成日",
-        "hide_sym_name": "アイコン名を隠す",
-        "share_stencil": "ステンシルを共有する",
-        "close_stencil": "閉じる",
-        "show_chat_box": "チャットボックスを表示する",
-        "hide_chat_box": "チャットボックスを非表示にする",
-        "show_sym_name": "アイコン名を表示する",
-        "export_stencil": "輸出する",
-        "import_stencil": "インポート",
-        "show_properties": "プロパティを表示する",
-        "hide_properties": "プロパティを非表示",
-        "publish_drawing": "図面を公開する",
-        "roboto_condensed": "Roboto Condensed",
-        "download_drawing": "ダウンロード",
-        "last_modified_by_me": "最後に更新した図面",
-        "tools": "ツール",
-        "convert_path": "パスに変換する",
-        "make_public": "公開公開する",
-        "custom_json": "カスタムJSON",
-        "switch_line_end": "スイッチラインエンド",
-        "show_when_published": "印刷する/出版する",
-        "by_name": "名前で",
-        "effects": "エフェクト",
-        "export_tsv": "TSVとしてのカスタムデータ",
-        "remove_field": "フィールドを削除",
-        "edit_code": "コードを編集する",
-        "new_plugin": "新しいプラグイン",
-        "edit_plugin": "プラグインを編集",
-        "share_plugin": "共有プラグイン",
-        "del_plugin": "プラグインを削除",
-        "edit_script": "編集スクリプト",
-        "run_page": "ページの読み込み時に実行",
-        "hide_custom_menu": "カスタムメニューを非表示",
-        "show_custom_menu": "カスタムメニューを表示する",
-        "remove_menu": "メニューの削除",
-        "more_opt": "より多くのオプション",
-        "move_up": "上がる",
-        "move_down": "下に移動",
-        "show_plugin_name": "プラグイン名を表示する",
-        "hide_plugin_name": "プラグイン名を隠す",
-        "name_version": "現在のバージョンの名前をつける",
-        "outline_text": "アウトラインテキスト",
-        "view_script": "スクリプトの表示",
-        "isometric_x": "等尺性のx",
-        "isometric_y": "アイソメ",
-        "isometric_z": "等尺性z",
-        "stop_script": "停止スクリプト",
-        "activate_script": "自動実行スクリプト",
-        "run_script": "スクリプトを実行する",
-        "history_list": "履歴リスト",
-        "close_plugin": "プラグインを閉じる",
-        "no_skew": "等角度のリセット",
-        "blur": "ぼかし",
-        "drop_shadow": "影を落とす",
-        "update_abox": "アライメントボックスの更新",
-        "setup": "セットアップ",
-        "refresh_search": "検索の更新",
-        "pin_drawing": "ピン図面",
-        "unpin_drawing": "図面を固定解除する",
-        "tag_friends": "友達にタグを付ける",
-        "set_clip": "クリップパスを設定",
-        "rel_clip": "クリップパスを削除",
-        "del_link": "ハイパーリンクを削除",
-        "new_stencil": "新ステンシル",
-        "collapse_stencil": "ステンシルを折りたたむ",
-        "collapse_all_stencils": "すべてのステンシルを折りたたむ",
-        "symbols_size": "アイコンサイズ",
-        "small_size": "小さいアイコン",
-        "medium_size": "中アイコン",
-        "large_size": "大きなアイコン",
-        "flatten": "平らにする",
-        "light_theme": "ライトテーマを表示",
-        "dark_theme": "暗いテーマを表示",
-        "source_stencil": "ステンシルを含むオープン",
-        "show_dev_mode": "開発者モードを表示",
-        "hide_dev_mode": "Hide developer mode",
-        "copy_symbol": "シンボルをコピー",
-        "paste_symbol": "シンボルを貼り付け",
-        "paste_symbol_prop": "名前、説明、タグを貼り付け",
-        "perm_link": "パーマネントリンク",
-        "flow_text": "フローテキスト",
-        "unflow_text": "フロー解除テキスト",
-        "save_as": "名前を付けて保存",
-        "save": "保存する",
-        "export_dxf": "DXFとしてエクスポート",
-        "export_dwg": "DWGとしてエクスポート",
-        "upload_fonts": "フォントをアップロードする",
-        "make_template": "テンプレートを作成",
-        "remove_template": "テンプレートを削除",
-        "custom_json_layer": "カスタムJSON（レイヤー）",
-        "reset_ratio": "リセット率",
-        "doc_setup": "ドキュメントの設定",
-        "doc_setup_info": "タイトルと説明は、出版物やソーシャルメディアで使用されます。 <br />図面を公開すると、インターネット上の誰でもコンテンツを閲覧できるようになります。",
-        "make_default": "デフォルトにする",
-        "remove_default": "デフォルトを削除",
-        "maintain_structure": "構造を維持する",
-        "maintain_id": "IDを維持",
-        "maintain_class": "クラスを維持する",
-        "maintain_events": "イベントを維持する",
-        "custom_events": "カスタムイベント",
-        "embed_fonts": "フォントを埋め込む"
+        "publish_before_copy": "リンクをコピーする前に、図面を公開してください"
+    },
+    "cousine": {
+        "drop": "カウシン"
+    },
+    "restore": {
+        "drop": "リストア"
+    },
+    "no_line": {
+        "drop": "行なし"
+    },
+    "members": {
+        "drop": "メンバーの管理"
+    },
+    "twitter": {
+        "drop": "Twitterに共有する"
+    },
+    "arrange": {
+        "drop": "アレンジ"
+    },
+    "ungroup": {
+        "drop": "グループを解除する"
+    },
+    "refresh": {
+        "drop": "リフレッシュ"
+    },
+    "fragment": {
+        "drop": "断片"
+    },
+    "playlist": {
+        "drop": "プレイリスト"
+    },
+    "backward": {
+        "drop": "後ろに送る"
+    },
+    "facebook": {
+        "drop": "Facebookに共有"
+    },
+    "hyperlink": {
+        "drop": "ハイパーリンク"
+    },
+    "show_grid": {
+        "drop": "グリッド表示"
+    },
+    "edit_link": {
+        "drop": "ハイパーリンクを編集する"
+    },
+    "edit_icon": {
+        "drop": "編集アイコン"
+    },
+    "open_sans": {
+        "drop": "オープンサンズ"
+    },
+    "hide_grid": {
+        "drop": "グリッドを非表示"
+    },
+    "new_layer": {
+        "drop": "新しいレイヤー"
+    },
+    "align_top": {
+        "drop": "上揃え"
+    },
+    "intersect": {
+        "drop": "交差点"
+    },
+    "page_setup": {
+        "drop": "ページ設定"
+    },
+    "export_svg": {
+        "drop": "SVGとしてエクスポート"
+    },
+    "export_jpg": {
+        "drop": "JPGとしてエクスポート"
+    },
+    "export_pdf": {
+        "drop": "PDF形式でエクスポート"
+    },
+    "delete_all": {
+        "drop": "すべて削除"
+    },
+    "new_folder": {
+        "drop": "新しいフォルダ"
+    },
+    "lock_layer": {
+        "drop": "ロックレイヤー"
+    },
+    "difference": {
+        "drop": "差"
+    },
+    "flip_horiz": {
+        "drop": "フリップ水平"
+    },
+    "operations": {
+        "drop": "オペレーション"
+    },
+    "align_left": {
+        "drop": "左揃え"
+    },
+    "file_title": {
+        "drop": "タイトル"
+    },
+    "export_png": {
+        "drop": "PNG形式でエクスポート"
+    },
+    "ver_commit": {
+        "drop": "図面をコミットする"
+    },
+    "flip_verti": {
+        "drop": "縦書きを反転"
+    },
+    "show_rulers": {
+        "drop": "定規を表示する"
+    },
+    "hide_rulers": {
+        "drop": "定規を隠す"
+    },
+    "share_vecta": {
+        "drop": "他の人と共有する"
+    },
+    "restore_all": {
+        "drop": "すべての復元"
+    },
+    "show_guides": {
+        "drop": "ガイドを表示する"
+    },
+    "export_icon": {
+        "drop": "アイコンのエクスポート"
+    },
+    "insert_link": {
+        "drop": "ハイパーリンクを挿入する"
+    },
+    "ver_history": {
+        "drop": "バージョン履歴"
+    },
+    "edit_symbol": {
+        "drop": "シンボルの編集"
+    },
+    "hide_guides": {
+        "drop": "ガイドを隠す"
+    },
+    "align_right": {
+        "drop": "右揃え"
+    },
+    "preferences": {
+        "drop": "設定"
+    },
+    "hide_layers": {
+        "drop": "レイヤーを隠す"
+    },
+    "show_layers": {
+        "drop": "レイヤーを表示する"
+    },
+    "add_ctrl_pt": {
+        "drop": "コントロールポイントを追加する"
+    },
+    "unlock_layer": {
+        "drop": "層のロック解除"
+    },
+    "align_bottom": {
+        "drop": "下揃え"
+    },
+    "align_middle": {
+        "drop": "真ん中に揃える"
+    },
+    "delete_layer": {
+        "drop": "レイヤーを削除する"
+    },
+    "tutorial_vid": {
+        "drop": "ビデオ"
+    },
+    "open_drawing": {
+        "drop": "図面を開く"
+    },
+    "align_center": {
+        "drop": "中心合わせ"
+    },
+    "assign_layer": {
+        "drop": "レイヤーに割り当てる"
+    },
+    "rename_layer": {
+        "drop": "層の名前を変更する"
+    },
+    "edit_stencil": {
+        "drop": "ステンシルの編集"
+    },
+    "clear_guides": {
+        "drop": "ガイドをクリアする"
+    },
+    "select_layer": {
+        "drop": "すべての図形を選択"
+    },
+    "clone_drawing": {
+        "drop": "重複"
+    },
+    "anonymous_pro": {
+        "drop": "匿名プロ"
+    },
+    "move_to_trash": {
+        "drop": "ゴミ箱に移動"
+    },
+    "creation_date": {
+        "drop": "作成日"
+    },
+    "hide_sym_name": {
+        "drop": "アイコン名を隠す"
+    },
+    "share_stencil": {
+        "drop": "ステンシルを共有する"
+    },
+    "close_stencil": {
+        "drop": "閉じる"
+    },
+    "show_chat_box": {
+        "drop": "チャットボックスを表示する"
+    },
+    "hide_chat_box": {
+        "drop": "チャットボックスを非表示にする"
+    },
+    "show_sym_name": {
+        "drop": "アイコン名を表示する"
+    },
+    "export_stencil": {
+        "drop": "輸出する"
+    },
+    "import_stencil": {
+        "drop": "インポート"
+    },
+    "show_properties": {
+        "drop": "プロパティを表示する"
+    },
+    "hide_properties": {
+        "drop": "プロパティを非表示"
+    },
+    "publish_drawing": {
+        "drop": "図面を公開する"
+    },
+    "roboto_condensed": {
+        "drop": "Roboto Condensed"
+    },
+    "download_drawing": {
+        "drop": "ダウンロード"
+    },
+    "last_modified_by_me": {
+        "drop": "最後に更新した図面"
+    },
+    "tools": {
+        "drop": "ツール"
+    },
+    "convert_path": {
+        "drop": "パスに変換する"
+    },
+    "make_public": {
+        "drop": "公開公開する"
+    },
+    "custom_json": {
+        "drop": "カスタムJSON"
+    },
+    "switch_line_end": {
+        "drop": "スイッチラインエンド"
+    },
+    "show_when_published": {
+        "drop": "印刷する/出版する"
+    },
+    "by_name": {
+        "drop": "名前で"
+    },
+    "effects": {
+        "drop": "エフェクト"
+    },
+    "export_tsv": {
+        "drop": "TSVとしてのカスタムデータ"
+    },
+    "remove_field": {
+        "drop": "フィールドを削除"
+    },
+    "edit_code": {
+        "drop": "コードを編集する"
+    },
+    "new_plugin": {
+        "drop": "新しいプラグイン"
+    },
+    "edit_plugin": {
+        "drop": "プラグインを編集"
+    },
+    "share_plugin": {
+        "drop": "共有プラグイン"
+    },
+    "del_plugin": {
+        "drop": "プラグインを削除"
+    },
+    "edit_script": {
+        "drop": "編集スクリプト"
+    },
+    "run_page": {
+        "drop": "ページの読み込み時に実行"
+    },
+    "hide_custom_menu": {
+        "drop": "カスタムメニューを非表示"
+    },
+    "show_custom_menu": {
+        "drop": "カスタムメニューを表示する"
+    },
+    "remove_menu": {
+        "drop": "メニューの削除"
+    },
+    "more_opt": {
+        "drop": "より多くのオプション"
+    },
+    "move_up": {
+        "drop": "上がる"
+    },
+    "move_down": {
+        "drop": "下に移動"
+    },
+    "show_plugin_name": {
+        "drop": "プラグイン名を表示する"
+    },
+    "hide_plugin_name": {
+        "drop": "プラグイン名を隠す"
+    },
+    "name_version": {
+        "drop": "現在のバージョンの名前をつける"
+    },
+    "outline_text": {
+        "drop": "アウトラインテキスト"
+    },
+    "view_script": {
+        "drop": "スクリプトの表示"
+    },
+    "isometric_x": {
+        "drop": "等尺性のx"
+    },
+    "isometric_y": {
+        "drop": "アイソメ"
+    },
+    "isometric_z": {
+        "drop": "等尺性z"
+    },
+    "stop_script": {
+        "drop": "停止スクリプト"
+    },
+    "activate_script": {
+        "drop": "自動実行スクリプト"
+    },
+    "run_script": {
+        "drop": "スクリプトを実行する"
+    },
+    "history_list": {
+        "drop": "履歴リスト"
+    },
+    "close_plugin": {
+        "drop": "プラグインを閉じる"
+    },
+    "no_skew": {
+        "drop": "等角度のリセット"
+    },
+    "blur": {
+        "drop": "ぼかし"
+    },
+    "drop_shadow": {
+        "drop": "影を落とす"
+    },
+    "update_abox": {
+        "drop": "アライメントボックスの更新"
+    },
+    "setup": {
+        "drop": "セットアップ"
+    },
+    "refresh_search": {
+        "drop": "検索の更新"
+    },
+    "pin_drawing": {
+        "drop": "ピン図面"
+    },
+    "unpin_drawing": {
+        "drop": "図面を固定解除する"
+    },
+    "tag_friends": {
+        "drop": "友達にタグを付ける"
+    },
+    "set_clip": {
+        "drop": "クリップパスを設定"
+    },
+    "rel_clip": {
+        "drop": "クリップパスを削除"
+    },
+    "del_link": {
+        "drop": "ハイパーリンクを削除"
+    },
+    "new_stencil": {
+        "drop": "新ステンシル"
+    },
+    "collapse_stencil": {
+        "drop": "ステンシルを折りたたむ"
+    },
+    "collapse_all_stencils": {
+        "drop": "すべてのステンシルを折りたたむ"
+    },
+    "symbols_size": {
+        "drop": "アイコンサイズ"
+    },
+    "small_size": {
+        "drop": "小さいアイコン"
+    },
+    "medium_size": {
+        "drop": "中アイコン"
+    },
+    "large_size": {
+        "drop": "大きなアイコン"
+    },
+    "flatten": {
+        "drop": "平らにする"
+    },
+    "light_theme": {
+        "drop": "ライトテーマを表示"
+    },
+    "dark_theme": {
+        "drop": "暗いテーマを表示"
+    },
+    "source_stencil": {
+        "drop": "ステンシルを含むオープン"
+    },
+    "show_dev_mode": {
+        "drop": "開発者モードを表示"
+    },
+    "hide_dev_mode": {
+        "drop": "Hide developer mode"
+    },
+    "copy_symbol": {
+        "drop": "シンボルをコピー"
+    },
+    "paste_symbol": {
+        "drop": "シンボルを貼り付け"
+    },
+    "paste_symbol_prop": {
+        "drop": "名前、説明、タグを貼り付け"
+    },
+    "perm_link": {
+        "drop": "パーマネントリンク"
+    },
+    "flow_text": {
+        "drop": "フローテキスト"
+    },
+    "unflow_text": {
+        "drop": "フロー解除テキスト"
+    },
+    "save_as": {
+        "drop": "名前を付けて保存"
+    },
+    "save": {
+        "drop": "保存する"
+    },
+    "export_dxf": {
+        "drop": "DXFとしてエクスポート"
+    },
+    "export_dwg": {
+        "drop": "DWGとしてエクスポート"
+    },
+    "upload_fonts": {
+        "drop": "フォントをアップロードする"
+    },
+    "make_template": {
+        "drop": "テンプレートを作成"
+    },
+    "remove_template": {
+        "drop": "テンプレートを削除"
+    },
+    "custom_json_layer": {
+        "drop": "カスタムJSON（レイヤー）"
+    },
+    "reset_ratio": {
+        "drop": "リセット率"
+    },
+    "doc_setup": {
+        "drop": "ドキュメントの設定"
+    },
+    "doc_setup_info": {
+        "drop": "タイトルと説明は、出版物やソーシャルメディアで使用されます。 <br />図面を公開すると、インターネット上の誰でもコンテンツを閲覧できるようになります。"
+    },
+    "make_default": {
+        "drop": "デフォルトにする"
+    },
+    "remove_default": {
+        "drop": "デフォルトを削除"
+    },
+    "maintain_structure": {
+        "drop": "構造を維持する"
+    },
+    "maintain_id": {
+        "drop": "IDを維持"
+    },
+    "maintain_class": {
+        "drop": "クラスを維持する"
+    },
+    "maintain_events": {
+        "drop": "イベントを維持する"
+    },
+    "custom_events": {
+        "drop": "カスタムイベント"
+    },
+    "embed_fonts": {
+        "drop": "フォントを埋め込む"
     },
     "login": {
         "or": "または",
@@ -750,41 +1203,6 @@
         "registered_other_provider": "このメールはすでに@@に登録されています。リダイレクト",
         "access_contacts": "連絡先リストへのアクセスを許可して、チームと図面を簡単に共有できます",
         "social_no_email": "この@@アカウントにはメールがありません。 <br/>メールまたは別のアカウントでサインアップしてください。"
-    },
-    "slack": {
-        "add": "スラックに加える",
-        "ben1": "あなたのスラックチャンネルに直接描画する共有Vecta",
-        "ben2": "Vectaチームにチャネルメンバーを夢中にさせる",
-        "confirm": "チームは正常に削除されました。",
-        "no_teams": "SlackチームはVectaに統合されていません。",
-        "settings": "設定",
-        "add_more": "スラックチームを追加",
-        "team_guide": "スラックインテグレーションでは、スラックチャンネルに直接Vecta図面を共有したり、スラックチャンネルメンバーをVectaチームに招待したりできます。",
-        "contacting": "スラックに連絡する",
-        "added_teams": "スラックチーム",
-        "link_shared": "描画リンクが送信されました。",
-        "coming_soon": "近日公開予定：お知らせ",
-        "integration": "不十分な統合：",
-        "user_welcome": "Vecta for Slackをインストールしていただきありがとうございます。チームメンバーをVectaに招待し、このチームの任意のチャンネルに描画リンクを共有することができます。",
-        "connect_team": "チームを結ぶ",
-        "channel_noti": "通知を送信するチャネルを選択する",
-        "channel_team": "チームと統合するチャネルを選択する",
-        "channel_link": "リンクを共有するチャンネルを選択する",
-        "code_invalid": "コードは無効です。スラックの統合をやり直してください。",
-        "channel_label": "チャンネルリスト",
-        "connect_slack": "チームをスラックチャンネルに接続する",
-        "no_new_member": "招待される新会員はいません",
-        "checking_team": "チームの確認中...",
-        "group_message": "グループメッセージング",
-        "sending_failed": "スラックと通信できません。 VectaとSlackを統合して再試行してください。",
-        "team_integrate": "スラックチャンネルを招待する",
-        "shared_drawing": "チームと@@を共有しました。",
-        "connecting_team": "チームをつなぐ...",
-        "channel_removed": "スラックチャンネルがチームから削除されました",
-        "channel_connected": "スラックチャンネルはチームに接続されています",
-        "success_integrate": "スラックチームメンバーをVectaに招待し、@@へのリンクを共有することができます。 <br />このページは自動的に10秒後にリダイレクトされます。",
-        "integrated_message": "あなたのチームはすでにスラックチャンネル@@に接続しています。<br />続けることで、現在のスラックチャンネルを置き換えます。<br /> <br />続行しますか？",
-        "already_integrated": "統合を置き換える"
     },
     "dash": {
         "dash": "ホーム",
@@ -1163,391 +1581,151 @@
         "file_invalid_field": "ファイルに無効なフィールドが見つかりました。",
         "save_before_exit": "終了する前に変更を保存しますか？"
     },
-    "publish": {
-        "done": "図面がウェブに公開されました。",
-        "stop": "パブリックパブリッシングから図面が削除されました。",
-        "title": "Webに公開する",
-        "error": "形は見つかりません。現在の図面を公開することはできません。",
-        "remove": "削除する",
-        "change": "変更を公開する",
-        "loading": "公表されている図面をチェックしてください",
-        "publishing": "図の公開",
-        "confirm_content": "この図面を公開すると、インターネット上の誰でもコンテンツを見ることができます",
-        "continue": "持続する",
-        "publish": "公開する",
-        "publish_before_copy": "リンクをコピーする前に、図面を公開してください"
-    },
     "tips": {
-        "Lock": {
-            "tip": "ステンシルロック"
-        },
-        "sort": {
-            "icon": "並び替え"
-        },
-        "bold": {
-            "icon": "ボールド"
-        },
-        "undo": {
-            "icon": "元に戻す（Ctrl + Z）"
-        },
-        "grid": {
-            "icon": "グリッドビュー"
-        },
-        "list": {
-            "icon": "リストビュー"
-        },
-        "save": {
-            "icon": "左にドラッグ＆ドロップすると保存できます"
-        },
-        "pref": {
-            "icon": "設定"
-        },
-        "redo": {
-            "icon": "やり直し<br>（Ctrl-Y）"
-        },
-        "noti": {
-            "icon": "通知"
-        },
-        "login": {
-            "icon": "サインイン"
-        },
-        "Search": {
-            "tip": "検索ステンシルは編集できません"
-        },
-        "reset": {
-            "icon": "選択したグラデーションをリセット"
-        },
-        "align": {
-            "icon": "選択した図形を整列する"
-        },
-        "Select": {
-            "tip": "レイヤー内のすべての図形を選択"
-        },
-        "remove": {
-            "help": "ユーザーを削除"
-        },
-        "expand": {
-            "icon": "その他のツール..."
-        },
-        "italic": {
-            "icon": "イタリック"
-        },
-        "videos": {
-            "icon": "チュートリアルビデオを見る"
-        },
-        "Visible": {
-            "tip": "レイヤーでのシェイプの表示/非表示"
-        },
-        "record": {
-            "icon": "レコードマクロ"
-        },
-        "ascend": {
-            "icon": "ソートを戻す"
-        },
-        "logout": {
-            "icon": "サインアウト"
-        },
-        "arrange": {
-            "icon": "選択した図形の重ね順を整列する"
-        },
-        "descend": {
-            "icon": "ソートを逆にする"
-        },
-        "zoom_in": {
-            "icon": "ズームイン<br> Ctrl +マウスホイール"
-        },
-        "profile": {
-            "icon": "プロフィール"
-        },
-        "feedback": {
-            "icon": "フィードバックを送信する"
-        },
-        "chat_box": {
-            "icon": "チャットボックス"
-        },
-        "zoom_out": {
-            "icon": "ズームアウト<br> Ctrl +マウスホイール"
-        },
-        "zoom_fit": {
-            "icon": "ページに合わせて拡大"
-        },
-        "line_end": {
-            "icon": "ラインプロパティ",
-            "menu": {
-                "[1,0]": "始めを小さく",
-                "[1,1]": "両方小さく",
-                "[0,1]": "終わりを小さく",
-                "[1": {
-                    "5,0]": "媒体を始める",
-                    "5,1": {
-                        "5]": "両方の媒体"
-                    }
-                },
-                "[0,1": {
-                    "5]": "媒体を終了する"
-                },
-                "[2,0]": "始めを大きく",
-                "[2,2]": "両方大きく",
-                "[0,2]": "終わりを大きく",
-                "linecap_butt": "バット先端",
-                "linecap_round": "丸型先端",
-                "linecap_square": "角型先端",
-                "linejoin_miter": "マイター結合",
-                "linejoin_round": "ラインジョイントラウンド",
-                "linejoin_bevel": "ベベル結合",
-                "swap": "スイッチラインの終わり"
-            }
-        },
-        "draw_path": {
-            "icon": "パス、円弧、曲線の描画<br/>またはフリーフォーム（Ctrl-4）",
-            "menu": {
-                "draw_line": {
-                    "icon": "線を引く"
-                },
-                "draw_quad": {
-                    "icon": "円弧描画"
-                },
-                "draw_cubic": {
-                    "icon": "曲線を描く"
-                },
-                "draw_free": {
-                    "icon": "フリーフォームを描く"
-                }
-            }
-        },
-        "file_name": {
-            "icon": "図面の名前を変更する"
-        },
-        "underline": {
-            "icon": "アンダーライン"
-        },
-        "font_size": {
-            "icon": "フォントサイズ"
-        },
-        "dashboard": {
-            "icon": "ダッシュボードを開く"
-        },
-        "SaveSearch": {
-            "tip": "検索ステンシルを保存"
-        },
-        "add_layer": {
-            "icon": "レイヤーを追加する"
-        },
-        "draw_rect": {
-            "icon": "長方形を描画する<br/>（Ctrl-2）"
-        },
-        "font_color": {
-            "icon": "フォントの色"
-        },
-        "line_color": {
-            "icon": "線の色"
-        },
-        "operations": {
-            "icon": "選択した図形をグループ化、グループ解除、反転、または結合する"
-        },
-        "text_align": {
-            "icon": "テキストの整列",
-            "menu": {
-                "start": "左揃え",
-                "middle": "真ん中に揃える",
-                "end": "右揃え",
-                "top": "上揃え",
-                "central": "中心合わせ",
-                "bottom": "下揃え"
-            }
-        },
-        "page_setup": {
-            "icon": "ページ設定"
-        },
-        "fill_color": {
-            "icon": "色を塗る"
-        },
-        "shared_url": {
-            "icon": "電子メールを送信せずに共有可能なリンクを取得する"
-        },
-        "zoom_level": {
-            "icon": "ズームレベル"
-        },
-        "line_style": {
-            "icon": "線のスタイル"
-        },
-        "save_record": {
-            "icon": "マクロをエクスポートする"
-        },
-        "update_icon": {
-            "icon": "シンボルアイコンを更新"
-        },
-        "revert_icon": {
-            "icon": "アイコンを元に戻す"
-        },
-        "fields_prop": {
-            "icon": "フィールドを追加する"
-        },
-        "line_weight": {
-            "icon": "線の太さ"
-        },
-        "color_trans": {
-            "help": "透明度<br/> 0-100 / 0％-100％/ 0-1"
-        },
-        "toggle_grid": {
-            "icon": "グリッドの表示/非表示"
-        },
-        "play_record": {
-            "icon": "マクロを再生する"
-        },
-        "font_family": {
-            "icon": "フォントファミリー"
-        },
-        "formula_prop": {
-            "icon": "数式の表示/非表示"
-        },
-        "draw_ellipse": {
-            "icon": "円または楕円を描く<br>（Ctrl-3）"
-        },
-        "pause_record": {
-            "icon": "マクロを一時停止する"
-        },
-        "round_corner": {
-            "icon": "角丸"
-        },
-        "draw_textblock": {
-            "icon": "描画、移動、サイズ変更、<br />またはテキストの回転（Ctrl-5）"
-        },
-        "format_painter": {
-            "icon": "フォーマット、色、 <br>式または<br> jsonペインター<br> （Ctrl-7）"
-        },
-        "preserve_ratio": {
-            "icon": "ロック/アンロックの幅と高さ"
-        },
-        "draw_connector": {
-            "icon": "コネクタを描画する<br>（Ctrl-6）",
-            "menu": {
-                "draw_conn_verti": {
-                    "icon": "エルボーコネクタ"
-                },
-                "draw_conn_line": {
-                    "icon": "ストレートコネクタ"
-                },
-                "draw_conn_points": {
-                    "icon": "接続ポイント"
-                },
-                "draw_conn_jump": {
-                    "icon": "ジャンプコネクタ"
-                }
-            }
-        },
-        "custom_gradient": {
-            "icon": "左にドラッグ＆ドロップすると保存できます"
-        },
-        "Playlist": {
-            "tip": "動画再生リスト"
-        },
-        "Minimize": {
-            "tip": "最小化する"
-        },
-        "Maximize": {
-            "tip": "最大化する"
-        },
-        "Close": {
-            "tip": "閉じる"
-        },
-        "Expand": {
-            "tip": "展開する"
-        },
-        "Collapse": {
-            "tip": "崩壊"
-        },
-        "Add": {
-            "tip": "追加"
-        },
-        "Remove": {
-            "tip": "削除する"
-        },
-        "Save": {
-            "tip": "セーブ"
-        },
-        "edit_profile": {
-            "icon": "プロファイル編集"
-        },
-        "plug_main": {
-            "icon": "プラグイン"
-        },
-        "fit_to_drawing": {
-            "tip": "幅と高さを増やして余白を追加する"
-        },
-        "new_page": {
-            "icon": "新しいページ"
-        },
-        "cursor": {
-            "icon": "ポインタ、パンツール<br>（Ctrl-1）",
-            "menu": {
-                "pointer": {
-                    "icon": "ポインタツール"
-                },
-                "pan": {
-                    "icon": "パンツール"
-                }
-            }
-        },
-        "delete_page": {
-            "icon": "ページを削除"
-        },
-        "pages": {
-            "icon": "別のページを見る"
-        },
-        "color": {
-            "help": "色の選択<br/> #fff / #ffffff / rgb（0、0、0）"
-        },
-        "bevel_color": {
-            "help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）"
-        },
-        "shadow_color": {
-            "help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）"
-        },
+        "Lock.tip": "ステンシルロック",
+        "sort.icon": "並び替え",
+        "bold.icon": "ボールド",
+        "undo.icon": "元に戻す（Ctrl + Z）",
+        "grid.icon": "グリッドビュー",
+        "list.icon": "リストビュー",
+        "save.icon": "左にドラッグ＆ドロップすると保存できます",
+        "pref.icon": "設定",
+        "redo.icon": "やり直し<br>（Ctrl-Y）",
+        "noti.icon": "通知",
+        "login.icon": "サインイン",
+        "Search.tip": "検索ステンシルは編集できません",
+        "reset.icon": "選択したグラデーションをリセット",
+        "align.icon": "選択した図形を整列する",
+        "Select.tip": "レイヤー内のすべての図形を選択",
+        "remove.help": "ユーザーを削除",
+        "expand.icon": "その他のツール...",
+        "italic.icon": "イタリック",
+        "videos.icon": "チュートリアルビデオを見る",
+        "Visible.tip": "レイヤーでのシェイプの表示/非表示",
+        "record.icon": "レコードマクロ",
+        "ascend.icon": "ソートを戻す",
+        "logout.icon": "サインアウト",
+        "arrange.icon": "選択した図形の重ね順を整列する",
+        "descend.icon": "ソートを逆にする",
+        "zoom_in.icon": "ズームイン<br> Ctrl +マウスホイール",
+        "profile.icon": "プロフィール",
+        "feedback.icon": "フィードバックを送信する",
+        "chat_box.icon": "チャットボックス",
+        "zoom_out.icon": "ズームアウト<br> Ctrl +マウスホイール",
+        "zoom_fit.icon": "ページに合わせて拡大",
+        "line_end.icon": "ラインプロパティ",
+        "line_end.menu": {
+            "[1,0]": "始めを小さく",
+            "[1,1]": "両方小さく",
+            "[0,1]": "終わりを小さく",
+            "[1.5,0]": "媒体を始める",
+            "[1.5,1.5]": "両方の媒体",
+            "[0,1.5]": "媒体を終了する",
+            "[2,0]": "始めを大きく",
+            "[2,2]": "両方大きく",
+            "[0,2]": "終わりを大きく",
+            "linecap_butt": "バット先端",
+            "linecap_round": "丸型先端",
+            "linecap_square": "角型先端",
+            "linejoin_miter": "マイター結合",
+            "linejoin_round": "ラインジョイントラウンド",
+            "linejoin_bevel": "ベベル結合",
+            "swap": "スイッチラインの終わり"
+        },
+        "draw_path.icon": "パス、円弧、曲線の描画<br/>またはフリーフォーム（Ctrl-4）",
+        "draw_path.menu": {
+            "draw_line.icon": "線を引く",
+            "draw_quad.icon": "円弧描画",
+            "draw_cubic.icon": "曲線を描く",
+            "draw_free.icon": "フリーフォームを描く"
+        },
+        "file_name.icon": "図面の名前を変更する",
+        "underline.icon": "アンダーライン",
+        "font_size.icon": "フォントサイズ",
+        "dashboard.icon": "ダッシュボードを開く",
+        "SaveSearch.tip": "検索ステンシルを保存",
+        "add_layer.icon": "レイヤーを追加する",
+        "draw_rect.icon": "長方形を描画する<br/>（Ctrl-2）",
+        "font_color.icon": "フォントの色",
+        "line_color.icon": "線の色",
+        "operations.icon": "選択した図形をグループ化、グループ解除、反転、または結合する",
+        "text_align.icon": "テキストの整列",
+        "text_align.menu": {
+            "start": "左揃え",
+            "middle": "真ん中に揃える",
+            "end": "右揃え",
+            "top": "上揃え",
+            "central": "中心合わせ",
+            "bottom": "下揃え"
+        },
+        "page_setup.icon": "ページ設定",
+        "fill_color.icon": "色を塗る",
+        "shared_url.icon": "電子メールを送信せずに共有可能なリンクを取得する",
+        "zoom_level.icon": "ズームレベル",
+        "line_style.icon": "線のスタイル",
+        "save_record.icon": "マクロをエクスポートする",
+        "update_icon.icon": "シンボルアイコンを更新",
+        "revert_icon.icon": "アイコンを元に戻す",
+        "fields_prop.icon": "フィールドを追加する",
+        "line_weight.icon": "線の太さ",
+        "color_trans.help": "透明度<br/> 0-100 / 0％-100％/ 0-1",
+        "toggle_grid.icon": "グリッドの表示/非表示",
+        "play_record.icon": "マクロを再生する",
+        "font_family.icon": "フォントファミリー",
+        "formula_prop.icon": "数式の表示/非表示",
+        "draw_ellipse.icon": "円または楕円を描く<br>（Ctrl-3）",
+        "pause_record.icon": "マクロを一時停止する",
+        "round_corner.icon": "角丸",
+        "draw_textblock.icon": "描画、移動、サイズ変更、<br />またはテキストの回転（Ctrl-5）",
+        "format_painter.icon": "フォーマット、色、 <br>式または<br> jsonペインター<br> （Ctrl-7）",
+        "preserve_ratio.icon": "ロック/アンロックの幅と高さ",
+        "draw_connector.icon": "コネクタを描画する<br>（Ctrl-6）",
+        "draw_connector.menu": {
+            "draw_conn_verti.icon": "エルボーコネクタ",
+            "draw_conn_line.icon": "ストレートコネクタ",
+            "draw_conn_points.icon": "接続ポイント",
+            "draw_conn_jump.icon": "ジャンプコネクタ"
+        },
+        "custom_gradient.icon": "左にドラッグ＆ドロップすると保存できます",
+        "Playlist.tip": "動画再生リスト",
+        "Minimize.tip": "最小化する",
+        "Maximize.tip": "最大化する",
+        "Close.tip": "閉じる",
+        "Expand.tip": "展開する",
+        "Collapse.tip": "崩壊",
+        "Add.tip": "追加",
+        "Remove.tip": "削除する",
+        "Save.tip": "セーブ",
+        "edit_profile.icon": "プロファイル編集",
+        "plug_main.icon": "プラグイン",
+        "fit_to_drawing.tip": "幅と高さを増やして余白を追加する",
+        "new_page.icon": "新しいページ",
+        "cursor.icon": "ポインタ、パンツール<br>（Ctrl-1）",
+        "cursor.menu": {
+            "pointer.icon": "ポインタツール",
+            "pan.icon": "パンツール"
+        },
+        "delete_page.icon": "ページを削除",
+        "pages.icon": "別のページを見る",
+        "color.help": "色の選択<br/> #fff / #ffffff / rgb（0、0、0）",
+        "bevel_color.help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）",
+        "shadow_color.help": "カスタムカラー<br> #fff / #ffffff / rgb（0、0、0）",
         "blur_help": "ぼかしはどんな効果でも使用できません。",
         "shadow_help": "ドロップシャドウはベベルと一緒に使用できます。<br>インナーシャドウはどのエフェクトとも一緒には使用できません。",
-        "rect_help": {
-            "icon": "助けて"
-        },
-        "page_up": {
-            "icon": "前のページ"
-        },
-        "page_down": {
-            "icon": "次のページ"
-        },
-        "Delete": {
-            "tip": "Delete"
-        },
-        "AddField": {
-            "tip": "Add field"
-        },
-        "FormulaField": {
-            "tip": "Edit formula"
-        },
-        "AddLayer": {
-            "tip": "Add layer"
-        },
-        "AddEffect": {
-            "tip": "Add effect"
-        },
-        "AddCustomMenu": {
-            "tip": "Add custom menu"
-        },
-        "ListCustomMenu": {
-            "tip": "List custom menu"
-        },
-        "share": {
-            "icon": "シェア"
-        },
-        "view": {
-            "icon": "見る"
-        },
-        "file": {
-            "icon": "環境設定"
-        },
-        "export": {
-            "icon": "書き出す"
-        }
+        "rect_help.icon": "助けて",
+        "page_up.icon": "前のページ",
+        "page_down.icon": "次のページ",
+        "Delete.tip": "Delete",
+        "AddField.tip": "Add field",
+        "FormulaField.tip": "Edit formula",
+        "AddLayer.tip": "Add layer",
+        "AddEffect.tip": "Add effect",
+        "AddCustomMenu.tip": "Add custom menu",
+        "ListCustomMenu.tip": "List custom menu",
+        "share.icon": "シェア",
+        "view.icon": "見る",
+        "file.icon": "環境設定",
+        "export.icon": "書き出す"
     },
     "preload": {
         "slack": "優れたコラボレーションのためにVectaとSlackを統合",
