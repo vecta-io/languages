@@ -374,7 +374,12 @@
         "action": "action",
         "code": "Code",
         "event": "un événement",
-        "invalid_events": "Événements ou codes non valides, non autorisés à être vides"
+        "invalid_events": "Événements ou codes non valides, non autorisés à être vides",
+        "img_upload_progress": "Téléchargement de l'image (##%) ...",
+        "blank": "Ouvrir dans un nouvel onglet",
+        "self": "Ouvrir dans l'onglet actuel",
+        "options": "Les options",
+        "import_img": "Importation d'image ..."
     },
     "page": {
         "cm": "Centimètre",
@@ -1226,7 +1231,9 @@
         "import-dxf": "Importez un fichier DXF incroyable en un simple glisser-déposer",
         "text-effects": "Ajoutez un effet d'ombre, de biseau ou de flou à votre texte",
         "dark-theme-vecta": "Afficher le thème sombre pour activer le mode sombre",
-        "duplicate-shape": "Ctrl + D pour appliquer les changements sur les propriétés de la forme sélectionnée"
+        "duplicate-shape": "Ctrl + D pour appliquer les changements sur les propriétés de la forme sélectionnée",
+        "symbol-search": "Recherchez des symboles dans la bibliothèque croissante de symboles de Vecta",
+        "chat": "Discutez avec vos coéquipiers immédiatement dans l'éditeur de Vecta"
     },
     "tips": {
         "Lock.tip": "Stencil verrouillé",
@@ -1316,7 +1323,7 @@
         "play_record.icon": "Lire des macros",
         "fields_prop.icon": "Ajouter un champ",
         "font_family.icon": "Famille de polices",
-        "line_weight.icon": "Poids des lignes",
+        "line_weight.icon": "Poids de ligne",
         "save_record.icon": "Exporter des macros",
         "toggle_grid.icon": "Afficher / masquer la grille",
         "draw_ellipse.icon": "Tracez un cercle ou une ellipse <br> (Ctrl-3)",
@@ -2099,70 +2106,202 @@
             ]
         },
         "stencil_83": {
-            "name": "Marques HA - HZ"
+            "name": "Marques HA - HZ",
+            "desc": "",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_name": "Zone de logo vectoriel",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_84": {
-            "name": "Marques IA - IZ"
+            "name": "Marques IA - IZ",
+            "credit_name": "Zone de logo vectoriel",
+            "desc": "",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_85": {
-            "name": "Marques JA - JZ"
+            "name": "Marques JA - JZ",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Zone de logo vectoriel",
+            "cat": [
+                "Logo des marques"
+            ]
         },
         "stencil_86": {
-            "name": "Marques KA - KZ"
+            "name": "Marques KA - KZ",
+            "desc": "",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Zone de logo vectoriel"
         },
         "stencil_87": {
-            "name": "Marques LA - LZ"
+            "name": "Marques LA - LZ",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Zone de logo vectoriel",
+            "cat": [
+                "Logo des marques"
+            ],
+            "desc": ""
         },
         "stencil_88": {
-            "name": "Marques MA - MZ"
+            "name": "Marques MA - MZ",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Zone de logo vectoriel",
+            "cat": [
+                "Logo des marques"
+            ],
+            "desc": ""
         },
         "stencil_89": {
-            "name": "Marques NA - NZ"
+            "name": "Marques NA - NZ",
+            "desc": "",
+            "credit_name": "Zone de logo vectoriel",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Logo des marques"
+            ]
         },
         "stencil_90": {
-            "name": "Marques OA - OZ"
+            "name": "Marques OA - OZ",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_name": "Zone de logo vectoriel",
+            "credit_link": "https://vectorlogo.zone/",
+            "desc": ""
         },
         "stencil_91": {
-            "name": "Marques PA - PI"
+            "name": "Marques PA - PI",
+            "desc": "",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Zone de logo vectoriel"
         },
         "stencil_92": {
-            "name": "Marques PJ - PZ"
+            "name": "Marques PJ - PZ",
+            "desc": "",
+            "credit_name": "Zone de logo vectoriel",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_93": {
-            "name": "Marques QA - QZ"
+            "name": "Marques QA - QZ",
+            "credit_name": "Zone de logo vectoriel",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Logo des marques"
+            ]
         },
         "stencil_94": {
-            "name": "Marques RA - RZ"
+            "name": "Marques RA - RZ",
+            "desc": "",
+            "credit_name": "Zone de logo vectoriel",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_95": {
-            "name": "Brands SA - SM"
+            "name": "Brands SA - SM",
+            "credit_name": "Zone de logo vectoriel",
+            "desc": "",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_96": {
-            "name": "Marques SN - SZ"
+            "name": "Marques SN - SZ",
+            "desc": "",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Zone de logo vectoriel"
         },
         "stencil_97": {
-            "name": "Marques TA - TH"
+            "name": "Marques TA - TH",
+            "cat": [
+                "Logo des marques"
+            ],
+            "desc": "",
+            "credit_name": "Zone de logo vectoriel",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_98": {
-            "name": "Marques TI - TZ"
+            "name": "Marques TI - TZ",
+            "desc": "",
+            "credit_name": "Zone de logo vectoriel",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Logo des marques"
+            ]
         },
         "stencil_99": {
-            "name": "Marques UA - UZ"
+            "name": "Marques UA - UZ",
+            "credit_link": "https://vectorlogo.zone/",
+            "desc": "",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_name": "Zone de logo vectoriel"
         },
         "stencil_100": {
-            "name": "Marques VA - VZ"
+            "name": "Marques VA - VZ",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/",
+            "desc": "",
+            "credit_name": "Zone de logo vectoriel"
         },
         "stencil_101": {
-            "name": "Marques WA - WZ"
+            "name": "Marques WA - WZ",
+            "cat": [
+                "Logo des marques"
+            ],
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Zone de logo vectoriel"
         },
         "stencil_102": {
-            "name": "Marques XA - XZ"
+            "name": "Marques XA - XZ",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_link": "https://vectorlogo.zone/",
+            "desc": "",
+            "credit_name": "Zone de logo vectoriel"
         },
         "stencil_103": {
-            "name": "Marques YA - YZ"
+            "name": "Marques YA - YZ",
+            "credit_link": "https://vectorlogo.zone/",
+            "desc": "",
+            "credit_name": "Zone de logo vectoriel",
+            "cat": [
+                "Logo des marques"
+            ]
         },
         "stencil_104": {
-            "name": "Marques ZA - ZZ"
+            "name": "Marques ZA - ZZ",
+            "cat": [
+                "Logo des marques"
+            ],
+            "credit_name": "Zone de logo vectoriel",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_108": {
             "name": "Activités - Artisanat d'Art",
@@ -3205,7 +3344,8 @@
             "desc": "Graphiques pour l'épidémie de coronavirus"
         },
         "credits_link": "Lien crédits",
-        "credits_to": "Crédits à"
+        "credits_to": "Crédits à",
+        "saving_stencils": "Pochoirs de sauvegarde"
     },
     "videos": {
         "nlAyOo-_HLQ": {
@@ -3399,7 +3539,14 @@
         "public_plugins": "Plugins publics",
         "public": "Publique",
         "personal": "Personnel",
-        "team": "Équipe"
+        "team": "Équipe",
+        "plugin_14": {
+            "cat": [
+                "Rapports"
+            ],
+            "name": "Générer une nomenclature",
+            "desc": "Génère une liste de matériaux à partir des données personnalisées des formes"
+        }
     },
     "symbol_sizes": {
         "Biggest": "Le plus gros"
@@ -3486,7 +3633,11 @@
         "devices": "Dispositifs",
         "remove_devices": "Enlever tout",
         "confirm_device": "Supprimer tous les appareils de cette clé série?",
-        "device": "dispositif"
+        "device": "dispositif",
+        "beta": "Bêta",
+        "license": "Licence",
+        "request_trial": "Demander une extension d'essai",
+        "purchase_license": "Acheter une licence"
     },
     "license": {
         "deactivate": "Désactiver",
@@ -3507,6 +3658,11 @@
         "err_3": "La clé de série n'est pas valide. Pour en obtenir un valide, veuillez visiter @@",
         "err_5": "Licence non valide détectée. Veuillez réactiver votre clé de série.",
         "license_region_specific": "Cette licence spécifique à une région autorise uniquement son utilisation dans la région d'achat. Toutes les fonctionnalités ne seront pas disponibles en dehors de la région d'achat.",
-        "region_restriction": "Restriction de région"
+        "region_restriction": "Restriction de région",
+        "trial_left": "Vous êtes actuellement en mode d'essai. Votre licence expirera dans @@ jours",
+        "trial_mode": "Mode d'essai",
+        "license_expired": "Version d'essai / licence expirée",
+        "expired": "expiré",
+        "license_expired_desc": "Version d'essai / licence expirée. Les outils de productivité seront désactivés."
     }
 }
