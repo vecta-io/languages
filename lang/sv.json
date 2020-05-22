@@ -373,7 +373,14 @@
         "event": "Händelse",
         "action": "Verkan",
         "code": "Koda",
-        "invalid_events": "Ogiltiga händelser eller koder, får inte vara tomma"
+        "invalid_events": "Ogiltiga händelser eller koder, får inte vara tomma",
+        "options": "alternativ",
+        "downloading": "Laddar ner",
+        "import_img": "Importerar bild ...",
+        "self": "Öppna i aktuell flik",
+        "dxf_no_image": "Den här sidan innehåller bilder. Bilder kan inte exporteras i DXF-format",
+        "blank": "Öppna i ny flik",
+        "img_upload_progress": "Laddar upp bild (##%) ..."
     },
     "drop": {
         "in": "tum",
@@ -580,7 +587,9 @@
         "maintain_structure": "Underhålla strukturen",
         "embed_fonts": "Bädda in teckensnitt",
         "maintain_class": "Underhålla klasser",
-        "custom_events": "Anpassade händelser"
+        "custom_events": "Anpassade händelser",
+        "new_layer": "Nytt lager",
+        "export_icon": "Exportera ikonen"
     },
     "page": {
         "mm": "Millimeter",
@@ -748,7 +757,10 @@
         "signup_microsoft": "Registrera dig med Microsoft",
         "registered_other_provider": "Det här e-postmeddelandet är redan registrerat hos @@. Redirecting",
         "access_contacts": "Tillåt åtkomst till din kontaktlista för enkel delning av team och ritningar",
-        "social_no_email": "Detta @@-konto har inte e-post. <br/> Registrera dig med ett e-postmeddelande eller annat konto."
+        "social_no_email": "Detta @@-konto har inte e-post. <br/> Registrera dig med ett e-postmeddelande eller annat konto.",
+        "reset_title_nano": "Nano Beta återställer lösenord",
+        "signup_title_nano": "Nano Beta Registrera dig",
+        "signin_title_nano": "Nano Beta Logga in"
     },
     "dash": {
         "dash": "Hem",
@@ -835,7 +847,9 @@
         "upload_completed": "uppladdad",
         "valid_message": "Godkända filtyper är PDF.",
         "uploading": "uppladdning",
-        "invalid_type": "ogiltig filtyp"
+        "invalid_type": "ogiltig filtyp",
+        "refreshing": "Uppfriskande",
+        "disabled_upload": "Uppladdning inaktiverad. Ladda upp igen när den nuvarande uppladdningen har slutförts."
     },
     "noti": {
         "deny": "Neka",
@@ -1092,7 +1106,9 @@
         "thank_you_feedback": "Tack för din feedback.",
         "failed_try_again": "Misslyckades. Vänligen försök igen senare.",
         "file_invalid_field": "Ogiltigt fält hittades i filen.",
-        "save_before_exit": "Vill du spara ändringar innan du lämnar?"
+        "save_before_exit": "Vill du spara ändringar innan du lämnar?",
+        "new_version_downloaded": "En ny version har laddats ner. Starta om programmet för att tillämpa uppdateringarna.",
+        "latest_version_updated": "Du har uppdaterat till den senaste versionen!"
     },
     "email": {
         "slogan": "Vecta: Realtidssamarbete för team",
@@ -1217,7 +1233,10 @@
         "import-dxf": "Importera fantastiska DXF med bara dra och släpp",
         "text-effects": "Lägg till skugga, avfasning eller suddighetseffekt i din text",
         "duplicate-shape": "Ctrl + D för att tillämpa ändringarna på egenskaperna för den valda formen",
-        "dark-theme-vecta": "Visa mörkt tema för att aktivera mörkt läge"
+        "dark-theme-vecta": "Visa mörkt tema för att aktivera mörkt läge",
+        "version-history": "Använd versionshistorik för att hålla reda på förändringar i din ritning",
+        "chat": "Chatta med dina lagkamrater direkt i Vecta's redaktör",
+        "symbol-search": "Sök efter symboler i Vectas växande symbolbibliotek"
     },
     "tips": {
         "Lock.tip": "Stencil låst",
@@ -1305,7 +1324,7 @@
         "toggle_grid.icon": "Visa / dölj rutnät",
         "color_trans.help": "Transparens<br/>0-100 / 0%-100% / 0-1",
         "save_record.icon": "Exportera makros",
-        "line_weight.icon": "Linjer vikt",
+        "line_weight.icon": "Linjevikt",
         "play_record.icon": "Spela makros",
         "font_family.icon": "Teckensnitt",
         "update_icon.icon": "Uppdatera symbolikonen",
@@ -1319,7 +1338,8 @@
             "draw_conn_verti.icon": "Armbågeanslutning",
             "draw_conn_line.icon": "Rak kontakt",
             "draw_conn_points.icon": "Anslutningspunkt",
-            "draw_conn_jump.icon": "Hoppkontakt"
+            "draw_conn_jump.icon": "Hoppkontakt",
+            "draw_conn_ljump.icon": "Rakt hoppkontakt"
         },
         "preserve_ratio.icon": "Lås / Lås upp bredd och höjd",
         "draw_textblock.icon": "Rita, flytta, ändra storlek på eller rotera text <br> (Ctrl-5)",
@@ -1363,7 +1383,11 @@
         "view.icon": "Se",
         "export.icon": "Exportera",
         "file.icon": "Inställningar",
-        "share.icon": "Dela med sig"
+        "share.icon": "Dela med sig",
+        "set_public": {
+            "label": "Vem som helst på internet kan hitta och komma åt"
+        },
+        "edit_info.icon": "En bekräftelseslänk kommer <br> skickas till ditt tidigare e-postmeddelande."
     },
     "verify": {
         "failed": "Verifiering misslyckades",
@@ -1387,7 +1411,8 @@
         "email_signin_retry": "Uppdatera och försök igen.",
         "email_signin_retry_success": "Logga in e-post skickat. Kolla in din e-post för inloggningslänk.",
         "pending_status": "Ditt konto väntar för närvarande på godkännande.",
-        "pending_message": "Ett bekräftelsemeddelande skickas när det har godkänts"
+        "pending_message": "Ett bekräftelsemeddelande skickas när det har godkänts",
+        "landing_nano": "Gå till Nano"
     },
     "signup": {
         "failed": "Registrering misslyckades",
@@ -2093,70 +2118,202 @@
             ]
         },
         "stencil_83": {
-            "name": "Brands HA - HZ"
+            "name": "Brands HA - HZ",
+            "credit_name": "Vector Logo Zone",
+            "desc": "",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_84": {
-            "name": "Varumärken IA - IZ"
+            "name": "Varumärken IA - IZ",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Vector Logo Zone",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "desc": ""
         },
         "stencil_85": {
-            "name": "Brands JA - JZ"
+            "name": "Brands JA - JZ",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Vector Logo Zone",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_86": {
-            "name": "Varumärken KA - KZ"
+            "name": "Varumärken KA - KZ",
+            "credit_name": "Vector Logo Zone",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_87": {
-            "name": "Brands LA - LZ"
+            "name": "Brands LA - LZ",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "desc": "",
+            "credit_name": "Vector Logo Zone",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_88": {
-            "name": "Brands MA - MZ"
+            "name": "Brands MA - MZ",
+            "credit_name": "Vector Logo Zone",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "credit_link": "https://vectorlogo.zone/",
+            "desc": ""
         },
         "stencil_89": {
-            "name": "Varumärken NA - NZ"
+            "name": "Varumärken NA - NZ",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "credit_name": "Vector Logo Zone",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_90": {
-            "name": "Varumärken OA - OZ"
+            "name": "Varumärken OA - OZ",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Vector Logo Zone",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_91": {
-            "name": "Brands PA - PI"
+            "name": "Brands PA - PI",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Vector Logo Zone",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_92": {
-            "name": "Varumärken PJ - PZ"
+            "name": "Varumärken PJ - PZ",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "desc": "",
+            "credit_name": "Vector Logo Zone",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_93": {
-            "name": "Brands QA - QZ"
+            "name": "Brands QA - QZ",
+            "credit_name": "Vector Logo Zone",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "desc": ""
         },
         "stencil_94": {
-            "name": "Varumärken RA - RZ"
+            "name": "Varumärken RA - RZ",
+            "desc": "",
+            "credit_name": "Vector Logo Zone",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_95": {
-            "name": "Varumärken SA - SM"
+            "name": "Varumärken SA - SM",
+            "desc": "",
+            "credit_name": "Vector Logo Zone",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_96": {
-            "name": "Brands SN - SZ"
+            "name": "Brands SN - SZ",
+            "desc": "",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "Vector Logo Zone"
         },
         "stencil_97": {
-            "name": "Brands TA - TH"
+            "name": "Brands TA - TH",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "credit_name": "Vector Logo Zone",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_98": {
-            "name": "Varumärken TI - TZ"
+            "name": "Varumärken TI - TZ",
+            "desc": "",
+            "credit_name": "Vector Logo Zone",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_99": {
-            "name": "Brands UA - UZ"
+            "name": "Brands UA - UZ",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "credit_name": "Vector Logo Zone",
+            "credit_link": "https://vectorlogo.zone/",
+            "desc": ""
         },
         "stencil_100": {
-            "name": "Varumärken VA - VZ"
+            "name": "Varumärken VA - VZ",
+            "desc": "",
+            "credit_name": "Vector Logo Zone",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_101": {
-            "name": "Brands WA - WZ"
+            "name": "Brands WA - WZ",
+            "credit_link": "https://vectorlogo.zone/",
+            "desc": "",
+            "credit_name": "Vector Logo Zone",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_102": {
-            "name": "Varumärken XA - XZ"
+            "name": "Varumärken XA - XZ",
+            "desc": "",
+            "credit_name": "Vector Logo Zone",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_103": {
-            "name": "Brands YA - YZ"
+            "name": "Brands YA - YZ",
+            "credit_name": "Vector Logo Zone",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "Märkeslogotyp"
+            ]
         },
         "stencil_104": {
-            "name": "Varumärken ZA - ZZ"
+            "name": "Varumärken ZA - ZZ",
+            "cat": [
+                "Märkeslogotyp"
+            ],
+            "credit_name": "Vector Logo Zone",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_108": {
             "name": "Aktiviteter - Konsthantverk",
@@ -3187,7 +3344,21 @@
         "show_more": "Visa mer",
         "login_save_symbol": "Logga in för att spara din symbol.",
         "credits_link": "Kreditlänk",
-        "credits_to": "Krediter till"
+        "credits_to": "Krediter till",
+        "stencil_243": {
+            "name": "Cisco VG Series Gateways",
+            "credit_name": "Cisco",
+            "desc": "",
+            "cat": [
+                "Cisco"
+            ],
+            "credit_link": "https://cisco.com/"
+        },
+        "saving_stencils": "Spara stenciler",
+        "stencil_248": {
+            "desc": "Grafik för Coronavirus-utbrott",
+            "name": "Coronavirus"
+        }
     },
     "integrate": {
         "error": "Något har gått fel ...",
@@ -3387,7 +3558,14 @@
         "public_plugins": "Offentliga plugins",
         "public": "offentlig",
         "personal": "Personlig",
-        "team": "Team"
+        "team": "Team",
+        "plugin_14": {
+            "desc": "Genererar en lista över material från formens anpassade data",
+            "cat": [
+                "rapporter"
+            ],
+            "name": "Generera materialförteckning"
+        }
     },
     "dialog": {
         "help_title": "Vecta Hjälp",
@@ -3471,7 +3649,11 @@
         "remove_devices": "Ta bort alla",
         "device": "enhet",
         "devices": "enheter",
-        "confirm_device": "Ta bort alla enheter från den här serienyckeln?"
+        "confirm_device": "Ta bort alla enheter från den här serienyckeln?",
+        "beta": "Beta",
+        "license": "Licens",
+        "request_trial": "Begär testförlängning",
+        "purchase_license": "Köp en licens"
     },
     "license": {
         "activate": "Aktivera",
@@ -3492,6 +3674,11 @@
         "err_4": "Seriell nyckel tillhandahålls inte.",
         "err_5": "Ogiltig licens har upptäckts. Vänligen aktivera din seriell nyckel.",
         "license_region_specific": "Den här landsspecifika licensen tillåter endast användning i köpningsområdet. Alla funktioner kommer inte att vara tillgängliga utanför inköpsområdet.",
-        "region_restriction": "Regionbegränsning"
+        "region_restriction": "Regionbegränsning",
+        "expired": "utgånget",
+        "trial_mode": "Testläge",
+        "trial_left": "Du är för närvarande i provläge. Din licens upphör om @@ dagar",
+        "license_expired_desc": "Test / licens har gått ut. Produktivitetsverktyg kommer att inaktiveras.",
+        "license_expired": "Test / licens har gått ut"
     }
 }
