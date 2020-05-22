@@ -371,7 +371,16 @@
         "event": "イベント",
         "action": "アクション",
         "code": "コード",
-        "invalid_events": "無効なイベントまたはコード、空にすることはできません"
+        "invalid_events": "無効なイベントまたはコード、空にすることはできません",
+        "editor": "編集者",
+        "img_upload_progress": "画像（##％）をアップロードしています...",
+        "done": "完了、リクエストをありがとう",
+        "import_img": "画像をインポートしています...",
+        "downloading": "ダウンロード中",
+        "options": "オプション",
+        "dxf_no_image": "このページには画像が含まれています。画像はDXF形式でエクスポートできません",
+        "self": "現在のタブで開く",
+        "blank": "新しいタブで開く"
     },
     "list": {
         "sv": "スウェーデン語",
@@ -872,7 +881,8 @@
         "uploading": "アップロードしています",
         "invalid_type": "無効なファイルタイプ",
         "upload_completed": "正常にアップロードされました",
-        "valid_message": "使用できるファイル形式はPDFです。"
+        "valid_message": "使用できるファイル形式はPDFです。",
+        "disabled_upload": "アップロードが無効になっています。現在のアップロードが完了したら、もう一度アップロードしてください。"
     },
     "noti": {
         "left": "%% left Team @@。",
@@ -1162,7 +1172,9 @@
         "thank_you_feedback": "ご意見ありがとうございます。",
         "failed_try_again": "失敗しました。後でもう一度やり直してください。",
         "file_invalid_field": "ファイルに無効なフィールドが見つかりました。",
-        "save_before_exit": "終了する前に変更を保存しますか？"
+        "save_before_exit": "終了する前に変更を保存しますか？",
+        "new_version_downloaded": "新しいバージョンがダウンロードされました。アプリケーションを再起動して、更新を適用します。",
+        "latest_version_updated": "最新バージョンに更新しました！"
     },
     "publish": {
         "done": "図面がウェブに公開されました。",
@@ -1281,7 +1293,8 @@
             "draw_conn_verti.icon": "エルボーコネクタ",
             "draw_conn_line.icon": "ストレートコネクタ",
             "draw_conn_points.icon": "接続ポイント",
-            "draw_conn_jump.icon": "ジャンプコネクタ"
+            "draw_conn_jump.icon": "ジャンプコネクタ",
+            "draw_conn_ljump.icon": "ストレートジャンプコネクター"
         },
         "custom_gradient.icon": "左にドラッグ＆ドロップすると保存できます",
         "Playlist.tip": "動画再生リスト",
@@ -1322,7 +1335,11 @@
         "share.icon": "シェア",
         "view.icon": "見る",
         "file.icon": "環境設定",
-        "export.icon": "書き出す"
+        "export.icon": "書き出す",
+        "edit_info.icon": "確認リンクは<br>以前のメールに送信されます。",
+        "set_public": {
+            "label": "インターネット上の誰でも検索してアクセスできます"
+        }
     },
     "preload": {
         "slack": "優れたコラボレーションのためにVectaとSlackを統合",
@@ -1364,7 +1381,11 @@
         "import-dxf": "ドラッグアンドドロップするだけで素晴らしいDXFをインポート",
         "text-effects": "テキストに影、ベベル、ぼかし効果を追加します",
         "duplicate-shape": "Ctrl + Dキーを押して、選択した図形のプロパティに変更を適用します",
-        "dark-theme-vecta": "ダークテーマを表示してダークモードを有効にします"
+        "dark-theme-vecta": "ダークテーマを表示してダークモードを有効にします",
+        "version-history": "バージョン履歴を使用して、図面の変更を追跡します",
+        "symbol-search": "Vectaの成長するシンボルライブラリでシンボルを検索する",
+        "chat": "Vectaのエディターでチームメイトとすぐにチャット",
+        "jump-connector": "ジャンプコネクタを追加してラインを区別"
     },
     "verify": {
         "resend": "確認メールを再送信",
@@ -2095,70 +2116,202 @@
             ]
         },
         "stencil_83": {
-            "name": "Brands HA - HZ"
+            "name": "Brands HA - HZ",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "ベクトルロゴゾーン"
         },
         "stencil_84": {
-            "name": "Brands IA - IZ"
+            "name": "Brands IA - IZ",
+            "desc": "",
+            "credit_name": "ベクトルロゴゾーン",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_85": {
-            "name": "Brands JA - JZ"
+            "name": "Brands JA - JZ",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_86": {
-            "name": "Brands KA - KZ"
+            "name": "Brands KA - KZ",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_87": {
-            "name": "ブランドLA  -  LZ"
+            "name": "ブランドLA  -  LZ",
+            "credit_name": "ベクトルロゴゾーン",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_88": {
-            "name": "Brands MA - MZ"
+            "name": "Brands MA - MZ",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "desc": ""
         },
         "stencil_89": {
-            "name": "Brands NA - NZ"
+            "name": "Brands NA - NZ",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "ベクトルロゴゾーン",
+            "cat": [
+                "ブランドロゴ"
+            ]
         },
         "stencil_90": {
-            "name": "Brands OA - OZ"
+            "name": "Brands OA - OZ",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "ベクトルロゴゾーン",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ]
         },
         "stencil_91": {
-            "name": "Brands PA - PI"
+            "name": "Brands PA - PI",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "desc": "",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_92": {
-            "name": "ブランドPJ  -  PZ"
+            "name": "ブランドPJ  -  PZ",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_93": {
-            "name": "Brands QA - QZ"
+            "name": "Brands QA - QZ",
+            "desc": "",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "ブランドロゴ"
+            ]
         },
         "stencil_94": {
-            "name": "Brands RA - RZ"
+            "name": "Brands RA - RZ",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_95": {
-            "name": "ブランドSA  -  SM"
+            "name": "ブランドSA  -  SM",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "desc": "",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_96": {
-            "name": "Brands SN - SZ"
+            "name": "Brands SN - SZ",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_97": {
-            "name": "Brands TA - TH"
+            "name": "Brands TA - TH",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "desc": "",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_98": {
-            "name": "Brands TI - TZ"
+            "name": "Brands TI - TZ",
+            "desc": "",
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/",
+            "cat": [
+                "ブランドロゴ"
+            ]
         },
         "stencil_99": {
-            "name": "Brands UA - UZ"
+            "name": "Brands UA - UZ",
+            "desc": "",
+            "credit_name": "ベクトルロゴゾーン",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_100": {
-            "name": "Brands VA - VZ"
+            "name": "Brands VA - VZ",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "ベクトルロゴゾーン"
         },
         "stencil_101": {
-            "name": "Brands WA - WZ"
+            "name": "Brands WA - WZ",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_name": "ベクトルロゴゾーン",
+            "desc": "",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_102": {
-            "name": "Brands XA - XZ"
+            "name": "Brands XA - XZ",
+            "credit_link": "https://vectorlogo.zone/",
+            "credit_name": "ベクトルロゴゾーン",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ]
         },
         "stencil_103": {
-            "name": "Brands YA - YZ"
+            "name": "Brands YA - YZ",
+            "desc": "",
+            "credit_name": "ベクトルロゴゾーン",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_104": {
-            "name": "Brands ZA - ZZ"
+            "name": "Brands ZA - ZZ",
+            "desc": "",
+            "cat": [
+                "ブランドロゴ"
+            ],
+            "credit_name": "ベクトルロゴゾーン",
+            "credit_link": "https://vectorlogo.zone/"
         },
         "stencil_108": {
             "name": "Activities - Arts Crafts",
@@ -3201,7 +3354,8 @@
             "desc": "コロナウイルス発生のグラフィック"
         },
         "credits_link": "クレジットリンク",
-        "credits_to": "クレジット"
+        "credits_to": "クレジット",
+        "saving_stencils": "ステンシルの保存"
     },
     "videos": {
         "tp2ryqLTz1M": {
@@ -3395,7 +3549,14 @@
         "public_plugins": "公開プラグイン",
         "public": "公衆",
         "team": "チーム",
-        "personal": "個人的な"
+        "personal": "個人的な",
+        "plugin_14": {
+            "cat": [
+                "報告書"
+            ],
+            "name": "部品表を生成する",
+            "desc": "形状のカスタムデータから材料のリストを生成します"
+        }
     },
     "dialog": {
         "help_title": "Vectaヘルプ",
@@ -3479,7 +3640,11 @@
         "confirm_device": "このシリアルキーからすべてのデバイスを削除しますか？",
         "device": "端末",
         "remove_devices": "すべて削除する",
-        "devices": "デバイス"
+        "devices": "デバイス",
+        "beta": "ベータ",
+        "license": "ライセンス",
+        "request_trial": "トライアル延長をリクエスト",
+        "purchase_license": "ライセンスを購入する"
     },
     "license": {
         "activate": "有効化",
@@ -3500,6 +3665,11 @@
         "err_4": "シリアルキーは付属していません。",
         "err_5": "無効なライセンスが検出されました。シリアルキーを再度有効にしてください。",
         "region_restriction": "地域制限",
-        "license_region_specific": "この地域固有のライセンスでは、購入した地域での使用のみが許可されます。購入地域外では、すべての機能が利用できなくなります。"
+        "license_region_specific": "この地域固有のライセンスでは、購入した地域での使用のみが許可されます。購入地域外では、すべての機能が利用できなくなります。",
+        "trial_mode": "トライアルモード",
+        "license_expired": "試用版/ライセンスの期限切れ",
+        "license_expired_desc": "試用版/ライセンスの有効期限が切れています。生産性向上ツールは無効になります。",
+        "trial_left": "現在、試用モードです。ライセンスは@@日後に期限切れになります",
+        "expired": "期限切れ"
     }
 }
