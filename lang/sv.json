@@ -749,7 +749,9 @@
         "social_no_email": "Detta @@-konto har inte e-post. <br/> Registrera dig med ett e-postmeddelande eller annat konto.",
         "reset_title_nano": "Nano Beta återställer lösenord",
         "signup_title_nano": "Nano Beta Registrera dig",
-        "signin_title_nano": "Nano Beta Logga in"
+        "signin_title_nano": "Nano Beta Logga in",
+        "signup_saml": "Registrera dig med SAML",
+        "saml": "Logga in med SAML"
     },
     "dash": {
         "dash": "Hem",
@@ -838,7 +840,15 @@
         "uploading": "uppladdning",
         "invalid_type": "ogiltig filtyp",
         "refreshing": "Uppfriskande",
-        "disabled_upload": "Uppladdning inaktiverad. Ladda upp igen när den nuvarande uppladdningen har slutförts."
+        "disabled_upload": "Uppladdning inaktiverad. Ladda upp igen när den nuvarande uppladdningen har slutförts.",
+        "display_name": "Visningsnamn",
+        "idp_id": "IdP-enhetens ID",
+        "provider_id": "Leverantörs-ID",
+        "id_management": "ID-hantering",
+        "x509": "X.509 certifikat",
+        "callback_url": "URL för återuppringning",
+        "sso_url": "SSO URL",
+        "rp_id": "RS / SP-enhets-ID"
     },
     "noti": {
         "deny": "Neka",
@@ -3329,6 +3339,41 @@
         "stencil_248": {
             "desc": "Grafik för Coronavirus-utbrott",
             "name": "Coronavirus"
+        },
+        "stencil_249": {
+            "desc": "",
+            "name": "Sekvensdiagram (SysML 1.5)",
+            "cat": [
+                "SysML 1.5"
+            ]
+        },
+        "stencil_250": {
+            "desc": "",
+            "cat": [
+                "SysML 1.5"
+            ],
+            "name": "Aktivitetsdiagram (SysML 1.5)"
+        },
+        "stencil_251": {
+            "desc": "",
+            "cat": [
+                "SysML 1.5"
+            ],
+            "name": "Paketdiagram (SysML 1.5)"
+        },
+        "stencil_253": {
+            "cat": [
+                "SysML 1.5"
+            ],
+            "desc": "",
+            "name": "Använd falldiagram (SysML 1.5)"
+        },
+        "stencil_252": {
+            "desc": "",
+            "cat": [
+                "SysML 1.5"
+            ],
+            "name": "State Machine Diagram (SysML 1.5)"
         }
     },
     "integrate": {
@@ -3647,5 +3692,9 @@
         "trial_left": "Du är för närvarande i provläge. Din licens upphör om @@ dagar",
         "license_expired_desc": "Test / licens har gått ut. Produktivitetsverktyg kommer att inaktiveras.",
         "license_expired": "Test / licens har gått ut"
+    },
+    "partner": {
+        "partner": "Partner",
+        "validating": "validera"
     }
 }
