@@ -391,13 +391,13 @@
         "comm_disc": "Gemenskapsdiskussion",
         "append_page": "Lägg till sidan",
         "insert_page": "Sätt in sidan",
-        "gdoc_placeholder": "https://docs.google.com/document/sample/edit",
-        "gdoc_link": "Google Doc-länk",
         "others": "andra",
         "other": "Övrig",
         "reading_drawing": "Läser ritning",
         "generating_zip": "Genererar ZIP",
-        "creator": "Skapare"
+        "creator": "Skapare",
+        "disabled": "Inaktiverad",
+        "selected": "Vald"
     },
     "drop": {
         "in": "tum",
@@ -578,8 +578,8 @@
         "show_dev_mode": "Show developer mode",
         "hide_dev_mode": "Dölj utvecklarläge",
         "copy_symbol": "Kopiera symbol",
-        "paste_symbol": "Klistra in symbol",
-        "paste_symbol_prop": "Klistra in namn, beskrivning och taggar",
+        "paste_symbol": "Symbol",
+        "paste_symbol_prop": "Namn, beskrivning och taggar",
         "perm_link": "Permanent länk",
         "flow_text": "Flödetekst",
         "unflow_text": "Ta bort text",
@@ -616,8 +616,7 @@
         "export": "Exportera",
         "del_conn_pt": "Ta bort anslutningspunkt",
         "add_conn_pt": "Lägg till anslutningspunkt",
-        "new_gdoc": "Nytt Google-dokument",
-        "paste_icon": "Klistra in ikonen",
+        "paste_icon": "Ikon",
         "upload_stencil": "Importera stencil"
     },
     "page": {
@@ -884,11 +883,11 @@
         "no_export": "Du kan inte exportera en tom ritning.",
         "cannot_drop_file": "Det går inte att släppa filen eftersom du inte har behöriga behörigheter",
         "gdoc_inavlid_link": "Ogiltig Google doc-länk",
-        "create_gdoc": "Skapa Google-dokument",
         "upload_prog": "Ladda upp framsteg",
         "completed": "Avslutad",
         "processing": "bearbetning",
-        "browse": "Bläddra"
+        "browse": "Bläddra",
+        "create_doc": "Skapar dokument"
     },
     "noti": {
         "deny": "Neka",
@@ -3669,7 +3668,12 @@
     },
     "dialog": {
         "help_title": "Vecta Hjälp",
-        "help_search": "Skriv något för att söka"
+        "help_search": "Skriv något för att söka",
+        "get_color": {
+            "drop": {
+                "a": "en"
+            }
+        }
     },
     "account": {
         "contacting_server": "Kontakta server",
