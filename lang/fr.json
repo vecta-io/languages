@@ -391,13 +391,13 @@
         "comm_disc": "Discussion communautaire",
         "append_page": "Ajouter la page",
         "insert_page": "Insérer une page",
-        "gdoc_placeholder": "https://docs.google.com/document/sample/edit",
-        "gdoc_link": "Lien Google Doc",
         "other": "autre",
         "others": "autres",
         "reading_drawing": "Dessin de lecture",
         "generating_zip": "Générer un ZIP",
-        "creator": "Créateur"
+        "creator": "Créateur",
+        "selected": "Choisi",
+        "disabled": "désactivé"
     },
     "page": {
         "cm": "Centimètre",
@@ -680,8 +680,8 @@
         "show_dev_mode": "Afficher le mode développeur",
         "hide_dev_mode": "Masquer le mode développeur",
         "copy_symbol": "Symbole de copie",
-        "paste_symbol": "Coller le symbole",
-        "paste_symbol_prop": "Coller le nom, la description et les tags",
+        "paste_symbol": "symbole",
+        "paste_symbol_prop": "Nom, description et tags",
         "perm_link": "Lien permanent",
         "flow_text": "Flux de texte",
         "unflow_text": "Déballer le texte",
@@ -716,8 +716,7 @@
         "export": "Exportation",
         "del_conn_pt": "Supprimer le point de connexion",
         "add_conn_pt": "Ajouter un point de connexion",
-        "new_gdoc": "Nouveau document Google",
-        "paste_icon": "Icône Coller",
+        "paste_icon": "Icône",
         "upload_stencil": "Importer un pochoir"
     },
     "list": {
@@ -976,11 +975,11 @@
         "no_export": "Vous ne pouvez pas exporter un dessin vide.",
         "cannot_drop_file": "Impossible de supprimer le fichier car vous ne disposez pas des autorisations requises",
         "gdoc_inavlid_link": "Lien vers la documentation Google non valide",
-        "create_gdoc": "Créer un document Google",
         "processing": "En traitement",
         "upload_prog": "Télécharger la progression",
         "completed": "Terminé",
-        "browse": "Feuilleter"
+        "browse": "Feuilleter",
+        "create_doc": "Créer un document"
     },
     "access": {
         "and": "et",
@@ -3669,7 +3668,12 @@
     },
     "dialog": {
         "help_title": "Aide Vecta",
-        "help_search": "Tapez quelque chose à rechercher"
+        "help_search": "Tapez quelque chose à rechercher",
+        "get_color": {
+            "drop": {
+                "a": "une"
+            }
+        }
     },
     "account": {
         "contacting_server": "Contacter le serveur",
