@@ -78,6 +78,7 @@
     "zoom_fit.icon": "縮放以適合頁面",
     "pages.icon": "查看其他頁面",
     "view.icon": "視圖",
+    "print.icon": "打印",
     "export.icon": "出口",
     "share.icon": "分享",
     "file.icon": "優先",
@@ -102,9 +103,7 @@
     "pause_record.icon": "暫停宏",
     "grid.icon": "網格視圖",
     "list.icon": "列表顯示",
-    "set_public": {
-      "label": "互聯網上的任何人都可以找到和訪問"
-    },
+    "set_public.label": "互聯網上的任何人都可以找到和訪問",
     "remove.help": "刪除用戶",
     "page_setup.icon": "頁面設置",
     "page_up.icon": "上一頁",
@@ -124,13 +123,10 @@
     "chat_box.icon": "聊天框",
     "line_end.menu": {
       "[1,0]": "從小開始",
-      "[1,1]": "均為小",
       "[0,1]": "結束小",
       "[1.5,0]": "開始中等",
-      "[1.5,1.5]": "均為中",
       "[0,1.5]": "結束媒介",
       "[2,0]": "開始大",
-      "[2,2]": "均為大",
       "[0,2]": "大結局",
       "linecap_butt": "線帽對接",
       "linecap_round": "線帽輪",
@@ -190,11 +186,9 @@
     "AddEffect.tip": "增加效果",
     "AddCustomMenu.tip": "添加自定義菜單",
     "ListCustomMenu.tip": "列出自定義菜單",
-    "print.icon": "打印",
     "personal.icon": "個人繪畫：主頁",
     "team.icon": "團隊圖紙：",
-    "company.icon": "公司圖紙：",
-    "set_public.label": "互聯網上的任何人都可以找到和訪問"
+    "company.icon": "公司圖紙："
   },
   "mssg": {
     "sending": "正在發送",
@@ -270,6 +264,8 @@
     "resetting_password": "重置Vecta密碼...",
     "signin": "用電子郵件登錄",
     "signup": "用電子郵件註冊",
+    "signin_label": "登陸使用",
+    "signup_label": "註冊",
     "google": "谷歌",
     "signup_google": "谷歌",
     "facebook": "臉書",
@@ -278,9 +274,12 @@
     "signup_github": "Github",
     "microsoft": "微軟",
     "signup_microsoft": "微軟",
+    "saml": "使用SAML登錄",
+    "signup_saml": "使用SAML註冊",
     "signup_cancel": "不用了，謝謝",
     "network_failed": "您已連接到互聯網嗎？請檢查您的連接，然後重試。",
     "user_disabled": "您的帳戶已禁用。如果您認為這是一個錯誤，請聯繫<a href=\"mailto:support@vecta.io\">support@vecta.io</a> 。",
+    "storage_disabled_title": "儲存空間已停用",
     "storage_disabled": "您的瀏覽器不支持Web存儲，或者已被禁用。<br />請在瀏覽器中啟用網絡存儲，或使用其他瀏覽器重試。",
     "or": "要么",
     "firebase_error": "如果您看到此錯誤，請聯繫<a href=\"mailto:support@vecta.io\">support@vecta.io，</a>並提供上述錯誤的屏幕截圖。",
@@ -300,12 +299,7 @@
     "signin_link": "登錄鏈接",
     "signin_link_sent": "登錄鏈接已發送至",
     "registered_other_provider": "該電子郵件已經在@@註冊。重新導向",
-    "access_contacts": "允許訪問您的聯繫人列表，以便輕鬆共享團隊和圖紙",
-    "signup_saml": "使用SAML註冊",
-    "saml": "使用SAML登錄",
-    "storage_disabled_title": "儲存空間已停用",
-    "signup_label": "註冊",
-    "signin_label": "登陸使用"
+    "access_contacts": "允許訪問您的聯繫人列表，以便輕鬆共享團隊和圖紙"
   },
   "signup": {
     "not_found": "找不到帳戶",
@@ -494,6 +488,7 @@
     "team_created": "歡迎來到您的新團隊！",
     "name_your_team": "團隊/項目名稱",
     "rename_fail": "無法重命名文件，因為您沒有必需的權限",
+    "cannot_drop_file": "無法刪除文件，因為您沒有必需的權限",
     "permission_changed": "您對這個團隊的訪問權限已更改。請刷新團隊以查看更改。",
     "permission_removed": "您對該團隊的訪問權限已被刪除。",
     "refresh_team": "存取權已變更",
@@ -504,27 +499,29 @@
     "check_trash": "檢查垃圾",
     "create_drawing": "創建新圖紙",
     "create_folder": "建立新資料夾",
+    "create_doc": "建立文件",
     "create_template": "創建新模板",
     "created_template": "模板創建成功",
     "remove_template": "刪除模板",
     "removed_template": "模板已成功刪除",
     "loading_folders": "加載文件夾",
-    "team_names": [
-      "好玩",
-      "太棒了",
-      "快樂",
-      "有史以來最好的團隊",
-      "涼",
-      "聰明",
-      "太棒了",
-      "優勝者"
-    ],
+    "team_names": {
+      "0": "好玩",
+      "1": "太棒了",
+      "2": "快樂",
+      "3": "有史以來最好的團隊",
+      "4": "涼",
+      "5": "聰明",
+      "6": "太棒了",
+      "7": "優勝者"
+    },
     "move": "移動",
     "moving": "移動",
     "copying": "複製中",
     "searching": "正在搜尋",
     "not_found": "未找到結果",
     "no_clone": "您無法克隆空白圖形。",
+    "no_export": "您不能導出空圖紙。",
     "template": "模板",
     "templates_title": "瀏覽模板",
     "templates_button": "更多模板",
@@ -550,26 +547,23 @@
     "applying_changes": "套用變更",
     "confirm_del": "確認刪除用戶",
     "confirm_del_mssg": "動作是不可逆的。工程圖，文件夾和團隊將移至管理團隊。",
+    "gdoc_inavlid_link": "無效的Google文檔鏈接",
     "invalid_type": "文件類型無效",
     "valid_message": "可接受的文件類型為PDF。",
+    "upload_prog": "上傳進度",
+    "processing": "處理中",
+    "completed": "已完成",
     "display_name": "顯示名稱",
-    "x509": "X.509證書",
-    "provider_id": "提供商ID",
     "id_management": "身份管理",
-    "callback_url": "回調網址",
+    "provider_id": "提供商ID",
     "idp_id": "IdP實體ID",
     "sso_url": "SSO URL",
+    "x509": "X.509證書",
     "rp_id": "RS / SP實體ID",
+    "callback_url": "回調網址",
     "request_trial_title": "要求延長試用期",
     "trial_extended": "試用期延長",
-    "no_export": "您不能導出空圖紙。",
-    "cannot_drop_file": "無法刪除文件，因為您沒有必需的權限",
-    "upload_prog": "上傳進度",
-    "completed": "已完成",
-    "processing": "處理中",
-    "gdoc_inavlid_link": "無效的Google文檔鏈接",
     "browse": "瀏覽",
-    "create_doc": "建立文件",
     "create_google_file": "建立新的Google檔案"
   },
   "noti": {
@@ -644,16 +638,11 @@
     "publish_before_copy": "請先發布工程圖，然後才能複制鏈接"
   },
   "dialog": {
-    "help_title": "Vecta幫助",
-    "help_search": "輸入要搜索的內容",
-    "get_color": {
-      "drop": {
-        "a": "一個"
-      }
-    },
     "get_color.drop": {
       "yes": "是"
-    }
+    },
+    "help_title": "Vecta幫助",
+    "help_search": "輸入要搜索的內容"
   },
   "integrate": {
     "redirect_prev": "現在返回上一頁",
@@ -768,10 +757,13 @@
     "default_recording": "默認錄音",
     "untitled_drawing": "無標題的圖紙",
     "untitled_folder": "無標題的資料夾",
+    "untitled_file": "無標題文件",
     "untitled_layer": "無標題層",
     "untitled_version": "無標題版本",
     "untitled_menu": "無標題菜單",
+    "untitled_page": "無標題頁面",
     "optional_layer_name": "圖層名稱（可選）",
+    "reading_drawing": "閱讀圖紙",
     "last_modified": "上一次更改",
     "file_name": "圖紙標題",
     "folder_name": "資料夾標題",
@@ -810,8 +802,11 @@
     "no_symbol": "您請求的符號不再存在，或者您無權訪問它。<br /><span class='Muted.cls'>錯誤：0016</span><br /> <span class='Muted.cls'>SID：@@</span>",
     "no_plugin": "您請求的插件已不存在，或者您無權訪問。<br /><span class='Muted.cls'>錯誤：0017</span><br /> <span class='Muted.cls'>SID：@@</span>",
     "team_denied": "該團隊的權限被拒絕。<br/>請詢問所有者。<br /><span class='Muted.cls'>錯誤：0018</span><br /> <span class='Muted.cls'>FID：@@</span>",
+    "read_fonts": "閱讀字體",
     "loading_fonts": "加載字體",
+    "remove_fonts": "刪除字體",
     "add_fonts": "添加自定義字體",
+    "upload_font_fail": "上載字體失敗",
     "help_fonts": "400：普通，400i：普通斜體，700：粗體，700i：粗體",
     "to_base64": "轉換影像",
     "delete_layer": "您是要保留形狀還是將其與圖層一起刪除？",
@@ -872,6 +867,7 @@
     "txtcx": "TxtCenterX",
     "txty": "TxtY",
     "txtcy": "TxtCenterY",
+    "lineSpacing": "行間距",
     "lock": "鎖定用戶界面修改",
     "name": "名稱",
     "text": "文本",
@@ -914,11 +910,13 @@
     "endSize": "EndArrowSize",
     "increment": "增量",
     "rounded": "四捨五入",
+    "exporting": "出口",
     "diagram_team": "團隊圖",
     "export_records": "出口記錄",
     "export_svg": "導出SVG",
     "export_image": "匯出圖片",
     "export_pdf": "導出PDF",
+    "generating_zip": "生成ZIP",
     "multi_page": "所有頁面",
     "one_page": "單頁",
     "resolution": "解析度：",
@@ -932,6 +930,7 @@
     "dxf_settings": "DWG / DXF",
     "import_svg": "匯入SVG ...",
     "import_dxf": "導入DXF ...",
+    "import_img": "正在導入圖片...",
     "export_dxf": "導出到DXF ...",
     "export_dwg": "導出到DWG ...",
     "exported_dwg": "DWG已導出。請啟用瀏覽器中的彈出窗口以進行下載",
@@ -978,6 +977,7 @@
     "img_added": "圖片已成功添加。",
     "img_copying": "圖片正在復制，請不要關閉瀏覽器",
     "img_uploading": "圖片正在上傳，請不要關閉瀏覽器",
+    "img_upload_progress": "正在上傳圖片（##％）...",
     "img_invalid": "圖片無效",
     "file_upload": "文件正在上傳，請不要關閉瀏覽器",
     "edit_profile": "編輯個人資料",
@@ -988,11 +988,16 @@
     "go_ver": "轉到版本歷史記錄",
     "go_undo": "轉到撤消歷史記錄",
     "custom_menu": "自定義菜單",
+    "disabled": "殘障人士",
+    "selected": "已選",
     "no_menu": "找不到菜單",
     "cannot_open": "在編輯圖標模式下，不支持通過拖放.SVG文件來打開圖形。",
     "image_cannot_copy": "無法複製圖像。該圖像不再存在，或者您無權訪問該圖像。",
+    "insert_page": "插入頁面",
+    "append_page": "追加頁面",
     "creating_page": "建立頁面",
     "loading_page": "正在載入頁面",
+    "loading_pages": "載入頁面",
     "delete_page": "刪除頁面",
     "deleting_page": "刪除頁面",
     "prev": "以前",
@@ -1049,6 +1054,7 @@
     "file_saved": "文件已保存",
     "open_help_center": "打開幫助中心",
     "check_for_updates": "檢查更新",
+    "schedule_auto_backup": "如何安排備份",
     "options": "選件",
     "blank": "在新標籤頁中打開",
     "self": "在當前標籤頁中打開",
@@ -1072,53 +1078,40 @@
     "downloading": "正在下載",
     "upload_font_noti": "只允許使用擴展名為.woff和.ttf的文件",
     "invalid_events": "無效的事件或代碼，不允許為空",
-    "import_img": "正在導入圖片...",
-    "untitled_page": "無標題頁面",
-    "img_upload_progress": "正在上傳圖片（##％）...",
     "set_label": "設置標籤位置",
-    "exporting": "出口",
     "top": "最佳",
     "bottom": "底部",
     "right": "對",
     "left": "剩下",
-    "loading_pages": "載入頁面",
     "page_margin": "頁邊距",
     "edit_code": "編輯代碼",
-    "untitled_file": "無標題文件",
     "comm_disc": "社區討論",
-    "append_page": "追加頁面",
-    "insert_page": "插入頁面",
-    "other": "其他",
     "others": "其他",
-    "reading_drawing": "閱讀圖紙",
-    "generating_zip": "生成ZIP",
+    "other": "其他",
     "creator": "創作者",
-    "selected": "已選",
-    "disabled": "殘障人士",
-    "location": "位置",
-    "err_object": "錯誤對象",
     "uncaught_error": "請通過電子郵件將重現錯誤的步驟和此消息的屏幕截圖發送給<br/>support@radicasoftware.com。請刷新圖形。",
     "message": "信息",
-    "schedule_auto_backup": "如何安排備份",
-    "read_fonts": "閱讀字體",
-    "remove_fonts": "刪除字體",
-    "upload_font_fail": "上載字體失敗",
-    "lineSpacing": "行間距",
+    "location": "位置",
+    "err_object": "錯誤對象",
+    "page_scope": "頁面範圍：",
     "doc_scope": "文件範圍：",
-    "tblock_empty": "請插入標題欄數據",
-    "page_scope": "頁面範圍："
+    "tblock_empty": "請插入標題欄數據"
   },
   "onshape": {
-    "remove_acc_button": "刪除帳戶",
-    "auth_error": "<b>無法訪問您的帳戶？</b><br><br>通過按<b>F12鍵</b>檢查控制台選項卡，查看控制台日誌中是否顯示任何錯誤消息。<br>如果有的話，請對其進行截圖並發送至<a href=\"mailto:support@radicasoftware.com\">support@radicasoftware.com</a> 。<br>請同時指定您當前使用的瀏覽器和版本號。<br><br>如果未顯示任何錯誤消息，請繼續清除緩存並重新加載網站。<br><br>如果您仍然對身份驗證有疑問，請通過<a href=\"mailto:support@radicasoftware.com\">support@radicasoftware.com</a>與我們<a href=\"mailto:support@radicasoftware.com\">聯繫</a>。<br><br>感謝您的耐心配合，我們將盡快與您聯繫。",
-    "removing_acc": "刪除現有的Electra Cloud帳戶",
     "logged_out": "您已註銷。請重新登錄",
-    "remove_warning": "您的帳戶被刪除後，您所有的圖紙和團隊都會被自動刪除。您確定要刪除您的帳戶嗎？",
-    "contact_us": "如果您仍然對身份驗證有疑問，請通過<a href=\"mailto:support@radicasoftware.com\">support@radicasoftware.com</a>與我們<a href=\"mailto:support@radicasoftware.com\">聯繫</a>。<br><br>感謝您的耐心配合，我們將盡快與您聯繫。",
     "duplicate_auth": "<b>您當前是Electra Cloud網站上的現有用戶。</b><br><br>用戶無法為Onshape的Electra Cloud和Electra Cloud的網站共享相同的註冊電子郵件地址。建議現有的Electra Cloud用戶使用其他電子郵件地址訪問Onshape。要繼續使用Onshape的Electra Cloud，您要刪除當前的Electra Cloud帳戶嗎？",
-    "remove_acc": "刪除現有的Electra Cloud帳戶"
+    "remove_acc": "刪除現有的Electra Cloud帳戶",
+    "remove_acc_button": "刪除帳戶",
+    "remove_warning": "您的帳戶被刪除後，您所有的圖紙和團隊都會被自動刪除。您確定要刪除您的帳戶嗎？",
+    "auth_error": "<b>無法訪問您的帳戶？</b><br><br>通過按<b>F12鍵</b>檢查控制台選項卡，查看控制台日誌中是否顯示任何錯誤消息。<br>如果有的話，請對其進行截圖並發送至<a href=\"mailto:support@radicasoftware.com\">support@radicasoftware.com</a> 。<br>請同時指定您當前使用的瀏覽器和版本號。<br><br>如果未顯示任何錯誤消息，請繼續清除緩存並重新加載網站。<br><br>如果您仍然對身份驗證有疑問，請通過<a href=\"mailto:support@radicasoftware.com\">support@radicasoftware.com</a>與我們<a href=\"mailto:support@radicasoftware.com\">聯繫</a>。<br><br>感謝您的耐心配合，我們將盡快與您聯繫。",
+    "contact_us": "如果您仍然對身份驗證有疑問，請通過<a href=\"mailto:support@radicasoftware.com\">support@radicasoftware.com</a>與我們<a href=\"mailto:support@radicasoftware.com\">聯繫</a>。<br><br>感謝您的耐心配合，我們將盡快與您聯繫。",
+    "removing_acc": "刪除現有的Electra Cloud帳戶"
   },
   "drop": {
+    "image": "圖片",
+    "inline": "排隊",
+    "object": "目的",
+    "compression_mode": "壓縮方式",
     "maintain_id": "維護ID",
     "maintain_class": "維持課程",
     "maintain_structure": "維持結構",
@@ -1135,10 +1128,13 @@
     "unpin_drawing": "取消固定繪圖",
     "tools": "工具類",
     "convert_path": "轉換為路徑",
+    "add_conn_pt": "添加連接點",
+    "del_conn_pt": "刪除連接點",
     "add_ctrl_pt": "添加控制點",
     "refresh": "刷新",
     "members": "管理會員",
     "upload_fonts": "上載字體",
+    "import_fonts": "導入字體",
     "new_layer": "新層",
     "rename_layer": "重命名圖層",
     "delete_layer": "刪除圖層",
@@ -1158,6 +1154,9 @@
     "hide_rulers": "隱藏標尺",
     "show_grid": "顯示網格",
     "hide_grid": "隱藏網格",
+    "show_page_margin": "顯示頁邊距",
+    "hide_page_margin": "隱藏頁邊距",
+    "duplicate": "重複",
     "group": "組",
     "ungroup": "取消分組",
     "operations": "運作方式",
@@ -1187,6 +1186,7 @@
     "source_stencil": "打開包含模具",
     "collapse_stencil": "折疊模具",
     "collapse_all_stencils": "收起所有模具",
+    "close_all_stencils": "關閉所有模具",
     "symbols_size": "圖標大小",
     "edit": "編輯",
     "edit_icon": "編輯圖示",
@@ -1197,11 +1197,15 @@
     "share": "分享",
     "new_doc": "新圖紙",
     "new_folder": "新建文件夾",
+    "new_gdoc": "新版Google文件",
+    "new_gsheet": "新的Google表格",
+    "new_gslide": "新的Google幻燈片",
     "print": "打印",
     "preferences": "優先",
     "doc_setup": "文件設定",
     "doc_setup_info": "標題和描述會在您的出版物和社交媒體上使用。<br />發布工程圖將使您的內容對Internet上的任何人都可見。",
     "file_title": "標題",
+    "export": "出口",
     "export_pdf": "導出為PDF",
     "export_jpg": "導出為JPG",
     "export_png": "導出為PNG",
@@ -1209,6 +1213,11 @@
     "export_dwg": "導出為DWG",
     "export_svg": "導出為SVG",
     "export_tsv": "自定義數據作為TSV",
+    "format_painter": "格式畫家",
+    "color_painter": "彩色畫家",
+    "formula_painter": "配方畫家",
+    "size_painter": "大小畫家",
+    "json_painter": "傑森畫家",
     "0px": "0像素",
     "5px": "5像素",
     "10px": "10像素",
@@ -1219,9 +1228,13 @@
     "twitter": "分享到Twitter",
     "slack": "分享到Slack",
     "refresh_search": "刷新搜索",
+    "up_stencil": "上移模具",
+    "down_stencil": "向下移動模具",
     "show_sym_name": "顯示圖標名稱",
     "hide_sym_name": "隱藏圖標名稱",
     "edit_stencil": "編輯模具",
+    "download_stencil": "下載模具",
+    "upload_stencil": "導入模具",
     "export_icon": "導出圖標",
     "export_stencil": "出口",
     "import_stencil": "進口",
@@ -1243,6 +1256,7 @@
     "show_properties": "顯示屬性",
     "light_theme": "顯示燈光主題",
     "dark_theme": "顯示黑暗主題",
+    "show_hidden": "顯示隱藏的形狀",
     "show_chat_box": "顯示聊天框",
     "hide_chat_box": "隱藏聊天框",
     "clone_drawing": "重複",
@@ -1317,362 +1331,337 @@
     "copy_symbol": "複製符號",
     "paste_symbol_prop": "名稱，說明和標籤",
     "paste_symbol": "符號",
+    "paste_icon": "圖標",
     "perm_link": "永久鏈接",
     "save_as": "另存為",
     "save": "救",
     "reset_ratio": "重置比例",
     "make_default": "使默認",
     "remove_default": "刪除默認",
-    "show_hidden": "顯示隱藏的形狀",
-    "size_painter": "大小畫家",
-    "json_painter": "傑森畫家",
-    "color_painter": "彩色畫家",
-    "format_painter": "格式畫家",
-    "formula_painter": "配方畫家",
-    "download_stencil": "下載模具",
-    "show_page_margin": "顯示頁邊距",
-    "hide_page_margin": "隱藏頁邊距",
-    "export": "出口",
-    "add_conn_pt": "添加連接點",
-    "del_conn_pt": "刪除連接點",
-    "paste_icon": "圖標",
-    "upload_stencil": "導入模具",
-    "close_all_stencils": "關閉所有模具",
-    "open_as_new_drawing": "打開為新工程圖",
-    "import_fonts": "導入字體",
-    "new_gslide": "新的Google幻燈片",
-    "new_gsheet": "新的Google表格",
-    "new_gdoc": "新版Google文件",
-    "object": "目的",
-    "image": "圖片",
-    "inline": "排隊",
-    "compression_mode": "壓縮方式",
-    "duplicate": "重複",
-    "down_stencil": "向下移動模具",
-    "up_stencil": "上移模具"
+    "open_as_new_drawing": "打開為新工程圖"
   },
   "stencil": {
     "stencil_0": {
       "name": "流程圖",
       "desc": "一般流程圖符號",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_1": {
       "name": "七彩音符",
       "desc": "多彩筆記符號",
-      "cat": [
-        "人，旗幟和文件"
-      ]
+      "cat": {
+        "0": "人，旗幟和文件"
+      }
     },
     "stencil_3": {
       "name": "谷歌",
       "desc": "可編輯的Google產品圖標集，支持SVG，PNG和JPG。在瀏覽器中直接下載或編輯。",
-      "cat": [
-        "谷歌"
-      ]
+      "cat": {
+        "0": "谷歌"
+      }
     },
     "stencil_4": {
       "name": "Google Cloud Platform",
       "desc": "可編輯的Google雲平台圖標集提供SVG，PNG和JPG。在瀏覽器中直接下載或編輯。",
-      "cat": [
-        "谷歌"
-      ]
+      "cat": {
+        "0": "谷歌"
+      }
     },
     "stencil_5": {
       "name": "AWS分析",
       "desc": "Amazon Web Services：分析",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_6": {
       "name": "AWS應用程序服務",
       "desc": "Amazon Web Services：應用程序服務",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_7": {
       "name": "AWS人工智能",
       "desc": "亞馬遜網絡服務：人工智能",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_8": {
       "name": "AWS業務生產力",
       "desc": "Amazon Web Services：業務生產力",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_9": {
       "name": "AWS計算",
       "desc": "亞馬遜網絡服務：計算",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_10": {
       "name": "AWS數據庫",
       "desc": "Amazon Web Services：數據庫",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_11": {
       "name": "AWS桌面應用流",
       "desc": "Amazon Web Services：桌面應用程序流",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_12": {
       "name": "AWS開發人員工具",
       "desc": "Amazon Web Services：開發人員工具",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_13": {
       "name": "AWS遊戲開發",
       "desc": "亞馬遜網絡服務：遊戲開發",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_14": {
       "name": "AWS常規",
       "desc": "Amazon Web Services：常規",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_15": {
       "name": "AWS物聯網",
       "desc": "Amazon Web Services：物聯網",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_16": {
       "name": "AWS管理工具",
       "desc": "Amazon Web Services：管理工具",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_17": {
       "name": "AWS消息傳遞",
       "desc": "Amazon Web Services：消息傳遞",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_18": {
       "name": "AWS遷移",
       "desc": "Amazon Web Services：遷移",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_19": {
       "name": "AWS移動服務",
       "desc": "Amazon Web Services：移動服務",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_20": {
       "name": "AWS網絡和內容交付",
       "desc": "Amazon Web Services：網絡和內容交付",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_21": {
       "name": "AWS On Demand勞動力",
       "desc": "Amazon Web Services：按需勞動力",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_22": {
       "name": "AWS開發工具包",
       "desc": "Amazon Web Services：軟件開發套件",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_23": {
       "name": "AWS安全身份和合規性",
       "desc": "Amazon Web Services：身份和合規性",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_24": {
       "name": "AWS存儲",
       "desc": "Amazon Web Services：存儲",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_25": {
       "name": "網絡技術",
       "desc": "通用網絡技術符號",
-      "cat": [
-        "電腦與網絡"
-      ]
+      "cat": {
+        "0": "電腦與網絡"
+      }
     },
     "stencil_26": {
       "name": "彩色文件和文件夾",
       "desc": "彩色文檔和文件夾符號",
-      "cat": [
-        "人，旗幟和文件"
-      ]
+      "cat": {
+        "0": "人，旗幟和文件"
+      }
     },
     "stencil_27": {
       "name": "Microsoft Azure單聲道",
       "desc": "Microsoft Azure：單色符號",
-      "cat": [
-        "微軟"
-      ]
+      "cat": {
+        "0": "微軟"
+      }
     },
     "stencil_28": {
       "name": "Microsoft Azure顏色",
       "desc": "Microsoft Azure：顏色符號",
-      "cat": [
-        "微軟"
-      ]
+      "cat": {
+        "0": "微軟"
+      }
     },
     "stencil_29": {
       "name": "Microsoft虛擬機",
       "desc": "Microsoft Azure：虛擬機",
-      "cat": [
-        "微軟"
-      ]
+      "cat": {
+        "0": "微軟"
+      }
     },
     "stencil_30": {
       "name": "微軟系統中心",
       "desc": "Microsoft Azure：系統中心",
-      "cat": [
-        "微軟"
-      ]
+      "cat": {
+        "0": "微軟"
+      }
     },
     "stencil_31": {
       "name": "微軟企業",
       "desc": "Microsoft Azure：企業",
-      "cat": [
-        "微軟"
-      ]
+      "cat": {
+        "0": "微軟"
+      }
     },
     "stencil_32": {
       "name": "微軟Intune",
       "desc": "Microsoft Azure：Intune",
-      "cat": [
-        "微軟"
-      ]
+      "cat": {
+        "0": "微軟"
+      }
     },
     "stencil_33": {
       "name": "Microsoft Office產品",
       "desc": "Microsoft Azure：Office產品",
-      "cat": [
-        "微軟"
-      ]
+      "cat": {
+        "0": "微軟"
+      }
     },
     "stencil_34": {
       "name": "人",
       "desc": "",
-      "cat": [
-        "人，旗幟和文件"
-      ]
+      "cat": {
+        "0": "人，旗幟和文件"
+      }
     },
     "stencil_35": {
       "name": "貨櫃",
       "desc": "充當容器的塊",
-      "cat": [
-        "人，旗幟和文件"
-      ]
+      "cat": {
+        "0": "人，旗幟和文件"
+      }
     },
     "stencil_36": {
       "name": "網絡基礎設施",
       "desc": "網絡基礎架構符號",
-      "cat": [
-        "電腦與網絡"
-      ]
+      "cat": {
+        "0": "電腦與網絡"
+      }
     },
     "stencil_37": {
       "name": "基本網絡",
       "desc": "基本網絡符號",
-      "cat": [
-        "電腦與網絡"
-      ]
+      "cat": {
+        "0": "電腦與網絡"
+      }
     },
     "stencil_38": {
       "name": "電腦和顯示器",
       "desc": "顯示裝置",
-      "cat": [
-        "電腦與網絡"
-      ]
+      "cat": {
+        "0": "電腦與網絡"
+      }
     },
     "stencil_39": {
       "name": "UML用例",
       "desc": "UML用例圖",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_40": {
       "name": "UML活動",
       "desc": "UML活動圖",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_41": {
       "name": "UML類",
       "desc": "UML類圖",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_42": {
       "name": "UML實體關係",
       "desc": "UML實體關係圖",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_43": {
       "name": "維恩圖",
       "desc": "邏輯或數學關係的表示",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_44": {
       "name": "條形圖",
       "desc": "條形圖表示",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_45": {
       "name": "組織結構圖",
       "desc": "組織結構的圖形表示，顯示組織中職位或職位的關係。",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_46": {
       "name": "UML網關",
       "desc": "可根據條件或事件調整路徑的UML決策點。",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_48": {
       "name": "桌子",
@@ -1685,9 +1674,9 @@
     "stencil_50": {
       "name": "材料設計調色板",
       "desc": "受Material Design啟發的調色板",
-      "cat": [
-        "谷歌"
-      ]
+      "cat": {
+        "0": "谷歌"
+      }
     },
     "stencil_51": {
       "name": "標題欄",
@@ -1696,86 +1685,86 @@
     "stencil_52": {
       "name": "AWS聯繫中心",
       "desc": "亞馬遜網絡服務：聯繫中心",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_53": {
       "name": "AWS容器",
       "desc": "Amazon Web Services：容器",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
     },
     "stencil_54": {
       "name": "照片組織結構圖",
       "desc": "帶有圖片夾的組織結構圖的容器列表",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_55": {
       "name": "襯線字體",
       "desc": "打印介質的首選字體",
-      "cat": [
-        "谷歌"
-      ]
+      "cat": {
+        "0": "谷歌"
+      }
     },
     "stencil_56": {
       "name": "San Serif字體",
       "desc": "數字屏幕的首選字體。",
-      "cat": [
-        "谷歌"
-      ]
+      "cat": {
+        "0": "谷歌"
+      }
     },
     "stencil_57": {
       "name": "等寬字體",
       "desc": "打字的首選字體。",
-      "cat": [
-        "谷歌"
-      ]
+      "cat": {
+        "0": "谷歌"
+      }
     },
     "stencil_58": {
       "name": "手寫字體",
       "desc": "品牌，設計藝術品和印刷媒體的首選字體",
-      "cat": [
-        "谷歌"
-      ]
+      "cat": {
+        "0": "谷歌"
+      }
     },
     "stencil_59": {
       "name": "顯示字體",
       "desc": "品牌，設計藝術品和印刷媒體的首選字體",
-      "cat": [
-        "谷歌"
-      ]
+      "cat": {
+        "0": "谷歌"
+      }
     },
     "stencil_60": {
       "name": "思科應用控制引擎",
       "desc": "應用程序控制引擎-ACE XML網關",
-      "cat": [
-        "思科公司"
-      ]
+      "cat": {
+        "0": "思科公司"
+      }
     },
     "stencil_61": {
       "name": "思科UC500系列",
       "desc": "面向小型企業的Cisco Unified Communications 500系列",
-      "cat": [
-        "思科公司"
-      ]
+      "cat": {
+        "0": "思科公司"
+      }
     },
     "stencil_62": {
       "name": "思科安全隱形手錶",
       "desc": "思科安全Stealthwatch符號",
-      "cat": [
-        "思科公司"
-      ]
+      "cat": {
+        "0": "思科公司"
+      }
     },
     "stencil_63": {
       "name": "思科SAFE體系結構",
       "desc": "思科SAFE架構符號",
-      "cat": [
-        "思科公司"
-      ]
+      "cat": {
+        "0": "思科公司"
+      }
     },
     "stencil_65": {
       "name": "社交媒體",
@@ -1784,9 +1773,9 @@
     "stencil_66": {
       "name": "世界的標誌",
       "desc": "大量的SVG格式的世界標誌集合",
-      "cat": [
-        "人，旗幟和文件"
-      ]
+      "cat": {
+        "0": "人，旗幟和文件"
+      }
     },
     "stencil_67": {
       "name": "平面圖",
@@ -1795,23 +1784,23 @@
     "stencil_68": {
       "name": "頭像",
       "desc": "人頭像",
-      "cat": [
-        "人，旗幟和文件"
-      ]
+      "cat": {
+        "0": "人，旗幟和文件"
+      }
     },
     "stencil_69": {
       "name": "評論",
       "desc": "註釋已分配給圖層，因此您可以在導出/打印期間自定義其可見性",
-      "cat": [
-        "人，旗幟和文件"
-      ]
+      "cat": {
+        "0": "人，旗幟和文件"
+      }
     },
     "stencil_70": {
       "name": "甜甜圈圖",
       "desc": "甜甜圈圖表示",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_71": {
       "name": "量規",
@@ -1820,1349 +1809,1349 @@
     "stencil_72": {
       "name": "品牌0-9",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://www.vectorlogo.zone/"
     },
     "stencil_73": {
       "name": "品牌AA-AO",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://www.vectorlogo.zone/"
     },
     "stencil_74": {
       "name": "品牌AP-AZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_75": {
       "name": "品牌BA-BZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_76": {
       "name": "品牌CA-CL",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://www.vectorlogo.zone/"
     },
     "stencil_77": {
       "name": "品牌CM-CZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://www.vectorlogo.zone/"
     },
     "stencil_78": {
       "name": "品牌DA-DZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_79": {
       "name": "品牌EA-EZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_80": {
       "name": "品牌FA-FZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_81": {
       "name": "品牌GA-GN",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_82": {
       "name": "品牌GO-GZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_83": {
       "name": "品牌HA-HZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_84": {
       "name": "品牌IA-IZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_85": {
       "name": "品牌JA-JZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_86": {
       "name": "品牌KA-KZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_87": {
       "name": "品牌LA-LZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_88": {
       "name": "品牌MA-MZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_89": {
       "name": "品牌NA-NZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_90": {
       "name": "品牌OA-OZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_91": {
       "name": "品牌PA-PI",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_92": {
       "name": "品牌PJ-PZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_93": {
       "name": "品牌質量檢查-QZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_94": {
       "name": "品牌RA-RZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_95": {
       "name": "品牌SA-SM",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_96": {
       "name": "品牌SN-SZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_97": {
       "name": "品牌TA-TH",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_98": {
       "name": "品牌TI-TZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_99": {
       "name": "品牌UA-UZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_100": {
       "name": "品牌VA-VZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_101": {
       "name": "品牌WA-WZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_102": {
       "name": "品牌XA-XZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_103": {
       "name": "品牌YA-YZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_104": {
       "name": "品牌ZA-ZZ",
       "desc": "",
-      "cat": [
-        "品牌徽標"
-      ],
+      "cat": {
+        "0": "品牌徽標"
+      },
       "credit_name": "矢量徽標區",
       "credit_link": "https://vectorlogo.zone/"
     },
     "stencil_105": {
       "name": "線框瀏覽器",
       "desc": "",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_106": {
       "name": "線框Android",
       "desc": "",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_107": {
       "name": "線框iPhone",
       "desc": "",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "stencil_108": {
       "name": "活動-工藝品",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_109": {
       "name": "活動-獎牌",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_110": {
       "name": "活動-活動",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_111": {
       "name": "活動-遊戲",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_112": {
       "name": "活動-體育",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_113": {
       "name": "動物自然-動物兩棲動物",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_114": {
       "name": "動物自然-動物鳥",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_115": {
       "name": "動物自然-動物蟲",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_116": {
       "name": "動物自然-動物哺乳動物",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_117": {
       "name": "動物自然-海洋動物",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_118": {
       "name": "動物自然-動物爬行動物",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_119": {
       "name": "動物自然-植物花",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_120": {
       "name": "動物自然-植物其他",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_121": {
       "name": "成分-髮型",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_122": {
       "name": "組件-膚色",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_123": {
       "name": "Extram Openmoji-動物自然",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_124": {
       "name": "附加Openmoji-品牌",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_125": {
       "name": "其他Openmoji-緊急情況",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_126": {
       "name": "其他Openmoji-食品飲料",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_127": {
       "name": "其他Openmoji-互動",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_128": {
       "name": "其他Openmoji-對象",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_129": {
       "name": "其他Openmoji-人",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_130": {
       "name": "其他Openmoji-技術",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_131": {
       "name": "Openmoji Extras-旅遊勝地",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_132": {
       "name": "Extram Openmoji-Ui元素",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_133": {
       "name": "Unicode-其他符號",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_134": {
       "name": "標誌-國旗",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_135": {
       "name": "標誌-標誌",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_136": {
       "name": "標誌-細分標誌",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_137": {
       "name": "餐飲-餐具",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_138": {
       "name": "食品飲料-飲料",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_139": {
       "name": "食品飲料-亞洲食品",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_140": {
       "name": "食品飲料-食品水果",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_141": {
       "name": "食品飲料-海洋食品",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_142": {
       "name": "餐飲-準備食物",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_143": {
       "name": "食物飲料-食物甜",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_144": {
       "name": "食品飲料-食品蔬菜",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_145": {
       "name": "對象-書本紙",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_146": {
       "name": "物件-服裝",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_147": {
       "name": "對象-計算機",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_148": {
       "name": "物件-家用",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_149": {
       "name": "對象-燈光視頻",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_150": {
       "name": "對象-鎖",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_151": {
       "name": "對象-郵件",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_152": {
       "name": "對象-醫療",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_153": {
       "name": "對象-金錢",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_154": {
       "name": "對象-音樂",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_155": {
       "name": "物件-樂器",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_156": {
       "name": "對象-辦公室",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_157": {
       "name": "對象-其他對象",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_158": {
       "name": "對象-電話",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_159": {
       "name": "對象-科學",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_160": {
       "name": "對象-聲音",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_161": {
       "name": "對象-工具",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_162": {
       "name": "對象-寫作",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_163": {
       "name": "人體-身體部位",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_164": {
       "name": "人的身體-家庭",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_165": {
       "name": "人的身體-手手指閉合",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_166": {
       "name": "人的身體-手手指張開",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_167": {
       "name": "人的身體-手手指局部",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_168": {
       "name": "人體-手支撐",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_169": {
       "name": "人的身體-手單指",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_170": {
       "name": "人的身體-手",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_171": {
       "name": "人的身體-人",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_172": {
       "name": "人體-人的活動",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_173": {
       "name": "人的身體-人的幻想",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_174": {
       "name": "人體-人的手勢",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_175": {
       "name": "人的身體-人休息",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_176": {
       "name": "人物身體-人物角色",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_177": {
       "name": "人體-人體運動",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_178": {
       "name": "人的身體-人的象徵",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_179": {
       "name": "笑臉情感-貓臉",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_180": {
       "name": "笑臉情感-情感",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_181": {
       "name": "笑臉情感-面部表情",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_182": {
       "name": "笑臉情緒-有關臉部",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_183": {
       "name": "笑臉情感-臉部服裝",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_184": {
       "name": "笑臉情感-眼鏡",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_185": {
       "name": "笑臉情感-臉手",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_186": {
       "name": "笑臉情感-帽子",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_187": {
       "name": "笑臉情緒-臉部負面",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_188": {
       "name": "笑臉情感-中性持懷疑態度",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_189": {
       "name": "笑臉情感-困倦的臉",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_190": {
       "name": "笑臉情感-面帶笑容",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_191": {
       "name": "笑臉情感-舌頭",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_192": {
       "name": "笑臉情緒-臉部不適",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_193": {
       "name": "笑臉情感-猴子臉",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_194": {
       "name": "符號-Alphanum",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_195": {
       "name": "符號-箭頭",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_196": {
       "name": "符號-Av符號",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_197": {
       "name": "符號-性別",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_198": {
       "name": "符號-幾何",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_199": {
       "name": "符號-鍵帽",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_200": {
       "name": "符號-其他符號",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_201": {
       "name": "符號-宗教",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_202": {
       "name": "符號-運輸標誌",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_203": {
       "name": "符號-警告",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_204": {
       "name": "符號-生肖",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_205": {
       "name": "旅遊勝地-酒店",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_206": {
       "name": "旅遊地方-地方建築",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_207": {
       "name": "旅遊地點-地方地理",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_208": {
       "name": "旅遊地點-地方地圖",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_209": {
       "name": "旅遊地點-其他地點",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_210": {
       "name": "旅遊地點-宗教場所",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_211": {
       "name": "旅遊地點-天空天氣",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_212": {
       "name": "旅行地點-時間",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_213": {
       "name": "旅行場所-航空運輸",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_214": {
       "name": "旅行場所-運輸基地",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_215": {
       "name": "旅行場所-交通用水",
       "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
+      "cat": {
+        "0": "OpenMoji"
+      },
       "credit_name": "OpenMoji",
       "credit_link": "https://openmoji.org/"
     },
     "stencil_238": {
       "name": "電腦品牌",
       "desc": "",
-      "cat": [
-        "電腦與網絡"
-      ]
+      "cat": {
+        "0": "電腦與網絡"
+      }
     },
     "stencil_239": {
       "name": "檔案格式",
       "desc": "常用文件格式列表",
-      "cat": [
-        "人，旗幟和文件"
-      ]
+      "cat": {
+        "0": "人，旗幟和文件"
+      }
     },
     "stencil_240": {
       "name": "思科網絡拓撲圖標3015",
       "desc": "",
-      "cat": [
-        "思科公司"
-      ],
+      "cat": {
+        "0": "思科公司"
+      },
       "credit_link": "https://cisco.com/",
       "credit_name": "思科公司"
     },
     "stencil_241": {
       "name": "黑色和白色的思科網絡拓撲圖標",
       "desc": "",
-      "cat": [
-        "思科公司"
-      ],
+      "cat": {
+        "0": "思科公司"
+      },
       "credit_link": "https://cisco.com/",
       "credit_name": "思科公司"
     },
     "stencil_242": {
       "name": "思科無線IW 3700",
       "desc": "",
-      "cat": [
-        "思科公司"
-      ],
+      "cat": {
+        "0": "思科公司"
+      },
       "credit_link": "https://cisco.com/",
       "credit_name": "思科公司"
     },
     "stencil_243": {
       "name": "思科VG系列網關",
       "desc": "",
-      "cat": [
-        "思科公司"
-      ],
+      "cat": {
+        "0": "思科公司"
+      },
       "credit_link": "https://cisco.com/",
       "credit_name": "思科公司"
     },
     "stencil_244": {
       "name": "Cisco Unified IP電話7800和8800系列",
       "desc": "",
-      "cat": [
-        "思科公司"
-      ],
+      "cat": {
+        "0": "思科公司"
+      },
       "credit_link": "https://cisco.com/",
       "credit_name": "思科公司"
     },
@@ -3173,6 +3162,122 @@
     "stencil_248": {
       "name": "新冠病毒",
       "desc": "冠狀病毒爆發的圖形"
+    },
+    "stencil_249": {
+      "name": "序列圖（SysML 1.5）",
+      "desc": "",
+      "cat": {
+        "0": "SysML 1.5"
+      }
+    },
+    "stencil_250": {
+      "name": "活動圖（SysML 1.5）",
+      "desc": "",
+      "cat": {
+        "0": "SysML 1.5"
+      }
+    },
+    "stencil_251": {
+      "name": "封裝圖（SysML 1.5）",
+      "desc": "",
+      "cat": {
+        "0": "SysML 1.5"
+      }
+    },
+    "stencil_252": {
+      "name": "狀態機圖（SysML 1.5）",
+      "desc": "",
+      "cat": {
+        "0": "SysML 1.5"
+      }
+    },
+    "stencil_253": {
+      "name": "用例圖（SysML 1.5）",
+      "desc": "",
+      "cat": {
+        "0": "SysML 1.5"
+      }
+    },
+    "stencil_254": {
+      "name": "思科SCE 2020",
+      "desc": "",
+      "cat": {
+        "0": "思科公司"
+      },
+      "credit_link": "https://cisco.com/",
+      "credit_name": "思科公司"
+    },
+    "stencil_255": {
+      "name": "思科光網絡NCS 4200",
+      "desc": "",
+      "cat": {
+        "0": "思科公司"
+      },
+      "credit_link": "https://cisco.com/",
+      "credit_name": "思科公司"
+    },
+    "stencil_256": {
+      "name": "思科安全網絡和電子郵件",
+      "desc": "",
+      "cat": {
+        "0": "思科公司"
+      },
+      "credit_link": "https://cisco.com/",
+      "credit_name": "思科公司"
+    },
+    "stencil_257": {
+      "name": "石油鑽井平台",
+      "desc": ""
+    },
+    "stencil_258": {
+      "name": "AWS機器學習",
+      "desc": "Amazon Web Services：機器學習",
+      "cat": {
+        "0": "亞馬遜網絡服務"
+      }
+    },
+    "stencil_259": {
+      "name": "思科統一計算系統和HyperFlex系統（HCI）第1部分",
+      "desc": "",
+      "cat": {
+        "0": "思科公司"
+      },
+      "credit_link": "https://cisco.com/",
+      "credit_name": "思科公司"
+    },
+    "stencil_260": {
+      "name": "思科統一計算系統和HyperFlex系統（HCI）第2部分",
+      "desc": "",
+      "cat": {
+        "0": "思科公司"
+      },
+      "credit_name": "思科公司",
+      "credit_link": "https://cisco.com/"
+    },
+    "stencil_261": {
+      "name": "資料庫",
+      "desc": "資料庫",
+      "cat": {
+        "0": "電腦與網絡"
+      }
+    },
+    "stencil_263": {
+      "name": "思科交換機-Cisco Nexus 9000",
+      "desc": "Cisco Nexus 9000交換機",
+      "cat": {
+        "0": "思科公司"
+      },
+      "credit_link": "https://cisco.com/",
+      "credit_name": "思科公司"
+    },
+    "stencil_264": {
+      "name": "思科交換機-Cisco Nexus 5020",
+      "desc": "",
+      "cat": {
+        "0": "思科公司"
+      },
+      "credit_link": "https://cisco.com/",
+      "credit_name": "思科公司"
     },
     "free_svg_symbols": "免費的SVG符號",
     "request_symbols_title": "要求符號",
@@ -3229,128 +3334,12 @@
     "saving_stencils": "保存模具",
     "credits_to": "學分給",
     "credits_link": "積分鏈接",
-    "stencil_249": {
-      "desc": "",
-      "name": "序列圖（SysML 1.5）",
-      "cat": [
-        "SysML 1.5"
-      ]
-    },
-    "stencil_250": {
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ],
-      "name": "活動圖（SysML 1.5）"
-    },
-    "stencil_251": {
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ],
-      "name": "封裝圖（SysML 1.5）"
-    },
-    "stencil_252": {
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ],
-      "name": "狀態機圖（SysML 1.5）"
-    },
-    "stencil_253": {
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ],
-      "name": "用例圖（SysML 1.5）"
-    },
-    "stencil_257": {
-      "desc": "",
-      "name": "石油鑽井平台"
-    },
-    "no_symbols_download": "沒有要下載的符號",
     "downloading_stencil": "正在下載模具...",
-    "stencil_254": {
-      "name": "思科SCE 2020",
-      "desc": "",
-      "cat": [
-        "思科公司"
-      ],
-      "credit_name": "思科公司",
-      "credit_link": "https://cisco.com/"
-    },
-    "stencil_255": {
-      "desc": "",
-      "cat": [
-        "思科公司"
-      ],
-      "credit_name": "思科公司",
-      "name": "思科光網絡NCS 4200",
-      "credit_link": "https://cisco.com/"
-    },
-    "stencil_258": {
-      "name": "AWS機器學習",
-      "desc": "Amazon Web Services：機器學習",
-      "cat": [
-        "亞馬遜網絡服務"
-      ]
-    },
-    "stencil_256": {
-      "desc": "",
-      "name": "思科安全網絡和電子郵件",
-      "credit_name": "思科公司",
-      "cat": [
-        "思科公司"
-      ],
-      "credit_link": "https://cisco.com/"
-    },
-    "no_file_chosen": "沒有選中任何文件",
+    "no_symbols_download": "沒有要下載的符號",
     "uploading_stencil": "正在上傳模具...",
-    "upload_stencil_success": "模具上傳",
     "upload_stencil_error": "上載模具時出錯",
-    "stencil_261": {
-      "name": "資料庫",
-      "cat": [
-        "電腦與網絡"
-      ],
-      "desc": "資料庫"
-    },
-    "stencil_259": {
-      "credit_link": "https://cisco.com/",
-      "desc": "",
-      "cat": [
-        "思科公司"
-      ],
-      "credit_name": "思科公司",
-      "name": "思科統一計算系統和HyperFlex系統（HCI）第1部分"
-    },
-    "stencil_260": {
-      "name": "思科統一計算系統和HyperFlex系統（HCI）第2部分",
-      "credit_name": "思科公司",
-      "credit_link": "https://cisco.com/",
-      "cat": [
-        "思科公司"
-      ],
-      "desc": ""
-    },
-    "stencil_264": {
-      "desc": "",
-      "credit_link": "https://cisco.com/",
-      "credit_name": "思科公司",
-      "cat": [
-        "思科公司"
-      ],
-      "name": "思科交換機-Cisco Nexus 5020"
-    },
-    "stencil_263": {
-      "credit_name": "思科公司",
-      "cat": [
-        "思科公司"
-      ],
-      "desc": "Cisco Nexus 9000交換機",
-      "credit_link": "https://cisco.com/",
-      "name": "思科交換機-Cisco Nexus 9000"
-    }
+    "upload_stencil_success": "模具上傳",
+    "no_file_chosen": "沒有選中任何文件"
   },
   "plugin": {
     "plugin_0": {
@@ -3360,16 +3349,16 @@
     "plugin_1": {
       "name": "TSV到表格",
       "desc": "從刪除的tsv文件創建表",
-      "cat": [
-        "報告書"
-      ]
+      "cat": {
+        "0": "報告書"
+      }
     },
     "plugin_2": {
       "name": "JSON到樹",
       "desc": "將刪除的JSON文件轉換為樹狀視圖",
-      "cat": [
-        "報告書"
-      ]
+      "cat": {
+        "0": "報告書"
+      }
     },
     "plugin_3": {
       "name": "繪製分形樹",
@@ -3386,30 +3375,30 @@
     "plugin_6": {
       "name": "折線圖",
       "desc": "根據輸入數據繪製折線/曲線圖",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "plugin_7": {
       "name": "餅形圖",
       "desc": "根據輸入數據分割圓/橢圓",
-      "cat": [
-        "圖表"
-      ]
+      "cat": {
+        "0": "圖表"
+      }
     },
     "plugin_8": {
       "name": "材料設計圖標",
       "desc": "從Material.io圖標列表中選擇並導入圖標",
-      "cat": [
-        "圖示"
-      ]
+      "cat": {
+        "0": "圖示"
+      }
     },
     "plugin_9": {
       "name": "字體真棒圖標",
       "desc": "從“真棒字體”圖標列表中選擇並導入圖標（免費）",
-      "cat": [
-        "圖示"
-      ]
+      "cat": {
+        "0": "圖示"
+      }
     },
     "plugin_10": {
       "name": "量角器",
@@ -3430,9 +3419,9 @@
     "plugin_14": {
       "name": "生成物料清單",
       "desc": "從形狀的自定義數據生成材料列表",
-      "cat": [
-        "報告書"
-      ]
+      "cat": {
+        "0": "報告書"
+      }
     },
     "plugin_15": {
       "name": "項目符號清單",
@@ -3453,9 +3442,9 @@
     "plugin_19": {
       "name": "發光效果",
       "desc": "創建具有發光效果的橢圓",
-      "cat": [
-        "一般"
-      ]
+      "cat": {
+        "0": "一般"
+      }
     },
     "plugins": "外掛程式",
     "get_plugins": "獲取插件",
@@ -3650,6 +3639,7 @@
     "effects": " 添加陰影，斜角或模糊效果以製作出色的圖形",
     "pages": "在單個工程圖中創建和管理多個頁面",
     "pan": "使用平移工具快捷方式輕鬆導航",
+    "import-pdf": "要導入，只需將PDF文件拖放到儀表板",
     "jump-connector": "添加跳轉連接器以區分線",
     "clip-path": "使用剪切路徑標記出剪切區域",
     "copy-paste-symbol": "複製您的符號並將其粘貼到模具中",
@@ -3659,8 +3649,7 @@
     "text-effects": "為文本添加陰影，斜角或模糊效果",
     "duplicate-shape": "按Ctrl-D將最近的屬性更改應用到當前形狀",
     "dark-theme-vecta": "顯示深色主題以激活深色模式",
-    "text-stroke": "通過文字筆觸更加美化您的文字",
-    "import-pdf": "要導入，只需將PDF文件拖放到儀表板"
+    "text-stroke": "通過文字筆觸更加美化您的文字"
   },
   "settings": {
     "reading": "閱讀偏好",
@@ -3671,13 +3660,13 @@
       "dxf_layers": "導入圖層",
       "dxf_stroke": "行程寬度",
       "default_unit": "默認單位",
+      "join_shapes": "連接形狀",
+      "join_shapes_desc": "連接形狀以提高編輯器性能",
       "units": {
         "auto": "汽車",
         "mm": "毫米",
         "in": "在"
-      },
-      "join_shapes_desc": "連接形狀以提高編輯器性能",
-      "join_shapes": "連接形狀"
+      }
     },
     "general": {
       "lang": "語言",
@@ -3693,8 +3682,8 @@
       "new_mssg": "收到聊天消息",
       "new_user": "協作者加入編輯",
       "show_stencil_bar": "始終顯示模具滾動條",
-      "auto_launch": "啟動時自動啟動應用",
-      "disable_touch_mode": "禁用自動觸摸屏模式"
+      "disable_touch_mode": "禁用自動觸摸屏模式",
+      "auto_launch": "啟動時自動啟動應用"
     },
     "noti": {
       "push": "啟用桌面通知",
@@ -3796,6 +3785,8 @@
     "to_go_account": "進入賬戶頁面",
     "loading": "載入中...",
     "account": "帳戶",
+    "beta": "貝塔",
+    "license": "執照",
     "licenses": "執照",
     "payment_history": "支付歷史",
     "no_payment_history": "尚無付款記錄",
@@ -3823,7 +3814,7 @@
     "paid_with": "與支付",
     "status": "狀態",
     "end_with": "以",
-    "subcriptions": "訂閱",
+    "subscriptions": "訂閱",
     "date": "日期",
     "current": "當前",
     "link_to_account": "確認電子郵件中提供了指向帳戶頁面的鏈接",
@@ -3849,8 +3840,6 @@
     "device": "設備",
     "remove_devices": "移除所有",
     "confirm_device": "從該串行密鑰中刪除所有設備？",
-    "license": "執照",
-    "beta": "貝塔",
     "purchase_license": "購買許可證",
     "request_trial": "要求延長試用期",
     "extend_trial": "延長試用期",
@@ -3870,22 +3859,22 @@
     "err_3": "序列號無效。要獲得有效的證書，請訪問@@",
     "err_4": "沒有提供序列號。",
     "err_5": "檢測到無效的許可證。請重新激活您的序列號。",
+    "err_6": "無法連接到服務器。",
     "product_is_unlicensed": "該產品是無牌的",
     "license_id": "許可證ID",
     "validity": "有效期",
     "unlimited": "無限",
     "region_restriction": "區域限制",
     "license_region_specific": "此區域特定的許可證僅允許在購買區域使用。購買地區以外的所有功能都將不可用。",
-    "expired": "已過期",
     "trial_mode": "試用模式",
-    "license_expired_desc": "試用版/許可證已過期。生產力工具將被禁用。<br>請給我們發送電子郵件至support@radicasoftware.com了解更多信息。",
-    "license_expired": "試用版/許可證已過期",
     "trial_left": "您目前處於試用模式。您的許可將在@@天后過期",
+    "expired": "已過期",
+    "license_expired": "試用版/許可證已過期",
     "license_has_expired": "您的許可證已過期。請續訂您的許可證。",
-    "err_6": "無法連接到服務器。"
+    "license_expired_desc": "試用版/許可證已過期。生產力工具將被禁用。<br>請給我們發送電子郵件至support@radicasoftware.com了解更多信息。"
   },
   "partner": {
-    "validating": "證實",
-    "partner": "夥伴"
+    "partner": "夥伴",
+    "validating": "證實"
   }
 }
