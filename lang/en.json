@@ -5,16 +5,16 @@
     "prompt_restore_team": "Do you know that you can restore your<br />team from trash even after leaving it?",
     "prompt_create_drawing": "Welcome back!<br /><br />What drawing will you create today?",
     "prompt_create_team": "Start creating a team and invite friends to<br />share drawings easily and collaborate in<br />real-time.<br /><br />Simply click on the '+' sign to create your<br />first team.",
-    "team_best": "Vecta works best in teams",
-    "team_start": "Let's get started by creating your first team",
+    "team_best": "Cloud Based Electrical CAD Software",
+    "team_start": "Invite your team member or client to collaborate in real-time. <br /><br /> Let's get started by creating your team",
     "team_placeholder": "My awesome team",
     "team_guide": "Drawings created in teams will be automatically shared among members, it's the easiest way to ensure your team get really productive.",
     "invite_header": "Invite your teammates",
     "invite_para": "Get your team running quickly by inviting your coworkers",
     "skip": "Skip?",
     "skip_tour": "Done this before? Skip the tour.",
-    "two_steps": "Step 1 of 2.",
-    "one_step": "Step 2 of 2.",
+    "two_steps": "Step 1 of 2. ",
+    "one_step": "Step 2 of 2. ",
     "final_step": "1 final step to go:",
     "next": "Next",
     "back": "Back",
@@ -188,7 +188,17 @@
     "ListCustomMenu.tip": "List custom menu",
     "personal.icon": "Personal Drawing: Home",
     "team.icon": "Team Drawing:",
-    "company.icon": "Company Drawing:"
+    "company.icon": "Company Drawing:",
+    "create_schem.icon": "Create schematic symbol",
+    "create_layout_sym.icon": "Create layout symbol",
+    "manage_db.icon": "Manage databases",
+    "options.icon": "Document options",
+    "title_blocks.icon": "Title blocks",
+    "manage_comps.icon": "Manage components",
+    "generate_layout.icon": "Generate layout",
+    "electra_export.icon": "Export reports",
+    "electra_import.icon": "Import reports",
+    "manage_wirings.icon": "Manage wirings"
   },
   "mssg": {
     "sending": "Sending",
@@ -205,7 +215,7 @@
     "checking_invite": "Checking your invitation",
     "not_supported_png": "Export PNG is currently not supported on Internet Explorer. <br /> Please try again with a different browser.",
     "not_supported_pdf": "Export PDF is currently not supported on Internet Explorer. <br /> Please try again with a different browser.",
-    "cannot_upload": "You must be logged in to import images into Vecta.",
+    "cannot_upload": "You must be logged in to import images into Electra Cloud.",
     "not_supported": "Browser not supported",
     "shape_prop_mssg": "Please select a shape",
     "no_menu": "No menu",
@@ -239,15 +249,32 @@
     "new_version_downloaded": "A new version has been downloaded. Restart the application to apply the updates.",
     "max_page": "Only 20 pages are allowed in Academic version.",
     "import_electra_drawing": "To import Electra drawing, please open a new drawing and drop the SVG file.",
-    "fail_create_google_file": "Failed to create Google file."
+    "fail_create_google_file": "Failed to create Google file.",
+    "cannot_edit_term_block": "You must be logged in to edit terminal block.",
+    "prefab_create": "Prefab circuit is created",
+    "license_expired": "Trial / License expired. Productivity tools from Electra Cloud will be disabled.",
+    "license_expired_banner": "Trial / License expired. <a href='./../../pricing'> Subscribe now!</a>",
+    "login_to_save_comp": "Please login to save your custom component to database",
+    "inserting_name": "Inserting name",
+    "import_drawing": "Importing drawing, may take a few minutes ",
+    "import_stencil": "Importing stencil, may take a few minutes ",
+    "update_linkage": "Updating linkages",
+    "update_lzone": "Updating Ladder Zones",
+    "update_layouts": "Updating layouts",
+    "update_wireIEC": "Updating wire IEC",
+    "update_auto_loc": "Updating AutoLocations",
+    "update_measure_tool": "Üpdating measurement tools",
+    "update_cable_tag": "Updating cable tags",
+    "no_internet": "No Internet connection",
+    "get_layshape_size": "Getting layout shape's dimension"
   },
   "login": {
     "collab": "Online",
-    "signin_title": "Vecta sign in",
-    "signup_title": "Vecta sign up",
+    "signin_title": "Electra Cloud sign in",
+    "signup_title": "Sign up for a free Electra Cloud 30 day trial",
     "signin_title_nano": "Nano Sign In",
     "signup_title_nano": "Nano Sign Up",
-    "reset_title": "Vecta reset password",
+    "reset_title": "Electra Cloud reset password",
     "reset_title_nano": "Nano Beta reset password",
     "name": "Name",
     "require_name": "Name is required",
@@ -261,7 +288,7 @@
     "go_signin": "Already have an account? Sign in now",
     "remember_password": "Log in",
     "reset_password": "Forgot password?",
-    "resetting_password": "Resetting Vecta password...",
+    "resetting_password": "Resetting Electra Cloud password",
     "signin": "Sign in with email",
     "signup": "Sign up with email",
     "signin_label": "Sign in with",
@@ -278,11 +305,11 @@
     "signup_saml": "Sign up with SAML",
     "signup_cancel": "No thanks",
     "network_failed": "Are you connected to the Internet? Please check your connection and try again.",
-    "user_disabled": "Your account has been disabled. If you think this is a mistake, please contact <a href=\"mailto:support@vecta.io\">support@vecta.io</a>.",
+    "user_disabled": "Your account has been disabled. If you think this is a mistake, please contact <a href=\"mailto:support@radicasoftware.com\">support@radicasoftware.com</a>.",
     "storage_disabled_title": "Storage disabled",
     "storage_disabled": "Your browser does not support web storage, or it has been disabled. <br />Please enable web storage in your browser or try again with a different browser.",
     "or": "OR",
-    "firebase_error": "If you are seeing this, please contact <a href=\"mailto:support@vecta.io\">support@vecta.io</a> with a screenshot of the error above.",
+    "firebase_error": "If you are seeing this, please contact <a href=\"mailto:support@radicasoftware.com\">support@radicasoftware.com</a> with a screenshot of the error above.",
     "wrong_credentials": "You have previously logged in using your email and password. <br /> Please log in with the email and password instead.",
     "social_no_email": "This @@ account doesn't have email.<br/>Please signup with an email or another account.",
     "invalid_email_pwd": "Invalid email or password",
@@ -309,22 +336,22 @@
     "ask_create_account": "<p>It seems that you've signed in, but we're unable to find any records of you registering with us.</p><p>Please click on the button below to start saving and sharing your drawings immediately!</p>",
     "dont_go": "We hate to see you go, but we totally understand, please come back anytime.",
     "redirect": "Redirecting",
-    "creating_account": "Creating Vecta account"
+    "creating_account": "Creating Electra Cloud account"
   },
   "verify": {
-    "unverified_not_found": "We are unable to verify your link. You may have already been registered with us. Please try to login again. If you are unable to log in, please contact us at hello@vecta.io.",
+    "unverified_not_found": "We are unable to verify your link. You may have already been registered with us. Please try to login again. If you are unable to log in, please contact us at support@radicasoftware.com.",
     "password_updated": "Your password has been updated",
     "verifying": "Verifying",
     "confirm": "Confirm your email address",
     "send_confirmation": "A confirmation email has been sent to ",
     "activate_account": "Click on the confirmation link in the email to activate your account.",
-    "landing": "Go to Vecta.io",
+    "landing": "Go to Electra Cloud",
     "landing_nano": "Go to Nano",
     "resend": "Resend confirmation email",
     "confirmation_sent": "Confirmation email sent",
     "signin_now": "Sign in now",
     "successful": "Verification success",
-    "successful_mssg": "You may now sign in to Vecta and start drawing. Don’t forget to invite your team and start collaborating.",
+    "successful_mssg": "You may now sign in to Electra Cloud and start drawing. Don’t forget to invite your team and start collaborating.",
     "failed": "Verification failed",
     "failed_mssg": "We are sorry but it seems your verification link has expired. Please sign in to resend verification email.",
     "email_signin_failed": "Sign in failed",
@@ -439,16 +466,16 @@
   },
   "email": {
     "over_invite": "Too many invites",
-    "over_limit": "Your account has reached our invitation limit. The limit will reset after some time. <br /> If this is a mistake, please contact hello@vecta.io",
+    "over_limit": "Your account has reached our invitation limit. The limit will reset after some time. <br /> If this is a mistake, please contact support@radicasoftware.com",
     "remind": "has reminded you to join Team",
     "waiting": "is waiting for you to join Team",
     "rejected": "has rejected your request to access",
-    "on_app": "on Vecta.io",
-    "with_you": "with you on Vecta.io",
+    "on_app": "on Electra Cloud",
+    "with_you": "with you on Electra Cloud",
     "join_team": "has invited you to join Team",
     "has_shared": "has shared",
-    "share_subject": "has shared @@ with you on Vecta.io",
-    "team_message": "Join Vecta.io to share and easily collaborate on drawings with your team mates.",
+    "share_subject": "has shared @@ with you on Electra Cloud",
+    "team_message": "Join Electra Cloud to share and easily collaborate on drawings with your teammates.",
     "team_instruction": "Please click on the button below and sign in to start accessing your team's drawings.",
     "team_button": "Join your team",
     "has_granted": "has granted you permission to access",
@@ -456,9 +483,9 @@
     "has_rejected": "has rejected your request to access",
     "manage_access": "Approve or reject this request",
     "please_click": "Please click on the button below and sign in to access it",
-    "open_drawing": "Open drawing in Vecta",
+    "open_drawing": "Open drawing in Electra Cloud",
     "welcome": "Welcome to Vecta!",
-    "slogan": "Vecta: Real time collaborative diagramming for teams",
+    "slogan": "Electra Cloud: Work from anywhere for higher productivity",
     "subject": "Subject"
   },
   "dash": {
@@ -501,7 +528,7 @@
     "create_folder": "Creating new folder",
     "create_doc": "Creating document",
     "create_template": "Creating new template",
-    "created_template": "Template successfully created",
+    "created_template": "Template successfully created.",
     "remove_template": "Removing template",
     "removed_template": "Template successfully removed",
     "loading_folders": "Loading folders",
@@ -520,7 +547,7 @@
     "copying": "Copying",
     "searching": "Searching",
     "not_found": "No results found",
-    "no_clone": "You cannot clone an empty drawing.",
+    "no_clone": "You can not clone an empty drawing.",
     "no_export": "You cannot export an empty drawing.",
     "template": "Template",
     "templates_title": "Browse templates",
@@ -571,10 +598,10 @@
     "create_ann": "Create an announcement",
     "send_ann": "Send announcement",
     "sent_ann": "Announcement successfully sent.",
-    "permission_given": "Push notifications are now enabled. <br /> Welcome aboard Vecta!",
+    "permission_given": "Push notifications are now enabled. <br /> Welcome aboard Electra Cloud!",
     "blocked": "Oops, looks like you have disabled desktop notification on your browser. <br /> You need to allow the notification to receive desktop notification.",
     "incognito": "Oops, looks like you are in privacy browsing mode which doesn't allow desktop notification. <br /> You need to allow the notification in default browsing mode to receive desktop notification.",
-    "request_permission": "Hi @@,<br /><br />Get notified when your teammates make changes in your team or drawing.<br /><br />Would you like to enable desktop notifications?",
+    "request_permission": "Hello @@,<br /><br />Get notified by Electra Cloud when your teammates make a change in your team or drawing.<br /><br />Would you like to enable desktop notifications?",
     "allow": "Allow",
     "deny": "Deny",
     "see_more": "See more",
@@ -638,10 +665,8 @@
     "publish_before_copy": "Please publish the drawing before you can copy the link"
   },
   "dialog": {
-    "get_color.drop": {
-      "yes": "yes"
-    },
-    "help_title": "Vecta Help",
+    "get_color.drop": {},
+    "help_title": "Electra Help",
     "help_search": "Type something to search"
   },
   "integrate": {
@@ -651,12 +676,12 @@
     "success": "Integration successful"
   },
   "slack": {
-    "sending_failed": "Unable to communicate with Slack. Please retry integrating Vecta with Slack.",
+    "sending_failed": "Unable to communicate with Slack. Please retry integrating Electra Cloud with Slack.",
     "group_message": "Group messaging",
-    "no_teams": "You have not integrated any Slack teams to Vecta.",
+    "no_teams": "You have not integrated any Slack teams to Electra Cloud.",
     "contacting": "Contacting Slack",
     "add": "Add to Slack",
-    "user_welcome": "Thank you for installing Vecta for Slack. You can now start inviting your team members to Vecta and share drawing links to any of the channels in this team.",
+    "user_welcome": "Thank you for installing Electra Cloud for Slack. You can now start inviting your team members to Electra Cloud and share drawing links to any of the channels in this team.",
     "add_more": "Add Slack Team",
     "added_teams": "Slack Teams",
     "shared_drawing": "has shared @@ with the team.",
@@ -673,17 +698,17 @@
     "checking_team": "Checking team...",
     "integrated_message": "Your team is already connected to a Slack channel @@.<br /> By continuing you will replace current Slack channel.<br /><br />Do you wish to continue?",
     "link_shared": "Drawing link sent.",
-    "success_integrate": "You can now invite your Slack team members to Vecta and share links to @@! <br /> This page will automatically redirect in 10 seconds.",
+    "success_integrate": "You can now invite your Slack team members to Electra Cloud and share links to @@! <br /> This page will automatically redirect in 10 seconds.",
     "channel_link": "Choose a channel to share the link",
     "confirm": "Team successfully removed.",
     "team_integrate": "Invite your Slack channel",
     "code_invalid": "The code is invalid. Please retry Slack integration.",
     "integration": "Slack integration: ",
-    "ben1": "-Share Vecta drawing directly to your Slack channels",
-    "ben2": "-Invite Slack channel members into Vecta teams",
+    "ben1": "-Share Electra Cloud drawing directly to your Slack channels",
+    "ben2": "-Invite Slack channel members into Electra Cloud teams",
     "coming_soon": "Coming soon: Notification",
     "channel_label": "Channel list",
-    "team_guide": "Slack integration allows you to share Vecta drawing directly to your Slack Channels and invite your Slack channel members into Vecta teams."
+    "team_guide": "Slack integration allows you to share Electra Cloud drawing directly to your Slack Channels and invite your Slack channel members into Vecta teams."
   },
   "ui": {
     "event": "Event",
@@ -697,7 +722,7 @@
     "the_group_shape_has_shadow_already": "The group has shadow already.",
     "change": "Change",
     "angle": "Angle",
-    "app_name": "Vecta",
+    "app_name": "Electra Cloud",
     "search": "Search",
     "feedback": "Feedback",
     "feedback_and_bug": "Feedback and Bug Reporting",
@@ -796,7 +821,7 @@
     "no_access": "Drawing no longer exists, or access is denied by owner.<br /><span class='Muted.cls'>Error: 0010</span>",
     "png_generation_failed": "The image you requested could not be generated. <br /><span class='Muted.cls'>Error: 0011</span>",
     "no_channels": "Unable to get channels. <br /><span class='Muted.cls'>Error: 0012</span>",
-    "mismatched_code": "Vecta could not be added to your Slack team. <br/>Please ensure that you have clicked on a valid Slack button from Vecta. <br /><span class='Muted.cls'>Error: 0013</span>",
+    "mismatched_code": "Electra Cloud could not be added to your Slack team. <br/>Please ensure that you have clicked on a valid Slack button from Electra Cloud. <br /><span class='Muted.cls'>Error: 0013</span>",
     "not_published": "The drawing is not published, or publishing has been retracted. <br /><span class='Muted.cls'>Error: 0014</span>",
     "no_stencil": "The stencil you requested no longer exists, or you have no permission to access it.<br /><span class='Muted.cls'>Error: 0015</span><br /><span class='Muted.cls'>SID: @@</span>",
     "no_symbol": "The symbol you requested no longer exists, or you have no permission to access it.<br /><span class='Muted.cls'>Error: 0016</span><br /><span class='Muted.cls'>SID: @@</span>",
@@ -843,10 +868,10 @@
     "ctrl_v": "Press CTRL-V to paste from system clipboard",
     "saving": "Saving",
     "all_changes_saved": "All changes saved",
-    "wrong_file_type": "Vecta currently does not accept this file type. (Supported type: png, jpeg, gif and svg)",
+    "wrong_file_type": "Electra Cloud currently does not accept this file type. (Supported type: png, jpeg, gif and svg)",
     "downloaded_svg_only": "This feature only accepts SVG files from File > Download.",
-    "exported_svg": "Vecta does not accept exported svg. <br />Please select files downloaded from the option File > Download Drawing instead.",
-    "one_img_only": "Vecta accepts only 1 file at a time.",
+    "exported_svg": "Electra Cloud does not accept exported svg. <br />Please select files downloaded from the option File > Download Drawing instead.",
+    "one_img_only": "Electra Cloud accepts only 1 file at a time.",
     "copy_link": "Copy link",
     "properties": "Properties",
     "shape": "Shape",
@@ -950,8 +975,8 @@
     "replace_text": "Replace",
     "replace_all": "Replace All",
     "search_result": "@@ found",
-    "sample_0": "Welcome to Vecta",
-    "sample_1": "Team Diagramming",
+    "sample_0": "Electra Sample Drawing",
+    "sample_1": "IEC Sample Drawing",
     "sample_2": "Business Model Canvas",
     "sample_3": "Welcome to your Team",
     "copy_of": "Copy of ",
@@ -1025,7 +1050,7 @@
     "no_friend_to_tag": "No friends found in this drawing.<br />Share this drawing to your friends in order to tag them.",
     "invite_friend": "Share Drawing",
     "tagged_list": "Tagged list",
-    "demo_collab_noti": "This document is a multi user, real time collaborative document",
+    "demo_collab_noti": "Try Electra Cloud FREE for 30 days, no strings attached <a href=\"/app/login.php?mode=signup&src=demo\" class=\"Button.cls\">Sign up</a>",
     "save_to_edit": " or it will be lost upon refresh",
     "signup_to_save": "Sign up to save your changes",
     "save_to_dashboard": "Save drawing to your account",
@@ -1041,7 +1066,7 @@
     "no_effects": "Please add an effect",
     "menu_title": "Title",
     "attachment": "Attachment",
-    "done": "Done, thank you for the request",
+    "done": "Done",
     "yes": "Yes",
     "no": "No",
     "show_dev": "Developer mode enabled",
@@ -1095,7 +1120,451 @@
     "err_object": "Error object",
     "page_scope": "Page Scope:",
     "doc_scope": "Document Scope:",
-    "tblock_empty": "Please insert title block data"
+    "tblock_empty": "Please insert title block data",
+    "slogan": "Cloud based Electrical CAD Software",
+    "stencil": "Stencil",
+    "keyword": "Keyword",
+    "all_stencils": "All stencils",
+    "not_found": "No results found",
+    "electrical": "Electrical",
+    "pneumatic": "Pneumatic",
+    "hydraulic": "Hydraulic",
+    "terminal": "Terminal",
+    "sorting_shapes": "Sorting Shapes",
+    "all_pages": "All Pages",
+    "this_page": "This Page",
+    "comp_db": "Component database",
+    "sort_by": "Sort by",
+    "sort": "Sort",
+    "category": "Category",
+    "categories": "Categories",
+    "add_comp": "Add new component",
+    "edit_comp": "Edit component",
+    "del_comp": "Delete component",
+    "updating_comp": "Updating component",
+    "removing_comp": "Removing component",
+    "confirm_del_comp": "Are you sure you want to delete this component?",
+    "confirm_del_cat": "Are you sure you want to delete this category?",
+    "confirm_del_cat_comp": "Are you sure you want to remove this component from the category?",
+    "updating_cat": "Updating category",
+    "removing_cat": "Removing category",
+    "rem_cat_comp": "Remove component from category",
+    "add_cat": "Add category",
+    "add_to": "Add to",
+    "edit_cat": "Edit category",
+    "del_cat": "Delete category",
+    "cat_name": "Category Name",
+    "get_layouts": "Getting layout shapes",
+    "create_layout": "Creating layout symbol",
+    "cat_comp_existed": "The component already exist in the category",
+    "brand": "Brand",
+    "rating": "Rating",
+    "model": "Model",
+    "order_no": "Order No",
+    "supplier": "Supplier",
+    "remarks": "Remarks",
+    "price": "Price",
+    "layout": "Layout",
+    "layshape": "Layout Shape",
+    "comp_name": "Component Name",
+    "diameter": "Diameter",
+    "dimension": "Dimension",
+    "help_dimension": "Accepts all major units. E.g. 2 mm, 2 in, 2 cm etc.",
+    "include_layout": "Include Component in Layout",
+    "include_in_layout": "Included in layout",
+    "quantity": "Quantity",
+    "symbol": "Symbol",
+    "pin": "Pin name",
+    "get_comp": "Getting components",
+    "add": "Add",
+    "select": "Select",
+    "symbol_type": "Symbol Type",
+    "default_ref": "Default Reference",
+    "default_verti": "Vertical by default",
+    "no_desc": "No description",
+    "insert_sym_menu": "Insert Horizontal/Vertical Menu",
+    "show_all_comp": "Show All",
+    "search_comp": "Search components",
+    "generate_symbol": "Generating symbol",
+    "create_sym": "Create symbol",
+    "combine_shapes": "Multiple shapes selected. Do you want to combine them into one shape?",
+    "desc_text": "Description text",
+    "invalid_value": "Invalid Value",
+    "invalid_default_ref": "Zero length or empty strings not allowed for default reference",
+    "invalid_sym_name": "Zero length or empty strings not allowed for symbol name",
+    "invalid_size": "Invalid size units. Valid size units are 10mm, 20in, 30cm, etc.",
+    "add_pin_names": "Do you want to add pin names for this symbol?",
+    "generate": "Generate",
+    "generate_all": "Generate All",
+    "help_pin_names": "e.g. 13, 23, 33. Separate pin set names with comma.",
+    "sym_priority": "Priority",
+    "loc_type": "Location Type",
+    "text_orient": "Text Orientation",
+    "text_pos": "Text Position",
+    "no_conn_pts": "No connection points found",
+    "select_comp": "Select Component",
+    "selected_comp": "Selected Component",
+    "sym_name": "Symbol name",
+    "sym_prompt": "Symbol prompt",
+    "verti": "Vertical",
+    "horiz": "Horizontal",
+    "wire_name": "Wire name",
+    "hose_name": "Hose name",
+    "tube_name": "Tube name",
+    "cur_name": "Current name",
+    "hide_wire_name": "Hide wire name",
+    "hide_tube_name": "Hide tube name",
+    "hide_hose_name": "Hide hose name",
+    "show": "Show",
+    "click_wire": "Click on a wire name to show location",
+    "click_hose": "Click on a hose name to show location",
+    "click_tube": "Click on a tube name to show location",
+    "exists_wires": "Existing wire names",
+    "exists_hoses": "Existing hose names",
+    "exists_tubes": "Existing tube names",
+    "set_no_name": "Set to NoName",
+    "no_name": "NoName",
+    "shapes": "Shapes",
+    "ref": "Reference",
+    "refs": "References",
+    "selected_ref": "Shapes for selected reference",
+    "all_shapes": "All Shapes",
+    "this_shape": "This Shape",
+    "component": "Component",
+    "components": "Components",
+    "hide_desc": "Hide description",
+    "hide_ref": "Hide reference",
+    "use_page_prefix": "Use page prefix",
+    "use_panel_prefix": "Use panel prefix",
+    "set_pin_names": "Set pin names",
+    "show_pin": "Show pin names",
+    "hide_pin": "Hide pin names",
+    "edit_pin": "Edit pin set",
+    "add_pin": "New pin set",
+    "del_pin": "Delete pin set",
+    "select_pin": "Select pin set. (Right-click for more options)",
+    "incorrect_pin": "Incorrect number of pins",
+    "locate_ref": "Locate reference",
+    "loc_col": "Arrange locations in column(s)",
+    "ref_not_found": "Reference not found",
+    "no_shape_for_ref": "No shape found for reference @@",
+    "hide_loc": "Hide location",
+    "select_loc_hide": "Select location to hide",
+    "chk_unchk_all": "Check / Uncheck all",
+    "plc_mod": "PLC Module",
+    "plc_point": "Initial Point",
+    "connector": "Connector",
+    "num_points": "Number of Points",
+    "max_inc": "Max. Increment",
+    "disable_pl": "Hide Pilot Lights",
+    "width": "Width",
+    "auto": "Auto",
+    "top_bottom": "Top-Bottom",
+    "ref_desc_position": "Reference and description position",
+    "spacing": "Spacing",
+    "save_as_new_comp": "Save As New Component",
+    "close": "Close",
+    "save_comp": "Save changes to component data?",
+    "ref_pos": "Reference Position",
+    "qty_pos": "Quantity Position",
+    "manage_comps": "Manage components",
+    "gen_layout": "Generate layout",
+    "grouping": "Grouping",
+    "panel": "Panel",
+    "insert_data": "Insert All Data into Drawing",
+    "no_comp": "No component found",
+    "gen_lay_new_page": "Generate to New Page",
+    "group": "Group",
+    "gen_tlist": "Generate Terminal Block Listing",
+    "term_per_row": "Terminals Per Row",
+    "scan_terms": "Scanning Terminals",
+    "gen_term_lists": "Generating Terminal Block Listing",
+    "renum_list": "Renumber Terminals",
+    "start_num": "Starting number",
+    "suffix_char": "Suffix characters",
+    "suffix_char_mssg": "Optional, comma separated",
+    "hide_tblock_txt": "Hide terminal block reference",
+    "wire_link": "Wire link",
+    "get_wire_link": "Getting wire links",
+    "available_link": "Available Link",
+    "name_label": "Wire name - location",
+    "show_all": "Show all links",
+    "create_tdata": "Insert title block data",
+    "create_tblock": "Create title block",
+    "def_val": "Default value",
+    "prompt": "Prompt",
+    "no_shape": "Please select a shape",
+    "dup_names": "Duplicated Data Name",
+    "dup_names_mssg": "Grouped Title Block contains blocks with duplicated data names.\nPlease ungroup and edit to ensure all blocks have unique data names.",
+    "gen_tblock": "Generating Title Block",
+    "loc_info_1": "Electra will list shape locations based",
+    "loc_info_2": "on an invisible grid, set the grid starting",
+    "loc_info_3": "length and spacing to your requirements",
+    "loc_format_help": "Example: /3.A5",
+    "units_help": "Accepts in, cm, mm, px",
+    "general_options": "General Options",
+    "electra_options": "Electra Options",
+    "ref_pop_up": "Popup reference window on drop",
+    "auto_resize": "Automatic in/mm/cm/meters resize",
+    "wire_propagation": "Automatic wire propagation and detection",
+    "term_split_wire": "Split wires when dropping terminals",
+    "conn_dot": "Automatically manage connection dots for wires",
+    "straighten_wire": "Automatically adjust and straighten wires",
+    "enable_panel_prefix": "Enable panel prefix on references",
+    "ask_create_cable": "Popup to ask for actions when no cable core available",
+    "renum_lzone": "Automatically renumber symbols/wires when moved within ladder zone",
+    "sym_split_wire": "Split wires when dropping symbols",
+    "auto_wiring_label": "Automatically wire symbols on drop",
+    "auto_renumbering_label": "Use smart numbering without popups",
+    "page_prefix": "Page Prefix",
+    "page_prefix_ref": "Enable on references",
+    "page_prefix_wires": "Enable on wires",
+    "wire_sep": "Separator for wire",
+    "wire_sep_help": "Separator cannot have numeric values, e.g. 0-9",
+    "auto_placement": "Automatically place layout symbols on rails",
+    "placement_offset": "Placement offset",
+    "auto_rename": "Auto Rename",
+    "wire_tab": "Wire names/Symbol references",
+    "tube_tab": "Tube names/Hose names",
+    "from": "From",
+    "to": "To",
+    "cross_ref": "Cross reference report",
+    "mat_ref_report": "Material reference report",
+    "bom_report": "Bill of material",
+    "listing": "Listing",
+    "select_all": "Select all",
+    "generating_report": "Generating report",
+    "get_syms_info": "Getting symbols information",
+    "exporting_report": "Exporting report",
+    "reuse_existing": "Reuse existing reports",
+    "remove_existing": "Remove existing reports and generate new",
+    "ignore_existing": "Ignore or keep existing reports and generate new",
+    "all_fields_required": "ALL fields are required to be used as import file, except for Location field.",
+    "import_mat_ref": "Import Material Reference",
+    "file": "File",
+    "status": "Status",
+    "import": "Import",
+    "found_mat_ref": "Found valid material reference report @@.",
+    "loading_storage": "Loading data from storage",
+    "init_compo_pages": "Initializing components and loading pages",
+    "invalid_price": "invalid price data",
+    "invalid_width_height": "invalid width or height value",
+    "invalid_layout_shp": "invalid layout shape data",
+    "invalid_qty": "invalid quantity data",
+    "warning": "Warning",
+    "invalid_group": "Invalid group data",
+    "processed": "Processed",
+    "import_finished": "Import finished, you may now close this dialog.",
+    "invalid_mat_ref": "Error: Not a valid material reference report file.",
+    "reading_file": "Reading file... (@@%)",
+    "error_upload_file": "Error: Please upload a file.",
+    "generating_layout": "Generating Layout",
+    "creating_prefab": "Creating Prefab Circuit",
+    "single_sym": "Single symbol selected. Required more symbols.",
+    "no_shape_selected": "No shape selected",
+    "saved_comp": "Saved component",
+    "scanning": "Scanning",
+    "document_options_help": "Electra will list shape locations based on an invisible grid, set the grid starting length and spacing to your requirements",
+    "separator": "Separator",
+    "location_format": "Location format",
+    "comp_db_help": "Drag and drop from components to category to organize components.<br/>Right click on components for more options.",
+    "auto_rename_help": "Select to retain original name, deselect to rename, <br />or cancel to retain all original names",
+    "wires": "Wires",
+    "tubes": "Tubes",
+    "hoses": "Hoses",
+    "previous": "Previous",
+    "invalid_prefix": "Invalid page prefix",
+    "invalid_prefix_content": "Invalid page number.<br/> The page prefix for this shape will not be automatically updated.",
+    "create_layout_sym": "Create layout symbol",
+    "error_layout_sym": "Selected shape is not layout symbol or normal shape",
+    "duplicate_laysym_name": "There is already layout symbol with the name. Please try again",
+    "insert_horizontal_menu": "Insert Horizontal / Vertical menu",
+    "is_circle": "Shape is a circle",
+    "cable_info": "Cable information",
+    "tubing_info": "Tubing information",
+    "hosing_info": "Hosing information",
+    "core_names": "Core Names",
+    "core_names_help": "Comma separated, e.g: Red, Yellow, Blue",
+    "core_name": "Core Name",
+    "cores": "Cores",
+    "gauge": "Size / gauge",
+    "connect_to": "Connect to",
+    "cable": "Cable",
+    "tubing": "Tubing",
+    "hosing": "Hosing",
+    "insert": "Insert",
+    "filter_by": "Filter by",
+    "show_only": "Show only",
+    "none": "None",
+    "cable_db": "Cable database",
+    "tube_db": "Tubing database",
+    "hose_db": "Hosing database",
+    "view_edit": "View/Edit",
+    "new_cable": "New cable",
+    "edit_cable": "Edit cable",
+    "delete_cable": "Delete cable",
+    "save_new_cable": "Save as new cable",
+    "new_tubing": "New tubing",
+    "edit_tubing": "Edit tubing",
+    "delete_tubing": "Delete tubing",
+    "save_new_tubing": "Save as new tubing",
+    "new_hosing": "New hosing",
+    "edit_hosing": "Edit hosing",
+    "delete_hosing": "Delete hosing",
+    "save_new_hosing": "Save as new hosing",
+    "arrange": "Arrange",
+    "confirm_del_cable": "Are you sure you want to delete @@?",
+    "updating_db": "Updating database",
+    "removing": "Removing",
+    "invalid_core": "Invalid core name",
+    "invalid_cable_name": "Cable name cannot empty",
+    "arrange_cores": "Arrange cores",
+    "core_list_label": "Core name Wire name - location",
+    "arrange_cores_help": "Drag and drop wires to arrange.<br/> Drag to above to remove.<br/> Drag from above to left to insert.",
+    "set_numbers": "Set Numbers",
+    "set_ladder_zone": "Set Ladder Zone",
+    "rung_height": "Rung Height",
+    "rung_width": "Rung Width",
+    "rung_count_vert": "Rung Count (Vertical)",
+    "rung_count_horiz": "Rung Count (Horizontal)",
+    "first_rung": "First Rung",
+    "first_step": "First Step",
+    "steps": "Steps",
+    "rung_increment": "Rung Increment",
+    "rung_count_error": "Invalid rung count value, rung count need to be at least 2",
+    "assign_wire_core": "Please assign the current wire to a core",
+    "getting_connections": "Getting connection list",
+    "save_wire": "Save changes into wire?",
+    "comp_id": "Component ID",
+    "cable_id": "Cable ID",
+    "hose_id": "Hosing ID",
+    "tube_id": "Tubing ID",
+    "getting_cable": "Getting Cable information",
+    "no_more_core": "The cable assigned to the wire has no more available core.<br/>Please choose to assign a new cable or remove cable.",
+    "always_new_cable": "Do not ask this again and always assign new cable",
+    "assign_new_cable": "Assign new cable",
+    "remove_cable": "Remove cable",
+    "wire": "Wire",
+    "tube": "Tube",
+    "hose": "Hose",
+    "hide_default_cable": "Hide default cable",
+    "hide_default_tubing": "Hide default tubing",
+    "hide_default_hosing": "Hide default hosing",
+    "cable_info_as_col": "Show cable information as columns",
+    "tubing_info_as_col": "Show tubing information as columns",
+    "hosing_info_as_col": "Show hosing information as columns",
+    "cable_ref": "Cable reference report",
+    "tubing_ref": "Tubing reference report",
+    "hosing_ref": "Hosing reference report",
+    "cable_bom": "Cable bill of material (BOM) report",
+    "tubing_bom": "Tubing bill of material (BOM) report",
+    "hosing_bom": "Hosing bill of material (BOM) report",
+    "connections_report": "Connections report",
+    "sym_drawing": "Symbols on drawing",
+    "unique_id": "UniqueID (Do Not Modify)",
+    "symbol_id_not_exist": "Warning: Symbol with unique ID \"@@\" does not exist.",
+    "report_pins_not_match": "Warning: Number of pins in drawing does not match the report for symbol \"@@\".",
+    "wires_drawing": "Wires on drawing",
+    "tubes_drawing": "Tubes on drawing",
+    "hoses_drawing": "Hoses on drawing",
+    "import_wires_drawing": "Import Wires on Drawing",
+    "import_tubes_drawing": "Import Tubes on Drawing",
+    "import_hoses_drawing": "Import Hoses on Drawing",
+    "invalid_report": "Error: Invalid report file.",
+    "num_of_cores": "Number of cores",
+    "all_core_names": "All core names",
+    "cable_gauge": "Cable size / gauge",
+    "tubing_gauge": "Tubing size / gauge",
+    "hosing_gauge": "Hosing size / gauge",
+    "cable_length": "Cable length",
+    "tubing_length": "Tubing length",
+    "hosing_length": "Hosing length",
+    "amount": "Amount",
+    "wire_loc": "Wire location",
+    "tube_loc": "Tube location",
+    "hose_loc": "Hose location",
+    "cable_name": "Cable name",
+    "tubing_name": "Tubing name",
+    "hosing_name": "Hosing name",
+    "updating_cable_tag": "Updating cable tag",
+    "updating_tubing_tag": "Updating tubing tag",
+    "updating_hosing_tag": "Updating hosing tag",
+    "core_no": "Core No.",
+    "from_ref": "Reference (From)",
+    "from_loc": "Location (From)",
+    "from_pin": "Pin name (From)",
+    "to_ref": "Reference (To)",
+    "to_loc": "Location (To)",
+    "to_pin": "Pin name (To)",
+    "pin_name": "Pin name",
+    "scan_connections": "Scanning connections",
+    "err_layshape_symbol": "Selected shape is a symbol. A symbol cannot be a layout shape",
+    "err_layshape_wire": "Selected shape is a wire. A wire cannot be a layout shape",
+    "err_layshape_tube": "Selected shape is a tube. A tube cannot be a layout shape",
+    "err_layshape_hose": "Selected shape is a hose. A hose cannot be a layout shape",
+    "err_layshape_pipe": "Selected shape is a pipe. A pipe cannot be a layout shape",
+    "err_layshape_terminal": "Selected shape is a terminal. A terminal cannot be a layout shape",
+    "insert_wire": "Please confirm inserting the following wire name (all others will be moved back): <br/> <br/>",
+    "insert_tube": "Please confirm inserting the following tube name (all others will be moved back): <br/> <br/>",
+    "insert_hose": "Please confirm inserting the following hose name (all others will be moved back): <br/> <br/>",
+    "insert_name": "Insert name",
+    "invalid_symtype": "Invalid symbol type",
+    "no_stencil_id": "Please provide stencil id",
+    "error_connects_pin": "Pins and connection points should have the same amount",
+    "error_pin": "Please provide pins in the options",
+    "searching": "Searching",
+    "search_layout": "Search layout shape",
+    "select_cat": "Select category",
+    "search_cat": "Search category",
+    "clear": "Clear",
+    "click_edit": "Click to edit",
+    "edit": "Edit",
+    "reading_comp": "Reading component",
+    "export_format": "Export format",
+    "tsv": "Tab Separated Values (*.tsv)",
+    "csv": "Comma Separated Values (*.csv)",
+    "json": "JavaScript Object Notation (*.json)",
+    "loading": "Loading",
+    "scan_autoloc": "Scanning auto locations",
+    "updating_autoloc": "Updating auto locations",
+    "auto_wiring": "Auto wiring",
+    "wire_sym_not_found": "The @@ symbol is not found. <br/>Please ensure the <b>%%</b> stencil is expanded or <br/>automatic wiring when dropping symbol is disabled in Document Options.",
+    "generating_toc": "Generating table of contents",
+    "reuse_toc": "Do you want to reuse current TOC?",
+    "display_term_loc": "Display terminal location",
+    "set_wire_bus": "Set Wire Bus",
+    "wire_spacing": "Wire Spacing",
+    "wires_number": "Number of Wires",
+    "get_wire_bus": "Getting wire buses",
+    "wire_bus": "Wire bus",
+    "removing_cable_core": "Removing wire from cable core",
+    "restart_prompt": "Please restart the application",
+    "start_backup": "Start backup",
+    "backup_path": "Backup path",
+    "disconnect": "Internet disconnected. Please ensure you have Internet access to backup your files.",
+    "backup_app": "Electra Cloud backup",
+    "last_backup": "Last backup",
+    "checking_drawings": "Checking owned drawings",
+    "backup_completed": "Backup completed",
+    "getting_drawing": "Getting drawing",
+    "empty_drawing": "Drawing is empty",
+    "encounter_err": "Encounter error",
+    "does_not_exist": "@@ no longer exists.",
+    "reset_path": "Kindly goto File | Preferences | Files to change the directory and <b>restart</b> the application.",
+    "hide_labels": "Labels",
+    "area": "Size/Gauge",
+    "order": "Order No.",
+    "core": "Core",
+    "edit_cable_tag": "Edit cable tag",
+    "edit_hosing_tag": "Edit hosing tag",
+    "edit_tubing_tag": "Edit tubing tag",
+    "edit_comp_tag": "Edit component tag",
+    "show_cable_info": "Show cable information",
+    "show_hosing_info": "Show hosing information",
+    "show_tubing_info": "Show tubing information",
+    "show_comp_info": "Show component information",
+    "height": "Height",
+    "qty": "Quantity"
   },
   "onshape": {
     "logged_out": "You have been logged out. Please sign in again",
@@ -1338,9 +1807,98 @@
     "reset_ratio": "Reset ratio",
     "make_default": "Make Default",
     "remove_default": "Remove Default",
-    "open_as_new_drawing": "Open as New Drawing"
+    "open_as_new_drawing": "Open as New Drawing",
+    "create_tdata": "Insert title block data",
+    "create_tblock": "Create title block",
+    "cross_ref": "Cross reference report",
+    "mat_ref_report": "Material reference report",
+    "bom_report": "Bill of materials (BOM) report",
+    "cable_ref_report": "Cable reference report",
+    "tubing_ref_report": "Tubing reference report",
+    "hosing_ref_report": "Hosing reference report",
+    "cable_bom_report": "Cable bill of materials (BOM) report",
+    "tubing_bom_report": "Tubing bill of materials (BOM) report",
+    "hosing_bom_report": "Hosing bill of materials (BOM) report",
+    "electrical_connections_report": "Electrical connections report",
+    "pneumatic_connections_report": "Pneumatic connections report",
+    "hydraulic_connections_report": "Hydraulic connections report",
+    "sym_drawing": "Symbols on drawing",
+    "wires_drawing": "Wires on drawing",
+    "tubes_drawing": "Tubes on drawing",
+    "hoses_drawing": "Hoses on drawing",
+    "comp_db": "Component database",
+    "cable_db": "Cable database",
+    "tubing_db": "Tubing database",
+    "hosing_db": "Hosing database",
+    "manage_cable": "Manage cables",
+    "manage_tubing": "Manage tubings",
+    "manage_hosing": "Manage hosing",
+    "view_edit": "View and Edit",
+    "export_as_tsv": "Export as TSV",
+    "export_bom": "Export BOM"
   },
   "stencil": {
+    "free_svg_symbols": "Free SVG Symbols",
+    "request_symbols_title": "Request for symbols",
+    "request_symbols": "Request Symbols",
+    "no_exist": "Unable to set the following items. The stencil may no longer exists, or <br /> you do not have the permission to access it.",
+    "symbol_no_exist": "Unable to set the following items. The symbol may no longer exists, or <br /> you do not have the permission to access it.",
+    "create_stencil": "Create stencil",
+    "confirm_del": "Deleting a stencil is a non reversible action.<br /><br />Are you sure you want to delete this stencil?",
+    "no_drop_symbol": "You cannot save a symbol into the saved search stencil.",
+    "untitled_symbol": "Untitled symbol",
+    "untitled_stencil": "Untitled stencil",
+    "drop_shapes": "Drop shapes here",
+    "stencil_name": "Stencil name",
+    "not_updateable": "Stencil not updated",
+    "symbol_not_updateable": "Symbol not updated",
+    "stencil_desc": "Stencil description",
+    "stencil_cat": "Stencil category (Separate with comma)",
+    "stencil_cat_place": "General, People, Brands",
+    "stencil_access": "Stencil Access",
+    "public_stencil": "Public - Anyone can access symbols",
+    "private_stencil": "Private - Only you or your team can access symbols",
+    "symbol_name": "Name",
+    "no_symbol": "Oops, no symbols found",
+    "symbol_desc": "Description",
+    "delete_stencil": "Delete stencil",
+    "removed": "Some stencils are not moved because it has been removed, or you are not allowed to begin with.",
+    "sym_update_failed": "Some symbol(s) are not updated because they <br /> no longer exist, or you do not have permission.",
+    "symbol_tags": "Tags (Separate with comma)",
+    "no_edit_stencil": "You do not have permission to edit this stencil.",
+    "no_share_stencil": "You do not have permission to share this stencil.",
+    "no_edit_symbol": "You do not have permission to edit this symbol.",
+    "no_delete_symbol": "You do not have permission to delete this symbol.",
+    "login_make_symbol": "Please sign in to create a symbol.",
+    "login_save_symbol": "Please sign in to save your symbol.",
+    "stencils": "Stencils",
+    "load_stencils": "Loading stencils...",
+    "creating_search": "Creating stencil...",
+    "loading": "Getting symbols",
+    "getting_stencils": "Getting stencils",
+    "importing": "Importing data",
+    "save_search": "Save search",
+    "imported": "Importing data completed",
+    "total_results": "of @@ results shown",
+    "find_symbols": "Find symbols",
+    "icon_preview": "Preview",
+    "all_saved": "All stencil changes saved",
+    "offline": "You are currently offline. Please try again when you are online.",
+    "success_refresh": "Symbol successfully refreshed.",
+    "fail_refresh": "Symbol no longer exist.",
+    "open_all": "Open all stencils",
+    "sym_copied": "Symbol copied",
+    "drop_symbol": "Dropping symbol",
+    "show_more": "Show more",
+    "saving_stencils": "Saving stencils",
+    "credits_to": "Credits to",
+    "credits_link": "Credits link",
+    "downloading_stencil": "Downloading stencil...",
+    "no_symbols_download": "No symbols to download",
+    "uploading_stencil": "Uploading stencil...",
+    "upload_stencil_error": "Error uploading stencil",
+    "upload_stencil_success": "Stencil uploaded",
+    "no_file_chosen": "No file chosen",
     "stencil_0": {
       "name": "Flow Chart",
       "desc": "General flow chart symbols",
@@ -1348,242 +1906,11 @@
         "Charts and diagrams"
       ]
     },
-    "stencil_1": {
-      "name": "Colorful notes",
-      "desc": "Colorful notes symbols",
-      "cat": [
-        "People, flags & documents"
-      ]
-    },
-    "stencil_3": {
-      "name": "Google",
-      "desc": "Editable Google product icon set available in SVG, PNG and JPG. Download or edit right in the browser.",
-      "cat": [
-        "Google"
-      ]
-    },
-    "stencil_4": {
-      "name": "Google Cloud Platform",
-      "desc": "Editable Google cloud platform icon set available in SVG, PNG and JPG. Download or edit right in the browser.",
-      "cat": [
-        "Google"
-      ]
-    },
-    "stencil_5": {
-      "name": "AWS Analytics",
-      "desc": "Amazon Web Services: Analytics",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_6": {
-      "name": "AWS Application Services",
-      "desc": "Amazon Web Services: Application services",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_7": {
-      "name": "AWS Artificial Intelligence",
-      "desc": "Amazon Web Services: Artificial intelligence",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_8": {
-      "name": "AWS Business Productivity",
-      "desc": "Amazon Web Services: Business productivity",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_9": {
-      "name": "AWS Compute",
-      "desc": "Amazon Web Services: Compute",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_10": {
-      "name": "AWS Database",
-      "desc": "Amazon Web Services: Database",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_11": {
-      "name": "AWS Desktop App Streaming",
-      "desc": "Amazon Web Services: Desktop application streaming",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_12": {
-      "name": "AWS Developer Tools",
-      "desc": "Amazon Web Services: Developer tools",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_13": {
-      "name": "AWS Game Development",
-      "desc": "Amazon Web Services: Game development",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_14": {
-      "name": "AWS General",
-      "desc": "Amazon Web Services: General",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_15": {
-      "name": "AWS Internet of Things",
-      "desc": "Amazon Web Services: Internet of things",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_16": {
-      "name": "AWS Management Tools",
-      "desc": "Amazon Web Services: Management tools",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_17": {
-      "name": "AWS Messaging",
-      "desc": "Amazon Web Services: Messaging",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_18": {
-      "name": "AWS Migration",
-      "desc": "Amazon Web Services: Migration",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_19": {
-      "name": "AWS Mobile Services",
-      "desc": "Amazon Web Services: Mobile services",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_20": {
-      "name": "AWS Networking & Content Delivery",
-      "desc": "Amazon Web Services: Networking and content delivery",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_21": {
-      "name": "AWS On Demand Workforce",
-      "desc": "Amazon Web Services: On demand work force",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_22": {
-      "name": "AWS SDKs",
-      "desc": "Amazon Web Services: Software development kits",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_23": {
-      "name": "AWS Security Identity & Compliance",
-      "desc": "Amazon Web Services: Identity and compliance",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_24": {
-      "name": "AWS Storage",
-      "desc": "Amazon Web Services: Storage",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
     "stencil_25": {
       "name": "Web Technologies",
       "desc": "General web technology symbols",
       "cat": [
         "Computers and Network"
-      ]
-    },
-    "stencil_26": {
-      "name": "Colorful Documents and Folders",
-      "desc": "Colorful document and folder symbols",
-      "cat": [
-        "People, flags & documents"
-      ]
-    },
-    "stencil_27": {
-      "name": "Microsoft Azure Mono",
-      "desc": "Microsoft Azure: Monochrome symbols",
-      "cat": [
-        "Microsoft"
-      ]
-    },
-    "stencil_28": {
-      "name": "Microsoft Azure Color",
-      "desc": "Microsoft Azure: Color symbols",
-      "cat": [
-        "Microsoft"
-      ]
-    },
-    "stencil_29": {
-      "name": "Microsoft Virtual Machines",
-      "desc": "Microsoft Azure: Virtual machines",
-      "cat": [
-        "Microsoft"
-      ]
-    },
-    "stencil_30": {
-      "name": "Microsoft Systems Center",
-      "desc": "Microsoft Azure: Systems center",
-      "cat": [
-        "Microsoft"
-      ]
-    },
-    "stencil_31": {
-      "name": "Microsoft Enterprise",
-      "desc": "Microsoft Azure: Enterprise",
-      "cat": [
-        "Microsoft"
-      ]
-    },
-    "stencil_32": {
-      "name": "Microsoft Intune",
-      "desc": "Microsoft Azure: Intune",
-      "cat": [
-        "Microsoft"
-      ]
-    },
-    "stencil_33": {
-      "name": "Microsoft Office Products",
-      "desc": "Microsoft Azure: Office products",
-      "cat": [
-        "Microsoft"
-      ]
-    },
-    "stencil_34": {
-      "name": "People",
-      "desc": "",
-      "cat": [
-        "People, flags & documents"
-      ]
-    },
-    "stencil_35": {
-      "name": "Containers",
-      "desc": "Blocks that acts as containers",
-      "cat": [
-        "People, flags & documents"
       ]
     },
     "stencil_36": {
@@ -1607,200 +1934,21 @@
         "Computers and Network"
       ]
     },
-    "stencil_39": {
-      "name": "UML Use Case",
-      "desc": "UML Use case diagramming",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_40": {
-      "name": "UML Activity",
-      "desc": "UML Activity diagramming",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_41": {
-      "name": "UML Class",
-      "desc": "UML Class diagramming",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_42": {
-      "name": "UML Entity relationship",
-      "desc": "UML Entity relationship diagramming",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_43": {
-      "name": "Venn Diagrams",
-      "desc": "A representation of logical or mathematical relations",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_44": {
-      "name": "Bar Chart",
-      "desc": "Bar chart representation",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_45": {
-      "name": "Organization Chart",
-      "desc": "A graphic representation of the structure of an organization showing the relationships of the positions or jobs within it.",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_46": {
-      "name": "UML Gateway",
-      "desc": "UML Decision point that can adjust the path based on conditions or events.",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_48": {
-      "name": "Tables",
-      "desc": "A representation of rows and columns of cells"
-    },
     "stencil_49": {
       "name": "Measurement tools",
-      "desc": "Tools for measurements"
-    },
-    "stencil_50": {
-      "name": "Material design palettes",
-      "desc": "Color palettes inspired by Material Design",
-      "cat": [
-        "Google"
-      ]
+      "desc": "Measurement symbols used in design of electrical, pneumatic and hydraulic circuits"
     },
     "stencil_51": {
       "name": "Title blocks",
-      "desc": "Templates for title block"
-    },
-    "stencil_52": {
-      "name": "AWS Contact Center",
-      "desc": "Amazon Web Services: Contact Center",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_53": {
-      "name": "AWS Containers",
-      "desc": "Amazon Web Services: Containers",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_54": {
-      "name": "Photo Organizational Chart",
-      "desc": "A list of container for organization charts with picture holder",
-      "cat": [
-        "Charts and diagrams"
-      ]
-    },
-    "stencil_55": {
-      "name": "Serif fonts",
-      "desc": "Preferred fonts for printed medium",
-      "cat": [
-        "Google"
-      ]
-    },
-    "stencil_56": {
-      "name": "San Serif fonts",
-      "desc": "Preferred fonts for digital screen.",
-      "cat": [
-        "Google"
-      ]
-    },
-    "stencil_57": {
-      "name": "Monospace fonts",
-      "desc": "Preferred fonts for typewriting.",
-      "cat": [
-        "Google"
-      ]
-    },
-    "stencil_58": {
-      "name": "Fonts for handwriting",
-      "desc": "Preferred fonts for branding, design artworks and printed medium",
-      "cat": [
-        "Google"
-      ]
-    },
-    "stencil_59": {
-      "name": "Fonts for display",
-      "desc": "Preferred fonts for branding, design artworks and printed medium",
-      "cat": [
-        "Google"
-      ]
-    },
-    "stencil_60": {
-      "name": "Cisco Application Control Engine",
-      "desc": "Application Control Engine-ACE XML Gateway",
-      "cat": [
-        "Cisco"
-      ]
-    },
-    "stencil_61": {
-      "name": "Cisco UC500 Series",
-      "desc": "Cisco Unified Communications 500 Series for Small Business",
-      "cat": [
-        "Cisco"
-      ]
-    },
-    "stencil_62": {
-      "name": "Cisco Security Stealthwatch",
-      "desc": "Cisco Security Stealthwatch symbols",
-      "cat": [
-        "Cisco"
-      ]
-    },
-    "stencil_63": {
-      "name": "Cisco SAFE Architectural",
-      "desc": "Cisco SAFE Architectural symbols",
-      "cat": [
-        "Cisco"
-      ]
-    },
-    "stencil_65": {
-      "name": "Social Media",
-      "desc": "A collection of well known social media icons"
-    },
-    "stencil_66": {
-      "name": "Flags of the world",
-      "desc": "Large collection of world flags in SVG format",
-      "cat": [
-        "People, flags & documents"
-      ]
-    },
-    "stencil_67": {
-      "name": "Floor Plans",
-      "desc": "Customizable floor plan symbols"
+      "desc": "Templates symbols for title blocks, normally used to create title blocks for electrical, pneumatic and hydraulic symbols"
     },
     "stencil_68": {
       "name": "Avatars",
-      "desc": "People avatars",
-      "cat": [
-        "People, flags & documents"
-      ]
+      "desc": "Avatars for usage in Electra Cloud as profile avatars"
     },
     "stencil_69": {
       "name": "Comments",
-      "desc": "Comments are assigned to layers, so you can customize its visibility during exporting/printing",
-      "cat": [
-        "People, flags & documents"
-      ]
-    },
-    "stencil_70": {
-      "name": "Donut Chart",
-      "desc": "Donut Chart representation",
-      "cat": [
-        "Charts and diagrams"
-      ]
+      "desc": "Comments are assigned to layers, so you can customize its visibility during exporting/printing"
     },
     "stencil_71": {
       "name": "Gauge and Meters",
@@ -2103,998 +2251,83 @@
       "credit_name": "Vector Logo Zone",
       "credit_link": "https://vectorlogo.zone/"
     },
-    "stencil_105": {
-      "name": "Wireframe Browser",
-      "desc": "",
+    "stencil_223": {
+      "name": "Wires",
+      "desc": "Various wires used in electrical circuit design for usages in CAD software to allow users to quickly make electrical schematics"
+    },
+    "stencil_224": {
+      "name": "JIC / NFPA Symbols",
+      "desc": "Standard electrical JIC / NFPA symbols used to represent contactors, thermal overloads, motors and transformers for usage in electrical schematic diagrams"
+    },
+    "stencil_225": {
+      "name": "IEC Symbols",
+      "desc": "Standard electrical IEC symbols also known as IEC 60617 (British Standard BS 3939) used to represent various devices including pilot lights, relays, timers and switches for usage in electrical schematic diagrams"
+    },
+    "stencil_226": {
+      "name": "Electronic Symbols",
+      "desc": "Standard electronic symbols used to represent various devices such as resistors, transistors, batteries, capacitors and inductors for usage in electronic diagrams"
+    },
+    "stencil_227": {
+      "name": "IEC Power, Meters, Transformers, Motors",
+      "desc": "Electrical IEC symbols (IEC 60617 / BS 3939) used to represent transformers, motors and meters for usage in electrical schematic diagrams"
+    },
+    "stencil_228": {
+      "name": "IEC Isolators, Disconnectors, Fuses, Contactors, Overloads",
+      "desc": "Electrical IEC 60617 / BS 3939 symbols representing isolators, disconnectors, fuses,contactors and overloads for usage in drawing electrical circuits"
+    },
+    "stencil_229": {
+      "name": "Single Line Symbols",
+      "desc": "Single line symbols electrical symbols used to represent various electrical devices for usages in electrical schematic design"
+    },
+    "stencil_230": {
+      "name": "Layout",
+      "desc": "Panel layout symbols used in electrical schematics to denote the layout of various components in an electrical panel"
+    },
+    "stencil_231": {
+      "name": "Layout 3D",
+      "desc": "3D Panel Layout symbols used in electrical schematics to represent front panel display and layout"
+    },
+    "stencil_232": {
+      "name": "Pneumatic Pumps, Cylinders and Motors",
+      "desc": "Pneumatic pumps, cylinders and motor symbols used in the design of pneumatic circuit drawings",
       "cat": [
-        "Charts and diagrams"
+        "Pneumatic"
       ]
     },
-    "stencil_106": {
-      "name": "Wireframe Android",
-      "desc": "",
+    "stencil_233": {
+      "name": "Pneumatic Valves",
+      "desc": "Pneumatic valves symbols including 3/2 ways, 5/2 ways and other devices used in the design of pneumatic circuit drawings",
       "cat": [
-        "Charts and diagrams"
+        "Pneumatic"
       ]
     },
-    "stencil_107": {
-      "name": "Wireframe iPhone",
-      "desc": "",
+    "stencil_234": {
+      "name": "Pneumatic Misc",
+      "desc": "Miscellaneous pneumatic symbols and devices used in pneumatic circuit design",
       "cat": [
-        "Charts and diagrams"
+        "Pneumatic"
       ]
     },
-    "stencil_108": {
-      "name": "Activities - Arts Crafts",
-      "desc": "",
+    "stencil_235": {
+      "name": "Hydraulic Misc",
+      "desc": "Miscellaneous hydraulic symbols and devices used in hydraulic circuit design",
       "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
+        "Hydraulic"
+      ]
     },
-    "stencil_109": {
-      "name": "Activities - Award Medal",
-      "desc": "",
+    "stencil_236": {
+      "name": "Hydraulic Valves",
+      "desc": "Hydraulic valves symbols including 3/2 ways, 5/2 ways and other devices used in the design of hydraulic circuit drawings",
       "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
+        "Hydraulic"
+      ]
     },
-    "stencil_110": {
-      "name": "Activities - Event",
-      "desc": "",
+    "stencil_237": {
+      "name": "Hydraulic Pumps, Cylinders and Motors",
+      "desc": "Hydraulic pumps, cylinders and motor symbols used in the design of hydraulic circuit drawings",
       "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_111": {
-      "name": "Activities - Game",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_112": {
-      "name": "Activities - Sport",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_113": {
-      "name": "Animals Nature - Animal Amphibian",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_114": {
-      "name": "Animals Nature - Animal Bird",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_115": {
-      "name": "Animals Nature - Animal Bug",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_116": {
-      "name": "Animals Nature - Animal Mammal",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_117": {
-      "name": "Animals Nature - Animal Marine",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_118": {
-      "name": "Animals Nature - Animal Reptile",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_119": {
-      "name": "Animals Nature - Plant Flower",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_120": {
-      "name": "Animals Nature - Plant Other",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_121": {
-      "name": "Component - Hair Style",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_122": {
-      "name": "Component - Skin Tone",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_123": {
-      "name": "Extras Openmoji - Animals Nature",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_124": {
-      "name": "Extras Openmoji - Brand",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_125": {
-      "name": "Extras Openmoji - Emergency",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_126": {
-      "name": "Extras Openmoji - Food Drink",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_127": {
-      "name": "Extras Openmoji - Interaction",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_128": {
-      "name": "Extras Openmoji - Objects",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_129": {
-      "name": "Extras Openmoji - People",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_130": {
-      "name": "Extras Openmoji - Technology",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_131": {
-      "name": "Extras Openmoji - Travel Places",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_132": {
-      "name": "Extras Openmoji - Ui Element",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_133": {
-      "name": "Extras Unicode - Symbol Other",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_134": {
-      "name": "Flags - Country Flag",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_135": {
-      "name": "Flags - Flag",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_136": {
-      "name": "Flags - Subdivision Flag",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_137": {
-      "name": "Food Drink - Dishware",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_138": {
-      "name": "Food Drink - Drink",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_139": {
-      "name": "Food Drink - Food Asian",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_140": {
-      "name": "Food Drink - Food Fruit",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_141": {
-      "name": "Food Drink - Food Marine",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_142": {
-      "name": "Food Drink - Food Prepared",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_143": {
-      "name": "Food Drink - Food Sweet",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_144": {
-      "name": "Food Drink - Food Vegetable",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_145": {
-      "name": "Objects - Book Paper",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_146": {
-      "name": "Objects - Clothing",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_147": {
-      "name": "Objects - Computer",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_148": {
-      "name": "Objects - Household",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_149": {
-      "name": "Objects - Light Video",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_150": {
-      "name": "Objects - Lock",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_151": {
-      "name": "Objects - Mail",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_152": {
-      "name": "Objects - Medical",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_153": {
-      "name": "Objects - Money",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_154": {
-      "name": "Objects - Music",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_155": {
-      "name": "Objects - Musical Instrument",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_156": {
-      "name": "Objects - Office",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_157": {
-      "name": "Objects - Other Object",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_158": {
-      "name": "Objects - Phone",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_159": {
-      "name": "Objects - Science",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_160": {
-      "name": "Objects - Sound",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_161": {
-      "name": "Objects - Tool",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_162": {
-      "name": "Objects - Writing",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_163": {
-      "name": "People Body - Body Parts",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_164": {
-      "name": "People Body - Family",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_165": {
-      "name": "People Body - Hand Fingers Closed",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_166": {
-      "name": "People Body - Hand Fingers Open",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_167": {
-      "name": "People Body - Hand Fingers Partial",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_168": {
-      "name": "People Body - Hand Prop",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_169": {
-      "name": "People Body - Hand Single Finger",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_170": {
-      "name": "People Body - Hands",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_171": {
-      "name": "People Body - Person",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_172": {
-      "name": "People Body - Person Activity",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_173": {
-      "name": "People Body - Person Fantasy",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_174": {
-      "name": "People Body - Person Gesture",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_175": {
-      "name": "People Body - Person Resting",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_176": {
-      "name": "People Body - Person Role",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_177": {
-      "name": "People Body - Person Sport",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_178": {
-      "name": "People Body - Person Symbol",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_179": {
-      "name": "Smileys Emotion - Cat Face",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_180": {
-      "name": "Smileys Emotion - Emotion",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_181": {
-      "name": "Smileys Emotion - Face Affection",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_182": {
-      "name": "Smileys Emotion - Face Concerned",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_183": {
-      "name": "Smileys Emotion - Face Costume",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_184": {
-      "name": "Smileys Emotion - Face Glasses",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_185": {
-      "name": "Smileys Emotion - Face Hand",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_186": {
-      "name": "Smileys Emotion - Face Hat",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_187": {
-      "name": "Smileys Emotion - Face Negative",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_188": {
-      "name": "Smileys Emotion - Face Neutral Skeptical",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_189": {
-      "name": "Smileys Emotion - Face Sleepy",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_190": {
-      "name": "Smileys Emotion - Face Smiling",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_191": {
-      "name": "Smileys Emotion - Face Tongue",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_192": {
-      "name": "Smileys Emotion - Face Unwell",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_193": {
-      "name": "Smileys Emotion - Monkey Face",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_194": {
-      "name": "Symbols - Alphanum",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_195": {
-      "name": "Symbols - Arrow",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_196": {
-      "name": "Symbols - Av Symbol",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_197": {
-      "name": "Symbols - Gender",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_198": {
-      "name": "Symbols - Geometric",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_199": {
-      "name": "Symbols - Keycap",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_200": {
-      "name": "Symbols - Other Symbol",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_201": {
-      "name": "Symbols - Religion",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_202": {
-      "name": "Symbols - Transport Sign",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_203": {
-      "name": "Symbols - Warning",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_204": {
-      "name": "Symbols - Zodiac",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_205": {
-      "name": "Travel Places - Hotel",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_206": {
-      "name": "Travel Places - Place Building",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_207": {
-      "name": "Travel Places - Place Geographic",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_208": {
-      "name": "Travel Places - Place Map",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_209": {
-      "name": "Travel Places - Place Other",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_210": {
-      "name": "Travel Places - Place Religious",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_211": {
-      "name": "Travel Places - Sky Weather",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_212": {
-      "name": "Travel Places - Time",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_213": {
-      "name": "Travel Places - Transport Air",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_214": {
-      "name": "Travel Places - Transport Ground",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
-    },
-    "stencil_215": {
-      "name": "Travel Places - Transport Water",
-      "desc": "",
-      "cat": [
-        "OpenMoji"
-      ],
-      "credit_name": "OpenMoji",
-      "credit_link": "https://openmoji.org/"
+        "Hydraulic"
+      ]
     },
     "stencil_238": {
       "name": "Computer Brands",
@@ -3103,156 +2336,13 @@
         "Computers and Network"
       ]
     },
-    "stencil_239": {
-      "name": "File formats",
-      "desc": "List of common file formats",
-      "cat": [
-        "People, flags & documents"
-      ]
+    "stencil_246": {
+      "name": "Reports",
+      "desc": "Various report symbols in Electra Cloud that can be used to generate in drawing reports"
     },
-    "stencil_240": {
-      "name": "Cisco Network Topology Icons 3015",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_241": {
-      "name": "Cisco Network Topology Icons Black And White",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_242": {
-      "name": "Cisco Wireless IW 3700",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_243": {
-      "name": "Cisco VG Series Gateways",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_244": {
-      "name": "Cisco Unified IP Phone 7800 And 8800 Series",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_64": {
-      "name": "Social Media (Shadow)",
-      "desc": "Collection of social media icons"
-    },
-    "stencil_248": {
-      "name": "Coronavirus",
-      "desc": "Graphics for Coronavirus outbreak"
-    },
-    "stencil_249": {
-      "name": "Sequence Diagram (SysML 1.5)",
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ]
-    },
-    "stencil_250": {
-      "name": "Activity Diagram (SysML 1.5)",
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ]
-    },
-    "stencil_251": {
-      "name": "Package Diagram (SysML 1.5)",
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ]
-    },
-    "stencil_252": {
-      "name": "State Machine Diagram (SysML 1.5)",
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ]
-    },
-    "stencil_253": {
-      "name": "Use Case Diagram (SysML 1.5)",
-      "desc": "",
-      "cat": [
-        "SysML 1.5"
-      ]
-    },
-    "stencil_254": {
-      "name": "Cisco SCE 2020",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_255": {
-      "name": "Cisco Optical Networking NCS 4200",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_256": {
-      "name": "Cisco Security Web And Email",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_257": {
-      "name": "Oil Rigs",
-      "desc": ""
-    },
-    "stencil_258": {
-      "name": "AWS Machine Learning",
-      "desc": "Amazon Web Services: Machine Learning",
-      "cat": [
-        "Amazon Web Services"
-      ]
-    },
-    "stencil_259": {
-      "name": "Cisco Unified Computing System And HyperFlex Systems (HCI) Part 1",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_260": {
-      "name": "Cisco Unified Computing System And HyperFlex Systems (HCI) Part 2",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_name": "Cisco",
-      "credit_link": "https://cisco.com/"
+    "stencil_247": {
+      "name": "Prefab Circuits",
+      "desc": "Ready made electrical circuits for usage in electrical CAD drawings"
     },
     "stencil_261": {
       "name": "Databases",
@@ -3261,191 +2351,12 @@
         "Computers and Network"
       ]
     },
-    "stencil_263": {
-      "name": "Cisco Switches - Cisco Nexus 9000",
-      "desc": "Cisco Nexus 9000 switches",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "stencil_264": {
-      "name": "Cisco Switches - Cisco Nexus 5020",
-      "desc": "",
-      "cat": [
-        "Cisco"
-      ],
-      "credit_link": "https://cisco.com/",
-      "credit_name": "Cisco"
-    },
-    "free_svg_symbols": "Free SVG Symbols",
-    "request_symbols_title": "Request for symbols",
-    "request_symbols": "Request Symbols",
-    "no_exist": "Unable to set the following items. The stencil may no longer exists, or <br /> you do not have the permission to access it.",
-    "symbol_no_exist": "Unable to set the following items. The symbol may no longer exists, or <br /> you do not have the permission to access it.",
-    "create_stencil": "Create stencil",
-    "confirm_del": "Deleting a stencil is a non reversible action.<br /><br />Are you sure you want to delete this stencil?",
-    "no_drop_symbol": "You cannot save a symbol into the saved search stencil.",
-    "untitled_symbol": "Untitled symbol",
-    "untitled_stencil": "Untitled stencil",
-    "drop_shapes": "Drop shapes here",
-    "stencil_name": "Stencil name",
-    "not_updateable": "Stencil not updated",
-    "symbol_not_updateable": "Symbol not updated",
-    "stencil_desc": "Stencil description",
-    "stencil_cat": "Stencil category (Separate with comma)",
-    "stencil_cat_place": "General, People, Brands",
-    "stencil_access": "Stencil Access",
-    "public_stencil": "Public - Anyone can access symbols",
-    "private_stencil": "Private - Only you or your team can access symbols",
-    "symbol_name": "Name",
-    "no_symbol": "Oops, no symbols found",
-    "symbol_desc": "Description",
-    "delete_stencil": "Delete stencil",
-    "removed": "Some stencils are not moved because it has been removed, or you are not allowed to begin with.",
-    "sym_update_failed": "Some symbol(s) are not updated because they <br /> no longer exist, or you do not have permission.",
-    "symbol_tags": "Tags (Separate with comma)",
-    "no_edit_stencil": "You do not have permission to edit this stencil.",
-    "no_share_stencil": "You do not have permission to share this stencil.",
-    "no_edit_symbol": "You do not have permission to edit this symbol.",
-    "no_delete_symbol": "You do not have permission to delete this symbol.",
-    "login_make_symbol": "Please sign in to create a symbol.",
-    "login_save_symbol": "Please sign in to save your symbol.",
-    "stencils": "Stencils",
-    "load_stencils": "Loading stencils...",
-    "creating_search": "Creating stencil...",
-    "loading": "Getting symbols",
-    "getting_stencils": "Getting stencils",
-    "importing": "Importing data",
-    "save_search": "Save search",
-    "imported": "Importing data completed",
-    "total_results": "of @@ results shown",
-    "find_symbols": "Find symbols",
-    "icon_preview": "Preview",
-    "all_saved": "All stencil changes saved",
-    "offline": "You are currently offline. Please try again when you are online.",
-    "success_refresh": "Symbol successfully refreshed.",
-    "fail_refresh": "Symbol no longer exist.",
-    "open_all": "Open all stencils",
-    "sym_copied": "Symbol copied",
-    "drop_symbol": "Dropping symbol",
-    "show_more": "Show more",
-    "saving_stencils": "Saving stencils",
-    "credits_to": "Credits to",
-    "credits_link": "Credits link",
-    "downloading_stencil": "Downloading stencil...",
-    "no_symbols_download": "No symbols to download",
-    "uploading_stencil": "Uploading stencil...",
-    "upload_stencil_error": "Error uploading stencil",
-    "upload_stencil_success": "Stencil uploaded",
-    "no_file_chosen": "No file chosen"
+    "stencil_262": {
+      "name": "Automation brands",
+      "desc": "Logos for automation and control companies"
+    }
   },
   "plugin": {
-    "plugin_0": {
-      "name": "Hello World",
-      "desc": "Print Hello,\"creator's name\" in drawing"
-    },
-    "plugin_1": {
-      "name": "TSV to table",
-      "desc": "Create a table from a dropped tsv file",
-      "cat": [
-        "Reports"
-      ]
-    },
-    "plugin_2": {
-      "name": "JSON to tree",
-      "desc": "Convert a dropped JSON file to tree view",
-      "cat": [
-        "Reports"
-      ]
-    },
-    "plugin_3": {
-      "name": "Draw fractal tree",
-      "desc": "Create a fractal tree"
-    },
-    "plugin_4": {
-      "name": "Scatterer",
-      "desc": "Randomly distribute selected shapes in your drawing"
-    },
-    "plugin_5": {
-      "name": "Sharpener",
-      "desc": "Snap your drawing's shapes to the nearest grid"
-    },
-    "plugin_6": {
-      "name": "Line chart",
-      "desc": "Plot a line/ curvy chart according to input data",
-      "cat": [
-        "Charts"
-      ]
-    },
-    "plugin_7": {
-      "name": "Pie Chart",
-      "desc": "Split a circle/ ellipse according to input data",
-      "cat": [
-        "Charts"
-      ]
-    },
-    "plugin_8": {
-      "name": "Material Design icons",
-      "desc": "Select and import icons from a list of Material.io icons",
-      "cat": [
-        "Icons"
-      ]
-    },
-    "plugin_9": {
-      "name": "Font Awesome icons",
-      "desc": "Select and import icons from a list of Font Awesome icons (free)",
-      "cat": [
-        "Icons"
-      ]
-    },
-    "plugin_10": {
-      "name": "Protractor",
-      "desc": "Draw a protractor given a circle"
-    },
-    "plugin_11": {
-      "name": "Transpose",
-      "desc": "Transpose a group of shapes"
-    },
-    "plugin_12": {
-      "name": "Spacer",
-      "desc": "Put spaces in between shapes."
-    },
-    "plugin_13": {
-      "name": "Splitter",
-      "desc": "Split a rectangle or square into specified number of columns, row and respective gutters."
-    },
-    "plugin_14": {
-      "name": "Generate Bill of Materials",
-      "desc": "Generates a list of materials from shapes' custom data",
-      "cat": [
-        "Reports"
-      ]
-    },
-    "plugin_15": {
-      "name": "Bullet List",
-      "desc": "Add bullets to text list"
-    },
-    "plugin_16": {
-      "name": "Choropleth Map",
-      "desc": "Convert JSON data into shaded proportion according to statistical values"
-    },
-    "plugin_17": {
-      "name": "Tables",
-      "desc": "Creates tables based on number of rows and columns input"
-    },
-    "plugin_18": {
-      "name": "Polygon",
-      "desc": "Creates polygon based on number of sides input"
-    },
-    "plugin_19": {
-      "name": "Glow Effect",
-      "desc": "Create an ellipse with glow effect",
-      "cat": [
-        "General"
-      ]
-    },
     "plugins": "Plugins",
     "get_plugins": "Getting plugins",
     "no_plugins": "No plugins found",
@@ -3483,7 +2394,61 @@
     "fail_refresh": "Plugin no longer exist.",
     "personal": "Personal",
     "public": "Public",
-    "team": "Team"
+    "team": "Team",
+    "plugin_0": {
+      "name": "Hello World",
+      "desc": "Print Hello,\"creator's name\" in drawing"
+    },
+    "plugin_3": {
+      "name": "Draw fractal tree",
+      "desc": "Create a fractal tree"
+    },
+    "plugin_6": {
+      "name": "Line chart",
+      "desc": "Input your data, and a line chart will be ready for your presentation",
+      "cat": [
+        "Charts"
+      ]
+    },
+    "plugin_7": {
+      "name": "Pie Chart",
+      "desc": "Input your data, you'll have a pie chart ready for you to tell stories!",
+      "cat": [
+        "Charts"
+      ]
+    },
+    "plugin_10": {
+      "name": "Protractor",
+      "desc": "With one click, insert radial grid into your circle by using Protractor",
+      "cat": [
+        "Productivity Tools"
+      ]
+    },
+    "plugin_12": {
+      "name": "Spacer",
+      "desc": "Space out shapes evenly at a specified range to get your drawing neat quickly",
+      "cat": [
+        "Productivity Tools"
+      ]
+    },
+    "plugin_15": {
+      "name": "Bullet List",
+      "desc": "Jot down all items on your list, run this plugin and it will become a neat bullet list!",
+      "cat": [
+        "Productivity Tools"
+      ]
+    },
+    "plugin_20": {
+      "name": "Export labelling",
+      "desc": "Export wire labels to be used on label printers",
+      "cat": [
+        "Label, Wires"
+      ]
+    },
+    "plugin_21": {
+      "name": "Demo",
+      "desc": "This plugin is used in demo pages"
+    }
   },
   "page": {
     "name": "Name",
@@ -3624,7 +2589,7 @@
     "publishing": "Publish and share your drawings to the world",
     "chat": "Chat with your teammates right away in Vecta's editor",
     "gradient": "Unleash your creativity with multiple stop gradients",
-    "slack": "Integrate Vecta with Slack for better collaboration",
+    "slack": "Integrate Electra with Slack for better collaboration",
     "symbol-search": "Search for symbols in Vecta's growing symbols library",
     "formula": "Create smart shapes using formulas and expressions",
     "convert-to-path": "Convert basic shapes to paths and make unique shapes",
@@ -3649,7 +2614,14 @@
     "text-effects": "Add shadow, bevel or blur effect to your text",
     "duplicate-shape": "Press Ctrl-D to apply recent property changes to current shape",
     "dark-theme-vecta": "Show dark theme to activate dark mode",
-    "text-stroke": "Beautify your text even more with text stroke"
+    "text-stroke": "Beautify your text even more with text stroke",
+    "create-and-invite-team": "Invite members to get your team up and running in Electra",
+    "create-symbol": "Use Create Symbol to automatically insert intelligence and data into your custom symbol",
+    "drag-and-drop": "Electra works on simple drag and drop, no training required",
+    "generate-layout": "Automatically generate panel layout in a single click",
+    "generate-report": "Easily generate BOM and others reports in Electra to save time",
+    "terminal-list": "Using and generating terminals is a snap in Electra",
+    "dark-theme-electra": "Show dark theme to activate dark mode"
   },
   "settings": {
     "reading": "Reading preferences",
@@ -3698,57 +2670,41 @@
     }
   },
   "videos": {
-    "nlAyOo-_HLQ": {
-      "title": "Quick intro to Fragment, Union, Difference, Intersect",
-      "desc": "Create your own symbols with fragment, union, difference and intersect operation."
+    "UsXqhNtEGfg": {
+      "title": "Electra Cloud Quick Demo",
+      "desc": "A quick 15 minutes demo of Electra Cloud, world's first cloud-based Electrical CAD software."
     },
-    "AOeIJRAECEk": {
-      "title": "Create Team and Invite Team Members",
-      "desc": "Invite your friends and teammates to collaborate effectively."
+    "7CP_FG63O2o": {
+      "title": "Draw Together with Electra Cloud",
+      "desc": "Learn how you can create team and collaborate on drawings with Electra Cloud."
     },
-    "1XbHln-9QDg": {
-      "title": "How to Organize Drawings and Folders in Dashboard",
-      "desc": "Move your drawings easily by dragging and dropping to any teams or folders. Use the search bar to find your drawings easily!"
+    "hnx0KutWDa0": {
+      "title": "Create and Share Drawings with Electra Cloud",
+      "desc": "Reate and share your drawings with your team members for collaboration or share it via email for your client to review it."
     },
-    "JBvyeA743Qo": {
-      "title": "What are Layers and How to Use Them",
-      "desc": "Use layers to better categorize your shapes for easier editing, or hide information."
+    "mWhKbwlRHKg": {
+      "title": "Drag and Drop Tittle Block or Draw a New One",
+      "desc": "Tired of drawing your own title block? Electra Cloud has various neat-looking title blocks ready for your projects! Simply drag & drop and Voila!"
     },
-    "5z7hF_yIILw": {
-      "title": "View and edit shape using Shape Properties",
-      "desc": "Much like Visio's Size & Position Dialog, now you can view and edit shapes in Vecta."
+    "RCDvyHGbdTo": {
+      "title": "Intelligence Numbering for Symbols and Wires with Electra Cloud",
+      "desc": "Spending most of your time renumbering and labelling symbols? Well, not anymore with Electra Cloud! With built-in intelligence, Electra Cloud automatically takes care of all your wires and symbols numbering, so you could save more time in designing!"
     },
-    "tp2ryqLTz1M": {
-      "title": "How to Resize Shapes Proportionally and Use Offset",
-      "desc": "Use SHIFT key to fix proportions and ALT key to use offset."
+    "4y_1QqasHoA": {
+      "title": "Real-time Cross Reference with Electra Cloud",
+      "desc": "Real-time Cross Reference feature is one of Electra Cloud's most favorable feature. Check out this video to see how it works."
     },
-    "Y-lxlpDM-7g": {
-      "title": "How to Add or Edit Text Box in Shapes",
-      "desc": "Use Ctrl-5 to easily add text box, resize or rotate your text box in text mode."
+    "sQNQbpE__qw": {
+      "title": "Assigning Pin Names with Electra Cloud",
+      "desc": "Still caught up with assigning pin names one by one to your symbols? Do it the more intelligent way. Watch how Electra Cloud can make assigning pin names way easier."
     },
-    "wZUVOSDEpPo": {
-      "title": "How to Use Symbols and Stencils",
-      "desc": "Watch this video on how to save symbols into your own stencils. Save more time by just drag and drop repetitive symbols onto drawing."
+    "AtNeKm_Y138": {
+      "title": "Create your own customize symbols with Electra Cloud",
+      "desc": "Create your own Symbols, Save It and utilize it over and over again. Share it with your team and institutionalize customized symbols through out the company. Learn how to do it by watching the video below."
     },
-    "a1Mv0H_jZKM": {
-      "title": "Symbol search in Vecta",
-      "desc": "Watch on how to find your symbols easily and efficiently in Vecta."
-    },
-    "EWtTCLx8ngg": {
-      "title": "Anatomy of Vecta Color Palette",
-      "desc": "Watch this guide to know how to access last used color and customize color using RGB values or HEX codes."
-    },
-    "Zap6sT5bOB0": {
-      "title": "Apply last used color directly onto other shapes, texts, and lines easily",
-      "desc": "Make full use of your color painter to apply last used color onto your shapes, texts, and lines."
-    },
-    "YPYPdGPi-nI": {
-      "title": "Painter tool ",
-      "desc": "Make full use of your color painter to apply last used color onto your shapes, texts, and lines."
-    },
-    "RX3vce2QXyk": {
-      "title": "How to Connect Shapes Accurately",
-      "desc": "What's the difference between connectors and lines?"
+    "X0p1JNrcWGI": {
+      "title": "Automatic wire name detection and wire name propagation with Electra Cloud",
+      "desc": "Automatic wire name detection and assigning wire name easily with Electra Cloud. Watch how these works."
     }
   },
   "list": {
@@ -3876,5 +2832,71 @@
   "partner": {
     "partner": "Partner",
     "validating": "Validating"
+  },
+  "templates_dev": {
+    "-Loxn7-CtNjHfsPo42wA": {
+      "name": "JIC Drawing",
+      "desc": "JIC Drawing",
+      "cat": [
+        "Schematic Drawings"
+      ]
+    },
+    "-LoxxvRqk_lWbHufxTdS": {
+      "name": "IEC Drawing",
+      "desc": "IEC Drawing",
+      "cat": [
+        "Schematic Drawings"
+      ]
+    }
+  },
+  "templates": {
+    "-Loxpy4vEMNvGpXMIT8k": {
+      "name": "JIC Drawing",
+      "desc": "JIC Drawing",
+      "cat": [
+        "Schematic Drawings"
+      ]
+    },
+    "-Loxq8iCdBBrJNuBMX-F": {
+      "name": "IEC Drawing",
+      "desc": "IEC Drawing",
+      "cat": [
+        "Schematic Drawings"
+      ]
+    },
+    "-LoxqWnpmATjjX8sjiRH": {
+      "name": "Hydraulic Drawing",
+      "desc": "Hydraulic Drawing",
+      "cat": [
+        "Schematic Drawings"
+      ]
+    },
+    "-LoxqnRmMJ13M6IJ4y04": {
+      "name": "Pneumatic Drawing",
+      "desc": "Pneumatic Drawing",
+      "cat": [
+        "Schematic Drawings"
+      ]
+    }
+  },
+  "tools": {
+    "generate_layout": "Generate <br /> Layout",
+    "create_schem": "Create <br /> Symbol",
+    "create_layout_sym": "Create <br /> Layout Symbol",
+    "comp_db": "Component <br /> Database",
+    "options": "Document<br />Options",
+    "manage_comps": "Manage <br /> Components",
+    "title_blocks": "Title <br /> Blocks",
+    "manage_db": "Manage <br /> Databases",
+    "manage_wirings": "Manage <br /> Wirings",
+    "electra_tools": "Tools",
+    "create_layout": "Create<br /> Layout",
+    "prefab": "Prefab <br /> Circuit",
+    "electra_import": "Import <br /> Reports",
+    "electra_export": "Export <br /> Reports"
+  },
+  "e9_trial": {
+    "title": "Experience The <br> All New Electra E9",
+    "enter_email": "Enter your email address"
   }
 }
