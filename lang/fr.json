@@ -60,7 +60,7 @@
     "draw_textblock.icon": "Dessiner, déplacer, redimensionner<br> ou faire pivoter le texte<br> (Alt-A)",
     "draw_connector.icon": "Dessiner des connecteurs<br> (Alt-4)",
     "format_painter.icon": "Format, couleur,<br> formule, taille ou<br> peintre json<br> (Alt-5)",
-    "undo.icon": "annuler<br> (Ctrl-Z)",
+    "undo.icon": "Annuler<br> (Ctrl-Z)",
     "redo.icon": "Refaire<br> (Ctrl-Y)",
     "line_weight.icon": "Épaisseur de ligne",
     "line_style.icon": "Style de ligne",
@@ -283,7 +283,7 @@
     "firebase_error": "Si vous voyez cela, veuillez contacter <a href=\"mailto:support@vecta.io\">support@vecta.io</a> avec une capture d&#39;écran de l&#39;erreur ci-dessus.",
     "wrong_credentials": "Vous vous êtes déjà connecté en utilisant votre email et votre mot de passe.<br /> Veuillez vous connecter avec l&#39;e-mail et le mot de passe à la place.",
     "social_no_email": "Ce compte @@ n&#39;a pas de courriel.<br/> Veuillez vous inscrire avec un e-mail ou un autre compte.",
-    "invalid_email_pwd": "email ou mot de passe invalide",
+    "invalid_email_pwd": "Email ou mot de passe invalide",
     "signin_failed": "Échec de la connexion",
     "short_pwd": "Votre mot de passe doit comporter au moins 8 caractères",
     "email_taken": "Il existe déjà un compte avec cette adresse e-mail",
@@ -457,7 +457,7 @@
     "open_drawing": "Ouvrir le dessin dans Vecta",
     "welcome": "Bienvenue chez Vecta!",
     "slogan": "Vecta: création de diagrammes collaboratifs en temps réel pour les équipes",
-    "subject": "Matière"
+    "subject": "Sujet"
   },
   "dash": {
     "refreshing": "Rafraîchissant",
@@ -545,8 +545,8 @@
     "applying_changes": "Appliquer les modifications",
     "confirm_del": "Confirmer la suppression des utilisateurs",
     "confirm_del_mssg": "Les actions sont irréversibles. Les dessins, le dossier et les équipes seront déplacés vers l'équipe d'administration.",
-    "gdoc_inavlid_link": "Lien vers la documentation Google non valide",
-    "invalid_type": "type de fichier invalide",
+    "gdoc_inavlid_link": "Lien Google Doc non valide",
+    "invalid_type": "Type de fichier invalide",
     "valid_message": "Les types de fichiers acceptés sont PDF.",
     "upload_prog": "Télécharger la progression",
     "processing": "En traitement",
@@ -831,7 +831,7 @@
     "view_template": "Vous avez un accès en lecture seule<br /> à ce modèle",
     "view": "Vue",
     "transparency": "Transparence",
-    "gradient_transparency": "Transparence dégradée",
+    "gradient_transparency": "Transparence gradient",
     "color_transparency": "Transparence des couleurs",
     "more": "Plus",
     "less": "Moins",
@@ -918,7 +918,7 @@
     "multi_page": "Toutes les pages",
     "one_page": "Une seule page",
     "resolution": "Résolution:",
-    "background": "Contexte:",
+    "background": " D'arrière-plan:",
     "download_as": "Télécharger comme:",
     "move_to": "Veuillez sélectionner un dossier de destination",
     "page_setup": "Mise en page",
@@ -936,7 +936,7 @@
     "import_stencil": "L'importation du pochoir peut prendre quelques minutes",
     "import_visio_limit": "Veuillez convertir les fichiers de Visio dans un format pris en charge (* .vsd ou * .vss)",
     "invalid_visio_file": "Le fichier fourni n'a pas pu être converti.",
-    "outlining_fonts": "Texte descriptif",
+    "outlining_fonts": "Texte countour",
     "process_fragment": "Fragment de traitement",
     "process_union": "Union de traitement",
     "process_difference": "Différence de traitement",
@@ -1003,7 +1003,7 @@
     "bevel": "Biseau",
     "shadow": "Ombre",
     "blur": "Brouiller",
-    "glow": "lueur",
+    "glow": "Lueur",
     "filter_title": "Modifier le filtre",
     "apply": "Appliquer",
     "size": "Taille",
@@ -1156,7 +1156,7 @@
     "hide_page_margin": "Masquer la marge de la page",
     "duplicate": "Dupliquer",
     "group": "Groupe",
-    "ungroup": "Dissocier",
+    "ungroup": "Dégrouper",
     "operations": "Opérations",
     "arrange": "Organiser",
     "front": "Mettre au premier plan",
@@ -1166,15 +1166,15 @@
     "flip_verti": "Retourner verticalement",
     "flip_horiz": "Retourner horizontalement",
     "join": "Joindre",
-    "trim": "Réduire",
+    "trim": "Tailler",
     "fragment": "Fragment",
     "union": "Union",
     "difference": "Différence",
-    "intersect": "Couper",
+    "intersect": "Se croiser",
     "flatten": "Aplatir",
     "cut": "Couper",
     "copy": "Copie",
-    "paste": "Pâte",
+    "paste": "Coller",
     "restore": "Restaurer",
     "restore_all": "Tout restaurer",
     "move": "Déménager à",
@@ -1297,7 +1297,7 @@
     "custom_json": "JSON personnalisé",
     "custom_events": "Événements personnalisés",
     "custom_json_layer": "JSON personnalisé (couche)",
-    "outline_text": "Texte du plan",
+    "outline_text": "Texte de contour",
     "switch_line_end": "Changer de fin de ligne",
     "remove_field": "Supprimer le champ",
     "edit_code": "Modifier le code",
@@ -1662,7 +1662,7 @@
       ]
     },
     "stencil_48": {
-      "name": "les tables",
+      "name": "Les tables",
       "desc": "Une représentation des lignes et des colonnes de cellules"
     },
     "stencil_49": {
@@ -3429,7 +3429,7 @@
       "desc": "Convertir les données JSON en proportion ombrée selon des valeurs statistiques"
     },
     "plugin_17": {
-      "name": "les tables",
+      "name": "Les tables",
       "desc": "Crée des tableaux en fonction du nombre de lignes et de colonnes d'entrée"
     },
     "plugin_18": {
@@ -3490,7 +3490,7 @@
     "metric_iso": "Métrique (ISO)",
     "standard": "la norme",
     "mobile": "Mobile",
-    "web": "la toile",
+    "web": "Web",
     "social_media": "Des médias sociaux",
     "banner": "Bannière",
     "a5": "A5: 210 mm x 148 mm",
@@ -3562,7 +3562,7 @@
     "scale": "Échelle",
     "cust_size": "Taille personnalisée (largeur x hauteur)",
     "width": "Largeur",
-    "height": "la taille",
+    "height": "Hauteur",
     "default_title": "Page",
     "page_changed": "La taille de la page a changé. Veuillez rafraîchir votre dessin.",
     "lang_changed": "La langue sélectionnée a changé. Veuillez actualiser votre page pour que la modification prenne effet.",
@@ -3731,7 +3731,7 @@
       "desc": "Regardez comment trouver vos symboles facilement et efficacement dans Vecta."
     },
     "EWtTCLx8ngg": {
-      "title": "Palette de couleurs Anatomy of Vecta",
+      "title": "Anatomie de la palette de couleurs de Vecta",
       "desc": "Regardez ce guide pour savoir comment accéder à la dernière couleur utilisée et personnaliser la couleur à l'aide de valeurs RVB ou de codes HEX."
     },
     "Zap6sT5bOB0": {
